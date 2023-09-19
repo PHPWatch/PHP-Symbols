@@ -1017,7 +1017,7 @@ xdebug.client_port => 9003 => 9003
 xdebug.cloud_id => no value => no value
 xdebug.collect_assignments => Off => Off
 xdebug.collect_includes => (setting removed in Xdebug 3) => (setting removed in Xdebug 3)
-xdebug.collect_params => (setting removed in Xdebug 3) => (setting removed in Xdebug 3)
+xdebug.collect_params => On => On
 xdebug.collect_return => Off => Off
 xdebug.collect_vars => (setting removed in Xdebug 3) => (setting removed in Xdebug 3)
 xdebug.connect_timeout_ms => 200 => 200
@@ -1046,7 +1046,7 @@ xdebug.halt_level => 0 => 0
 xdebug.idekey => no value => no value
 xdebug.log => no value => no value
 xdebug.log_level => 7 => 7
-xdebug.max_nesting_level => 256 => 256
+xdebug.max_nesting_level => 512 => 512
 xdebug.max_stack_frames => -1 => -1
 xdebug.mode => coverage => coverage
 xdebug.output_dir => /tmp => /tmp
