@@ -40,5 +40,4 @@ return array (
   36 => 'Ds\\Hashable',
   37 => 'Ds\\Collection',
   38 => 'Ds\\Sequence',
-  39 => 'PHPWatch\\SymbolData\\DataSourceInterface',
 )
