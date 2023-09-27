@@ -1,7 +1,7 @@
 <?php 
 
 return array (
-  'internal' => 
+  'Core' => 
   array (
     'E_ERROR' => 1,
     'E_WARNING' => 2,
