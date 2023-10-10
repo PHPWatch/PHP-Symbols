@@ -1939,6 +1939,12 @@ return array (
     'local_value' => '1',
     'access' => 7,
   ),
+  'redis.session.early_refresh' => 
+  array (
+    'global_value' => '0',
+    'local_value' => '0',
+    'access' => 7,
+  ),
   'redis.session.lock_expire' => 
   array (
     'global_value' => '0',
@@ -1947,14 +1953,14 @@ return array (
   ),
   'redis.session.lock_retries' => 
   array (
-    'global_value' => '10',
-    'local_value' => '10',
+    'global_value' => '100',
+    'local_value' => '100',
     'access' => 7,
   ),
   'redis.session.lock_wait_time' => 
   array (
-    'global_value' => '2000',
-    'local_value' => '2000',
+    'global_value' => '20000',
+    'local_value' => '20000',
     'access' => 7,
   ),
   'redis.session.locking_enabled' => 

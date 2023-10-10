@@ -96,7 +96,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.1.23
+PHP Version => 8.1.24
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -584,7 +584,7 @@ msgpack.use_str8_serialization => On => On
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.1.23
+Client API library version => mysqlnd 8.1.24
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -606,7 +606,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.1.23
+Version => mysqlnd 8.1.24
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -697,7 +697,7 @@ Client Library Version => LI-V6.3.8.33535 Firebird 3.0
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.1.23
+Client API version => mysqlnd 8.1.24
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -784,8 +784,8 @@ cli.prompt => \\b \\>  => \\b \\>
 redis
 
 Redis Support => enabled
-Redis Version => 5.3.7
-Redis Sentinel Version => 0.1
+Redis Version => 6.0.1
+Redis Sentinel Version => 1.0
 Available serializers => php, json, igbinary
 Available compression => lzf, zstd, lz4
 
@@ -817,9 +817,10 @@ redis.pconnect.pool_detect_dirty => 0 => 0
 redis.pconnect.pool_pattern => no value => no value
 redis.pconnect.pool_poll_timeout => 0 => 0
 redis.pconnect.pooling_enabled => 1 => 1
+redis.session.early_refresh => 0 => 0
 redis.session.lock_expire => 0 => 0
-redis.session.lock_retries => 10 => 10
-redis.session.lock_wait_time => 2000 => 2000
+redis.session.lock_retries => 100 => 100
+redis.session.lock_wait_time => 20000 => 20000
 redis.session.locking_enabled => 0 => 0
 
 Reflection
