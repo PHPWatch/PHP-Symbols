@@ -10,7 +10,7 @@ Configuration
 
 amqp
 
-Version => 2.1.0
+Version => 2.1.1
 Compiled => __DYNAMIC__
 AMQP protocol version => 0-9-1
 librabbitmq version => 0.10.0
