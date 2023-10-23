@@ -1048,6 +1048,7 @@ return array (
     'XML_OPTION_TARGET_ENCODING' => 2,
     'XML_OPTION_SKIP_TAGSTART' => 3,
     'XML_OPTION_SKIP_WHITE' => 4,
+    'XML_OPTION_PARSE_HUGE' => 5,
     'XML_SAX_IMPL' => 'libxml',
   ),
   'amqp' => 

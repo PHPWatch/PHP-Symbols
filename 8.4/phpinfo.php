@@ -793,7 +793,7 @@ cli.prompt => \\b \\>  => \\b \\>
 redis
 
 Redis Support => enabled
-Redis Version => 6.0.1
+Redis Version => 6.0.2
 Redis Sentinel Version => 1.0
 Available serializers => php, json
 
