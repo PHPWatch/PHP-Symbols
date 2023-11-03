@@ -1,0 +1,23 @@
+<?php
+
+return array (
+  'type' => 'constant',
+  'name' => 'LDAP_CONTROL_PASSWORDPOLICYRESPONSE',
+  'meta' => 
+  array (
+    'type' => 'constant',
+    'name' => 'LDAP_CONTROL_PASSWORDPOLICYRESPONSE',
+    'description' => '',
+    'keywords' => 
+    array (
+    ),
+    'added' => '0.0',
+    'deprecated' => NULL,
+    'removed' => NULL,
+    'resources' => 
+    array (
+    ),
+  ),
+  'value' => '1.3.6.1.4.1.42.2.27.8.5.1',
+  'extension' => 'ldap',
+);

@@ -1,0 +1,23 @@
+<?php
+
+return array (
+  'type' => 'constant',
+  'name' => 'T_LOGICAL_OR',
+  'meta' => 
+  array (
+    'type' => 'constant',
+    'name' => 'T_LOGICAL_OR',
+    'description' => '',
+    'keywords' => 
+    array (
+    ),
+    'added' => '0.0',
+    'deprecated' => NULL,
+    'removed' => NULL,
+    'resources' => 
+    array (
+    ),
+  ),
+  'value' => 277,
+  'extension' => 'tokenizer',
+);

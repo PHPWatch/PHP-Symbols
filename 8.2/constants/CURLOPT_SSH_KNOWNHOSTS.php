@@ -1,0 +1,28 @@
+<?php
+
+return array (
+  'type' => 'constant',
+  'name' => 'CURLOPT_SSH_KNOWNHOSTS',
+  'meta' => 
+  array (
+    'type' => 'constant',
+    'name' => 'CURLOPT_SSH_KNOWNHOSTS',
+    'description' => '',
+    'keywords' => 
+    array (
+    ),
+    'added' => '0.0',
+    'deprecated' => NULL,
+    'removed' => NULL,
+    'resources' => 
+    array (
+      0 => 
+      array (
+        'name' => 'CURLOPT_SSH_KNOWNHOSTS constant (php.net)',
+        'url' => 'https://www.php.net/manual/curl.constants.php#constant.curlopt-ssh-knownhosts',
+      ),
+    ),
+  ),
+  'value' => 10183,
+  'extension' => 'curl',
+);

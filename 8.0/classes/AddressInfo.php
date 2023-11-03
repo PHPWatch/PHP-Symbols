@@ -1,0 +1,41 @@
+<?php
+
+return array (
+  'type' => 'class',
+  'name' => 'AddressInfo',
+  'meta' => 
+  array (
+    'type' => 'class',
+    'name' => 'AddressInfo',
+    'description' => '',
+    'keywords' => 
+    array (
+    ),
+    'added' => '0.0',
+    'deprecated' => NULL,
+    'removed' => NULL,
+    'resources' => 
+    array (
+      0 => 
+      array (
+        'name' => 'AddressInfo class (php.net)',
+        'url' => 'https://www.php.net/manual/class.addressinfo.php',
+      ),
+    ),
+  ),
+  'interfaces' => 
+  array (
+  ),
+  'constants' => 
+  array (
+  ),
+  'properties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'methods' => 
+  array (
+  ),
+);

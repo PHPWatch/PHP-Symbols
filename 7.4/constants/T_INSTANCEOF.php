@@ -1,0 +1,23 @@
+<?php
+
+return array (
+  'type' => 'constant',
+  'name' => 'T_INSTANCEOF',
+  'meta' => 
+  array (
+    'type' => 'constant',
+    'name' => 'T_INSTANCEOF',
+    'description' => '',
+    'keywords' => 
+    array (
+    ),
+    'added' => '0.0',
+    'deprecated' => NULL,
+    'removed' => NULL,
+    'resources' => 
+    array (
+    ),
+  ),
+  'value' => 295,
+  'extension' => 'tokenizer',
+);

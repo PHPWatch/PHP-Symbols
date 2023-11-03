@@ -1,0 +1,23 @@
+<?php
+
+return array (
+  'type' => 'constant',
+  'name' => 'FILTER_FLAG_IPV6',
+  'meta' => 
+  array (
+    'type' => 'constant',
+    'name' => 'FILTER_FLAG_IPV6',
+    'description' => '',
+    'keywords' => 
+    array (
+    ),
+    'added' => '0.0',
+    'deprecated' => NULL,
+    'removed' => NULL,
+    'resources' => 
+    array (
+    ),
+  ),
+  'value' => 2097152,
+  'extension' => 'filter',
+);

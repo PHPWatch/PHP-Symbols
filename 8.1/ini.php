@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 return array (
   'allow_url_fopen' => 
@@ -3061,4 +3061,4 @@ return array (
     'local_value' => '',
     'access' => 7,
   ),
-)
+);

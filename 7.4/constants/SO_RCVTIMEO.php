@@ -1,0 +1,23 @@
+<?php
+
+return array (
+  'type' => 'constant',
+  'name' => 'SO_RCVTIMEO',
+  'meta' => 
+  array (
+    'type' => 'constant',
+    'name' => 'SO_RCVTIMEO',
+    'description' => '',
+    'keywords' => 
+    array (
+    ),
+    'added' => '0.0',
+    'deprecated' => NULL,
+    'removed' => NULL,
+    'resources' => 
+    array (
+    ),
+  ),
+  'value' => 20,
+  'extension' => 'sockets',
+);

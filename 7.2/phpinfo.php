@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 return 'phpinfo()
 
@@ -1398,4 +1398,4 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 If you did not receive a copy of the PHP license, or have any
 questions about PHP licensing, please contact license@php.net.
-'
+';

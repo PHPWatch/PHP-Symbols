@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 return array (
   0 => 'Core',
@@ -86,4 +86,4 @@ return array (
   82 => 'ds',
   83 => 'Zend OPcache',
   84 => 'xdebug',
-)
+);

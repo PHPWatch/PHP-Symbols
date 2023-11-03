@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 return array (
   0 => 'stdClass',
@@ -298,4 +298,4 @@ return array (
   294 => 'Ds\\Set',
   295 => 'Ds\\PriorityQueue',
   296 => 'Ds\\Pair',
-)
+);

@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 return array (
   0 => 'Traversable',
@@ -43,4 +43,4 @@ return array (
   39 => 'Ds\\Hashable',
   40 => 'Ds\\Collection',
   41 => 'Ds\\Sequence',
-)
+);

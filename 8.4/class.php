@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 return array (
   0 => 'InternalIterator',
@@ -352,4 +352,4 @@ return array (
   348 => 'Ds\\Set',
   349 => 'Ds\\PriorityQueue',
   350 => 'Ds\\Pair',
-)
+);

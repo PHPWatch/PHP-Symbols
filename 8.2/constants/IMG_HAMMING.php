@@ -1,0 +1,23 @@
+<?php
+
+return array (
+  'type' => 'constant',
+  'name' => 'IMG_HAMMING',
+  'meta' => 
+  array (
+    'type' => 'constant',
+    'name' => 'IMG_HAMMING',
+    'description' => '',
+    'keywords' => 
+    array (
+    ),
+    'added' => '0.0',
+    'deprecated' => NULL,
+    'removed' => NULL,
+    'resources' => 
+    array (
+    ),
+  ),
+  'value' => 13,
+  'extension' => 'gd',
+);

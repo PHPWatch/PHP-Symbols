@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 return array (
   0 => 'zend_version',
@@ -2347,4 +2347,4 @@ return array (
   2343 => 'dl',
   2344 => 'cli_set_process_title',
   2345 => 'cli_get_process_title',
-)
+);

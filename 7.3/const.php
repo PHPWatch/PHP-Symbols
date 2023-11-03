@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 return array (
   'Core' => 
@@ -3484,4 +3484,4 @@ return array (
     'XDEBUG_TRACE_HTML' => 4,
     'XDEBUG_TRACE_NAKED_FILENAME' => 8,
   ),
-)
+);

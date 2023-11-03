@@ -1,0 +1,23 @@
+<?php
+
+return array (
+  'type' => 'constant',
+  'name' => 'ast\\AST_IF_ELEM',
+  'meta' => 
+  array (
+    'type' => 'constant',
+    'name' => 'ast\\AST_IF_ELEM',
+    'description' => '',
+    'keywords' => 
+    array (
+    ),
+    'added' => '0.0',
+    'deprecated' => NULL,
+    'removed' => NULL,
+    'resources' => 
+    array (
+    ),
+  ),
+  'value' => 534,
+  'extension' => 'ast',
+);
