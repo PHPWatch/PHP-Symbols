@@ -44,8 +44,9 @@ return array (
   40 => 'MongoDB\\Driver\\Exception\\Exception',
   41 => 'MongoDB\\Driver\\Monitoring\\Subscriber',
   42 => 'MongoDB\\Driver\\Monitoring\\CommandSubscriber',
-  43 => 'MongoDB\\Driver\\Monitoring\\SDAMSubscriber',
-  44 => 'Ds\\Hashable',
-  45 => 'Ds\\Collection',
-  46 => 'Ds\\Sequence',
+  43 => 'MongoDB\\Driver\\Monitoring\\LogSubscriber',
+  44 => 'MongoDB\\Driver\\Monitoring\\SDAMSubscriber',
+  45 => 'Ds\\Hashable',
+  46 => 'Ds\\Collection',
+  47 => 'Ds\\Sequence',
 );
