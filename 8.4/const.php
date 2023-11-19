@@ -2766,8 +2766,8 @@ return array (
   ),
   'pgsql' => 
   array (
-    'PGSQL_LIBPQ_VERSION' => '16.0',
-    'PGSQL_LIBPQ_VERSION_STR' => '16.0',
+    'PGSQL_LIBPQ_VERSION' => '16.1',
+    'PGSQL_LIBPQ_VERSION_STR' => '16.1',
     'PGSQL_CONNECT_FORCE_NEW' => 2,
     'PGSQL_CONNECT_ASYNC' => 4,
     'PGSQL_ASSOC' => 1,
@@ -2874,6 +2874,8 @@ return array (
     'POSIX_RLIMIT_STACK' => 3,
     'POSIX_RLIMIT_INFINITY' => -1,
     'POSIX_SC_ARG_MAX' => 0,
+    'POSIX_SC_CHILD_MAX' => 1,
+    'POSIX_SC_CLK_TCK' => 2,
     'POSIX_SC_PAGESIZE' => 30,
     'POSIX_SC_NPROCESSORS_CONF' => 83,
     'POSIX_SC_NPROCESSORS_ONLN' => 84,

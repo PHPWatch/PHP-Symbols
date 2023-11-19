@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'PGSQL_LIBPQ_VERSION_STR',
+  'name' => 'POSIX_SC_CHILD_MAX',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'PGSQL_LIBPQ_VERSION_STR',
+    'name' => 'POSIX_SC_CHILD_MAX',
     'description' => '',
     'keywords' => 
     array (
@@ -18,6 +18,6 @@ return array (
     array (
     ),
   ),
-  'value' => '16.1',
-  'extension' => 'pgsql',
+  'value' => 1,
+  'extension' => 'posix',
 );
