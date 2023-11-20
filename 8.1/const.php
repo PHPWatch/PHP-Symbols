@@ -2431,7 +2431,7 @@ return array (
   ),
   'mongodb' => 
   array (
-    'MONGODB_VERSION' => '1.16.2',
+    'MONGODB_VERSION' => '1.17.0',
     'MONGODB_STABILITY' => 'stable',
   ),
   'msgpack' => 
@@ -2624,8 +2624,8 @@ return array (
   ),
   'pgsql' => 
   array (
-    'PGSQL_LIBPQ_VERSION' => '16.1',
-    'PGSQL_LIBPQ_VERSION_STR' => '16.1',
+    'PGSQL_LIBPQ_VERSION' => '16.0',
+    'PGSQL_LIBPQ_VERSION_STR' => '16.0',
     'PGSQL_CONNECT_FORCE_NEW' => 2,
     'PGSQL_CONNECT_ASYNC' => 4,
     'PGSQL_ASSOC' => 1,

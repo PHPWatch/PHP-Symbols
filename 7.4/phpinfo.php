@@ -280,8 +280,8 @@ enchant support => enabled
 Libenchant Version => 2.3.2
 
 hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
-hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
 aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
+hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
 
 exif
 
@@ -546,22 +546,22 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.16.2
+MongoDB extension version => 1.17.0
 MongoDB extension stability => stable
-libbson bundled version => 1.24.3
-libmongoc bundled version => 1.24.3
+libbson bundled version => 1.25.1
+libmongoc bundled version => 1.25.1
 libmongoc SSL => enabled
 libmongoc SSL library => OpenSSL
 libmongoc crypto => enabled
 libmongoc crypto library => libcrypto
 libmongoc crypto system profile => disabled
-libmongoc SASL => enabled
+libmongoc SASL => disabled
 libmongoc ICU => disabled
 libmongoc compression => enabled
-libmongoc compression snappy => enabled
+libmongoc compression snappy => disabled
 libmongoc compression zlib => enabled
-libmongoc compression zstd => enabled
-libmongocrypt bundled version => 1.8.1
+libmongoc compression zstd => disabled
+libmongocrypt bundled version => 1.8.2
 libmongocrypt crypto => enabled
 libmongocrypt crypto library => libcrypto
 crypt_shared library version => unknown
