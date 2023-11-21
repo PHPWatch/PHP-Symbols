@@ -2594,8 +2594,8 @@ return array (
   ),
   'pgsql' => 
   array (
-    'PGSQL_LIBPQ_VERSION' => '16.0',
-    'PGSQL_LIBPQ_VERSION_STR' => '16.0',
+    'PGSQL_LIBPQ_VERSION' => '16.1',
+    'PGSQL_LIBPQ_VERSION_STR' => '16.1',
     'PGSQL_CONNECT_FORCE_NEW' => 2,
     'PGSQL_CONNECT_ASYNC' => 4,
     'PGSQL_ASSOC' => 1,

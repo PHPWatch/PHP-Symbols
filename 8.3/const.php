@@ -2747,8 +2747,8 @@ return array (
   ),
   'pgsql' => 
   array (
-    'PGSQL_LIBPQ_VERSION' => '16.0',
-    'PGSQL_LIBPQ_VERSION_STR' => '16.0',
+    'PGSQL_LIBPQ_VERSION' => '16.1',
+    'PGSQL_LIBPQ_VERSION_STR' => '16.1',
     'PGSQL_CONNECT_FORCE_NEW' => 2,
     'PGSQL_CONNECT_ASYNC' => 4,
     'PGSQL_ASSOC' => 1,
@@ -2818,10 +2818,6 @@ return array (
     'PGSQL_DML_ASYNC' => 1024,
     'PGSQL_DML_STRING' => 2048,
     'PGSQL_TRACE_REGRESS_MODE' => 2,
-    'PGSQL_PIPELINE_SYNC' => 10,
-    'PGSQL_PIPELINE_ON' => 1,
-    'PGSQL_PIPELINE_OFF' => 0,
-    'PGSQL_PIPELINE_ABORTED' => 2,
     'PGSQL_SHOW_CONTEXT_NEVER' => 0,
     'PGSQL_SHOW_CONTEXT_ERRORS' => 1,
     'PGSQL_SHOW_CONTEXT_ALWAYS' => 2,
