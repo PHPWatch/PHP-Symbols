@@ -2886,13 +2886,6 @@ return array (
     'POSIX_PC_ALLOC_SIZE_MIN' => 18,
     'POSIX_PC_SYMLINK_MAX' => 19,
   ),
-  'pspell' => 
-  array (
-    'PSPELL_FAST' => 1,
-    'PSPELL_NORMAL' => 2,
-    'PSPELL_BAD_SPELLERS' => 3,
-    'PSPELL_RUN_TOGETHER' => 8,
-  ),
   'readline' => 
   array (
     'READLINE_LIB' => 'libedit',

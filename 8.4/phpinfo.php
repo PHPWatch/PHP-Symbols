@@ -773,10 +773,6 @@ posix
 
 POSIX support => enabled
 
-pspell
-
-PSpell Support => enabled
-
 random
 
 Version => 8.4.0-dev
@@ -1293,7 +1289,6 @@ PHP hash => Sara Golemon, Rasmus Lerdorf, Stefan Esser, Michael Wallner, Scott M
 Posix => Kristian Koehntopp
 PostgreSQL driver for PDO => Edin Kadribasic, Ilia Alshanetsky
 PostgreSQL => Jouni Ahto, Zeev Suraski, Yasuo Ohgaki, Chris Kings-Lynne
-Pspell => Vlad Krupin
 random => Go Kudo, Tim Düsterhus, Guilliam Xavier, Christoph M. Becker, Jakub Zelenka, Bob Weinand, Máté Kocsis, and Original RNG implementators
 Readline => Thies C. Arntzen
 Reflection => Marcus Boerger, Timm Friebe, George Schlossnagle, Andrei Zmievski, Johannes Schlueter

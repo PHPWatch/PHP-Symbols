@@ -23,6 +23,6 @@ return array (
       ),
     ),
   ),
-  'value' => '-dev',
+  'value' => '',
   'extension' => 'Core',
 );
