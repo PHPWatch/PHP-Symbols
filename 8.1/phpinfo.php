@@ -10,8 +10,7 @@ Configuration
 
 amqp
 
-Version => 1.11.0
-Revision => release
+Version => 2.1.1
 Compiled => __DYNAMIC__
 AMQP protocol version => 0-9-1
 librabbitmq version => 0.10.0
@@ -25,6 +24,7 @@ amqp.cacert => no value => no value
 amqp.cert => no value => no value
 amqp.channel_max => 256 => 256
 amqp.connect_timeout => 0 => 0
+amqp.deserialization_depth => 128 => 128
 amqp.frame_max => 131072 => 131072
 amqp.global_prefetch_count => 0 => 0
 amqp.global_prefetch_size => 0 => 0
@@ -38,7 +38,8 @@ amqp.prefetch_count => 3 => 3
 amqp.prefetch_size => 0 => 0
 amqp.read_timeout => 0 => 0
 amqp.rpc_timeout => 0 => 0
-amqp.sasl_method => 0 => 0
+amqp.sasl_method => AMQP_SASL_METHOD_PLAIN => AMQP_SASL_METHOD_PLAIN
+amqp.serialization_depth => 128 => 128
 amqp.timeout => no value => no value
 amqp.verify => 1 => 1
 amqp.vhost => / => /
@@ -47,7 +48,7 @@ amqp.write_timeout => 0 => 0
 apcu
 
 APCu Support => Disabled
-Version => 5.1.22
+Version => 5.1.23
 APCu Debugging => Disabled
 MMAP Support => Enabled
 MMAP File Mask =>  
@@ -73,8 +74,8 @@ apc.use_request_time => Off => Off
 ast
 
 ast support => enabled
-extension version => 1.1.0
-AST version => Current version is 90. All versions (including experimental): {50, 60, 70, 80, 85, 90}
+extension version => 1.1.1
+AST version => Current version is 90. All versions (including experimental): {50, 60, 70, 80, 85, 90, 100}
 
 bcmath
 
@@ -572,7 +573,7 @@ msgpack
 
 MessagePack Support => enabled
 Session Support => enabled
-extension Version => 2.2.0RC2
+extension Version => 2.2.0
 header Version => 3.2.0
 
 Directive => Local Value => Master Value
@@ -784,7 +785,7 @@ cli.prompt => \\b \\>  => \\b \\>
 redis
 
 Redis Support => enabled
-Redis Version => 6.0.1
+Redis Version => 6.0.2
 Redis Sentinel Version => 1.0
 Available serializers => php, json, igbinary
 Available compression => lzf, zstd, lz4

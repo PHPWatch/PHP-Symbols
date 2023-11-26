@@ -1024,6 +1024,12 @@ return array (
   ),
   'amqp' => 
   array (
+    'AMQP_EXTENSION_VERSION' => '2.1.1',
+    'AMQP_EXTENSION_VERSION_MAJOR' => 2,
+    'AMQP_EXTENSION_VERSION_MINOR' => 1,
+    'AMQP_EXTENSION_VERSION_PATCH' => 1,
+    'AMQP_EXTENSION_VERSION_EXTRA' => '',
+    'AMQP_EXTENSION_VERSION_ID' => 20101,
     'AMQP_NOPARAM' => 0,
     'AMQP_JUST_CONSUME' => 1,
     'AMQP_DURABLE' => 2,
@@ -1048,6 +1054,8 @@ return array (
     'PHP_AMQP_MAX_CHANNELS' => 256,
     'AMQP_SASL_METHOD_PLAIN' => 0,
     'AMQP_SASL_METHOD_EXTERNAL' => 1,
+    'AMQP_DELIVERY_MODE_TRANSIENT' => 1,
+    'AMQP_DELIVERY_MODE_PERSISTENT' => 2,
   ),
   'apcu' => 
   array (

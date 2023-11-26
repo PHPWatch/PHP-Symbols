@@ -43,6 +43,12 @@ return array (
     'local_value' => '0',
     'access' => 7,
   ),
+  'amqp.deserialization_depth' => 
+  array (
+    'global_value' => '128',
+    'local_value' => '128',
+    'access' => 7,
+  ),
   'amqp.frame_max' => 
   array (
     'global_value' => '131072',
@@ -123,8 +129,14 @@ return array (
   ),
   'amqp.sasl_method' => 
   array (
-    'global_value' => '0',
-    'local_value' => '0',
+    'global_value' => 'AMQP_SASL_METHOD_PLAIN',
+    'local_value' => 'AMQP_SASL_METHOD_PLAIN',
+    'access' => 7,
+  ),
+  'amqp.serialization_depth' => 
+  array (
+    'global_value' => '128',
+    'local_value' => '128',
     'access' => 7,
   ),
   'amqp.timeout' => 

@@ -47,7 +47,7 @@ amqp.write_timeout => 0 => 0
 apcu
 
 APCu Support => Disabled
-Version => 5.1.22
+Version => 5.1.23
 APCu Debugging => Disabled
 MMAP Support => Enabled
 MMAP File Mask =>  
@@ -73,8 +73,8 @@ apc.use_request_time => Off => Off
 ast
 
 ast support => enabled
-extension version => 1.1.0
-AST version => Current version is 90. All versions (including experimental): {50, 60, 70, 80, 85, 90}
+extension version => 1.1.1
+AST version => Current version is 90. All versions (including experimental): {50, 60, 70, 80, 85, 90, 100}
 
 bcmath
 
@@ -965,7 +965,7 @@ Revision => $Id: 8850a0f49afd824e77a2873e4cb19798daf74354 $
 redis
 
 Redis Support => enabled
-Redis Version => 6.0.1
+Redis Version => 6.0.2
 Redis Sentinel Version => 1.0
 Available serializers => php, json, igbinary
 Available compression => lzf, zstd, lz4
