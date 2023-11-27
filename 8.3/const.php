@@ -2876,6 +2876,30 @@ return array (
   array (
     'READLINE_LIB' => 'libedit',
   ),
+  'snmp' => 
+  array (
+    'SNMP_OID_OUTPUT_SUFFIX' => 1,
+    'SNMP_OID_OUTPUT_MODULE' => 2,
+    'SNMP_OID_OUTPUT_FULL' => 3,
+    'SNMP_OID_OUTPUT_NUMERIC' => 4,
+    'SNMP_OID_OUTPUT_UCD' => 5,
+    'SNMP_OID_OUTPUT_NONE' => 6,
+    'SNMP_VALUE_LIBRARY' => 0,
+    'SNMP_VALUE_PLAIN' => 1,
+    'SNMP_VALUE_OBJECT' => 2,
+    'SNMP_BIT_STR' => 3,
+    'SNMP_OCTET_STR' => 4,
+    'SNMP_OPAQUE' => 68,
+    'SNMP_NULL' => 5,
+    'SNMP_OBJECT_ID' => 6,
+    'SNMP_IPADDRESS' => 64,
+    'SNMP_COUNTER' => 66,
+    'SNMP_UNSIGNED' => 66,
+    'SNMP_TIMETICKS' => 67,
+    'SNMP_UINTEGER' => 71,
+    'SNMP_INTEGER' => 2,
+    'SNMP_COUNTER64' => 70,
+  ),
   'soap' => 
   array (
     'SOAP_1_1' => 1,

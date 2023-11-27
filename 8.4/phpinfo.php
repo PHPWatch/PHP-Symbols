@@ -878,6 +878,11 @@ SimpleXML
 SimpleXML support => enabled
 Schema support => enabled
 
+snmp
+
+NET-SNMP Support => enabled
+NET-SNMP Version => 5.9.1
+
 soap
 
 Soap Client => enabled
@@ -1205,6 +1210,12 @@ Directive => Local Value => Master Value
 zlib.output_compression => Off => Off
 zlib.output_compression_level => -1 => -1
 zlib.output_handler => no value => no value
+
+zmq
+
+ZMQ extension => enabled
+ZMQ extension version => @PACKAGE_VERSION@
+libzmq version => 4.3.4
 
 Additional Modules
 
