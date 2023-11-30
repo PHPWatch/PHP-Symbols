@@ -674,7 +674,7 @@ pcntl support => enabled
 pcre
 
 PCRE (Perl Compatible Regular Expressions) Support => enabled
-PCRE Library Version => 10.39 2021-10-29
+PCRE Library Version => 10.40 2022-04-14
 PCRE Unicode Version => 14.0.0
 PCRE JIT Support => enabled
 PCRE JIT Target => x86 64bit (little endian + unaligned)
@@ -1022,6 +1022,7 @@ xdebug.collect_params => On => On
 xdebug.collect_return => Off => Off
 xdebug.collect_vars => (setting removed in Xdebug 3) => (setting removed in Xdebug 3)
 xdebug.connect_timeout_ms => 200 => 200
+xdebug.control_socket => time: 25ms => time: 25ms
 xdebug.coverage_enable => (setting renamed in Xdebug 3) => (setting renamed in Xdebug 3)
 xdebug.default_enable => (setting renamed in Xdebug 3) => (setting renamed in Xdebug 3)
 xdebug.discover_client_host => Off => Off

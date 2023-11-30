@@ -842,7 +842,7 @@ pcov.initial.files => 64
 pcre
 
 PCRE (Perl Compatible Regular Expressions) Support => enabled
-PCRE Library Version => 8.39 2016-06-14
+PCRE Library Version => 8.45 2021-06-15
 PCRE JIT Support => enabled
 
 Directive => Local Value => Master Value
