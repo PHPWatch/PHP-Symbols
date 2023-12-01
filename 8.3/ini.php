@@ -2569,6 +2569,12 @@ return array (
     'local_value' => '200',
     'access' => 7,
   ),
+  'xdebug.control_socket' => 
+  array (
+    'global_value' => 'time',
+    'local_value' => 'time',
+    'access' => 7,
+  ),
   'xdebug.coverage_enable' => 
   array (
     'global_value' => 'This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.coverage_enable',

@@ -994,7 +994,7 @@ xdebug
 [1m                              __/ |
 [1m                             |___/ 
 
-[0mVersion => 3.3.0alpha4-dev
+[0mVersion => 3.3.0
 Support Xdebug on Patreon, GitHub, or as a business: https://xdebug.org/support
 
              Enabled Features (through \'xdebug.mode\' setting)             
@@ -1026,6 +1026,7 @@ xdebug.collect_params => On => On
 xdebug.collect_return => Off => Off
 xdebug.collect_vars => (setting removed in Xdebug 3) => (setting removed in Xdebug 3)
 xdebug.connect_timeout_ms => 200 => 200
+xdebug.control_socket => time: 25ms => time: 25ms
 xdebug.coverage_enable => (setting renamed in Xdebug 3) => (setting renamed in Xdebug 3)
 xdebug.default_enable => (setting renamed in Xdebug 3) => (setting renamed in Xdebug 3)
 xdebug.discover_client_host => Off => Off

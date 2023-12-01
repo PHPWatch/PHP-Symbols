@@ -2559,8 +2559,8 @@ return array (
   ),
   'xdebug.collect_params' => 
   array (
-    'global_value' => 'This setting has been removed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#removed-xdebug.collect_params',
-    'local_value' => 'This setting has been removed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#removed-xdebug.collect_params',
+    'global_value' => '1',
+    'local_value' => '1',
     'access' => 7,
   ),
   'xdebug.collect_return' => 
@@ -2579,6 +2579,12 @@ return array (
   array (
     'global_value' => '200',
     'local_value' => '200',
+    'access' => 7,
+  ),
+  'xdebug.control_socket' => 
+  array (
+    'global_value' => 'time',
+    'local_value' => 'time',
     'access' => 7,
   ),
   'xdebug.coverage_enable' => 
@@ -2733,8 +2739,8 @@ return array (
   ),
   'xdebug.max_nesting_level' => 
   array (
-    'global_value' => '256',
-    'local_value' => '256',
+    'global_value' => '512',
+    'local_value' => '512',
     'access' => 7,
   ),
   'xdebug.max_stack_frames' => 
