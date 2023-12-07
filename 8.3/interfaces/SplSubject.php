@@ -34,5 +34,69 @@ return array (
   ),
   'methods' => 
   array (
+    'attach' => 
+    array (
+      'name' => 'attach',
+      'class' => 'SplSubject',
+      'parameters' => 
+      array (
+        'observer' => 
+        array (
+          'position' => 0,
+          'name' => 'observer',
+          'type' => 'SplObserver',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'detach' => 
+    array (
+      'name' => 'detach',
+      'class' => 'SplSubject',
+      'parameters' => 
+      array (
+        'observer' => 
+        array (
+          'position' => 0,
+          'name' => 'observer',
+          'type' => 'SplObserver',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'notify' => 
+    array (
+      'name' => 'notify',
+      'class' => 'SplSubject',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
 );

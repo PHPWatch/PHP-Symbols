@@ -32,10 +32,93 @@ return array (
   'properties' => 
   array (
   ),
+  'methods' => 
+  array (
+    'fromArrayElement' => 
+    array (
+      'name' => 'fromArrayElement',
+      'class' => 'ReflectionReference',
+      'parameters' => 
+      array (
+        'array' => 
+        array (
+          'position' => 0,
+          'name' => 'array',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'key' => 
+        array (
+          'position' => 1,
+          'name' => 'key',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getId' => 
+    array (
+      'name' => 'getId',
+      'class' => 'ReflectionReference',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    '__clone' => 
+    array (
+      'name' => '__clone',
+      'class' => 'ReflectionReference',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => false,
+      'is_private' => true,
+    ),
+    '__construct' => 
+    array (
+      'name' => '__construct',
+      'class' => 'ReflectionReference',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => false,
+      'is_private' => true,
+    ),
+  ),
   'traits' => 
   array (
   ),
-  'methods' => 
-  array (
-  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_read_only' => false,
 );

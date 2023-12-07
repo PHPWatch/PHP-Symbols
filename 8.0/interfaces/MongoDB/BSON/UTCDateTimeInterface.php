@@ -25,6 +25,7 @@ return array (
   ),
   'interfaces' => 
   array (
+    0 => 'Stringable',
   ),
   'constants' => 
   array (
@@ -34,5 +35,33 @@ return array (
   ),
   'methods' => 
   array (
+    'toDateTime' => 
+    array (
+      'name' => 'toDateTime',
+      'class' => 'MongoDB\\BSON\\UTCDateTimeInterface',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    '__toString' => 
+    array (
+      'name' => '__toString',
+      'class' => 'MongoDB\\BSON\\UTCDateTimeInterface',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
 );

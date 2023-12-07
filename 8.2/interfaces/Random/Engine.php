@@ -34,5 +34,19 @@ return array (
   ),
   'methods' => 
   array (
+    'generate' => 
+    array (
+      'name' => 'generate',
+      'class' => 'Random\\Engine',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
 );

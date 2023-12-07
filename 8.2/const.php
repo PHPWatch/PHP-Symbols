@@ -2549,7 +2549,7 @@ return array (
   ),
   'mongodb' => 
   array (
-    'MONGODB_VERSION' => '1.17.0',
+    'MONGODB_VERSION' => '1.17.1',
     'MONGODB_STABILITY' => 'stable',
   ),
   'msgpack' => 

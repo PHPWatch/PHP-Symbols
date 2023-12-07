@@ -31,11 +31,29 @@ return array (
   ),
   'properties' => 
   array (
-  ),
-  'traits' => 
-  array (
+    'queryString' => 
+    array (
+      'name' => 'queryString',
+      'class' => 'PDORow',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
   ),
   'methods' => 
   array (
   ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => true,
+  'is_read_only' => false,
 );

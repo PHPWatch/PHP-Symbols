@@ -32,10 +32,312 @@ return array (
   'properties' => 
   array (
   ),
+  'methods' => 
+  array (
+    '__construct' => 
+    array (
+      'name' => '__construct',
+      'class' => 'MessageFormatter',
+      'parameters' => 
+      array (
+        'locale' => 
+        array (
+          'position' => 0,
+          'name' => 'locale',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'pattern' => 
+        array (
+          'position' => 1,
+          'name' => 'pattern',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'create' => 
+    array (
+      'name' => 'create',
+      'class' => 'MessageFormatter',
+      'parameters' => 
+      array (
+        'locale' => 
+        array (
+          'position' => 0,
+          'name' => 'locale',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'pattern' => 
+        array (
+          'position' => 1,
+          'name' => 'pattern',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'format' => 
+    array (
+      'name' => 'format',
+      'class' => 'MessageFormatter',
+      'parameters' => 
+      array (
+        'values' => 
+        array (
+          'position' => 0,
+          'name' => 'values',
+          'type' => 'array',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'formatMessage' => 
+    array (
+      'name' => 'formatMessage',
+      'class' => 'MessageFormatter',
+      'parameters' => 
+      array (
+        'locale' => 
+        array (
+          'position' => 0,
+          'name' => 'locale',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'pattern' => 
+        array (
+          'position' => 1,
+          'name' => 'pattern',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'values' => 
+        array (
+          'position' => 2,
+          'name' => 'values',
+          'type' => 'array',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'parse' => 
+    array (
+      'name' => 'parse',
+      'class' => 'MessageFormatter',
+      'parameters' => 
+      array (
+        'string' => 
+        array (
+          'position' => 0,
+          'name' => 'string',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'parseMessage' => 
+    array (
+      'name' => 'parseMessage',
+      'class' => 'MessageFormatter',
+      'parameters' => 
+      array (
+        'locale' => 
+        array (
+          'position' => 0,
+          'name' => 'locale',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'pattern' => 
+        array (
+          'position' => 1,
+          'name' => 'pattern',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'message' => 
+        array (
+          'position' => 2,
+          'name' => 'message',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setPattern' => 
+    array (
+      'name' => 'setPattern',
+      'class' => 'MessageFormatter',
+      'parameters' => 
+      array (
+        'pattern' => 
+        array (
+          'position' => 0,
+          'name' => 'pattern',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getPattern' => 
+    array (
+      'name' => 'getPattern',
+      'class' => 'MessageFormatter',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getLocale' => 
+    array (
+      'name' => 'getLocale',
+      'class' => 'MessageFormatter',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getErrorCode' => 
+    array (
+      'name' => 'getErrorCode',
+      'class' => 'MessageFormatter',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getErrorMessage' => 
+    array (
+      'name' => 'getErrorMessage',
+      'class' => 'MessageFormatter',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+  ),
   'traits' => 
   array (
   ),
-  'methods' => 
-  array (
-  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_read_only' => false,
 );

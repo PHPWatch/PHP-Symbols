@@ -31,11 +31,584 @@ return array (
   ),
   'properties' => 
   array (
+    'connection' => 
+    array (
+      'name' => 'connection',
+      'class' => 'AMQPChannel',
+      'type' => 'AMQPConnection',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => false,
+      'is_private' => true,
+      'is_promoted' => false,
+    ),
+    'prefetchCount' => 
+    array (
+      'name' => 'prefetchCount',
+      'class' => 'AMQPChannel',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => false,
+      'is_private' => true,
+      'is_promoted' => false,
+    ),
+    'prefetchSize' => 
+    array (
+      'name' => 'prefetchSize',
+      'class' => 'AMQPChannel',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => false,
+      'is_private' => true,
+      'is_promoted' => false,
+    ),
+    'globalPrefetchCount' => 
+    array (
+      'name' => 'globalPrefetchCount',
+      'class' => 'AMQPChannel',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => false,
+      'is_private' => true,
+      'is_promoted' => false,
+    ),
+    'globalPrefetchSize' => 
+    array (
+      'name' => 'globalPrefetchSize',
+      'class' => 'AMQPChannel',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => false,
+      'is_private' => true,
+      'is_promoted' => false,
+    ),
+    'consumers' => 
+    array (
+      'name' => 'consumers',
+      'class' => 'AMQPChannel',
+      'type' => 'array',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => false,
+      'is_private' => true,
+      'is_promoted' => false,
+    ),
+  ),
+  'methods' => 
+  array (
+    '__construct' => 
+    array (
+      'name' => '__construct',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+        'connection' => 
+        array (
+          'position' => 0,
+          'name' => 'connection',
+          'type' => 'AMQPConnection',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isConnected' => 
+    array (
+      'name' => 'isConnected',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'close' => 
+    array (
+      'name' => 'close',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getChannelId' => 
+    array (
+      'name' => 'getChannelId',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'int',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setPrefetchSize' => 
+    array (
+      'name' => 'setPrefetchSize',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+        'size' => 
+        array (
+          'position' => 0,
+          'name' => 'size',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getPrefetchSize' => 
+    array (
+      'name' => 'getPrefetchSize',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'int',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setPrefetchCount' => 
+    array (
+      'name' => 'setPrefetchCount',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+        'count' => 
+        array (
+          'position' => 0,
+          'name' => 'count',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getPrefetchCount' => 
+    array (
+      'name' => 'getPrefetchCount',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'int',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setGlobalPrefetchSize' => 
+    array (
+      'name' => 'setGlobalPrefetchSize',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+        'size' => 
+        array (
+          'position' => 0,
+          'name' => 'size',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getGlobalPrefetchSize' => 
+    array (
+      'name' => 'getGlobalPrefetchSize',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'int',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setGlobalPrefetchCount' => 
+    array (
+      'name' => 'setGlobalPrefetchCount',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+        'count' => 
+        array (
+          'position' => 0,
+          'name' => 'count',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getGlobalPrefetchCount' => 
+    array (
+      'name' => 'getGlobalPrefetchCount',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'int',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'qos' => 
+    array (
+      'name' => 'qos',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+        'size' => 
+        array (
+          'position' => 0,
+          'name' => 'size',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'count' => 
+        array (
+          'position' => 1,
+          'name' => 'count',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'global' => 
+        array (
+          'position' => 2,
+          'name' => 'global',
+          'type' => 'bool',
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'startTransaction' => 
+    array (
+      'name' => 'startTransaction',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'commitTransaction' => 
+    array (
+      'name' => 'commitTransaction',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'rollbackTransaction' => 
+    array (
+      'name' => 'rollbackTransaction',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getConnection' => 
+    array (
+      'name' => 'getConnection',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'AMQPConnection',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'basicRecover' => 
+    array (
+      'name' => 'basicRecover',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+        'requeue' => 
+        array (
+          'position' => 0,
+          'name' => 'requeue',
+          'type' => 'bool',
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'confirmSelect' => 
+    array (
+      'name' => 'confirmSelect',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'waitForConfirm' => 
+    array (
+      'name' => 'waitForConfirm',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+        'timeout' => 
+        array (
+          'position' => 0,
+          'name' => 'timeout',
+          'type' => 'float',
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setConfirmCallback' => 
+    array (
+      'name' => 'setConfirmCallback',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+        'ackCallback' => 
+        array (
+          'position' => 0,
+          'name' => 'ackCallback',
+          'type' => 'callable',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'nackCallback' => 
+        array (
+          'position' => 1,
+          'name' => 'nackCallback',
+          'type' => 'callable',
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setReturnCallback' => 
+    array (
+      'name' => 'setReturnCallback',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+        'returnCallback' => 
+        array (
+          'position' => 0,
+          'name' => 'returnCallback',
+          'type' => 'callable',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'waitForBasicReturn' => 
+    array (
+      'name' => 'waitForBasicReturn',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+        'timeout' => 
+        array (
+          'position' => 0,
+          'name' => 'timeout',
+          'type' => 'float',
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getConsumers' => 
+    array (
+      'name' => 'getConsumers',
+      'class' => 'AMQPChannel',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'array',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'traits' => 
   array (
   ),
-  'methods' => 
-  array (
-  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_read_only' => false,
 );

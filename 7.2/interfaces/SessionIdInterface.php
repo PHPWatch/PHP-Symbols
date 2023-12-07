@@ -34,5 +34,19 @@ return array (
   ),
   'methods' => 
   array (
+    'create_sid' => 
+    array (
+      'name' => 'create_sid',
+      'class' => 'SessionIdInterface',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
 );

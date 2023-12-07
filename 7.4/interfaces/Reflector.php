@@ -34,5 +34,19 @@ return array (
   ),
   'methods' => 
   array (
+    '__toString' => 
+    array (
+      'name' => '__toString',
+      'class' => 'Reflector',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
 );

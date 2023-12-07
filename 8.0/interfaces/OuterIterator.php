@@ -25,6 +25,8 @@ return array (
   ),
   'interfaces' => 
   array (
+    0 => 'Iterator',
+    1 => 'Traversable',
   ),
   'constants' => 
   array (
@@ -34,5 +36,89 @@ return array (
   ),
   'methods' => 
   array (
+    'getInnerIterator' => 
+    array (
+      'name' => 'getInnerIterator',
+      'class' => 'OuterIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'current' => 
+    array (
+      'name' => 'current',
+      'class' => 'Iterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'next' => 
+    array (
+      'name' => 'next',
+      'class' => 'Iterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'key' => 
+    array (
+      'name' => 'key',
+      'class' => 'Iterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'valid' => 
+    array (
+      'name' => 'valid',
+      'class' => 'Iterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'rewind' => 
+    array (
+      'name' => 'rewind',
+      'class' => 'Iterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
 );

@@ -34,5 +34,19 @@ return array (
   ),
   'methods' => 
   array (
+    '__toString' => 
+    array (
+      'name' => '__toString',
+      'class' => 'Stringable',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
 );

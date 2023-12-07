@@ -34,5 +34,166 @@ return array (
   ),
   'methods' => 
   array (
+    'open' => 
+    array (
+      'name' => 'open',
+      'class' => 'SessionHandlerInterface',
+      'parameters' => 
+      array (
+        'path' => 
+        array (
+          'position' => 0,
+          'name' => 'path',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'name' => 
+        array (
+          'position' => 1,
+          'name' => 'name',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'close' => 
+    array (
+      'name' => 'close',
+      'class' => 'SessionHandlerInterface',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'read' => 
+    array (
+      'name' => 'read',
+      'class' => 'SessionHandlerInterface',
+      'parameters' => 
+      array (
+        'id' => 
+        array (
+          'position' => 0,
+          'name' => 'id',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'write' => 
+    array (
+      'name' => 'write',
+      'class' => 'SessionHandlerInterface',
+      'parameters' => 
+      array (
+        'id' => 
+        array (
+          'position' => 0,
+          'name' => 'id',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'data' => 
+        array (
+          'position' => 1,
+          'name' => 'data',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'destroy' => 
+    array (
+      'name' => 'destroy',
+      'class' => 'SessionHandlerInterface',
+      'parameters' => 
+      array (
+        'id' => 
+        array (
+          'position' => 0,
+          'name' => 'id',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'gc' => 
+    array (
+      'name' => 'gc',
+      'class' => 'SessionHandlerInterface',
+      'parameters' => 
+      array (
+        'max_lifetime' => 
+        array (
+          'position' => 0,
+          'name' => 'max_lifetime',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
 );

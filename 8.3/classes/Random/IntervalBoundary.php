@@ -25,17 +25,58 @@ return array (
   ),
   'interfaces' => 
   array (
+    0 => 'UnitEnum',
   ),
   'constants' => 
   array (
+    'ClosedOpen' => 
+    \Random\IntervalBoundary::ClosedOpen,
+    'ClosedClosed' => 
+    \Random\IntervalBoundary::ClosedClosed,
+    'OpenClosed' => 
+    \Random\IntervalBoundary::OpenClosed,
+    'OpenOpen' => 
+    \Random\IntervalBoundary::OpenOpen,
   ),
   'properties' => 
   array (
+    'name' => 
+    array (
+      'name' => 'name',
+      'class' => 'Random\\IntervalBoundary',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
+  'methods' => 
+  array (
+    'cases' => 
+    array (
+      'name' => 'cases',
+      'class' => 'Random\\IntervalBoundary',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'array',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'traits' => 
   array (
   ),
-  'methods' => 
-  array (
-  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_read_only' => false,
 );

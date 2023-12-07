@@ -34,5 +34,44 @@ return array (
   ),
   'methods' => 
   array (
+    'serialize' => 
+    array (
+      'name' => 'serialize',
+      'class' => 'Serializable',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'unserialize' => 
+    array (
+      'name' => 'unserialize',
+      'class' => 'Serializable',
+      'parameters' => 
+      array (
+        'data' => 
+        array (
+          'position' => 0,
+          'name' => 'data',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
 );

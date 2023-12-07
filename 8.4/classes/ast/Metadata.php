@@ -31,11 +31,68 @@ return array (
   ),
   'properties' => 
   array (
-  ),
-  'traits' => 
-  array (
+    'kind' => 
+    array (
+      'name' => 'kind',
+      'class' => 'ast\\Metadata',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'name' => 
+    array (
+      'name' => 'name',
+      'class' => 'ast\\Metadata',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'flags' => 
+    array (
+      'name' => 'flags',
+      'class' => 'ast\\Metadata',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'flagsCombinable' => 
+    array (
+      'name' => 'flagsCombinable',
+      'class' => 'ast\\Metadata',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
   ),
   'methods' => 
   array (
   ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_read_only' => false,
 );

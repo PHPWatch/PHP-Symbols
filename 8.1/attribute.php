@@ -1,5 +1,6 @@
 <?php
 
 return array (
-  0 => 'ReturnTypeWillChange',
+  0 => 'Attribute',
+  1 => 'ReturnTypeWillChange',
 );

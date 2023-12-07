@@ -34,5 +34,30 @@ return array (
   ),
   'methods' => 
   array (
+    'update' => 
+    array (
+      'name' => 'update',
+      'class' => 'SplObserver',
+      'parameters' => 
+      array (
+        'subject' => 
+        array (
+          'position' => 0,
+          'name' => 'subject',
+          'type' => 'SplSubject',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
 );

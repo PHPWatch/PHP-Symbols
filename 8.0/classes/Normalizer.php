@@ -28,14 +28,137 @@ return array (
   ),
   'constants' => 
   array (
+    'FORM_D' => 4,
+    'NFD' => 4,
+    'FORM_KD' => 8,
+    'NFKD' => 8,
+    'FORM_C' => 16,
+    'NFC' => 16,
+    'FORM_KC' => 32,
+    'NFKC' => 32,
+    'FORM_KC_CF' => 48,
+    'NFKC_CF' => 48,
   ),
   'properties' => 
   array (
   ),
+  'methods' => 
+  array (
+    'normalize' => 
+    array (
+      'name' => 'normalize',
+      'class' => 'Normalizer',
+      'parameters' => 
+      array (
+        'string' => 
+        array (
+          'position' => 0,
+          'name' => 'string',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'form' => 
+        array (
+          'position' => 1,
+          'name' => 'form',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 16,
+          'has_default_value_constant' => true,
+          'default_value_constant' => 'Normalizer::FORM_C',
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isNormalized' => 
+    array (
+      'name' => 'isNormalized',
+      'class' => 'Normalizer',
+      'parameters' => 
+      array (
+        'string' => 
+        array (
+          'position' => 0,
+          'name' => 'string',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'form' => 
+        array (
+          'position' => 1,
+          'name' => 'form',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 16,
+          'has_default_value_constant' => true,
+          'default_value_constant' => 'Normalizer::FORM_C',
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getRawDecomposition' => 
+    array (
+      'name' => 'getRawDecomposition',
+      'class' => 'Normalizer',
+      'parameters' => 
+      array (
+        'string' => 
+        array (
+          'position' => 0,
+          'name' => 'string',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'form' => 
+        array (
+          'position' => 1,
+          'name' => 'form',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 16,
+          'has_default_value_constant' => true,
+          'default_value_constant' => 'Normalizer::FORM_C',
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+  ),
   'traits' => 
   array (
   ),
-  'methods' => 
-  array (
-  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_read_only' => false,
 );

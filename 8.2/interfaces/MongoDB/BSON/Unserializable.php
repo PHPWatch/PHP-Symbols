@@ -34,5 +34,30 @@ return array (
   ),
   'methods' => 
   array (
+    'bsonUnserialize' => 
+    array (
+      'name' => 'bsonUnserialize',
+      'class' => 'MongoDB\\BSON\\Unserializable',
+      'parameters' => 
+      array (
+        'data' => 
+        array (
+          'position' => 0,
+          'name' => 'data',
+          'type' => 'array',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
 );

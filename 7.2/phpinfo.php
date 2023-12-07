@@ -364,7 +364,7 @@ iconv.output_encoding => no value => no value
 igbinary
 
 igbinary support => enabled
-igbinary version => 3.2.14
+igbinary version => 3.2.15
 igbinary APCu serializer ABI => 0
 igbinary session support => yes
 

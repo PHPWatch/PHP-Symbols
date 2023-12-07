@@ -25,17 +25,166 @@ return array (
   ),
   'interfaces' => 
   array (
+    0 => 'Traversable',
   ),
   'constants' => 
   array (
+    'EXCLUDE_START_DATE' => 1,
   ),
   'properties' => 
   array (
   ),
+  'methods' => 
+  array (
+    '__construct' => 
+    array (
+      'name' => '__construct',
+      'class' => 'DatePeriod',
+      'parameters' => 
+      array (
+        'start' => 
+        array (
+          'position' => 0,
+          'name' => 'start',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'interval' => 
+        array (
+          'position' => 1,
+          'name' => 'interval',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'end' => 
+        array (
+          'position' => 2,
+          'name' => 'end',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    '__wakeup' => 
+    array (
+      'name' => '__wakeup',
+      'class' => 'DatePeriod',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    '__set_state' => 
+    array (
+      'name' => '__set_state',
+      'class' => 'DatePeriod',
+      'parameters' => 
+      array (
+        'array' => 
+        array (
+          'position' => 0,
+          'name' => 'array',
+          'type' => 'array',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getStartDate' => 
+    array (
+      'name' => 'getStartDate',
+      'class' => 'DatePeriod',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getEndDate' => 
+    array (
+      'name' => 'getEndDate',
+      'class' => 'DatePeriod',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getDateInterval' => 
+    array (
+      'name' => 'getDateInterval',
+      'class' => 'DatePeriod',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getRecurrences' => 
+    array (
+      'name' => 'getRecurrences',
+      'class' => 'DatePeriod',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+  ),
   'traits' => 
   array (
   ),
-  'methods' => 
-  array (
-  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_read_only' => false,
 );

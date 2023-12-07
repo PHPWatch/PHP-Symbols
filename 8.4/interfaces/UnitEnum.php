@@ -34,5 +34,19 @@ return array (
   ),
   'methods' => 
   array (
+    'cases' => 
+    array (
+      'name' => 'cases',
+      'class' => 'UnitEnum',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'array',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
 );

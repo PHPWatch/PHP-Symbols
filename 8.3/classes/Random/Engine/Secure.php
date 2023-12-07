@@ -25,6 +25,8 @@ return array (
   ),
   'interfaces' => 
   array (
+    0 => 'Random\\CryptoSafeEngine',
+    1 => 'Random\\Engine',
   ),
   'constants' => 
   array (
@@ -32,10 +34,29 @@ return array (
   'properties' => 
   array (
   ),
+  'methods' => 
+  array (
+    'generate' => 
+    array (
+      'name' => 'generate',
+      'class' => 'Random\\Engine\\Secure',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+  ),
   'traits' => 
   array (
   ),
-  'methods' => 
-  array (
-  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => true,
+  'is_read_only' => false,
 );

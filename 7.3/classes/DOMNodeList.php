@@ -25,6 +25,8 @@ return array (
   ),
   'interfaces' => 
   array (
+    0 => 'Traversable',
+    1 => 'Countable',
   ),
   'constants' => 
   array (
@@ -32,10 +34,54 @@ return array (
   'properties' => 
   array (
   ),
+  'methods' => 
+  array (
+    'item' => 
+    array (
+      'name' => 'item',
+      'class' => 'DOMNodeList',
+      'parameters' => 
+      array (
+        'index' => 
+        array (
+          'position' => 0,
+          'name' => 'index',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'count' => 
+    array (
+      'name' => 'count',
+      'class' => 'DOMNodeList',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+  ),
   'traits' => 
   array (
   ),
-  'methods' => 
-  array (
-  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_read_only' => false,
 );

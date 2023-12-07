@@ -32,10 +32,254 @@ return array (
   'properties' => 
   array (
   ),
+  'methods' => 
+  array (
+    '__construct' => 
+    array (
+      'name' => '__construct',
+      'class' => 'SQLite3Stmt',
+      'parameters' => 
+      array (
+        'sqlite3' => 
+        array (
+          'position' => 0,
+          'name' => 'sqlite3',
+          'type' => 'SQLite3',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'query' => 
+        array (
+          'position' => 1,
+          'name' => 'query',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => false,
+      'is_private' => true,
+    ),
+    'bindParam' => 
+    array (
+      'name' => 'bindParam',
+      'class' => 'SQLite3Stmt',
+      'parameters' => 
+      array (
+        'param' => 
+        array (
+          'position' => 0,
+          'name' => 'param',
+          'type' => 'string|int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'var' => 
+        array (
+          'position' => 1,
+          'name' => 'var',
+          'type' => 'mixed',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'type' => 
+        array (
+          'position' => 2,
+          'name' => 'type',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 3,
+          'has_default_value_constant' => true,
+          'default_value_constant' => 'SQLITE3_TEXT',
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'bindValue' => 
+    array (
+      'name' => 'bindValue',
+      'class' => 'SQLite3Stmt',
+      'parameters' => 
+      array (
+        'param' => 
+        array (
+          'position' => 0,
+          'name' => 'param',
+          'type' => 'string|int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'value' => 
+        array (
+          'position' => 1,
+          'name' => 'value',
+          'type' => 'mixed',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'type' => 
+        array (
+          'position' => 2,
+          'name' => 'type',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 3,
+          'has_default_value_constant' => true,
+          'default_value_constant' => 'SQLITE3_TEXT',
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'clear' => 
+    array (
+      'name' => 'clear',
+      'class' => 'SQLite3Stmt',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'close' => 
+    array (
+      'name' => 'close',
+      'class' => 'SQLite3Stmt',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'execute' => 
+    array (
+      'name' => 'execute',
+      'class' => 'SQLite3Stmt',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getSQL' => 
+    array (
+      'name' => 'getSQL',
+      'class' => 'SQLite3Stmt',
+      'parameters' => 
+      array (
+        'expand' => 
+        array (
+          'position' => 0,
+          'name' => 'expand',
+          'type' => 'bool',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'paramCount' => 
+    array (
+      'name' => 'paramCount',
+      'class' => 'SQLite3Stmt',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'readOnly' => 
+    array (
+      'name' => 'readOnly',
+      'class' => 'SQLite3Stmt',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'reset' => 
+    array (
+      'name' => 'reset',
+      'class' => 'SQLite3Stmt',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+  ),
   'traits' => 
   array (
   ),
-  'methods' => 
-  array (
-  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_read_only' => false,
 );

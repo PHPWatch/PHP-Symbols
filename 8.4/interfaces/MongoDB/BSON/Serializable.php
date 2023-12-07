@@ -25,6 +25,7 @@ return array (
   ),
   'interfaces' => 
   array (
+    0 => 'MongoDB\\BSON\\Type',
   ),
   'constants' => 
   array (
@@ -34,5 +35,19 @@ return array (
   ),
   'methods' => 
   array (
+    'bsonSerialize' => 
+    array (
+      'name' => 'bsonSerialize',
+      'class' => 'MongoDB\\BSON\\Serializable',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
 );

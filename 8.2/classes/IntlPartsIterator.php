@@ -25,17 +25,125 @@ return array (
   ),
   'interfaces' => 
   array (
+    0 => 'Traversable',
+    1 => 'Iterator',
   ),
   'constants' => 
   array (
+    'KEY_SEQUENTIAL' => 0,
+    'KEY_LEFT' => 1,
+    'KEY_RIGHT' => 2,
   ),
   'properties' => 
   array (
   ),
+  'methods' => 
+  array (
+    'getBreakIterator' => 
+    array (
+      'name' => 'getBreakIterator',
+      'class' => 'IntlPartsIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getRuleStatus' => 
+    array (
+      'name' => 'getRuleStatus',
+      'class' => 'IntlPartsIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'current' => 
+    array (
+      'name' => 'current',
+      'class' => 'IntlIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'key' => 
+    array (
+      'name' => 'key',
+      'class' => 'IntlIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'next' => 
+    array (
+      'name' => 'next',
+      'class' => 'IntlIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'rewind' => 
+    array (
+      'name' => 'rewind',
+      'class' => 'IntlIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'valid' => 
+    array (
+      'name' => 'valid',
+      'class' => 'IntlIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+  ),
   'traits' => 
   array (
   ),
-  'methods' => 
-  array (
-  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_read_only' => false,
 );

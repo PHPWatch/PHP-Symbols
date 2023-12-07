@@ -25,6 +25,7 @@ return array (
   ),
   'interfaces' => 
   array (
+    0 => 'Traversable',
   ),
   'constants' => 
   array (
@@ -34,5 +35,86 @@ return array (
   ),
   'methods' => 
   array (
+    'getId' => 
+    array (
+      'name' => 'getId',
+      'class' => 'MongoDB\\Driver\\CursorInterface',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getServer' => 
+    array (
+      'name' => 'getServer',
+      'class' => 'MongoDB\\Driver\\CursorInterface',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isDead' => 
+    array (
+      'name' => 'isDead',
+      'class' => 'MongoDB\\Driver\\CursorInterface',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setTypeMap' => 
+    array (
+      'name' => 'setTypeMap',
+      'class' => 'MongoDB\\Driver\\CursorInterface',
+      'parameters' => 
+      array (
+        'typemap' => 
+        array (
+          'position' => 0,
+          'name' => 'typemap',
+          'type' => 'array',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'toArray' => 
+    array (
+      'name' => 'toArray',
+      'class' => 'MongoDB\\Driver\\CursorInterface',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
 );

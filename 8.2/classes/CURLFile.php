@@ -31,11 +31,194 @@ return array (
   ),
   'properties' => 
   array (
+    'name' => 
+    array (
+      'name' => 'name',
+      'class' => 'CURLFile',
+      'type' => 'string',
+      'has_default_value' => true,
+      'default_value' => '',
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'mime' => 
+    array (
+      'name' => 'mime',
+      'class' => 'CURLFile',
+      'type' => 'string',
+      'has_default_value' => true,
+      'default_value' => '',
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'postname' => 
+    array (
+      'name' => 'postname',
+      'class' => 'CURLFile',
+      'type' => 'string',
+      'has_default_value' => true,
+      'default_value' => '',
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
+  'methods' => 
+  array (
+    '__construct' => 
+    array (
+      'name' => '__construct',
+      'class' => 'CURLFile',
+      'parameters' => 
+      array (
+        'filename' => 
+        array (
+          'position' => 0,
+          'name' => 'filename',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'mime_type' => 
+        array (
+          'position' => 1,
+          'name' => 'mime_type',
+          'type' => '?string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'posted_filename' => 
+        array (
+          'position' => 2,
+          'name' => 'posted_filename',
+          'type' => '?string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getFilename' => 
+    array (
+      'name' => 'getFilename',
+      'class' => 'CURLFile',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getMimeType' => 
+    array (
+      'name' => 'getMimeType',
+      'class' => 'CURLFile',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getPostFilename' => 
+    array (
+      'name' => 'getPostFilename',
+      'class' => 'CURLFile',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setMimeType' => 
+    array (
+      'name' => 'setMimeType',
+      'class' => 'CURLFile',
+      'parameters' => 
+      array (
+        'mime_type' => 
+        array (
+          'position' => 0,
+          'name' => 'mime_type',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setPostFilename' => 
+    array (
+      'name' => 'setPostFilename',
+      'class' => 'CURLFile',
+      'parameters' => 
+      array (
+        'posted_filename' => 
+        array (
+          'position' => 0,
+          'name' => 'posted_filename',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'traits' => 
   array (
   ),
-  'methods' => 
-  array (
-  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_read_only' => false,
 );

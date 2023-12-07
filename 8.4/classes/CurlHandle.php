@@ -32,10 +32,15 @@ return array (
   'properties' => 
   array (
   ),
-  'traits' => 
-  array (
-  ),
   'methods' => 
   array (
   ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => true,
+  'is_read_only' => false,
 );

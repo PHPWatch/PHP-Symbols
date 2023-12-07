@@ -34,5 +34,33 @@ return array (
   ),
   'methods' => 
   array (
+    'getTimestamp' => 
+    array (
+      'name' => 'getTimestamp',
+      'class' => 'MongoDB\\BSON\\ObjectIdInterface',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    '__toString' => 
+    array (
+      'name' => '__toString',
+      'class' => 'MongoDB\\BSON\\ObjectIdInterface',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
 );

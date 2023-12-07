@@ -34,5 +34,66 @@ return array (
   ),
   'methods' => 
   array (
+    'validateId' => 
+    array (
+      'name' => 'validateId',
+      'class' => 'SessionUpdateTimestampHandlerInterface',
+      'parameters' => 
+      array (
+        'key' => 
+        array (
+          'position' => 0,
+          'name' => 'key',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'updateTimestamp' => 
+    array (
+      'name' => 'updateTimestamp',
+      'class' => 'SessionUpdateTimestampHandlerInterface',
+      'parameters' => 
+      array (
+        'key' => 
+        array (
+          'position' => 0,
+          'name' => 'key',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'val' => 
+        array (
+          'position' => 1,
+          'name' => 'val',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
 );

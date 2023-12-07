@@ -25,17 +25,2190 @@ return array (
   ),
   'interfaces' => 
   array (
+    0 => 'RecursiveIterator',
+    1 => 'SeekableIterator',
+    2 => 'Traversable',
+    3 => 'Iterator',
+    4 => 'Countable',
+    5 => 'ArrayAccess',
   ),
   'constants' => 
   array (
+    'CURRENT_MODE_MASK' => 240,
+    'CURRENT_AS_PATHNAME' => 32,
+    'CURRENT_AS_FILEINFO' => 0,
+    'CURRENT_AS_SELF' => 16,
+    'KEY_MODE_MASK' => 3840,
+    'KEY_AS_PATHNAME' => 0,
+    'FOLLOW_SYMLINKS' => 512,
+    'KEY_AS_FILENAME' => 256,
+    'NEW_CURRENT_AND_KEY' => 256,
+    'OTHER_MODE_MASK' => 12288,
+    'SKIP_DOTS' => 4096,
+    'UNIX_PATHS' => 8192,
+    'BZ2' => 8192,
+    'GZ' => 4096,
+    'NONE' => 0,
+    'PHAR' => 1,
+    'TAR' => 2,
+    'ZIP' => 3,
+    'COMPRESSED' => 61440,
+    'PHP' => 0,
+    'PHPS' => 1,
+    'MD5' => 1,
+    'OPENSSL' => 16,
+    'SHA1' => 2,
+    'SHA256' => 3,
+    'SHA512' => 4,
   ),
   'properties' => 
   array (
   ),
+  'methods' => 
+  array (
+    '__construct' => 
+    array (
+      'name' => '__construct',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'filename' => 
+        array (
+          'position' => 0,
+          'name' => 'filename',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'flags' => 
+        array (
+          'position' => 1,
+          'name' => 'flags',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'alias' => 
+        array (
+          'position' => 2,
+          'name' => 'alias',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    '__destruct' => 
+    array (
+      'name' => '__destruct',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'addEmptyDir' => 
+    array (
+      'name' => 'addEmptyDir',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'dirname' => 
+        array (
+          'position' => 0,
+          'name' => 'dirname',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'addFile' => 
+    array (
+      'name' => 'addFile',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'filename' => 
+        array (
+          'position' => 0,
+          'name' => 'filename',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'localname' => 
+        array (
+          'position' => 1,
+          'name' => 'localname',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'addFromString' => 
+    array (
+      'name' => 'addFromString',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'localname' => 
+        array (
+          'position' => 0,
+          'name' => 'localname',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'contents' => 
+        array (
+          'position' => 1,
+          'name' => 'contents',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'buildFromDirectory' => 
+    array (
+      'name' => 'buildFromDirectory',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'base_dir' => 
+        array (
+          'position' => 0,
+          'name' => 'base_dir',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'regex' => 
+        array (
+          'position' => 1,
+          'name' => 'regex',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'buildFromIterator' => 
+    array (
+      'name' => 'buildFromIterator',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'iterator' => 
+        array (
+          'position' => 0,
+          'name' => 'iterator',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'base_directory' => 
+        array (
+          'position' => 1,
+          'name' => 'base_directory',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'compressFiles' => 
+    array (
+      'name' => 'compressFiles',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'compression_type' => 
+        array (
+          'position' => 0,
+          'name' => 'compression_type',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'decompressFiles' => 
+    array (
+      'name' => 'decompressFiles',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'compress' => 
+    array (
+      'name' => 'compress',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'compression_type' => 
+        array (
+          'position' => 0,
+          'name' => 'compression_type',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'file_ext' => 
+        array (
+          'position' => 1,
+          'name' => 'file_ext',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'decompress' => 
+    array (
+      'name' => 'decompress',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'file_ext' => 
+        array (
+          'position' => 0,
+          'name' => 'file_ext',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'convertToExecutable' => 
+    array (
+      'name' => 'convertToExecutable',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'format' => 
+        array (
+          'position' => 0,
+          'name' => 'format',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'compression_type' => 
+        array (
+          'position' => 1,
+          'name' => 'compression_type',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'file_ext' => 
+        array (
+          'position' => 2,
+          'name' => 'file_ext',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'convertToData' => 
+    array (
+      'name' => 'convertToData',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'format' => 
+        array (
+          'position' => 0,
+          'name' => 'format',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'compression_type' => 
+        array (
+          'position' => 1,
+          'name' => 'compression_type',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'file_ext' => 
+        array (
+          'position' => 2,
+          'name' => 'file_ext',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'copy' => 
+    array (
+      'name' => 'copy',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'newfile' => 
+        array (
+          'position' => 0,
+          'name' => 'newfile',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'oldfile' => 
+        array (
+          'position' => 1,
+          'name' => 'oldfile',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'count' => 
+    array (
+      'name' => 'count',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'delete' => 
+    array (
+      'name' => 'delete',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'entry' => 
+        array (
+          'position' => 0,
+          'name' => 'entry',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'delMetadata' => 
+    array (
+      'name' => 'delMetadata',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'extractTo' => 
+    array (
+      'name' => 'extractTo',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'pathto' => 
+        array (
+          'position' => 0,
+          'name' => 'pathto',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'files' => 
+        array (
+          'position' => 1,
+          'name' => 'files',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'overwrite' => 
+        array (
+          'position' => 2,
+          'name' => 'overwrite',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getAlias' => 
+    array (
+      'name' => 'getAlias',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getPath' => 
+    array (
+      'name' => 'getPath',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getMetadata' => 
+    array (
+      'name' => 'getMetadata',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getModified' => 
+    array (
+      'name' => 'getModified',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getSignature' => 
+    array (
+      'name' => 'getSignature',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getStub' => 
+    array (
+      'name' => 'getStub',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getVersion' => 
+    array (
+      'name' => 'getVersion',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'hasMetadata' => 
+    array (
+      'name' => 'hasMetadata',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isBuffering' => 
+    array (
+      'name' => 'isBuffering',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isCompressed' => 
+    array (
+      'name' => 'isCompressed',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isFileFormat' => 
+    array (
+      'name' => 'isFileFormat',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'fileformat' => 
+        array (
+          'position' => 0,
+          'name' => 'fileformat',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isWritable' => 
+    array (
+      'name' => 'isWritable',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'offsetExists' => 
+    array (
+      'name' => 'offsetExists',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'entry' => 
+        array (
+          'position' => 0,
+          'name' => 'entry',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'offsetGet' => 
+    array (
+      'name' => 'offsetGet',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'entry' => 
+        array (
+          'position' => 0,
+          'name' => 'entry',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'offsetSet' => 
+    array (
+      'name' => 'offsetSet',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'entry' => 
+        array (
+          'position' => 0,
+          'name' => 'entry',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'value' => 
+        array (
+          'position' => 1,
+          'name' => 'value',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'offsetUnset' => 
+    array (
+      'name' => 'offsetUnset',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'entry' => 
+        array (
+          'position' => 0,
+          'name' => 'entry',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setAlias' => 
+    array (
+      'name' => 'setAlias',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'alias' => 
+        array (
+          'position' => 0,
+          'name' => 'alias',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setDefaultStub' => 
+    array (
+      'name' => 'setDefaultStub',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'index' => 
+        array (
+          'position' => 0,
+          'name' => 'index',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'webindex' => 
+        array (
+          'position' => 1,
+          'name' => 'webindex',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setMetadata' => 
+    array (
+      'name' => 'setMetadata',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'metadata' => 
+        array (
+          'position' => 0,
+          'name' => 'metadata',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setSignatureAlgorithm' => 
+    array (
+      'name' => 'setSignatureAlgorithm',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'algorithm' => 
+        array (
+          'position' => 0,
+          'name' => 'algorithm',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'privatekey' => 
+        array (
+          'position' => 1,
+          'name' => 'privatekey',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setStub' => 
+    array (
+      'name' => 'setStub',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'newstub' => 
+        array (
+          'position' => 0,
+          'name' => 'newstub',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'maxlen' => 
+        array (
+          'position' => 1,
+          'name' => 'maxlen',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'startBuffering' => 
+    array (
+      'name' => 'startBuffering',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'stopBuffering' => 
+    array (
+      'name' => 'stopBuffering',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'apiVersion' => 
+    array (
+      'name' => 'apiVersion',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'canCompress' => 
+    array (
+      'name' => 'canCompress',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'method' => 
+        array (
+          'position' => 0,
+          'name' => 'method',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'canWrite' => 
+    array (
+      'name' => 'canWrite',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'createDefaultStub' => 
+    array (
+      'name' => 'createDefaultStub',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'index' => 
+        array (
+          'position' => 0,
+          'name' => 'index',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'webindex' => 
+        array (
+          'position' => 1,
+          'name' => 'webindex',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getSupportedCompression' => 
+    array (
+      'name' => 'getSupportedCompression',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getSupportedSignatures' => 
+    array (
+      'name' => 'getSupportedSignatures',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'interceptFileFuncs' => 
+    array (
+      'name' => 'interceptFileFuncs',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isValidPharFilename' => 
+    array (
+      'name' => 'isValidPharFilename',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'filename' => 
+        array (
+          'position' => 0,
+          'name' => 'filename',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'executable' => 
+        array (
+          'position' => 1,
+          'name' => 'executable',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'loadPhar' => 
+    array (
+      'name' => 'loadPhar',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'filename' => 
+        array (
+          'position' => 0,
+          'name' => 'filename',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'alias' => 
+        array (
+          'position' => 1,
+          'name' => 'alias',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'mapPhar' => 
+    array (
+      'name' => 'mapPhar',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'alias' => 
+        array (
+          'position' => 0,
+          'name' => 'alias',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'offset' => 
+        array (
+          'position' => 1,
+          'name' => 'offset',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'running' => 
+    array (
+      'name' => 'running',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'retphar' => 
+        array (
+          'position' => 0,
+          'name' => 'retphar',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'mount' => 
+    array (
+      'name' => 'mount',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'inphar' => 
+        array (
+          'position' => 0,
+          'name' => 'inphar',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'externalfile' => 
+        array (
+          'position' => 1,
+          'name' => 'externalfile',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'mungServer' => 
+    array (
+      'name' => 'mungServer',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'munglist' => 
+        array (
+          'position' => 0,
+          'name' => 'munglist',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'unlinkArchive' => 
+    array (
+      'name' => 'unlinkArchive',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'archive' => 
+        array (
+          'position' => 0,
+          'name' => 'archive',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'webPhar' => 
+    array (
+      'name' => 'webPhar',
+      'class' => 'Phar',
+      'parameters' => 
+      array (
+        'alias' => 
+        array (
+          'position' => 0,
+          'name' => 'alias',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'index' => 
+        array (
+          'position' => 1,
+          'name' => 'index',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'f404' => 
+        array (
+          'position' => 2,
+          'name' => 'f404',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'mimetypes' => 
+        array (
+          'position' => 3,
+          'name' => 'mimetypes',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'rewrites' => 
+        array (
+          'position' => 4,
+          'name' => 'rewrites',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'hasChildren' => 
+    array (
+      'name' => 'hasChildren',
+      'class' => 'RecursiveDirectoryIterator',
+      'parameters' => 
+      array (
+        'allow_links' => 
+        array (
+          'position' => 0,
+          'name' => 'allow_links',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getChildren' => 
+    array (
+      'name' => 'getChildren',
+      'class' => 'RecursiveDirectoryIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getSubPath' => 
+    array (
+      'name' => 'getSubPath',
+      'class' => 'RecursiveDirectoryIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getSubPathname' => 
+    array (
+      'name' => 'getSubPathname',
+      'class' => 'RecursiveDirectoryIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'rewind' => 
+    array (
+      'name' => 'rewind',
+      'class' => 'FilesystemIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'next' => 
+    array (
+      'name' => 'next',
+      'class' => 'FilesystemIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'key' => 
+    array (
+      'name' => 'key',
+      'class' => 'FilesystemIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'current' => 
+    array (
+      'name' => 'current',
+      'class' => 'FilesystemIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getFlags' => 
+    array (
+      'name' => 'getFlags',
+      'class' => 'FilesystemIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setFlags' => 
+    array (
+      'name' => 'setFlags',
+      'class' => 'FilesystemIterator',
+      'parameters' => 
+      array (
+        'flags' => 
+        array (
+          'position' => 0,
+          'name' => 'flags',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getFilename' => 
+    array (
+      'name' => 'getFilename',
+      'class' => 'DirectoryIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getExtension' => 
+    array (
+      'name' => 'getExtension',
+      'class' => 'DirectoryIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getBasename' => 
+    array (
+      'name' => 'getBasename',
+      'class' => 'DirectoryIterator',
+      'parameters' => 
+      array (
+        'suffix' => 
+        array (
+          'position' => 0,
+          'name' => 'suffix',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isDot' => 
+    array (
+      'name' => 'isDot',
+      'class' => 'DirectoryIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'valid' => 
+    array (
+      'name' => 'valid',
+      'class' => 'DirectoryIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'seek' => 
+    array (
+      'name' => 'seek',
+      'class' => 'DirectoryIterator',
+      'parameters' => 
+      array (
+        'position' => 
+        array (
+          'position' => 0,
+          'name' => 'position',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    '__toString' => 
+    array (
+      'name' => '__toString',
+      'class' => 'DirectoryIterator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getPathname' => 
+    array (
+      'name' => 'getPathname',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getPerms' => 
+    array (
+      'name' => 'getPerms',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getInode' => 
+    array (
+      'name' => 'getInode',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getSize' => 
+    array (
+      'name' => 'getSize',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getOwner' => 
+    array (
+      'name' => 'getOwner',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getGroup' => 
+    array (
+      'name' => 'getGroup',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getATime' => 
+    array (
+      'name' => 'getATime',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getMTime' => 
+    array (
+      'name' => 'getMTime',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getCTime' => 
+    array (
+      'name' => 'getCTime',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getType' => 
+    array (
+      'name' => 'getType',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isReadable' => 
+    array (
+      'name' => 'isReadable',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isExecutable' => 
+    array (
+      'name' => 'isExecutable',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isFile' => 
+    array (
+      'name' => 'isFile',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isDir' => 
+    array (
+      'name' => 'isDir',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isLink' => 
+    array (
+      'name' => 'isLink',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getLinkTarget' => 
+    array (
+      'name' => 'getLinkTarget',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getRealPath' => 
+    array (
+      'name' => 'getRealPath',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getFileInfo' => 
+    array (
+      'name' => 'getFileInfo',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+        'class_name' => 
+        array (
+          'position' => 0,
+          'name' => 'class_name',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getPathInfo' => 
+    array (
+      'name' => 'getPathInfo',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+        'class_name' => 
+        array (
+          'position' => 0,
+          'name' => 'class_name',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'openFile' => 
+    array (
+      'name' => 'openFile',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+        'open_mode' => 
+        array (
+          'position' => 0,
+          'name' => 'open_mode',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'use_include_path' => 
+        array (
+          'position' => 1,
+          'name' => 'use_include_path',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'context' => 
+        array (
+          'position' => 2,
+          'name' => 'context',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setFileClass' => 
+    array (
+      'name' => 'setFileClass',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+        'class_name' => 
+        array (
+          'position' => 0,
+          'name' => 'class_name',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setInfoClass' => 
+    array (
+      'name' => 'setInfoClass',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+        'class_name' => 
+        array (
+          'position' => 0,
+          'name' => 'class_name',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    '_bad_state_ex' => 
+    array (
+      'name' => '_bad_state_ex',
+      'class' => 'SplFileInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+  ),
   'traits' => 
   array (
   ),
-  'methods' => 
-  array (
-  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_read_only' => false,
 );

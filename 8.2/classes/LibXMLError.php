@@ -31,11 +31,94 @@ return array (
   ),
   'properties' => 
   array (
-  ),
-  'traits' => 
-  array (
+    'level' => 
+    array (
+      'name' => 'level',
+      'class' => 'LibXMLError',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'code' => 
+    array (
+      'name' => 'code',
+      'class' => 'LibXMLError',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'column' => 
+    array (
+      'name' => 'column',
+      'class' => 'LibXMLError',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'message' => 
+    array (
+      'name' => 'message',
+      'class' => 'LibXMLError',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'file' => 
+    array (
+      'name' => 'file',
+      'class' => 'LibXMLError',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'line' => 
+    array (
+      'name' => 'line',
+      'class' => 'LibXMLError',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
   ),
   'methods' => 
   array (
   ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_read_only' => false,
 );
