@@ -560,17 +560,17 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.17.0
+MongoDB extension version => 1.17.1
 MongoDB extension stability => stable
-libbson bundled version => 1.25.1
-libmongoc bundled version => 1.25.1
+libbson bundled version => 1.25.2
+libmongoc bundled version => 1.25.2
 libmongoc SSL => enabled
 libmongoc SSL library => OpenSSL
 libmongoc crypto => enabled
 libmongoc crypto library => libcrypto
 libmongoc crypto system profile => disabled
 libmongoc SASL => enabled
-libmongoc ICU => disabled
+libmongoc SRV => enabled
 libmongoc compression => enabled
 libmongoc compression snappy => disabled
 libmongoc compression zlib => enabled
@@ -990,7 +990,7 @@ xdebug
 [1m                              __/ |
 [1m                             |___/ 
 
-[0mVersion => 3.3.0alpha4-dev
+[0mVersion => 3.4.0-dev
 Support Xdebug on Patreon, GitHub, or as a business: https://xdebug.org/support
 
              Enabled Features (through \'xdebug.mode\' setting)             

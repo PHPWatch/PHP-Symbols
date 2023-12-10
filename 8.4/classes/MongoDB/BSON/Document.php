@@ -252,10 +252,10 @@ return array (
       'class' => 'MongoDB\\BSON\\Document',
       'parameters' => 
       array (
-        'key' => 
+        'offset' => 
         array (
           'position' => 0,
-          'name' => 'key',
+          'name' => 'offset',
           'type' => 'mixed',
           'is_optional' => false,
           'has_default_value' => false,
@@ -277,10 +277,10 @@ return array (
       'class' => 'MongoDB\\BSON\\Document',
       'parameters' => 
       array (
-        'key' => 
+        'offset' => 
         array (
           'position' => 0,
-          'name' => 'key',
+          'name' => 'offset',
           'type' => 'mixed',
           'is_optional' => false,
           'has_default_value' => false,
@@ -302,10 +302,10 @@ return array (
       'class' => 'MongoDB\\BSON\\Document',
       'parameters' => 
       array (
-        'key' => 
+        'offset' => 
         array (
           'position' => 0,
-          'name' => 'key',
+          'name' => 'offset',
           'type' => 'mixed',
           'is_optional' => false,
           'has_default_value' => false,
@@ -338,10 +338,10 @@ return array (
       'class' => 'MongoDB\\BSON\\Document',
       'parameters' => 
       array (
-        'key' => 
+        'offset' => 
         array (
           'position' => 0,
-          'name' => 'key',
+          'name' => 'offset',
           'type' => 'mixed',
           'is_optional' => false,
           'has_default_value' => false,
