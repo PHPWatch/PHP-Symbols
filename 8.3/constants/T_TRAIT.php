@@ -18,6 +18,6 @@ return array (
     array (
     ),
   ),
-  'value' => 370,
+  'value' => 334,
   'extension' => 'tokenizer',
 );

@@ -283,7 +283,7 @@ RelaxNG Support => enabled
 ds
 
 ds support => enabled
-ds version => 1.4.0
+ds version => 1.5.0
 
 enchant
 
@@ -560,7 +560,7 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.17.1
+MongoDB extension version => 1.17.2
 MongoDB extension stability => stable
 libbson bundled version => 1.25.2
 libmongoc bundled version => 1.25.2

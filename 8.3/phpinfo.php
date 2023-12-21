@@ -97,7 +97,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.3.0
+PHP Version => 8.3.1
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -247,7 +247,7 @@ curl.cainfo => no value => no value
 date
 
 date/time support => enabled
-timelib version => 2022.09
+timelib version => 2022.10
 "Olson" Timezone Database Version => 0.system
 Timezone Database => internal
 Default timezone => UTC
@@ -283,7 +283,7 @@ RelaxNG Support => enabled
 ds
 
 ds support => enabled
-ds version => 1.4.0
+ds version => 1.5.0
 
 enchant
 
@@ -389,7 +389,7 @@ iconv.output_encoding => no value => no value
 igbinary
 
 igbinary support => enabled
-igbinary version => 3.2.14
+igbinary version => 3.2.15
 igbinary APCu serializer ABI => 0
 igbinary session support => yes
 
@@ -560,17 +560,17 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.17.0
+MongoDB extension version => 1.17.2
 MongoDB extension stability => stable
-libbson bundled version => 1.25.1
-libmongoc bundled version => 1.25.1
+libbson bundled version => 1.25.2
+libmongoc bundled version => 1.25.2
 libmongoc SSL => enabled
 libmongoc SSL library => OpenSSL
 libmongoc crypto => enabled
 libmongoc crypto library => libcrypto
 libmongoc crypto system profile => disabled
 libmongoc SASL => enabled
-libmongoc ICU => disabled
+libmongoc SRV => enabled
 libmongoc compression => enabled
 libmongoc compression snappy => disabled
 libmongoc compression zlib => enabled
@@ -599,7 +599,7 @@ msgpack.use_str8_serialization => On => On
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.3.0
+Client API library version => mysqlnd 8.3.1
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -620,7 +620,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.3.0
+Version => mysqlnd 8.3.1
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -702,7 +702,7 @@ Client Library Version => LI-V6.3.8.33535 Firebird 3.0
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.3.0
+Client API version => mysqlnd 8.3.1
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -779,7 +779,7 @@ PSpell Support => enabled
 
 random
 
-Version => 8.3.0
+Version => 8.3.1
 
 readline
 
@@ -994,7 +994,7 @@ xdebug
 [1m                              __/ |
 [1m                             |___/ 
 
-[0mVersion => 3.3.0
+[0mVersion => 3.3.1
 Support Xdebug on Patreon, GitHub, or as a business: https://xdebug.org/support
 
              Enabled Features (through \'xdebug.mode\' setting)             
