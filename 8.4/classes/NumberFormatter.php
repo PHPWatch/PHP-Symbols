@@ -44,6 +44,8 @@ return array (
     'ROUND_FLOOR' => 1,
     'ROUND_DOWN' => 2,
     'ROUND_UP' => 3,
+    'ROUND_TOWARD_ZERO' => 2,
+    'ROUND_AWAY_FROM_ZERO' => 3,
     'ROUND_HALFEVEN' => 4,
     'ROUND_HALFDOWN' => 5,
     'ROUND_HALFUP' => 6,
