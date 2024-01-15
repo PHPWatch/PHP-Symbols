@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'class',
-  'name' => 'PDO',
+  'name' => 'PdoSqlite',
   'meta' => 
   array (
     'type' => 'class',
-    'name' => 'PDO',
+    'name' => 'PdoSqlite',
     'description' => '',
     'keywords' => 
     array (
@@ -18,8 +18,8 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'PDO class (php.net)',
-        'url' => 'https://www.php.net/manual/class.pdo.php',
+        'name' => 'PdoSqlite class (php.net)',
+        'url' => 'https://www.php.net/manual/class.pdosqlite.php',
       ),
     ),
   ),
@@ -151,36 +151,265 @@ return array (
     'SQLITE_OPEN_CREATE' => 4,
     'SQLITE_ATTR_READONLY_STATEMENT' => 1001,
     'SQLITE_ATTR_EXTENDED_RESULT_CODES' => 1002,
-    'SQLSRV_ATTR_ENCODING' => 1000,
-    'SQLSRV_ATTR_QUERY_TIMEOUT' => 1001,
-    'SQLSRV_ATTR_DIRECT_QUERY' => 1002,
-    'SQLSRV_ATTR_CURSOR_SCROLL_TYPE' => 1003,
-    'SQLSRV_ATTR_CLIENT_BUFFER_MAX_KB_SIZE' => 1004,
-    'SQLSRV_ATTR_FETCHES_NUMERIC_TYPE' => 1005,
-    'SQLSRV_ATTR_FETCHES_DATETIME_TYPE' => 1006,
-    'SQLSRV_ATTR_FORMAT_DECIMALS' => 1007,
-    'SQLSRV_ATTR_DECIMAL_PLACES' => 1008,
-    'SQLSRV_ATTR_DATA_CLASSIFICATION' => 1009,
-    'SQLSRV_PARAM_OUT_DEFAULT_SIZE' => -1,
-    'SQLSRV_ENCODING_DEFAULT' => 1,
-    'SQLSRV_ENCODING_SYSTEM' => 3,
-    'SQLSRV_ENCODING_BINARY' => 2,
-    'SQLSRV_ENCODING_UTF8' => 65001,
-    'SQLSRV_CURSOR_STATIC' => 3,
-    'SQLSRV_CURSOR_DYNAMIC' => 2,
-    'SQLSRV_CURSOR_KEYSET' => 1,
-    'SQLSRV_CURSOR_BUFFERED' => 42,
-    'SQLSRV_TXN_READ_UNCOMMITTED' => 'READ_UNCOMMITTED',
-    'SQLSRV_TXN_READ_COMMITTED' => 'READ_COMMITTED',
-    'SQLSRV_TXN_REPEATABLE_READ' => 'REPEATABLE_READ',
-    'SQLSRV_TXN_SERIALIZABLE' => 'SERIALIZABLE',
-    'SQLSRV_TXN_SNAPSHOT' => 'SNAPSHOT',
+    'DETERMINISTIC' => 2048,
+    'OPEN_READONLY' => 1,
+    'OPEN_READWRITE' => 2,
+    'OPEN_CREATE' => 4,
+    'ATTR_OPEN_FLAGS' => 1000,
+    'ATTR_READONLY_STATEMENT' => 1001,
+    'ATTR_EXTENDED_RESULT_CODES' => 1002,
   ),
   'properties' => 
   array (
   ),
   'methods' => 
   array (
+    'createAggregate' => 
+    array (
+      'name' => 'createAggregate',
+      'class' => 'PdoSqlite',
+      'parameters' => 
+      array (
+        'name' => 
+        array (
+          'position' => 0,
+          'name' => 'name',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'step' => 
+        array (
+          'position' => 1,
+          'name' => 'step',
+          'type' => 'callable',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'finalize' => 
+        array (
+          'position' => 2,
+          'name' => 'finalize',
+          'type' => 'callable',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'numArgs' => 
+        array (
+          'position' => 3,
+          'name' => 'numArgs',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => -1,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'createCollation' => 
+    array (
+      'name' => 'createCollation',
+      'class' => 'PdoSqlite',
+      'parameters' => 
+      array (
+        'name' => 
+        array (
+          'position' => 0,
+          'name' => 'name',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'callback' => 
+        array (
+          'position' => 1,
+          'name' => 'callback',
+          'type' => 'callable',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'createFunction' => 
+    array (
+      'name' => 'createFunction',
+      'class' => 'PdoSqlite',
+      'parameters' => 
+      array (
+        'function_name' => 
+        array (
+          'position' => 0,
+          'name' => 'function_name',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'callback' => 
+        array (
+          'position' => 1,
+          'name' => 'callback',
+          'type' => 'callable',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'num_args' => 
+        array (
+          'position' => 2,
+          'name' => 'num_args',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => -1,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'flags' => 
+        array (
+          'position' => 3,
+          'name' => 'flags',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 0,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'loadExtension' => 
+    array (
+      'name' => 'loadExtension',
+      'class' => 'PdoSqlite',
+      'parameters' => 
+      array (
+        'name' => 
+        array (
+          'position' => 0,
+          'name' => 'name',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'openBlob' => 
+    array (
+      'name' => 'openBlob',
+      'class' => 'PdoSqlite',
+      'parameters' => 
+      array (
+        'table' => 
+        array (
+          'position' => 0,
+          'name' => 'table',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'column' => 
+        array (
+          'position' => 1,
+          'name' => 'column',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'rowid' => 
+        array (
+          'position' => 2,
+          'name' => 'rowid',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'dbname' => 
+        array (
+          'position' => 3,
+          'name' => 'dbname',
+          'type' => '?string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 'main',
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'flags' => 
+        array (
+          'position' => 4,
+          'name' => 'flags',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 1,
+          'has_default_value_constant' => true,
+          'default_value_constant' => 'PdoSqlite::OPEN_READONLY',
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     '__construct' => 
     array (
       'name' => '__construct',

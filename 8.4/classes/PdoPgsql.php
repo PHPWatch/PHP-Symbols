@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'class',
-  'name' => 'PDO',
+  'name' => 'PdoPgsql',
   'meta' => 
   array (
     'type' => 'class',
-    'name' => 'PDO',
+    'name' => 'PdoPgsql',
     'description' => '',
     'keywords' => 
     array (
@@ -18,8 +18,8 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'PDO class (php.net)',
-        'url' => 'https://www.php.net/manual/class.pdo.php',
+        'name' => 'PdoPgsql class (php.net)',
+        'url' => 'https://www.php.net/manual/class.pdopgsql.php',
       ),
     ),
   ),
@@ -144,43 +144,433 @@ return array (
     'PGSQL_TRANSACTION_INTRANS' => 2,
     'PGSQL_TRANSACTION_INERROR' => 3,
     'PGSQL_TRANSACTION_UNKNOWN' => 4,
-    'SQLITE_DETERMINISTIC' => 2048,
-    'SQLITE_ATTR_OPEN_FLAGS' => 1000,
-    'SQLITE_OPEN_READONLY' => 1,
-    'SQLITE_OPEN_READWRITE' => 2,
-    'SQLITE_OPEN_CREATE' => 4,
-    'SQLITE_ATTR_READONLY_STATEMENT' => 1001,
-    'SQLITE_ATTR_EXTENDED_RESULT_CODES' => 1002,
-    'SQLSRV_ATTR_ENCODING' => 1000,
-    'SQLSRV_ATTR_QUERY_TIMEOUT' => 1001,
-    'SQLSRV_ATTR_DIRECT_QUERY' => 1002,
-    'SQLSRV_ATTR_CURSOR_SCROLL_TYPE' => 1003,
-    'SQLSRV_ATTR_CLIENT_BUFFER_MAX_KB_SIZE' => 1004,
-    'SQLSRV_ATTR_FETCHES_NUMERIC_TYPE' => 1005,
-    'SQLSRV_ATTR_FETCHES_DATETIME_TYPE' => 1006,
-    'SQLSRV_ATTR_FORMAT_DECIMALS' => 1007,
-    'SQLSRV_ATTR_DECIMAL_PLACES' => 1008,
-    'SQLSRV_ATTR_DATA_CLASSIFICATION' => 1009,
-    'SQLSRV_PARAM_OUT_DEFAULT_SIZE' => -1,
-    'SQLSRV_ENCODING_DEFAULT' => 1,
-    'SQLSRV_ENCODING_SYSTEM' => 3,
-    'SQLSRV_ENCODING_BINARY' => 2,
-    'SQLSRV_ENCODING_UTF8' => 65001,
-    'SQLSRV_CURSOR_STATIC' => 3,
-    'SQLSRV_CURSOR_DYNAMIC' => 2,
-    'SQLSRV_CURSOR_KEYSET' => 1,
-    'SQLSRV_CURSOR_BUFFERED' => 42,
-    'SQLSRV_TXN_READ_UNCOMMITTED' => 'READ_UNCOMMITTED',
-    'SQLSRV_TXN_READ_COMMITTED' => 'READ_COMMITTED',
-    'SQLSRV_TXN_REPEATABLE_READ' => 'REPEATABLE_READ',
-    'SQLSRV_TXN_SERIALIZABLE' => 'SERIALIZABLE',
-    'SQLSRV_TXN_SNAPSHOT' => 'SNAPSHOT',
+    'ATTR_DISABLE_PREPARES' => 1000,
+    'TRANSACTION_IDLE' => 0,
+    'TRANSACTION_ACTIVE' => 1,
+    'TRANSACTION_INTRANS' => 2,
+    'TRANSACTION_INERROR' => 3,
+    'TRANSACTION_UNKNOWN' => 4,
   ),
   'properties' => 
   array (
   ),
   'methods' => 
   array (
+    'escapeIdentifier' => 
+    array (
+      'name' => 'escapeIdentifier',
+      'class' => 'PdoPgsql',
+      'parameters' => 
+      array (
+        'input' => 
+        array (
+          'position' => 0,
+          'name' => 'input',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'copyFromArray' => 
+    array (
+      'name' => 'copyFromArray',
+      'class' => 'PdoPgsql',
+      'parameters' => 
+      array (
+        'tableName' => 
+        array (
+          'position' => 0,
+          'name' => 'tableName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'rows' => 
+        array (
+          'position' => 1,
+          'name' => 'rows',
+          'type' => 'array',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'separator' => 
+        array (
+          'position' => 2,
+          'name' => 'separator',
+          'type' => 'string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => '	',
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'nullAs' => 
+        array (
+          'position' => 3,
+          'name' => 'nullAs',
+          'type' => 'string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => '\\\\N',
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'fields' => 
+        array (
+          'position' => 4,
+          'name' => 'fields',
+          'type' => '?string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'copyFromFile' => 
+    array (
+      'name' => 'copyFromFile',
+      'class' => 'PdoPgsql',
+      'parameters' => 
+      array (
+        'tableName' => 
+        array (
+          'position' => 0,
+          'name' => 'tableName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'filename' => 
+        array (
+          'position' => 1,
+          'name' => 'filename',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'separator' => 
+        array (
+          'position' => 2,
+          'name' => 'separator',
+          'type' => 'string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => '	',
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'nullAs' => 
+        array (
+          'position' => 3,
+          'name' => 'nullAs',
+          'type' => 'string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => '\\\\N',
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'fields' => 
+        array (
+          'position' => 4,
+          'name' => 'fields',
+          'type' => '?string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'copyToArray' => 
+    array (
+      'name' => 'copyToArray',
+      'class' => 'PdoPgsql',
+      'parameters' => 
+      array (
+        'tableName' => 
+        array (
+          'position' => 0,
+          'name' => 'tableName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'separator' => 
+        array (
+          'position' => 1,
+          'name' => 'separator',
+          'type' => 'string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => '	',
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'nullAs' => 
+        array (
+          'position' => 2,
+          'name' => 'nullAs',
+          'type' => 'string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => '\\\\N',
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'fields' => 
+        array (
+          'position' => 3,
+          'name' => 'fields',
+          'type' => '?string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'array|false',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'copyToFile' => 
+    array (
+      'name' => 'copyToFile',
+      'class' => 'PdoPgsql',
+      'parameters' => 
+      array (
+        'tableName' => 
+        array (
+          'position' => 0,
+          'name' => 'tableName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'filename' => 
+        array (
+          'position' => 1,
+          'name' => 'filename',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'separator' => 
+        array (
+          'position' => 2,
+          'name' => 'separator',
+          'type' => 'string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => '	',
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'nullAs' => 
+        array (
+          'position' => 3,
+          'name' => 'nullAs',
+          'type' => 'string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => '\\\\N',
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'fields' => 
+        array (
+          'position' => 4,
+          'name' => 'fields',
+          'type' => '?string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'lobCreate' => 
+    array (
+      'name' => 'lobCreate',
+      'class' => 'PdoPgsql',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string|false',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'lobOpen' => 
+    array (
+      'name' => 'lobOpen',
+      'class' => 'PdoPgsql',
+      'parameters' => 
+      array (
+        'oid' => 
+        array (
+          'position' => 0,
+          'name' => 'oid',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'mode' => 
+        array (
+          'position' => 1,
+          'name' => 'mode',
+          'type' => 'string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 'rb',
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'lobUnlink' => 
+    array (
+      'name' => 'lobUnlink',
+      'class' => 'PdoPgsql',
+      'parameters' => 
+      array (
+        'oid' => 
+        array (
+          'position' => 0,
+          'name' => 'oid',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getNotify' => 
+    array (
+      'name' => 'getNotify',
+      'class' => 'PdoPgsql',
+      'parameters' => 
+      array (
+        'fetchMode' => 
+        array (
+          'position' => 0,
+          'name' => 'fetchMode',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 0,
+          'has_default_value_constant' => true,
+          'default_value_constant' => 'PDO::FETCH_DEFAULT',
+        ),
+        'timeoutMilliseconds' => 
+        array (
+          'position' => 1,
+          'name' => 'timeoutMilliseconds',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 0,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'array|false',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getPid' => 
+    array (
+      'name' => 'getPid',
+      'class' => 'PdoPgsql',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'int',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     '__construct' => 
     array (
       'name' => '__construct',

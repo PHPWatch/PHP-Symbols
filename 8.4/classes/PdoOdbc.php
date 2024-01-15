@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'class',
-  'name' => 'PDO',
+  'name' => 'PdoOdbc',
   'meta' => 
   array (
     'type' => 'class',
-    'name' => 'PDO',
+    'name' => 'PdoOdbc',
     'description' => '',
     'keywords' => 
     array (
@@ -18,8 +18,8 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'PDO class (php.net)',
-        'url' => 'https://www.php.net/manual/class.pdo.php',
+        'name' => 'PdoOdbc class (php.net)',
+        'url' => 'https://www.php.net/manual/class.pdoodbc.php',
       ),
     ),
   ),
@@ -138,43 +138,11 @@ return array (
     'ODBC_SQL_USE_IF_NEEDED' => 0,
     'ODBC_SQL_USE_DRIVER' => 2,
     'ODBC_SQL_USE_ODBC' => 1,
-    'PGSQL_ATTR_DISABLE_PREPARES' => 1000,
-    'PGSQL_TRANSACTION_IDLE' => 0,
-    'PGSQL_TRANSACTION_ACTIVE' => 1,
-    'PGSQL_TRANSACTION_INTRANS' => 2,
-    'PGSQL_TRANSACTION_INERROR' => 3,
-    'PGSQL_TRANSACTION_UNKNOWN' => 4,
-    'SQLITE_DETERMINISTIC' => 2048,
-    'SQLITE_ATTR_OPEN_FLAGS' => 1000,
-    'SQLITE_OPEN_READONLY' => 1,
-    'SQLITE_OPEN_READWRITE' => 2,
-    'SQLITE_OPEN_CREATE' => 4,
-    'SQLITE_ATTR_READONLY_STATEMENT' => 1001,
-    'SQLITE_ATTR_EXTENDED_RESULT_CODES' => 1002,
-    'SQLSRV_ATTR_ENCODING' => 1000,
-    'SQLSRV_ATTR_QUERY_TIMEOUT' => 1001,
-    'SQLSRV_ATTR_DIRECT_QUERY' => 1002,
-    'SQLSRV_ATTR_CURSOR_SCROLL_TYPE' => 1003,
-    'SQLSRV_ATTR_CLIENT_BUFFER_MAX_KB_SIZE' => 1004,
-    'SQLSRV_ATTR_FETCHES_NUMERIC_TYPE' => 1005,
-    'SQLSRV_ATTR_FETCHES_DATETIME_TYPE' => 1006,
-    'SQLSRV_ATTR_FORMAT_DECIMALS' => 1007,
-    'SQLSRV_ATTR_DECIMAL_PLACES' => 1008,
-    'SQLSRV_ATTR_DATA_CLASSIFICATION' => 1009,
-    'SQLSRV_PARAM_OUT_DEFAULT_SIZE' => -1,
-    'SQLSRV_ENCODING_DEFAULT' => 1,
-    'SQLSRV_ENCODING_SYSTEM' => 3,
-    'SQLSRV_ENCODING_BINARY' => 2,
-    'SQLSRV_ENCODING_UTF8' => 65001,
-    'SQLSRV_CURSOR_STATIC' => 3,
-    'SQLSRV_CURSOR_DYNAMIC' => 2,
-    'SQLSRV_CURSOR_KEYSET' => 1,
-    'SQLSRV_CURSOR_BUFFERED' => 42,
-    'SQLSRV_TXN_READ_UNCOMMITTED' => 'READ_UNCOMMITTED',
-    'SQLSRV_TXN_READ_COMMITTED' => 'READ_COMMITTED',
-    'SQLSRV_TXN_REPEATABLE_READ' => 'REPEATABLE_READ',
-    'SQLSRV_TXN_SERIALIZABLE' => 'SERIALIZABLE',
-    'SQLSRV_TXN_SNAPSHOT' => 'SNAPSHOT',
+    'ATTR_USE_CURSOR_LIBRARY' => 1000,
+    'ATTR_ASSUME_UTF8' => 1001,
+    'SQL_USE_IF_NEEDED' => 0,
+    'SQL_USE_DRIVER' => 2,
+    'SQL_USE_ODBC' => 1,
   ),
   'properties' => 
   array (
