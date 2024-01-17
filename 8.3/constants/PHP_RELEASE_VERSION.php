@@ -23,6 +23,6 @@ return array (
       ),
     ),
   ),
-  'value' => 1,
+  'value' => 2,
   'extension' => 'Core',
 );
