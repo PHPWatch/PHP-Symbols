@@ -47,6 +47,7 @@ return array (
     'ROUND_TOWARD_ZERO' => 2,
     'ROUND_AWAY_FROM_ZERO' => 3,
     'ROUND_HALFEVEN' => 4,
+    'ROUND_HALFODD' => 8,
     'ROUND_HALFDOWN' => 5,
     'ROUND_HALFUP' => 6,
     'PAD_BEFORE_PREFIX' => 0,
