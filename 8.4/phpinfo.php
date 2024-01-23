@@ -10,7 +10,7 @@ Configuration
 
 amqp
 
-Version => 2.1.1
+Version => 2.1.2
 Compiled => __DYNAMIC__
 AMQP protocol version => 0-9-1
 librabbitmq version => 0.10.0
@@ -416,15 +416,6 @@ imagick.set_single_thread => 1 => 1
 imagick.shutdown_sleep_count => 10 => 10
 imagick.skip_version_check => 0 => 0
 
-imap
-
-IMAP c-Client Version => 2007f
-SSL Support => enabled
-Kerberos Support => enabled
-
-Directive => Local Value => Master Value
-imap.enable_insecure_rsh => Off => Off
-
 intl
 
 Internationalization support => enabled
@@ -674,7 +665,7 @@ pcntl support => enabled
 pcre
 
 PCRE (Perl Compatible Regular Expressions) Support => enabled
-PCRE Library Version => 10.40 2022-04-14
+PCRE Library Version => 10.42 2022-12-11
 PCRE Unicode Version => 14.0.0
 PCRE JIT Support => enabled
 PCRE JIT Target => x86 64bit (little endian + unaligned)
@@ -1277,7 +1268,6 @@ GD imaging => Rasmus Lerdorf, Stig Bakken, Jim Winstead, Jouni Ahto, Ilia Alshan
 GetText => Alex Plotnick
 GNU GMP support => Stanislav Malyshev
 Iconv => Rui Hirokawa, Stig Bakken, Moriyoshi Koizumi
-IMAP => Rex Logan, Mark Musone, Brian Wang, Kaj-Michael Lang, Antoni Pamies Olive, Rasmus Lerdorf, Andrew Skalski, Chuck Hagenbuch, Daniel R Kalowsky
 Input Filter => Rasmus Lerdorf, Derick Rethans, Pierre-Alain Joye, Ilia Alshanetsky
 Internationalization => Ed Batutis, Vladimir Iordanov, Dmitry Lakhtyuk, Stanislav Malyshev, Vadim Savchuk, Kirti Velankar
 JSON => Jakub Zelenka, Omar Kilani, Scott MacVicar

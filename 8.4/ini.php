@@ -697,12 +697,6 @@ return array (
     'local_value' => '0',
     'access' => 7,
   ),
-  'imap.enable_insecure_rsh' => 
-  array (
-    'global_value' => '0',
-    'local_value' => '0',
-    'access' => 4,
-  ),
   'implicit_flush' => 
   array (
     'global_value' => '1',
