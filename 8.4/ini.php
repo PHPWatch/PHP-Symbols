@@ -2565,8 +2565,8 @@ return array (
   ),
   'xdebug.control_socket' => 
   array (
-    'global_value' => 'time',
-    'local_value' => 'time',
+    'global_value' => 'default',
+    'local_value' => 'default',
     'access' => 7,
   ),
   'xdebug.coverage_enable' => 

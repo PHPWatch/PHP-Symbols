@@ -290,9 +290,9 @@ enchant
 enchant support => enabled
 Libenchant Version => 2.3.2
 
-aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
 hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
 hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
+aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
 
 exif
 
@@ -716,7 +716,7 @@ SQLite Library => 3.37.2
 pdo_sqlsrv
 
 pdo_sqlsrv support => enabled
-ExtensionVer => 5.11.1
+ExtensionVer => 5.12.0
 
 Directive => Local Value => Master Value
 pdo_sqlsrv.client_buffer_max_kb_size => 10240 => 10240
@@ -914,7 +914,7 @@ sqlite3.extension_dir => no value => no value
 sqlsrv
 
 sqlsrv support => enabled
-ExtensionVer => 5.11.1
+ExtensionVer => 5.12.0
 
 Directive => Local Value => Master Value
 sqlsrv.ClientBufferMaxKBSize => 10240 => 10240
@@ -996,6 +996,7 @@ Tracing => ✘ disabled
                             Optional Features                            
 Compressed File Support => yes (gzip)
 Clock Source => clock_gettime
+TSC Clock Source => available
 \'xdebug://gateway\' pseudo-host support => yes
 \'xdebug://nameserver\' pseudo-host support => yes
 Systemd Private Temp Directory => not enabled
