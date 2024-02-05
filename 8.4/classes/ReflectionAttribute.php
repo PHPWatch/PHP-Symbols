@@ -34,6 +34,19 @@ return array (
   ),
   'properties' => 
   array (
+    'name' => 
+    array (
+      'name' => 'name',
+      'class' => 'ReflectionAttribute',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
   ),
   'methods' => 
   array (
