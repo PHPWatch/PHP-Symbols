@@ -515,7 +515,8 @@ memcached
 
 memcached support => enabled
 Version => 3.2.0
-libmemcached-awesome version => 1.1.3
+libmemcached-awesome headers version => 1.1.3
+libmemcached-awesome library version => 1.1.4
 SASL support => yes
 Session support => yes
 igbinary support => yes

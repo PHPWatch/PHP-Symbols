@@ -18,6 +18,6 @@ return array (
     array (
     ),
   ),
-  'value' => '10.40 2022-04-14',
+  'value' => '10.42 2022-12-11',
   'extension' => 'pcre',
 );

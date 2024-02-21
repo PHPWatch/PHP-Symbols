@@ -519,7 +519,8 @@ memcached
 
 memcached support => enabled
 Version => 3.2.0
-libmemcached-awesome version => 1.1.3
+libmemcached-awesome headers version => 1.1.3
+libmemcached-awesome library version => 1.1.4
 SASL support => yes
 Session support => yes
 igbinary support => yes
@@ -846,7 +847,7 @@ pcov.initial.files => 64
 pcre
 
 PCRE (Perl Compatible Regular Expressions) Support => enabled
-PCRE Library Version => 10.40 2022-04-14
+PCRE Library Version => 10.42 2022-12-11
 PCRE Unicode Version => 14.0.0
 PCRE JIT Support => enabled
 PCRE JIT Target => x86 64bit (little endian + unaligned)

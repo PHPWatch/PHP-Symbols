@@ -129,11 +129,11 @@ extension_dir => /usr/lib/php/20230901 => /usr/lib/php/20230901
 fiber.stack_size => no value => no value
 file_uploads => On => On
 hard_timeout => 2 => 2
-highlight.comment => <font style="color: #FF8000">#FF8000</font> => <font style="color: #FF8000">#FF8000</font>
-highlight.default => <font style="color: #0000BB">#0000BB</font> => <font style="color: #0000BB">#0000BB</font>
-highlight.html => <font style="color: #000000">#000000</font> => <font style="color: #000000">#000000</font>
-highlight.keyword => <font style="color: #007700">#007700</font> => <font style="color: #007700">#007700</font>
-highlight.string => <font style="color: #DD0000">#DD0000</font> => <font style="color: #DD0000">#DD0000</font>
+highlight.comment => <span style="color: #FF8000">#FF8000</span> => <span style="color: #FF8000">#FF8000</span>
+highlight.default => <span style="color: #0000BB">#0000BB</span> => <span style="color: #0000BB">#0000BB</span>
+highlight.html => <span style="color: #000000">#000000</span> => <span style="color: #000000">#000000</span>
+highlight.keyword => <span style="color: #007700">#007700</span> => <span style="color: #007700">#007700</span>
+highlight.string => <span style="color: #DD0000">#DD0000</span> => <span style="color: #DD0000">#DD0000</span>
 html_errors => Off => Off
 ignore_repeated_errors => Off => Off
 ignore_repeated_source => Off => Off
@@ -321,7 +321,7 @@ ffi.preload => no value => no value
 fileinfo
 
 fileinfo support => enabled
-libmagic => 543
+libmagic => 545
 
 filter
 
@@ -508,7 +508,7 @@ memcached
 
 memcached support => enabled
 Version => 3.2.1-dev
-libmemcached-awesome headers version => 1.1.3
+libmemcached-awesome headers version => 1.1.4
 libmemcached-awesome library version => 1.0.18
 SASL support => yes
 Session support => yes
@@ -706,7 +706,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 16.1
+PostgreSQL(libpq) Version => 16.2
 
 pdo_sqlite
 
@@ -727,7 +727,7 @@ pdo_sqlsrv.set_locale_info => 2 => 2
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL (libpq) Version => 16.1
+PostgreSQL (libpq) Version => 16.2
 Multibyte character support => enabled
 Active Persistent Links => 0
 Active Links => 0
@@ -1278,12 +1278,10 @@ Multibyte String Functions => Tsukada Takuya, Rui Hirokawa
 MySQL driver for PDO => George Schlossnagle, Wez Furlong, Ilia Alshanetsky, Johannes Schlueter
 MySQLi => Zak Greant, Georg Richter, Andrey Hristov, Ulf Wendel
 MySQLnd => Andrey Hristov, Ulf Wendel, Georg Richter, Johannes Schlüter
-OCI8 => Stig Bakken, Thies C. Arntzen, Andy Sautins, David Benson, Maxim Maletsky, Harald Radi, Antony Dovgal, Andi Gutmans, Wez Furlong, Christopher Jones, Oracle Corporation
 ODBC driver for PDO => Wez Furlong
 ODBC => Stig Bakken, Andreas Karajannis, Frank M. Kromann, Daniel R. Kalowsky
 Opcache => Andi Gutmans, Zeev Suraski, Stanislav Malyshev, Dmitry Stogov, Xinchen Hui
 OpenSSL => Stig Venaas, Wez Furlong, Sascha Kettler, Scott MacVicar, Eliot Lear
-Oracle (OCI) driver for PDO => Wez Furlong
 pcntl => Jason Greene, Arnaud Le Blanc
 Perl Compatible Regexps => Andrei Zmievski
 PHP Archive => Gregory Beaver, Marcus Boerger

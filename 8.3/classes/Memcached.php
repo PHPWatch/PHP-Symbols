@@ -28,7 +28,7 @@ return array (
   ),
   'constants' => 
   array (
-    'LIBMEMCACHED_VERSION_HEX' => 16781315,
+    'LIBMEMCACHED_VERSION_HEX' => 16781316,
     'OPT_COMPRESSION' => -1001,
     'OPT_COMPRESSION_TYPE' => -1004,
     'OPT_COMPRESSION_LEVEL' => -1007,

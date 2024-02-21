@@ -97,7 +97,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.2.14
+PHP Version => 8.2.15
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -281,7 +281,7 @@ RelaxNG Support => enabled
 ds
 
 ds support => enabled
-ds version => 1.4.0
+ds version => 1.5.0
 
 enchant
 
@@ -515,7 +515,8 @@ memcached
 
 memcached support => enabled
 Version => 3.2.0
-libmemcached-awesome version => 1.1.3
+libmemcached-awesome headers version => 1.1.3
+libmemcached-awesome library version => 1.1.4
 SASL support => yes
 Session support => yes
 igbinary support => yes
@@ -593,7 +594,7 @@ msgpack.use_str8_serialization => On => On
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.2.14
+Client API library version => mysqlnd 8.2.15
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -614,7 +615,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.2.14
+Version => mysqlnd 8.2.15
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -677,7 +678,7 @@ pcov.initial.files => 64
 pcre
 
 PCRE (Perl Compatible Regular Expressions) Support => enabled
-PCRE Library Version => 10.40 2022-04-14
+PCRE Library Version => 10.42 2022-12-11
 PCRE Unicode Version => 14.0.0
 PCRE JIT Support => enabled
 PCRE JIT Target => x86 64bit (little endian + unaligned)
@@ -705,7 +706,7 @@ Client Library Version => LI-V6.3.8.33535 Firebird 3.0
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.2.14
+Client API version => mysqlnd 8.2.15
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -718,7 +719,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 16.1
+PostgreSQL(libpq) Version => 16.2
 
 pdo_sqlite
 
@@ -728,7 +729,7 @@ SQLite Library => 3.37.2
 pdo_sqlsrv
 
 pdo_sqlsrv support => enabled
-ExtensionVer => 5.11.1
+ExtensionVer => 5.12.0
 
 Directive => Local Value => Master Value
 pdo_sqlsrv.client_buffer_max_kb_size => 10240 => 10240
@@ -739,7 +740,7 @@ pdo_sqlsrv.set_locale_info => 2 => 2
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL (libpq) Version => 16.1
+PostgreSQL (libpq) Version => 16.2
 Multibyte character support => enabled
 Active Persistent Links => 0
 Active Links => 0
@@ -782,7 +783,7 @@ PSpell Support => enabled
 
 random
 
-Version => 8.2.14
+Version => 8.2.15
 
 readline
 
@@ -931,7 +932,7 @@ sqlite3.extension_dir => no value => no value
 sqlsrv
 
 sqlsrv support => enabled
-ExtensionVer => 5.11.1
+ExtensionVer => 5.12.0
 
 Directive => Local Value => Master Value
 sqlsrv.ClientBufferMaxKBSize => 10240 => 10240
@@ -998,7 +999,7 @@ xdebug
 [1m                              __/ |
 [1m                             |___/ 
 
-[0mVersion => 3.3.0
+[0mVersion => 3.3.1
 Support Xdebug on Patreon, GitHub, or as a business: https://xdebug.org/support
 
              Enabled Features (through \'xdebug.mode\' setting)             
@@ -1011,7 +1012,7 @@ Step Debugger => ✘ disabled
 Tracing => ✘ disabled
 
                             Optional Features                            
-Compressed File Support => no
+Compressed File Support => yes (gzip)
 Clock Source => clock_gettime
 \'xdebug://gateway\' pseudo-host support => yes
 \'xdebug://nameserver\' pseudo-host support => yes
@@ -1090,7 +1091,7 @@ xdebug.trace_options => 0 => 0
 xdebug.trace_output_dir => (setting renamed in Xdebug 3) => (setting renamed in Xdebug 3)
 xdebug.trace_output_name => trace.%c => trace.%c
 xdebug.trigger_value => no value => no value
-xdebug.use_compression => 0 => 0
+xdebug.use_compression => 1 => 1
 xdebug.var_display_max_children => 128 => 128
 xdebug.var_display_max_data => 512 => 512
 xdebug.var_display_max_depth => 3 => 3

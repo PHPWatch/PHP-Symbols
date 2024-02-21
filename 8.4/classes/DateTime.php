@@ -452,6 +452,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getMicroseconds' => 
+    array (
+      'name' => 'getMicroseconds',
+      'class' => 'DateTime',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'setTime' => 
     array (
       'name' => 'setTime',
@@ -614,6 +628,31 @@ return array (
         array (
           'position' => 0,
           'name' => 'timestamp',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setMicroseconds' => 
+    array (
+      'name' => 'setMicroseconds',
+      'class' => 'DateTime',
+      'parameters' => 
+      array (
+        'microseconds' => 
+        array (
+          'position' => 0,
+          'name' => 'microseconds',
           'type' => 'int',
           'is_optional' => false,
           'has_default_value' => false,

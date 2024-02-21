@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'T_RETURN',
+  'name' => 'LDAP_OPT_X_TLS_PROTOCOL_TLS1_3',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'T_RETURN',
+    'name' => 'LDAP_OPT_X_TLS_PROTOCOL_TLS1_3',
     'description' => '',
     'keywords' => 
     array (
@@ -18,6 +18,6 @@ return array (
     array (
     ),
   ),
-  'value' => 313,
-  'extension' => 'tokenizer',
+  'value' => 772,
+  'extension' => 'ldap',
 );

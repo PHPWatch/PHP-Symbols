@@ -2949,8 +2949,8 @@ return array (
   ),
   'xdebug.use_compression' => 
   array (
-    'global_value' => '0',
-    'local_value' => '0',
+    'global_value' => '1',
+    'local_value' => '1',
     'access' => 7,
   ),
   'xdebug.var_display_max_children' => 

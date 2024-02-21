@@ -215,7 +215,7 @@ return array (
     'PREG_BAD_UTF8_ERROR' => 4,
     'PREG_BAD_UTF8_OFFSET_ERROR' => 5,
     'PREG_JIT_STACKLIMIT_ERROR' => 6,
-    'PCRE_VERSION' => '10.40 2022-04-14',
+    'PCRE_VERSION' => '10.42 2022-12-11',
     'PCRE_VERSION_MAJOR' => 10,
     'PCRE_VERSION_MINOR' => 40,
     'PCRE_JIT_SUPPORT' => true,
@@ -2632,8 +2632,8 @@ return array (
   ),
   'pgsql' => 
   array (
-    'PGSQL_LIBPQ_VERSION' => '16.1',
-    'PGSQL_LIBPQ_VERSION_STR' => '16.1',
+    'PGSQL_LIBPQ_VERSION' => '16.2',
+    'PGSQL_LIBPQ_VERSION_STR' => '16.2',
     'PGSQL_CONNECT_FORCE_NEW' => 2,
     'PGSQL_CONNECT_ASYNC' => 4,
     'PGSQL_ASSOC' => 1,

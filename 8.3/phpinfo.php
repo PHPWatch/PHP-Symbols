@@ -10,7 +10,7 @@ Configuration
 
 amqp
 
-Version => 2.1.1
+Version => 2.1.2
 Compiled => __DYNAMIC__
 AMQP protocol version => 0-9-1
 librabbitmq version => 0.10.0
@@ -97,7 +97,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.3.2
+PHP Version => 8.3.3
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -517,7 +517,7 @@ memcached
 
 memcached support => enabled
 Version => 3.2.1-dev
-libmemcached-awesome headers version => 1.1.3
+libmemcached-awesome headers version => 1.1.4
 libmemcached-awesome library version => 1.0.18
 SASL support => yes
 Session support => yes
@@ -599,7 +599,7 @@ msgpack.use_str8_serialization => On => On
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.3.2
+Client API library version => mysqlnd 8.3.3
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -620,7 +620,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.3.2
+Version => mysqlnd 8.3.3
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -702,7 +702,7 @@ Client Library Version => LI-V6.3.8.33535 Firebird 3.0
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.3.2
+Client API version => mysqlnd 8.3.3
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -715,7 +715,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 16.1
+PostgreSQL(libpq) Version => 16.2
 
 pdo_sqlite
 
@@ -725,7 +725,7 @@ SQLite Library => 3.37.2
 pdo_sqlsrv
 
 pdo_sqlsrv support => enabled
-ExtensionVer => 5.11.1
+ExtensionVer => 5.12.0
 
 Directive => Local Value => Master Value
 pdo_sqlsrv.client_buffer_max_kb_size => 10240 => 10240
@@ -736,7 +736,7 @@ pdo_sqlsrv.set_locale_info => 2 => 2
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL (libpq) Version => 16.1
+PostgreSQL (libpq) Version => 16.2
 Multibyte character support => enabled
 Active Persistent Links => 0
 Active Links => 0
@@ -779,7 +779,7 @@ PSpell Support => enabled
 
 random
 
-Version => 8.3.2
+Version => 8.3.3
 
 readline
 
@@ -927,7 +927,7 @@ sqlite3.extension_dir => no value => no value
 sqlsrv
 
 sqlsrv support => enabled
-ExtensionVer => 5.11.1
+ExtensionVer => 5.12.0
 
 Directive => Local Value => Master Value
 sqlsrv.ClientBufferMaxKBSize => 10240 => 10240
