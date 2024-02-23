@@ -298,6 +298,31 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'quote' => 
+    array (
+      'name' => 'quote',
+      'class' => 'DOMXPath',
+      'parameters' => 
+      array (
+        'str' => 
+        array (
+          'position' => 0,
+          'name' => 'str',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'string',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'traits' => 
   array (
