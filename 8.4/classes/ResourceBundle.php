@@ -141,7 +141,7 @@ return array (
         array (
           'position' => 0,
           'name' => 'index',
-          'type' => NULL,
+          'type' => 'string|int',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
