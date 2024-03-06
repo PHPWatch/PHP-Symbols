@@ -269,9 +269,9 @@ enchant
 enchant support => enabled
 Version => 7.2.34-43+ubuntu22.04.1+deb.sury.org+1
 
+aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
 hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
 hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
-aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
 
 exif
 
@@ -424,7 +424,7 @@ Internationalization support => enabled
 version => 1.1.0
 ICU version => 70.1
 ICU Data version => 70.1
-ICU TZData version => 2023c
+ICU TZData version => 2024a
 ICU Unicode version => 14.0
 
 Directive => Local Value => Master Value
