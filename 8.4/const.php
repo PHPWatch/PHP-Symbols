@@ -222,9 +222,9 @@ return array (
     'PREG_BAD_UTF8_ERROR' => 4,
     'PREG_BAD_UTF8_OFFSET_ERROR' => 5,
     'PREG_JIT_STACKLIMIT_ERROR' => 6,
-    'PCRE_VERSION' => '10.42 2022-12-11',
+    'PCRE_VERSION' => '10.43 2024-02-16',
     'PCRE_VERSION_MAJOR' => 10,
-    'PCRE_VERSION_MINOR' => 42,
+    'PCRE_VERSION_MINOR' => 43,
     'PCRE_JIT_SUPPORT' => true,
   ),
   'zlib' => 

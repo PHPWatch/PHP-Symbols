@@ -316,15 +316,15 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
-    'getMicroseconds' => 
+    'getMicrosecond' => 
     array (
-      'name' => 'getMicroseconds',
+      'name' => 'getMicrosecond',
       'class' => 'DateTimeImmutable',
       'parameters' => 
       array (
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => 'int',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -643,16 +643,16 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
-    'setMicroseconds' => 
+    'setMicrosecond' => 
     array (
-      'name' => 'setMicroseconds',
+      'name' => 'setMicrosecond',
       'class' => 'DateTimeImmutable',
       'parameters' => 
       array (
-        'microseconds' => 
+        'microsecond' => 
         array (
           'position' => 0,
-          'name' => 'microseconds',
+          'name' => 'microsecond',
           'type' => 'int',
           'is_optional' => false,
           'has_default_value' => false,
@@ -661,8 +661,8 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => 'static',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,

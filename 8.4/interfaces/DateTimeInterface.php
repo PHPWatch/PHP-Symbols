@@ -115,6 +115,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getMicrosecond' => 
+    array (
+      'name' => 'getMicrosecond',
+      'class' => 'DateTimeInterface',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'int',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'diff' => 
     array (
       'name' => 'diff',
