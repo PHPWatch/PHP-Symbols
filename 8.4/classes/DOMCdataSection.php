@@ -198,7 +198,7 @@ return array (
     array (
       'name' => 'ownerDocument',
       'class' => 'DOMNode',
-      'type' => '?DOM\\Document',
+      'type' => '?DOMDocument',
       'has_default_value' => false,
       'default_value' => NULL,
       'is_static' => false,

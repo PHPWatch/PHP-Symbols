@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'class',
-  'name' => 'DOMXPath',
+  'name' => 'DOM\\XPath',
   'meta' => 
   array (
     'type' => 'class',
-    'name' => 'DOMXPath',
+    'name' => 'DOM\\XPath',
     'description' => '',
     'keywords' => 
     array (
@@ -18,8 +18,8 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'DOMXPath class (php.net)',
-        'url' => 'https://www.php.net/manual/class.domxpath.php',
+        'name' => 'DOM\\XPath class (php.net)',
+        'url' => 'https://www.php.net/manual/class.dom-xpath.php',
       ),
     ),
   ),
@@ -34,8 +34,8 @@ return array (
     'document' => 
     array (
       'name' => 'document',
-      'class' => 'DOMXPath',
-      'type' => 'DOMDocument',
+      'class' => 'DOM\\XPath',
+      'type' => 'DOM\\Document',
       'has_default_value' => false,
       'default_value' => NULL,
       'is_static' => false,
@@ -47,7 +47,7 @@ return array (
     'registerNodeNamespaces' => 
     array (
       'name' => 'registerNodeNamespaces',
-      'class' => 'DOMXPath',
+      'class' => 'DOM\\XPath',
       'type' => 'bool',
       'has_default_value' => false,
       'default_value' => NULL,
@@ -63,14 +63,14 @@ return array (
     '__construct' => 
     array (
       'name' => '__construct',
-      'class' => 'DOMXPath',
+      'class' => 'DOM\\XPath',
       'parameters' => 
       array (
         'document' => 
         array (
           'position' => 0,
           'name' => 'document',
-          'type' => 'DOMDocument',
+          'type' => 'DOM\\Document',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -99,7 +99,7 @@ return array (
     'evaluate' => 
     array (
       'name' => 'evaluate',
-      'class' => 'DOMXPath',
+      'class' => 'DOM\\XPath',
       'parameters' => 
       array (
         'expression' => 
@@ -117,7 +117,7 @@ return array (
         array (
           'position' => 1,
           'name' => 'contextNode',
-          'type' => '?DOMNode',
+          'type' => '?DOM\\Node',
           'is_optional' => true,
           'has_default_value' => true,
           'default_value' => NULL,
@@ -136,8 +136,8 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => 'DOM\\NodeList|string|float|bool|null',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -146,7 +146,7 @@ return array (
     'query' => 
     array (
       'name' => 'query',
-      'class' => 'DOMXPath',
+      'class' => 'DOM\\XPath',
       'parameters' => 
       array (
         'expression' => 
@@ -164,7 +164,7 @@ return array (
         array (
           'position' => 1,
           'name' => 'contextNode',
-          'type' => '?DOMNode',
+          'type' => '?DOM\\Node',
           'is_optional' => true,
           'has_default_value' => true,
           'default_value' => NULL,
@@ -183,8 +183,8 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => 'DOM\\NodeList',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -193,7 +193,7 @@ return array (
     'registerNamespace' => 
     array (
       'name' => 'registerNamespace',
-      'class' => 'DOMXPath',
+      'class' => 'DOM\\XPath',
       'parameters' => 
       array (
         'prefix' => 
@@ -219,8 +219,8 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => 'bool',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -229,7 +229,7 @@ return array (
     'registerPhpFunctions' => 
     array (
       'name' => 'registerPhpFunctions',
-      'class' => 'DOMXPath',
+      'class' => 'DOM\\XPath',
       'parameters' => 
       array (
         'restrict' => 
@@ -244,8 +244,8 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => 'void',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -254,7 +254,7 @@ return array (
     'registerPhpFunctionNS' => 
     array (
       'name' => 'registerPhpFunctionNS',
-      'class' => 'DOMXPath',
+      'class' => 'DOM\\XPath',
       'parameters' => 
       array (
         'namespaceURI' => 
@@ -301,7 +301,7 @@ return array (
     'quote' => 
     array (
       'name' => 'quote',
-      'class' => 'DOMXPath',
+      'class' => 'DOM\\XPath',
       'parameters' => 
       array (
         'str' => 
@@ -330,6 +330,6 @@ return array (
   'is_abstract' => false,
   'is_anonymous' => false,
   'is_cloneable' => false,
-  'is_final' => false,
+  'is_final' => true,
   'is_read_only' => false,
 );
