@@ -575,7 +575,7 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => 'string|false',
+      'return_type' => 'string',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
