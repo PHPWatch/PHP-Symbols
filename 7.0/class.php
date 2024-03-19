@@ -277,7 +277,4 @@ return array (
   'Ds\\Set',
   'Ds\\PriorityQueue',
   'Ds\\Pair',
-  'ComposerAutoloaderInit0445a2b4ab8a43839770488aa42e8d72',
-  'Composer\\Autoload\\ClassLoader',
-  'Composer\\Autoload\\ComposerStaticInit0445a2b4ab8a43839770488aa42e8d72',
 );

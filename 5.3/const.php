@@ -2513,7 +2513,7 @@ return array (
     'http\\Client\\Curl\\Features\\TLSAUTH_SRP' => 16384,
     'http\\Client\\Curl\\Features\\NTLM_WB' => 32768,
     'http\\Client\\Curl\\Features\\HTTP2' => 65536,
-    'http\\Client\\Curl\\VERSIONS' => 'libcurl/7.81.0 GnuTLS/3.7.3 zlib/1.2.11 brotli/1.0.9 zstd/1.4.8 libidn2/2.3.2 libpsl/0.21.0 (+libidn2/2.3.2) libssh/0.9.6/openssl/zlib nghttp2/1.43.0 librtmp/2.3 OpenLDAP/2.5.17',
+    'http\\Client\\Curl\\VERSIONS' => 'libcurl/7.81.0 GnuTLS/3.7.3 zlib/1.2.11 brotli/1.0.9 zstd/1.4.8 libidn2/2.3.2 libpsl/0.21.0 (+libidn2/2.3.2) libssh/0.9.6/openssl/zlib nghttp2/1.43.0 librtmp/2.3 OpenLDAP/2.5.16',
     'http\\Client\\Curl\\Versions\\CURL' => '7.81.0',
     'http\\Client\\Curl\\Versions\\SSL' => 'GnuTLS/3.7.3',
     'http\\Client\\Curl\\Versions\\LIBZ' => '1.2.11',

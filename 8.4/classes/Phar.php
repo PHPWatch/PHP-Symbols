@@ -1472,7 +1472,7 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => 'bool',
+      'return_type' => 'true',
       'has_return_type' => true,
       'is_static' => true,
       'is_public' => true,

@@ -290,7 +290,4 @@ return array (
   'ZMQDeviceException',
   'Memcached',
   'MemcachedException',
-  'ComposerAutoloaderInitc2a5438a5c0dc2f462ca9a4f615635cf',
-  'Composer\\Autoload\\ClassLoader',
-  'Composer\\Autoload\\ComposerStaticInitc2a5438a5c0dc2f462ca9a4f615635cf',
 );

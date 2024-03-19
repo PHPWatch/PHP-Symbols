@@ -296,6 +296,4 @@ return array (
   'http\\Params',
   'Memcached',
   'MemcachedException',
-  'ComposerAutoloaderInitdf1ebd696b0a66791eb3d48b97deee75',
-  'Composer\\Autoload\\ClassLoader',
 );

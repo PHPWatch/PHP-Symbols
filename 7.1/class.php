@@ -281,7 +281,4 @@ return array (
   'Ds\\Set',
   'Ds\\PriorityQueue',
   'Ds\\Pair',
-  'ComposerAutoloaderInitc0b68d221fb961779dec25189822a556',
-  'Composer\\Autoload\\ClassLoader',
-  'Composer\\Autoload\\ComposerStaticInitc0b68d221fb961779dec25189822a556',
 );

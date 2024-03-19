@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => '0.0',
+    'added' => NULL,
     'deprecated' => NULL,
     'removed' => NULL,
     'resources' => 
