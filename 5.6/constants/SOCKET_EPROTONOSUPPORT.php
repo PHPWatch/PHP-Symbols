@@ -1,0 +1,23 @@
+<?php
+
+return array (
+  'type' => 'constant',
+  'name' => 'SOCKET_EPROTONOSUPPORT',
+  'meta' => 
+  array (
+    'type' => 'constant',
+    'name' => 'SOCKET_EPROTONOSUPPORT',
+    'description' => '',
+    'keywords' => 
+    array (
+    ),
+    'added' => '0.0',
+    'deprecated' => NULL,
+    'removed' => NULL,
+    'resources' => 
+    array (
+    ),
+  ),
+  'value' => 93,
+  'extension' => 'sockets',
+);

@@ -1,0 +1,33 @@
+<?php
+
+return array (
+  'type' => 'function',
+  'name' => 'getmygid',
+  'meta' => 
+  array (
+    'type' => 'function',
+    'name' => 'getmygid',
+    'description' => '',
+    'keywords' => 
+    array (
+    ),
+    'added' => NULL,
+    'deprecated' => NULL,
+    'removed' => NULL,
+    'resources' => 
+    array (
+      0 => 
+      array (
+        'name' => 'getmygid function (php.net)',
+        'url' => 'https://www.php.net/manual/function.getmygid.php',
+      ),
+    ),
+  ),
+  'parameters' => 
+  array (
+  ),
+  'return' => 
+  array (
+  ),
+  'extension' => 'standard',
+);

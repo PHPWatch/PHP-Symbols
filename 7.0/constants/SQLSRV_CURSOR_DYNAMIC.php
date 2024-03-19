@@ -1,0 +1,23 @@
+<?php
+
+return array (
+  'type' => 'constant',
+  'name' => 'SQLSRV_CURSOR_DYNAMIC',
+  'meta' => 
+  array (
+    'type' => 'constant',
+    'name' => 'SQLSRV_CURSOR_DYNAMIC',
+    'description' => '',
+    'keywords' => 
+    array (
+    ),
+    'added' => '0.0',
+    'deprecated' => NULL,
+    'removed' => NULL,
+    'resources' => 
+    array (
+    ),
+  ),
+  'value' => 'dynamic',
+  'extension' => 'sqlsrv',
+);

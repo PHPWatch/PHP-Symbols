@@ -1,0 +1,23 @@
+<?php
+
+return array (
+  'type' => 'constant',
+  'name' => 'T_DO',
+  'meta' => 
+  array (
+    'type' => 'constant',
+    'name' => 'T_DO',
+    'description' => '',
+    'keywords' => 
+    array (
+    ),
+    'added' => '0.0',
+    'deprecated' => NULL,
+    'removed' => NULL,
+    'resources' => 
+    array (
+    ),
+  ),
+  'value' => 320,
+  'extension' => 'tokenizer',
+);
