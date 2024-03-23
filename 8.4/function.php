@@ -1617,6 +1617,8 @@ return array (
   'mb_convert_case',
   'mb_strtoupper',
   'mb_strtolower',
+  'mb_ucfirst',
+  'mb_lcfirst',
   'mb_trim',
   'mb_ltrim',
   'mb_rtrim',
