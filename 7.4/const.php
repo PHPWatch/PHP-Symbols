@@ -969,12 +969,12 @@ return array (
   ),
   'amqp' => 
   array (
-    'AMQP_EXTENSION_VERSION' => '2.1.1',
+    'AMQP_EXTENSION_VERSION' => '2.1.2',
     'AMQP_EXTENSION_VERSION_MAJOR' => 2,
     'AMQP_EXTENSION_VERSION_MINOR' => 1,
-    'AMQP_EXTENSION_VERSION_PATCH' => 1,
+    'AMQP_EXTENSION_VERSION_PATCH' => 2,
     'AMQP_EXTENSION_VERSION_EXTRA' => '',
-    'AMQP_EXTENSION_VERSION_ID' => 20101,
+    'AMQP_EXTENSION_VERSION_ID' => 20102,
     'AMQP_NOPARAM' => 0,
     'AMQP_JUST_CONSUME' => 1,
     'AMQP_DURABLE' => 2,
@@ -2409,7 +2409,7 @@ return array (
   ),
   'mongodb' => 
   array (
-    'MONGODB_VERSION' => '1.17.2',
+    'MONGODB_VERSION' => '1.17.3',
     'MONGODB_STABILITY' => 'stable',
   ),
   'msgpack' => 

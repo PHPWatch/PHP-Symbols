@@ -10,7 +10,7 @@ Configuration
 
 amqp
 
-Version => 2.1.1
+Version => 2.1.2
 Compiled => __DYNAMIC__
 AMQP protocol version => 0-9-1
 librabbitmq version => 0.10.0
@@ -547,10 +547,10 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.17.2
+MongoDB extension version => 1.17.3
 MongoDB extension stability => stable
-libbson bundled version => 1.25.2
-libmongoc bundled version => 1.25.2
+libbson bundled version => 1.25.4
+libmongoc bundled version => 1.25.4
 libmongoc SSL => enabled
 libmongoc SSL library => OpenSSL
 libmongoc crypto => enabled
@@ -562,7 +562,7 @@ libmongoc compression => enabled
 libmongoc compression snappy => disabled
 libmongoc compression zlib => enabled
 libmongoc compression zstd => disabled
-libmongocrypt bundled version => 1.8.2
+libmongocrypt bundled version => 1.8.4
 libmongocrypt crypto => enabled
 libmongocrypt crypto library => libcrypto
 crypt_shared library version => unknown

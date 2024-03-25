@@ -18,6 +18,6 @@ return array (
     array (
     ),
   ),
-  'value' => '2.1.1',
+  'value' => '2.1.2',
   'extension' => 'amqp',
 );
