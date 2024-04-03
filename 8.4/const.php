@@ -2513,7 +2513,7 @@ return array (
   ),
   'mongodb' => 
   array (
-    'MONGODB_VERSION' => '1.17.3',
+    'MONGODB_VERSION' => '1.18.0',
     'MONGODB_STABILITY' => 'stable',
   ),
   'msgpack' => 
@@ -3003,6 +3003,7 @@ return array (
     'SKF_AD_VLAN_TPID' => 60,
     'SKF_AD_MAX' => 64,
     'TCP_CONGESTION' => 13,
+    'TCP_SYNCNT' => 7,
     'SO_ZEROCOPY' => 60,
     'TCP_NODELAY' => 1,
     'TCP_NOTSENT_LOWAT' => 25,

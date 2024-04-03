@@ -551,10 +551,10 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.17.3
+MongoDB extension version => 1.18.0
 MongoDB extension stability => stable
-libbson bundled version => 1.25.4
-libmongoc bundled version => 1.25.4
+libbson bundled version => 1.26.1
+libmongoc bundled version => 1.26.1
 libmongoc SSL => enabled
 libmongoc SSL library => OpenSSL
 libmongoc crypto => enabled
@@ -566,7 +566,7 @@ libmongoc compression => enabled
 libmongoc compression snappy => disabled
 libmongoc compression zlib => enabled
 libmongoc compression zstd => enabled
-libmongocrypt bundled version => 1.8.4
+libmongocrypt bundled version => 1.9.1
 libmongocrypt crypto => enabled
 libmongocrypt crypto library => libcrypto
 crypt_shared library version => unknown

@@ -57,6 +57,32 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
+    'maxTemplateDepth' => 
+    array (
+      'name' => 'maxTemplateDepth',
+      'class' => 'XSLTProcessor',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'maxTemplateVars' => 
+    array (
+      'name' => 'maxTemplateVars',
+      'class' => 'XSLTProcessor',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
   ),
   'methods' => 
   array (

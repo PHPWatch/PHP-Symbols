@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'MONGODB_VERSION',
+  'name' => 'TCP_SYNCNT',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'MONGODB_VERSION',
+    'name' => 'TCP_SYNCNT',
     'description' => '',
     'keywords' => 
     array (
@@ -18,6 +18,6 @@ return array (
     array (
     ),
   ),
-  'value' => '1.18.0',
-  'extension' => 'mongodb',
+  'value' => 7,
+  'extension' => 'sockets',
 );
