@@ -276,6 +276,8 @@ return array (
   'pcntl_strerror',
   'pcntl_async_signals',
   'pcntl_unshare',
+  'pcntl_getcpuaffinity',
+  'pcntl_setcpuaffinity',
   'lcg_value',
   'mt_srand',
   'srand',
