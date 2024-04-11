@@ -278,6 +278,7 @@ return array (
   'pcntl_unshare',
   'pcntl_getcpuaffinity',
   'pcntl_setcpuaffinity',
+  'pcntl_getcpu',
   'lcg_value',
   'mt_srand',
   'srand',
