@@ -97,7 +97,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.3.4
+PHP Version => 8.3.6
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -448,7 +448,7 @@ LDAP Support => enabled
 Total Links => 0/unlimited
 API Version => 3001
 Vendor Name => OpenLDAP
-Vendor Version => 20516
+Vendor Version => 20517
 SASL Support => Enabled
 
 Directive => Local Value => Master Value
@@ -560,10 +560,10 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.17.2
+MongoDB extension version => 1.18.0
 MongoDB extension stability => stable
-libbson bundled version => 1.25.2
-libmongoc bundled version => 1.25.2
+libbson bundled version => 1.26.1
+libmongoc bundled version => 1.26.1
 libmongoc SSL => enabled
 libmongoc SSL library => OpenSSL
 libmongoc crypto => enabled
@@ -575,7 +575,7 @@ libmongoc compression => enabled
 libmongoc compression snappy => disabled
 libmongoc compression zlib => enabled
 libmongoc compression zstd => enabled
-libmongocrypt bundled version => 1.8.2
+libmongocrypt bundled version => 1.9.1
 libmongocrypt crypto => enabled
 libmongocrypt crypto library => libcrypto
 crypt_shared library version => unknown
@@ -599,7 +599,7 @@ msgpack.use_str8_serialization => On => On
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.3.4
+Client API library version => mysqlnd 8.3.6
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -620,7 +620,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.3.4
+Version => mysqlnd 8.3.6
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -702,7 +702,7 @@ Client Library Version => LI-V6.3.8.33535 Firebird 3.0
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.3.4
+Client API version => mysqlnd 8.3.6
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -779,7 +779,7 @@ PSpell Support => enabled
 
 random
 
-Version => 8.3.4
+Version => 8.3.6
 
 readline
 

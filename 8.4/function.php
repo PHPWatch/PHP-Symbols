@@ -1465,6 +1465,7 @@ return array (
   'grapheme_substr',
   'grapheme_strstr',
   'grapheme_stristr',
+  'grapheme_str_split',
   'grapheme_extract',
   'idn_to_ascii',
   'idn_to_utf8',

@@ -90,20 +90,6 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
-    '__wakeup' => 
-    array (
-      'name' => '__wakeup',
-      'class' => 'MongoDB\\Driver\\Monitoring\\TopologyChangedEvent',
-      'parameters' => 
-      array (
-      ),
-      'return_type' => 'void',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
   ),
   'traits' => 
   array (

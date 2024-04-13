@@ -136,6 +136,7 @@ return array (
   '__PHP_Incomplete_Class',
   'AssertionError',
   'php_user_filter',
+  'StreamBucket',
   'Directory',
   'SodiumException',
   'PDOException',
