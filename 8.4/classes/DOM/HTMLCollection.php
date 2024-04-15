@@ -75,6 +75,31 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'namedItem' => 
+    array (
+      'name' => 'namedItem',
+      'class' => 'DOM\\HTMLCollection',
+      'parameters' => 
+      array (
+        'key' => 
+        array (
+          'position' => 0,
+          'name' => 'key',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => '?DOM\\Element',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'count' => 
     array (
       'name' => 'count',
