@@ -82,6 +82,7 @@ return array (
   'ReflectionEnumUnitCase',
   'ReflectionEnumBackedCase',
   'ReflectionFiber',
+  'ReflectionConstant',
   'LogicException',
   'BadFunctionCallException',
   'BadMethodCallException',
