@@ -327,6 +327,8 @@ return array (
   'mysqli_warning',
   'mysqli_result',
   'mysqli_stmt',
+  'Odbc\\Connection',
+  'Odbc\\Result',
   'PdoDblib',
   'PdoFirebird',
   'PdoMysql',
