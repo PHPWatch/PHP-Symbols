@@ -320,6 +320,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'isDeprecated' => 
+    array (
+      'name' => 'isDeprecated',
+      'class' => 'ReflectionClassConstant',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'hasType' => 
     array (
       'name' => 'hasType',

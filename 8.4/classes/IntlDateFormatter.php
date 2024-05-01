@@ -551,6 +551,42 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'parseToCalendar' => 
+    array (
+      'name' => 'parseToCalendar',
+      'class' => 'IntlDateFormatter',
+      'parameters' => 
+      array (
+        'string' => 
+        array (
+          'position' => 0,
+          'name' => 'string',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'offset' => 
+        array (
+          'position' => 1,
+          'name' => 'offset',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'int|float|false',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'localtime' => 
     array (
       'name' => 'localtime',
