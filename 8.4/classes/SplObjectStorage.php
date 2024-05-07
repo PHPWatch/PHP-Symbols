@@ -26,10 +26,11 @@ return array (
   'interfaces' => 
   array (
     0 => 'Countable',
-    1 => 'Iterator',
+    1 => 'SeekableIterator',
     2 => 'Traversable',
-    3 => 'Serializable',
-    4 => 'ArrayAccess',
+    3 => 'Iterator',
+    4 => 'Serializable',
+    5 => 'ArrayAccess',
   ),
   'constants' => 
   array (
@@ -329,6 +330,31 @@ return array (
       ),
       'return_type' => NULL,
       'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'seek' => 
+    array (
+      'name' => 'seek',
+      'class' => 'SplObjectStorage',
+      'parameters' => 
+      array (
+        'offset' => 
+        array (
+          'position' => 0,
+          'name' => 'offset',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,

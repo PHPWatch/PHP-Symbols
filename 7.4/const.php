@@ -206,7 +206,7 @@ return array (
     'PREG_JIT_STACKLIMIT_ERROR' => 6,
     'PCRE_VERSION' => '10.42 2022-12-11',
     'PCRE_VERSION_MAJOR' => 10,
-    'PCRE_VERSION_MINOR' => 40,
+    'PCRE_VERSION_MINOR' => 42,
     'PCRE_JIT_SUPPORT' => true,
   ),
   'zlib' => 
@@ -2409,7 +2409,7 @@ return array (
   ),
   'mongodb' => 
   array (
-    'MONGODB_VERSION' => '1.17.3',
+    'MONGODB_VERSION' => '1.18.1',
     'MONGODB_STABILITY' => 'stable',
   ),
   'msgpack' => 
@@ -2599,8 +2599,8 @@ return array (
   ),
   'pgsql' => 
   array (
-    'PGSQL_LIBPQ_VERSION' => '14.9 (Ubuntu 14.9-0ubuntu0.22.04.1)',
-    'PGSQL_LIBPQ_VERSION_STR' => 'PostgreSQL 14.9 (Ubuntu 14.9-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit',
+    'PGSQL_LIBPQ_VERSION' => '14.11 (Ubuntu 14.11-0ubuntu0.22.04.1)',
+    'PGSQL_LIBPQ_VERSION_STR' => 'PostgreSQL 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit',
     'PGSQL_CONNECT_FORCE_NEW' => 2,
     'PGSQL_CONNECT_ASYNC' => 4,
     'PGSQL_ASSOC' => 1,

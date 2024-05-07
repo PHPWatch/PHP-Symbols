@@ -437,7 +437,7 @@ LDAP Support => enabled
 Total Links => 0/unlimited
 API Version => 3001
 Vendor Name => OpenLDAP
-Vendor Version => 20516
+Vendor Version => 20517
 SASL Support => Enabled
 
 Directive => Local Value => Master Value
@@ -548,10 +548,10 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.17.3
+MongoDB extension version => 1.18.1
 MongoDB extension stability => stable
-libbson bundled version => 1.25.4
-libmongoc bundled version => 1.25.4
+libbson bundled version => 1.26.2
+libmongoc bundled version => 1.26.2
 libmongoc SSL => enabled
 libmongoc SSL library => OpenSSL
 libmongoc crypto => enabled
@@ -563,7 +563,7 @@ libmongoc compression => enabled
 libmongoc compression snappy => disabled
 libmongoc compression zlib => enabled
 libmongoc compression zstd => disabled
-libmongocrypt bundled version => 1.8.4
+libmongocrypt bundled version => 1.9.1
 libmongocrypt crypto => enabled
 libmongocrypt crypto library => libcrypto
 crypt_shared library version => unknown
@@ -712,7 +712,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 14.9 (Ubuntu 14.9-0ubuntu0.22.04.1)
+PostgreSQL(libpq) Version => 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1)
 
 pdo_sqlite
 
@@ -733,8 +733,8 @@ pdo_sqlsrv.set_locale_info => 2 => 2
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL(libpq) Version => 14.9 (Ubuntu 14.9-0ubuntu0.22.04.1)
-PostgreSQL(libpq)  => PostgreSQL 14.9 (Ubuntu 14.9-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+PostgreSQL(libpq) Version => 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1)
+PostgreSQL(libpq)  => PostgreSQL 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
 Multibyte character support => enabled
 SSL support => enabled
 Active Persistent Links => 0

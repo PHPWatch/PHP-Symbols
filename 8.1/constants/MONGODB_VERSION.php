@@ -18,6 +18,6 @@ return array (
     array (
     ),
   ),
-  'value' => '1.17.3',
+  'value' => '1.18.1',
   'extension' => 'mongodb',
 );

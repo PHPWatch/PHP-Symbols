@@ -96,7 +96,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 7.2.34-43+ubuntu22.04.1+deb.sury.org+1
+PHP Version => 7.2.34-45+ubuntu22.04.1+deb.sury.org+1
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -267,7 +267,7 @@ ds version => 1.3.0
 enchant
 
 enchant support => enabled
-Version => 7.2.34-43+ubuntu22.04.1+deb.sury.org+1
+Version => 7.2.34-45+ubuntu22.04.1+deb.sury.org+1
 
 hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
 aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
@@ -276,7 +276,7 @@ hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hun
 exif
 
 EXIF Support => enabled
-EXIF Version => 7.2.34-43+ubuntu22.04.1+deb.sury.org+1
+EXIF Version => 7.2.34-45+ubuntu22.04.1+deb.sury.org+1
 Supported EXIF Version => 0220
 Supported filetypes => JPEG, TIFF
 Multibyte decoding support using mbstring => enabled
@@ -444,7 +444,7 @@ RCS Version => $Id: 3839f871a91c293a52322c63329c68db23a0290a $
 Total Links => 0/unlimited
 API Version => 3001
 Vendor Name => OpenLDAP
-Vendor Version => 20516
+Vendor Version => 20517
 SASL Support => Enabled
 
 Directive => Local Value => Master Value
@@ -881,8 +881,8 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 14.9 (Ubuntu 14.9-0ubuntu0.22.04.1)
-Module version => 7.2.34-43+ubuntu22.04.1+deb.sury.org+1
+PostgreSQL(libpq) Version => 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1)
+Module version => 7.2.34-45+ubuntu22.04.1+deb.sury.org+1
 Revision =>  $Id: 9c5f356c77143981d2e905e276e439501fe0f419 $ 
 
 pdo_sqlite
@@ -904,8 +904,8 @@ pdo_sqlsrv.set_locale_info => 2 => 2
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL(libpq) Version => 14.9 (Ubuntu 14.9-0ubuntu0.22.04.1)
-PostgreSQL(libpq)  => PostgreSQL 14.9 (Ubuntu 14.9-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+PostgreSQL(libpq) Version => 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1)
+PostgreSQL(libpq)  => PostgreSQL 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
 Multibyte character support => enabled
 SSL support => enabled
 Active Persistent Links => 0
@@ -1094,7 +1094,7 @@ Classes => AppendIterator, ArrayIterator, ArrayObject, BadFunctionCallException,
 sqlite3
 
 SQLite3 support => enabled
-SQLite3 module version => 7.2.34-43+ubuntu22.04.1+deb.sury.org+1
+SQLite3 module version => 7.2.34-45+ubuntu22.04.1+deb.sury.org+1
 SQLite Library => 3.37.2
 
 Directive => Local Value => Master Value
@@ -1141,18 +1141,18 @@ Revision => $Id: 73c7c7668de72405a739f837dc62fd6ce8e5eba6 $
 
 sysvsem
 
-Version => 7.2.34-43+ubuntu22.04.1+deb.sury.org+1
+Version => 7.2.34-45+ubuntu22.04.1+deb.sury.org+1
 
 sysvshm
 
-Version => 7.2.34-43+ubuntu22.04.1+deb.sury.org+1
+Version => 7.2.34-45+ubuntu22.04.1+deb.sury.org+1
 
 tidy
 
 Tidy support => enabled
 libTidy Version => 5.6.0
 libTidy Release => 2017/11/25
-Extension Version => 7.2.34-43+ubuntu22.04.1+deb.sury.org+1 ($Id: 19b720964b65317b146dcc31b678ab20e7236543 $)
+Extension Version => 7.2.34-45+ubuntu22.04.1+deb.sury.org+1 ($Id: 19b720964b65317b146dcc31b678ab20e7236543 $)
 
 Directive => Local Value => Master Value
 tidy.clean_output => no value => no value
@@ -1284,7 +1284,7 @@ XMLReader => enabled
 xmlrpc
 
 core library version => xmlrpc-epi v. 0.54
-php extension version => 7.2.34-43+ubuntu22.04.1+deb.sury.org+1
+php extension version => 7.2.34-45+ubuntu22.04.1+deb.sury.org+1
 author => Dan Libby
 homepage => http://xmlrpc-epi.sourceforge.net
 open sourced by => Epinions.com

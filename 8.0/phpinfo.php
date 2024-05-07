@@ -436,7 +436,7 @@ LDAP Support => enabled
 Total Links => 0/unlimited
 API Version => 3001
 Vendor Name => OpenLDAP
-Vendor Version => 20516
+Vendor Version => 20517
 SASL Support => Enabled
 
 Directive => Local Value => Master Value
@@ -545,10 +545,10 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.17.3
+MongoDB extension version => 1.18.1
 MongoDB extension stability => stable
-libbson bundled version => 1.25.4
-libmongoc bundled version => 1.25.4
+libbson bundled version => 1.26.2
+libmongoc bundled version => 1.26.2
 libmongoc SSL => enabled
 libmongoc SSL library => OpenSSL
 libmongoc crypto => enabled
@@ -560,7 +560,7 @@ libmongoc compression => enabled
 libmongoc compression snappy => disabled
 libmongoc compression zlib => enabled
 libmongoc compression zstd => disabled
-libmongocrypt bundled version => 1.8.4
+libmongocrypt bundled version => 1.9.1
 libmongocrypt crypto => enabled
 libmongocrypt crypto library => libcrypto
 crypt_shared library version => unknown
@@ -985,7 +985,7 @@ xdebug
 [1m                              __/ |
 [1m                             |___/ 
 
-[0mVersion => 3.3.1
+[0mVersion => 3.3.2
 Support Xdebug on Patreon, GitHub, or as a business: https://xdebug.org/support
 
              Enabled Features (through \'xdebug.mode\' setting)             

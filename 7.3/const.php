@@ -26,11 +26,11 @@ return array (
     'ZEND_THREAD_SAFE' => false,
     'ZEND_DEBUG_BUILD' => false,
     'NULL' => NULL,
-    'PHP_VERSION' => '7.3.33-14+ubuntu22.04.1+deb.sury.org+1',
+    'PHP_VERSION' => '7.3.33-16+ubuntu22.04.1+deb.sury.org+1',
     'PHP_MAJOR_VERSION' => 7,
     'PHP_MINOR_VERSION' => 3,
     'PHP_RELEASE_VERSION' => 33,
-    'PHP_EXTRA_VERSION' => '-14+ubuntu22.04.1+deb.sury.org+1',
+    'PHP_EXTRA_VERSION' => '-16+ubuntu22.04.1+deb.sury.org+1',
     'PHP_VERSION_ID' => 70333,
     'PHP_ZTS' => 0,
     'PHP_DEBUG' => 0,
@@ -205,7 +205,7 @@ return array (
     'PREG_JIT_STACKLIMIT_ERROR' => 6,
     'PCRE_VERSION' => '10.42 2022-12-11',
     'PCRE_VERSION_MAJOR' => 10,
-    'PCRE_VERSION_MINOR' => 40,
+    'PCRE_VERSION_MINOR' => 42,
     'PCRE_JIT_SUPPORT' => true,
   ),
   'zlib' => 
@@ -2642,8 +2642,8 @@ return array (
   ),
   'pgsql' => 
   array (
-    'PGSQL_LIBPQ_VERSION' => '14.9 (Ubuntu 14.9-0ubuntu0.22.04.1)',
-    'PGSQL_LIBPQ_VERSION_STR' => 'PostgreSQL 14.9 (Ubuntu 14.9-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit',
+    'PGSQL_LIBPQ_VERSION' => '14.11 (Ubuntu 14.11-0ubuntu0.22.04.1)',
+    'PGSQL_LIBPQ_VERSION_STR' => 'PostgreSQL 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit',
     'PGSQL_CONNECT_FORCE_NEW' => 2,
     'PGSQL_CONNECT_ASYNC' => 4,
     'PGSQL_ASSOC' => 1,
