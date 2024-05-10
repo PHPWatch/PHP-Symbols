@@ -359,6 +359,8 @@ return array (
   'SoapFault',
   'SoapParam',
   'SoapHeader',
+  'Soap\\Url',
+  'Soap\\Sdl',
   'Socket',
   'AddressInfo',
   'SQLite3Exception',

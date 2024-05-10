@@ -113,7 +113,7 @@ return array (
     array (
       'name' => 'sdl',
       'class' => 'SoapClient',
-      'type' => NULL,
+      'type' => '?Soap\\Sdl',
       'has_default_value' => true,
       'default_value' => NULL,
       'is_static' => false,
@@ -126,7 +126,7 @@ return array (
     array (
       'name' => 'typemap',
       'class' => 'SoapClient',
-      'type' => NULL,
+      'type' => '?array',
       'has_default_value' => true,
       'default_value' => NULL,
       'is_static' => false,
@@ -152,7 +152,7 @@ return array (
     array (
       'name' => 'httpurl',
       'class' => 'SoapClient',
-      'type' => NULL,
+      'type' => '?Soap\\Url',
       'has_default_value' => true,
       'default_value' => NULL,
       'is_static' => false,

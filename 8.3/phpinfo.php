@@ -97,7 +97,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.3.6
+PHP Version => 8.3.7
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -560,10 +560,10 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.18.0
+MongoDB extension version => 1.18.1
 MongoDB extension stability => stable
-libbson bundled version => 1.26.1
-libmongoc bundled version => 1.26.1
+libbson bundled version => 1.26.2
+libmongoc bundled version => 1.26.2
 libmongoc SSL => enabled
 libmongoc SSL library => OpenSSL
 libmongoc crypto => enabled
@@ -599,7 +599,7 @@ msgpack.use_str8_serialization => On => On
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.3.6
+Client API library version => mysqlnd 8.3.7
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -620,7 +620,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.3.6
+Version => mysqlnd 8.3.7
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -702,7 +702,7 @@ Client Library Version => LI-V6.3.8.33535 Firebird 3.0
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.3.6
+Client API version => mysqlnd 8.3.7
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -779,7 +779,7 @@ PSpell Support => enabled
 
 random
 
-Version => 8.3.6
+Version => 8.3.7
 
 readline
 
@@ -994,7 +994,7 @@ xdebug
 [1m                              __/ |
 [1m                             |___/ 
 
-[0mVersion => 3.3.1
+[0mVersion => 3.3.2
 Support Xdebug on Patreon, GitHub, or as a business: https://xdebug.org/support
 
              Enabled Features (through \'xdebug.mode\' setting)             
