@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'function',
-  'name' => 'DOM\\import_simplexml',
+  'name' => 'Dom\\import_simplexml',
   'meta' => 
   array (
     'type' => 'function',
-    'name' => 'DOM\\import_simplexml',
+    'name' => 'Dom\\import_simplexml',
     'description' => '',
     'keywords' => 
     array (
