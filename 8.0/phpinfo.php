@@ -280,9 +280,9 @@ enchant
 enchant support => enabled
 Libenchant Version => 2.3.2
 
+hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
 hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
 aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
-hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
 
 exif
 
@@ -709,7 +709,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 16.2
+PostgreSQL(libpq) Version => 16.3
 
 pdo_sqlite
 
@@ -730,7 +730,7 @@ pdo_sqlsrv.set_locale_info => 2 => 2
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL (libpq) Version => 16.2
+PostgreSQL (libpq) Version => 16.3
 Multibyte character support => enabled
 Active Persistent Links => 0
 Active Links => 0

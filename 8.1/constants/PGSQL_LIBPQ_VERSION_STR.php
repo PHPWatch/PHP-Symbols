@@ -18,6 +18,6 @@ return array (
     array (
     ),
   ),
-  'value' => '16.2',
+  'value' => '16.3',
   'extension' => 'pgsql',
 );
