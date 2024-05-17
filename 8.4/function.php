@@ -1967,6 +1967,7 @@ return array (
   'pg_delete',
   'pg_select',
   'pg_set_error_context_visibility',
+  'pg_result_memory_size',
   'posix_kill',
   'posix_getpid',
   'posix_getppid',

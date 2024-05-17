@@ -62,6 +62,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getDatabaseName' => 
+    array (
+      'name' => 'getDatabaseName',
+      'class' => 'MongoDB\\Driver\\Monitoring\\CommandSucceededEvent',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getDurationMicros' => 
     array (
       'name' => 'getDurationMicros',

@@ -69,6 +69,7 @@ return array (
   'soap',
   'sockets',
   'sqlite3',
+  'sqlsrv',
   'sysvmsg',
   'sysvsem',
   'sysvshm',

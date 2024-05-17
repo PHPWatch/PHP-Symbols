@@ -547,10 +547,10 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.18.1
+MongoDB extension version => 1.19.0
 MongoDB extension stability => stable
-libbson bundled version => 1.26.2
-libmongoc bundled version => 1.26.2
+libbson bundled version => 1.27.0
+libmongoc bundled version => 1.27.0
 libmongoc SSL => enabled
 libmongoc SSL library => OpenSSL
 libmongoc crypto => enabled
@@ -562,7 +562,7 @@ libmongoc compression => enabled
 libmongoc compression snappy => disabled
 libmongoc compression zlib => enabled
 libmongoc compression zstd => disabled
-libmongocrypt bundled version => 1.9.1
+libmongocrypt bundled version => 1.10.0
 libmongocrypt crypto => enabled
 libmongocrypt crypto library => libcrypto
 crypt_shared library version => unknown
@@ -917,6 +917,18 @@ SQLite Library => 3.37.2
 Directive => Local Value => Master Value
 sqlite3.defensive => On => On
 sqlite3.extension_dir => no value => no value
+
+sqlsrv
+
+sqlsrv support => enabled
+ExtensionVer => 5.12.0
+
+Directive => Local Value => Master Value
+sqlsrv.ClientBufferMaxKBSize => 10240 => 10240
+sqlsrv.LogSeverity => 0 => 0
+sqlsrv.LogSubsystems => 0 => 0
+sqlsrv.SetLocaleInfo => 2 => 2
+sqlsrv.WarningsReturnAsErrors => On => On
 
 standard
 

@@ -2377,6 +2377,36 @@ return array (
     'local_value' => NULL,
     'access' => 4,
   ),
+  'sqlsrv.ClientBufferMaxKBSize' => 
+  array (
+    'global_value' => '10240',
+    'local_value' => '10240',
+    'access' => 7,
+  ),
+  'sqlsrv.LogSeverity' => 
+  array (
+    'global_value' => '0',
+    'local_value' => '0',
+    'access' => 7,
+  ),
+  'sqlsrv.LogSubsystems' => 
+  array (
+    'global_value' => '0',
+    'local_value' => '0',
+    'access' => 7,
+  ),
+  'sqlsrv.SetLocaleInfo' => 
+  array (
+    'global_value' => '2',
+    'local_value' => '2',
+    'access' => 7,
+  ),
+  'sqlsrv.WarningsReturnAsErrors' => 
+  array (
+    'global_value' => '1',
+    'local_value' => '1',
+    'access' => 7,
+  ),
   'sys_temp_dir' => 
   array (
     'global_value' => NULL,
