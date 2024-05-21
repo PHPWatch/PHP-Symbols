@@ -168,6 +168,7 @@ return array (
   'CurlShareHandle',
   'CURLFile',
   'CURLStringFile',
+  'Dba\\Connection',
   'DOMException',
   'dom\\domexception',
   'DOMImplementation',
