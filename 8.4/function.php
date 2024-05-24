@@ -1968,6 +1968,7 @@ return array (
   'pg_select',
   'pg_set_error_context_visibility',
   'pg_result_memory_size',
+  'pg_change_password',
   'posix_kill',
   'posix_getpid',
   'posix_getppid',
