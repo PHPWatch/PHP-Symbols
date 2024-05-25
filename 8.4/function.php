@@ -718,6 +718,7 @@ return array (
   'number_format',
   'fmod',
   'fdiv',
+  'fpow',
   'microtime',
   'gettimeofday',
   'getrusage',
