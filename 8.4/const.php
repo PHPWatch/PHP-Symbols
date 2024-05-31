@@ -42,6 +42,7 @@ return array (
     'PHP_EXTENSION_DIR' => '/usr/lib/php/20230901',
     'PHP_PREFIX' => '/usr',
     'PHP_BINDIR' => '/usr/bin',
+    'PHP_SBINDIR' => '/usr/sbin',
     'PHP_MANDIR' => '/usr/share/man',
     'PHP_LIBDIR' => '/usr/lib/php',
     'PHP_DATADIR' => '/usr/share/php/8.4',
@@ -197,6 +198,10 @@ return array (
     'OPENSSL_KEYTYPE_DSA' => 1,
     'OPENSSL_KEYTYPE_DH' => 2,
     'OPENSSL_KEYTYPE_EC' => 3,
+    'OPENSSL_KEYTYPE_X25519' => 4,
+    'OPENSSL_KEYTYPE_ED25519' => 5,
+    'OPENSSL_KEYTYPE_X448' => 6,
+    'OPENSSL_KEYTYPE_ED448' => 7,
     'OPENSSL_RAW_DATA' => 1,
     'OPENSSL_ZERO_PADDING' => 2,
     'OPENSSL_DONT_ZERO_PAD_KEY' => 4,
@@ -2513,7 +2518,7 @@ return array (
   ),
   'mongodb' => 
   array (
-    'MONGODB_VERSION' => '1.19.0',
+    'MONGODB_VERSION' => '1.19.1',
     'MONGODB_STABILITY' => 'stable',
   ),
   'msgpack' => 

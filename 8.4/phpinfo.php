@@ -551,7 +551,7 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.19.0
+MongoDB extension version => 1.19.1
 MongoDB extension stability => stable
 libbson bundled version => 1.27.0
 libmongoc bundled version => 1.27.0

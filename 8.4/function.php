@@ -1970,6 +1970,8 @@ return array (
   'pg_set_error_context_visibility',
   'pg_result_memory_size',
   'pg_change_password',
+  'pg_put_copy_data',
+  'pg_put_copy_end',
   'posix_kill',
   'posix_getpid',
   'posix_getppid',

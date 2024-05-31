@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'MONGODB_VERSION',
+  'name' => 'OPENSSL_KEYTYPE_X25519',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'MONGODB_VERSION',
+    'name' => 'OPENSSL_KEYTYPE_X25519',
     'description' => '',
     'keywords' => 
     array (
@@ -18,6 +18,6 @@ return array (
     array (
     ),
   ),
-  'value' => '1.19.1',
-  'extension' => 'mongodb',
+  'value' => 4,
+  'extension' => 'openssl',
 );
