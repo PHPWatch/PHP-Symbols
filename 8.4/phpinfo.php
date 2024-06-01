@@ -981,7 +981,7 @@ xdebug
 [1m                              __/ |
 [1m                             |___/ 
 
-[0mVersion => 3.4.0-dev
+[0mVersion => 3.4.0alpha2-dev
 Support Xdebug on Patreon, GitHub, or as a business: https://xdebug.org/support
 
              Enabled Features (through \'xdebug.mode\' setting)             
