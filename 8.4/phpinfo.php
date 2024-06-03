@@ -639,9 +639,6 @@ Directive => Local Value => Master Value
 odbc.allow_persistent => On => On
 odbc.check_persistent => On => On
 odbc.default_cursortype => Static cursor => Static cursor
-odbc.default_db => no value => no value
-odbc.default_pw => no value => no value
-odbc.default_user => no value => no value
 odbc.defaultbinmode => return as is => return as is
 odbc.defaultlrl => return up to 4096 bytes => return up to 4096 bytes
 odbc.max_links => Unlimited => Unlimited

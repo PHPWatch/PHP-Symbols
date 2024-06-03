@@ -1351,24 +1351,6 @@ return array (
     'local_value' => '3',
     'access' => 7,
   ),
-  'odbc.default_db' => 
-  array (
-    'global_value' => NULL,
-    'local_value' => NULL,
-    'access' => 7,
-  ),
-  'odbc.default_pw' => 
-  array (
-    'global_value' => NULL,
-    'local_value' => NULL,
-    'access' => 7,
-  ),
-  'odbc.default_user' => 
-  array (
-    'global_value' => NULL,
-    'local_value' => NULL,
-    'access' => 7,
-  ),
   'odbc.defaultbinmode' => 
   array (
     'global_value' => '1',
