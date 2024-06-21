@@ -26,12 +26,12 @@ return array (
     'TRUE' => true,
     'FALSE' => false,
     'NULL' => NULL,
-    'PHP_VERSION' => '8.2.19',
+    'PHP_VERSION' => '8.2.20',
     'PHP_MAJOR_VERSION' => 8,
     'PHP_MINOR_VERSION' => 2,
-    'PHP_RELEASE_VERSION' => 19,
+    'PHP_RELEASE_VERSION' => 20,
     'PHP_EXTRA_VERSION' => '',
-    'PHP_VERSION_ID' => 80219,
+    'PHP_VERSION_ID' => 80220,
     'PHP_ZTS' => 0,
     'PHP_DEBUG' => 0,
     'PHP_OS' => 'Linux',
@@ -2549,7 +2549,7 @@ return array (
   ),
   'mongodb' => 
   array (
-    'MONGODB_VERSION' => '1.19.0',
+    'MONGODB_VERSION' => '1.19.2',
     'MONGODB_STABILITY' => 'stable',
   ),
   'msgpack' => 
@@ -2732,13 +2732,6 @@ return array (
     'SQL_INDEX_ALL' => 1,
     'SQL_ENSURE' => 1,
     'SQL_QUICK' => 0,
-  ),
-  'pcov' => 
-  array (
-    'pcov\\all' => 0,
-    'pcov\\inclusive' => 1,
-    'pcov\\exclusive' => 2,
-    'pcov\\version' => '1.0.11',
   ),
   'pgsql' => 
   array (

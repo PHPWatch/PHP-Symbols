@@ -96,7 +96,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 7.3.33-16+ubuntu22.04.1+deb.sury.org+1
+PHP Version => 7.3.33-19+ubuntu22.04.1+deb.sury.org+1
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -277,9 +277,9 @@ enchant
 
 enchant support => enabled
 
-hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
 hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
 aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
+hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
 
 exif
 
@@ -887,7 +887,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1)
+PostgreSQL(libpq) Version => 14.12 (Ubuntu 14.12-0ubuntu0.22.04.1)
 
 pdo_sqlite
 
@@ -908,8 +908,8 @@ pdo_sqlsrv.set_locale_info => 2 => 2
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL(libpq) Version => 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1)
-PostgreSQL(libpq)  => PostgreSQL 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+PostgreSQL(libpq) Version => 14.12 (Ubuntu 14.12-0ubuntu0.22.04.1)
+PostgreSQL(libpq)  => PostgreSQL 14.12 (Ubuntu 14.12-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
 Multibyte character support => enabled
 SSL support => enabled
 Active Persistent Links => 0

@@ -97,7 +97,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.2.19
+PHP Version => 8.2.20
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -288,9 +288,9 @@ enchant
 enchant support => enabled
 Libenchant Version => 2.3.2
 
-hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
 hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
 aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
+hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
 
 exif
 
@@ -412,7 +412,7 @@ imagick.locale_fix => 0 => 0
 imagick.progress_monitor => 0 => 0
 imagick.set_single_thread => 1 => 1
 imagick.shutdown_sleep_count => 10 => 10
-imagick.skip_version_check => 1 => 1
+imagick.skip_version_check => 0 => 0
 
 imap
 
@@ -514,22 +514,25 @@ memcache.session_save_path => no value => no value
 memcached
 
 memcached support => enabled
-Version => 3.2.0
-libmemcached-awesome headers version => 1.1.3
-libmemcached-awesome library version => 1.1.4
+Version => 3.2.1-dev
+libmemcached-awesome headers version => 1.1.4
+libmemcached-awesome library version => 1.0.18
 SASL support => yes
 Session support => yes
 igbinary support => yes
 json support => yes
 msgpack support => yes
+zstd support => no
 
 Directive => Local Value => Master Value
 memcached.compression_factor => 1.3 => 1.3
+memcached.compression_level => 3 => 3
 memcached.compression_threshold => 2000 => 2000
 memcached.compression_type => fastlz => fastlz
 memcached.default_binary_protocol => Off => Off
 memcached.default_connect_timeout => 0 => 0
 memcached.default_consistent_hash => Off => Off
+memcached.item_size_limit => 0 => 0
 memcached.serializer => php => php
 memcached.sess_binary_protocol => On => On
 memcached.sess_connect_timeout => 0 => 0
@@ -555,21 +558,21 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.19.0
+MongoDB extension version => 1.19.2
 MongoDB extension stability => stable
-libbson bundled version => 1.27.0
-libmongoc bundled version => 1.27.0
+libbson bundled version => 1.27.2
+libmongoc bundled version => 1.27.2
 libmongoc SSL => enabled
 libmongoc SSL library => OpenSSL
 libmongoc crypto => enabled
 libmongoc crypto library => libcrypto
 libmongoc crypto system profile => disabled
-libmongoc SASL => disabled
+libmongoc SASL => enabled
 libmongoc SRV => enabled
 libmongoc compression => enabled
 libmongoc compression snappy => disabled
 libmongoc compression zlib => enabled
-libmongoc compression zstd => disabled
+libmongoc compression zstd => enabled
 libmongocrypt bundled version => 1.10.0
 libmongocrypt crypto => enabled
 libmongocrypt crypto library => libcrypto
@@ -594,7 +597,7 @@ msgpack.use_str8_serialization => On => On
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.2.19
+Client API library version => mysqlnd 8.2.20
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -615,7 +618,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.2.19
+Version => mysqlnd 8.2.20
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -636,7 +639,7 @@ Active Links => 0
 ODBC library => unixODBC
 ODBCVER => 0x0380
 ODBC_CFLAGS => -I/usr/include
-ODBC_LFLAGS => -L/usr/lib
+ODBC_LFLAGS => -L/usr/lib/x86_64-linux-gnu
 ODBC_LIBS => -lodbc
 
 Directive => Local Value => Master Value
@@ -665,15 +668,6 @@ openssl.capath => no value => no value
 pcntl
 
 pcntl support => enabled
-
-pcov
-
-PCOV support => Enabled
-PCOV version => 1.0.11
-pcov.directory => /home/runner/work/symbol-data-builder/symbol-data-builder/src
-pcov.exclude => none
-pcov.initial.memory => 65336 bytes
-pcov.initial.files => 64
 
 pcre
 
@@ -706,7 +700,7 @@ Client Library Version => LI-V6.3.8.33535 Firebird 3.0
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.2.19
+Client API version => mysqlnd 8.2.20
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -783,7 +777,7 @@ PSpell Support => enabled
 
 random
 
-Version => 8.2.19
+Version => 8.2.20
 
 readline
 
@@ -799,8 +793,7 @@ redis
 Redis Support => enabled
 Redis Version => 6.0.2
 Redis Sentinel Version => 1.0
-Available serializers => php, json, igbinary
-Available compression => lzf, zstd, lz4
+Available serializers => php, json
 
 Directive => Local Value => Master Value
 redis.arrays.algorithm => no value => no value
@@ -1224,7 +1217,7 @@ zlib.output_handler => no value => no value
 zmq
 
 ZMQ extension => enabled
-ZMQ extension version => 1.1.3
+ZMQ extension version => @PACKAGE_VERSION@
 libzmq version => 4.3.4
 
 Additional Modules
@@ -1350,9 +1343,6 @@ PHP Websites Team => Rasmus Lerdorf, Hannes Magnusson, Philip Olson, Lukas Kahwe
 Event Maintainers => Damien Seguy, Daniel P. Brown
 Network Infrastructure => Daniel P. Brown
 Windows Infrastructure => Alex Schoenmaker
-
-                             Debian Packaging                             
-DEB.SURY.ORG, an Ondřej Surý project
 
 PHP License
 This program is free software; you can redistribute it and/or modify

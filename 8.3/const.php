@@ -2557,7 +2557,7 @@ return array (
   ),
   'mongodb' => 
   array (
-    'MONGODB_VERSION' => '1.19.1',
+    'MONGODB_VERSION' => '1.19.2',
     'MONGODB_STABILITY' => 'stable',
   ),
   'msgpack' => 

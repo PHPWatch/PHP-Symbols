@@ -101,7 +101,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 5.6.40-70+ubuntu22.04.1+deb.sury.org+1
+PHP Version => 5.6.40-77+ubuntu22.04.1+deb.sury.org+1
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -264,9 +264,9 @@ enchant support => enabled
 Version => 1.1.0
 Revision => $Id: 2b1a7a0910b094a8f56f81d474ff1837c4389a28 $
 
-hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
 hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
 aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
+hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
 
 ereg
 
@@ -924,7 +924,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1)
+PostgreSQL(libpq) Version => 14.12 (Ubuntu 14.12-0ubuntu0.22.04.1)
 Module version => 1.0.2
 Revision =>  $Id: 0e858dd2051ca8c2fd3c781909a0670ab5fecd36 $ 
 
@@ -936,8 +936,8 @@ SQLite Library => 3.37.2
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL(libpq) Version => 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1)
-PostgreSQL(libpq)  => PostgreSQL 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+PostgreSQL(libpq) Version => 14.12 (Ubuntu 14.12-0ubuntu0.22.04.1)
+PostgreSQL(libpq)  => PostgreSQL 14.12 (Ubuntu 14.12-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
 Multibyte character support => enabled
 SSL support => enabled
 Active Persistent Links => 0

@@ -227,9 +227,9 @@ return array (
     'PREG_BAD_UTF8_ERROR' => 4,
     'PREG_BAD_UTF8_OFFSET_ERROR' => 5,
     'PREG_JIT_STACKLIMIT_ERROR' => 6,
-    'PCRE_VERSION' => '10.43 2024-02-16',
+    'PCRE_VERSION' => '10.44 2024-06-07',
     'PCRE_VERSION_MAJOR' => 10,
-    'PCRE_VERSION_MINOR' => 43,
+    'PCRE_VERSION_MINOR' => 44,
     'PCRE_JIT_SUPPORT' => true,
   ),
   'zlib' => 
@@ -2518,7 +2518,7 @@ return array (
   ),
   'mongodb' => 
   array (
-    'MONGODB_VERSION' => '1.19.1',
+    'MONGODB_VERSION' => '1.19.3',
     'MONGODB_STABILITY' => 'stable',
   ),
   'msgpack' => 
@@ -2738,7 +2738,7 @@ return array (
     'PGSQL_ERRORS_TERSE' => 0,
     'PGSQL_ERRORS_DEFAULT' => 1,
     'PGSQL_ERRORS_VERBOSE' => 2,
-    'PGSQL_ERRORS_SQLSTATE' => 0,
+    'PGSQL_ERRORS_SQLSTATE' => 3,
     'PGSQL_SEEK_SET' => 0,
     'PGSQL_SEEK_CUR' => 1,
     'PGSQL_SEEK_END' => 2,

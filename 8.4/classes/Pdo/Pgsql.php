@@ -573,6 +573,31 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'setNoticeCallback' => 
+    array (
+      'name' => 'setNoticeCallback',
+      'class' => 'Pdo\\Pgsql',
+      'parameters' => 
+      array (
+        'callback' => 
+        array (
+          'position' => 0,
+          'name' => 'callback',
+          'type' => '?callable',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     '__construct' => 
     array (
       'name' => '__construct',

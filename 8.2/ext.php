@@ -50,7 +50,6 @@ return array (
   'msgpack',
   'mysqli',
   'odbc',
-  'pcov',
   'pdo_dblib',
   'PDO_Firebird',
   'pdo_mysql',

@@ -1869,6 +1869,7 @@ return array (
   'pg_tty',
   'pg_host',
   'pg_version',
+  'pg_jit',
   'pg_parameter_status',
   'pg_ping',
   'pg_query',

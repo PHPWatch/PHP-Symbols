@@ -23,6 +23,6 @@ return array (
       ),
     ),
   ),
-  'value' => '-16+ubuntu22.04.1+deb.sury.org+1',
+  'value' => '-19+ubuntu22.04.1+deb.sury.org+1',
   'extension' => 'Core',
 );

@@ -290,9 +290,9 @@ enchant
 enchant support => enabled
 Libenchant Version => 2.3.2
 
-hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
 hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
 aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
+hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
 
 exif
 
@@ -551,10 +551,10 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.19.1
+MongoDB extension version => 1.19.3
 MongoDB extension stability => stable
-libbson bundled version => 1.27.0
-libmongoc bundled version => 1.27.0
+libbson bundled version => 1.27.2
+libmongoc bundled version => 1.27.2
 libmongoc SSL => enabled
 libmongoc SSL library => OpenSSL
 libmongoc crypto => enabled
@@ -662,7 +662,7 @@ pcntl support => enabled
 pcre
 
 PCRE (Perl Compatible Regular Expressions) Support => enabled
-PCRE Library Version => 10.43 2024-02-16
+PCRE Library Version => 10.44 2024-06-07
 PCRE Unicode Version => 15.0.0
 PCRE JIT Support => enabled
 PCRE JIT Target => x86 64bit (little endian + unaligned)
