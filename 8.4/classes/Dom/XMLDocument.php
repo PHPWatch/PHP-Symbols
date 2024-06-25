@@ -605,7 +605,7 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => 'int|false',
+      'return_type' => 'int',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,

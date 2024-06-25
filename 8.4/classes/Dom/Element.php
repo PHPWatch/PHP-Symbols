@@ -917,7 +917,7 @@ return array (
         array (
           'position' => 0,
           'name' => 'where',
-          'type' => 'string',
+          'type' => 'Dom\\AdjacentPosition',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -953,7 +953,7 @@ return array (
         array (
           'position' => 0,
           'name' => 'where',
-          'type' => 'string',
+          'type' => 'Dom\\AdjacentPosition',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,

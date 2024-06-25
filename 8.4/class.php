@@ -169,6 +169,7 @@ return array (
   'CURLFile',
   'CURLStringFile',
   'Dba\\Connection',
+  'Dom\\AdjacentPosition',
   'DOMException',
   'dom\\domexception',
   'DOMImplementation',
