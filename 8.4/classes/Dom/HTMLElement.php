@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'class',
-  'name' => 'Dom\\XMLDocument',
+  'name' => 'Dom\\HTMLElement',
   'meta' => 
   array (
     'type' => 'class',
-    'name' => 'Dom\\XMLDocument',
+    'name' => 'Dom\\HTMLElement',
     'description' => '',
     'keywords' => 
     array (
@@ -18,14 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'Dom\\XMLDocument class (php.net)',
-        'url' => 'https://www.php.net/manual/class.dom-xmldocument.php',
+        'name' => 'Dom\\HTMLElement class (php.net)',
+        'url' => 'https://www.php.net/manual/class.dom-htmlelement.php',
       ),
     ),
   ),
   'interfaces' => 
   array (
-    0 => 'Dom\\ParentNode',
+    0 => 'Dom\\ChildNode',
+    1 => 'Dom\\ParentNode',
   ),
   'constants' => 
   array (
@@ -220,11 +221,11 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
-    'implementation' => 
+    'namespaceURI' => 
     array (
-      'name' => 'implementation',
-      'class' => 'Dom\\Document',
-      'type' => 'Dom\\Implementation',
+      'name' => 'namespaceURI',
+      'class' => 'Dom\\Element',
+      'type' => '?string',
       'has_default_value' => false,
       'default_value' => NULL,
       'is_static' => false,
@@ -233,10 +234,23 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
-    'URL' => 
+    'prefix' => 
     array (
-      'name' => 'URL',
-      'class' => 'Dom\\Document',
+      'name' => 'prefix',
+      'class' => 'Dom\\Element',
+      'type' => '?string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'localName' => 
+    array (
+      'name' => 'localName',
+      'class' => 'Dom\\Element',
       'type' => 'string',
       'has_default_value' => false,
       'default_value' => NULL,
@@ -246,10 +260,10 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
-    'documentURI' => 
+    'tagName' => 
     array (
-      'name' => 'documentURI',
-      'class' => 'Dom\\Document',
+      'name' => 'tagName',
+      'class' => 'Dom\\Element',
       'type' => 'string',
       'has_default_value' => false,
       'default_value' => NULL,
@@ -259,10 +273,10 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
-    'characterSet' => 
+    'id' => 
     array (
-      'name' => 'characterSet',
-      'class' => 'Dom\\Document',
+      'name' => 'id',
+      'class' => 'Dom\\Element',
       'type' => 'string',
       'has_default_value' => false,
       'default_value' => NULL,
@@ -272,10 +286,10 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
-    'charset' => 
+    'className' => 
     array (
-      'name' => 'charset',
-      'class' => 'Dom\\Document',
+      'name' => 'className',
+      'class' => 'Dom\\Element',
       'type' => 'string',
       'has_default_value' => false,
       'default_value' => NULL,
@@ -285,37 +299,11 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
-    'inputEncoding' => 
+    'attributes' => 
     array (
-      'name' => 'inputEncoding',
-      'class' => 'Dom\\Document',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'doctype' => 
-    array (
-      'name' => 'doctype',
-      'class' => 'Dom\\Document',
-      'type' => '?Dom\\DocumentType',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'documentElement' => 
-    array (
-      'name' => 'documentElement',
-      'class' => 'Dom\\Document',
-      'type' => '?Dom\\Element',
+      'name' => 'attributes',
+      'class' => 'Dom\\Element',
+      'type' => 'Dom\\NamedNodeMap',
       'has_default_value' => false,
       'default_value' => NULL,
       'is_static' => false,
@@ -327,7 +315,7 @@ return array (
     'firstElementChild' => 
     array (
       'name' => 'firstElementChild',
-      'class' => 'Dom\\Document',
+      'class' => 'Dom\\Element',
       'type' => '?Dom\\Element',
       'has_default_value' => false,
       'default_value' => NULL,
@@ -340,7 +328,7 @@ return array (
     'lastElementChild' => 
     array (
       'name' => 'lastElementChild',
-      'class' => 'Dom\\Document',
+      'class' => 'Dom\\Element',
       'type' => '?Dom\\Element',
       'has_default_value' => false,
       'default_value' => NULL,
@@ -353,7 +341,7 @@ return array (
     'childElementCount' => 
     array (
       'name' => 'childElementCount',
-      'class' => 'Dom\\Document',
+      'class' => 'Dom\\Element',
       'type' => 'int',
       'has_default_value' => false,
       'default_value' => NULL,
@@ -363,11 +351,11 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
-    'body' => 
+    'previousElementSibling' => 
     array (
-      'name' => 'body',
-      'class' => 'Dom\\Document',
-      'type' => '?Dom\\HTMLElement',
+      'name' => 'previousElementSibling',
+      'class' => 'Dom\\Element',
+      'type' => '?Dom\\Element',
       'has_default_value' => false,
       'default_value' => NULL,
       'is_static' => false,
@@ -376,76 +364,11 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
-    'head' => 
+    'nextElementSibling' => 
     array (
-      'name' => 'head',
-      'class' => 'Dom\\Document',
-      'type' => '?Dom\\HTMLElement',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'title' => 
-    array (
-      'name' => 'title',
-      'class' => 'Dom\\Document',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'xmlEncoding' => 
-    array (
-      'name' => 'xmlEncoding',
-      'class' => 'Dom\\XMLDocument',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'xmlStandalone' => 
-    array (
-      'name' => 'xmlStandalone',
-      'class' => 'Dom\\XMLDocument',
-      'type' => 'bool',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'xmlVersion' => 
-    array (
-      'name' => 'xmlVersion',
-      'class' => 'Dom\\XMLDocument',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'formatOutput' => 
-    array (
-      'name' => 'formatOutput',
-      'class' => 'Dom\\XMLDocument',
-      'type' => 'bool',
+      'name' => 'nextElementSibling',
+      'class' => 'Dom\\Element',
+      'type' => '?Dom\\Element',
       'has_default_value' => false,
       'default_value' => NULL,
       'is_static' => false,
@@ -457,165 +380,10 @@ return array (
   ),
   'methods' => 
   array (
-    'createEmpty' => 
+    'hasAttributes' => 
     array (
-      'name' => 'createEmpty',
-      'class' => 'Dom\\XMLDocument',
-      'parameters' => 
-      array (
-        'version' => 
-        array (
-          'position' => 0,
-          'name' => 'version',
-          'type' => 'string',
-          'is_optional' => true,
-          'has_default_value' => true,
-          'default_value' => '1.0',
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-        'encoding' => 
-        array (
-          'position' => 1,
-          'name' => 'encoding',
-          'type' => 'string',
-          'is_optional' => true,
-          'has_default_value' => true,
-          'default_value' => 'UTF-8',
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'Dom\\XMLDocument',
-      'has_return_type' => true,
-      'is_static' => true,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'createFromFile' => 
-    array (
-      'name' => 'createFromFile',
-      'class' => 'Dom\\XMLDocument',
-      'parameters' => 
-      array (
-        'path' => 
-        array (
-          'position' => 0,
-          'name' => 'path',
-          'type' => 'string',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-        'options' => 
-        array (
-          'position' => 1,
-          'name' => 'options',
-          'type' => 'int',
-          'is_optional' => true,
-          'has_default_value' => true,
-          'default_value' => 0,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-        'overrideEncoding' => 
-        array (
-          'position' => 2,
-          'name' => 'overrideEncoding',
-          'type' => '?string',
-          'is_optional' => true,
-          'has_default_value' => true,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'Dom\\XMLDocument',
-      'has_return_type' => true,
-      'is_static' => true,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'createFromString' => 
-    array (
-      'name' => 'createFromString',
-      'class' => 'Dom\\XMLDocument',
-      'parameters' => 
-      array (
-        'source' => 
-        array (
-          'position' => 0,
-          'name' => 'source',
-          'type' => 'string',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-        'options' => 
-        array (
-          'position' => 1,
-          'name' => 'options',
-          'type' => 'int',
-          'is_optional' => true,
-          'has_default_value' => true,
-          'default_value' => 0,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-        'overrideEncoding' => 
-        array (
-          'position' => 2,
-          'name' => 'overrideEncoding',
-          'type' => '?string',
-          'is_optional' => true,
-          'has_default_value' => true,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'Dom\\XMLDocument',
-      'has_return_type' => true,
-      'is_static' => true,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'createEntityReference' => 
-    array (
-      'name' => 'createEntityReference',
-      'class' => 'Dom\\XMLDocument',
-      'parameters' => 
-      array (
-        'name' => 
-        array (
-          'position' => 0,
-          'name' => 'name',
-          'type' => 'string',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'Dom\\EntityReference',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'validate' => 
-    array (
-      'name' => 'validate',
-      'class' => 'Dom\\XMLDocument',
+      'name' => 'hasAttributes',
+      'class' => 'Dom\\Element',
       'parameters' => 
       array (
       ),
@@ -626,77 +394,30 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
-    'xinclude' => 
+    'getAttributeNames' => 
     array (
-      'name' => 'xinclude',
-      'class' => 'Dom\\XMLDocument',
+      'name' => 'getAttributeNames',
+      'class' => 'Dom\\Element',
       'parameters' => 
       array (
-        'options' => 
-        array (
-          'position' => 0,
-          'name' => 'options',
-          'type' => 'int',
-          'is_optional' => true,
-          'has_default_value' => true,
-          'default_value' => 0,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
       ),
-      'return_type' => 'int',
+      'return_type' => 'array',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
       'is_private' => false,
     ),
-    'saveXml' => 
+    'getAttribute' => 
     array (
-      'name' => 'saveXml',
-      'class' => 'Dom\\XMLDocument',
+      'name' => 'getAttribute',
+      'class' => 'Dom\\Element',
       'parameters' => 
       array (
-        'node' => 
+        'qualifiedName' => 
         array (
           'position' => 0,
-          'name' => 'node',
-          'type' => '?Dom\\Node',
-          'is_optional' => true,
-          'has_default_value' => true,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-        'options' => 
-        array (
-          'position' => 1,
-          'name' => 'options',
-          'type' => 'int',
-          'is_optional' => true,
-          'has_default_value' => true,
-          'default_value' => 0,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'string|false',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'saveXmlFile' => 
-    array (
-      'name' => 'saveXmlFile',
-      'class' => 'Dom\\XMLDocument',
-      'parameters' => 
-      array (
-        'filename' => 
-        array (
-          'position' => 0,
-          'name' => 'filename',
+          'name' => 'qualifiedName',
           'type' => 'string',
           'is_optional' => false,
           'has_default_value' => false,
@@ -704,19 +425,421 @@ return array (
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
-        'options' => 
+      ),
+      'return_type' => '?string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getAttributeNS' => 
+    array (
+      'name' => 'getAttributeNS',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'namespace' => 
+        array (
+          'position' => 0,
+          'name' => 'namespace',
+          'type' => '?string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'localName' => 
         array (
           'position' => 1,
-          'name' => 'options',
-          'type' => 'int',
-          'is_optional' => true,
-          'has_default_value' => true,
-          'default_value' => 0,
+          'name' => 'localName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => 'int|false',
+      'return_type' => '?string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setAttribute' => 
+    array (
+      'name' => 'setAttribute',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'qualifiedName' => 
+        array (
+          'position' => 0,
+          'name' => 'qualifiedName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'value' => 
+        array (
+          'position' => 1,
+          'name' => 'value',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setAttributeNS' => 
+    array (
+      'name' => 'setAttributeNS',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'namespace' => 
+        array (
+          'position' => 0,
+          'name' => 'namespace',
+          'type' => '?string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'qualifiedName' => 
+        array (
+          'position' => 1,
+          'name' => 'qualifiedName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'value' => 
+        array (
+          'position' => 2,
+          'name' => 'value',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'removeAttribute' => 
+    array (
+      'name' => 'removeAttribute',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'qualifiedName' => 
+        array (
+          'position' => 0,
+          'name' => 'qualifiedName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'removeAttributeNS' => 
+    array (
+      'name' => 'removeAttributeNS',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'namespace' => 
+        array (
+          'position' => 0,
+          'name' => 'namespace',
+          'type' => '?string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'localName' => 
+        array (
+          'position' => 1,
+          'name' => 'localName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'toggleAttribute' => 
+    array (
+      'name' => 'toggleAttribute',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'qualifiedName' => 
+        array (
+          'position' => 0,
+          'name' => 'qualifiedName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'force' => 
+        array (
+          'position' => 1,
+          'name' => 'force',
+          'type' => '?bool',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'hasAttribute' => 
+    array (
+      'name' => 'hasAttribute',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'qualifiedName' => 
+        array (
+          'position' => 0,
+          'name' => 'qualifiedName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'hasAttributeNS' => 
+    array (
+      'name' => 'hasAttributeNS',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'namespace' => 
+        array (
+          'position' => 0,
+          'name' => 'namespace',
+          'type' => '?string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'localName' => 
+        array (
+          'position' => 1,
+          'name' => 'localName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getAttributeNode' => 
+    array (
+      'name' => 'getAttributeNode',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'qualifiedName' => 
+        array (
+          'position' => 0,
+          'name' => 'qualifiedName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => '?Dom\\Attr',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getAttributeNodeNS' => 
+    array (
+      'name' => 'getAttributeNodeNS',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'namespace' => 
+        array (
+          'position' => 0,
+          'name' => 'namespace',
+          'type' => '?string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'localName' => 
+        array (
+          'position' => 1,
+          'name' => 'localName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => '?Dom\\Attr',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setAttributeNode' => 
+    array (
+      'name' => 'setAttributeNode',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'attr' => 
+        array (
+          'position' => 0,
+          'name' => 'attr',
+          'type' => 'Dom\\Attr',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => '?Dom\\Attr',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setAttributeNodeNS' => 
+    array (
+      'name' => 'setAttributeNodeNS',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'attr' => 
+        array (
+          'position' => 0,
+          'name' => 'attr',
+          'type' => 'Dom\\Attr',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => '?Dom\\Attr',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'removeAttributeNode' => 
+    array (
+      'name' => 'removeAttributeNode',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'attr' => 
+        array (
+          'position' => 0,
+          'name' => 'attr',
+          'type' => 'Dom\\Attr',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'Dom\\Attr',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -726,7 +849,7 @@ return array (
     'getElementsByTagName' => 
     array (
       'name' => 'getElementsByTagName',
-      'class' => 'Dom\\Document',
+      'class' => 'Dom\\Element',
       'parameters' => 
       array (
         'qualifiedName' => 
@@ -751,7 +874,7 @@ return array (
     'getElementsByTagNameNS' => 
     array (
       'name' => 'getElementsByTagNameNS',
-      'class' => 'Dom\\Document',
+      'class' => 'Dom\\Element',
       'parameters' => 
       array (
         'namespace' => 
@@ -784,325 +907,28 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
-    'createElement' => 
+    'insertAdjacentElement' => 
     array (
-      'name' => 'createElement',
-      'class' => 'Dom\\Document',
+      'name' => 'insertAdjacentElement',
+      'class' => 'Dom\\Element',
       'parameters' => 
       array (
-        'localName' => 
+        'where' => 
         array (
           'position' => 0,
-          'name' => 'localName',
-          'type' => 'string',
+          'name' => 'where',
+          'type' => 'Dom\\AdjacentPosition',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
-      ),
-      'return_type' => 'Dom\\Element',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'createElementNS' => 
-    array (
-      'name' => 'createElementNS',
-      'class' => 'Dom\\Document',
-      'parameters' => 
-      array (
-        'namespace' => 
-        array (
-          'position' => 0,
-          'name' => 'namespace',
-          'type' => '?string',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-        'qualifiedName' => 
+        'element' => 
         array (
           'position' => 1,
-          'name' => 'qualifiedName',
-          'type' => 'string',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'Dom\\Element',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'createDocumentFragment' => 
-    array (
-      'name' => 'createDocumentFragment',
-      'class' => 'Dom\\Document',
-      'parameters' => 
-      array (
-      ),
-      'return_type' => 'Dom\\DocumentFragment',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'createTextNode' => 
-    array (
-      'name' => 'createTextNode',
-      'class' => 'Dom\\Document',
-      'parameters' => 
-      array (
-        'data' => 
-        array (
-          'position' => 0,
-          'name' => 'data',
-          'type' => 'string',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'Dom\\Text',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'createCDATASection' => 
-    array (
-      'name' => 'createCDATASection',
-      'class' => 'Dom\\Document',
-      'parameters' => 
-      array (
-        'data' => 
-        array (
-          'position' => 0,
-          'name' => 'data',
-          'type' => 'string',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'Dom\\CDATASection',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'createComment' => 
-    array (
-      'name' => 'createComment',
-      'class' => 'Dom\\Document',
-      'parameters' => 
-      array (
-        'data' => 
-        array (
-          'position' => 0,
-          'name' => 'data',
-          'type' => 'string',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'Dom\\Comment',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'createProcessingInstruction' => 
-    array (
-      'name' => 'createProcessingInstruction',
-      'class' => 'Dom\\Document',
-      'parameters' => 
-      array (
-        'target' => 
-        array (
-          'position' => 0,
-          'name' => 'target',
-          'type' => 'string',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-        'data' => 
-        array (
-          'position' => 1,
-          'name' => 'data',
-          'type' => 'string',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'Dom\\ProcessingInstruction',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'importNode' => 
-    array (
-      'name' => 'importNode',
-      'class' => 'Dom\\Document',
-      'parameters' => 
-      array (
-        'node' => 
-        array (
-          'position' => 0,
-          'name' => 'node',
-          'type' => '?Dom\\Node',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-        'deep' => 
-        array (
-          'position' => 1,
-          'name' => 'deep',
-          'type' => 'bool',
-          'is_optional' => true,
-          'has_default_value' => true,
-          'default_value' => false,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'Dom\\Node',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'adoptNode' => 
-    array (
-      'name' => 'adoptNode',
-      'class' => 'Dom\\Document',
-      'parameters' => 
-      array (
-        'node' => 
-        array (
-          'position' => 0,
-          'name' => 'node',
-          'type' => 'Dom\\Node',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'Dom\\Node',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'createAttribute' => 
-    array (
-      'name' => 'createAttribute',
-      'class' => 'Dom\\Document',
-      'parameters' => 
-      array (
-        'localName' => 
-        array (
-          'position' => 0,
-          'name' => 'localName',
-          'type' => 'string',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'Dom\\Attr',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'createAttributeNS' => 
-    array (
-      'name' => 'createAttributeNS',
-      'class' => 'Dom\\Document',
-      'parameters' => 
-      array (
-        'namespace' => 
-        array (
-          'position' => 0,
-          'name' => 'namespace',
-          'type' => '?string',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-        'qualifiedName' => 
-        array (
-          'position' => 1,
-          'name' => 'qualifiedName',
-          'type' => 'string',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'Dom\\Attr',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'getElementById' => 
-    array (
-      'name' => 'getElementById',
-      'class' => 'Dom\\Document',
-      'parameters' => 
-      array (
-        'elementId' => 
-        array (
-          'position' => 0,
-          'name' => 'elementId',
-          'type' => 'string',
+          'name' => 'element',
+          'type' => 'Dom\\Element',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -1117,28 +943,28 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
-    'registerNodeClass' => 
+    'insertAdjacentText' => 
     array (
-      'name' => 'registerNodeClass',
-      'class' => 'Dom\\Document',
+      'name' => 'insertAdjacentText',
+      'class' => 'Dom\\Element',
       'parameters' => 
       array (
-        'baseClass' => 
+        'where' => 
         array (
           'position' => 0,
-          'name' => 'baseClass',
-          'type' => 'string',
+          'name' => 'where',
+          'type' => 'Dom\\AdjacentPosition',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
-        'extendedClass' => 
+        'data' => 
         array (
           'position' => 1,
-          'name' => 'extendedClass',
-          'type' => '?string',
+          'name' => 'data',
+          'type' => 'string',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -1153,16 +979,16 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
-    'schemaValidate' => 
+    'setIdAttribute' => 
     array (
-      'name' => 'schemaValidate',
-      'class' => 'Dom\\Document',
+      'name' => 'setIdAttribute',
+      'class' => 'Dom\\Element',
       'parameters' => 
       array (
-        'filename' => 
+        'qualifiedName' => 
         array (
           'position' => 0,
-          'name' => 'filename',
+          'name' => 'qualifiedName',
           'type' => 'string',
           'is_optional' => false,
           'has_default_value' => false,
@@ -1170,105 +996,191 @@ return array (
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
-        'flags' => 
+        'isId' => 
         array (
           'position' => 1,
-          'name' => 'flags',
-          'type' => 'int',
-          'is_optional' => true,
-          'has_default_value' => true,
-          'default_value' => 0,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'bool',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'schemaValidateSource' => 
-    array (
-      'name' => 'schemaValidateSource',
-      'class' => 'Dom\\Document',
-      'parameters' => 
-      array (
-        'source' => 
-        array (
-          'position' => 0,
-          'name' => 'source',
-          'type' => 'string',
+          'name' => 'isId',
+          'type' => 'bool',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
-        'flags' => 
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setIdAttributeNS' => 
+    array (
+      'name' => 'setIdAttributeNS',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'namespace' => 
+        array (
+          'position' => 0,
+          'name' => 'namespace',
+          'type' => '?string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'qualifiedName' => 
         array (
           'position' => 1,
-          'name' => 'flags',
-          'type' => 'int',
+          'name' => 'qualifiedName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'isId' => 
+        array (
+          'position' => 2,
+          'name' => 'isId',
+          'type' => 'bool',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setIdAttributeNode' => 
+    array (
+      'name' => 'setIdAttributeNode',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'attr' => 
+        array (
+          'position' => 0,
+          'name' => 'attr',
+          'type' => 'Dom\\Attr',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'isId' => 
+        array (
+          'position' => 1,
+          'name' => 'isId',
+          'type' => 'bool',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'remove' => 
+    array (
+      'name' => 'remove',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'before' => 
+    array (
+      'name' => 'before',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'nodes' => 
+        array (
+          'position' => 0,
+          'name' => 'nodes',
+          'type' => 'Dom\\Node|string',
           'is_optional' => true,
-          'has_default_value' => true,
-          'default_value' => 0,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'bool',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'relaxNgValidate' => 
-    array (
-      'name' => 'relaxNgValidate',
-      'class' => 'Dom\\Document',
-      'parameters' => 
-      array (
-        'filename' => 
-        array (
-          'position' => 0,
-          'name' => 'filename',
-          'type' => 'string',
-          'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => 'bool',
+      'return_type' => 'void',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
       'is_private' => false,
     ),
-    'relaxNgValidateSource' => 
+    'after' => 
     array (
-      'name' => 'relaxNgValidateSource',
-      'class' => 'Dom\\Document',
+      'name' => 'after',
+      'class' => 'Dom\\Element',
       'parameters' => 
       array (
-        'source' => 
+        'nodes' => 
         array (
           'position' => 0,
-          'name' => 'source',
-          'type' => 'string',
-          'is_optional' => false,
+          'name' => 'nodes',
+          'type' => 'Dom\\Node|string',
+          'is_optional' => true,
           'has_default_value' => false,
           'default_value' => NULL,
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => 'bool',
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'replaceWith' => 
+    array (
+      'name' => 'replaceWith',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'nodes' => 
+        array (
+          'position' => 0,
+          'name' => 'nodes',
+          'type' => 'Dom\\Node|string',
+          'is_optional' => true,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -1278,7 +1190,7 @@ return array (
     'append' => 
     array (
       'name' => 'append',
-      'class' => 'Dom\\Document',
+      'class' => 'Dom\\Element',
       'parameters' => 
       array (
         'nodes' => 
@@ -1303,7 +1215,7 @@ return array (
     'prepend' => 
     array (
       'name' => 'prepend',
-      'class' => 'Dom\\Document',
+      'class' => 'Dom\\Element',
       'parameters' => 
       array (
         'nodes' => 
@@ -1328,7 +1240,7 @@ return array (
     'replaceChildren' => 
     array (
       'name' => 'replaceChildren',
-      'class' => 'Dom\\Document',
+      'class' => 'Dom\\Element',
       'parameters' => 
       array (
         'nodes' => 
@@ -1344,42 +1256,6 @@ return array (
         ),
       ),
       'return_type' => 'void',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'importLegacyNode' => 
-    array (
-      'name' => 'importLegacyNode',
-      'class' => 'Dom\\Document',
-      'parameters' => 
-      array (
-        'node' => 
-        array (
-          'position' => 0,
-          'name' => 'node',
-          'type' => 'DOMNode',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-        'deep' => 
-        array (
-          'position' => 1,
-          'name' => 'deep',
-          'type' => 'bool',
-          'is_optional' => true,
-          'has_default_value' => true,
-          'default_value' => false,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => 'Dom\\Node',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -1953,6 +1829,6 @@ return array (
   'is_abstract' => false,
   'is_anonymous' => false,
   'is_cloneable' => true,
-  'is_final' => true,
+  'is_final' => false,
   'is_read_only' => false,
 );

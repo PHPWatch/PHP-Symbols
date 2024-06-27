@@ -363,6 +363,45 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
+    'body' => 
+    array (
+      'name' => 'body',
+      'class' => 'Dom\\Document',
+      'type' => '?Dom\\HTMLElement',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'head' => 
+    array (
+      'name' => 'head',
+      'class' => 'Dom\\Document',
+      'type' => '?Dom\\HTMLElement',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'title' => 
+    array (
+      'name' => 'title',
+      'class' => 'Dom\\Document',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
   ),
   'methods' => 
   array (

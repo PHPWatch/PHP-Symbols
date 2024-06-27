@@ -195,6 +195,7 @@ return array (
   'Dom\\Attr',
   'DOMElement',
   'Dom\\Element',
+  'Dom\\HTMLElement',
   'DOMText',
   'Dom\\Text',
   'DOMComment',
