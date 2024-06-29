@@ -87,6 +87,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    '__debugInfo' => 
+    array (
+      'name' => '__debugInfo',
+      'class' => 'HashContext',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'array',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'traits' => 
   array (
