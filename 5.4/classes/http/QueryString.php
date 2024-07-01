@@ -750,4 +750,193 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:http> <iterateable> class http\\QueryString implements Serializable, ArrayAccess, IteratorAggregate, Traversable ] {
+
+  - Constants [6] {
+    Constant [ integer TYPE_BOOL ] { 3 }
+    Constant [ integer TYPE_INT ] { 1 }
+    Constant [ integer TYPE_FLOAT ] { 2 }
+    Constant [ integer TYPE_STRING ] { 6 }
+    Constant [ integer TYPE_ARRAY ] { 4 }
+    Constant [ integer TYPE_OBJECT ] { 5 }
+  }
+
+  - Static properties [1] {
+    Property [ private static $instance ]
+  }
+
+  - Static methods [1] {
+    Method [ <internal:http> static public method getGlobalInstance ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+
+  - Properties [1] {
+    Property [ <default> private $queryArray ]
+  }
+
+  - Methods [21] {
+    Method [ <internal:http, ctor> final public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $params ]
+      }
+    }
+
+    Method [ <internal:http> public method toArray ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method get ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $name ]
+        Parameter #1 [ <optional> $type ]
+        Parameter #2 [ <optional> $defval ]
+        Parameter #3 [ <optional> $delete ]
+      }
+    }
+
+    Method [ <internal:http> public method set ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $params ]
+      }
+    }
+
+    Method [ <internal:http> public method mod ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $params ]
+      }
+    }
+
+    Method [ <internal:http> public method getBool ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $defval ]
+        Parameter #2 [ <optional> $delete ]
+      }
+    }
+
+    Method [ <internal:http> public method getInt ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $defval ]
+        Parameter #2 [ <optional> $delete ]
+      }
+    }
+
+    Method [ <internal:http> public method getFloat ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $defval ]
+        Parameter #2 [ <optional> $delete ]
+      }
+    }
+
+    Method [ <internal:http> public method getString ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $defval ]
+        Parameter #2 [ <optional> $delete ]
+      }
+    }
+
+    Method [ <internal:http> public method getArray ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $defval ]
+        Parameter #2 [ <optional> $delete ]
+      }
+    }
+
+    Method [ <internal:http> public method getObject ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $defval ]
+        Parameter #2 [ <optional> $delete ]
+      }
+    }
+
+    Method [ <internal:http, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method xlate ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $from_encoding ]
+        Parameter #1 [ <required> $to_encoding ]
+      }
+    }
+
+    Method [ <internal:http, prototype Serializable> public method serialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, prototype Serializable> public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $serialized ]
+      }
+    }
+
+    Method [ <internal:http, prototype ArrayAccess> public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $offset ]
+      }
+    }
+
+    Method [ <internal:http, prototype ArrayAccess> public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $offset ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:http, prototype ArrayAccess> public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $offset ]
+      }
+    }
+
+    Method [ <internal:http, prototype ArrayAccess> public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $offset ]
+      }
+    }
+  }
+}
+',
 );

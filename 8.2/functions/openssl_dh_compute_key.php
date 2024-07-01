@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_dh_compute_key ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> string $public_key ]
+    Parameter #1 [ <required> OpenSSLAsymmetricKey $private_key ]
+  }
+  - Return [ string|false ]
+}
+',
 );

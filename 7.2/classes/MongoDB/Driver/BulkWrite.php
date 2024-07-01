@@ -205,4 +205,68 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\BulkWrite implements Countable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [6] {
+    Method [ <internal:mongodb, ctor> final public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array or NULL $options ]
+      }
+    }
+
+    Method [ <internal:mongodb, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+      - Return [ integer ]
+    }
+
+    Method [ <internal:mongodb> public method delete ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $filter ]
+        Parameter #1 [ <optional> array or NULL $deleteOptions ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb> final public method insert ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $document ]
+      }
+    }
+
+    Method [ <internal:mongodb> public method update ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $filter ]
+        Parameter #1 [ <required> $newObj ]
+        Parameter #2 [ <optional> array or NULL $updateOptions ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb> final public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+  }
+}
+',
 );

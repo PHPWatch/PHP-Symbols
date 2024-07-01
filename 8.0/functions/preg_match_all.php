@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,28 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'pcre',
+  'toString' => 'Function [ <internal:pcre> function preg_match_all ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> string $pattern ]
+    Parameter #1 [ <required> string $subject ]
+    Parameter #2 [ <optional> &$matches = null ]
+    Parameter #3 [ <optional> int $flags = 0 ]
+    Parameter #4 [ <optional> int $offset = 0 ]
+  }
+  - Return [ int|false ]
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal, deprecated:standard> function call_user_method ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $method_name ]
+    Parameter #1 [ <required> &$object ]
+    Parameter #2 [ <optional> ...$parameters ]
+  }
+}
+',
 );

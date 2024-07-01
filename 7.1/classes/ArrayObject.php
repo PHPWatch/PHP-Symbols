@@ -523,4 +523,170 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class ArrayObject implements IteratorAggregate, Traversable, ArrayAccess, Serializable, Countable ] {
+
+  - Constants [2] {
+    Constant [ public integer STD_PROP_LIST ] { 1 }
+    Constant [ public integer ARRAY_AS_PROPS ] { 2 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [22] {
+    Method [ <internal:SPL, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $input ]
+        Parameter #1 [ <optional> $flags ]
+        Parameter #2 [ <optional> $iterator_class ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <required> $newval ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:SPL> public method append ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getArrayCopy ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getFlags ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method setFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $flags ]
+      }
+    }
+
+    Method [ <internal:SPL> public method asort ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method ksort ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method uasort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $cmp_function ]
+      }
+    }
+
+    Method [ <internal:SPL> public method uksort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $cmp_function ]
+      }
+    }
+
+    Method [ <internal:SPL> public method natsort ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method natcasesort ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Serializable> public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $serialized ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype Serializable> public method serialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method exchangeArray ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $array ]
+      }
+    }
+
+    Method [ <internal:SPL> public method setIteratorClass ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $iteratorClass ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getIteratorClass ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

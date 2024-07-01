@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'zip',
+    )),
     'removed' => NULL,
+    'version' => '1.19.5',
     'resources' => 
     array (
       0 => 
@@ -25,14 +29,25 @@ return array (
   ),
   'classes' => 
   array (
+    0 => 'ZipArchive',
+  ),
+  'functions' => 
+  array (
+    'zip_open' => 'zip_open',
+    'zip_close' => 'zip_close',
+    'zip_read' => 'zip_read',
+    'zip_entry_open' => 'zip_entry_open',
+    'zip_entry_close' => 'zip_entry_close',
+    'zip_entry_read' => 'zip_entry_read',
+    'zip_entry_name' => 'zip_entry_name',
+    'zip_entry_compressedsize' => 'zip_entry_compressedsize',
+    'zip_entry_filesize' => 'zip_entry_filesize',
+    'zip_entry_compressionmethod' => 'zip_entry_compressionmethod',
   ),
   'constants' => 
   array (
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

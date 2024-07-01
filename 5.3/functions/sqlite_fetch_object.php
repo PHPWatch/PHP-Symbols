@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'SQLite',
+  'toString' => 'Function [ <internal:SQLite> function sqlite_fetch_object ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $result ]
+    Parameter #1 [ <optional> $class_name ]
+    Parameter #2 [ <optional> $ctor_params ]
+    Parameter #3 [ <optional> $decode_binary ]
+  }
+}
+',
 );

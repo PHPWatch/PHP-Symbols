@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'date',
+  'toString' => 'Function [ <internal:date> function timezone_transitions_get ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> DateTimeZone $object ]
+    Parameter #1 [ <optional> int $timestampBegin = PHP_INT_MIN ]
+    Parameter #2 [ <optional> int $timestampEnd = PHP_INT_MAX ]
+  }
+  - Return [ array|false ]
+}
+',
 );

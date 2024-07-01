@@ -295,4 +295,62 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mysqli> class mysqli_sql_exception extends RuntimeException ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [5] {
+    Property [ <default> protected $message ]
+    Property [ <default> protected $file ]
+    Property [ <default> protected $line ]
+    Property [ <default> protected $code ]
+    Property [ <default> protected $sqlstate ]
+  }
+
+  - Methods [10] {
+    Method [ <internal:Core, inherits Exception, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $message ]
+        Parameter #1 [ <optional> $code ]
+        Parameter #2 [ <optional> $previous ]
+      }
+    }
+
+    Method [ <internal:Core, inherits Exception> public method __wakeup ] {
+    }
+
+    Method [ <internal:Core, inherits Exception> final public method getMessage ] {
+    }
+
+    Method [ <internal:Core, inherits Exception> final public method getCode ] {
+    }
+
+    Method [ <internal:Core, inherits Exception> final public method getFile ] {
+    }
+
+    Method [ <internal:Core, inherits Exception> final public method getLine ] {
+    }
+
+    Method [ <internal:Core, inherits Exception> final public method getTrace ] {
+    }
+
+    Method [ <internal:Core, inherits Exception> final public method getPrevious ] {
+    }
+
+    Method [ <internal:Core, inherits Exception> final public method getTraceAsString ] {
+    }
+
+    Method [ <internal:Core, inherits Exception> public method __toString ] {
+    }
+  }
+}
+',
 );

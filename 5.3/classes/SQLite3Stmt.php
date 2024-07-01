@@ -244,4 +244,82 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:sqlite3> class SQLite3Stmt ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [9] {
+    Method [ <internal:sqlite3> public method paramCount ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> public method close ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> public method reset ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> public method clear ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> public method execute ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> public method bindParam ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $param_number ]
+        Parameter #1 [ <required> &$param ]
+        Parameter #2 [ <optional> $type ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method bindValue ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $param_number ]
+        Parameter #1 [ <required> $param ]
+        Parameter #2 [ <optional> $type ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method readOnly ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3, ctor> private method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $sqlite3 ]
+      }
+    }
+  }
+}
+',
 );

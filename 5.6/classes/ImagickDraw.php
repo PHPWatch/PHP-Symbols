@@ -3789,4 +3789,995 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:imagick> class ImagickDraw ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [134] {
+    Method [ <internal:imagick> public method resetVectorGraphics ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getTextKerning ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setTextKerning ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $kerning ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getTextInterwordSpacing ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setTextInterwordSpacing ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $spacing ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getTextInterlineSpacing ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setTextInterlineSpacing ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $spacing ]
+      }
+    }
+
+    Method [ <internal:imagick, ctor> public method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setFillColor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $fill_color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setFillAlpha ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $alpha ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setResolution ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $resolution_x ]
+        Parameter #1 [ <required> $resolution_y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setStrokeColor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setStrokeAlpha ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $alpha ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setStrokeWidth ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $width ]
+      }
+    }
+
+    Method [ <internal:imagick> public method clear ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method circle ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $origin_x ]
+        Parameter #1 [ <required> $origin_y ]
+        Parameter #2 [ <required> $perimeter_x ]
+        Parameter #3 [ <required> $perimeter_y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method annotation ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+        Parameter #2 [ <required> $text ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setTextAntialias ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $antialias ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setTextEncoding ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $encoding ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setFont ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $font_name ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setFontFamily ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $font_family ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setFontSize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $point_size ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setFontStyle ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $style ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setFontWeight ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $weight ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getFont ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getFontFamily ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getFontSize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getFontStyle ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getFontWeight ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method destroy ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method rectangle ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $top_left_x ]
+        Parameter #1 [ <required> $top_left_y ]
+        Parameter #2 [ <required> $bottom_right_x ]
+        Parameter #3 [ <required> $bottom_right_y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method roundRectangle ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $top_left_x ]
+        Parameter #1 [ <required> $top_left_y ]
+        Parameter #2 [ <required> $bottom_right_x ]
+        Parameter #3 [ <required> $bottom_right_y ]
+        Parameter #4 [ <required> $rounding_x ]
+        Parameter #5 [ <required> $rounding_y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method ellipse ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $origin_x ]
+        Parameter #1 [ <required> $origin_y ]
+        Parameter #2 [ <required> $radius_x ]
+        Parameter #3 [ <required> $radius_y ]
+        Parameter #4 [ <required> $angle_start ]
+        Parameter #5 [ <required> $angle_end ]
+      }
+    }
+
+    Method [ <internal:imagick> public method skewX ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $degrees ]
+      }
+    }
+
+    Method [ <internal:imagick> public method skewY ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $degrees ]
+      }
+    }
+
+    Method [ <internal:imagick> public method translate ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method line ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $start_x ]
+        Parameter #1 [ <required> $start_y ]
+        Parameter #2 [ <required> $end_x ]
+        Parameter #3 [ <required> $end_y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method arc ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $start_x ]
+        Parameter #1 [ <required> $start_y ]
+        Parameter #2 [ <required> $end_x ]
+        Parameter #3 [ <required> $end_y ]
+        Parameter #4 [ <required> $start_angle ]
+        Parameter #5 [ <required> $end_angle ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method matte ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+        Parameter #2 [ <required> $paint ]
+      }
+    }
+
+    Method [ <internal:imagick> public method polygon ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $coordinates ]
+      }
+    }
+
+    Method [ <internal:imagick> public method point ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getTextDecoration ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getTextEncoding ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getFontStretch ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setFontStretch ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $stretch ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setStrokeAntialias ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $enabled ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setTextAlignment ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $align ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setTextDecoration ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $decoration ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setTextUnderColor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $under_color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setViewbox ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $left_x ]
+        Parameter #1 [ <required> $top_y ]
+        Parameter #2 [ <required> $right_x ]
+        Parameter #3 [ <required> $bottom_y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method clone ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method affine ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $affine ]
+      }
+    }
+
+    Method [ <internal:imagick> public method bezier ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $coordinates ]
+      }
+    }
+
+    Method [ <internal:imagick> public method composite ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $composite ]
+        Parameter #1 [ <required> $x ]
+        Parameter #2 [ <required> $y ]
+        Parameter #3 [ <required> $width ]
+        Parameter #4 [ <required> $height ]
+        Parameter #5 [ <required> Imagick $image ]
+      }
+    }
+
+    Method [ <internal:imagick> public method color ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+        Parameter #2 [ <required> $paint ]
+      }
+    }
+
+    Method [ <internal:imagick> public method comment ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $comment ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getClipPath ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getClipRule ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getClipUnits ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getFillColor ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getFillOpacity ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getFillRule ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getGravity ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getStrokeAntialias ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getStrokeColor ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getStrokeDashArray ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getStrokeDashOffset ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getStrokeLineCap ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getStrokeLineJoin ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getStrokeMiterLimit ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getStrokeOpacity ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getStrokeWidth ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getTextAlignment ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getTextAntialias ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getVectorGraphics ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getTextUnderColor ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method pathClose ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method pathCurveToAbsolute ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $x1 ]
+        Parameter #1 [ <required> $y1 ]
+        Parameter #2 [ <required> $x2 ]
+        Parameter #3 [ <required> $y2 ]
+        Parameter #4 [ <required> $x ]
+        Parameter #5 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathCurveToRelative ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $x1 ]
+        Parameter #1 [ <required> $y1 ]
+        Parameter #2 [ <required> $x2 ]
+        Parameter #3 [ <required> $y2 ]
+        Parameter #4 [ <required> $x ]
+        Parameter #5 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathCurveToQuadraticBezierAbsolute ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $x1 ]
+        Parameter #1 [ <required> $y1 ]
+        Parameter #2 [ <required> $x_end ]
+        Parameter #3 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathCurveToQuadraticBezierRelative ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $x1 ]
+        Parameter #1 [ <required> $y1 ]
+        Parameter #2 [ <required> $x_end ]
+        Parameter #3 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathCurveToQuadraticBezierSmoothAbsolute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathCurveToQuadraticBezierSmoothRelative ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathCurveToSmoothAbsolute ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $x2 ]
+        Parameter #1 [ <required> $y2 ]
+        Parameter #2 [ <required> $x ]
+        Parameter #3 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathCurveToSmoothRelative ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $x2 ]
+        Parameter #1 [ <required> $y2 ]
+        Parameter #2 [ <required> $x ]
+        Parameter #3 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathEllipticArcAbsolute ] {
+
+      - Parameters [7] {
+        Parameter #0 [ <required> $rx ]
+        Parameter #1 [ <required> $ry ]
+        Parameter #2 [ <required> $x_axis_rotation ]
+        Parameter #3 [ <required> $large_arc ]
+        Parameter #4 [ <required> $sweep ]
+        Parameter #5 [ <required> $x ]
+        Parameter #6 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathEllipticArcRelative ] {
+
+      - Parameters [7] {
+        Parameter #0 [ <required> $rx ]
+        Parameter #1 [ <required> $ry ]
+        Parameter #2 [ <required> $x_axis_rotation ]
+        Parameter #3 [ <required> $large_arc ]
+        Parameter #4 [ <required> $sweep ]
+        Parameter #5 [ <required> $x ]
+        Parameter #6 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathFinish ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method pathLineToAbsolute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathLineToRelative ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathLineToHorizontalAbsolute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $x ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathLineToHorizontalRelative ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $x ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathLineToVerticalAbsolute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathLineToVerticalRelative ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathMoveToAbsolute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathMoveToRelative ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pathStart ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method polyline ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $coordinates ]
+      }
+    }
+
+    Method [ <internal:imagick> public method popClipPath ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method popDefs ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method popPattern ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method pushClipPath ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $clip_mask_id ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pushDefs ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method pushPattern ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $pattern_id ]
+        Parameter #1 [ <required> $x ]
+        Parameter #2 [ <required> $y ]
+        Parameter #3 [ <required> $width ]
+        Parameter #4 [ <required> $height ]
+      }
+    }
+
+    Method [ <internal:imagick> public method render ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method rotate ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $degrees ]
+      }
+    }
+
+    Method [ <internal:imagick> public method scale ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setClipPath ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $clip_mask ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setClipRule ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $fillrule ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setClipUnits ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $pathunits ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setFillOpacity ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $opacity ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setFillPatternUrl ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $fill_url ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setFillRule ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $fillrule ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setGravity ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $gravity ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setStrokePatternUrl ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $stroke_url ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setStrokeDashOffset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $dash_offset ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setStrokeLineCap ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $linecap ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setStrokeLineJoin ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $linejoin ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setStrokeMiterLimit ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $miterlimit ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setStrokeOpacity ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $opacity ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setVectorGraphics ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $xml ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pop ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method push ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setStrokeDashArray ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $dashes ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getOpacity ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setOpacity ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $opacity ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getFontResolution ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setFontResolution ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getBorderColor ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setBorderColor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setDensity ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $density ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getDensity ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getTextDirection ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setTextDirection ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $direction ]
+      }
+    }
+  }
+}
+',
 );

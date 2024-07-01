@@ -766,4 +766,292 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class GlobIterator extends FilesystemIterator implements Stringable, Iterator, Traversable, SeekableIterator, Countable ] {
+
+  - Constants [12] {
+    Constant [ public int CURRENT_MODE_MASK ] { 240 }
+    Constant [ public int CURRENT_AS_PATHNAME ] { 32 }
+    Constant [ public int CURRENT_AS_FILEINFO ] { 0 }
+    Constant [ public int CURRENT_AS_SELF ] { 16 }
+    Constant [ public int KEY_MODE_MASK ] { 3840 }
+    Constant [ public int KEY_AS_PATHNAME ] { 0 }
+    Constant [ public int FOLLOW_SYMLINKS ] { 512 }
+    Constant [ public int KEY_AS_FILENAME ] { 256 }
+    Constant [ public int NEW_CURRENT_AND_KEY ] { 256 }
+    Constant [ public int OTHER_MODE_MASK ] { 12288 }
+    Constant [ public int SKIP_DOTS ] { 4096 }
+    Constant [ public int UNIX_PATHS ] { 8192 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [41] {
+    Method [ <internal:SPL, overwrites FilesystemIterator, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $pattern ]
+        Parameter #1 [ <optional> int $flags = FilesystemIterator::KEY_AS_PATHNAME | FilesystemIterator::CURRENT_AS_FILEINFO ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits FilesystemIterator, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits FilesystemIterator, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits FilesystemIterator, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits FilesystemIterator> public method getFlags ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits FilesystemIterator> public method setFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $flags ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits DirectoryIterator, prototype SplFileInfo> public method getFilename ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits DirectoryIterator, prototype SplFileInfo> public method getExtension ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits DirectoryIterator, prototype SplFileInfo> public method getBasename ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string $suffix = "" ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits DirectoryIterator> public method isDot ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits DirectoryIterator, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits DirectoryIterator, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits DirectoryIterator, prototype SeekableIterator> public method seek ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $offset ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits DirectoryIterator, prototype Stringable> public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getPath ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getPathname ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getPerms ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getInode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getSize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getOwner ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getGroup ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getATime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getMTime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getCTime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isWritable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isReadable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isExecutable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isFile ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isDir ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isLink ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getLinkTarget ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getRealPath ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getFileInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $class = null ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getPathInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $class = null ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method openFile ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> string $mode = "r" ]
+        Parameter #1 [ <optional> bool $useIncludePath = false ]
+        Parameter #2 [ <optional> $context = null ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method setFileClass ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string $class = SplFileObject::class ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method setInfoClass ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string $class = SplFileInfo::class ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method __debugInfo ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> final public method _bad_state_ex ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

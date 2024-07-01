@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => true,
   ),
   'extension' => 'intl',
+  'toString' => 'Function [ <internal:intl> function locale_filter_matches ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> string $languageTag ]
+    Parameter #1 [ <required> string $locale ]
+    Parameter #2 [ <optional> bool $canonicalize = false ]
+  }
+  - Return [ ?bool ]
+}
+',
 );

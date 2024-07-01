@@ -79,4 +79,29 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:soap> class SoapParam ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:soap, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> mixed $data ]
+        Parameter #1 [ <required> string $name ]
+      }
+    }
+  }
+}
+',
 );

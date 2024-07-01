@@ -256,4 +256,78 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> <iterateable> class DOMNamedNodeMap implements Traversable, Countable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [8] {
+    Method [ <internal:dom> public method getNamedItem ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:dom> public method setNamedItem ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DOMNode $arg ]
+      }
+    }
+
+    Method [ <internal:dom> public method removeNamedItem ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $name ]
+      }
+    }
+
+    Method [ <internal:dom> public method item ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $index ]
+      }
+    }
+
+    Method [ <internal:dom> public method getNamedItemNS ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $namespaceURI ]
+        Parameter #1 [ <optional> $localName ]
+      }
+    }
+
+    Method [ <internal:dom> public method setNamedItemNS ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> DOMNode $arg ]
+      }
+    }
+
+    Method [ <internal:dom> public method removeNamedItemNS ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $namespaceURI ]
+        Parameter #1 [ <optional> $localName ]
+      }
+    }
+
+    Method [ <internal:dom, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

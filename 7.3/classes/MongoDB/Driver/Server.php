@@ -531,4 +531,188 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\Server ] {
+
+  - Constants [10] {
+    Constant [ public int TYPE_UNKNOWN ] { 0 }
+    Constant [ public int TYPE_STANDALONE ] { 1 }
+    Constant [ public int TYPE_MONGOS ] { 2 }
+    Constant [ public int TYPE_POSSIBLE_PRIMARY ] { 3 }
+    Constant [ public int TYPE_RS_PRIMARY ] { 4 }
+    Constant [ public int TYPE_RS_SECONDARY ] { 5 }
+    Constant [ public int TYPE_RS_ARBITER ] { 6 }
+    Constant [ public int TYPE_RS_OTHER ] { 7 }
+    Constant [ public int TYPE_RS_GHOST ] { 8 }
+    Constant [ public int TYPE_LOAD_BALANCER ] { 9 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [20] {
+    Method [ <internal:mongodb, ctor> final private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method executeBulkWrite ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $namespace ]
+        Parameter #1 [ <required> MongoDB\\Driver\\BulkWrite $bulkWrite ]
+        Parameter #2 [ <optional> $options ]
+      }
+      - Return [ MongoDB\\Driver\\WriteResult ]
+    }
+
+    Method [ <internal:mongodb> final public method executeCommand ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $db ]
+        Parameter #1 [ <required> MongoDB\\Driver\\Command $command ]
+        Parameter #2 [ <optional> $options ]
+      }
+      - Return [ MongoDB\\Driver\\Cursor ]
+    }
+
+    Method [ <internal:mongodb> final public method executeQuery ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $namespace ]
+        Parameter #1 [ <required> MongoDB\\Driver\\Query $query ]
+        Parameter #2 [ <optional> $options ]
+      }
+      - Return [ MongoDB\\Driver\\Cursor ]
+    }
+
+    Method [ <internal:mongodb> final public method executeReadCommand ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $db ]
+        Parameter #1 [ <required> MongoDB\\Driver\\Command $command ]
+        Parameter #2 [ <optional> array or NULL $options ]
+      }
+      - Return [ MongoDB\\Driver\\Cursor ]
+    }
+
+    Method [ <internal:mongodb> final public method executeReadWriteCommand ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $db ]
+        Parameter #1 [ <required> MongoDB\\Driver\\Command $command ]
+        Parameter #2 [ <optional> array or NULL $options ]
+      }
+      - Return [ MongoDB\\Driver\\Cursor ]
+    }
+
+    Method [ <internal:mongodb> final public method executeWriteCommand ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $db ]
+        Parameter #1 [ <required> MongoDB\\Driver\\Command $command ]
+        Parameter #2 [ <optional> array or NULL $options ]
+      }
+      - Return [ MongoDB\\Driver\\Cursor ]
+    }
+
+    Method [ <internal:mongodb> final public method getHost ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb> final public method getInfo ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:mongodb> final public method getLatency ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int or NULL ]
+    }
+
+    Method [ <internal:mongodb> final public method getPort ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:mongodb> final public method getServerDescription ] {
+
+      - Parameters [0] {
+      }
+      - Return [ MongoDB\\Driver\\ServerDescription ]
+    }
+
+    Method [ <internal:mongodb> final public method getTags ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:mongodb> final public method getType ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:mongodb> final public method isArbiter ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:mongodb> final public method isHidden ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:mongodb> final public method isPassive ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:mongodb> final public method isPrimary ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:mongodb> final public method isSecondary ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:mongodb> final public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+  }
+}
+',
 );

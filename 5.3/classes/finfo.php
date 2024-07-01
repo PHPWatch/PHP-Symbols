@@ -196,4 +196,54 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:fileinfo> class finfo ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [4] {
+    Method [ <internal:fileinfo, ctor> public method finfo ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $options ]
+        Parameter #1 [ <optional> $arg ]
+      }
+    }
+
+    Method [ <internal:fileinfo> public method set_flags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $options ]
+      }
+    }
+
+    Method [ <internal:fileinfo> public method file ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $filename ]
+        Parameter #1 [ <optional> $options ]
+        Parameter #2 [ <optional> $context ]
+      }
+    }
+
+    Method [ <internal:fileinfo> public method buffer ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $string ]
+        Parameter #1 [ <optional> $options ]
+        Parameter #2 [ <optional> $context ]
+      }
+    }
+  }
+}
+',
 );

@@ -595,4 +595,190 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SimpleXML> <iterateable> class SimpleXMLIterator extends SimpleXMLElement implements Iterator, Traversable, RecursiveIterator, Countable, Stringable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [21] {
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method xpath ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $expression ]
+      }
+      - Tentative return [ array|false|null ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method registerXPathNamespace ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $prefix ]
+        Parameter #1 [ <required> string $namespace ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method asXML ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $filename = null ]
+      }
+      - Tentative return [ string|bool ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method saveXML ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $filename = null ]
+      }
+      - Tentative return [ string|bool ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method getNamespaces ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> bool $recursive = false ]
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method getDocNamespaces ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> bool $recursive = false ]
+        Parameter #1 [ <optional> bool $fromRoot = true ]
+      }
+      - Tentative return [ array|false ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method children ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> ?string $namespaceOrPrefix = null ]
+        Parameter #1 [ <optional> bool $isPrefix = false ]
+      }
+      - Tentative return [ ?SimpleXMLElement ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method attributes ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> ?string $namespaceOrPrefix = null ]
+        Parameter #1 [ <optional> bool $isPrefix = false ]
+      }
+      - Tentative return [ ?SimpleXMLElement ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement, ctor> public method __construct ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $data ]
+        Parameter #1 [ <optional> int $options = 0 ]
+        Parameter #2 [ <optional> bool $dataIsURL = false ]
+        Parameter #3 [ <optional> string $namespaceOrPrefix = "" ]
+        Parameter #4 [ <optional> bool $isPrefix = false ]
+      }
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method addChild ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $qualifiedName ]
+        Parameter #1 [ <optional> ?string $value = null ]
+        Parameter #2 [ <optional> ?string $namespace = null ]
+      }
+      - Tentative return [ ?SimpleXMLElement ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method addAttribute ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $qualifiedName ]
+        Parameter #1 [ <required> string $value ]
+        Parameter #2 [ <optional> ?string $namespace = null ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method getName ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement, prototype Stringable> public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ SimpleXMLElement ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement, prototype RecursiveIterator> public method hasChildren ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement, prototype RecursiveIterator> public method getChildren ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?SimpleXMLElement ]
+    }
+  }
+}
+',
 );

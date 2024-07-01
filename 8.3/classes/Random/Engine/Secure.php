@@ -59,4 +59,28 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:random> final class Random\\Engine\\Secure implements Random\\CryptoSafeEngine, Random\\Engine ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:random, prototype Random\\Engine> public method generate ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function parse_ini_file ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $filename ]
+    Parameter #1 [ <optional> $process_sections ]
+    Parameter #2 [ <optional> $scanner_mode ]
+  }
+}
+',
 );

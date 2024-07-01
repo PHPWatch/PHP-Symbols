@@ -118,4 +118,43 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> class IntlDatePatternGenerator ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:intl> static public method create ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $locale = null ]
+      }
+      - Return [ ?IntlDatePatternGenerator ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [2] {
+    Method [ <internal:intl, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $locale = null ]
+      }
+    }
+
+    Method [ <internal:intl> public method getBestPattern ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $skeleton ]
+      }
+      - Return [ string|false ]
+    }
+  }
+}
+',
 );

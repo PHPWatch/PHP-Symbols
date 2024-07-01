@@ -94,4 +94,34 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> class MongoPool ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [3] {
+    Method [ <internal, deprecated:mongo> static public method info ] {
+    }
+
+    Method [ <internal, deprecated:mongo> static public method setSize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $size ]
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> static public method getSize ] {
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

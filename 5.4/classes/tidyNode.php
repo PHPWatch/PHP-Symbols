@@ -183,4 +183,51 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:tidy> final class tidyNode ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [10] {
+    Method [ <internal:tidy> public method hasChildren ] {
+    }
+
+    Method [ <internal:tidy> public method hasSiblings ] {
+    }
+
+    Method [ <internal:tidy> public method isComment ] {
+    }
+
+    Method [ <internal:tidy> public method isHtml ] {
+    }
+
+    Method [ <internal:tidy> public method isText ] {
+    }
+
+    Method [ <internal:tidy> public method isJste ] {
+    }
+
+    Method [ <internal:tidy> public method isAsp ] {
+    }
+
+    Method [ <internal:tidy> public method isPhp ] {
+    }
+
+    Method [ <internal:tidy> public method getParent ] {
+    }
+
+    Method [ <internal:tidy, ctor> private method __construct ] {
+    }
+  }
+}
+',
 );

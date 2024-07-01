@@ -547,4 +547,190 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class RecursiveArrayIterator extends ArrayIterator implements Countable, Serializable, SeekableIterator, ArrayAccess, Traversable, Iterator, RecursiveIterator ] {
+
+  - Constants [1] {
+    Constant [ integer CHILD_ARRAYS_ONLY ] { 4 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [26] {
+    Method [ <internal:SPL, prototype RecursiveIterator> public method hasChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype RecursiveIterator> public method getChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $array ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype ArrayAccess> public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype ArrayAccess> public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype ArrayAccess> public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <required> $newval ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype ArrayAccess> public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method append ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method getArrayCopy ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method getFlags ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method setFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $flags ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method asort ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method ksort ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method uasort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $cmp_function ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method uksort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $cmp_function ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method natsort ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method natcasesort ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype Serializable> public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $serialized ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype Serializable> public method serialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype SeekableIterator> public method seek ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $position ]
+      }
+    }
+  }
+}
+',
 );

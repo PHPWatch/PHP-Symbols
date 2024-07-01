@@ -611,4 +611,185 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:amqp> class AMQPChannel ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [6] {
+    Property [ <default> private $connection ]
+    Property [ <default> private $prefetch_count ]
+    Property [ <default> private $prefetch_size ]
+    Property [ <default> private $global_prefetch_count ]
+    Property [ <default> private $global_prefetch_size ]
+    Property [ <default> private $consumers ]
+  }
+
+  - Methods [24] {
+    Method [ <internal:amqp, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> AMQPConnection $amqp_connection ]
+      }
+    }
+
+    Method [ <internal:amqp> public method isConnected ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method close ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method getChannelId ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method setPrefetchSize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $size ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getPrefetchSize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method setPrefetchCount ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $count ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getPrefetchCount ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method setGlobalPrefetchSize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $size ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getGlobalPrefetchSize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method setGlobalPrefetchCount ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $count ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getGlobalPrefetchCount ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method qos ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $size ]
+        Parameter #1 [ <required> $count ]
+        Parameter #2 [ <optional> $global ]
+      }
+    }
+
+    Method [ <internal:amqp> public method startTransaction ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method commitTransaction ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method rollbackTransaction ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method getConnection ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method basicRecover ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $requeue ]
+      }
+    }
+
+    Method [ <internal:amqp> public method confirmSelect ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method waitForConfirm ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $timeout ]
+      }
+    }
+
+    Method [ <internal:amqp> public method setConfirmCallback ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $ack_callback ]
+        Parameter #1 [ <optional> $nack_callback ]
+      }
+    }
+
+    Method [ <internal:amqp> public method setReturnCallback ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $return_callback ]
+      }
+    }
+
+    Method [ <internal:amqp> public method waitForBasicReturn ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $timeout ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getConsumers ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

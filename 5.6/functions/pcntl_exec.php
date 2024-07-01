@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'pcntl',
+  'toString' => 'Function [ <internal:pcntl> function pcntl_exec ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $path ]
+    Parameter #1 [ <optional> $args ]
+    Parameter #2 [ <optional> $envs ]
+  }
+}
+',
 );

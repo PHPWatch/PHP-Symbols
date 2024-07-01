@@ -668,4 +668,216 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:xmlreader> class XMLReader ] {
+
+  - Constants [22] {
+    Constant [ public integer NONE ] { 0 }
+    Constant [ public integer ELEMENT ] { 1 }
+    Constant [ public integer ATTRIBUTE ] { 2 }
+    Constant [ public integer TEXT ] { 3 }
+    Constant [ public integer CDATA ] { 4 }
+    Constant [ public integer ENTITY_REF ] { 5 }
+    Constant [ public integer ENTITY ] { 6 }
+    Constant [ public integer PI ] { 7 }
+    Constant [ public integer COMMENT ] { 8 }
+    Constant [ public integer DOC ] { 9 }
+    Constant [ public integer DOC_TYPE ] { 10 }
+    Constant [ public integer DOC_FRAGMENT ] { 11 }
+    Constant [ public integer NOTATION ] { 12 }
+    Constant [ public integer WHITESPACE ] { 13 }
+    Constant [ public integer SIGNIFICANT_WHITESPACE ] { 14 }
+    Constant [ public integer END_ELEMENT ] { 15 }
+    Constant [ public integer END_ENTITY ] { 16 }
+    Constant [ public integer XML_DECLARATION ] { 17 }
+    Constant [ public integer LOADDTD ] { 1 }
+    Constant [ public integer DEFAULTATTRS ] { 2 }
+    Constant [ public integer VALIDATE ] { 3 }
+    Constant [ public integer SUBST_ENTITIES ] { 4 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [25] {
+    Method [ <internal:xmlreader> public method close ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlreader> public method getAttribute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:xmlreader> public method getAttributeNo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:xmlreader> public method getAttributeNs ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $namespaceURI ]
+      }
+    }
+
+    Method [ <internal:xmlreader> public method getParserProperty ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $property ]
+      }
+    }
+
+    Method [ <internal:xmlreader> public method isValid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlreader> public method lookupNamespace ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $prefix ]
+      }
+    }
+
+    Method [ <internal:xmlreader> public method moveToAttributeNo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:xmlreader> public method moveToAttribute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:xmlreader> public method moveToAttributeNs ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $namespaceURI ]
+      }
+    }
+
+    Method [ <internal:xmlreader> public method moveToElement ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlreader> public method moveToFirstAttribute ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlreader> public method moveToNextAttribute ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlreader> public method open ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $URI ]
+        Parameter #1 [ <optional> $encoding ]
+        Parameter #2 [ <optional> $options ]
+      }
+    }
+
+    Method [ <internal:xmlreader> public method read ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlreader> public method next ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $localname ]
+      }
+    }
+
+    Method [ <internal:xmlreader> public method readInnerXml ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlreader> public method readOuterXml ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlreader> public method readString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlreader> public method setSchema ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $filename ]
+      }
+    }
+
+    Method [ <internal:xmlreader> public method setParserProperty ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $property ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:xmlreader> public method setRelaxNGSchema ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $filename ]
+      }
+    }
+
+    Method [ <internal:xmlreader> public method setRelaxNGSchemaSource ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $source ]
+      }
+    }
+
+    Method [ <internal:xmlreader> public method XML ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $source ]
+        Parameter #1 [ <optional> $encoding ]
+        Parameter #2 [ <optional> $options ]
+      }
+    }
+
+    Method [ <internal:xmlreader> public method expand ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $basenode ]
+      }
+    }
+  }
+}
+',
 );

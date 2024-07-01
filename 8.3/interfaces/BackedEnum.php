@@ -100,4 +100,44 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:Core> interface BackedEnum extends UnitEnum ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [3] {
+    Method [ <internal:Core> abstract static public method from ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string|int $value ]
+      }
+      - Return [ static ]
+    }
+
+    Method [ <internal:Core> abstract static public method tryFrom ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string|int $value ]
+      }
+      - Return [ ?static ]
+    }
+
+    Method [ <internal:Core, inherits UnitEnum> abstract static public method cases ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

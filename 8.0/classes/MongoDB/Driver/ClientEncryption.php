@@ -405,4 +405,128 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\ClientEncryption ] {
+
+  - Constants [7] {
+    Constant [ public string AEAD_AES_256_CBC_HMAC_SHA_512_DETERMINISTIC ] { AEAD_AES_256_CBC_HMAC_SHA_512-Deterministic }
+    Constant [ public string AEAD_AES_256_CBC_HMAC_SHA_512_RANDOM ] { AEAD_AES_256_CBC_HMAC_SHA_512-Random }
+    Constant [ public string ALGORITHM_INDEXED ] { Indexed }
+    Constant [ public string ALGORITHM_UNINDEXED ] { Unindexed }
+    Constant [ public string ALGORITHM_RANGE_PREVIEW ] { RangePreview }
+    Constant [ public string QUERY_TYPE_EQUALITY ] { equality }
+    Constant [ public string QUERY_TYPE_RANGE_PREVIEW ] { rangePreview }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [12] {
+    Method [ <internal:mongodb, ctor> final public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $options ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method addKeyAltName ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> MongoDB\\BSON\\Binary $keyId ]
+        Parameter #1 [ <required> string $keyAltName ]
+      }
+      - Return [ ?object ]
+    }
+
+    Method [ <internal:mongodb> final public method createDataKey ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $kmsProvider ]
+        Parameter #1 [ <optional> ?array $options = null ]
+      }
+      - Return [ MongoDB\\BSON\\Binary ]
+    }
+
+    Method [ <internal:mongodb> final public method decrypt ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\BSON\\Binary $value ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:mongodb> final public method deleteKey ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\BSON\\Binary $keyId ]
+      }
+      - Return [ object ]
+    }
+
+    Method [ <internal:mongodb> final public method encrypt ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> mixed $value ]
+        Parameter #1 [ <optional> ?array $options = null ]
+      }
+      - Return [ MongoDB\\BSON\\Binary ]
+    }
+
+    Method [ <internal:mongodb> final public method encryptExpression ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> object|array $expr ]
+        Parameter #1 [ <optional> ?array $options = null ]
+      }
+      - Return [ object ]
+    }
+
+    Method [ <internal:mongodb> final public method getKey ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\BSON\\Binary $keyId ]
+      }
+      - Return [ ?object ]
+    }
+
+    Method [ <internal:mongodb> final public method getKeyByAltName ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $keyAltName ]
+      }
+      - Return [ ?object ]
+    }
+
+    Method [ <internal:mongodb> final public method getKeys ] {
+
+      - Parameters [0] {
+      }
+      - Return [ MongoDB\\Driver\\Cursor ]
+    }
+
+    Method [ <internal:mongodb> final public method removeKeyAltName ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> MongoDB\\BSON\\Binary $keyId ]
+        Parameter #1 [ <required> string $keyAltName ]
+      }
+      - Return [ ?object ]
+    }
+
+    Method [ <internal:mongodb> final public method rewrapManyDataKey ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> object|array $filter ]
+        Parameter #1 [ <optional> ?array $options = null ]
+      }
+      - Return [ object ]
+    }
+  }
+}
+',
 );

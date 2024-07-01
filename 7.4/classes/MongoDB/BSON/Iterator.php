@@ -129,4 +129,60 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> <iterateable> final class MongoDB\\BSON\\Iterator implements Iterator, Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [6] {
+    Method [ <internal:mongodb, ctor> final private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype Iterator> final public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype Iterator> final public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype Iterator> final public method next ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb, prototype Iterator> final public method rewind ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb, prototype Iterator> final public method valid ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+  }
+}
+',
 );

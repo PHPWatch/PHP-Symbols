@@ -173,4 +173,61 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> <iterateable> class Dom\\NamedNodeMap implements IteratorAggregate, Traversable, Countable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ public int $length ]
+  }
+
+  - Methods [5] {
+    Method [ <internal:dom> public method item ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $index ]
+      }
+      - Return [ ?Dom\\Attr ]
+    }
+
+    Method [ <internal:dom> public method getNamedItem ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $qualifiedName ]
+      }
+      - Return [ ?Dom\\Attr ]
+    }
+
+    Method [ <internal:dom> public method getNamedItemNS ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?string $namespace ]
+        Parameter #1 [ <required> string $localName ]
+      }
+      - Return [ ?Dom\\Attr ]
+    }
+
+    Method [ <internal:dom, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:dom, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Iterator ]
+    }
+  }
+}
+',
 );

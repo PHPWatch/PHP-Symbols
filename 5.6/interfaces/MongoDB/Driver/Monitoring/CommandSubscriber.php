@@ -111,4 +111,42 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:mongodb> interface MongoDB\\Driver\\Monitoring\\CommandSubscriber extends MongoDB\\Driver\\Monitoring\\Subscriber ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:mongodb> abstract public method commandStarted ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\Driver\\Monitoring\\CommandStartedEvent $event ]
+      }
+    }
+
+    Method [ <internal:mongodb> abstract public method commandSucceeded ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\Driver\\Monitoring\\CommandSucceededEvent $event ]
+      }
+    }
+
+    Method [ <internal:mongodb> abstract public method commandFailed ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\Driver\\Monitoring\\CommandFailedEvent $event ]
+      }
+    }
+  }
+}
+',
 );

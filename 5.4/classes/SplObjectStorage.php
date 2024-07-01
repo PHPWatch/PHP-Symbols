@@ -507,4 +507,162 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class SplObjectStorage implements Countable, Iterator, Traversable, Serializable, ArrayAccess ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [21] {
+    Method [ <internal:SPL> public method attach ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $object ]
+        Parameter #1 [ <optional> $inf ]
+      }
+    }
+
+    Method [ <internal:SPL> public method detach ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+    }
+
+    Method [ <internal:SPL> public method contains ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+    }
+
+    Method [ <internal:SPL> public method addAll ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+    }
+
+    Method [ <internal:SPL> public method removeAll ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+    }
+
+    Method [ <internal:SPL> public method removeAllExcept ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getInfo ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method setInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $info ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getHash ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Serializable> public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $serialized ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype Serializable> public method serialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $object ]
+        Parameter #1 [ <optional> $inf ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+    }
+  }
+}
+',
 );

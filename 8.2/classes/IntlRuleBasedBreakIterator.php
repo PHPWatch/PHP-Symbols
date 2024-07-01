@@ -582,4 +582,234 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> <iterateable> class IntlRuleBasedBreakIterator extends IntlBreakIterator implements Traversable, IteratorAggregate ] {
+
+  - Constants [19] {
+    Constant [ public int DONE ] { -1 }
+    Constant [ public int WORD_NONE ] { 0 }
+    Constant [ public int WORD_NONE_LIMIT ] { 100 }
+    Constant [ public int WORD_NUMBER ] { 100 }
+    Constant [ public int WORD_NUMBER_LIMIT ] { 200 }
+    Constant [ public int WORD_LETTER ] { 200 }
+    Constant [ public int WORD_LETTER_LIMIT ] { 300 }
+    Constant [ public int WORD_KANA ] { 300 }
+    Constant [ public int WORD_KANA_LIMIT ] { 400 }
+    Constant [ public int WORD_IDEO ] { 400 }
+    Constant [ public int WORD_IDEO_LIMIT ] { 500 }
+    Constant [ public int LINE_SOFT ] { 0 }
+    Constant [ public int LINE_SOFT_LIMIT ] { 100 }
+    Constant [ public int LINE_HARD ] { 100 }
+    Constant [ public int LINE_HARD_LIMIT ] { 200 }
+    Constant [ public int SENTENCE_TERM ] { 0 }
+    Constant [ public int SENTENCE_TERM_LIMIT ] { 100 }
+    Constant [ public int SENTENCE_SEP ] { 100 }
+    Constant [ public int SENTENCE_SEP_LIMIT ] { 200 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [6] {
+    Method [ <internal:intl, inherits IntlBreakIterator> static public method createCharacterInstance ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $locale = null ]
+      }
+      - Tentative return [ ?IntlBreakIterator ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> static public method createCodePointInstance ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ IntlCodePointBreakIterator ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> static public method createLineInstance ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $locale = null ]
+      }
+      - Tentative return [ ?IntlBreakIterator ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> static public method createSentenceInstance ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $locale = null ]
+      }
+      - Tentative return [ ?IntlBreakIterator ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> static public method createTitleInstance ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $locale = null ]
+      }
+      - Tentative return [ ?IntlBreakIterator ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> static public method createWordInstance ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $locale = null ]
+      }
+      - Tentative return [ ?IntlBreakIterator ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [20] {
+    Method [ <internal:intl, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $rules ]
+        Parameter #1 [ <optional> bool $compiled = false ]
+      }
+    }
+
+    Method [ <internal:intl> public method getBinaryRules ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:intl> public method getRules ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:intl> public method getRuleStatus ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl> public method getRuleStatusVec ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array|false ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> public method current ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> public method first ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> public method following ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $offset ]
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> public method getErrorCode ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> public method getErrorMessage ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> public method getLocale ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $type ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> public method getPartsIterator ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string $type = IntlPartsIterator::KEY_SEQUENTIAL ]
+      }
+      - Tentative return [ IntlPartsIterator ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> public method getText ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> public method isBoundary ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $offset ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> public method last ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> public method next ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?int $offset = null ]
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> public method preceding ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $offset ]
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> public method previous ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator> public method setText ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $text ]
+      }
+      - Tentative return [ ?bool ]
+    }
+
+    Method [ <internal:intl, inherits IntlBreakIterator, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Iterator ]
+    }
+  }
+}
+',
 );

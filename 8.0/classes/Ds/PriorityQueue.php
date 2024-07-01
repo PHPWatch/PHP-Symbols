@@ -264,4 +264,109 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:ds> <iterateable> final class Ds\\PriorityQueue implements Ds\\Collection, JsonSerializable, Countable, Traversable, IteratorAggregate ] {
+
+  - Constants [1] {
+    Constant [ public int MIN_CAPACITY ] { 8 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [13] {
+    Method [ <internal:ds, ctor> public method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds> public method allocate ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $capacity ]
+      }
+    }
+
+    Method [ <internal:ds> public method capacity ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:ds> public method peek ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds> public method pop ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds> public method push ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $value ]
+        Parameter #1 [ <required> $priority ]
+      }
+    }
+
+    Method [ <internal:ds, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Traversable ]
+    }
+
+    Method [ <internal:ds, prototype Ds\\Collection> public method clear ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Collection> public method copy ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Ds\\Collection ]
+    }
+
+    Method [ <internal:ds, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:ds, prototype Ds\\Collection> public method isEmpty ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:ds, prototype JsonSerializable> public method jsonSerialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Collection> public method toArray ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+  }
+}
+',
 );

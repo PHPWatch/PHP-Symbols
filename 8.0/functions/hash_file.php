@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'hash',
+  'toString' => 'Function [ <internal:hash> function hash_file ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> string $algo ]
+    Parameter #1 [ <required> string $filename ]
+    Parameter #2 [ <optional> bool $binary = false ]
+  }
+  - Return [ string|false ]
+}
+',
 );

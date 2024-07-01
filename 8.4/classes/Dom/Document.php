@@ -1687,4 +1687,434 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> abstract class Dom\\Document extends Dom\\Node implements Dom\\ParentNode ] {
+
+  - Constants [6] {
+    Constant [ public int DOCUMENT_POSITION_DISCONNECTED ] { 1 }
+    Constant [ public int DOCUMENT_POSITION_PRECEDING ] { 2 }
+    Constant [ public int DOCUMENT_POSITION_FOLLOWING ] { 4 }
+    Constant [ public int DOCUMENT_POSITION_CONTAINS ] { 8 }
+    Constant [ public int DOCUMENT_POSITION_CONTAINED_BY ] { 16 }
+    Constant [ public int DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC ] { 32 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [28] {
+    Property [ public int $nodeType ]
+    Property [ public string $nodeName ]
+    Property [ public string $baseURI ]
+    Property [ public bool $isConnected ]
+    Property [ public ?Dom\\Document $ownerDocument ]
+    Property [ public ?Dom\\Node $parentNode ]
+    Property [ public ?Dom\\Element $parentElement ]
+    Property [ public Dom\\NodeList $childNodes ]
+    Property [ public ?Dom\\Node $firstChild ]
+    Property [ public ?Dom\\Node $lastChild ]
+    Property [ public ?Dom\\Node $previousSibling ]
+    Property [ public ?Dom\\Node $nextSibling ]
+    Property [ public ?string $nodeValue ]
+    Property [ public ?string $textContent ]
+    Property [ public Dom\\Implementation $implementation ]
+    Property [ public string $URL ]
+    Property [ public string $documentURI ]
+    Property [ public string $characterSet ]
+    Property [ public string $charset ]
+    Property [ public string $inputEncoding ]
+    Property [ public ?Dom\\DocumentType $doctype ]
+    Property [ public ?Dom\\Element $documentElement ]
+    Property [ public ?Dom\\Element $firstElementChild ]
+    Property [ public ?Dom\\Element $lastElementChild ]
+    Property [ public int $childElementCount ]
+    Property [ public ?Dom\\HTMLElement $body ]
+    Property [ public ?Dom\\HTMLElement $head ]
+    Property [ public string $title ]
+  }
+
+  - Methods [46] {
+    Method [ <internal:dom> public method getElementsByTagName ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $qualifiedName ]
+      }
+      - Return [ Dom\\HTMLCollection ]
+    }
+
+    Method [ <internal:dom> public method getElementsByTagNameNS ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?string $namespace ]
+        Parameter #1 [ <required> string $localName ]
+      }
+      - Return [ Dom\\HTMLCollection ]
+    }
+
+    Method [ <internal:dom> public method createElement ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $localName ]
+      }
+      - Return [ Dom\\Element ]
+    }
+
+    Method [ <internal:dom> public method createElementNS ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?string $namespace ]
+        Parameter #1 [ <required> string $qualifiedName ]
+      }
+      - Return [ Dom\\Element ]
+    }
+
+    Method [ <internal:dom> public method createDocumentFragment ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Dom\\DocumentFragment ]
+    }
+
+    Method [ <internal:dom> public method createTextNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $data ]
+      }
+      - Return [ Dom\\Text ]
+    }
+
+    Method [ <internal:dom> public method createCDATASection ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $data ]
+      }
+      - Return [ Dom\\CDATASection ]
+    }
+
+    Method [ <internal:dom> public method createComment ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $data ]
+      }
+      - Return [ Dom\\Comment ]
+    }
+
+    Method [ <internal:dom> public method createProcessingInstruction ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $target ]
+        Parameter #1 [ <required> string $data ]
+      }
+      - Return [ Dom\\ProcessingInstruction ]
+    }
+
+    Method [ <internal:dom> public method importNode ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?Dom\\Node $node ]
+        Parameter #1 [ <optional> bool $deep = false ]
+      }
+      - Return [ Dom\\Node ]
+    }
+
+    Method [ <internal:dom> public method adoptNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Dom\\Node $node ]
+      }
+      - Return [ Dom\\Node ]
+    }
+
+    Method [ <internal:dom> public method createAttribute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $localName ]
+      }
+      - Return [ Dom\\Attr ]
+    }
+
+    Method [ <internal:dom> public method createAttributeNS ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?string $namespace ]
+        Parameter #1 [ <required> string $qualifiedName ]
+      }
+      - Return [ Dom\\Attr ]
+    }
+
+    Method [ <internal:dom> public method getElementById ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $elementId ]
+      }
+      - Return [ ?Dom\\Element ]
+    }
+
+    Method [ <internal:dom> public method registerNodeClass ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $baseClass ]
+        Parameter #1 [ <required> ?string $extendedClass ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom> public method schemaValidate ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $filename ]
+        Parameter #1 [ <optional> int $flags = 0 ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:dom> public method schemaValidateSource ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $source ]
+        Parameter #1 [ <optional> int $flags = 0 ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:dom> public method relaxNgValidate ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $filename ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:dom> public method relaxNgValidateSource ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $source ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:dom, prototype Dom\\ParentNode> public method append ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> Dom\\Node|string ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom, prototype Dom\\ParentNode> public method prepend ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> Dom\\Node|string ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom, prototype Dom\\ParentNode> public method replaceChildren ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> Dom\\Node|string ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom> public method importLegacyNode ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> DOMNode $node ]
+        Parameter #1 [ <optional> bool $deep = false ]
+      }
+      - Return [ Dom\\Node ]
+    }
+
+    Method [ <internal:dom, prototype Dom\\ParentNode> public method querySelector ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $selectors ]
+      }
+      - Return [ ?Dom\\Element ]
+    }
+
+    Method [ <internal:dom, prototype Dom\\ParentNode> public method querySelectorAll ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $selectors ]
+      }
+      - Return [ Dom\\NodeList ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method getRootNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array $options = [] ]
+      }
+      - Return [ Dom\\Node ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method hasChildNodes ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method normalize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method cloneNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> bool $deep = false ]
+      }
+      - Return [ Dom\\Node ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method isEqualNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?Dom\\Node $otherNode ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method isSameNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?Dom\\Node $otherNode ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method compareDocumentPosition ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Dom\\Node $other ]
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method contains ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?Dom\\Node $other ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method lookupPrefix ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $namespace ]
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method lookupNamespaceURI ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $prefix ]
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method isDefaultNamespace ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $namespace ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method insertBefore ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> Dom\\Node $node ]
+        Parameter #1 [ <required> ?Dom\\Node $child ]
+      }
+      - Return [ Dom\\Node ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method appendChild ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Dom\\Node $node ]
+      }
+      - Return [ Dom\\Node ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method replaceChild ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> Dom\\Node $node ]
+        Parameter #1 [ <required> Dom\\Node $child ]
+      }
+      - Return [ Dom\\Node ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method removeChild ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Dom\\Node $child ]
+      }
+      - Return [ Dom\\Node ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method getLineNo ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method getNodePath ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method C14N ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> bool $exclusive = false ]
+        Parameter #1 [ <optional> bool $withComments = false ]
+        Parameter #2 [ <optional> ?array $xpath = null ]
+        Parameter #3 [ <optional> ?array $nsPrefixes = null ]
+      }
+      - Return [ string|false ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method C14NFile ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $uri ]
+        Parameter #1 [ <optional> bool $exclusive = false ]
+        Parameter #2 [ <optional> bool $withComments = false ]
+        Parameter #3 [ <optional> ?array $xpath = null ]
+        Parameter #4 [ <optional> ?array $nsPrefixes = null ]
+      }
+      - Return [ int|false ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method __sleep ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Node> public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+  }
+}
+',
 );

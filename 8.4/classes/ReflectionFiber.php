@@ -149,4 +149,64 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Reflection> final class ReflectionFiber ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [6] {
+    Method [ <internal:Reflection, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Fiber $fiber ]
+      }
+    }
+
+    Method [ <internal:Reflection> public method getFiber ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Fiber ]
+    }
+
+    Method [ <internal:Reflection> public method getExecutingFile ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:Reflection> public method getExecutingLine ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?int ]
+    }
+
+    Method [ <internal:Reflection> public method getCallable ] {
+
+      - Parameters [0] {
+      }
+      - Return [ callable ]
+    }
+
+    Method [ <internal:Reflection> public method getTrace ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $options = DEBUG_BACKTRACE_PROVIDE_OBJECT ]
+      }
+      - Return [ array ]
+    }
+  }
+}
+',
 );

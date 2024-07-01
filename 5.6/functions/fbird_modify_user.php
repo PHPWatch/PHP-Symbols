@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'interbase',
+  'toString' => 'Function [ <internal:interbase> function fbird_modify_user ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $service_handle ]
+    Parameter #1 [ <required> $user_name ]
+    Parameter #2 [ <required> $password ]
+    Parameter #3 [ <optional> $first_name ]
+    Parameter #4 [ <optional> $middle_name ]
+    Parameter #5 [ <optional> $last_name ]
+  }
+}
+',
 );

@@ -49,4 +49,28 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:Core> interface UnitEnum ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:Core> abstract static public method cases ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'random',
+  'toString' => 'Function [ <internal:random> function rand ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <optional> int $min = <default> ]
+    Parameter #1 [ <optional> int $max = <default> ]
+  }
+  - Return [ int ]
+}
+',
 );

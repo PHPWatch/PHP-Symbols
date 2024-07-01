@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    \ReflectionExtension::__set_state(array(
+       'name' => 'bcmath',
+    )),
     'removed' => NULL,
+    'version' => '8.4.0-dev',
     'resources' => 
     array (
       0 => 
@@ -26,16 +30,30 @@ return array (
   'classes' => 
   array (
   ),
+  'functions' => 
+  array (
+    'bcadd' => 'bcadd',
+    'bcsub' => 'bcsub',
+    'bcmul' => 'bcmul',
+    'bcdiv' => 'bcdiv',
+    'bcmod' => 'bcmod',
+    'bcpowmod' => 'bcpowmod',
+    'bcpow' => 'bcpow',
+    'bcsqrt' => 'bcsqrt',
+    'bccomp' => 'bccomp',
+    'bcscale' => 'bcscale',
+    'bcfloor' => 'bcfloor',
+    'bcceil' => 'bcceil',
+    'bcround' => 'bcround',
+  ),
   'constants' => 
   array (
   ),
   'dependencies' => 
   array (
   ),
-  'functions' => 
-  array (
-  ),
   'ini' => 
   array (
+    'bcmath.scale' => '0',
   ),
 );

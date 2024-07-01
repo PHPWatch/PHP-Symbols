@@ -121,4 +121,46 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Reflection> class ReflectionReference ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:Reflection> static public method fromArrayElement ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $array ]
+        Parameter #1 [ <required> $key ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:Reflection> public method getId ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> private method __clone ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, ctor> private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

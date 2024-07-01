@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'interbase',
+  'toString' => 'Function [ <internal:interbase> function ibase_service_attach ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $host ]
+    Parameter #1 [ <required> $dba_username ]
+    Parameter #2 [ <required> $dba_password ]
+  }
+}
+',
 );

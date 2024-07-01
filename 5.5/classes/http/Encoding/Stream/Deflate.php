@@ -185,4 +185,74 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:http> class http\\Encoding\\Stream\\Deflate extends http\\Encoding\\Stream ] {
+
+  - Constants [14] {
+    Constant [ integer FLUSH_NONE ] { 0 }
+    Constant [ integer FLUSH_SYNC ] { 1048576 }
+    Constant [ integer FLUSH_FULL ] { 2097152 }
+    Constant [ integer TYPE_GZIP ] { 16 }
+    Constant [ integer TYPE_ZLIB ] { 0 }
+    Constant [ integer TYPE_RAW ] { 32 }
+    Constant [ integer LEVEL_DEF ] { 0 }
+    Constant [ integer LEVEL_MIN ] { 1 }
+    Constant [ integer LEVEL_MAX ] { 9 }
+    Constant [ integer STRATEGY_DEF ] { 0 }
+    Constant [ integer STRATEGY_FILT ] { 256 }
+    Constant [ integer STRATEGY_HUFF ] { 512 }
+    Constant [ integer STRATEGY_RLE ] { 768 }
+    Constant [ integer STRATEGY_FIXED ] { 1024 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:http> static public method encode ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <optional> $flags ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [5] {
+    Method [ <internal:http, inherits http\\Encoding\\Stream, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Encoding\\Stream> public method update ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $data ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Encoding\\Stream> public method flush ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Encoding\\Stream> public method done ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Encoding\\Stream> public method finish ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

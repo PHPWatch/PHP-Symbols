@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'sysvsem',
+    )),
     'removed' => NULL,
+    'version' => NULL,
     'resources' => 
     array (
       0 => 
@@ -26,13 +30,17 @@ return array (
   'classes' => 
   array (
   ),
+  'functions' => 
+  array (
+    'sem_get' => 'sem_get',
+    'sem_acquire' => 'sem_acquire',
+    'sem_release' => 'sem_release',
+    'sem_remove' => 'sem_remove',
+  ),
   'constants' => 
   array (
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

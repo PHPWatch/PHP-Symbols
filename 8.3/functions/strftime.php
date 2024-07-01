@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'date',
+  'toString' => 'Function [ <internal, deprecated:date> function strftime ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> string $format ]
+    Parameter #1 [ <optional> ?int $timestamp = null ]
+  }
+  - Return [ string|false ]
+}
+',
 );

@@ -104,4 +104,36 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> class MongoBinData ] {
+
+  - Constants [7] {
+    Constant [ integer GENERIC ] { 0 }
+    Constant [ integer FUNC ] { 1 }
+    Constant [ integer BYTE_ARRAY ] { 2 }
+    Constant [ integer UUID ] { 3 }
+    Constant [ integer UUID_RFC4122 ] { 4 }
+    Constant [ integer MD5 ] { 5 }
+    Constant [ integer CUSTOM ] { 128 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [2] {
+    Property [ <default> public $bin ]
+    Property [ <default> public $type ]
+  }
+
+  - Methods [2] {
+    Method [ <internal:mongo, ctor> public method __construct ] {
+    }
+
+    Method [ <internal:mongo> public method __toString ] {
+    }
+  }
+}
+',
 );

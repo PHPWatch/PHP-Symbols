@@ -803,4 +803,258 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:ds> interface Ds\\Sequence extends Ds\\Collection, JsonSerializable, Countable, Traversable, IteratorAggregate, ArrayAccess ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [34] {
+    Method [ <internal:ds> abstract public method allocate ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> integer $capacity ]
+      }
+    }
+
+    Method [ <internal:ds> abstract public method capacity ] {
+
+      - Parameters [0] {
+      }
+      - Return [ integer ]
+    }
+
+    Method [ <internal:ds> abstract public method contains ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$values ]
+      }
+      - Return [ boolean ]
+    }
+
+    Method [ <internal:ds> abstract public method filter ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> callable or NULL $callback ]
+      }
+      - Return [ Ds\\Sequence ]
+    }
+
+    Method [ <internal:ds> abstract public method find ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:ds> abstract public method first ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds> abstract public method get ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> integer $index ]
+      }
+    }
+
+    Method [ <internal:ds> abstract public method insert ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> integer $index ]
+        Parameter #1 [ <optional> ...$values ]
+      }
+    }
+
+    Method [ <internal:ds> abstract public method join ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string $glue ]
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:ds> abstract public method last ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds> abstract public method map ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> callable $callback ]
+      }
+      - Return [ Ds\\Sequence ]
+    }
+
+    Method [ <internal:ds> abstract public method merge ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $values ]
+      }
+      - Return [ Ds\\Sequence ]
+    }
+
+    Method [ <internal:ds> abstract public method pop ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds> abstract public method push ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$values ]
+      }
+    }
+
+    Method [ <internal:ds> abstract public method reduce ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> callable $callback ]
+        Parameter #1 [ <optional> $initial ]
+      }
+    }
+
+    Method [ <internal:ds> abstract public method remove ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> integer $index ]
+      }
+    }
+
+    Method [ <internal:ds> abstract public method reverse ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds> abstract public method rotate ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> integer $rotations ]
+      }
+    }
+
+    Method [ <internal:ds> abstract public method set ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> integer $index ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:ds> abstract public method shift ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds> abstract public method slice ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> integer $index ]
+        Parameter #1 [ <optional> integer or NULL $length ]
+      }
+      - Return [ Ds\\Sequence ]
+    }
+
+    Method [ <internal:ds> abstract public method sort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> callable or NULL $comparator ]
+      }
+    }
+
+    Method [ <internal:ds> abstract public method unshift ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$values ]
+      }
+    }
+
+    Method [ <internal:ds, inherits Ds\\Collection> abstract public method clear ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds, inherits Ds\\Collection> abstract public method copy ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Ds\\Collection ]
+    }
+
+    Method [ <internal:ds, inherits Ds\\Collection> abstract public method isEmpty ] {
+
+      - Parameters [0] {
+      }
+      - Return [ boolean ]
+    }
+
+    Method [ <internal:ds, inherits Ds\\Collection> abstract public method toArray ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:Core, inherits IteratorAggregate> abstract public method getIterator ] {
+    }
+
+    Method [ <internal:SPL, inherits Countable> abstract public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:json, inherits JsonSerializable> abstract public method jsonSerialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Core, inherits ArrayAccess> abstract public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $offset ]
+      }
+    }
+
+    Method [ <internal:Core, inherits ArrayAccess> abstract public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $offset ]
+      }
+    }
+
+    Method [ <internal:Core, inherits ArrayAccess> abstract public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $offset ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:Core, inherits ArrayAccess> abstract public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $offset ]
+      }
+    }
+  }
+}
+',
 );

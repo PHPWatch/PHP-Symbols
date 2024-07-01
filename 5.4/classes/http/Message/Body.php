@@ -383,4 +383,118 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:http> class http\\Message\\Body implements Serializable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [14] {
+    Method [ <internal:http, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $stream ]
+      }
+    }
+
+    Method [ <internal:http> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, prototype Serializable> public method serialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, prototype Serializable> public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $serialized ]
+      }
+    }
+
+    Method [ <internal:http> public method toStream ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $stream ]
+        Parameter #1 [ <optional> $offset ]
+        Parameter #2 [ <optional> $maxlen ]
+      }
+    }
+
+    Method [ <internal:http> public method toCallback ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $callback ]
+        Parameter #1 [ <optional> $offset ]
+        Parameter #2 [ <optional> $maxlen ]
+      }
+    }
+
+    Method [ <internal:http> public method getResource ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method getBoundary ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method append ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $string ]
+      }
+    }
+
+    Method [ <internal:http> public method addForm ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> array or NULL $fields ]
+        Parameter #1 [ <optional> array or NULL $files ]
+      }
+    }
+
+    Method [ <internal:http> public method addPart ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> http\\Message $message ]
+      }
+    }
+
+    Method [ <internal:http> public method etag ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method stat ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $field ]
+      }
+    }
+  }
+}
+',
 );

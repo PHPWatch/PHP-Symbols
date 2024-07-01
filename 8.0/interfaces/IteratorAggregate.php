@@ -50,4 +50,27 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:Core> interface IteratorAggregate extends Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:Core> abstract public method getIterator ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

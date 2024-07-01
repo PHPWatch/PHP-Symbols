@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,24 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'apcu',
+  'toString' => 'Function [ <internal:apcu> function apcu_sma_info ] {
+
+  - Parameters [1] {
+    Parameter #0 [ <optional> bool $limited = false ]
+  }
+  - Return [ array|false ]
+}
+',
 );

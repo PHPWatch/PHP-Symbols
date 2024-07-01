@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'redis',
+    )),
     'removed' => NULL,
+    'version' => '2.2.8',
     'resources' => 
     array (
       0 => 
@@ -25,6 +29,14 @@ return array (
   ),
   'classes' => 
   array (
+    0 => 'Redis',
+    1 => 'RedisArray',
+    2 => 'RedisCluster',
+    3 => 'RedisException',
+    4 => 'RedisClusterException',
+  ),
+  'functions' => 
+  array (
   ),
   'constants' => 
   array (
@@ -32,10 +44,16 @@ return array (
   'dependencies' => 
   array (
   ),
-  'functions' => 
-  array (
-  ),
   'ini' => 
   array (
+    'redis.arrays.autorehash' => '',
+    'redis.arrays.functions' => '',
+    'redis.arrays.hosts' => '',
+    'redis.arrays.index' => '',
+    'redis.arrays.names' => '',
+    'redis.arrays.previous' => '',
+    'redis.clusters.read_timeout' => '',
+    'redis.clusters.seeds' => '',
+    'redis.clusters.timeout' => '',
   ),
 );

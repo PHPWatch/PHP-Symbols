@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,23 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'intl',
+  'toString' => 'Function [ <internal:intl> function intlcal_set ] {
+
+  - Parameters [7] {
+    Parameter #0 [ <required> IntlCalendar $calendar ]
+    Parameter #1 [ <required> $fieldOrYear ]
+    Parameter #2 [ <required> $valueOrMonth ]
+    Parameter #3 [ <optional> $dayOfMonth ]
+    Parameter #4 [ <optional> $hour ]
+    Parameter #5 [ <optional> $minute ]
+    Parameter #6 [ <optional> $second ]
+  }
+}
+',
 );

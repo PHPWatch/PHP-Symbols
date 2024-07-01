@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'gearman',
+  'toString' => 'Function [ <internal:gearman> function gearman_job_send_status ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $job_object ]
+    Parameter #1 [ <required> $numerator ]
+    Parameter #2 [ <required> $denominator ]
+  }
+}
+',
 );

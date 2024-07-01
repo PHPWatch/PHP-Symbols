@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_cms_read ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> string $input_filename ]
+    Parameter #1 [ <required> &$certificates ]
+  }
+  - Return [ bool ]
+}
+',
 );

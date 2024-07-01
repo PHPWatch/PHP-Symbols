@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'sysvsem',
+  'toString' => 'Function [ <internal:sysvsem> function sem_acquire ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> SysvSemaphore $semaphore ]
+    Parameter #1 [ <optional> bool $non_blocking = false ]
+  }
+  - Return [ bool ]
+}
+',
 );

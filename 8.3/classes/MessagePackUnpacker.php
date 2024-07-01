@@ -218,4 +218,70 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:msgpack> class MessagePackUnpacker ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [7] {
+    Method [ <internal:msgpack, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $opt = <default> ]
+      }
+    }
+
+    Method [ <internal:msgpack> public method __destruct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:msgpack> public method setOption ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $option ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:msgpack> public method feed ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $str ]
+      }
+    }
+
+    Method [ <internal:msgpack> public method execute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $str = <default> ]
+        Parameter #1 [ <optional> &$offset = <default> ]
+      }
+    }
+
+    Method [ <internal:msgpack> public method data ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $object = <default> ]
+      }
+    }
+
+    Method [ <internal:msgpack> public method reset ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

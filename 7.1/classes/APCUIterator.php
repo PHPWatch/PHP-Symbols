@@ -215,4 +215,79 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:apcu> <iterateable> class APCUIterator implements Iterator, Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [9] {
+    Method [ <internal:apcu, ctor> public method __construct ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $search ]
+        Parameter #1 [ <optional> $format ]
+        Parameter #2 [ <optional> $chunk_size ]
+        Parameter #3 [ <optional> $list ]
+      }
+    }
+
+    Method [ <internal:apcu, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:apcu, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:apcu, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:apcu, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:apcu, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:apcu> public method getTotalHits ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:apcu> public method getTotalSize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:apcu> public method getTotalCount ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,18 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal, deprecated:standard> function set_socket_blocking ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $socket ]
+    Parameter #1 [ <required> $mode ]
+  }
+}
+',
 );

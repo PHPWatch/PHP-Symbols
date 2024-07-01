@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,24 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'ldap',
+  'toString' => 'Function [ <internal:ldap> function ldap_read ] {
+
+  - Parameters [8] {
+    Parameter #0 [ <required> $link_identifier ]
+    Parameter #1 [ <required> $base_dn ]
+    Parameter #2 [ <required> $filter ]
+    Parameter #3 [ <optional> $attributes ]
+    Parameter #4 [ <optional> $attrsonly ]
+    Parameter #5 [ <optional> $sizelimit ]
+    Parameter #6 [ <optional> $timelimit ]
+    Parameter #7 [ <optional> $deref ]
+  }
+}
+',
 );

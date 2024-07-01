@@ -160,4 +160,56 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> <iterateable> class DOMNamedNodeMap implements IteratorAggregate, Traversable, Countable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [5] {
+    Method [ <internal:dom> public method getNamedItem ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $qualifiedName ]
+      }
+    }
+
+    Method [ <internal:dom> public method getNamedItemNS ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?string $namespace ]
+        Parameter #1 [ <required> string $localName ]
+      }
+    }
+
+    Method [ <internal:dom> public method item ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $index ]
+      }
+    }
+
+    Method [ <internal:dom, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:dom, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Iterator ]
+    }
+  }
+}
+',
 );

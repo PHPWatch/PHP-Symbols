@@ -546,4 +546,166 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:imagick> class ImagickPixel ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [21] {
+    Method [ <internal:imagick> public method gethsl ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method sethsl ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $hue ]
+        Parameter #1 [ <required> $saturation ]
+        Parameter #2 [ <required> $luminosity ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getcolorvaluequantum ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setcolorvaluequantum ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $color_value ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getindex ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setindex ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:imagick, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setcolor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setcolorvalue ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $color ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getcolorvalue ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method clear ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method destroy ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method issimilar ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $color ]
+        Parameter #1 [ <optional> $fuzz ]
+      }
+    }
+
+    Method [ <internal:imagick> public method ispixelsimilarquantum ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $color ]
+        Parameter #1 [ <optional> $fuzz ]
+      }
+    }
+
+    Method [ <internal:imagick> public method ispixelsimilar ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $color ]
+        Parameter #1 [ <optional> $fuzz ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getcolor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $normalized ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getcolorquantum ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getcolorasstring ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getcolorcount ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setcolorcount ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $colorCount ]
+      }
+    }
+
+    Method [ <internal:imagick> public method clone ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

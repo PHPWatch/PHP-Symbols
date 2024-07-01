@@ -369,4 +369,138 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> <iterateable> final class MongoDB\\BSON\\Document implements IteratorAggregate, Traversable, Serializable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [4] {
+    Method [ <internal:mongodb> final static public method fromBSON ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $bson ]
+      }
+      - Return [ MongoDB\\BSON\\Document ]
+    }
+
+    Method [ <internal:mongodb> final static public method fromJSON ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $json ]
+      }
+      - Return [ MongoDB\\BSON\\Document ]
+    }
+
+    Method [ <internal:mongodb> final static public method fromPHP ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $value ]
+      }
+      - Return [ MongoDB\\BSON\\Document ]
+    }
+
+    Method [ <internal:mongodb> final static public method __set_state ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $properties ]
+      }
+      - Return [ MongoDB\\BSON\\Document ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [12] {
+    Method [ <internal:mongodb, ctor> private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method get ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+    }
+
+    Method [ <internal:mongodb, prototype IteratorAggregate> final public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ MongoDB\\BSON\\Iterator ]
+    }
+
+    Method [ <internal:mongodb> final public method has ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ boolean ]
+    }
+
+    Method [ <internal:mongodb> final public method toPHP ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array or NULL $typeMap ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method toCanonicalExtendedJSON ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb> final public method toRelaxedExtendedJSON ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb> final public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method serialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $serialized ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb> final public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb> final public method __serialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+  }
+}
+',
 );

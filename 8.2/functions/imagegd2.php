@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'gd',
+  'toString' => 'Function [ <internal:gd> function imagegd2 ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> GdImage $image ]
+    Parameter #1 [ <optional> ?string $file = null ]
+    Parameter #2 [ <optional> int $chunk_size = <default> ]
+    Parameter #3 [ <optional> int $mode = <default> ]
+  }
+  - Return [ bool ]
+}
+',
 );

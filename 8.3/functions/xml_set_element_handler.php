@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'xml',
+  'toString' => 'Function [ <internal:xml> function xml_set_element_handler ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> XMLParser $parser ]
+    Parameter #1 [ <required> $start_handler ]
+    Parameter #2 [ <required> $end_handler ]
+  }
+  - Return [ true ]
+}
+',
 );

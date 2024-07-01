@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'odbc',
+  'toString' => 'Function [ <internal, deprecated:odbc> function odbc_result_all ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $statement ]
+    Parameter #1 [ <optional> string $format = "" ]
+  }
+  - Return [ int|false ]
+}
+',
 );

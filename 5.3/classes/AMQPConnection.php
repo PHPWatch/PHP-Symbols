@@ -897,4 +897,271 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:amqp> class AMQPConnection ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [15] {
+    Property [ <default> private $login ]
+    Property [ <default> private $password ]
+    Property [ <default> private $host ]
+    Property [ <default> private $vhost ]
+    Property [ <default> private $port ]
+    Property [ <default> private $read_timeout ]
+    Property [ <default> private $write_timeout ]
+    Property [ <default> private $connect_timeout ]
+    Property [ <default> private $channel_max ]
+    Property [ <default> private $frame_max ]
+    Property [ <default> private $heartbeat ]
+    Property [ <default> private $cacert ]
+    Property [ <default> private $key ]
+    Property [ <default> private $cert ]
+    Property [ <default> private $verify ]
+  }
+
+  - Methods [37] {
+    Method [ <internal:amqp, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array $credentials ]
+      }
+    }
+
+    Method [ <internal:amqp> public method isConnected ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method connect ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method pconnect ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method pdisconnect ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method disconnect ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method reconnect ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method preconnect ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method getLogin ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method setLogin ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $login ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getPassword ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method setPassword ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $password ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getHost ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method setHost ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $host ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getPort ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method setPort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $port ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getVhost ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method setVhost ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $vhost ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getTimeout ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method setTimeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timeout ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getReadTimeout ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method setReadTimeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timeout ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getWriteTimeout ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method setWriteTimeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timeout ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getUsedChannels ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method getMaxChannels ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method isPersistent ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method getHeartbeatInterval ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method getMaxFrameSize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method getCACert ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method setCACert ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $cacert ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getCert ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method setCert ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $cert ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getKey ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method setKey ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getVerify ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method setVerify ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $verify ]
+      }
+    }
+  }
+}
+',
 );

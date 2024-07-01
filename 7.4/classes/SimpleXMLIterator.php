@@ -594,4 +594,170 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SimpleXML> <iterateable> class SimpleXMLIterator extends SimpleXMLElement implements Countable, Traversable, RecursiveIterator, Iterator ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [21] {
+    Method [ <internal:SimpleXML, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SimpleXML, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SimpleXML, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SimpleXML, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SimpleXML, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SimpleXML, prototype RecursiveIterator> public method hasChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SimpleXML, prototype RecursiveIterator> public method getChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement, ctor> final public method __construct ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <optional> $options ]
+        Parameter #2 [ <optional> $data_is_url ]
+        Parameter #3 [ <optional> $ns ]
+        Parameter #4 [ <optional> $is_prefix ]
+      }
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method asXML ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $filename ]
+      }
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method saveXML ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $filename ]
+      }
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method xpath ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $path ]
+      }
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method registerXPathNamespace ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $prefix ]
+        Parameter #1 [ <required> $ns ]
+      }
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method attributes ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $ns ]
+        Parameter #1 [ <optional> $is_prefix ]
+      }
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method children ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $ns ]
+        Parameter #1 [ <optional> $is_prefix ]
+      }
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method getNamespaces ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $recursve ]
+      }
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method getDocNamespaces ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $recursve ]
+        Parameter #1 [ <optional> $from_root ]
+      }
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method getName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method addChild ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $value ]
+        Parameter #2 [ <optional> $ns ]
+      }
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method addAttribute ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $value ]
+        Parameter #2 [ <optional> $ns ]
+      }
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SimpleXML, inherits SimpleXMLElement, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

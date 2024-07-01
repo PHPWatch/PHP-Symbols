@@ -137,4 +137,52 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> <iterateable> class Dom\\HTMLCollection implements IteratorAggregate, Traversable, Countable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ public int $length ]
+  }
+
+  - Methods [4] {
+    Method [ <internal:dom> public method item ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $index ]
+      }
+      - Return [ ?Dom\\Element ]
+    }
+
+    Method [ <internal:dom> public method namedItem ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ ?Dom\\Element ]
+    }
+
+    Method [ <internal:dom, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:dom, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Iterator ]
+    }
+  }
+}
+',
 );

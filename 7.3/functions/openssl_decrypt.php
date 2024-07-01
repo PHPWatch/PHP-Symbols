@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,23 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_decrypt ] {
+
+  - Parameters [7] {
+    Parameter #0 [ <required> $data ]
+    Parameter #1 [ <required> $method ]
+    Parameter #2 [ <required> $password ]
+    Parameter #3 [ <optional> $options ]
+    Parameter #4 [ <optional> $iv ]
+    Parameter #5 [ <optional> $tag ]
+    Parameter #6 [ <optional> $aad ]
+  }
+}
+',
 );

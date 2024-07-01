@@ -409,4 +409,149 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class RecursiveCachingIterator extends CachingIterator implements Countable, ArrayAccess, Iterator, Traversable, OuterIterator, RecursiveIterator ] {
+
+  - Constants [6] {
+    Constant [ integer CALL_TOSTRING ] { 1 }
+    Constant [ integer CATCH_GET_CHILD ] { 16 }
+    Constant [ integer TOSTRING_USE_KEY ] { 2 }
+    Constant [ integer TOSTRING_USE_CURRENT ] { 4 }
+    Constant [ integer TOSTRING_USE_INNER ] { 8 }
+    Constant [ integer FULL_CACHE ] { 256 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [19] {
+    Method [ <internal:SPL, overwrites CachingIterator, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> Iterator $iterator ]
+        Parameter #1 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype RecursiveIterator> public method hasChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype RecursiveIterator> public method getChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits CachingIterator, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits CachingIterator, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits CachingIterator, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits CachingIterator, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits CachingIterator, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits CachingIterator> public method hasNext ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits CachingIterator> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits CachingIterator, prototype OuterIterator> public method getInnerIterator ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits CachingIterator> public method getFlags ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits CachingIterator> public method setFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $flags ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits CachingIterator, prototype ArrayAccess> public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits CachingIterator, prototype ArrayAccess> public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <required> $newval ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits CachingIterator, prototype ArrayAccess> public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits CachingIterator, prototype ArrayAccess> public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits CachingIterator> public method getCache ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits CachingIterator, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

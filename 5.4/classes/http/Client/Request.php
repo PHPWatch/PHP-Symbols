@@ -1304,4 +1304,382 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:http> <iterateable> class http\\Client\\Request extends http\\Message implements Traversable, Iterator, Serializable, Countable ] {
+
+  - Constants [3] {
+    Constant [ integer TYPE_NONE ] { 0 }
+    Constant [ integer TYPE_REQUEST ] { 1 }
+    Constant [ integer TYPE_RESPONSE ] { 2 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [10] {
+    Property [ <default> protected $type ]
+    Property [ <default> protected $body ]
+    Property [ <default> protected $requestMethod ]
+    Property [ <default> protected $requestUrl ]
+    Property [ <default> protected $responseStatus ]
+    Property [ <default> protected $responseCode ]
+    Property [ <default> protected $httpVersion ]
+    Property [ <default> protected $headers ]
+    Property [ <default> protected $parentMessage ]
+    Property [ <default> protected $options ]
+  }
+
+  - Methods [52] {
+    Method [ <internal:http, overwrites http\\Message, ctor> public method __construct ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $method ]
+        Parameter #1 [ <optional> $url ]
+        Parameter #2 [ <optional> array or NULL $headers ]
+        Parameter #3 [ <optional> http\\Message\\Body or NULL $body ]
+      }
+    }
+
+    Method [ <internal:http> public method setContentType ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $content_type ]
+      }
+    }
+
+    Method [ <internal:http> public method getContentType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method setQuery ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $query_data ]
+      }
+    }
+
+    Method [ <internal:http> public method getQuery ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method addQuery ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $query_data ]
+      }
+    }
+
+    Method [ <internal:http> public method setOptions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array or NULL $options ]
+      }
+    }
+
+    Method [ <internal:http> public method getOptions ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method setSslOptions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array or NULL $ssl_options ]
+      }
+    }
+
+    Method [ <internal:http> public method getSslOptions ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method addSslOptions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array or NULL $ssl_options ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method getBody ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method setBody ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> http\\Message\\Body $body ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method addBody ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> http\\Message\\Body $body ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method getHeader ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $header ]
+        Parameter #1 [ <optional> $into_class ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method setHeader ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $header ]
+        Parameter #1 [ <optional> $value ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method addHeader ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $header ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method getHeaders ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method setHeaders ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array or NULL $headers ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method addHeaders ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array $headers ]
+        Parameter #1 [ <optional> $append ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method getType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method setType ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $type ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method getInfo ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method setInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $http_info ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method getResponseCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method setResponseCode ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $response_code ]
+        Parameter #1 [ <optional> $strict ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method getResponseStatus ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method setResponseStatus ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $response_status ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method getRequestMethod ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method setRequestMethod ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $request_method ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method getRequestUrl ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method setRequestUrl ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $url ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method getHttpVersion ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method setHttpVersion ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $http_version ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method getParentMessage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method toString ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $include_parent ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method toCallback ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $callback ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method toStream ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $stream ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message, prototype Serializable> public method serialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message, prototype Serializable> public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $serialized ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method detach ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method prepend ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> http\\Message $message ]
+        Parameter #1 [ <optional> $top ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method reverse ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method isMultipart ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> &$boundary ]
+      }
+    }
+
+    Method [ <internal:http, inherits http\\Message> public method splitMultipartBody ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

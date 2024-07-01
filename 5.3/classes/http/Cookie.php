@@ -650,4 +650,202 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:http> class http\\Cookie ] {
+
+  - Constants [3] {
+    Constant [ integer PARSE_RAW ] { 1 }
+    Constant [ integer SECURE ] { 16 }
+    Constant [ integer HTTPONLY ] { 32 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [26] {
+    Method [ <internal:http, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $cookie_string ]
+        Parameter #1 [ <optional> $parser_flags ]
+        Parameter #2 [ <optional> $allowed_extras ]
+      }
+    }
+
+    Method [ <internal:http> public method getCookies ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method setCookies ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $cookies ]
+      }
+    }
+
+    Method [ <internal:http> public method addCookies ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $cookies ]
+      }
+    }
+
+    Method [ <internal:http> public method getCookie ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:http> public method setCookie ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $cookie_name ]
+        Parameter #1 [ <optional> $cookie_value ]
+      }
+    }
+
+    Method [ <internal:http> public method addCookie ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $cookie_name ]
+        Parameter #1 [ <required> $cookie_value ]
+      }
+    }
+
+    Method [ <internal:http> public method getExtras ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method setExtras ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $extras ]
+      }
+    }
+
+    Method [ <internal:http> public method addExtras ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $extras ]
+      }
+    }
+
+    Method [ <internal:http> public method getExtra ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:http> public method setExtra ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $extra_name ]
+        Parameter #1 [ <optional> $extra_value ]
+      }
+    }
+
+    Method [ <internal:http> public method addExtra ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $extra_name ]
+        Parameter #1 [ <required> $extra_value ]
+      }
+    }
+
+    Method [ <internal:http> public method getDomain ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method setDomain ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $value ]
+      }
+    }
+
+    Method [ <internal:http> public method getPath ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method setPath ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $value ]
+      }
+    }
+
+    Method [ <internal:http> public method getExpires ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method setExpires ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $value ]
+      }
+    }
+
+    Method [ <internal:http> public method getMaxAge ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method setMaxAge ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $value ]
+      }
+    }
+
+    Method [ <internal:http> public method getFlags ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method setFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $value ]
+      }
+    }
+
+    Method [ <internal:http> public method toArray ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

@@ -96,4 +96,36 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:session> interface SessionUpdateTimestampHandlerInterface ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [2] {
+    Method [ <internal:session> abstract public method validateId ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:session> abstract public method updateTimestamp ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $val ]
+      }
+    }
+  }
+}
+',
 );

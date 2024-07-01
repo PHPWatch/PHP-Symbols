@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'propro',
+    )),
     'removed' => NULL,
+    'version' => '1.0.2',
     'resources' => 
     array (
       0 => 
@@ -25,14 +29,15 @@ return array (
   ),
   'classes' => 
   array (
+    0 => 'php\\PropertyProxy',
+  ),
+  'functions' => 
+  array (
   ),
   'constants' => 
   array (
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

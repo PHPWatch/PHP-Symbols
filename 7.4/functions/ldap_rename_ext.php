@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'ldap',
+  'toString' => 'Function [ <internal:ldap> function ldap_rename_ext ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $link_identifier ]
+    Parameter #1 [ <required> $dn ]
+    Parameter #2 [ <required> $newrdn ]
+    Parameter #3 [ <required> $newparent ]
+    Parameter #4 [ <required> $deleteoldrdn ]
+    Parameter #5 [ <optional> $servercontrols ]
+  }
+}
+',
 );

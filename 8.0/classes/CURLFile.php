@@ -221,4 +221,65 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:curl> class CURLFile ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [3] {
+    Property [ public $name = \'\' ]
+    Property [ public $mime = \'\' ]
+    Property [ public $postname = \'\' ]
+  }
+
+  - Methods [6] {
+    Method [ <internal:curl, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $filename ]
+        Parameter #1 [ <optional> ?string $mime_type = null ]
+        Parameter #2 [ <optional> ?string $posted_filename = null ]
+      }
+    }
+
+    Method [ <internal:curl> public method getFilename ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:curl> public method getMimeType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:curl> public method getPostFilename ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:curl> public method setMimeType ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $mime_type ]
+      }
+    }
+
+    Method [ <internal:curl> public method setPostFilename ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $posted_filename ]
+      }
+    }
+  }
+}
+',
 );

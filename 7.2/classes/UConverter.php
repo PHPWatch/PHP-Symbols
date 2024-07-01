@@ -581,4 +581,196 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> class UConverter ] {
+
+  - Constants [41] {
+    Constant [ public integer REASON_UNASSIGNED ] { 0 }
+    Constant [ public integer REASON_ILLEGAL ] { 1 }
+    Constant [ public integer REASON_IRREGULAR ] { 2 }
+    Constant [ public integer REASON_RESET ] { 3 }
+    Constant [ public integer REASON_CLOSE ] { 4 }
+    Constant [ public integer REASON_CLONE ] { 5 }
+    Constant [ public integer UNSUPPORTED_CONVERTER ] { -1 }
+    Constant [ public integer SBCS ] { 0 }
+    Constant [ public integer DBCS ] { 1 }
+    Constant [ public integer MBCS ] { 2 }
+    Constant [ public integer LATIN_1 ] { 3 }
+    Constant [ public integer UTF8 ] { 4 }
+    Constant [ public integer UTF16_BigEndian ] { 5 }
+    Constant [ public integer UTF16_LittleEndian ] { 6 }
+    Constant [ public integer UTF32_BigEndian ] { 7 }
+    Constant [ public integer UTF32_LittleEndian ] { 8 }
+    Constant [ public integer EBCDIC_STATEFUL ] { 9 }
+    Constant [ public integer ISO_2022 ] { 10 }
+    Constant [ public integer LMBCS_1 ] { 11 }
+    Constant [ public integer LMBCS_2 ] { 12 }
+    Constant [ public integer LMBCS_3 ] { 13 }
+    Constant [ public integer LMBCS_4 ] { 14 }
+    Constant [ public integer LMBCS_5 ] { 15 }
+    Constant [ public integer LMBCS_6 ] { 16 }
+    Constant [ public integer LMBCS_8 ] { 17 }
+    Constant [ public integer LMBCS_11 ] { 18 }
+    Constant [ public integer LMBCS_16 ] { 19 }
+    Constant [ public integer LMBCS_17 ] { 20 }
+    Constant [ public integer LMBCS_18 ] { 21 }
+    Constant [ public integer LMBCS_19 ] { 22 }
+    Constant [ public integer LMBCS_LAST ] { 22 }
+    Constant [ public integer HZ ] { 23 }
+    Constant [ public integer SCSU ] { 24 }
+    Constant [ public integer ISCII ] { 25 }
+    Constant [ public integer US_ASCII ] { 26 }
+    Constant [ public integer UTF7 ] { 27 }
+    Constant [ public integer BOCU1 ] { 28 }
+    Constant [ public integer UTF16 ] { 29 }
+    Constant [ public integer UTF32 ] { 30 }
+    Constant [ public integer CESU8 ] { 31 }
+    Constant [ public integer IMAP_MAILBOX ] { 32 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [5] {
+    Method [ <internal:intl> static public method transcode ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $str ]
+        Parameter #1 [ <required> $toEncoding ]
+        Parameter #2 [ <required> $fromEncoding ]
+        Parameter #3 [ <optional> array or NULL $options ]
+      }
+    }
+
+    Method [ <internal:intl> static public method reasonText ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $reason ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getAvailable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> static public method getAliases ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getStandards ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [14] {
+    Method [ <internal:intl, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $destination_encoding ]
+        Parameter #1 [ <optional> $source_encoding ]
+      }
+    }
+
+    Method [ <internal:intl> public method setSourceEncoding ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $encoding ]
+      }
+    }
+
+    Method [ <internal:intl> public method setDestinationEncoding ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $encoding ]
+      }
+    }
+
+    Method [ <internal:intl> public method getSourceEncoding ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getDestinationEncoding ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getSourceType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getDestinationType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getSubstChars ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method setSubstChars ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $chars ]
+      }
+    }
+
+    Method [ <internal:intl> public method toUCallback ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $reason ]
+        Parameter #1 [ <required> $source ]
+        Parameter #2 [ <required> $codeUnits ]
+        Parameter #3 [ <required> &$error ]
+      }
+    }
+
+    Method [ <internal:intl> public method fromUCallback ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $reason ]
+        Parameter #1 [ <required> $source ]
+        Parameter #2 [ <required> $codePoint ]
+        Parameter #3 [ <required> &$error ]
+      }
+    }
+
+    Method [ <internal:intl> public method convert ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $str ]
+        Parameter #1 [ <optional> $reverse ]
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorMessage ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

@@ -196,4 +196,64 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:session> interface SessionHandlerInterface ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [6] {
+    Method [ <internal:session> abstract public method open ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $save_path ]
+        Parameter #1 [ <required> $session_name ]
+      }
+    }
+
+    Method [ <internal:session> abstract public method close ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:session> abstract public method read ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:session> abstract public method write ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $val ]
+      }
+    }
+
+    Method [ <internal:session> abstract public method destroy ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:session> abstract public method gc ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $maxlifetime ]
+      }
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,24 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => true,
   ),
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function reset ] {
+
+  - Parameters [1] {
+    Parameter #0 [ <required> object|array &$array ]
+  }
+  - Return [ mixed ]
+}
+',
 );

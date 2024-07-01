@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'bcmath',
+  'toString' => 'Function [ <internal:bcmath> function bcmul ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $left_operand ]
+    Parameter #1 [ <required> $right_operand ]
+    Parameter #2 [ <optional> $scale ]
+  }
+}
+',
 );

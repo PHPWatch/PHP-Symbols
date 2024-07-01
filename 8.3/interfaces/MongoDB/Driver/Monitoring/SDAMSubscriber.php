@@ -261,4 +261,93 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:mongodb> interface MongoDB\\Driver\\Monitoring\\SDAMSubscriber extends MongoDB\\Driver\\Monitoring\\Subscriber ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [9] {
+    Method [ <internal:mongodb> abstract public method serverChanged ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\Driver\\Monitoring\\ServerChangedEvent $event ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:mongodb> abstract public method serverClosed ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\Driver\\Monitoring\\ServerClosedEvent $event ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:mongodb> abstract public method serverOpening ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\Driver\\Monitoring\\ServerOpeningEvent $event ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:mongodb> abstract public method serverHeartbeatFailed ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent $event ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:mongodb> abstract public method serverHeartbeatStarted ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent $event ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:mongodb> abstract public method serverHeartbeatSucceeded ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent $event ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:mongodb> abstract public method topologyChanged ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\Driver\\Monitoring\\TopologyChangedEvent $event ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:mongodb> abstract public method topologyClosed ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\Driver\\Monitoring\\TopologyClosedEvent $event ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:mongodb> abstract public method topologyOpening ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\Driver\\Monitoring\\TopologyOpeningEvent $event ]
+      }
+      - Tentative return [ void ]
+    }
+  }
+}
+',
 );

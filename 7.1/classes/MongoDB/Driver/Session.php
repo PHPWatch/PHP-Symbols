@@ -291,4 +291,119 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\Session ] {
+
+  - Constants [5] {
+    Constant [ public string TRANSACTION_NONE ] { none }
+    Constant [ public string TRANSACTION_STARTING ] { starting }
+    Constant [ public string TRANSACTION_IN_PROGRESS ] { in_progress }
+    Constant [ public string TRANSACTION_COMMITTED ] { committed }
+    Constant [ public string TRANSACTION_ABORTED ] { aborted }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [15] {
+    Method [ <internal:mongodb> final public method abortTransaction ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method advanceClusterTime ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $clusterTime ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method advanceOperationTime ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timestamp ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method commitTransaction ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method endSession ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getClusterTime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getLogicalSessionId ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getOperationTime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getServer ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getTransactionOptions ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getTransactionState ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method isInTransaction ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method startTransaction ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array or NULL $options ]
+      }
+    }
+
+    Method [ <internal:mongodb, ctor> final private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'odbc',
+  'toString' => 'Function [ <internal:odbc> function odbc_statistics ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $connection_id ]
+    Parameter #1 [ <required> $qualifier ]
+    Parameter #2 [ <required> $owner ]
+    Parameter #3 [ <required> $name ]
+    Parameter #4 [ <required> $unique ]
+    Parameter #5 [ <required> $accuracy ]
+  }
+}
+',
 );

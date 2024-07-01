@@ -347,4 +347,120 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class RegexIterator extends FilterIterator implements Iterator, Traversable, OuterIterator ] {
+
+  - Constants [6] {
+    Constant [ integer USE_KEY ] { 1 }
+    Constant [ integer MATCH ] { 0 }
+    Constant [ integer GET_MATCH ] { 1 }
+    Constant [ integer ALL_MATCHES ] { 2 }
+    Constant [ integer SPLIT ] { 3 }
+    Constant [ integer REPLACE ] { 4 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ <default> public $replacement ]
+  }
+
+  - Methods [14] {
+    Method [ <internal:SPL, overwrites FilterIterator, ctor> public method __construct ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> Iterator $iterator ]
+        Parameter #1 [ <required> $regex ]
+        Parameter #2 [ <optional> $mode ]
+        Parameter #3 [ <optional> $flags ]
+        Parameter #4 [ <optional> $preg_flags ]
+      }
+    }
+
+    Method [ <internal:SPL, overwrites FilterIterator, prototype FilterIterator> public method accept ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getMode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method setMode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $mode ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getFlags ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method setFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $flags ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getPregFlags ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method setPregFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $preg_flags ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits FilterIterator, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits FilterIterator, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits FilterIterator, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits FilterIterator, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits FilterIterator, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits FilterIterator, prototype OuterIterator> public method getInnerIterator ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,29 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'imap',
+  'toString' => 'Function [ <internal:imap> function imap_sort ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> IMAP\\Connection $imap ]
+    Parameter #1 [ <required> int $criteria ]
+    Parameter #2 [ <required> bool $reverse ]
+    Parameter #3 [ <optional> int $flags = 0 ]
+    Parameter #4 [ <optional> ?string $search_criteria = null ]
+    Parameter #5 [ <optional> ?string $charset = null ]
+  }
+  - Return [ array|false ]
+}
+',
 );

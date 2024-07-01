@@ -340,4 +340,109 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> class MessageFormatter ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [3] {
+    Method [ <internal:intl> static public method create ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $locale ]
+        Parameter #1 [ <required> string $pattern ]
+      }
+      - Tentative return [ ?MessageFormatter ]
+    }
+
+    Method [ <internal:intl> static public method formatMessage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $locale ]
+        Parameter #1 [ <required> string $pattern ]
+        Parameter #2 [ <required> array $values ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:intl> static public method parseMessage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $locale ]
+        Parameter #1 [ <required> string $pattern ]
+        Parameter #2 [ <required> string $message ]
+      }
+      - Tentative return [ array|false ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [8] {
+    Method [ <internal:intl, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $locale ]
+        Parameter #1 [ <required> string $pattern ]
+      }
+    }
+
+    Method [ <internal:intl> public method format ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $values ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:intl> public method parse ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $string ]
+      }
+      - Tentative return [ array|false ]
+    }
+
+    Method [ <internal:intl> public method setPattern ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $pattern ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:intl> public method getPattern ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:intl> public method getLocale ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:intl> public method getErrorCode ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl> public method getErrorMessage ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+  }
+}
+',
 );

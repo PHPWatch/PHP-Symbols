@@ -127,4 +127,51 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\BSON\\Binary implements MongoDB\\BSON\\Type ] {
+
+  - Constants [7] {
+    Constant [ integer TYPE_GENERIC ] { 0 }
+    Constant [ integer TYPE_FUNCTION ] { 1 }
+    Constant [ integer TYPE_OLD_BINARY ] { 2 }
+    Constant [ integer TYPE_OLD_UUID ] { 3 }
+    Constant [ integer TYPE_UUID ] { 4 }
+    Constant [ integer TYPE_MD5 ] { 5 }
+    Constant [ integer TYPE_USER_DEFINED ] { 128 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [4] {
+    Method [ <internal:mongodb, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <required> $type ]
+      }
+    }
+
+    Method [ <internal:mongodb> public method getData ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> public method getType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> public method __wakeUp ] {
+    }
+  }
+}
+',
 );

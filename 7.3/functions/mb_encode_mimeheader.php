@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'mbstring',
+  'toString' => 'Function [ <internal:mbstring> function mb_encode_mimeheader ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $str ]
+    Parameter #1 [ <optional> $charset ]
+    Parameter #2 [ <optional> $transfer ]
+    Parameter #3 [ <optional> $linefeed ]
+    Parameter #4 [ <optional> $indent ]
+  }
+}
+',
 );

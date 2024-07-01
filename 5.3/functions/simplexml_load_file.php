@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'SimpleXML',
+  'toString' => 'Function [ <internal:SimpleXML> function simplexml_load_file ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $filename ]
+    Parameter #1 [ <optional> $class_name ]
+    Parameter #2 [ <optional> $options ]
+    Parameter #3 [ <optional> $ns ]
+    Parameter #4 [ <optional> $is_prefix ]
+  }
+}
+',
 );

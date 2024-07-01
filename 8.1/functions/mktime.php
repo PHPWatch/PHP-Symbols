@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,29 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'date',
+  'toString' => 'Function [ <internal:date> function mktime ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> int $hour ]
+    Parameter #1 [ <optional> ?int $minute = null ]
+    Parameter #2 [ <optional> ?int $second = null ]
+    Parameter #3 [ <optional> ?int $month = null ]
+    Parameter #4 [ <optional> ?int $day = null ]
+    Parameter #5 [ <optional> ?int $year = null ]
+  }
+  - Return [ int|false ]
+}
+',
 );

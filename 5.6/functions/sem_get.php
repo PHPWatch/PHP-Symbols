@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'sysvsem',
+  'toString' => 'Function [ <internal:sysvsem> function sem_get ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $key ]
+    Parameter #1 [ <optional> $max_acquire ]
+    Parameter #2 [ <optional> $perm ]
+    Parameter #3 [ <optional> $auto_release ]
+  }
+}
+',
 );

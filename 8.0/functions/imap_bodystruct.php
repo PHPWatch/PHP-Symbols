@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'imap',
+  'toString' => 'Function [ <internal:imap> function imap_bodystruct ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $imap ]
+    Parameter #1 [ <required> int $message_num ]
+    Parameter #2 [ <required> string $section ]
+  }
+}
+',
 );

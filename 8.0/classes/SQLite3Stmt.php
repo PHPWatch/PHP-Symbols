@@ -282,4 +282,90 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:sqlite3> class SQLite3Stmt ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [10] {
+    Method [ <internal:sqlite3, ctor> private method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> SQLite3 $sqlite3 ]
+        Parameter #1 [ <required> string $query ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method bindParam ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string|int $param ]
+        Parameter #1 [ <required> mixed &$var ]
+        Parameter #2 [ <optional> int $type = SQLITE3_TEXT ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method bindValue ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string|int $param ]
+        Parameter #1 [ <required> mixed $value ]
+        Parameter #2 [ <optional> int $type = SQLITE3_TEXT ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method clear ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> public method close ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> public method execute ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> public method getSQL ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> bool $expand = false ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method paramCount ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> public method readOnly ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> public method reset ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

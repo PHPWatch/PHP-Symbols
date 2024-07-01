@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,18 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'imap',
+  'toString' => 'Function [ <internal:imap> function imap_rfc822_parse_adrlist ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $address_string ]
+    Parameter #1 [ <required> $default_host ]
+  }
+}
+',
 );

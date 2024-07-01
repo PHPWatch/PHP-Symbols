@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,18 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'mcrypt',
+  'toString' => 'Function [ <internal:mcrypt> function mcrypt_module_is_block_algorithm ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $algorithm ]
+    Parameter #1 [ <optional> $lib_dir ]
+  }
+}
+',
 );

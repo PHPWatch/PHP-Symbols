@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'intl',
+  'toString' => 'Function [ <internal:intl> function intlcal_get_keyword_values_for_locale ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $key ]
+    Parameter #1 [ <required> $locale ]
+    Parameter #2 [ <required> $commonlyUsed ]
+  }
+}
+',
 );

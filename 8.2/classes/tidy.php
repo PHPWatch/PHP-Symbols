@@ -555,4 +555,174 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:tidy> class tidy ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:tidy> static public method repairString ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $string ]
+        Parameter #1 [ <optional> array|string|null $config = null ]
+        Parameter #2 [ <optional> ?string $encoding = null ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:tidy> static public method repairFile ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $filename ]
+        Parameter #1 [ <optional> array|string|null $config = null ]
+        Parameter #2 [ <optional> ?string $encoding = null ]
+        Parameter #3 [ <optional> bool $useIncludePath = false ]
+      }
+      - Tentative return [ string|false ]
+    }
+  }
+
+  - Properties [2] {
+    Property [ public ?string $errorBuffer = NULL ]
+    Property [ public ?string $value = NULL ]
+  }
+
+  - Methods [17] {
+    Method [ <internal:tidy, ctor> public method __construct ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> ?string $filename = null ]
+        Parameter #1 [ <optional> array|string|null $config = null ]
+        Parameter #2 [ <optional> ?string $encoding = null ]
+        Parameter #3 [ <optional> bool $useIncludePath = false ]
+      }
+    }
+
+    Method [ <internal:tidy> public method getOpt ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $option ]
+      }
+      - Tentative return [ string|int|bool ]
+    }
+
+    Method [ <internal:tidy> public method cleanRepair ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:tidy> public method parseFile ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $filename ]
+        Parameter #1 [ <optional> array|string|null $config = null ]
+        Parameter #2 [ <optional> ?string $encoding = null ]
+        Parameter #3 [ <optional> bool $useIncludePath = false ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:tidy> public method parseString ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $string ]
+        Parameter #1 [ <optional> array|string|null $config = null ]
+        Parameter #2 [ <optional> ?string $encoding = null ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:tidy> public method diagnose ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:tidy> public method getRelease ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:tidy> public method getConfig ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:tidy> public method getStatus ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:tidy> public method getHtmlVer ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:tidy> public method getOptDoc ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $option ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:tidy> public method isXhtml ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:tidy> public method isXml ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:tidy> public method root ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?tidyNode ]
+    }
+
+    Method [ <internal:tidy> public method head ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?tidyNode ]
+    }
+
+    Method [ <internal:tidy> public method html ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?tidyNode ]
+    }
+
+    Method [ <internal:tidy> public method body ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?tidyNode ]
+    }
+  }
+}
+',
 );

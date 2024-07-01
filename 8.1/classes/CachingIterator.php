@@ -381,4 +381,153 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class CachingIterator extends IteratorIterator implements Stringable, Iterator, Traversable, OuterIterator, ArrayAccess, Countable ] {
+
+  - Constants [6] {
+    Constant [ public int CALL_TOSTRING ] { 1 }
+    Constant [ public int CATCH_GET_CHILD ] { 16 }
+    Constant [ public int TOSTRING_USE_KEY ] { 2 }
+    Constant [ public int TOSTRING_USE_CURRENT ] { 4 }
+    Constant [ public int TOSTRING_USE_INNER ] { 8 }
+    Constant [ public int FULL_CACHE ] { 256 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [17] {
+    Method [ <internal:SPL, overwrites IteratorIterator, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> Iterator $iterator ]
+        Parameter #1 [ <optional> int $flags = CachingIterator::CALL_TOSTRING ]
+      }
+    }
+
+    Method [ <internal:SPL, overwrites IteratorIterator, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, overwrites IteratorIterator, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, overwrites IteratorIterator, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL> public method hasNext ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, prototype Stringable> public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:SPL> public method getFlags ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL> public method setFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $flags ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL> public method getCache ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:SPL, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL, inherits IteratorIterator, prototype OuterIterator> public method getInnerIterator ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?Iterator ]
+    }
+
+    Method [ <internal:SPL, inherits IteratorIterator, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, inherits IteratorIterator, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+  }
+}
+',
 );

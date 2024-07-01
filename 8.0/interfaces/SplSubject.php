@@ -99,4 +99,41 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:SPL> interface SplSubject ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:SPL> abstract public method attach ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> SplObserver $observer ]
+      }
+    }
+
+    Method [ <internal:SPL> abstract public method detach ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> SplObserver $observer ]
+      }
+    }
+
+    Method [ <internal:SPL> abstract public method notify ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

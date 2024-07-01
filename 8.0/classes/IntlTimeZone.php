@@ -657,4 +657,204 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> class IntlTimeZone ] {
+
+  - Constants [11] {
+    Constant [ public int DISPLAY_SHORT ] { 1 }
+    Constant [ public int DISPLAY_LONG ] { 2 }
+    Constant [ public int DISPLAY_SHORT_GENERIC ] { 3 }
+    Constant [ public int DISPLAY_LONG_GENERIC ] { 4 }
+    Constant [ public int DISPLAY_SHORT_GMT ] { 5 }
+    Constant [ public int DISPLAY_LONG_GMT ] { 6 }
+    Constant [ public int DISPLAY_SHORT_COMMONLY_USED ] { 7 }
+    Constant [ public int DISPLAY_GENERIC_LOCATION ] { 8 }
+    Constant [ public int TYPE_ANY ] { 0 }
+    Constant [ public int TYPE_CANONICAL ] { 1 }
+    Constant [ public int TYPE_CANONICAL_LOCATION ] { 2 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [14] {
+    Method [ <internal:intl> static public method countEquivalentIDs ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $timezoneId ]
+      }
+    }
+
+    Method [ <internal:intl> static public method createDefault ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> static public method createEnumeration ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $countryOrRawOffset = null ]
+      }
+    }
+
+    Method [ <internal:intl> static public method createTimeZone ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $timezoneId ]
+      }
+    }
+
+    Method [ <internal:intl> static public method createTimeZoneIDEnumeration ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> int $type ]
+        Parameter #1 [ <optional> ?string $region = null ]
+        Parameter #2 [ <optional> ?int $rawOffset = null ]
+      }
+    }
+
+    Method [ <internal:intl> static public method fromDateTimeZone ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DateTimeZone $timezone ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getCanonicalID ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $timezoneId ]
+        Parameter #1 [ <optional> &$isSystemId = null ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getEquivalentID ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $timezoneId ]
+        Parameter #1 [ <required> int $offset ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getGMT ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> static public method getRegion ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $timezoneId ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getTZDataVersion ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> static public method getUnknown ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> static public method getWindowsID ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $timezoneId ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getIDForWindowsID ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $timezoneId ]
+        Parameter #1 [ <optional> ?string $region = null ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [11] {
+    Method [ <internal:intl, ctor> private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getDisplayName ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> bool $dst = false ]
+        Parameter #1 [ <optional> int $style = IntlTimeZone::DISPLAY_LONG ]
+        Parameter #2 [ <optional> ?string $locale = null ]
+      }
+    }
+
+    Method [ <internal:intl> public method getDSTSavings ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorMessage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getID ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getOffset ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> float $timestamp ]
+        Parameter #1 [ <required> bool $local ]
+        Parameter #2 [ <required> &$rawOffset ]
+        Parameter #3 [ <required> &$dstOffset ]
+      }
+    }
+
+    Method [ <internal:intl> public method getRawOffset ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method hasSameRules ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> IntlTimeZone $other ]
+      }
+    }
+
+    Method [ <internal:intl> public method toDateTimeZone ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method useDaylightTime ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

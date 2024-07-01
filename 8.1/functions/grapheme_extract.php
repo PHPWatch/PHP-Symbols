@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,28 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'intl',
+  'toString' => 'Function [ <internal:intl> function grapheme_extract ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> string $haystack ]
+    Parameter #1 [ <required> int $size ]
+    Parameter #2 [ <optional> int $type = GRAPHEME_EXTR_COUNT ]
+    Parameter #3 [ <optional> int $offset = 0 ]
+    Parameter #4 [ <optional> &$next = null ]
+  }
+  - Return [ string|false ]
+}
+',
 );

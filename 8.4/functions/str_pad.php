@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function str_pad ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> string $string ]
+    Parameter #1 [ <required> int $length ]
+    Parameter #2 [ <optional> string $pad_string = " " ]
+    Parameter #3 [ <optional> int $pad_type = STR_PAD_RIGHT ]
+  }
+  - Return [ string ]
+}
+',
 );

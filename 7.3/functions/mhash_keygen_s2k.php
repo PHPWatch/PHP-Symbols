@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'hash',
+  'toString' => 'Function [ <internal:hash> function mhash_keygen_s2k ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $hash ]
+    Parameter #1 [ <required> $input_password ]
+    Parameter #2 [ <required> $salt ]
+    Parameter #3 [ <required> $bytes ]
+  }
+}
+',
 );

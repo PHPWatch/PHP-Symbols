@@ -299,4 +299,101 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:redis> class RedisSentinel ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [12] {
+    Method [ <internal:redis, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $options ]
+      }
+    }
+
+    Method [ <internal:redis> public method ckquorum ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $master ]
+      }
+    }
+
+    Method [ <internal:redis> public method failover ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $master ]
+      }
+    }
+
+    Method [ <internal:redis> public method flushconfig ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method getMasterAddrByName ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $master ]
+      }
+    }
+
+    Method [ <internal:redis> public method master ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $master ]
+      }
+    }
+
+    Method [ <internal:redis> public method masters ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method myid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method ping ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method reset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $pattern ]
+      }
+    }
+
+    Method [ <internal:redis> public method sentinels ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $master ]
+      }
+    }
+
+    Method [ <internal:redis> public method slaves ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $master ]
+      }
+    }
+  }
+}
+',
 );

@@ -424,4 +424,168 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Reflection> class ReflectionParameter implements Stringable, Reflector ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ public $name = \'\' ]
+  }
+
+  - Methods [23] {
+    Method [ <internal:Reflection> final private method __clone ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:Reflection, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $function ]
+        Parameter #1 [ <required> string|int $param ]
+      }
+    }
+
+    Method [ <internal:Reflection, prototype Stringable> public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Reflection> public method getName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isPassedByReference ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method canBePassedByValue ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getDeclaringFunction ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getDeclaringClass ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:Reflection> public method getClass ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method hasType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:Reflection> public method isArray ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:Reflection> public method isCallable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method allowsNull ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getPosition ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isOptional ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isDefaultValueAvailable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getDefaultValue ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isDefaultValueConstant ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getDefaultValueConstantName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isVariadic ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isPromoted ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Reflection> public method getAttributes ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> ?string $name = null ]
+        Parameter #1 [ <optional> int $flags = 0 ]
+      }
+      - Return [ array ]
+    }
+  }
+}
+',
 );

@@ -125,4 +125,52 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\CursorId implements Serializable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [5] {
+    Method [ <internal:mongodb> final public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method serialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $serialized ]
+      }
+    }
+
+    Method [ <internal:mongodb, ctor> final private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

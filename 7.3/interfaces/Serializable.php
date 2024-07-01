@@ -74,4 +74,31 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:Core> interface Serializable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [2] {
+    Method [ <internal:Core> abstract public method serialize ] {
+    }
+
+    Method [ <internal:Core, ctor> abstract public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $serialized ]
+      }
+    }
+  }
+}
+',
 );

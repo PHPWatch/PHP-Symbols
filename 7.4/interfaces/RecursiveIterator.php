@@ -135,4 +135,48 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:SPL> interface RecursiveIterator extends Iterator, Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [7] {
+    Method [ <internal:SPL> abstract public method hasChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> abstract public method getChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method current ] {
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method next ] {
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method key ] {
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method valid ] {
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method rewind ] {
+    }
+  }
+}
+',
 );

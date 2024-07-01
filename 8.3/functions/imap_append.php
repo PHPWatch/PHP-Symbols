@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,28 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'imap',
+  'toString' => 'Function [ <internal:imap> function imap_append ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> IMAP\\Connection $imap ]
+    Parameter #1 [ <required> string $folder ]
+    Parameter #2 [ <required> string $message ]
+    Parameter #3 [ <optional> ?string $options = null ]
+    Parameter #4 [ <optional> ?string $internal_date = null ]
+  }
+  - Return [ bool ]
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,17 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'sysvshm',
+  'toString' => 'Function [ <internal:sysvshm> function shm_detach ] {
+
+  - Parameters [1] {
+    Parameter #0 [ <required> $shm_identifier ]
+  }
+}
+',
 );

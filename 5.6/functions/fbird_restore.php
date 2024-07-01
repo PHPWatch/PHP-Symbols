@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'interbase',
+  'toString' => 'Function [ <internal:interbase> function fbird_restore ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $service_handle ]
+    Parameter #1 [ <required> $source_file ]
+    Parameter #2 [ <required> $dest_db ]
+    Parameter #3 [ <optional> $options ]
+    Parameter #4 [ <optional> $verbose ]
+  }
+}
+',
 );

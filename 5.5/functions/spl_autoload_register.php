@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'SPL',
+  'toString' => 'Function [ <internal:SPL> function spl_autoload_register ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <optional> $autoload_function ]
+    Parameter #1 [ <optional> $throw ]
+    Parameter #2 [ <optional> $prepend ]
+  }
+}
+',
 );

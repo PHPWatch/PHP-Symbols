@@ -89,4 +89,37 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:mongodb> interface MongoDB\\Driver\\Monitoring\\LogSubscriber extends MongoDB\\Driver\\Monitoring\\Subscriber ] {
+
+  - Constants [6] {
+    Constant [ public int LEVEL_ERROR ] { 0 }
+    Constant [ public int LEVEL_CRITICAL ] { 1 }
+    Constant [ public int LEVEL_WARNING ] { 2 }
+    Constant [ public int LEVEL_MESSAGE ] { 3 }
+    Constant [ public int LEVEL_INFO ] { 4 }
+    Constant [ public int LEVEL_DEBUG ] { 5 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:mongodb> abstract public method log ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> int $level ]
+        Parameter #1 [ <required> string $domain ]
+        Parameter #2 [ <required> string $message ]
+      }
+      - Return [ void ]
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,24 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'memcache',
+  'toString' => 'Function [ <internal:memcache> function memcache_connect ] {
+
+  - Parameters [8] {
+    Parameter #0 [ <required> $host ]
+    Parameter #1 [ <optional> $port = <default> ]
+    Parameter #2 [ <optional> $timeout = <default> ]
+    Parameter #3 [ <optional> $unused4 = <default> ]
+    Parameter #4 [ <optional> $unused5 = <default> ]
+    Parameter #5 [ <optional> $unused6 = <default> ]
+    Parameter #6 [ <optional> $unused7 = <default> ]
+    Parameter #7 [ <optional> $unugsed8 = <default> ]
+  }
+}
+',
 );

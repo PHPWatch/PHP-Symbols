@@ -132,4 +132,60 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> <iterateable> class IntlPartsIterator extends IntlIterator implements Traversable, Iterator ] {
+
+  - Constants [3] {
+    Constant [ public int KEY_SEQUENTIAL ] { 0 }
+    Constant [ public int KEY_LEFT ] { 1 }
+    Constant [ public int KEY_RIGHT ] { 2 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [6] {
+    Method [ <internal:intl> public method getBreakIterator ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl, inherits IntlIterator, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl, inherits IntlIterator, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl, inherits IntlIterator, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl, inherits IntlIterator, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl, inherits IntlIterator, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

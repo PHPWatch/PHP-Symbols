@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'intl',
+  'toString' => 'Function [ <internal:intl> function datefmt_format_object ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $datetime ]
+    Parameter #1 [ <optional> $format = null ]
+    Parameter #2 [ <optional> ?string $locale = null ]
+  }
+  - Return [ string|false ]
+}
+',
 );

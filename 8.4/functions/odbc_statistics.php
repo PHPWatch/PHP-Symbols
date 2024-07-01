@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,29 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'odbc',
+  'toString' => 'Function [ <internal:odbc> function odbc_statistics ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> Odbc\\Connection $odbc ]
+    Parameter #1 [ <required> ?string $catalog ]
+    Parameter #2 [ <required> string $schema ]
+    Parameter #3 [ <required> string $table ]
+    Parameter #4 [ <required> int $unique ]
+    Parameter #5 [ <required> int $accuracy ]
+  }
+  - Return [ Odbc\\Result|false ]
+}
+',
 );

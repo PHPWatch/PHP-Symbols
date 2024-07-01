@@ -397,4 +397,131 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Reflection> class ReflectionProperty implements Reflector ] {
+
+  - Constants [4] {
+    Constant [ public integer IS_STATIC ] { 1 }
+    Constant [ public integer IS_PUBLIC ] { 256 }
+    Constant [ public integer IS_PROTECTED ] { 512 }
+    Constant [ public integer IS_PRIVATE ] { 1024 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:Reflection, prototype Reflector> static public method export ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $class ]
+        Parameter #1 [ <required> $name ]
+        Parameter #2 [ <optional> $return ]
+      }
+    }
+  }
+
+  - Properties [2] {
+    Property [ <default> public $name ]
+    Property [ <default> public $class ]
+  }
+
+  - Methods [15] {
+    Method [ <internal:Reflection> final private method __clone ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $class ]
+        Parameter #1 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:Reflection, prototype Reflector> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getValue ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $object ]
+      }
+    }
+
+    Method [ <internal:Reflection> public method setValue ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $object ]
+        Parameter #1 [ <optional> $value ]
+      }
+    }
+
+    Method [ <internal:Reflection> public method isPublic ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isPrivate ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isProtected ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isStatic ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isDefault ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getModifiers ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getDeclaringClass ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getDocComment ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method setAccessible ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $visible ]
+      }
+    }
+  }
+}
+',
 );

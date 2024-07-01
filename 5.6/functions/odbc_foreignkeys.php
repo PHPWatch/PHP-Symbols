@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,23 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'odbc',
+  'toString' => 'Function [ <internal:odbc> function odbc_foreignkeys ] {
+
+  - Parameters [7] {
+    Parameter #0 [ <required> $connection_id ]
+    Parameter #1 [ <required> $pk_qualifier ]
+    Parameter #2 [ <required> $pk_owner ]
+    Parameter #3 [ <required> $pk_table ]
+    Parameter #4 [ <required> $fk_qualifier ]
+    Parameter #5 [ <required> $fk_owner ]
+    Parameter #6 [ <required> $fk_table ]
+  }
+}
+',
 );

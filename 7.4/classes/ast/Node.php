@@ -153,4 +153,35 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:ast> class ast\\Node ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [4] {
+    Property [ <default> public $kind ]
+    Property [ <default> public $flags ]
+    Property [ <default> public $lineno ]
+    Property [ <default> public $children ]
+  }
+
+  - Methods [1] {
+    Method [ <internal:ast, ctor> public method __construct ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> int or NULL $kind ]
+        Parameter #1 [ <optional> int or NULL $flags ]
+        Parameter #2 [ <optional> array or NULL $children ]
+        Parameter #3 [ <optional> int or NULL $lineno ]
+      }
+    }
+  }
+}
+',
 );

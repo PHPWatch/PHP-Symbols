@@ -133,4 +133,49 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\WriteConcern ] {
+
+  - Constants [1] {
+    Constant [ string MAJORITY ] { majority }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [4] {
+    Method [ <internal:mongodb, ctor> final public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $w ]
+        Parameter #1 [ <optional> $wtimeout ]
+        Parameter #2 [ <optional> $journal ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getW ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getWtimeout ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getJournal ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

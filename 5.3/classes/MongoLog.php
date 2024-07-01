@@ -175,4 +175,53 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> class MongoLog ] {
+
+  - Constants [11] {
+    Constant [ integer NONE ] { 0 }
+    Constant [ integer WARNING ] { 1 }
+    Constant [ integer INFO ] { 2 }
+    Constant [ integer FINE ] { 4 }
+    Constant [ integer RS ] { 1 }
+    Constant [ integer POOL ] { 1 }
+    Constant [ integer PARSE ] { 16 }
+    Constant [ integer CON ] { 2 }
+    Constant [ integer IO ] { 4 }
+    Constant [ integer SERVER ] { 8 }
+    Constant [ integer ALL ] { 31 }
+  }
+
+  - Static properties [3] {
+    Property [ private static $level ]
+    Property [ private static $module ]
+    Property [ private static $callback ]
+  }
+
+  - Static methods [6] {
+    Method [ <internal:mongo> static public method setLevel ] {
+    }
+
+    Method [ <internal:mongo> static public method getLevel ] {
+    }
+
+    Method [ <internal:mongo> static public method setModule ] {
+    }
+
+    Method [ <internal:mongo> static public method getModule ] {
+    }
+
+    Method [ <internal:mongo> static public method setCallback ] {
+    }
+
+    Method [ <internal:mongo> static public method getCallback ] {
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function is_callable ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $var ]
+    Parameter #1 [ <optional> $syntax_only ]
+    Parameter #2 [ <optional> &$callable_name ]
+  }
+}
+',
 );

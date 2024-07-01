@@ -493,4 +493,160 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:imagick> <iterateable> class ImagickPixelIterator implements Iterator, Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:imagick> static public method getPixelIterator ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Imagick $imagick ]
+      }
+    }
+
+    Method [ <internal:imagick> static public method getPixelRegionIterator ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> Imagick $imagick ]
+        Parameter #1 [ <required> $x ]
+        Parameter #2 [ <required> $y ]
+        Parameter #3 [ <required> $columns ]
+        Parameter #4 [ <required> $rows ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [19] {
+    Method [ <internal:imagick, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Imagick $imagick ]
+      }
+    }
+
+    Method [ <internal:imagick> public method clear ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method destroy ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getCurrentIteratorRow ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getIteratorRow ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getNextIteratorRow ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getPreviousIteratorRow ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method newPixelIterator ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Imagick $imagick ]
+      }
+    }
+
+    Method [ <internal:imagick> public method newPixelRegionIterator ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> Imagick $imagick ]
+        Parameter #1 [ <required> $x ]
+        Parameter #2 [ <required> $y ]
+        Parameter #3 [ <required> $columns ]
+        Parameter #4 [ <required> $rows ]
+      }
+    }
+
+    Method [ <internal:imagick> public method resetIterator ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setIteratorFirstRow ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setIteratorLastRow ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setIteratorRow ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $row ]
+      }
+    }
+
+    Method [ <internal:imagick> public method syncIterator ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

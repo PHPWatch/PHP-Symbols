@@ -260,4 +260,177 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:zmq> class ZMQ ] {
+
+  - Constants [125] {
+    Constant [ public integer SOCKET_PAIR ] { 0 }
+    Constant [ public integer SOCKET_PUB ] { 1 }
+    Constant [ public integer SOCKET_SUB ] { 2 }
+    Constant [ public integer SOCKET_REQ ] { 3 }
+    Constant [ public integer SOCKET_REP ] { 4 }
+    Constant [ public integer SOCKET_XREQ ] { 5 }
+    Constant [ public integer SOCKET_XREP ] { 6 }
+    Constant [ public integer SOCKET_PUSH ] { 8 }
+    Constant [ public integer SOCKET_PULL ] { 7 }
+    Constant [ public integer SOCKET_DEALER ] { 5 }
+    Constant [ public integer SOCKET_ROUTER ] { 6 }
+    Constant [ public integer SOCKET_XSUB ] { 10 }
+    Constant [ public integer SOCKET_XPUB ] { 9 }
+    Constant [ public integer SOCKET_STREAM ] { 11 }
+    Constant [ public integer SOCKET_UPSTREAM ] { 7 }
+    Constant [ public integer SOCKET_DOWNSTREAM ] { 8 }
+    Constant [ public integer POLL_IN ] { 1 }
+    Constant [ public integer POLL_OUT ] { 2 }
+    Constant [ public integer MODE_SNDMORE ] { 2 }
+    Constant [ public integer MODE_NOBLOCK ] { 1 }
+    Constant [ public integer MODE_DONTWAIT ] { 1 }
+    Constant [ public integer ERR_INTERNAL ] { -99 }
+    Constant [ public integer ERR_EAGAIN ] { 11 }
+    Constant [ public integer ERR_ENOTSUP ] { 95 }
+    Constant [ public integer ERR_EFSM ] { 156384763 }
+    Constant [ public integer ERR_ETERM ] { 156384765 }
+    Constant [ public string LIBZMQ_VER ] { 4.3.4 }
+    Constant [ public string LIBZMQ_VERSION ] { 4.3.4 }
+    Constant [ public integer LIBZMQ_VERSION_ID ] { 40304 }
+    Constant [ public integer LIBZMQ_VERSION_MAJOR ] { 4 }
+    Constant [ public integer LIBZMQ_VERSION_MINOR ] { 3 }
+    Constant [ public integer LIBZMQ_VERSION_PATCH ] { 4 }
+    Constant [ public integer SOCKOPT_GSSAPI_PRINCIPAL_NAMETYPE ] { 90 }
+    Constant [ public integer SOCKOPT_GSSAPI_SERVICE_PRINCIPAL_NAMETYPE ] { 91 }
+    Constant [ public integer SOCKOPT_BINDTODEVICE ] { 92 }
+    Constant [ public integer SOCKOPT_HEARTBEAT_IVL ] { 75 }
+    Constant [ public integer SOCKOPT_HEARTBEAT_TTL ] { 76 }
+    Constant [ public integer SOCKOPT_HEARTBEAT_TIMEOUT ] { 77 }
+    Constant [ public integer SOCKOPT_USE_FD ] { 89 }
+    Constant [ public integer SOCKOPT_XPUB_MANUAL ] { 71 }
+    Constant [ public integer SOCKOPT_XPUB_WELCOME_MSG ] { 72 }
+    Constant [ public integer SOCKOPT_STREAM_NOTIFY ] { 73 }
+    Constant [ public integer SOCKOPT_INVERT_MATCHING ] { 74 }
+    Constant [ public integer SOCKOPT_XPUB_VERBOSER ] { 78 }
+    Constant [ public integer SOCKOPT_CONNECT_TIMEOUT ] { 79 }
+    Constant [ public integer SOCKOPT_TCP_MAXRT ] { 80 }
+    Constant [ public integer SOCKOPT_THREAD_SAFE ] { 81 }
+    Constant [ public integer SOCKOPT_MULTICAST_MAXTPDU ] { 84 }
+    Constant [ public integer SOCKOPT_VMCI_BUFFER_SIZE ] { 85 }
+    Constant [ public integer SOCKOPT_VMCI_BUFFER_MIN_SIZE ] { 86 }
+    Constant [ public integer SOCKOPT_VMCI_BUFFER_MAX_SIZE ] { 87 }
+    Constant [ public integer SOCKOPT_VMCI_CONNECT_TIMEOUT ] { 88 }
+    Constant [ public integer SOCKOPT_TOS ] { 57 }
+    Constant [ public integer SOCKOPT_ROUTER_HANDOVER ] { 56 }
+    Constant [ public integer SOCKOPT_CONNECT_RID ] { 61 }
+    Constant [ public integer SOCKOPT_HANDSHAKE_IVL ] { 66 }
+    Constant [ public integer SOCKOPT_SOCKS_PROXY ] { 68 }
+    Constant [ public integer SOCKOPT_XPUB_NODROP ] { 69 }
+    Constant [ public integer SOCKOPT_ROUTER_MANDATORY ] { 33 }
+    Constant [ public integer SOCKOPT_PROBE_ROUTER ] { 51 }
+    Constant [ public integer SOCKOPT_REQ_RELAXED ] { 53 }
+    Constant [ public integer SOCKOPT_REQ_CORRELATE ] { 52 }
+    Constant [ public integer SOCKOPT_CONFLATE ] { 54 }
+    Constant [ public integer SOCKOPT_ZAP_DOMAIN ] { 55 }
+    Constant [ public integer SOCKOPT_MECHANISM ] { 43 }
+    Constant [ public integer SOCKOPT_PLAIN_SERVER ] { 44 }
+    Constant [ public integer SOCKOPT_PLAIN_USERNAME ] { 45 }
+    Constant [ public integer SOCKOPT_PLAIN_PASSWORD ] { 46 }
+    Constant [ public integer SOCKOPT_CURVE_SERVER ] { 47 }
+    Constant [ public integer SOCKOPT_CURVE_PUBLICKEY ] { 48 }
+    Constant [ public integer SOCKOPT_CURVE_SECRETKEY ] { 49 }
+    Constant [ public integer SOCKOPT_CURVE_SERVERKEY ] { 50 }
+    Constant [ public integer SOCKOPT_GSSAPI_SERVER ] { 62 }
+    Constant [ public integer SOCKOPT_GSSAPI_PLAINTEXT ] { 65 }
+    Constant [ public integer SOCKOPT_GSSAPI_PRINCIPAL ] { 63 }
+    Constant [ public integer SOCKOPT_GSSAPI_SERVICE_PRINCIPAL ] { 64 }
+    Constant [ public integer SOCKOPT_IPV6 ] { 42 }
+    Constant [ public integer SOCKOPT_IMMEDIATE ] { 39 }
+    Constant [ public integer SOCKOPT_SNDHWM ] { 23 }
+    Constant [ public integer SOCKOPT_RCVHWM ] { 24 }
+    Constant [ public integer SOCKOPT_MAXMSGSIZE ] { 22 }
+    Constant [ public integer SOCKOPT_MULTICAST_HOPS ] { 25 }
+    Constant [ public integer SOCKOPT_XPUB_VERBOSE ] { 40 }
+    Constant [ public integer SOCKOPT_TCP_KEEPALIVE ] { 34 }
+    Constant [ public integer SOCKOPT_TCP_KEEPALIVE_IDLE ] { 36 }
+    Constant [ public integer SOCKOPT_TCP_KEEPALIVE_CNT ] { 35 }
+    Constant [ public integer SOCKOPT_TCP_KEEPALIVE_INTVL ] { 37 }
+    Constant [ public integer SOCKOPT_TCP_ACCEPT_FILTER ] { 38 }
+    Constant [ public integer SOCKOPT_LAST_ENDPOINT ] { 32 }
+    Constant [ public integer SOCKOPT_ROUTER_RAW ] { 41 }
+    Constant [ public integer SOCKOPT_IPV4ONLY ] { 31 }
+    Constant [ public integer SOCKOPT_DELAY_ATTACH_ON_CONNECT ] { 39 }
+    Constant [ public integer SOCKOPT_HWM ] { 2001 }
+    Constant [ public integer SOCKOPT_AFFINITY ] { 4 }
+    Constant [ public integer SOCKOPT_IDENTITY ] { 5 }
+    Constant [ public integer SOCKOPT_RATE ] { 8 }
+    Constant [ public integer SOCKOPT_RECOVERY_IVL ] { 9 }
+    Constant [ public integer SOCKOPT_RCVTIMEO ] { 27 }
+    Constant [ public integer SOCKOPT_SNDTIMEO ] { 28 }
+    Constant [ public integer SOCKOPT_SNDBUF ] { 11 }
+    Constant [ public integer SOCKOPT_RCVBUF ] { 12 }
+    Constant [ public integer SOCKOPT_LINGER ] { 17 }
+    Constant [ public integer SOCKOPT_RECONNECT_IVL ] { 18 }
+    Constant [ public integer SOCKOPT_RECONNECT_IVL_MAX ] { 21 }
+    Constant [ public integer SOCKOPT_BACKLOG ] { 19 }
+    Constant [ public integer SOCKOPT_SUBSCRIBE ] { 6 }
+    Constant [ public integer SOCKOPT_UNSUBSCRIBE ] { 7 }
+    Constant [ public integer SOCKOPT_TYPE ] { 16 }
+    Constant [ public integer SOCKOPT_RCVMORE ] { 13 }
+    Constant [ public integer SOCKOPT_FD ] { 14 }
+    Constant [ public integer SOCKOPT_EVENTS ] { 15 }
+    Constant [ public integer CTXOPT_MAX_SOCKETS ] { 2 }
+    Constant [ public integer CTXOPT_MAX_SOCKETS_DEFAULT ] { 1023 }
+    Constant [ public integer EVENT_CONNECTED ] { 1 }
+    Constant [ public integer EVENT_CONNECT_DELAYED ] { 2 }
+    Constant [ public integer EVENT_CONNECT_RETRIED ] { 4 }
+    Constant [ public integer EVENT_LISTENING ] { 8 }
+    Constant [ public integer EVENT_BIND_FAILED ] { 16 }
+    Constant [ public integer EVENT_ACCEPTED ] { 32 }
+    Constant [ public integer EVENT_ACCEPT_FAILED ] { 64 }
+    Constant [ public integer EVENT_CLOSED ] { 128 }
+    Constant [ public integer EVENT_CLOSE_FAILED ] { 256 }
+    Constant [ public integer EVENT_DISCONNECTED ] { 512 }
+    Constant [ public integer EVENT_MONITOR_STOPPED ] { 1024 }
+    Constant [ public integer EVENT_ALL ] { 65535 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [4] {
+    Method [ <internal:zmq> static public method clock ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:zmq> static public method z85encode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $data ]
+      }
+    }
+
+    Method [ <internal:zmq> static public method z85decode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $data ]
+      }
+    }
+
+    Method [ <internal:zmq> static public method curvekeypair ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:zmq, ctor> private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

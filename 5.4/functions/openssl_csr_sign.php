@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_csr_sign ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $csr ]
+    Parameter #1 [ <required> $x509 ]
+    Parameter #2 [ <required> $priv_key ]
+    Parameter #3 [ <required> $days ]
+    Parameter #4 [ <optional> $config_args ]
+    Parameter #5 [ <optional> $serial ]
+  }
+}
+',
 );

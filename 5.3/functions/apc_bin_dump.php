@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,18 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'apc',
+  'toString' => 'Function [ <internal:apc> function apc_bin_dump ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <optional> $files ]
+    Parameter #1 [ <optional> $user_vars ]
+  }
+}
+',
 );

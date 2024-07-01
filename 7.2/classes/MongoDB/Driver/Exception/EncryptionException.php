@@ -322,4 +322,70 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> class MongoDB\\Driver\\Exception\\EncryptionException extends MongoDB\\Driver\\Exception\\RuntimeException implements MongoDB\\Driver\\Exception\\Exception, Throwable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [5] {
+    Property [ <default> protected $message ]
+    Property [ <default> protected $code ]
+    Property [ <default> protected $file ]
+    Property [ <default> protected $line ]
+    Property [ <default> protected $errorLabels ]
+  }
+
+  - Methods [11] {
+    Method [ <internal:mongodb, inherits MongoDB\\Driver\\Exception\\RuntimeException> final public method hasErrorLabel ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $errorLabel ]
+      }
+      - Return [ boolean ]
+    }
+
+    Method [ <internal:Core, inherits Exception, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $message ]
+        Parameter #1 [ <optional> $code ]
+        Parameter #2 [ <optional> $previous ]
+      }
+    }
+
+    Method [ <internal:Core, inherits Exception> public method __wakeup ] {
+    }
+
+    Method [ <internal:Core, inherits Exception, prototype Throwable> final public method getMessage ] {
+    }
+
+    Method [ <internal:Core, inherits Exception, prototype Throwable> final public method getCode ] {
+    }
+
+    Method [ <internal:Core, inherits Exception, prototype Throwable> final public method getFile ] {
+    }
+
+    Method [ <internal:Core, inherits Exception, prototype Throwable> final public method getLine ] {
+    }
+
+    Method [ <internal:Core, inherits Exception, prototype Throwable> final public method getTrace ] {
+    }
+
+    Method [ <internal:Core, inherits Exception, prototype Throwable> final public method getPrevious ] {
+    }
+
+    Method [ <internal:Core, inherits Exception, prototype Throwable> final public method getTraceAsString ] {
+    }
+
+    Method [ <internal:Core, inherits Exception, prototype Throwable> public method __toString ] {
+    }
+  }
+}
+',
 );

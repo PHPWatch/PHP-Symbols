@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,30 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'ldap',
+  'toString' => 'Function [ <internal:ldap> function ldap_parse_result ] {
+
+  - Parameters [7] {
+    Parameter #0 [ <required> $ldap ]
+    Parameter #1 [ <required> $result ]
+    Parameter #2 [ <required> &$error_code ]
+    Parameter #3 [ <optional> &$matched_dn = null ]
+    Parameter #4 [ <optional> &$error_message = null ]
+    Parameter #5 [ <optional> &$referrals = null ]
+    Parameter #6 [ <optional> &$controls = null ]
+  }
+  - Return [ bool ]
+}
+',
 );

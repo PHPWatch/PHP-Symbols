@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'ldap',
+  'toString' => 'Function [ <internal:ldap> function ldap_set_rebind_proc ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $ldap ]
+    Parameter #1 [ <required> ?callable $callback ]
+  }
+  - Return [ bool ]
+}
+',
 );

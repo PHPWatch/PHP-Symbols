@@ -89,4 +89,37 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Core> final class Attribute ] {
+
+  - Constants [8] {
+    Constant [ public int TARGET_CLASS ] { 1 }
+    Constant [ public int TARGET_FUNCTION ] { 2 }
+    Constant [ public int TARGET_METHOD ] { 4 }
+    Constant [ public int TARGET_PROPERTY ] { 8 }
+    Constant [ public int TARGET_CLASS_CONSTANT ] { 16 }
+    Constant [ public int TARGET_PARAMETER ] { 32 }
+    Constant [ public int TARGET_ALL ] { 63 }
+    Constant [ public int IS_REPEATABLE ] { 64 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ public int $flags ]
+  }
+
+  - Methods [1] {
+    Method [ <internal:Core, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $flags = Attribute::TARGET_ALL ]
+      }
+    }
+  }
+}
+',
 );

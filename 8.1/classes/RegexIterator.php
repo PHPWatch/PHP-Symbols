@@ -364,4 +364,141 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class RegexIterator extends FilterIterator implements OuterIterator, Traversable, Iterator ] {
+
+  - Constants [7] {
+    Constant [ public int USE_KEY ] { 1 }
+    Constant [ public int INVERT_MATCH ] { 2 }
+    Constant [ public int MATCH ] { 0 }
+    Constant [ public int GET_MATCH ] { 1 }
+    Constant [ public int ALL_MATCHES ] { 2 }
+    Constant [ public int SPLIT ] { 3 }
+    Constant [ public int REPLACE ] { 4 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ public ?string $replacement = NULL ]
+  }
+
+  - Methods [15] {
+    Method [ <internal:SPL, overwrites FilterIterator, ctor> public method __construct ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> Iterator $iterator ]
+        Parameter #1 [ <required> string $pattern ]
+        Parameter #2 [ <optional> int $mode = RegexIterator::MATCH ]
+        Parameter #3 [ <optional> int $flags = 0 ]
+        Parameter #4 [ <optional> int $pregFlags = 0 ]
+      }
+    }
+
+    Method [ <internal:SPL, overwrites FilterIterator, prototype FilterIterator> public method accept ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL> public method getMode ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL> public method setMode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $mode ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL> public method getFlags ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL> public method setFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $flags ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL> public method getRegex ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SPL> public method getPregFlags ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL> public method setPregFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $pregFlags ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits FilterIterator, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits FilterIterator, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits IteratorIterator, prototype OuterIterator> public method getInnerIterator ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?Iterator ]
+    }
+
+    Method [ <internal:SPL, inherits IteratorIterator, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, inherits IteratorIterator, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, inherits IteratorIterator, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+  }
+}
+',
 );

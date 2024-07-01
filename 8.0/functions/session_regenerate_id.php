@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,24 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'session',
+  'toString' => 'Function [ <internal:session> function session_regenerate_id ] {
+
+  - Parameters [1] {
+    Parameter #0 [ <optional> bool $delete_old_session = false ]
+  }
+  - Return [ bool ]
+}
+',
 );

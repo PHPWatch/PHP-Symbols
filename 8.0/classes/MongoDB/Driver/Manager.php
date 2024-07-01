@@ -567,4 +567,165 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\Manager ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [17] {
+    Method [ <internal:mongodb, ctor> final public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> ?string $uri = null ]
+        Parameter #1 [ <optional> ?array $uriOptions = null ]
+        Parameter #2 [ <optional> ?array $driverOptions = null ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method addSubscriber ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\Driver\\Monitoring\\Subscriber $subscriber ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb> final public method createClientEncryption ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $options ]
+      }
+      - Return [ MongoDB\\Driver\\ClientEncryption ]
+    }
+
+    Method [ <internal:mongodb> final public method executeBulkWrite ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $namespace ]
+        Parameter #1 [ <required> MongoDB\\Driver\\BulkWrite $bulk ]
+        Parameter #2 [ <optional> MongoDB\\Driver\\WriteConcern|array|null $options = null ]
+      }
+      - Return [ MongoDB\\Driver\\WriteResult ]
+    }
+
+    Method [ <internal:mongodb> final public method executeCommand ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $db ]
+        Parameter #1 [ <required> MongoDB\\Driver\\Command $command ]
+        Parameter #2 [ <optional> MongoDB\\Driver\\ReadPreference|array|null $options = null ]
+      }
+      - Return [ MongoDB\\Driver\\Cursor ]
+    }
+
+    Method [ <internal:mongodb> final public method executeQuery ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $namespace ]
+        Parameter #1 [ <required> MongoDB\\Driver\\Query $query ]
+        Parameter #2 [ <optional> MongoDB\\Driver\\ReadPreference|array|null $options = null ]
+      }
+      - Return [ MongoDB\\Driver\\Cursor ]
+    }
+
+    Method [ <internal:mongodb> final public method executeReadCommand ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $db ]
+        Parameter #1 [ <required> MongoDB\\Driver\\Command $command ]
+        Parameter #2 [ <optional> ?array $options = null ]
+      }
+      - Return [ MongoDB\\Driver\\Cursor ]
+    }
+
+    Method [ <internal:mongodb> final public method executeReadWriteCommand ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $db ]
+        Parameter #1 [ <required> MongoDB\\Driver\\Command $command ]
+        Parameter #2 [ <optional> ?array $options = null ]
+      }
+      - Return [ MongoDB\\Driver\\Cursor ]
+    }
+
+    Method [ <internal:mongodb> final public method executeWriteCommand ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $db ]
+        Parameter #1 [ <required> MongoDB\\Driver\\Command $command ]
+        Parameter #2 [ <optional> ?array $options = null ]
+      }
+      - Return [ MongoDB\\Driver\\Cursor ]
+    }
+
+    Method [ <internal:mongodb> final public method getEncryptedFieldsMap ] {
+
+      - Parameters [0] {
+      }
+      - Return [ object|array|null ]
+    }
+
+    Method [ <internal:mongodb> final public method getReadConcern ] {
+
+      - Parameters [0] {
+      }
+      - Return [ MongoDB\\Driver\\ReadConcern ]
+    }
+
+    Method [ <internal:mongodb> final public method getReadPreference ] {
+
+      - Parameters [0] {
+      }
+      - Return [ MongoDB\\Driver\\ReadPreference ]
+    }
+
+    Method [ <internal:mongodb> final public method getServers ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:mongodb> final public method getWriteConcern ] {
+
+      - Parameters [0] {
+      }
+      - Return [ MongoDB\\Driver\\WriteConcern ]
+    }
+
+    Method [ <internal:mongodb> final public method removeSubscriber ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\Driver\\Monitoring\\Subscriber $subscriber ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb> final public method selectServer ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?MongoDB\\Driver\\ReadPreference $readPreference = null ]
+      }
+      - Return [ MongoDB\\Driver\\Server ]
+    }
+
+    Method [ <internal:mongodb> final public method startSession ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?array $options = null ]
+      }
+      - Return [ MongoDB\\Driver\\Session ]
+    }
+  }
+}
+',
 );

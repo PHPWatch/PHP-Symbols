@@ -562,4 +562,158 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:date> class DateTime implements DateTimeInterface ] {
+
+  - Constants [13] {
+    Constant [ public string ATOM ] { Y-m-d\\TH:i:sP }
+    Constant [ public string COOKIE ] { l, d-M-Y H:i:s T }
+    Constant [ public string ISO8601 ] { Y-m-d\\TH:i:sO }
+    Constant [ public string RFC822 ] { D, d M y H:i:s O }
+    Constant [ public string RFC850 ] { l, d-M-y H:i:s T }
+    Constant [ public string RFC1036 ] { D, d M y H:i:s O }
+    Constant [ public string RFC1123 ] { D, d M Y H:i:s O }
+    Constant [ public string RFC7231 ] { D, d M Y H:i:s \\G\\M\\T }
+    Constant [ public string RFC2822 ] { D, d M Y H:i:s O }
+    Constant [ public string RFC3339 ] { Y-m-d\\TH:i:sP }
+    Constant [ public string RFC3339_EXTENDED ] { Y-m-d\\TH:i:s.vP }
+    Constant [ public string RSS ] { D, d M Y H:i:s O }
+    Constant [ public string W3C ] { Y-m-d\\TH:i:sP }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [3] {
+    Method [ <internal:date> static public method __set_state ] {
+    }
+
+    Method [ <internal:date> static public method createFromFormat ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $format ]
+        Parameter #1 [ <required> $time ]
+        Parameter #2 [ <optional> $object ]
+      }
+    }
+
+    Method [ <internal:date> static public method getLastErrors ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [15] {
+    Method [ <internal:date, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $time ]
+        Parameter #1 [ <optional> $timezone ]
+      }
+    }
+
+    Method [ <internal:date, prototype DateTimeInterface> public method __wakeup ] {
+    }
+
+    Method [ <internal:date, prototype DateTimeInterface> public method format ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $format ]
+      }
+    }
+
+    Method [ <internal:date> public method modify ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $modify ]
+      }
+    }
+
+    Method [ <internal:date> public method add ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $interval ]
+      }
+    }
+
+    Method [ <internal:date> public method sub ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $interval ]
+      }
+    }
+
+    Method [ <internal:date, prototype DateTimeInterface> public method getTimezone ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:date> public method setTimezone ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timezone ]
+      }
+    }
+
+    Method [ <internal:date, prototype DateTimeInterface> public method getOffset ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:date> public method setTime ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $hour ]
+        Parameter #1 [ <required> $minute ]
+        Parameter #2 [ <optional> $second ]
+        Parameter #3 [ <optional> $microseconds ]
+      }
+    }
+
+    Method [ <internal:date> public method setDate ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $year ]
+        Parameter #1 [ <required> $month ]
+        Parameter #2 [ <required> $day ]
+      }
+    }
+
+    Method [ <internal:date> public method setISODate ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $year ]
+        Parameter #1 [ <required> $week ]
+        Parameter #2 [ <optional> $day ]
+      }
+    }
+
+    Method [ <internal:date> public method setTimestamp ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $unixtimestamp ]
+      }
+    }
+
+    Method [ <internal:date, prototype DateTimeInterface> public method getTimestamp ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:date, prototype DateTimeInterface> public method diff ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $object ]
+        Parameter #1 [ <optional> $absolute ]
+      }
+    }
+  }
+}
+',
 );

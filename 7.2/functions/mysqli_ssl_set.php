@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'mysqli',
+  'toString' => 'Function [ <internal:mysqli> function mysqli_ssl_set ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $link ]
+    Parameter #1 [ <required> $key ]
+    Parameter #2 [ <required> $cert ]
+    Parameter #3 [ <required> $certificate_authority ]
+    Parameter #4 [ <required> $certificate_authority_path ]
+    Parameter #5 [ <required> $cipher ]
+  }
+}
+',
 );

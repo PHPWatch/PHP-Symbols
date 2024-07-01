@@ -292,4 +292,120 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\ReadPreference implements MongoDB\\BSON\\Serializable, MongoDB\\BSON\\Type, Serializable ] {
+
+  - Constants [12] {
+    Constant [ public integer RP_PRIMARY ] { 1 }
+    Constant [ public integer RP_PRIMARY_PREFERRED ] { 5 }
+    Constant [ public integer RP_SECONDARY ] { 2 }
+    Constant [ public integer RP_SECONDARY_PREFERRED ] { 6 }
+    Constant [ public integer RP_NEAREST ] { 10 }
+    Constant [ public string PRIMARY ] { primary }
+    Constant [ public string PRIMARY_PREFERRED ] { primaryPreferred }
+    Constant [ public string SECONDARY ] { secondary }
+    Constant [ public string SECONDARY_PREFERRED ] { secondaryPreferred }
+    Constant [ public string NEAREST ] { nearest }
+    Constant [ public integer NO_MAX_STALENESS ] { -1 }
+    Constant [ public integer SMALLEST_MAX_STALENESS_SECONDS ] { 90 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:mongodb> final static public method __set_state ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $properties ]
+      }
+      - Return [ MongoDB\\Driver\\ReadPreference ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [11] {
+    Method [ <internal:mongodb, ctor> final public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $mode ]
+        Parameter #1 [ <optional> array or NULL $tagSets ]
+        Parameter #2 [ <optional> array or NULL $options ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getHedge ] {
+
+      - Parameters [0] {
+      }
+      - Return [ object or NULL ]
+    }
+
+    Method [ <internal:mongodb> final public method getMaxStalenessSeconds ] {
+
+      - Parameters [0] {
+      }
+      - Return [ integer ]
+    }
+
+    Method [ <internal:mongodb> final public method getMode ] {
+
+      - Parameters [0] {
+      }
+      - Return [ integer ]
+    }
+
+    Method [ <internal:mongodb> final public method getModeString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb> final public method getTagSets ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:mongodb, prototype MongoDB\\BSON\\Serializable> final public method bsonSerialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method serialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $serialized ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb> final public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb> final public method __serialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+  }
+}
+',
 );

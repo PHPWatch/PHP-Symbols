@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'pcre',
+  'toString' => 'Function [ <internal:pcre> function preg_grep ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> string $pattern ]
+    Parameter #1 [ <required> array $array ]
+    Parameter #2 [ <optional> int $flags = 0 ]
+  }
+  - Return [ array|false ]
+}
+',
 );

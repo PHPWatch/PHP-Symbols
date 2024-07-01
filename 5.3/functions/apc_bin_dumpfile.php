@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'apc',
+  'toString' => 'Function [ <internal:apc> function apc_bin_dumpfile ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $files ]
+    Parameter #1 [ <required> $user_vars ]
+    Parameter #2 [ <required> $filename ]
+    Parameter #3 [ <optional> $flags ]
+    Parameter #4 [ <optional> $context ]
+  }
+}
+',
 );

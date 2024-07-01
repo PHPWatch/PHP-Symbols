@@ -163,4 +163,65 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Reflection> class ReflectionGenerator ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [7] {
+    Method [ <internal:Reflection, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $generator ]
+      }
+    }
+
+    Method [ <internal:Reflection> public method getExecutingLine ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getExecutingFile ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getTrace ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $options ]
+      }
+    }
+
+    Method [ <internal:Reflection> public method getFunction ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getThis ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getExecutingGenerator ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

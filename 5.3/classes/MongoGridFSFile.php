@@ -151,4 +151,41 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> class MongoGridFSFile ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [2] {
+    Property [ <default> public $file ]
+    Property [ <default> protected $gridfs ]
+  }
+
+  - Methods [6] {
+    Method [ <internal:mongo, ctor> public method __construct ] {
+    }
+
+    Method [ <internal:mongo> public method getFilename ] {
+    }
+
+    Method [ <internal:mongo> public method getSize ] {
+    }
+
+    Method [ <internal:mongo> public method write ] {
+    }
+
+    Method [ <internal:mongo> public method getBytes ] {
+    }
+
+    Method [ <internal:mongo> public method getResource ] {
+    }
+  }
+}
+',
 );

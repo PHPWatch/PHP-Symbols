@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'interbase',
+  'toString' => 'Function [ <internal:interbase> function fbird_gen_id ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $generator ]
+    Parameter #1 [ <optional> $increment ]
+    Parameter #2 [ <optional> $link_identifier ]
+  }
+}
+',
 );

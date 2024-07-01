@@ -585,4 +585,163 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mysqli> class mysqli_stmt ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [10] {
+    Property [ public $affected_rows = NULL ]
+    Property [ public $insert_id = NULL ]
+    Property [ public $num_rows = NULL ]
+    Property [ public $param_count = NULL ]
+    Property [ public $field_count = NULL ]
+    Property [ public $errno = NULL ]
+    Property [ public $error = NULL ]
+    Property [ public $error_list = NULL ]
+    Property [ public $sqlstate = NULL ]
+    Property [ public $id = NULL ]
+  }
+
+  - Methods [20] {
+    Method [ <internal:mysqli, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> mysqli $mysql ]
+        Parameter #1 [ <optional> ?string $query = null ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method attr_get ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $attribute ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method attr_set ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $attribute ]
+        Parameter #1 [ <required> int $value ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method bind_param ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $types ]
+        Parameter #1 [ <optional> mixed &...$vars ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method bind_result ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> mixed &...$vars ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method close ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method data_seek ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $offset ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method execute ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method get_warnings ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method result_metadata ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method more_results ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method next_result ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method num_rows ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method send_long_data ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $param_num ]
+        Parameter #1 [ <required> string $data ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method free_result ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method reset ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method prepare ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $query ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method store_result ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method get_result ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

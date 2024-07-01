@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'sodium',
+  'toString' => 'Function [ <internal:sodium> function sodium_crypto_secretstream_xchacha20poly1305_push ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> &$state ]
+    Parameter #1 [ <required> $string1 ]
+    Parameter #2 [ <optional> $string2 ]
+    Parameter #3 [ <optional> $long ]
+  }
+}
+',
 );

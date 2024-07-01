@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,23 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'ldap',
+  'toString' => 'Function [ <internal:ldap> function ldap_sasl_bind ] {
+
+  - Parameters [7] {
+    Parameter #0 [ <required> $link ]
+    Parameter #1 [ <optional> $binddn ]
+    Parameter #2 [ <optional> $password ]
+    Parameter #3 [ <optional> $sasl_mech ]
+    Parameter #4 [ <optional> $sasl_realm ]
+    Parameter #5 [ <optional> $sasl_authz_id ]
+    Parameter #6 [ <optional> $props ]
+  }
+}
+',
 );

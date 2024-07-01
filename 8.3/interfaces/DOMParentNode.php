@@ -110,4 +110,45 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:dom> interface DOMParentNode ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:dom> abstract public method append ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom> abstract public method prepend ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom> abstract public method replaceChildren ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$nodes ]
+      }
+      - Return [ void ]
+    }
+  }
+}
+',
 );

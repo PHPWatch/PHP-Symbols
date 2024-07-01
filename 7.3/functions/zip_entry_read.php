@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,18 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'zip',
+  'toString' => 'Function [ <internal:zip> function zip_entry_read ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $zip_entry ]
+    Parameter #1 [ <optional> $len ]
+  }
+}
+',
 );

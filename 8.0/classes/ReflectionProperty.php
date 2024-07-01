@@ -482,4 +482,173 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Reflection> class ReflectionProperty implements Stringable, Reflector ] {
+
+  - Constants [4] {
+    Constant [ public int IS_STATIC ] { 16 }
+    Constant [ public int IS_PUBLIC ] { 1 }
+    Constant [ public int IS_PROTECTED ] { 2 }
+    Constant [ public int IS_PRIVATE ] { 4 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [2] {
+    Property [ public $name = \'\' ]
+    Property [ public $class = \'\' ]
+  }
+
+  - Methods [22] {
+    Method [ <internal:Reflection> final private method __clone ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:Reflection, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> object|string $class ]
+        Parameter #1 [ <required> string $property ]
+      }
+    }
+
+    Method [ <internal:Reflection, prototype Stringable> public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Reflection> public method getName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getValue ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?object $object = null ]
+      }
+    }
+
+    Method [ <internal:Reflection> public method setValue ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> mixed $objectOrValue ]
+        Parameter #1 [ <optional> mixed $value = <default> ]
+      }
+    }
+
+    Method [ <internal:Reflection> public method isInitialized ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?object $object = null ]
+      }
+    }
+
+    Method [ <internal:Reflection> public method isPublic ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isPrivate ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isProtected ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isStatic ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isDefault ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isPromoted ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Reflection> public method getModifiers ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getDeclaringClass ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getDocComment ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method setAccessible ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> bool $accessible ]
+      }
+    }
+
+    Method [ <internal:Reflection> public method getType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method hasType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method hasDefaultValue ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Reflection> public method getDefaultValue ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getAttributes ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> ?string $name = null ]
+        Parameter #1 [ <optional> int $flags = 0 ]
+      }
+      - Return [ array ]
+    }
+  }
+}
+',
 );

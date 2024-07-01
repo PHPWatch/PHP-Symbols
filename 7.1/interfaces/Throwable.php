@@ -147,4 +147,45 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:Core> interface Throwable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [8] {
+    Method [ <internal:Core> abstract public method getMessage ] {
+    }
+
+    Method [ <internal:Core> abstract public method getCode ] {
+    }
+
+    Method [ <internal:Core> abstract public method getFile ] {
+    }
+
+    Method [ <internal:Core> abstract public method getLine ] {
+    }
+
+    Method [ <internal:Core> abstract public method getTrace ] {
+    }
+
+    Method [ <internal:Core> abstract public method getPrevious ] {
+    }
+
+    Method [ <internal:Core> abstract public method getTraceAsString ] {
+    }
+
+    Method [ <internal:Core> abstract public method __toString ] {
+    }
+  }
+}
+',
 );

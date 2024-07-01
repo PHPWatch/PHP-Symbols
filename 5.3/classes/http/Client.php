@@ -802,4 +802,245 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:http> class http\\Client implements SplSubject, Countable ] {
+
+  - Constants [6] {
+    Constant [ integer DEBUG_INFO ] { 0 }
+    Constant [ integer DEBUG_IN ] { 1 }
+    Constant [ integer DEBUG_OUT ] { 2 }
+    Constant [ integer DEBUG_HEADER ] { 16 }
+    Constant [ integer DEBUG_BODY ] { 32 }
+    Constant [ integer DEBUG_SSL ] { 64 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:http> static public method getAvailableDrivers ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+
+  - Properties [4] {
+    Property [ <default> private $observers ]
+    Property [ <default> protected $options ]
+    Property [ <default> protected $history ]
+    Property [ <default> public $recordHistory ]
+  }
+
+  - Methods [31] {
+    Method [ <internal:http, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $driver ]
+        Parameter #1 [ <optional> $persistent_handle_id ]
+      }
+    }
+
+    Method [ <internal:http> public method reset ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method enqueue ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> http\\Client\\Request $request ]
+        Parameter #1 [ <optional> $callable ]
+      }
+    }
+
+    Method [ <internal:http> public method dequeue ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> http\\Client\\Request $request ]
+      }
+    }
+
+    Method [ <internal:http> public method requeue ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> http\\Client\\Request $request ]
+        Parameter #1 [ <optional> $callable ]
+      }
+    }
+
+    Method [ <internal:http, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method send ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method once ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method wait ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $timeout ]
+      }
+    }
+
+    Method [ <internal:http> public method getResponse ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> http\\Client\\Request or NULL $request ]
+      }
+    }
+
+    Method [ <internal:http> public method getHistory ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method configure ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array or NULL $settings ]
+      }
+    }
+
+    Method [ <internal, deprecated:http> public method enablePipelining ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $enable ]
+      }
+    }
+
+    Method [ <internal, deprecated:http> public method enableEvents ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $enable ]
+      }
+    }
+
+    Method [ <internal:http, prototype SplSubject> public method notify ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> http\\Client\\Request or NULL $request ]
+      }
+    }
+
+    Method [ <internal:http, prototype SplSubject> public method attach ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> SplObserver $observer ]
+      }
+    }
+
+    Method [ <internal:http, prototype SplSubject> public method detach ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> SplObserver $observer ]
+      }
+    }
+
+    Method [ <internal:http> public method getObservers ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method getProgressInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> http\\Client\\Request $request ]
+      }
+    }
+
+    Method [ <internal:http> public method getTransferInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> http\\Client\\Request $request ]
+      }
+    }
+
+    Method [ <internal:http> public method setOptions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array or NULL $options ]
+      }
+    }
+
+    Method [ <internal:http> public method getOptions ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method setSslOptions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array or NULL $ssl_option ]
+      }
+    }
+
+    Method [ <internal:http> public method addSslOptions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array or NULL $ssl_options ]
+      }
+    }
+
+    Method [ <internal:http> public method getSslOptions ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method setCookies ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array or NULL $cookies ]
+      }
+    }
+
+    Method [ <internal:http> public method addCookies ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array or NULL $cookies ]
+      }
+    }
+
+    Method [ <internal:http> public method getCookies ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method getAvailableOptions ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method getAvailableConfiguration ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method setDebug ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $callback ]
+      }
+    }
+  }
+}
+',
 );

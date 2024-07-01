@@ -275,4 +275,122 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> abstract class SplHeap implements Iterator, Traversable, Countable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [14] {
+    Method [ <internal:SPL> public method extract ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL> public method insert ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $value ]
+      }
+      - Tentative return [ true ]
+    }
+
+    Method [ <internal:SPL> public method top ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL> public method isEmpty ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL> public method recoverFromCorruption ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ true ]
+    }
+
+    Method [ <internal:SPL> abstract protected method compare ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> mixed $value1 ]
+        Parameter #1 [ <required> mixed $value2 ]
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL> public method isCorrupted ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL> public method __debugInfo ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+  }
+}
+',
 );

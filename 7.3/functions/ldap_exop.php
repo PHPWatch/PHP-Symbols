@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'ldap',
+  'toString' => 'Function [ <internal:ldap> function ldap_exop ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $link ]
+    Parameter #1 [ <required> $reqoid ]
+    Parameter #2 [ <optional> $reqdata ]
+    Parameter #3 [ <optional> $servercontrols ]
+    Parameter #4 [ <optional> &$retdata ]
+    Parameter #5 [ <optional> &$retoid ]
+  }
+}
+',
 );

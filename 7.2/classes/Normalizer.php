@@ -124,4 +124,46 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> class Normalizer ] {
+
+  - Constants [9] {
+    Constant [ public integer NONE ] { 1 }
+    Constant [ public integer FORM_D ] { 2 }
+    Constant [ public integer NFD ] { 2 }
+    Constant [ public integer FORM_KD ] { 3 }
+    Constant [ public integer NFKD ] { 3 }
+    Constant [ public integer FORM_C ] { 4 }
+    Constant [ public integer NFC ] { 4 }
+    Constant [ public integer FORM_KC ] { 5 }
+    Constant [ public integer NFKC ] { 5 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:intl> static public method normalize ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $input ]
+        Parameter #1 [ <optional> $form ]
+      }
+    }
+
+    Method [ <internal:intl> static public method isNormalized ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $input ]
+        Parameter #1 [ <optional> $form ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

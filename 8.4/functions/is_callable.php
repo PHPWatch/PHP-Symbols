@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function is_callable ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> mixed $value ]
+    Parameter #1 [ <optional> bool $syntax_only = false ]
+    Parameter #2 [ <optional> &$callable_name = null ]
+  }
+  - Return [ bool ]
+}
+',
 );

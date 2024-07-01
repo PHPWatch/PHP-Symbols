@@ -215,4 +215,65 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:zmq> class ZMQContext ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [6] {
+    Method [ <internal:zmq, ctor> final public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $io_threads ]
+        Parameter #1 [ <optional> $persistent ]
+      }
+    }
+
+    Method [ <internal:zmq> public method getsocket ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $type ]
+        Parameter #1 [ <required> $dsn ]
+        Parameter #2 [ <optional> $on_new_socket ]
+      }
+    }
+
+    Method [ <internal:zmq> public method ispersistent ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:zmq> final private method __clone ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:zmq> public method setOpt ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $option ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:zmq> public method getOpt ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $option ]
+      }
+    }
+  }
+}
+',
 );

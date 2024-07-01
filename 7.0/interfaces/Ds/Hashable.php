@@ -74,4 +74,35 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:ds> interface Ds\\Hashable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [2] {
+    Method [ <internal:ds> abstract public method hash ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds> abstract public method equals ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $obj ]
+      }
+      - Return [ boolean ]
+    }
+  }
+}
+',
 );

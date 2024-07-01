@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'sodium',
+  'toString' => 'Function [ <internal:sodium> function sodium_crypto_aead_chacha20poly1305_decrypt ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $string ]
+    Parameter #1 [ <required> $ad ]
+    Parameter #2 [ <required> $nonce ]
+    Parameter #3 [ <required> $key ]
+  }
+}
+',
 );

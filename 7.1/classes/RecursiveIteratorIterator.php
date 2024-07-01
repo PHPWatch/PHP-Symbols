@@ -357,4 +357,138 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class RecursiveIteratorIterator implements Iterator, Traversable, OuterIterator ] {
+
+  - Constants [4] {
+    Constant [ public integer LEAVES_ONLY ] { 0 }
+    Constant [ public integer SELF_FIRST ] { 1 }
+    Constant [ public integer CHILD_FIRST ] { 2 }
+    Constant [ public integer CATCH_GET_CHILD ] { 16 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [18] {
+    Method [ <internal:SPL, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> Traversable $iterator ]
+        Parameter #1 [ <optional> $mode ]
+        Parameter #2 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getDepth ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getSubIterator ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $level ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype OuterIterator> public method getInnerIterator ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method beginIteration ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method endIteration ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method callHasChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method callGetChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method beginChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method endChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method nextElement ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method setMaxDepth ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $max_depth ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getMaxDepth ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

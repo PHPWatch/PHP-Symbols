@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'enchant',
+  'toString' => 'Function [ <internal, deprecated:enchant> function enchant_dict_is_in_session ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> EnchantDictionary $dictionary ]
+    Parameter #1 [ <required> string $word ]
+  }
+  - Return [ bool ]
+}
+',
 );

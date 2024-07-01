@@ -387,4 +387,120 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:xsl> class XSLTProcessor ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [12] {
+    Method [ <internal:xsl> public method importStylesheet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> object $stylesheet ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:xsl> public method transformToDoc ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> object $document ]
+        Parameter #1 [ <optional> ?string $returnClass = null ]
+      }
+      - Tentative return [ object|false ]
+    }
+
+    Method [ <internal:xsl> public method transformToUri ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> object $document ]
+        Parameter #1 [ <required> string $uri ]
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:xsl> public method transformToXml ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> object $document ]
+      }
+      - Tentative return [ string|false|null ]
+    }
+
+    Method [ <internal:xsl> public method setParameter ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $namespace ]
+        Parameter #1 [ <required> array|string $name ]
+        Parameter #2 [ <optional> ?string $value = null ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:xsl> public method getParameter ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $namespace ]
+        Parameter #1 [ <required> string $name ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:xsl> public method removeParameter ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $namespace ]
+        Parameter #1 [ <required> string $name ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:xsl> public method hasExsltSupport ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:xsl> public method registerPHPFunctions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array|string|null $functions = null ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:xsl> public method setProfiling ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $filename ]
+      }
+    }
+
+    Method [ <internal:xsl> public method setSecurityPrefs ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $preferences ]
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:xsl> public method getSecurityPrefs ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+  }
+}
+',
 );

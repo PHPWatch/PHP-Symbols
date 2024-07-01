@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'mcrypt',
+  'toString' => 'Function [ <internal:mcrypt> function mcrypt_generic_init ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $td ]
+    Parameter #1 [ <required> $key ]
+    Parameter #2 [ <required> $iv ]
+  }
+}
+',
 );

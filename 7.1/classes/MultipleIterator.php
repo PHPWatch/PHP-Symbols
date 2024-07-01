@@ -283,4 +283,103 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class MultipleIterator implements Iterator, Traversable ] {
+
+  - Constants [4] {
+    Constant [ public integer MIT_NEED_ANY ] { 0 }
+    Constant [ public integer MIT_NEED_ALL ] { 1 }
+    Constant [ public integer MIT_KEYS_NUMERIC ] { 0 }
+    Constant [ public integer MIT_KEYS_ASSOC ] { 2 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [12] {
+    Method [ <internal:SPL, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $flags ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getFlags ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method setFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $flags ]
+      }
+    }
+
+    Method [ <internal:SPL> public method attachIterator ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> Iterator $iterator ]
+        Parameter #1 [ <optional> $infos ]
+      }
+    }
+
+    Method [ <internal:SPL> public method detachIterator ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Iterator $iterator ]
+      }
+    }
+
+    Method [ <internal:SPL> public method containsIterator ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Iterator $iterator ]
+      }
+    }
+
+    Method [ <internal:SPL> public method countIterators ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

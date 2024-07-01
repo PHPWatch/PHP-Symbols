@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'ftp',
+  'toString' => 'Function [ <internal:ftp> function ftp_connect ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> string $hostname ]
+    Parameter #1 [ <optional> int $port = 21 ]
+    Parameter #2 [ <optional> int $timeout = 90 ]
+  }
+}
+',
 );

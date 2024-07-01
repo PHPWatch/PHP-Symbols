@@ -346,4 +346,111 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mysqli> class mysqli_result ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [5] {
+    Property [ <default> public $current_field ]
+    Property [ <default> public $field_count ]
+    Property [ <default> public $lengths ]
+    Property [ <default> public $num_rows ]
+    Property [ <default> public $type ]
+  }
+
+  - Methods [14] {
+    Method [ <internal:mysqli, ctor> public method __construct ] {
+    }
+
+    Method [ <internal:mysqli> public method close ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method free ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method data_seek ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $offset ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch_field ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch_fields ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch_field_direct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $field_nr ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch_all ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch_array ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $result_type ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch_assoc ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch_object ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch_row ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method field_seek ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $field_nr ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method free_result ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

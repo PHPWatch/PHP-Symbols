@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,24 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => true,
   ),
   'extension' => 'mysqli',
+  'toString' => 'Function [ <internal:mysqli> function mysqli_fetch_assoc ] {
+
+  - Parameters [1] {
+    Parameter #0 [ <required> mysqli_result $result ]
+  }
+  - Return [ array|false|null ]
+}
+',
 );

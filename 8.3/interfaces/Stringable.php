@@ -49,4 +49,28 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:Core> interface Stringable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:Core> abstract public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+  }
+}
+',
 );

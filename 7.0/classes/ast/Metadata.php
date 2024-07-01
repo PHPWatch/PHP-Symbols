@@ -95,4 +95,26 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:ast> class ast\\Metadata ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [4] {
+    Property [ <default> public $kind ]
+    Property [ <default> public $name ]
+    Property [ <default> public $flags ]
+    Property [ <default> public $flagsCombinable ]
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

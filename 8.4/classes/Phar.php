@@ -2254,4 +2254,799 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Phar> <iterateable> class Phar extends RecursiveDirectoryIterator implements RecursiveIterator, Iterator, Traversable, SeekableIterator, Stringable, Countable, ArrayAccess ] {
+
+  - Constants [28] {
+    Constant [ public int CURRENT_MODE_MASK ] { 240 }
+    Constant [ public int CURRENT_AS_PATHNAME ] { 32 }
+    Constant [ public int CURRENT_AS_FILEINFO ] { 0 }
+    Constant [ public int CURRENT_AS_SELF ] { 16 }
+    Constant [ public int KEY_MODE_MASK ] { 3840 }
+    Constant [ public int KEY_AS_PATHNAME ] { 0 }
+    Constant [ public int FOLLOW_SYMLINKS ] { 16384 }
+    Constant [ public int KEY_AS_FILENAME ] { 256 }
+    Constant [ public int NEW_CURRENT_AND_KEY ] { 256 }
+    Constant [ public int OTHER_MODE_MASK ] { 28672 }
+    Constant [ public int SKIP_DOTS ] { 4096 }
+    Constant [ public int UNIX_PATHS ] { 8192 }
+    Constant [ public int BZ2 ] { 8192 }
+    Constant [ public int GZ ] { 4096 }
+    Constant [ public int NONE ] { 0 }
+    Constant [ public int PHAR ] { 1 }
+    Constant [ public int TAR ] { 2 }
+    Constant [ public int ZIP ] { 3 }
+    Constant [ public int COMPRESSED ] { 61440 }
+    Constant [ public int PHP ] { 0 }
+    Constant [ public int PHPS ] { 1 }
+    Constant [ public int MD5 ] { 1 }
+    Constant [ public int OPENSSL ] { 16 }
+    Constant [ public int OPENSSL_SHA256 ] { 17 }
+    Constant [ public int OPENSSL_SHA512 ] { 18 }
+    Constant [ public int SHA1 ] { 2 }
+    Constant [ public int SHA256 ] { 3 }
+    Constant [ public int SHA512 ] { 4 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [15] {
+    Method [ <internal:Phar> final static public method apiVersion ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Phar> final static public method canCompress ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $compression = 0 ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Phar> final static public method canWrite ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Phar> final static public method createDefaultStub ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> ?string $index = null ]
+        Parameter #1 [ <optional> ?string $webIndex = null ]
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Phar> final static public method getSupportedCompression ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:Phar> final static public method getSupportedSignatures ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:Phar> final static public method interceptFileFuncs ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:Phar> final static public method isValidPharFilename ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $filename ]
+        Parameter #1 [ <optional> bool $executable = true ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Phar> final static public method loadPhar ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $filename ]
+        Parameter #1 [ <optional> ?string $alias = null ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Phar> final static public method mapPhar ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> ?string $alias = null ]
+        Parameter #1 [ <optional> int $offset = 0 ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Phar> final static public method running ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> bool $returnPhar = true ]
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Phar> final static public method mount ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $pharPath ]
+        Parameter #1 [ <required> string $externalPath ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:Phar> final static public method mungServer ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $variables ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:Phar> final static public method unlinkArchive ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $filename ]
+      }
+      - Return [ true ]
+    }
+
+    Method [ <internal:Phar> final static public method webPhar ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <optional> ?string $alias = null ]
+        Parameter #1 [ <optional> ?string $index = null ]
+        Parameter #2 [ <optional> ?string $fileNotFoundScript = null ]
+        Parameter #3 [ <optional> array $mimeTypes = [] ]
+        Parameter #4 [ <optional> ?callable $rewrite = null ]
+      }
+      - Return [ void ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [82] {
+    Method [ <internal:Phar, overwrites RecursiveDirectoryIterator, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $filename ]
+        Parameter #1 [ <optional> int $flags = FilesystemIterator::SKIP_DOTS | FilesystemIterator::UNIX_PATHS ]
+        Parameter #2 [ <optional> ?string $alias = null ]
+      }
+    }
+
+    Method [ <internal:Phar> public method __destruct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Phar> public method addEmptyDir ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $directory ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:Phar> public method addFile ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $filename ]
+        Parameter #1 [ <optional> ?string $localName = null ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:Phar> public method addFromString ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $localName ]
+        Parameter #1 [ <required> string $contents ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:Phar> public method buildFromDirectory ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $directory ]
+        Parameter #1 [ <optional> string $pattern = "" ]
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:Phar> public method buildFromIterator ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> Traversable $iterator ]
+        Parameter #1 [ <optional> ?string $baseDirectory = null ]
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:Phar> public method compressFiles ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $compression ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:Phar> public method decompressFiles ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ true ]
+    }
+
+    Method [ <internal:Phar> public method compress ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $compression ]
+        Parameter #1 [ <optional> ?string $extension = null ]
+      }
+      - Tentative return [ ?Phar ]
+    }
+
+    Method [ <internal:Phar> public method decompress ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $extension = null ]
+      }
+      - Tentative return [ ?Phar ]
+    }
+
+    Method [ <internal:Phar> public method convertToExecutable ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> ?int $format = null ]
+        Parameter #1 [ <optional> ?int $compression = null ]
+        Parameter #2 [ <optional> ?string $extension = null ]
+      }
+      - Tentative return [ ?Phar ]
+    }
+
+    Method [ <internal:Phar> public method convertToData ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> ?int $format = null ]
+        Parameter #1 [ <optional> ?int $compression = null ]
+        Parameter #2 [ <optional> ?string $extension = null ]
+      }
+      - Tentative return [ ?PharData ]
+    }
+
+    Method [ <internal:Phar> public method copy ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $from ]
+        Parameter #1 [ <required> string $to ]
+      }
+      - Tentative return [ true ]
+    }
+
+    Method [ <internal:Phar, prototype Countable> public method count ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $mode = COUNT_NORMAL ]
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:Phar> public method delete ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $localName ]
+      }
+      - Tentative return [ true ]
+    }
+
+    Method [ <internal:Phar> public method delMetadata ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ true ]
+    }
+
+    Method [ <internal:Phar> public method extractTo ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $directory ]
+        Parameter #1 [ <optional> array|string|null $files = null ]
+        Parameter #2 [ <optional> bool $overwrite = false ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:Phar> public method getAlias ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:Phar, overwrites SplFileInfo, prototype SplFileInfo> public method getPath ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:Phar> public method getMetadata ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array $unserializeOptions = [] ]
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:Phar> public method getModified ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:Phar> public method getSignature ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array|false ]
+    }
+
+    Method [ <internal:Phar> public method getStub ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:Phar> public method getVersion ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:Phar> public method hasMetadata ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:Phar> public method isBuffering ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:Phar> public method isCompressed ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:Phar> public method isFileFormat ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $format ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:Phar, overwrites SplFileInfo, prototype SplFileInfo> public method isWritable ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:Phar, prototype ArrayAccess> public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $localName ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:Phar, prototype ArrayAccess> public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $localName ]
+      }
+      - Tentative return [ SplFileInfo ]
+    }
+
+    Method [ <internal:Phar, prototype ArrayAccess> public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $localName ]
+        Parameter #1 [ <required> $value ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:Phar, prototype ArrayAccess> public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $localName ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:Phar> public method setAlias ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $alias ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:Phar> public method setDefaultStub ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> ?string $index = null ]
+        Parameter #1 [ <optional> ?string $webIndex = null ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:Phar> public method setMetadata ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $metadata ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:Phar> public method setSignatureAlgorithm ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $algo ]
+        Parameter #1 [ <optional> ?string $privateKey = null ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:Phar> public method setStub ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $stub ]
+        Parameter #1 [ <optional> int $length = <default> ]
+      }
+      - Tentative return [ true ]
+    }
+
+    Method [ <internal:Phar> public method startBuffering ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:Phar> public method stopBuffering ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits RecursiveDirectoryIterator, prototype RecursiveIterator> public method hasChildren ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> bool $allowLinks = false ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, inherits RecursiveDirectoryIterator, prototype RecursiveIterator> public method getChildren ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ RecursiveDirectoryIterator ]
+    }
+
+    Method [ <internal:SPL, inherits RecursiveDirectoryIterator> public method getSubPath ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SPL, inherits RecursiveDirectoryIterator> public method getSubPathname ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SPL, inherits FilesystemIterator, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits FilesystemIterator, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SPL, inherits FilesystemIterator, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ SplFileInfo|FilesystemIterator|string ]
+    }
+
+    Method [ <internal:SPL, inherits FilesystemIterator> public method getFlags ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL, inherits FilesystemIterator> public method setFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $flags ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits DirectoryIterator, prototype SplFileInfo> public method getFilename ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SPL, inherits DirectoryIterator, prototype SplFileInfo> public method getExtension ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SPL, inherits DirectoryIterator, prototype SplFileInfo> public method getBasename ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string $suffix = "" ]
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SPL, inherits DirectoryIterator> public method isDot ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, inherits DirectoryIterator, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, inherits DirectoryIterator, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits DirectoryIterator, prototype SeekableIterator> public method seek ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $offset ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits DirectoryIterator, prototype Stringable> public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getPathname ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getPerms ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getInode ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getSize ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getOwner ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getGroup ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getATime ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getMTime ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getCTime ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getType ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isReadable ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isExecutable ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isFile ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isDir ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isLink ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getLinkTarget ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getRealPath ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getFileInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $class = null ]
+      }
+      - Tentative return [ SplFileInfo ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getPathInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $class = null ]
+      }
+      - Tentative return [ ?SplFileInfo ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method openFile ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> string $mode = "r" ]
+        Parameter #1 [ <optional> bool $useIncludePath = false ]
+        Parameter #2 [ <optional> $context = null ]
+      }
+      - Tentative return [ SplFileObject ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method setFileClass ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string $class = SplFileObject::class ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method setInfoClass ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string $class = SplFileInfo::class ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method __debugInfo ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal, deprecated:SPL, inherits SplFileInfo> final public method _bad_state_ex ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+  }
+}
+',
 );

@@ -1071,4 +1071,362 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:amqp> class AMQPConnection ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [18] {
+    Property [ private string $login ]
+    Property [ private string $password ]
+    Property [ private string $host ]
+    Property [ private string $vhost ]
+    Property [ private int $port ]
+    Property [ private float $readTimeout ]
+    Property [ private float $writeTimeout ]
+    Property [ private float $connectTimeout ]
+    Property [ private float $rpcTimeout ]
+    Property [ private int $frameMax ]
+    Property [ private int $channelMax ]
+    Property [ private int $heartbeat ]
+    Property [ private ?string $cacert = NULL ]
+    Property [ private ?string $key = NULL ]
+    Property [ private ?string $cert = NULL ]
+    Property [ private bool $verify = true ]
+    Property [ private int $saslMethod = 0 ]
+    Property [ private ?string $connectionName = NULL ]
+  }
+
+  - Methods [44] {
+    Method [ <internal:amqp, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array $credentials = [] ]
+      }
+    }
+
+    Method [ <internal:amqp> public method isConnected ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:amqp> public method connect ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method pconnect ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method pdisconnect ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method disconnect ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method reconnect ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method preconnect ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getLogin ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:amqp> public method setLogin ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $login ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getPassword ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:amqp> public method setPassword ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $password ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getHost ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:amqp> public method setHost ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $host ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getPort ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method setPort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $port ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getVhost ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:amqp> public method setVhost ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $vhost ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getTimeout ] {
+
+      - Parameters [0] {
+      }
+      - Return [ float ]
+    }
+
+    Method [ <internal:amqp> public method setTimeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> float $timeout ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getReadTimeout ] {
+
+      - Parameters [0] {
+      }
+      - Return [ float ]
+    }
+
+    Method [ <internal:amqp> public method setReadTimeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> float $timeout ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getWriteTimeout ] {
+
+      - Parameters [0] {
+      }
+      - Return [ float ]
+    }
+
+    Method [ <internal:amqp> public method setWriteTimeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> float $timeout ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getConnectTimeout ] {
+
+      - Parameters [0] {
+      }
+      - Return [ float ]
+    }
+
+    Method [ <internal:amqp> public method getRpcTimeout ] {
+
+      - Parameters [0] {
+      }
+      - Return [ float ]
+    }
+
+    Method [ <internal:amqp> public method setRpcTimeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> float $timeout ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getUsedChannels ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method getMaxChannels ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method isPersistent ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:amqp> public method getHeartbeatInterval ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method getMaxFrameSize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method getCACert ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:amqp> public method setCACert ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $cacert ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getCert ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:amqp> public method setCert ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $cert ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getKey ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:amqp> public method setKey ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $key ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getVerify ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:amqp> public method setVerify ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> bool $verify ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getSaslMethod ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method setSaslMethod ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $saslMethod ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getConnectionName ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:amqp> public method setConnectionName ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $connectionName ]
+      }
+      - Return [ void ]
+    }
+  }
+}
+',
 );

@@ -235,4 +235,76 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:mongo> interface MongoCursorInterface extends Iterator, Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [11] {
+    Method [ <internal:mongo> abstract public method batchSize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $number ]
+      }
+    }
+
+    Method [ <internal:mongo> abstract public method info ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> abstract public method dead ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> abstract public method timeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timeoutMS ]
+      }
+    }
+
+    Method [ <internal:mongo> abstract public method getReadPreference ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> abstract public method setReadPreference ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $read_preference ]
+        Parameter #1 [ <optional> array $tags ]
+      }
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method current ] {
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method next ] {
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method key ] {
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method valid ] {
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method rewind ] {
+    }
+  }
+}
+',
 );

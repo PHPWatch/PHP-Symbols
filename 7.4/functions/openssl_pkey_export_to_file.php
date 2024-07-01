@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_pkey_export_to_file ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $key ]
+    Parameter #1 [ <required> $outfilename ]
+    Parameter #2 [ <optional> $passphrase ]
+    Parameter #3 [ <optional> $config_args ]
+  }
+}
+',
 );

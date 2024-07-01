@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'sysvshm',
+  'toString' => 'Function [ <internal:sysvshm> function shm_attach ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> int $key ]
+    Parameter #1 [ <optional> ?int $size = null ]
+    Parameter #2 [ <optional> int $permissions = 0666 ]
+  }
+  - Return [ SysvSharedMemory|false ]
+}
+',
 );

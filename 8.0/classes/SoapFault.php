@@ -303,4 +303,98 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:soap> class SoapFault extends Exception implements Stringable, Throwable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [4] {
+    Property [ protected $message = \'\' ]
+    Property [ protected $code = 0 ]
+    Property [ protected $file = NULL ]
+    Property [ protected $line = NULL ]
+  }
+
+  - Methods [10] {
+    Method [ <internal:soap, overwrites Exception, ctor> public method __construct ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> array|string|null $code ]
+        Parameter #1 [ <required> string $string ]
+        Parameter #2 [ <optional> ?string $actor = null ]
+        Parameter #3 [ <optional> mixed $details = null ]
+        Parameter #4 [ <optional> ?string $name = null ]
+        Parameter #5 [ <optional> mixed $headerFault = null ]
+      }
+    }
+
+    Method [ <internal:soap, overwrites Exception, prototype Stringable> public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Core, inherits Exception> public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Core, inherits Exception, prototype Throwable> final public method getMessage ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Core, inherits Exception, prototype Throwable> final public method getCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Core, inherits Exception, prototype Throwable> final public method getFile ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Core, inherits Exception, prototype Throwable> final public method getLine ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:Core, inherits Exception, prototype Throwable> final public method getTrace ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:Core, inherits Exception, prototype Throwable> final public method getPrevious ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?Throwable ]
+    }
+
+    Method [ <internal:Core, inherits Exception, prototype Throwable> final public method getTraceAsString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+  }
+}
+',
 );

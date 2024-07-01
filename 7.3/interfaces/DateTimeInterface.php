@@ -165,4 +165,70 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:date> interface DateTimeInterface ] {
+
+  - Constants [13] {
+    Constant [ public string ATOM ] { Y-m-d\\TH:i:sP }
+    Constant [ public string COOKIE ] { l, d-M-Y H:i:s T }
+    Constant [ public string ISO8601 ] { Y-m-d\\TH:i:sO }
+    Constant [ public string RFC822 ] { D, d M y H:i:s O }
+    Constant [ public string RFC850 ] { l, d-M-y H:i:s T }
+    Constant [ public string RFC1036 ] { D, d M y H:i:s O }
+    Constant [ public string RFC1123 ] { D, d M Y H:i:s O }
+    Constant [ public string RFC7231 ] { D, d M Y H:i:s \\G\\M\\T }
+    Constant [ public string RFC2822 ] { D, d M Y H:i:s O }
+    Constant [ public string RFC3339 ] { Y-m-d\\TH:i:sP }
+    Constant [ public string RFC3339_EXTENDED ] { Y-m-d\\TH:i:s.vP }
+    Constant [ public string RSS ] { D, d M Y H:i:s O }
+    Constant [ public string W3C ] { Y-m-d\\TH:i:sP }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [6] {
+    Method [ <internal:date> abstract public method format ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $format ]
+      }
+    }
+
+    Method [ <internal:date> abstract public method getTimezone ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:date> abstract public method getOffset ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:date> abstract public method getTimestamp ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:date> abstract public method diff ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $object ]
+        Parameter #1 [ <optional> $absolute ]
+      }
+    }
+
+    Method [ <internal:date> abstract public method __wakeup ] {
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_x509_fingerprint ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> OpenSSLCertificate|string $certificate ]
+    Parameter #1 [ <optional> string $digest_algo = "sha1" ]
+    Parameter #2 [ <optional> bool $binary = false ]
+  }
+  - Return [ string|false ]
+}
+',
 );

@@ -568,4 +568,168 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:imagick> class ImagickPixel ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [21] {
+    Method [ <internal:imagick, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method clear ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method destroy ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getColor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $normalized ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getColorAsString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getColorCount ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getColorQuantum ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getColorValue ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getColorValueQuantum ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getHSL ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getIndex ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method isPixelSimilar ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $color ]
+        Parameter #1 [ <required> $fuzz ]
+      }
+    }
+
+    Method [ <internal:imagick> public method isPixelSimilarQuantum ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $color ]
+        Parameter #1 [ <required> $fuzz_quantum_range_scaled_by_square_root_of_three ]
+      }
+    }
+
+    Method [ <internal:imagick> public method isSimilar ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $color ]
+        Parameter #1 [ <required> $fuzz_quantum_range_scaled_by_square_root_of_three ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setColor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setColorCount ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $color_count ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setColorValue ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $color ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setColorValueQuantum ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $color ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setHSL ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $hue ]
+        Parameter #1 [ <required> $saturation ]
+        Parameter #2 [ <required> $luminosity ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setIndex ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setColorFromPixel ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ImagickPixel $pixel ]
+      }
+    }
+  }
+}
+',
 );

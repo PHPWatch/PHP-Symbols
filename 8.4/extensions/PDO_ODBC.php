@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    \ReflectionExtension::__set_state(array(
+       'name' => 'PDO_ODBC',
+    )),
     'removed' => NULL,
+    'version' => '8.4.0-dev',
     'resources' => 
     array (
       0 => 
@@ -25,14 +29,16 @@ return array (
   ),
   'classes' => 
   array (
+    0 => 'Pdo\\Odbc',
+  ),
+  'functions' => 
+  array (
   ),
   'constants' => 
   array (
+    'PDO_ODBC_TYPE' => 'unixODBC',
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,18 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'xml',
+  'toString' => 'Function [ <internal:xml> function xml_set_object ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $parser ]
+    Parameter #1 [ <required> $obj ]
+  }
+}
+',
 );

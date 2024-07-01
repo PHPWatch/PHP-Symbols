@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'sockets',
+  'toString' => 'Function [ <internal:sockets> function socket_sendto ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $socket ]
+    Parameter #1 [ <required> $buf ]
+    Parameter #2 [ <required> $len ]
+    Parameter #3 [ <required> $flags ]
+    Parameter #4 [ <required> $addr ]
+    Parameter #5 [ <optional> $port ]
+  }
+}
+',
 );

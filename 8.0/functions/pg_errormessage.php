@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,24 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'pgsql',
+  'toString' => 'Function [ <internal, deprecated:pgsql> function pg_errormessage ] {
+
+  - Parameters [1] {
+    Parameter #0 [ <optional> $connection = null ]
+  }
+  - Return [ string ]
+}
+',
 );

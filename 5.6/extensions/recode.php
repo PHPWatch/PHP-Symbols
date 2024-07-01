@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'recode',
+    )),
     'removed' => NULL,
+    'version' => NULL,
     'resources' => 
     array (
       0 => 
@@ -26,13 +30,16 @@ return array (
   'classes' => 
   array (
   ),
+  'functions' => 
+  array (
+    'recode_string' => 'recode_string',
+    'recode_file' => 'recode_file',
+    'recode' => 'recode',
+  ),
   'constants' => 
   array (
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

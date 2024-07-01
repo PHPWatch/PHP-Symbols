@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'ldap',
+  'toString' => 'Function [ <internal:ldap> function ldap_exop_passwd ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $link ]
+    Parameter #1 [ <required> $user ]
+    Parameter #2 [ <required> $oldpw ]
+    Parameter #3 [ <required> $newpw ]
+  }
+}
+',
 );

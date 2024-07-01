@@ -148,4 +148,52 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:ds> final class Ds\\Pair implements JsonSerializable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [2] {
+    Property [ public $key = NULL ]
+    Property [ public $value = NULL ]
+  }
+
+  - Methods [4] {
+    Method [ <internal:ds, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $key = <default> ]
+        Parameter #1 [ <optional> $value = <default> ]
+      }
+    }
+
+    Method [ <internal:ds> public method copy ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Ds\\Pair ]
+    }
+
+    Method [ <internal:ds, prototype JsonSerializable> public method jsonSerialize ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:ds> public method toArray ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'enchant',
+  'toString' => 'Function [ <internal:enchant> function enchant_dict_store_replacement ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> EnchantDictionary $dictionary ]
+    Parameter #1 [ <required> string $misspelled ]
+    Parameter #2 [ <required> string $correct ]
+  }
+  - Return [ void ]
+}
+',
 );

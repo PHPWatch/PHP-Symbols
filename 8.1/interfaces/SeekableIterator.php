@@ -132,4 +132,64 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:SPL> interface SeekableIterator extends Iterator, Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [6] {
+    Method [ <internal:SPL> abstract public method seek ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $offset ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method current ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method next ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method key ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method valid ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method rewind ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+  }
+}
+',
 );

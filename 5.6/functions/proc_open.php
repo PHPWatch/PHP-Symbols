@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function proc_open ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $command ]
+    Parameter #1 [ <required> $descriptorspec ]
+    Parameter #2 [ <required> &$pipes ]
+    Parameter #3 [ <optional> $cwd ]
+    Parameter #4 [ <optional> $env ]
+    Parameter #5 [ <optional> $other_options ]
+  }
+}
+',
 );

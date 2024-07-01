@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'shmop',
+    )),
     'removed' => NULL,
+    'version' => '7.4.33',
     'resources' => 
     array (
       0 => 
@@ -26,13 +30,19 @@ return array (
   'classes' => 
   array (
   ),
+  'functions' => 
+  array (
+    'shmop_open' => 'shmop_open',
+    'shmop_read' => 'shmop_read',
+    'shmop_close' => 'shmop_close',
+    'shmop_size' => 'shmop_size',
+    'shmop_write' => 'shmop_write',
+    'shmop_delete' => 'shmop_delete',
+  ),
   'constants' => 
   array (
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

@@ -573,4 +573,282 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:PDO> class PDO ] {
+
+  - Constants [142] {
+    Constant [ public int PARAM_BOOL ] { 5 }
+    Constant [ public int PARAM_NULL ] { 0 }
+    Constant [ public int PARAM_INT ] { 1 }
+    Constant [ public int PARAM_STR ] { 2 }
+    Constant [ public int PARAM_LOB ] { 3 }
+    Constant [ public int PARAM_STMT ] { 4 }
+    Constant [ public int PARAM_INPUT_OUTPUT ] { 2147483648 }
+    Constant [ public int PARAM_STR_NATL ] { 1073741824 }
+    Constant [ public int PARAM_STR_CHAR ] { 536870912 }
+    Constant [ public int PARAM_EVT_ALLOC ] { 0 }
+    Constant [ public int PARAM_EVT_FREE ] { 1 }
+    Constant [ public int PARAM_EVT_EXEC_PRE ] { 2 }
+    Constant [ public int PARAM_EVT_EXEC_POST ] { 3 }
+    Constant [ public int PARAM_EVT_FETCH_PRE ] { 4 }
+    Constant [ public int PARAM_EVT_FETCH_POST ] { 5 }
+    Constant [ public int PARAM_EVT_NORMALIZE ] { 6 }
+    Constant [ public int FETCH_DEFAULT ] { 0 }
+    Constant [ public int FETCH_LAZY ] { 1 }
+    Constant [ public int FETCH_ASSOC ] { 2 }
+    Constant [ public int FETCH_NUM ] { 3 }
+    Constant [ public int FETCH_BOTH ] { 4 }
+    Constant [ public int FETCH_OBJ ] { 5 }
+    Constant [ public int FETCH_BOUND ] { 6 }
+    Constant [ public int FETCH_COLUMN ] { 7 }
+    Constant [ public int FETCH_CLASS ] { 8 }
+    Constant [ public int FETCH_INTO ] { 9 }
+    Constant [ public int FETCH_FUNC ] { 10 }
+    Constant [ public int FETCH_GROUP ] { 65536 }
+    Constant [ public int FETCH_UNIQUE ] { 196608 }
+    Constant [ public int FETCH_KEY_PAIR ] { 12 }
+    Constant [ public int FETCH_CLASSTYPE ] { 262144 }
+    Constant [ public int FETCH_SERIALIZE ] { 524288 }
+    Constant [ public int FETCH_PROPS_LATE ] { 1048576 }
+    Constant [ public int FETCH_NAMED ] { 11 }
+    Constant [ public int ATTR_AUTOCOMMIT ] { 0 }
+    Constant [ public int ATTR_PREFETCH ] { 1 }
+    Constant [ public int ATTR_TIMEOUT ] { 2 }
+    Constant [ public int ATTR_ERRMODE ] { 3 }
+    Constant [ public int ATTR_SERVER_VERSION ] { 4 }
+    Constant [ public int ATTR_CLIENT_VERSION ] { 5 }
+    Constant [ public int ATTR_SERVER_INFO ] { 6 }
+    Constant [ public int ATTR_CONNECTION_STATUS ] { 7 }
+    Constant [ public int ATTR_CASE ] { 8 }
+    Constant [ public int ATTR_CURSOR_NAME ] { 9 }
+    Constant [ public int ATTR_CURSOR ] { 10 }
+    Constant [ public int ATTR_ORACLE_NULLS ] { 11 }
+    Constant [ public int ATTR_PERSISTENT ] { 12 }
+    Constant [ public int ATTR_STATEMENT_CLASS ] { 13 }
+    Constant [ public int ATTR_FETCH_TABLE_NAMES ] { 14 }
+    Constant [ public int ATTR_FETCH_CATALOG_NAMES ] { 15 }
+    Constant [ public int ATTR_DRIVER_NAME ] { 16 }
+    Constant [ public int ATTR_STRINGIFY_FETCHES ] { 17 }
+    Constant [ public int ATTR_MAX_COLUMN_LEN ] { 18 }
+    Constant [ public int ATTR_EMULATE_PREPARES ] { 20 }
+    Constant [ public int ATTR_DEFAULT_FETCH_MODE ] { 19 }
+    Constant [ public int ATTR_DEFAULT_STR_PARAM ] { 21 }
+    Constant [ public int ERRMODE_SILENT ] { 0 }
+    Constant [ public int ERRMODE_WARNING ] { 1 }
+    Constant [ public int ERRMODE_EXCEPTION ] { 2 }
+    Constant [ public int CASE_NATURAL ] { 0 }
+    Constant [ public int CASE_LOWER ] { 2 }
+    Constant [ public int CASE_UPPER ] { 1 }
+    Constant [ public int NULL_NATURAL ] { 0 }
+    Constant [ public int NULL_EMPTY_STRING ] { 1 }
+    Constant [ public int NULL_TO_STRING ] { 2 }
+    Constant [ public string ERR_NONE ] { 00000 }
+    Constant [ public int FETCH_ORI_NEXT ] { 0 }
+    Constant [ public int FETCH_ORI_PRIOR ] { 1 }
+    Constant [ public int FETCH_ORI_FIRST ] { 2 }
+    Constant [ public int FETCH_ORI_LAST ] { 3 }
+    Constant [ public int FETCH_ORI_ABS ] { 4 }
+    Constant [ public int FETCH_ORI_REL ] { 5 }
+    Constant [ public int CURSOR_FWDONLY ] { 0 }
+    Constant [ public int CURSOR_SCROLL ] { 1 }
+    Constant [ public int DBLIB_ATTR_CONNECTION_TIMEOUT ] { 1000 }
+    Constant [ public int DBLIB_ATTR_QUERY_TIMEOUT ] { 1001 }
+    Constant [ public int DBLIB_ATTR_STRINGIFY_UNIQUEIDENTIFIER ] { 1002 }
+    Constant [ public int DBLIB_ATTR_VERSION ] { 1003 }
+    Constant [ public int DBLIB_ATTR_TDS_VERSION ] { 1004 }
+    Constant [ public int DBLIB_ATTR_SKIP_EMPTY_ROWSETS ] { 1005 }
+    Constant [ public int DBLIB_ATTR_DATETIME_CONVERT ] { 1006 }
+    Constant [ public int FB_ATTR_DATE_FORMAT ] { 1000 }
+    Constant [ public int FB_ATTR_TIME_FORMAT ] { 1001 }
+    Constant [ public int FB_ATTR_TIMESTAMP_FORMAT ] { 1002 }
+    Constant [ public int MYSQL_ATTR_USE_BUFFERED_QUERY ] { 1000 }
+    Constant [ public int MYSQL_ATTR_LOCAL_INFILE ] { 1001 }
+    Constant [ public int MYSQL_ATTR_INIT_COMMAND ] { 1002 }
+    Constant [ public int MYSQL_ATTR_COMPRESS ] { 1003 }
+    Constant [ public int MYSQL_ATTR_DIRECT_QUERY ] { 1004 }
+    Constant [ public int MYSQL_ATTR_FOUND_ROWS ] { 1005 }
+    Constant [ public int MYSQL_ATTR_IGNORE_SPACE ] { 1006 }
+    Constant [ public int MYSQL_ATTR_SSL_KEY ] { 1007 }
+    Constant [ public int MYSQL_ATTR_SSL_CERT ] { 1008 }
+    Constant [ public int MYSQL_ATTR_SSL_CA ] { 1009 }
+    Constant [ public int MYSQL_ATTR_SSL_CAPATH ] { 1010 }
+    Constant [ public int MYSQL_ATTR_SSL_CIPHER ] { 1011 }
+    Constant [ public int MYSQL_ATTR_SERVER_PUBLIC_KEY ] { 1012 }
+    Constant [ public int MYSQL_ATTR_MULTI_STATEMENTS ] { 1013 }
+    Constant [ public int MYSQL_ATTR_SSL_VERIFY_SERVER_CERT ] { 1014 }
+    Constant [ public int MYSQL_ATTR_LOCAL_INFILE_DIRECTORY ] { 1015 }
+    Constant [ public int ODBC_ATTR_USE_CURSOR_LIBRARY ] { 1000 }
+    Constant [ public int ODBC_ATTR_ASSUME_UTF8 ] { 1001 }
+    Constant [ public int ODBC_SQL_USE_IF_NEEDED ] { 0 }
+    Constant [ public int ODBC_SQL_USE_DRIVER ] { 2 }
+    Constant [ public int ODBC_SQL_USE_ODBC ] { 1 }
+    Constant [ public int PGSQL_ATTR_DISABLE_PREPARES ] { 1000 }
+    Constant [ public int PGSQL_TRANSACTION_IDLE ] { 0 }
+    Constant [ public int PGSQL_TRANSACTION_ACTIVE ] { 1 }
+    Constant [ public int PGSQL_TRANSACTION_INTRANS ] { 2 }
+    Constant [ public int PGSQL_TRANSACTION_INERROR ] { 3 }
+    Constant [ public int PGSQL_TRANSACTION_UNKNOWN ] { 4 }
+    Constant [ public int SQLITE_DETERMINISTIC ] { 2048 }
+    Constant [ public int SQLITE_ATTR_OPEN_FLAGS ] { 1000 }
+    Constant [ public int SQLITE_OPEN_READONLY ] { 1 }
+    Constant [ public int SQLITE_OPEN_READWRITE ] { 2 }
+    Constant [ public int SQLITE_OPEN_CREATE ] { 4 }
+    Constant [ public int SQLITE_ATTR_READONLY_STATEMENT ] { 1001 }
+    Constant [ public int SQLITE_ATTR_EXTENDED_RESULT_CODES ] { 1002 }
+    Constant [ public int SQLSRV_ATTR_ENCODING ] { 1000 }
+    Constant [ public int SQLSRV_ATTR_QUERY_TIMEOUT ] { 1001 }
+    Constant [ public int SQLSRV_ATTR_DIRECT_QUERY ] { 1002 }
+    Constant [ public int SQLSRV_ATTR_CURSOR_SCROLL_TYPE ] { 1003 }
+    Constant [ public int SQLSRV_ATTR_CLIENT_BUFFER_MAX_KB_SIZE ] { 1004 }
+    Constant [ public int SQLSRV_ATTR_FETCHES_NUMERIC_TYPE ] { 1005 }
+    Constant [ public int SQLSRV_ATTR_FETCHES_DATETIME_TYPE ] { 1006 }
+    Constant [ public int SQLSRV_ATTR_FORMAT_DECIMALS ] { 1007 }
+    Constant [ public int SQLSRV_ATTR_DECIMAL_PLACES ] { 1008 }
+    Constant [ public int SQLSRV_ATTR_DATA_CLASSIFICATION ] { 1009 }
+    Constant [ public int SQLSRV_PARAM_OUT_DEFAULT_SIZE ] { -1 }
+    Constant [ public int SQLSRV_ENCODING_DEFAULT ] { 1 }
+    Constant [ public int SQLSRV_ENCODING_SYSTEM ] { 3 }
+    Constant [ public int SQLSRV_ENCODING_BINARY ] { 2 }
+    Constant [ public int SQLSRV_ENCODING_UTF8 ] { 65001 }
+    Constant [ public int SQLSRV_CURSOR_STATIC ] { 3 }
+    Constant [ public int SQLSRV_CURSOR_DYNAMIC ] { 2 }
+    Constant [ public int SQLSRV_CURSOR_KEYSET ] { 1 }
+    Constant [ public int SQLSRV_CURSOR_BUFFERED ] { 42 }
+    Constant [ public string SQLSRV_TXN_READ_UNCOMMITTED ] { READ_UNCOMMITTED }
+    Constant [ public string SQLSRV_TXN_READ_COMMITTED ] { READ_COMMITTED }
+    Constant [ public string SQLSRV_TXN_REPEATABLE_READ ] { REPEATABLE_READ }
+    Constant [ public string SQLSRV_TXN_SERIALIZABLE ] { SERIALIZABLE }
+    Constant [ public string SQLSRV_TXN_SNAPSHOT ] { SNAPSHOT }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:PDO> static public method getAvailableDrivers ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [14] {
+    Method [ <internal:PDO, ctor> public method __construct ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $dsn ]
+        Parameter #1 [ <optional> ?string $username = null ]
+        Parameter #2 [ <optional> ?string $password = null ]
+        Parameter #3 [ <optional> ?array $options = null ]
+      }
+    }
+
+    Method [ <internal:PDO> public method beginTransaction ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:PDO> public method commit ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:PDO> public method errorCode ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:PDO> public method errorInfo ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:PDO> public method exec ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $statement ]
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:PDO> public method getAttribute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $attribute ]
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:PDO> public method inTransaction ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:PDO> public method lastInsertId ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $name = null ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:PDO> public method prepare ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $query ]
+        Parameter #1 [ <optional> array $options = [] ]
+      }
+      - Tentative return [ PDOStatement|false ]
+    }
+
+    Method [ <internal:PDO> public method query ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $query ]
+        Parameter #1 [ <optional> ?int $fetchMode = null ]
+        Parameter #2 [ <optional> mixed ...$fetchModeArgs ]
+      }
+      - Tentative return [ PDOStatement|false ]
+    }
+
+    Method [ <internal:PDO> public method quote ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $string ]
+        Parameter #1 [ <optional> int $type = PDO::PARAM_STR ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:PDO> public method rollBack ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:PDO> public method setAttribute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $attribute ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Tentative return [ bool ]
+    }
+  }
+}
+',
 );

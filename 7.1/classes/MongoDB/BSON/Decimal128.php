@@ -203,4 +203,72 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\BSON\\Decimal128 implements MongoDB\\BSON\\Decimal128Interface, JsonSerializable, MongoDB\\BSON\\Type, Serializable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:mongodb> static public method __set_state ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $properties ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [7] {
+    Method [ <internal:mongodb, ctor> final public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method __serialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype MongoDB\\BSON\\Decimal128Interface> final public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+    }
+
+    Method [ <internal:mongodb, prototype JsonSerializable> final public method jsonSerialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method serialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $serialized ]
+      }
+    }
+  }
+}
+',
 );

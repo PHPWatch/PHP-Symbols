@@ -197,4 +197,97 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\Monitoring\\CommandFailedEvent ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [11] {
+    Method [ <internal:mongodb, ctor> final private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getCommandName ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb> final public method getDurationMicros ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:mongodb> final public method getError ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Exception ]
+    }
+
+    Method [ <internal:mongodb> final public method getOperationId ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb> final public method getReply ] {
+
+      - Parameters [0] {
+      }
+      - Return [ object ]
+    }
+
+    Method [ <internal:mongodb> final public method getRequestId ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb> final public method getServer ] {
+
+      - Parameters [0] {
+      }
+      - Return [ MongoDB\\Driver\\Server ]
+    }
+
+    Method [ <internal:mongodb> final public method getServiceId ] {
+
+      - Parameters [0] {
+      }
+      - Return [ MongoDB\\BSON\\ObjectId or NULL ]
+    }
+
+    Method [ <internal:mongodb> final public method getServerConnectionId ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int or NULL ]
+    }
+
+    Method [ <internal:mongodb> final public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+  }
+}
+',
 );

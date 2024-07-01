@@ -239,4 +239,71 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> <iterateable> class ResourceBundle implements Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:intl> static public method create ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $locale ]
+        Parameter #1 [ <required> $bundlename ]
+        Parameter #2 [ <optional> $fallback ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getLocales ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $bundlename ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [5] {
+    Method [ <internal:intl, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $locale ]
+        Parameter #1 [ <required> $bundlename ]
+        Parameter #2 [ <optional> $fallback ]
+      }
+    }
+
+    Method [ <internal:intl> public method get ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <optional> $fallback ]
+      }
+    }
+
+    Method [ <internal:intl> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorMessage ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

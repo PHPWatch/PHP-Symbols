@@ -171,4 +171,59 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> class MongoWriteBatch ] {
+
+  - Constants [3] {
+    Constant [ integer COMMAND_INSERT ] { 1 }
+    Constant [ integer COMMAND_UPDATE ] { 2 }
+    Constant [ integer COMMAND_DELETE ] { 3 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [5] {
+    Method [ <internal:mongo, ctor> protected method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> MongoCollection $collection ]
+        Parameter #1 [ <required> $batch_type ]
+        Parameter #2 [ <optional> array $write_options ]
+      }
+    }
+
+    Method [ <internal:mongo> public method add ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $item ]
+      }
+    }
+
+    Method [ <internal:mongo> final public method execute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array $write_options ]
+      }
+    }
+
+    Method [ <internal:mongo> public method getItemCount ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method getBatchInfo ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'date',
+  'toString' => 'Function [ <internal:date> function date_create_immutable_from_format ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $format ]
+    Parameter #1 [ <required> $time ]
+    Parameter #2 [ <optional> $object ]
+  }
+}
+',
 );

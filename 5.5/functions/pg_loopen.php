@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'pgsql',
+  'toString' => 'Function [ <internal:pgsql> function pg_loopen ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <optional> $connection ]
+    Parameter #1 [ <optional> $large_object_oid ]
+    Parameter #2 [ <optional> $mode ]
+  }
+}
+',
 );

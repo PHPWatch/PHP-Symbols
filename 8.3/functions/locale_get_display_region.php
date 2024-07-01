@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'intl',
+  'toString' => 'Function [ <internal:intl> function locale_get_display_region ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> string $locale ]
+    Parameter #1 [ <optional> ?string $displayLocale = null ]
+  }
+  - Return [ string|false ]
+}
+',
 );

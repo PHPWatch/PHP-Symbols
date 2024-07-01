@@ -171,4 +171,78 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Reflection> class ReflectionAttribute implements Stringable, Reflector ] {
+
+  - Constants [1] {
+    Constant [ public int IS_INSTANCEOF ] { 2 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ public string $name ]
+  }
+
+  - Methods [8] {
+    Method [ <internal:Reflection> public method getName ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Reflection> public method getTarget ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:Reflection> public method isRepeated ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Reflection> public method getArguments ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:Reflection> public method newInstance ] {
+
+      - Parameters [0] {
+      }
+      - Return [ object ]
+    }
+
+    Method [ <internal:Reflection, prototype Stringable> public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Reflection> private method __clone ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:Reflection, ctor> private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

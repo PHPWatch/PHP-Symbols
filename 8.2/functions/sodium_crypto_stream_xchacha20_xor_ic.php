@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'sodium',
+  'toString' => 'Function [ <internal:sodium> function sodium_crypto_stream_xchacha20_xor_ic ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> string $message ]
+    Parameter #1 [ <required> string $nonce ]
+    Parameter #2 [ <required> int $counter ]
+    Parameter #3 [ <required> string $key ]
+  }
+  - Return [ string ]
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function mail ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $to ]
+    Parameter #1 [ <required> $subject ]
+    Parameter #2 [ <required> $message ]
+    Parameter #3 [ <optional> $additional_headers ]
+    Parameter #4 [ <optional> $additional_parameters ]
+  }
+}
+',
 );

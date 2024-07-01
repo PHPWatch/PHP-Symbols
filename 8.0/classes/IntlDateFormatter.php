@@ -623,4 +623,182 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> class IntlDateFormatter ] {
+
+  - Constants [11] {
+    Constant [ public int FULL ] { 0 }
+    Constant [ public int LONG ] { 1 }
+    Constant [ public int MEDIUM ] { 2 }
+    Constant [ public int SHORT ] { 3 }
+    Constant [ public int NONE ] { -1 }
+    Constant [ public int RELATIVE_FULL ] { 128 }
+    Constant [ public int RELATIVE_LONG ] { 129 }
+    Constant [ public int RELATIVE_MEDIUM ] { 130 }
+    Constant [ public int RELATIVE_SHORT ] { 131 }
+    Constant [ public int GREGORIAN ] { 1 }
+    Constant [ public int TRADITIONAL ] { 0 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:intl> static public method create ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> ?string $locale ]
+        Parameter #1 [ <required> int $dateType ]
+        Parameter #2 [ <required> int $timeType ]
+        Parameter #3 [ <optional> $timezone = null ]
+        Parameter #4 [ <optional> IntlCalendar|int|null $calendar = null ]
+        Parameter #5 [ <optional> ?string $pattern = null ]
+      }
+    }
+
+    Method [ <internal:intl> static public method formatObject ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $datetime ]
+        Parameter #1 [ <optional> $format = null ]
+        Parameter #2 [ <optional> ?string $locale = null ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [19] {
+    Method [ <internal:intl, ctor> public method __construct ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> ?string $locale ]
+        Parameter #1 [ <required> int $dateType ]
+        Parameter #2 [ <required> int $timeType ]
+        Parameter #3 [ <optional> $timezone = null ]
+        Parameter #4 [ <optional> $calendar = null ]
+        Parameter #5 [ <optional> ?string $pattern = null ]
+      }
+    }
+
+    Method [ <internal:intl> public method getDateType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getTimeType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getCalendar ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method setCalendar ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> IntlCalendar|int|null $calendar ]
+      }
+    }
+
+    Method [ <internal:intl> public method getTimeZoneId ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getCalendarObject ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getTimeZone ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method setTimeZone ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timezone ]
+      }
+    }
+
+    Method [ <internal:intl> public method setPattern ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $pattern ]
+      }
+    }
+
+    Method [ <internal:intl> public method getPattern ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getLocale ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $type = ULOC_ACTUAL_LOCALE ]
+      }
+    }
+
+    Method [ <internal:intl> public method setLenient ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> bool $lenient ]
+      }
+    }
+
+    Method [ <internal:intl> public method isLenient ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method format ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $datetime ]
+      }
+    }
+
+    Method [ <internal:intl> public method parse ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $string ]
+        Parameter #1 [ <optional> &$offset = null ]
+      }
+    }
+
+    Method [ <internal:intl> public method localtime ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $string ]
+        Parameter #1 [ <optional> &$offset = null ]
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorMessage ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

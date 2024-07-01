@@ -1618,4 +1618,425 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:zip> class ZipArchive implements Countable ] {
+
+  - Constants [80] {
+    Constant [ public integer CREATE ] { 1 }
+    Constant [ public integer EXCL ] { 2 }
+    Constant [ public integer CHECKCONS ] { 4 }
+    Constant [ public integer OVERWRITE ] { 8 }
+    Constant [ public integer FL_NOCASE ] { 1 }
+    Constant [ public integer FL_NODIR ] { 2 }
+    Constant [ public integer FL_COMPRESSED ] { 4 }
+    Constant [ public integer FL_UNCHANGED ] { 8 }
+    Constant [ public integer FL_ENC_GUESS ] { 0 }
+    Constant [ public integer FL_ENC_RAW ] { 64 }
+    Constant [ public integer FL_ENC_STRICT ] { 128 }
+    Constant [ public integer FL_ENC_UTF_8 ] { 2048 }
+    Constant [ public integer FL_ENC_CP437 ] { 4096 }
+    Constant [ public integer CM_DEFAULT ] { -1 }
+    Constant [ public integer CM_STORE ] { 0 }
+    Constant [ public integer CM_SHRINK ] { 1 }
+    Constant [ public integer CM_REDUCE_1 ] { 2 }
+    Constant [ public integer CM_REDUCE_2 ] { 3 }
+    Constant [ public integer CM_REDUCE_3 ] { 4 }
+    Constant [ public integer CM_REDUCE_4 ] { 5 }
+    Constant [ public integer CM_IMPLODE ] { 6 }
+    Constant [ public integer CM_DEFLATE ] { 8 }
+    Constant [ public integer CM_DEFLATE64 ] { 9 }
+    Constant [ public integer CM_PKWARE_IMPLODE ] { 10 }
+    Constant [ public integer CM_BZIP2 ] { 12 }
+    Constant [ public integer CM_LZMA ] { 14 }
+    Constant [ public integer CM_TERSE ] { 18 }
+    Constant [ public integer CM_LZ77 ] { 19 }
+    Constant [ public integer CM_WAVPACK ] { 97 }
+    Constant [ public integer CM_PPMD ] { 98 }
+    Constant [ public integer ER_OK ] { 0 }
+    Constant [ public integer ER_MULTIDISK ] { 1 }
+    Constant [ public integer ER_RENAME ] { 2 }
+    Constant [ public integer ER_CLOSE ] { 3 }
+    Constant [ public integer ER_SEEK ] { 4 }
+    Constant [ public integer ER_READ ] { 5 }
+    Constant [ public integer ER_WRITE ] { 6 }
+    Constant [ public integer ER_CRC ] { 7 }
+    Constant [ public integer ER_ZIPCLOSED ] { 8 }
+    Constant [ public integer ER_NOENT ] { 9 }
+    Constant [ public integer ER_EXISTS ] { 10 }
+    Constant [ public integer ER_OPEN ] { 11 }
+    Constant [ public integer ER_TMPOPEN ] { 12 }
+    Constant [ public integer ER_ZLIB ] { 13 }
+    Constant [ public integer ER_MEMORY ] { 14 }
+    Constant [ public integer ER_CHANGED ] { 15 }
+    Constant [ public integer ER_COMPNOTSUPP ] { 16 }
+    Constant [ public integer ER_EOF ] { 17 }
+    Constant [ public integer ER_INVAL ] { 18 }
+    Constant [ public integer ER_NOZIP ] { 19 }
+    Constant [ public integer ER_INTERNAL ] { 20 }
+    Constant [ public integer ER_INCONS ] { 21 }
+    Constant [ public integer ER_REMOVE ] { 22 }
+    Constant [ public integer ER_DELETED ] { 23 }
+    Constant [ public integer OPSYS_DOS ] { 0 }
+    Constant [ public integer OPSYS_AMIGA ] { 1 }
+    Constant [ public integer OPSYS_OPENVMS ] { 2 }
+    Constant [ public integer OPSYS_UNIX ] { 3 }
+    Constant [ public integer OPSYS_VM_CMS ] { 4 }
+    Constant [ public integer OPSYS_ATARI_ST ] { 5 }
+    Constant [ public integer OPSYS_OS_2 ] { 6 }
+    Constant [ public integer OPSYS_MACINTOSH ] { 7 }
+    Constant [ public integer OPSYS_Z_SYSTEM ] { 8 }
+    Constant [ public integer OPSYS_Z_CPM ] { 9 }
+    Constant [ public integer OPSYS_CPM ] { 9 }
+    Constant [ public integer OPSYS_WINDOWS_NTFS ] { 10 }
+    Constant [ public integer OPSYS_MVS ] { 11 }
+    Constant [ public integer OPSYS_VSE ] { 12 }
+    Constant [ public integer OPSYS_ACORN_RISC ] { 13 }
+    Constant [ public integer OPSYS_VFAT ] { 14 }
+    Constant [ public integer OPSYS_ALTERNATE_MVS ] { 15 }
+    Constant [ public integer OPSYS_BEOS ] { 16 }
+    Constant [ public integer OPSYS_TANDEM ] { 17 }
+    Constant [ public integer OPSYS_OS_400 ] { 18 }
+    Constant [ public integer OPSYS_OS_X ] { 19 }
+    Constant [ public integer OPSYS_DEFAULT ] { 3 }
+    Constant [ public integer EM_NONE ] { 0 }
+    Constant [ public integer EM_AES_128 ] { 257 }
+    Constant [ public integer EM_AES_192 ] { 258 }
+    Constant [ public integer EM_AES_256 ] { 259 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [5] {
+    Property [ <default> public $status ]
+    Property [ <default> public $statusSys ]
+    Property [ <default> public $numFiles ]
+    Property [ <default> public $filename ]
+    Property [ <default> public $comment ]
+  }
+
+  - Methods [40] {
+    Method [ <internal:zip> public method open ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $filename ]
+        Parameter #1 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:zip> public method setPassword ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $password ]
+      }
+    }
+
+    Method [ <internal:zip> public method close ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:zip, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:zip> public method getStatusString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:zip> public method addEmptyDir ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $dirname ]
+      }
+    }
+
+    Method [ <internal:zip> public method addFromString ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $content ]
+      }
+    }
+
+    Method [ <internal:zip> public method addFile ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $filepath ]
+        Parameter #1 [ <optional> $entryname ]
+        Parameter #2 [ <optional> $start ]
+        Parameter #3 [ <optional> $length ]
+      }
+    }
+
+    Method [ <internal:zip> public method addGlob ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $pattern ]
+        Parameter #1 [ <optional> $flags ]
+        Parameter #2 [ <optional> $options ]
+      }
+    }
+
+    Method [ <internal:zip> public method addPattern ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $pattern ]
+        Parameter #1 [ <optional> $path ]
+        Parameter #2 [ <optional> $options ]
+      }
+    }
+
+    Method [ <internal:zip> public method renameIndex ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <required> $new_name ]
+      }
+    }
+
+    Method [ <internal:zip> public method renameName ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $new_name ]
+      }
+    }
+
+    Method [ <internal:zip> public method setArchiveComment ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $comment ]
+      }
+    }
+
+    Method [ <internal:zip> public method getArchiveComment ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:zip> public method setCommentIndex ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <required> $comment ]
+      }
+    }
+
+    Method [ <internal:zip> public method setCommentName ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $comment ]
+      }
+    }
+
+    Method [ <internal:zip> public method getCommentIndex ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:zip> public method getCommentName ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:zip> public method deleteIndex ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:zip> public method deleteName ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:zip> public method statName ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $filename ]
+        Parameter #1 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:zip> public method statIndex ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:zip> public method locateName ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $filename ]
+        Parameter #1 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:zip> public method getNameIndex ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:zip> public method unchangeArchive ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:zip> public method unchangeAll ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:zip> public method unchangeIndex ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:zip> public method unchangeName ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:zip> public method extractTo ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $pathto ]
+        Parameter #1 [ <optional> $files ]
+      }
+    }
+
+    Method [ <internal:zip> public method getFromName ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $entryname ]
+        Parameter #1 [ <optional> $len ]
+        Parameter #2 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:zip> public method getFromIndex ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <optional> $len ]
+        Parameter #2 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:zip> public method getStream ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $entryname ]
+      }
+    }
+
+    Method [ <internal:zip> public method setExternalAttributesName ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $opsys ]
+        Parameter #2 [ <required> $attr ]
+        Parameter #3 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:zip> public method setExternalAttributesIndex ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <required> $opsys ]
+        Parameter #2 [ <required> $attr ]
+        Parameter #3 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:zip> public method getExternalAttributesName ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> &$opsys ]
+        Parameter #2 [ <required> &$attr ]
+        Parameter #3 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:zip> public method getExternalAttributesIndex ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <required> &$opsys ]
+        Parameter #2 [ <required> &$attr ]
+        Parameter #3 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:zip> public method setCompressionName ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $method ]
+        Parameter #2 [ <optional> $compflags ]
+      }
+    }
+
+    Method [ <internal:zip> public method setCompressionIndex ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <required> $method ]
+        Parameter #2 [ <optional> $compflags ]
+      }
+    }
+
+    Method [ <internal:zip> public method setEncryptionName ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $method ]
+        Parameter #2 [ <optional> $password ]
+      }
+    }
+
+    Method [ <internal:zip> public method setEncryptionIndex ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <required> $method ]
+        Parameter #2 [ <optional> $password ]
+      }
+    }
+  }
+}
+',
 );

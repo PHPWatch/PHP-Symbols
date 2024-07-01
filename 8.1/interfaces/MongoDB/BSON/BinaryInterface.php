@@ -78,4 +78,42 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:mongodb> interface MongoDB\\BSON\\BinaryInterface extends Stringable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:mongodb> abstract public method getData ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:mongodb> abstract public method getType ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:mongodb, prototype Stringable> abstract public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+  }
+}
+',
 );

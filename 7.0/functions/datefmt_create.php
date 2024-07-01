@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'intl',
+  'toString' => 'Function [ <internal:intl> function datefmt_create ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $locale ]
+    Parameter #1 [ <required> $date_type ]
+    Parameter #2 [ <required> $time_type ]
+    Parameter #3 [ <optional> $timezone_str ]
+    Parameter #4 [ <optional> $calendar ]
+    Parameter #5 [ <optional> $pattern ]
+  }
+}
+',
 );

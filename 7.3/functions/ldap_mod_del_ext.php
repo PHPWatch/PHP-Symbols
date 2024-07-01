@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'ldap',
+  'toString' => 'Function [ <internal:ldap> function ldap_mod_del_ext ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $link_identifier ]
+    Parameter #1 [ <required> $dn ]
+    Parameter #2 [ <required> $entry ]
+    Parameter #3 [ <optional> $servercontrols ]
+  }
+}
+',
 );

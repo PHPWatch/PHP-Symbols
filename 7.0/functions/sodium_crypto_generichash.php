@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'sodium',
+  'toString' => 'Function [ <internal:sodium> function sodium_crypto_generichash ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $string ]
+    Parameter #1 [ <optional> $key ]
+    Parameter #2 [ <optional> $length ]
+  }
+}
+',
 );

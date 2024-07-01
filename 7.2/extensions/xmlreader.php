@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'xmlreader',
+    )),
     'removed' => NULL,
+    'version' => '7.2.34-50+ubuntu22.04.1+deb.sury.org+1',
     'resources' => 
     array (
       0 => 
@@ -25,14 +29,15 @@ return array (
   ),
   'classes' => 
   array (
+    0 => 'XMLReader',
+  ),
+  'functions' => 
+  array (
   ),
   'constants' => 
   array (
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

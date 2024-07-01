@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function array_pad ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $arg ]
+    Parameter #1 [ <required> $pad_size ]
+    Parameter #2 [ <required> $pad_value ]
+  }
+}
+',
 );

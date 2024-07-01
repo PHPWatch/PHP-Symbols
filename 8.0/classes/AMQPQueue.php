@@ -852,4 +852,245 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:amqp> class AMQPQueue ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [9] {
+    Property [ private AMQPConnection $connection ]
+    Property [ private AMQPChannel $channel ]
+    Property [ private ?string $name = NULL ]
+    Property [ private ?string $consumerTag = NULL ]
+    Property [ private bool $passive = false ]
+    Property [ private bool $durable = false ]
+    Property [ private bool $exclusive = false ]
+    Property [ private bool $autoDelete = true ]
+    Property [ private array $arguments = Array ]
+  }
+
+  - Methods [27] {
+    Method [ <internal:amqp, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> AMQPChannel $channel ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getName ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:amqp> public method setName ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $name ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getFlags ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method setFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?int $flags ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getArgument ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $argumentName ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getArguments ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:amqp> public method setArgument ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $argumentName ]
+        Parameter #1 [ <required> $argumentValue ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method removeArgument ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $argumentName ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method setArguments ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $arguments ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method hasArgument ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $argumentName ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:amqp> public method declareQueue ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method declare ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method bind ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $exchangeName ]
+        Parameter #1 [ <optional> ?string $routingKey = null ]
+        Parameter #2 [ <optional> array $arguments = [] ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method get ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?int $flags = null ]
+      }
+      - Return [ ?AMQPEnvelope ]
+    }
+
+    Method [ <internal:amqp> public method consume ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> ?callable $callback = null ]
+        Parameter #1 [ <optional> ?int $flags = null ]
+        Parameter #2 [ <optional> ?string $consumerTag = null ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method ack ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $deliveryTag ]
+        Parameter #1 [ <optional> ?int $flags = null ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method nack ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $deliveryTag ]
+        Parameter #1 [ <optional> ?int $flags = null ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method reject ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $deliveryTag ]
+        Parameter #1 [ <optional> ?int $flags = null ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method recover ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> bool $requeue = true ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method purge ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method cancel ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string $consumerTag = "" ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method delete ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?int $flags = null ]
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method unbind ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $exchangeName ]
+        Parameter #1 [ <optional> ?string $routingKey = null ]
+        Parameter #2 [ <optional> array $arguments = [] ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getChannel ] {
+
+      - Parameters [0] {
+      }
+      - Return [ AMQPChannel ]
+    }
+
+    Method [ <internal:amqp> public method getConnection ] {
+
+      - Parameters [0] {
+      }
+      - Return [ AMQPConnection ]
+    }
+
+    Method [ <internal:amqp> public method getConsumerTag ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+  }
+}
+',
 );

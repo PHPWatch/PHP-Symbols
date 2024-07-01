@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,29 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => true,
   ),
   'extension' => 'intl',
+  'toString' => 'Function [ <internal, deprecated:intl> function intlgregcal_create_instance ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <optional> $timezoneOrYear = <default> ]
+    Parameter #1 [ <optional> $localeOrMonth = <default> ]
+    Parameter #2 [ <optional> $day = <default> ]
+    Parameter #3 [ <optional> $hour = <default> ]
+    Parameter #4 [ <optional> $minute = <default> ]
+    Parameter #5 [ <optional> $second = <default> ]
+  }
+  - Return [ ?IntlGregorianCalendar ]
+}
+',
 );

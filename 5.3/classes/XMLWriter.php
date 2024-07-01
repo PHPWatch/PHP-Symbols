@@ -1201,4 +1201,325 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:xmlwriter> class XMLWriter ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [42] {
+    Method [ <internal:xmlwriter> public method openUri ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $uri ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method openMemory ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method setIndent ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $indent ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method setIndentString ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $indentString ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method startComment ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method endComment ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method startAttribute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method endAttribute ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method writeAttribute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method startAttributeNs ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $prefix ]
+        Parameter #1 [ <required> $name ]
+        Parameter #2 [ <required> $uri ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method writeAttributeNs ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $prefix ]
+        Parameter #1 [ <required> $name ]
+        Parameter #2 [ <required> $uri ]
+        Parameter #3 [ <required> $content ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method startElement ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method endElement ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method fullEndElement ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method startElementNs ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $prefix ]
+        Parameter #1 [ <required> $name ]
+        Parameter #2 [ <required> $uri ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method writeElement ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $content ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method writeElementNs ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $prefix ]
+        Parameter #1 [ <required> $name ]
+        Parameter #2 [ <required> $uri ]
+        Parameter #3 [ <optional> $content ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method startPi ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $target ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method endPi ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method writePi ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $target ]
+        Parameter #1 [ <required> $content ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method startCdata ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method endCdata ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method writeCdata ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $content ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method text ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $content ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method writeRaw ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $content ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method startDocument ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $version ]
+        Parameter #1 [ <optional> $encoding ]
+        Parameter #2 [ <optional> $standalone ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method endDocument ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method writeComment ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $content ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method startDtd ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $qualifiedName ]
+        Parameter #1 [ <optional> $publicId ]
+        Parameter #2 [ <optional> $systemId ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method endDtd ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method writeDtd ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $publicId ]
+        Parameter #2 [ <optional> $systemId ]
+        Parameter #3 [ <optional> $subset ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method startDtdElement ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $qualifiedName ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method endDtdElement ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method writeDtdElement ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $content ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method startDtdAttlist ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method endDtdAttlist ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method writeDtdAttlist ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $content ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method startDtdEntity ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $isparam ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method endDtdEntity ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method writeDtdEntity ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $content ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method outputMemory ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $flush ]
+      }
+    }
+
+    Method [ <internal:xmlwriter> public method flush ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $empty ]
+      }
+    }
+  }
+}
+',
 );

@@ -175,4 +175,43 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> class DOMNameSpaceNode ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [8] {
+    Property [ public string $nodeName ]
+    Property [ public ?string $nodeValue ]
+    Property [ public int $nodeType ]
+    Property [ public string $prefix ]
+    Property [ public ?string $localName ]
+    Property [ public ?string $namespaceURI ]
+    Property [ public ?DOMDocument $ownerDocument ]
+    Property [ public ?DOMNode $parentNode ]
+  }
+
+  - Methods [2] {
+    Method [ <internal:dom> public method __sleep ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:dom> public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+  }
+}
+',
 );

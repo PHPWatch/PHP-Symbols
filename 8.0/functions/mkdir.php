@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function mkdir ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> string $directory ]
+    Parameter #1 [ <optional> int $permissions = 0777 ]
+    Parameter #2 [ <optional> bool $recursive = false ]
+    Parameter #3 [ <optional> $context = null ]
+  }
+  - Return [ bool ]
+}
+',
 );

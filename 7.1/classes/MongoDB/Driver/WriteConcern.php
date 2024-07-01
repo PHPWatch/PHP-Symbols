@@ -267,4 +267,93 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\WriteConcern implements MongoDB\\BSON\\Serializable, MongoDB\\BSON\\Type, Serializable ] {
+
+  - Constants [1] {
+    Constant [ public string MAJORITY ] { majority }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:mongodb> static public method __set_state ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $properties ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [10] {
+    Method [ <internal:mongodb, ctor> final public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $w ]
+        Parameter #1 [ <optional> $wtimeout ]
+        Parameter #2 [ <optional> $journal ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method __serialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getW ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getWtimeout ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getJournal ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method isDefault ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype MongoDB\\BSON\\Serializable> final public method bsonSerialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method serialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $serialized ]
+      }
+    }
+  }
+}
+',
 );

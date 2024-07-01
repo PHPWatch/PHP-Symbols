@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'xmlwriter',
+  'toString' => 'Function [ <internal:xmlwriter> function xmlwriter_write_dtd_attlist ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $xmlwriter ]
+    Parameter #1 [ <required> $name ]
+    Parameter #2 [ <required> $content ]
+  }
+}
+',
 );

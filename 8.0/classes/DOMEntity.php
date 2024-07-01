@@ -523,4 +523,145 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> class DOMEntity extends DOMNode ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [17] {
+    Method [ <internal:dom, inherits DOMNode> public method appendChild ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DOMNode $node ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method C14N ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> bool $exclusive = false ]
+        Parameter #1 [ <optional> bool $withComments = false ]
+        Parameter #2 [ <optional> ?array $xpath = null ]
+        Parameter #3 [ <optional> ?array $nsPrefixes = null ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method C14NFile ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $uri ]
+        Parameter #1 [ <optional> bool $exclusive = false ]
+        Parameter #2 [ <optional> bool $withComments = false ]
+        Parameter #3 [ <optional> ?array $xpath = null ]
+        Parameter #4 [ <optional> ?array $nsPrefixes = null ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method cloneNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> bool $deep = false ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method getLineNo ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method getNodePath ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method hasAttributes ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method hasChildNodes ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method insertBefore ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> DOMNode $node ]
+        Parameter #1 [ <optional> ?DOMNode $child = null ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method isDefaultNamespace ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $namespace ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method isSameNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DOMNode $otherNode ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method isSupported ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $feature ]
+        Parameter #1 [ <required> string $version ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method lookupNamespaceURI ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $prefix ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method lookupPrefix ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $namespace ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method normalize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method removeChild ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DOMNode $child ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method replaceChild ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> DOMNode $node ]
+        Parameter #1 [ <required> DOMNode $child ]
+      }
+    }
+  }
+}
+',
 );

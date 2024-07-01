@@ -527,4 +527,166 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:gearman> class GearmanWorker ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [22] {
+    Method [ <internal:gearman, ctor> public method __construct ] {
+    }
+
+    Method [ <internal:gearman> public method returnCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method clone ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method error ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method getErrno ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method options ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method setOptions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $option ]
+      }
+    }
+
+    Method [ <internal:gearman> public method addOptions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $option ]
+      }
+    }
+
+    Method [ <internal:gearman> public method removeOptions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $option ]
+      }
+    }
+
+    Method [ <internal:gearman> public method timeout ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method setTimeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timeout ]
+      }
+    }
+
+    Method [ <internal:gearman> public method setId ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $id ]
+      }
+    }
+
+    Method [ <internal:gearman> public method addServer ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $host ]
+        Parameter #1 [ <optional> $port ]
+      }
+    }
+
+    Method [ <internal:gearman> public method addServers ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $servers ]
+      }
+    }
+
+    Method [ <internal:gearman> public method wait ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method register ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $function_name ]
+        Parameter #1 [ <optional> $timeout ]
+      }
+    }
+
+    Method [ <internal:gearman> public method unregister ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $function_name ]
+      }
+    }
+
+    Method [ <internal:gearman> public method unregisterAll ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method grabJob ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method addFunction ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $function_name ]
+        Parameter #1 [ <required> $function ]
+        Parameter #2 [ <optional> $data ]
+        Parameter #3 [ <optional> $timeout ]
+      }
+    }
+
+    Method [ <internal:gearman> public method work ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method echo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $workload ]
+      }
+    }
+  }
+}
+',
 );

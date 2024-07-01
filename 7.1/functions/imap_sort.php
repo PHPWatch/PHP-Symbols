@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'imap',
+  'toString' => 'Function [ <internal:imap> function imap_sort ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $stream_id ]
+    Parameter #1 [ <required> $criteria ]
+    Parameter #2 [ <required> $reverse ]
+    Parameter #3 [ <optional> $options ]
+    Parameter #4 [ <optional> $search_criteria ]
+    Parameter #5 [ <optional> $charset ]
+  }
+}
+',
 );

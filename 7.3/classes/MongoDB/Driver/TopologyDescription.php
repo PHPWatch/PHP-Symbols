@@ -144,4 +144,69 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\TopologyDescription ] {
+
+  - Constants [6] {
+    Constant [ public string TYPE_UNKNOWN ] { Unknown }
+    Constant [ public string TYPE_SINGLE ] { Single }
+    Constant [ public string TYPE_SHARDED ] { Sharded }
+    Constant [ public string TYPE_REPLICA_SET_NO_PRIMARY ] { ReplicaSetNoPrimary }
+    Constant [ public string TYPE_REPLICA_SET_WITH_PRIMARY ] { ReplicaSetWithPrimary }
+    Constant [ public string TYPE_LOAD_BALANCED ] { LoadBalanced }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [6] {
+    Method [ <internal:mongodb, ctor> final private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getServers ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:mongodb> final public method getType ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb> final public method hasReadableServer ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> MongoDB\\Driver\\ReadPreference or NULL $readPreference ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:mongodb> final public method hasWritableServer ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:mongodb> final public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+  }
+}
+',
 );

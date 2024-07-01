@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,28 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'ldap',
+  'toString' => 'Function [ <internal:ldap> function ldap_exop_passwd ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> LDAP\\Connection $ldap ]
+    Parameter #1 [ <optional> string $user = "" ]
+    Parameter #2 [ <optional> string $old_password = "" ]
+    Parameter #3 [ <optional> string $new_password = "" ]
+    Parameter #4 [ <optional> &$controls = null ]
+  }
+  - Return [ string|bool ]
+}
+',
 );

@@ -221,4 +221,75 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:zmq> class ZMQPoll ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [8] {
+    Method [ <internal:zmq> public method add ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $entry ]
+        Parameter #1 [ <required> $type ]
+      }
+    }
+
+    Method [ <internal:zmq> public method poll ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> &$readable ]
+        Parameter #1 [ <required> &$writable ]
+        Parameter #2 [ <optional> $timeout ]
+      }
+    }
+
+    Method [ <internal:zmq> public method getlasterrors ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:zmq> public method remove ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $remove ]
+      }
+    }
+
+    Method [ <internal:zmq> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:zmq> public method clear ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:zmq> public method items ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:zmq> final private method __clone ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'PDO',
+    )),
     'removed' => NULL,
+    'version' => '8.0.30',
     'resources' => 
     array (
       0 => 
@@ -25,14 +29,19 @@ return array (
   ),
   'classes' => 
   array (
+    0 => 'PDOException',
+    1 => 'PDO',
+    2 => 'PDOStatement',
+    3 => 'PDORow',
+  ),
+  'functions' => 
+  array (
+    'pdo_drivers' => 'pdo_drivers',
   ),
   'constants' => 
   array (
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

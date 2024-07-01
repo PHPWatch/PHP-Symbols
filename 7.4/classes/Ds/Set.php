@@ -815,4 +815,275 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:ds> <iterateable> final class Ds\\Set implements Ds\\Collection, JsonSerializable, Countable, Traversable, IteratorAggregate, ArrayAccess ] {
+
+  - Constants [1] {
+    Constant [ public int MIN_CAPACITY ] { 8 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [35] {
+    Method [ <internal:ds, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $values ]
+      }
+    }
+
+    Method [ <internal:ds> public method add ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$values ]
+      }
+    }
+
+    Method [ <internal:ds> public method allocate ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $capacity ]
+      }
+    }
+
+    Method [ <internal:ds> public method capacity ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:ds> public method contains ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$values ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:ds> public method diff ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Ds\\Set $set ]
+      }
+      - Return [ Ds\\Set ]
+    }
+
+    Method [ <internal:ds> public method filter ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> callable or NULL $predicate ]
+      }
+      - Return [ Ds\\Set ]
+    }
+
+    Method [ <internal:ds> public method first ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds> public method get ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $index ]
+      }
+    }
+
+    Method [ <internal:ds> public method intersect ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Ds\\Set $set ]
+      }
+      - Return [ Ds\\Set ]
+    }
+
+    Method [ <internal:ds> public method join ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string $glue ]
+      }
+    }
+
+    Method [ <internal:ds> public method last ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds> public method map ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> callable $callback ]
+      }
+      - Return [ Ds\\Set ]
+    }
+
+    Method [ <internal:ds> public method merge ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $values ]
+      }
+      - Return [ Ds\\Set ]
+    }
+
+    Method [ <internal:ds> public method reduce ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> callable $callback ]
+        Parameter #1 [ <optional> $initial ]
+      }
+    }
+
+    Method [ <internal:ds> public method remove ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$values ]
+      }
+    }
+
+    Method [ <internal:ds> public method reverse ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds> public method reversed ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Ds\\Set ]
+    }
+
+    Method [ <internal:ds> public method slice ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $index ]
+        Parameter #1 [ <optional> int or NULL $length ]
+      }
+      - Return [ Ds\\Set ]
+    }
+
+    Method [ <internal:ds> public method sort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> callable or NULL $comparator ]
+      }
+    }
+
+    Method [ <internal:ds> public method sorted ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> callable or NULL $comparator ]
+      }
+      - Return [ Ds\\Set ]
+    }
+
+    Method [ <internal:ds> public method sum ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds> public method union ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Ds\\Set $set ]
+      }
+      - Return [ Ds\\Set ]
+    }
+
+    Method [ <internal:ds> public method xor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Ds\\Set $set ]
+      }
+      - Return [ Ds\\Set ]
+    }
+
+    Method [ <internal:ds, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Traversable ]
+    }
+
+    Method [ <internal:ds, prototype ArrayAccess> public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $offset ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:ds, prototype ArrayAccess> public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $offset ]
+      }
+    }
+
+    Method [ <internal:ds, prototype ArrayAccess> public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $offset ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:ds, prototype ArrayAccess> public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $offset ]
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Collection> public method clear ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Collection> public method copy ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Ds\\Collection ]
+    }
+
+    Method [ <internal:ds, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:ds, prototype Ds\\Collection> public method isEmpty ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:ds, prototype JsonSerializable> public method jsonSerialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Collection> public method toArray ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+  }
+}
+',
 );

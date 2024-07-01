@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,30 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'odbc',
+  'toString' => 'Function [ <internal:odbc> function odbc_foreignkeys ] {
+
+  - Parameters [7] {
+    Parameter #0 [ <required> Odbc\\Connection $odbc ]
+    Parameter #1 [ <required> ?string $pk_catalog ]
+    Parameter #2 [ <required> string $pk_schema ]
+    Parameter #3 [ <required> string $pk_table ]
+    Parameter #4 [ <required> string $fk_catalog ]
+    Parameter #5 [ <required> string $fk_schema ]
+    Parameter #6 [ <required> string $fk_table ]
+  }
+  - Return [ Odbc\\Result|false ]
+}
+',
 );

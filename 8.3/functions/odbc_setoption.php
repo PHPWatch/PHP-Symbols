@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'odbc',
+  'toString' => 'Function [ <internal:odbc> function odbc_setoption ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $odbc ]
+    Parameter #1 [ <required> int $which ]
+    Parameter #2 [ <required> int $option ]
+    Parameter #3 [ <required> int $value ]
+  }
+  - Return [ bool ]
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'intl',
+  'toString' => 'Function [ <internal:intl> function numfmt_parse ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> NumberFormatter $formatter ]
+    Parameter #1 [ <required> string $string ]
+    Parameter #2 [ <optional> int $type = NumberFormatter::TYPE_DOUBLE ]
+    Parameter #3 [ <optional> &$offset = null ]
+  }
+  - Return [ int|float|false ]
+}
+',
 );

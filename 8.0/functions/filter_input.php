@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => true,
   ),
   'extension' => 'filter',
+  'toString' => 'Function [ <internal:filter> function filter_input ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> int $type ]
+    Parameter #1 [ <required> string $var_name ]
+    Parameter #2 [ <optional> int $filter = FILTER_DEFAULT ]
+    Parameter #3 [ <optional> array|int $options = 0 ]
+  }
+  - Return [ mixed ]
+}
+',
 );

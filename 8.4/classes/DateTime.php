@@ -727,4 +727,237 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:date> class DateTime implements DateTimeInterface ] {
+
+  - Constants [14] {
+    Constant [ public string ATOM ] { Y-m-d\\TH:i:sP }
+    Constant [ public string COOKIE ] { l, d-M-Y H:i:s T }
+    Constant [ public string ISO8601 ] { Y-m-d\\TH:i:sO }
+    Constant [ public string ISO8601_EXPANDED ] { X-m-d\\TH:i:sP }
+    Constant [ public string RFC822 ] { D, d M y H:i:s O }
+    Constant [ public string RFC850 ] { l, d-M-y H:i:s T }
+    Constant [ public string RFC1036 ] { D, d M y H:i:s O }
+    Constant [ public string RFC1123 ] { D, d M Y H:i:s O }
+    Constant [ public string RFC7231 ] { D, d M Y H:i:s \\G\\M\\T }
+    Constant [ public string RFC2822 ] { D, d M Y H:i:s O }
+    Constant [ public string RFC3339 ] { Y-m-d\\TH:i:sP }
+    Constant [ public string RFC3339_EXTENDED ] { Y-m-d\\TH:i:s.vP }
+    Constant [ public string RSS ] { D, d M Y H:i:s O }
+    Constant [ public string W3C ] { Y-m-d\\TH:i:sP }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [6] {
+    Method [ <internal:date> static public method __set_state ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $array ]
+      }
+      - Tentative return [ DateTime ]
+    }
+
+    Method [ <internal:date> static public method createFromImmutable ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DateTimeImmutable $object ]
+      }
+      - Tentative return [ static ]
+    }
+
+    Method [ <internal:date> static public method createFromInterface ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DateTimeInterface $object ]
+      }
+      - Return [ DateTime ]
+    }
+
+    Method [ <internal:date> static public method createFromFormat ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $format ]
+        Parameter #1 [ <required> string $datetime ]
+        Parameter #2 [ <optional> ?DateTimeZone $timezone = null ]
+      }
+      - Tentative return [ DateTime|false ]
+    }
+
+    Method [ <internal:date> static public method createFromTimestamp ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int|float $timestamp ]
+      }
+      - Tentative return [ static ]
+    }
+
+    Method [ <internal:date> static public method getLastErrors ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array|false ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [19] {
+    Method [ <internal:date, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> string $datetime = "now" ]
+        Parameter #1 [ <optional> ?DateTimeZone $timezone = null ]
+      }
+    }
+
+    Method [ <internal:date, prototype DateTimeInterface> public method __serialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:date, prototype DateTimeInterface> public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:date, prototype DateTimeInterface> public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:date, prototype DateTimeInterface> public method format ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $format ]
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:date> public method modify ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $modifier ]
+      }
+      - Tentative return [ DateTime ]
+    }
+
+    Method [ <internal:date> public method add ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DateInterval $interval ]
+      }
+      - Tentative return [ DateTime ]
+    }
+
+    Method [ <internal:date> public method sub ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DateInterval $interval ]
+      }
+      - Tentative return [ DateTime ]
+    }
+
+    Method [ <internal:date, prototype DateTimeInterface> public method getTimezone ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ DateTimeZone|false ]
+    }
+
+    Method [ <internal:date> public method setTimezone ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DateTimeZone $timezone ]
+      }
+      - Tentative return [ DateTime ]
+    }
+
+    Method [ <internal:date, prototype DateTimeInterface> public method getOffset ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:date, prototype DateTimeInterface> public method getMicrosecond ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:date> public method setTime ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> int $hour ]
+        Parameter #1 [ <required> int $minute ]
+        Parameter #2 [ <optional> int $second = 0 ]
+        Parameter #3 [ <optional> int $microsecond = 0 ]
+      }
+      - Tentative return [ DateTime ]
+    }
+
+    Method [ <internal:date> public method setDate ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> int $year ]
+        Parameter #1 [ <required> int $month ]
+        Parameter #2 [ <required> int $day ]
+      }
+      - Tentative return [ DateTime ]
+    }
+
+    Method [ <internal:date> public method setISODate ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> int $year ]
+        Parameter #1 [ <required> int $week ]
+        Parameter #2 [ <optional> int $dayOfWeek = 1 ]
+      }
+      - Tentative return [ DateTime ]
+    }
+
+    Method [ <internal:date> public method setTimestamp ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $timestamp ]
+      }
+      - Tentative return [ DateTime ]
+    }
+
+    Method [ <internal:date> public method setMicrosecond ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $microsecond ]
+      }
+      - Return [ static ]
+    }
+
+    Method [ <internal:date, prototype DateTimeInterface> public method getTimestamp ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:date, prototype DateTimeInterface> public method diff ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> DateTimeInterface $targetObject ]
+        Parameter #1 [ <optional> bool $absolute = false ]
+      }
+      - Tentative return [ DateInterval ]
+    }
+  }
+}
+',
 );

@@ -801,4 +801,258 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:sqlite3> class SQLite3 ] {
+
+  - Constants [37] {
+    Constant [ public int OK ] { 0 }
+    Constant [ public int DENY ] { 1 }
+    Constant [ public int IGNORE ] { 2 }
+    Constant [ public int CREATE_INDEX ] { 1 }
+    Constant [ public int CREATE_TABLE ] { 2 }
+    Constant [ public int CREATE_TEMP_INDEX ] { 3 }
+    Constant [ public int CREATE_TEMP_TABLE ] { 4 }
+    Constant [ public int CREATE_TEMP_TRIGGER ] { 5 }
+    Constant [ public int CREATE_TEMP_VIEW ] { 6 }
+    Constant [ public int CREATE_TRIGGER ] { 7 }
+    Constant [ public int CREATE_VIEW ] { 8 }
+    Constant [ public int DELETE ] { 9 }
+    Constant [ public int DROP_INDEX ] { 10 }
+    Constant [ public int DROP_TABLE ] { 11 }
+    Constant [ public int DROP_TEMP_INDEX ] { 12 }
+    Constant [ public int DROP_TEMP_TABLE ] { 13 }
+    Constant [ public int DROP_TEMP_TRIGGER ] { 14 }
+    Constant [ public int DROP_TEMP_VIEW ] { 15 }
+    Constant [ public int DROP_TRIGGER ] { 16 }
+    Constant [ public int DROP_VIEW ] { 17 }
+    Constant [ public int INSERT ] { 18 }
+    Constant [ public int PRAGMA ] { 19 }
+    Constant [ public int READ ] { 20 }
+    Constant [ public int SELECT ] { 21 }
+    Constant [ public int TRANSACTION ] { 22 }
+    Constant [ public int UPDATE ] { 23 }
+    Constant [ public int ATTACH ] { 24 }
+    Constant [ public int DETACH ] { 25 }
+    Constant [ public int ALTER_TABLE ] { 26 }
+    Constant [ public int REINDEX ] { 27 }
+    Constant [ public int ANALYZE ] { 28 }
+    Constant [ public int CREATE_VTABLE ] { 29 }
+    Constant [ public int DROP_VTABLE ] { 30 }
+    Constant [ public int FUNCTION ] { 31 }
+    Constant [ public int SAVEPOINT ] { 32 }
+    Constant [ public int COPY ] { 0 }
+    Constant [ public int RECURSIVE ] { 33 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:sqlite3> static public method version ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:sqlite3> static public method escapeString ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $string ]
+      }
+      - Tentative return [ string ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [22] {
+    Method [ <internal:sqlite3, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $filename ]
+        Parameter #1 [ <optional> int $flags = SQLITE3_OPEN_READWRITE | SQLITE3_OPEN_CREATE ]
+        Parameter #2 [ <optional> string $encryptionKey = "" ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method open ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $filename ]
+        Parameter #1 [ <optional> int $flags = SQLITE3_OPEN_READWRITE | SQLITE3_OPEN_CREATE ]
+        Parameter #2 [ <optional> string $encryptionKey = "" ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:sqlite3> public method close ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:sqlite3> public method lastInsertRowID ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:sqlite3> public method lastErrorCode ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:sqlite3> public method lastExtendedErrorCode ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:sqlite3> public method lastErrorMsg ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:sqlite3> public method changes ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:sqlite3> public method busyTimeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $milliseconds ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:sqlite3> public method loadExtension ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $name ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:sqlite3> public method backup ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> SQLite3 $destination ]
+        Parameter #1 [ <optional> string $sourceDatabase = "main" ]
+        Parameter #2 [ <optional> string $destinationDatabase = "main" ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:sqlite3> public method prepare ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $query ]
+      }
+      - Tentative return [ SQLite3Stmt|false ]
+    }
+
+    Method [ <internal:sqlite3> public method exec ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $query ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:sqlite3> public method query ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $query ]
+      }
+      - Tentative return [ SQLite3Result|false ]
+    }
+
+    Method [ <internal:sqlite3> public method querySingle ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $query ]
+        Parameter #1 [ <optional> bool $entireRow = false ]
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:sqlite3> public method createFunction ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $name ]
+        Parameter #1 [ <required> callable $callback ]
+        Parameter #2 [ <optional> int $argCount = -1 ]
+        Parameter #3 [ <optional> int $flags = 0 ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:sqlite3> public method createAggregate ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $name ]
+        Parameter #1 [ <required> callable $stepCallback ]
+        Parameter #2 [ <required> callable $finalCallback ]
+        Parameter #3 [ <optional> int $argCount = -1 ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:sqlite3> public method createCollation ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $name ]
+        Parameter #1 [ <required> callable $callback ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:sqlite3> public method openBlob ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $table ]
+        Parameter #1 [ <required> string $column ]
+        Parameter #2 [ <required> int $rowid ]
+        Parameter #3 [ <optional> string $database = "main" ]
+        Parameter #4 [ <optional> int $flags = SQLITE3_OPEN_READONLY ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method enableExceptions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> bool $enable = false ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:sqlite3> public method enableExtendedResultCodes ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> bool $enable = true ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:sqlite3> public method setAuthorizer ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?callable $callback ]
+      }
+      - Tentative return [ bool ]
+    }
+  }
+}
+',
 );

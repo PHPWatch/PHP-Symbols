@@ -50,4 +50,27 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:mongodb> interface MongoDB\\BSON\\Serializable extends MongoDB\\BSON\\Type ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:mongodb> abstract public method bsonSerialize ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

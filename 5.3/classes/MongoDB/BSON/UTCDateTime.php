@@ -109,4 +109,43 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\BSON\\UTCDateTime implements MongoDB\\BSON\\Type ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [4] {
+    Method [ <internal:mongodb, ctor> final public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $milliseconds ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method toDateTime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> public method __wakeUp ] {
+    }
+  }
+}
+',
 );

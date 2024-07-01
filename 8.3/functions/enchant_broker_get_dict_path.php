@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'enchant',
+  'toString' => 'Function [ <internal, deprecated:enchant> function enchant_broker_get_dict_path ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> EnchantBroker $broker ]
+    Parameter #1 [ <required> int $type ]
+  }
+  - Return [ string|false ]
+}
+',
 );

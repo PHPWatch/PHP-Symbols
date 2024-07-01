@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'odbc',
+  'toString' => 'Function [ <internal:odbc> function odbc_primarykeys ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $odbc ]
+    Parameter #1 [ <required> ?string $catalog ]
+    Parameter #2 [ <required> string $schema ]
+    Parameter #3 [ <required> string $table ]
+  }
+}
+',
 );

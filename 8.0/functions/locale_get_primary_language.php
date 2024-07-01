@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,24 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => true,
   ),
   'extension' => 'intl',
+  'toString' => 'Function [ <internal:intl> function locale_get_primary_language ] {
+
+  - Parameters [1] {
+    Parameter #0 [ <required> string $locale ]
+  }
+  - Return [ ?string ]
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function version_compare ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $ver1 ]
+    Parameter #1 [ <required> $ver2 ]
+    Parameter #2 [ <optional> $oper ]
+  }
+}
+',
 );

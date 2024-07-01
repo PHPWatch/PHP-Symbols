@@ -504,4 +504,204 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> <iterateable> class IntlBreakIterator implements IteratorAggregate, Traversable ] {
+
+  - Constants [19] {
+    Constant [ public int DONE ] { -1 }
+    Constant [ public int WORD_NONE ] { 0 }
+    Constant [ public int WORD_NONE_LIMIT ] { 100 }
+    Constant [ public int WORD_NUMBER ] { 100 }
+    Constant [ public int WORD_NUMBER_LIMIT ] { 200 }
+    Constant [ public int WORD_LETTER ] { 200 }
+    Constant [ public int WORD_LETTER_LIMIT ] { 300 }
+    Constant [ public int WORD_KANA ] { 300 }
+    Constant [ public int WORD_KANA_LIMIT ] { 400 }
+    Constant [ public int WORD_IDEO ] { 400 }
+    Constant [ public int WORD_IDEO_LIMIT ] { 500 }
+    Constant [ public int LINE_SOFT ] { 0 }
+    Constant [ public int LINE_SOFT_LIMIT ] { 100 }
+    Constant [ public int LINE_HARD ] { 100 }
+    Constant [ public int LINE_HARD_LIMIT ] { 200 }
+    Constant [ public int SENTENCE_TERM ] { 0 }
+    Constant [ public int SENTENCE_TERM_LIMIT ] { 100 }
+    Constant [ public int SENTENCE_SEP ] { 100 }
+    Constant [ public int SENTENCE_SEP_LIMIT ] { 200 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [6] {
+    Method [ <internal:intl> static public method createCharacterInstance ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $locale = null ]
+      }
+      - Tentative return [ ?IntlBreakIterator ]
+    }
+
+    Method [ <internal:intl> static public method createCodePointInstance ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ IntlCodePointBreakIterator ]
+    }
+
+    Method [ <internal:intl> static public method createLineInstance ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $locale = null ]
+      }
+      - Tentative return [ ?IntlBreakIterator ]
+    }
+
+    Method [ <internal:intl> static public method createSentenceInstance ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $locale = null ]
+      }
+      - Tentative return [ ?IntlBreakIterator ]
+    }
+
+    Method [ <internal:intl> static public method createTitleInstance ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $locale = null ]
+      }
+      - Tentative return [ ?IntlBreakIterator ]
+    }
+
+    Method [ <internal:intl> static public method createWordInstance ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $locale = null ]
+      }
+      - Tentative return [ ?IntlBreakIterator ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [16] {
+    Method [ <internal:intl, ctor> private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method current ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl> public method first ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl> public method following ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $offset ]
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl> public method getErrorCode ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl> public method getErrorMessage ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:intl> public method getLocale ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $type ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:intl> public method getPartsIterator ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string $type = IntlPartsIterator::KEY_SEQUENTIAL ]
+      }
+      - Tentative return [ IntlPartsIterator ]
+    }
+
+    Method [ <internal:intl> public method getText ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:intl> public method isBoundary ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $offset ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:intl> public method last ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl> public method next ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?int $offset = null ]
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl> public method preceding ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $offset ]
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl> public method previous ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:intl> public method setText ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $text ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:intl, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Iterator ]
+    }
+  }
+}
+',
 );

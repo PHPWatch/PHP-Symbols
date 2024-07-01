@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'apcu',
+  'toString' => 'Function [ <internal:apcu> function apcu_inc ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> string $key ]
+    Parameter #1 [ <optional> int $step = 1 ]
+    Parameter #2 [ <optional> &$success = null ]
+    Parameter #3 [ <optional> int $ttl = 0 ]
+  }
+  - Return [ int|false ]
+}
+',
 );

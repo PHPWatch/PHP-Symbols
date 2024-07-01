@@ -243,4 +243,94 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\BSON\\Javascript implements Stringable, MongoDB\\BSON\\JavascriptInterface, JsonSerializable, MongoDB\\BSON\\Type, Serializable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:mongodb> final static public method __set_state ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $properties ]
+      }
+      - Return [ MongoDB\\BSON\\Javascript ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [9] {
+    Method [ <internal:mongodb, ctor> final public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $code ]
+        Parameter #1 [ <optional> object|array|null $scope = null ]
+      }
+    }
+
+    Method [ <internal:mongodb, prototype MongoDB\\BSON\\JavascriptInterface> final public method getCode ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb, prototype MongoDB\\BSON\\JavascriptInterface> final public method getScope ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?object ]
+    }
+
+    Method [ <internal:mongodb, prototype Stringable> final public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method serialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $data ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb> final public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb> final public method __serialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:mongodb, prototype JsonSerializable> final public method jsonSerialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ mixed ]
+    }
+  }
+}
+',
 );

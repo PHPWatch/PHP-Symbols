@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,24 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'mysqli',
+  'toString' => 'Function [ <internal:mysqli> function mysqli_real_connect ] {
+
+  - Parameters [8] {
+    Parameter #0 [ <required> $link ]
+    Parameter #1 [ <optional> $host ]
+    Parameter #2 [ <optional> $user ]
+    Parameter #3 [ <optional> $password ]
+    Parameter #4 [ <optional> $database ]
+    Parameter #5 [ <optional> $port ]
+    Parameter #6 [ <optional> $socket ]
+    Parameter #7 [ <optional> $flags ]
+  }
+}
+',
 );

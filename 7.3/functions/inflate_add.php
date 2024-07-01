@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'zlib',
+  'toString' => 'Function [ <internal:zlib> function inflate_add ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $context ]
+    Parameter #1 [ <required> $encoded_data ]
+    Parameter #2 [ <optional> $flush_mode ]
+  }
+}
+',
 );

@@ -252,4 +252,101 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Core> final class Fiber ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:Core> static public method getCurrent ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?Fiber ]
+    }
+
+    Method [ <internal:Core> static public method suspend ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> mixed $value = null ]
+      }
+      - Return [ mixed ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [9] {
+    Method [ <internal:Core, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> callable $callback ]
+      }
+    }
+
+    Method [ <internal:Core> public method start ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> mixed ...$args ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:Core> public method resume ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> mixed $value = null ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:Core> public method throw ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Throwable $exception ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:Core> public method isStarted ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Core> public method isSuspended ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Core> public method isRunning ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Core> public method isTerminated ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Core> public method getReturn ] {
+
+      - Parameters [0] {
+      }
+      - Return [ mixed ]
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,18 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'curl',
+  'toString' => 'Function [ <internal:curl> function curl_setopt_array ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $ch ]
+    Parameter #1 [ <required> array $options ]
+  }
+}
+',
 );

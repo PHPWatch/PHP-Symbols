@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'gmp',
+  'toString' => 'Function [ <internal:gmp> function gmp_div ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> GMP|string|int $num1 ]
+    Parameter #1 [ <required> GMP|string|int $num2 ]
+    Parameter #2 [ <optional> int $rounding_mode = GMP_ROUND_ZERO ]
+  }
+  - Return [ GMP ]
+}
+',
 );

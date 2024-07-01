@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => true,
   ),
   'extension' => 'apcu',
+  'toString' => 'Function [ <internal:apcu> function apcu_entry ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> string $key ]
+    Parameter #1 [ <required> callable $callback ]
+    Parameter #2 [ <optional> int $ttl = 0 ]
+  }
+  - Return [ mixed ]
+}
+',
 );

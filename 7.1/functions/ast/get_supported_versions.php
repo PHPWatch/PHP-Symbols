@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,17 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'ast',
+  'toString' => 'Function [ <internal:ast> function ast\\get_supported_versions ] {
+
+  - Parameters [1] {
+    Parameter #0 [ <optional> boolean $exclude_deprecated ]
+  }
+}
+',
 );

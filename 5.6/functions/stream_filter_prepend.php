@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function stream_filter_prepend ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $stream ]
+    Parameter #1 [ <required> $filtername ]
+    Parameter #2 [ <optional> $read_write ]
+    Parameter #3 [ <optional> $filterparams ]
+  }
+}
+',
 );

@@ -160,4 +160,61 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:dom> interface Dom\\ParentNode ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [5] {
+    Method [ <internal:dom> abstract public method append ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> Dom\\Node|string ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom> abstract public method prepend ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> Dom\\Node|string ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom> abstract public method replaceChildren ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> Dom\\Node|string ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom> abstract public method querySelector ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $selectors ]
+      }
+      - Return [ ?Dom\\Element ]
+    }
+
+    Method [ <internal:dom> abstract public method querySelectorAll ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $selectors ]
+      }
+      - Return [ Dom\\NodeList ]
+    }
+  }
+}
+',
 );

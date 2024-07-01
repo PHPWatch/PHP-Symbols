@@ -321,4 +321,89 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:soap> class SoapServer ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [9] {
+    Method [ <internal:soap, ctor> public method SoapServer ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $wsdl ]
+        Parameter #1 [ <optional> $options ]
+      }
+    }
+
+    Method [ <internal:soap> public method setPersistence ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $mode ]
+      }
+    }
+
+    Method [ <internal:soap> public method setClass ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $class_name ]
+        Parameter #1 [ <optional> $args ]
+      }
+    }
+
+    Method [ <internal:soap> public method setObject ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+    }
+
+    Method [ <internal:soap> public method addFunction ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $functions ]
+      }
+    }
+
+    Method [ <internal:soap> public method getFunctions ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:soap> public method handle ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $soap_request ]
+      }
+    }
+
+    Method [ <internal:soap> public method fault ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $code ]
+        Parameter #1 [ <required> $string ]
+        Parameter #2 [ <optional> $actor ]
+        Parameter #3 [ <optional> $details ]
+        Parameter #4 [ <optional> $name ]
+      }
+    }
+
+    Method [ <internal:soap> public method addSoapHeader ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+    }
+  }
+}
+',
 );

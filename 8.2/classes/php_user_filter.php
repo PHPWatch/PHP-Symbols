@@ -168,4 +168,49 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:standard> class php_user_filter ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [3] {
+    Property [ public string $filtername = \'\' ]
+    Property [ public mixed $params = \'\' ]
+    Property [ public $stream = NULL ]
+  }
+
+  - Methods [3] {
+    Method [ <internal:standard> public method filter ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $in ]
+        Parameter #1 [ <required> $out ]
+        Parameter #2 [ <required> &$consumed ]
+        Parameter #3 [ <required> bool $closing ]
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:standard> public method onCreate ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:standard> public method onClose ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+  }
+}
+',
 );

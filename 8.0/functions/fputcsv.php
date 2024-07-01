@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,28 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function fputcsv ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $stream ]
+    Parameter #1 [ <required> array $fields ]
+    Parameter #2 [ <optional> string $separator = "," ]
+    Parameter #3 [ <optional> string $enclosure = "\\"" ]
+    Parameter #4 [ <optional> string $escape = "\\\\" ]
+  }
+  - Return [ int|false ]
+}
+',
 );

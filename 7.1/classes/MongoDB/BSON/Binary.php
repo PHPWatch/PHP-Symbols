@@ -250,4 +250,93 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\BSON\\Binary implements MongoDB\\BSON\\BinaryInterface, JsonSerializable, MongoDB\\BSON\\Type, Serializable ] {
+
+  - Constants [8] {
+    Constant [ public integer TYPE_GENERIC ] { 0 }
+    Constant [ public integer TYPE_FUNCTION ] { 1 }
+    Constant [ public integer TYPE_OLD_BINARY ] { 2 }
+    Constant [ public integer TYPE_OLD_UUID ] { 3 }
+    Constant [ public integer TYPE_UUID ] { 4 }
+    Constant [ public integer TYPE_MD5 ] { 5 }
+    Constant [ public integer TYPE_ENCRYPTED ] { 6 }
+    Constant [ public integer TYPE_USER_DEFINED ] { 128 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:mongodb> static public method __set_state ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $properties ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [9] {
+    Method [ <internal:mongodb, ctor> final public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <required> $type ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method __serialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype MongoDB\\BSON\\BinaryInterface> final public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+    }
+
+    Method [ <internal:mongodb, prototype JsonSerializable> final public method jsonSerialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method serialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $serialized ]
+      }
+    }
+
+    Method [ <internal:mongodb, prototype MongoDB\\BSON\\BinaryInterface> final public method getData ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype MongoDB\\BSON\\BinaryInterface> final public method getType ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

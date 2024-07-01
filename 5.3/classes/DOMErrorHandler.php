@@ -66,4 +66,28 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> class DOMErrorHandler ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:dom> public method handleError ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DOMError $error ]
+      }
+    }
+  }
+}
+',
 );

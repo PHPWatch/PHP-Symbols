@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function array_uintersect_uassoc ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $arr1 ]
+    Parameter #1 [ <required> $arr2 ]
+    Parameter #2 [ <required> $callback_data_compare_func ]
+    Parameter #3 [ <required> $callback_key_compare_func ]
+  }
+}
+',
 );

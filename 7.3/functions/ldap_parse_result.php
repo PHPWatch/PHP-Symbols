@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,23 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'ldap',
+  'toString' => 'Function [ <internal:ldap> function ldap_parse_result ] {
+
+  - Parameters [7] {
+    Parameter #0 [ <required> $link ]
+    Parameter #1 [ <required> $result ]
+    Parameter #2 [ <required> &$errcode ]
+    Parameter #3 [ <optional> &$matcheddn ]
+    Parameter #4 [ <optional> &$errmsg ]
+    Parameter #5 [ <optional> &$referrals ]
+    Parameter #6 [ <optional> &$serverctrls ]
+  }
+}
+',
 );

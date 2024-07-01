@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'dba',
+  'toString' => 'Function [ <internal:dba> function dba_fetch ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $key ]
+    Parameter #1 [ <required> $skip ]
+    Parameter #2 [ <optional> $handle ]
+  }
+}
+',
 );

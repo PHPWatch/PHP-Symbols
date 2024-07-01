@@ -85,4 +85,33 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\CursorId ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:mongodb, ctor> final private method __construct ] {
+    }
+
+    Method [ <internal:mongodb> final public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> public method __wakeUp ] {
+    }
+  }
+}
+',
 );

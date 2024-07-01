@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'gmp',
+  'toString' => 'Function [ <internal:gmp> function gmp_import ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> string $data ]
+    Parameter #1 [ <optional> int $word_size = 1 ]
+    Parameter #2 [ <optional> int $flags = GMP_MSW_FIRST | GMP_NATIVE_ENDIAN ]
+  }
+  - Return [ GMP ]
+}
+',
 );

@@ -96,4 +96,38 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Core> final class WeakReference ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:Core> static public method create ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> object $referent ]
+      }
+      - Return [ WeakReference ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [2] {
+    Method [ <internal:Core, ctor> public method __construct ] {
+    }
+
+    Method [ <internal:Core> public method get ] {
+
+      - Parameters [0] {
+      }
+      - Return [ object or NULL ]
+    }
+  }
+}
+',
 );

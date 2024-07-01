@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,17 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'mcrypt',
+  'toString' => 'Function [ <internal, deprecated:mcrypt> function mcrypt_enc_self_test ] {
+
+  - Parameters [1] {
+    Parameter #0 [ <required> $td ]
+  }
+}
+',
 );

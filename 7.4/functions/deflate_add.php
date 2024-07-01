@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'zlib',
+  'toString' => 'Function [ <internal:zlib> function deflate_add ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $resource ]
+    Parameter #1 [ <required> $add ]
+    Parameter #2 [ <optional> $flush_behavior ]
+  }
+}
+',
 );

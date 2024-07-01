@@ -64,4 +64,35 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:mongodb> interface MongoDB\\BSON\\UTCDateTimeInterface extends Stringable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [2] {
+    Method [ <internal:mongodb> abstract public method toDateTime ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ DateTime ]
+    }
+
+    Method [ <internal:mongodb, prototype Stringable> abstract public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+  }
+}
+',
 );

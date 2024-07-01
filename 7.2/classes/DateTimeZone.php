@@ -249,4 +249,88 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:date> class DateTimeZone ] {
+
+  - Constants [14] {
+    Constant [ public integer AFRICA ] { 1 }
+    Constant [ public integer AMERICA ] { 2 }
+    Constant [ public integer ANTARCTICA ] { 4 }
+    Constant [ public integer ARCTIC ] { 8 }
+    Constant [ public integer ASIA ] { 16 }
+    Constant [ public integer ATLANTIC ] { 32 }
+    Constant [ public integer AUSTRALIA ] { 64 }
+    Constant [ public integer EUROPE ] { 128 }
+    Constant [ public integer INDIAN ] { 256 }
+    Constant [ public integer PACIFIC ] { 512 }
+    Constant [ public integer UTC ] { 1024 }
+    Constant [ public integer ALL ] { 2047 }
+    Constant [ public integer ALL_WITH_BC ] { 4095 }
+    Constant [ public integer PER_COUNTRY ] { 4096 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [3] {
+    Method [ <internal:date> static public method __set_state ] {
+    }
+
+    Method [ <internal:date> static public method listAbbreviations ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:date> static public method listIdentifiers ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $what ]
+        Parameter #1 [ <optional> $country ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [6] {
+    Method [ <internal:date, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timezone ]
+      }
+    }
+
+    Method [ <internal:date> public method __wakeup ] {
+    }
+
+    Method [ <internal:date> public method getName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:date> public method getOffset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+    }
+
+    Method [ <internal:date> public method getTransitions ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $timestamp_begin ]
+        Parameter #1 [ <optional> $timestamp_end ]
+      }
+    }
+
+    Method [ <internal:date> public method getLocation ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'intl',
+  'toString' => 'Function [ <internal:intl> function intlgregcal_create_instance ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <optional> $timeZoneOrYear ]
+    Parameter #1 [ <optional> $localeOrMonth ]
+    Parameter #2 [ <optional> $dayOfMonth ]
+    Parameter #3 [ <optional> $hour ]
+    Parameter #4 [ <optional> $minute ]
+    Parameter #5 [ <optional> $second ]
+  }
+}
+',
 );

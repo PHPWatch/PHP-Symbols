@@ -653,4 +653,170 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:sqlite3> class SQLite3 ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:sqlite3> static public method version ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> static public method escapeString ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $value ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [18] {
+    Method [ <internal:sqlite3> public method open ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $filename ]
+        Parameter #1 [ <optional> $flags ]
+        Parameter #2 [ <optional> $encryption_key ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method close ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> public method exec ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $query ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method lastInsertRowID ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> public method lastErrorCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> public method lastErrorMsg ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> public method busyTimeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $ms ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method loadExtension ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $shared_library ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method changes ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> public method prepare ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $query ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method query ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $query ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method querySingle ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $query ]
+        Parameter #1 [ <optional> $entire_row ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method createFunction ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $callback ]
+        Parameter #2 [ <optional> $argument_count ]
+        Parameter #3 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method createAggregate ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $step_callback ]
+        Parameter #2 [ <required> $final_callback ]
+        Parameter #3 [ <optional> $argument_count ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method createCollation ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $callback ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method openBlob ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $table ]
+        Parameter #1 [ <required> $column ]
+        Parameter #2 [ <required> $rowid ]
+        Parameter #3 [ <optional> $dbname ]
+        Parameter #4 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:sqlite3> public method enableExceptions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $enableExceptions ]
+      }
+    }
+
+    Method [ <internal:sqlite3, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $filename ]
+        Parameter #1 [ <optional> $flags ]
+        Parameter #2 [ <optional> $encryption_key ]
+      }
+    }
+  }
+}
+',
 );

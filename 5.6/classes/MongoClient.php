@@ -459,4 +459,140 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> class MongoClient ] {
+
+  - Constants [8] {
+    Constant [ string DEFAULT_HOST ] { localhost }
+    Constant [ integer DEFAULT_PORT ] { 27017 }
+    Constant [ string VERSION ] { 1.6.16 }
+    Constant [ string RP_PRIMARY ] { primary }
+    Constant [ string RP_PRIMARY_PREFERRED ] { primaryPreferred }
+    Constant [ string RP_SECONDARY ] { secondary }
+    Constant [ string RP_SECONDARY_PREFERRED ] { secondaryPreferred }
+    Constant [ string RP_NEAREST ] { nearest }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:mongo> static public method getConnections ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> static public method killCursor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $cursor_id ]
+      }
+    }
+  }
+
+  - Properties [4] {
+    Property [ <default> public $connected ]
+    Property [ <default> public $status ]
+    Property [ <default> protected $server ]
+    Property [ <default> protected $persistent ]
+  }
+
+  - Methods [14] {
+    Method [ <internal:mongo, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $server ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo> public method connect ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method __get ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:mongo> public method selectDB ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $database_name ]
+      }
+    }
+
+    Method [ <internal:mongo> public method selectCollection ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $database_name ]
+        Parameter #1 [ <optional> $collection_name ]
+      }
+    }
+
+    Method [ <internal:mongo> public method getReadPreference ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method setReadPreference ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $read_preference ]
+        Parameter #1 [ <optional> array $tags ]
+      }
+    }
+
+    Method [ <internal:mongo> public method getWriteConcern ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method setWriteConcern ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $w ]
+        Parameter #1 [ <optional> $wtimeout ]
+      }
+    }
+
+    Method [ <internal:mongo> public method dropDB ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $MongoDB_object_OR_database_name ]
+      }
+    }
+
+    Method [ <internal:mongo> public method listDBs ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method getHosts ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method close ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

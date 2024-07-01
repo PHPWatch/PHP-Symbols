@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,18 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'mcrypt',
+  'toString' => 'Function [ <internal:mcrypt> function mcrypt_get_key_size ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $cipher ]
+    Parameter #1 [ <required> $module ]
+  }
+}
+',
 );

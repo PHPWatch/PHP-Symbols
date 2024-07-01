@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    \ReflectionExtension::__set_state(array(
+       'name' => 'igbinary',
+    )),
     'removed' => NULL,
+    'version' => '3.2.15',
     'resources' => 
     array (
       0 => 
@@ -26,16 +30,19 @@ return array (
   'classes' => 
   array (
   ),
+  'functions' => 
+  array (
+    'igbinary_serialize' => 'igbinary_serialize',
+    'igbinary_unserialize' => 'igbinary_unserialize',
+  ),
   'constants' => 
   array (
   ),
   'dependencies' => 
   array (
   ),
-  'functions' => 
-  array (
-  ),
   'ini' => 
   array (
+    'igbinary.compact_strings' => '1',
   ),
 );

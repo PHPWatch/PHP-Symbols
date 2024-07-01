@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'iconv',
+  'toString' => 'Function [ <internal:iconv> function iconv_mime_encode ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $field_name ]
+    Parameter #1 [ <required> $field_value ]
+    Parameter #2 [ <optional> $preference ]
+  }
+}
+',
 );

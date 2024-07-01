@@ -137,4 +137,63 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:ds> interface Ds\\Collection extends IteratorAggregate, Traversable, Countable, JsonSerializable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [7] {
+    Method [ <internal:ds> abstract public method clear ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds> abstract public method copy ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Ds\\Collection ]
+    }
+
+    Method [ <internal:ds> abstract public method isEmpty ] {
+
+      - Parameters [0] {
+      }
+      - Return [ boolean ]
+    }
+
+    Method [ <internal:ds> abstract public method toArray ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:Core, inherits IteratorAggregate> abstract public method getIterator ] {
+    }
+
+    Method [ <internal:Core, inherits Countable> abstract public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:json, inherits JsonSerializable> abstract public method jsonSerialize ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function pfsockopen ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $hostname ]
+    Parameter #1 [ <required> $port ]
+    Parameter #2 [ <optional> &$errno ]
+    Parameter #3 [ <optional> &$errstr ]
+    Parameter #4 [ <optional> $timeout ]
+  }
+}
+',
 );

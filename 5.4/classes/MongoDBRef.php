@@ -85,4 +85,30 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> class MongoDBRef ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [3] {
+    Method [ <internal:mongo> static public method create ] {
+    }
+
+    Method [ <internal:mongo> static public method isRef ] {
+    }
+
+    Method [ <internal:mongo> static public method get ] {
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

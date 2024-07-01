@@ -1172,4 +1172,295 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> class DOMText extends DOMCharacterData implements DOMChildNode ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [21] {
+    Property [ public string $nodeName ]
+    Property [ public ?string $nodeValue ]
+    Property [ public int $nodeType ]
+    Property [ public ?DOMNode $parentNode ]
+    Property [ public DOMNodeList $childNodes ]
+    Property [ public ?DOMNode $firstChild ]
+    Property [ public ?DOMNode $lastChild ]
+    Property [ public ?DOMNode $previousSibling ]
+    Property [ public ?DOMNode $nextSibling ]
+    Property [ public ?DOMNamedNodeMap $attributes ]
+    Property [ public ?DOMDocument $ownerDocument ]
+    Property [ public ?string $namespaceURI ]
+    Property [ public string $prefix ]
+    Property [ public ?string $localName ]
+    Property [ public ?string $baseURI ]
+    Property [ public string $textContent ]
+    Property [ public string $data ]
+    Property [ public int $length ]
+    Property [ public ?DOMElement $previousElementSibling ]
+    Property [ public ?DOMElement $nextElementSibling ]
+    Property [ public string $wholeText ]
+  }
+
+  - Methods [32] {
+    Method [ <internal:dom, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string $data = "" ]
+      }
+    }
+
+    Method [ <internal:dom> public method isWhitespaceInElementContent ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom> public method isElementContentWhitespace ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom> public method splitText ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $offset ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMCharacterData> public method appendData ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $data ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits DOMCharacterData> public method substringData ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $offset ]
+        Parameter #1 [ <required> int $count ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMCharacterData> public method insertData ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $offset ]
+        Parameter #1 [ <required> string $data ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits DOMCharacterData> public method deleteData ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $offset ]
+        Parameter #1 [ <required> int $count ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits DOMCharacterData> public method replaceData ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> int $offset ]
+        Parameter #1 [ <required> int $count ]
+        Parameter #2 [ <required> string $data ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits DOMCharacterData, prototype DOMChildNode> public method replaceWith ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom, inherits DOMCharacterData, prototype DOMChildNode> public method remove ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom, inherits DOMCharacterData, prototype DOMChildNode> public method before ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom, inherits DOMCharacterData, prototype DOMChildNode> public method after ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method __sleep ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method appendChild ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DOMNode $node ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method C14N ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> bool $exclusive = false ]
+        Parameter #1 [ <optional> bool $withComments = false ]
+        Parameter #2 [ <optional> ?array $xpath = null ]
+        Parameter #3 [ <optional> ?array $nsPrefixes = null ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method C14NFile ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $uri ]
+        Parameter #1 [ <optional> bool $exclusive = false ]
+        Parameter #2 [ <optional> bool $withComments = false ]
+        Parameter #3 [ <optional> ?array $xpath = null ]
+        Parameter #4 [ <optional> ?array $nsPrefixes = null ]
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method cloneNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> bool $deep = false ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method getLineNo ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method getNodePath ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method hasAttributes ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method hasChildNodes ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method insertBefore ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> DOMNode $node ]
+        Parameter #1 [ <optional> ?DOMNode $child = null ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method isDefaultNamespace ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $namespace ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method isSameNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DOMNode $otherNode ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method isSupported ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $feature ]
+        Parameter #1 [ <required> string $version ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method lookupNamespaceURI ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $prefix ]
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method lookupPrefix ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $namespace ]
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method normalize ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method removeChild ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DOMNode $child ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method replaceChild ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> DOMNode $node ]
+        Parameter #1 [ <required> DOMNode $child ]
+      }
+    }
+  }
+}
+',
 );

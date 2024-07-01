@@ -611,4 +611,208 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:amqp> class AMQPChannel ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [6] {
+    Property [ <default> private $connection ]
+    Property [ <default> private $prefetchCount ]
+    Property [ <default> private $prefetchSize ]
+    Property [ <default> private $globalPrefetchCount ]
+    Property [ <default> private $globalPrefetchSize ]
+    Property [ <default> private $consumers ]
+  }
+
+  - Methods [24] {
+    Method [ <internal:amqp, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> AMQPConnection $connection ]
+      }
+    }
+
+    Method [ <internal:amqp> public method isConnected ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:amqp> public method close ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getChannelId ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method setPrefetchSize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $size ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getPrefetchSize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method setPrefetchCount ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $count ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getPrefetchCount ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method setGlobalPrefetchSize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $size ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getGlobalPrefetchSize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method setGlobalPrefetchCount ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $count ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getGlobalPrefetchCount ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method qos ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> int $size ]
+        Parameter #1 [ <required> int $count ]
+        Parameter #2 [ <optional> bool $global ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method startTransaction ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method commitTransaction ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method rollbackTransaction ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getConnection ] {
+
+      - Parameters [0] {
+      }
+      - Return [ AMQPConnection ]
+    }
+
+    Method [ <internal:amqp> public method basicRecover ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> bool $requeue ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method confirmSelect ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method waitForConfirm ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> float $timeout ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method setConfirmCallback ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> callable or NULL $ackCallback ]
+        Parameter #1 [ <optional> callable or NULL $nackCallback ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method setReturnCallback ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> callable or NULL $returnCallback ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method waitForBasicReturn ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> float $timeout ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getConsumers ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+  }
+}
+',
 );

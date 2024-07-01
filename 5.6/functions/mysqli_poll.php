@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'mysqli',
+  'toString' => 'Function [ <internal:mysqli> function mysqli_poll ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> array or NULL &$read ]
+    Parameter #1 [ <required> array or NULL &$write ]
+    Parameter #2 [ <required> array or NULL &$error ]
+    Parameter #3 [ <required> $sec ]
+    Parameter #4 [ <optional> $usec ]
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'memcache',
+  'toString' => 'Function [ <internal:memcache> function memcache_get ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $param0 ]
+    Parameter #1 [ <required> $param1 ]
+    Parameter #2 [ <required> &$param2 ]
+    Parameter #3 [ <required> &$param3 ]
+  }
+}
+',
 );

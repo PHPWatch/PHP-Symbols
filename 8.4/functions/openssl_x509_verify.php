@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_x509_verify ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> OpenSSLCertificate|string $certificate ]
+    Parameter #1 [ <required> $public_key ]
+  }
+  - Return [ int ]
+}
+',
 );

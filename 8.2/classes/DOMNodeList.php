@@ -112,4 +112,43 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> <iterateable> class DOMNodeList implements IteratorAggregate, Traversable, Countable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ public int $length ]
+  }
+
+  - Methods [3] {
+    Method [ <internal:dom, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:dom, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Iterator ]
+    }
+
+    Method [ <internal:dom> public method item ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $index ]
+      }
+    }
+  }
+}
+',
 );

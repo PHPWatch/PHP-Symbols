@@ -193,4 +193,86 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Core> <iterateable> final class Generator implements Iterator, Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [9] {
+    Method [ <internal:Core, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:Core, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Core, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:Core, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:Core, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:Core> public method send ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $value ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:Core> public method throw ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Throwable $exception ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:Core> public method getReturn ] {
+
+      - Parameters [0] {
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:Core> public method __debugInfo ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+  }
+}
+',
 );

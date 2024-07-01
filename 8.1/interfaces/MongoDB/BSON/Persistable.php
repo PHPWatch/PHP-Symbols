@@ -77,4 +77,36 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:mongodb> interface MongoDB\\BSON\\Persistable extends MongoDB\\BSON\\Serializable, MongoDB\\BSON\\Type, MongoDB\\BSON\\Unserializable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [2] {
+    Method [ <internal:mongodb, prototype MongoDB\\BSON\\Serializable> abstract public method bsonSerialize ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ stdClass|MongoDB\\BSON\\Document|array ]
+    }
+
+    Method [ <internal:mongodb, inherits MongoDB\\BSON\\Unserializable> abstract public method bsonUnserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+      - Tentative return [ void ]
+    }
+  }
+}
+',
 );

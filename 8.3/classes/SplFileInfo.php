@@ -577,4 +577,246 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> class SplFileInfo implements Stringable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [31] {
+    Method [ <internal:SPL, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $filename ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getPath ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SPL> public method getFilename ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SPL> public method getExtension ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SPL> public method getBasename ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string $suffix = "" ]
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SPL> public method getPathname ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SPL> public method getPerms ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:SPL> public method getInode ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:SPL> public method getSize ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:SPL> public method getOwner ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:SPL> public method getGroup ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:SPL> public method getATime ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:SPL> public method getMTime ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:SPL> public method getCTime ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:SPL> public method getType ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:SPL> public method isWritable ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL> public method isReadable ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL> public method isExecutable ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL> public method isFile ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL> public method isDir ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL> public method isLink ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL> public method getLinkTarget ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:SPL> public method getRealPath ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:SPL> public method getFileInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $class = null ]
+      }
+      - Tentative return [ SplFileInfo ]
+    }
+
+    Method [ <internal:SPL> public method getPathInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $class = null ]
+      }
+      - Tentative return [ ?SplFileInfo ]
+    }
+
+    Method [ <internal:SPL> public method openFile ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> string $mode = "r" ]
+        Parameter #1 [ <optional> bool $useIncludePath = false ]
+        Parameter #2 [ <optional> $context = null ]
+      }
+      - Tentative return [ SplFileObject ]
+    }
+
+    Method [ <internal:SPL> public method setFileClass ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string $class = SplFileObject::class ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL> public method setInfoClass ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string $class = SplFileInfo::class ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, prototype Stringable> public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:SPL> public method __debugInfo ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal, deprecated:SPL> final public method _bad_state_ex ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+  }
+}
+',
 );

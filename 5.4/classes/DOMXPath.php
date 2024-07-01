@@ -212,4 +212,60 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> class DOMXPath ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [5] {
+    Method [ <internal:dom, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DOMDocument $doc ]
+      }
+    }
+
+    Method [ <internal:dom> public method registerNamespace ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $prefix ]
+        Parameter #1 [ <required> $uri ]
+      }
+    }
+
+    Method [ <internal:dom> public method query ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $expr ]
+        Parameter #1 [ <optional> DOMNode or NULL $context ]
+        Parameter #2 [ <optional> $registerNodeNS ]
+      }
+    }
+
+    Method [ <internal:dom> public method evaluate ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $expr ]
+        Parameter #1 [ <optional> DOMNode or NULL $context ]
+        Parameter #2 [ <optional> $registerNodeNS ]
+      }
+    }
+
+    Method [ <internal:dom> public method registerPhpFunctions ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

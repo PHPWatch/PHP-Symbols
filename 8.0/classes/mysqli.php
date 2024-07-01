@@ -1517,4 +1517,354 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mysqli> class mysqli ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:mysqli> static public method poll ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> ?array &$read ]
+        Parameter #1 [ <required> ?array &$error ]
+        Parameter #2 [ <required> array &$reject ]
+        Parameter #3 [ <required> int $seconds ]
+        Parameter #4 [ <optional> int $microseconds = 0 ]
+      }
+    }
+  }
+
+  - Properties [18] {
+    Property [ public $affected_rows = NULL ]
+    Property [ public $client_info = NULL ]
+    Property [ public $client_version = NULL ]
+    Property [ public $connect_errno = NULL ]
+    Property [ public $connect_error = NULL ]
+    Property [ public $errno = NULL ]
+    Property [ public $error = NULL ]
+    Property [ public $error_list = NULL ]
+    Property [ public $field_count = NULL ]
+    Property [ public $host_info = NULL ]
+    Property [ public $info = NULL ]
+    Property [ public $insert_id = NULL ]
+    Property [ public $server_info = NULL ]
+    Property [ public $server_version = NULL ]
+    Property [ public $sqlstate = NULL ]
+    Property [ public $protocol_version = NULL ]
+    Property [ public $thread_id = NULL ]
+    Property [ public $warning_count = NULL ]
+  }
+
+  - Methods [42] {
+    Method [ <internal:mysqli, ctor> public method __construct ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <optional> ?string $hostname = null ]
+        Parameter #1 [ <optional> ?string $username = null ]
+        Parameter #2 [ <optional> ?string $password = null ]
+        Parameter #3 [ <optional> ?string $database = null ]
+        Parameter #4 [ <optional> ?int $port = null ]
+        Parameter #5 [ <optional> ?string $socket = null ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method autocommit ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> bool $enable ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method begin_transaction ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> int $flags = 0 ]
+        Parameter #1 [ <optional> ?string $name = null ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method change_user ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $username ]
+        Parameter #1 [ <required> string $password ]
+        Parameter #2 [ <required> ?string $database ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method character_set_name ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method close ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method commit ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> int $flags = 0 ]
+        Parameter #1 [ <optional> ?string $name = null ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method connect ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <optional> ?string $hostname = null ]
+        Parameter #1 [ <optional> ?string $username = null ]
+        Parameter #2 [ <optional> ?string $password = null ]
+        Parameter #3 [ <optional> ?string $database = null ]
+        Parameter #4 [ <optional> ?int $port = null ]
+        Parameter #5 [ <optional> ?string $socket = null ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method dump_debug_info ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method debug ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $options ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method get_charset ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method get_client_info ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method get_connection_stats ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method get_server_info ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method get_warnings ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method init ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method kill ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $process_id ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method multi_query ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $query ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method more_results ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method next_result ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method ping ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method prepare ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $query ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method query ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $query ]
+        Parameter #1 [ <optional> int $result_mode = MYSQLI_STORE_RESULT ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method real_connect ] {
+
+      - Parameters [7] {
+        Parameter #0 [ <optional> ?string $hostname = null ]
+        Parameter #1 [ <optional> ?string $username = null ]
+        Parameter #2 [ <optional> ?string $password = null ]
+        Parameter #3 [ <optional> ?string $database = null ]
+        Parameter #4 [ <optional> ?int $port = null ]
+        Parameter #5 [ <optional> ?string $socket = null ]
+        Parameter #6 [ <optional> int $flags = 0 ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method real_escape_string ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $string ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method reap_async_query ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method escape_string ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $string ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method real_query ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $query ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method release_savepoint ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $name ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method rollback ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> int $flags = 0 ]
+        Parameter #1 [ <optional> ?string $name = null ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method savepoint ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $name ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method select_db ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $database ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method set_charset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $charset ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method options ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $option ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method set_opt ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $option ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method ssl_set ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> ?string $key ]
+        Parameter #1 [ <required> ?string $certificate ]
+        Parameter #2 [ <required> ?string $ca_certificate ]
+        Parameter #3 [ <required> ?string $ca_path ]
+        Parameter #4 [ <required> ?string $cipher_algos ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method stat ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method stmt_init ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method store_result ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $mode = 0 ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method thread_safe ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method use_result ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method refresh ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $flags ]
+      }
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => true,
   ),
   'extension' => 'mbstring',
+  'toString' => 'Function [ <internal:mbstring> function mb_eregi_replace ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> string $pattern ]
+    Parameter #1 [ <required> string $replacement ]
+    Parameter #2 [ <required> string $string ]
+    Parameter #3 [ <optional> ?string $options = null ]
+  }
+  - Return [ string|false|null ]
+}
+',
 );

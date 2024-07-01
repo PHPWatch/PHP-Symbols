@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'imap',
+  'toString' => 'Function [ <internal:imap> function imap_reopen ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $stream_id ]
+    Parameter #1 [ <required> $mailbox ]
+    Parameter #2 [ <optional> $options ]
+    Parameter #3 [ <optional> $n_retries ]
+  }
+}
+',
 );

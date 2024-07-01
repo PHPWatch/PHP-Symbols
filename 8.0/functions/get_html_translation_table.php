@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function get_html_translation_table ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <optional> int $table = HTML_SPECIALCHARS ]
+    Parameter #1 [ <optional> int $flags = ENT_COMPAT ]
+    Parameter #2 [ <optional> string $encoding = "UTF-8" ]
+  }
+  - Return [ array ]
+}
+',
 );

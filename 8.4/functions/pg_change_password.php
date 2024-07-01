@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'pgsql',
+  'toString' => 'Function [ <internal:pgsql> function pg_change_password ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> PgSql\\Connection $connection ]
+    Parameter #1 [ <required> string $user ]
+    Parameter #2 [ <required> string $password ]
+  }
+  - Return [ bool ]
+}
+',
 );

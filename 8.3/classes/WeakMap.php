@@ -186,4 +186,68 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Core> <iterateable> final class WeakMap implements ArrayAccess, Countable, IteratorAggregate, Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [6] {
+    Method [ <internal:Core, prototype ArrayAccess> public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:Core, prototype ArrayAccess> public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $object ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:Core, prototype ArrayAccess> public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Core, prototype ArrayAccess> public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:Core, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:Core, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Iterator ]
+    }
+  }
+}
+',
 );

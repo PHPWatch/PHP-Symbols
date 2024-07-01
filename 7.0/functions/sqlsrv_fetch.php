@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'sqlsrv',
+  'toString' => 'Function [ <internal:sqlsrv> function sqlsrv_fetch ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $stmt ]
+    Parameter #1 [ <optional> $row ]
+    Parameter #2 [ <optional> $offset ]
+  }
+}
+',
 );

@@ -140,4 +140,40 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Core> final class Closure ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:Core> static public method bind ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $closure ]
+        Parameter #1 [ <required> $newthis ]
+        Parameter #2 [ <optional> $newscope ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [2] {
+    Method [ <internal:Core, ctor> private method __construct ] {
+    }
+
+    Method [ <internal:Core> public method bindTo ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $newthis ]
+        Parameter #1 [ <optional> $newscope ]
+      }
+    }
+  }
+}
+',
 );

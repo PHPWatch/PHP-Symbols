@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'ereg',
+    )),
     'removed' => NULL,
+    'version' => NULL,
     'resources' => 
     array (
       0 => 
@@ -26,13 +30,20 @@ return array (
   'classes' => 
   array (
   ),
+  'functions' => 
+  array (
+    'ereg' => 'ereg',
+    'ereg_replace' => 'ereg_replace',
+    'eregi' => 'eregi',
+    'eregi_replace' => 'eregi_replace',
+    'split' => 'split',
+    'spliti' => 'spliti',
+    'sql_regcase' => 'sql_regcase',
+  ),
   'constants' => 
   array (
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

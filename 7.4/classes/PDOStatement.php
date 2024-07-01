@@ -642,4 +642,165 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:PDO> <iterateable> class PDOStatement implements Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ <default> public $queryString ]
+  }
+
+  - Methods [19] {
+    Method [ <internal:PDO> public method execute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $bound_input_params ]
+      }
+    }
+
+    Method [ <internal:PDO> public method fetch ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $how ]
+        Parameter #1 [ <optional> $orientation ]
+        Parameter #2 [ <optional> $offset ]
+      }
+    }
+
+    Method [ <internal:PDO> public method bindParam ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $paramno ]
+        Parameter #1 [ <required> &$param ]
+        Parameter #2 [ <optional> $type ]
+        Parameter #3 [ <optional> $maxlen ]
+        Parameter #4 [ <optional> $driverdata ]
+      }
+    }
+
+    Method [ <internal:PDO> public method bindColumn ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $column ]
+        Parameter #1 [ <required> &$param ]
+        Parameter #2 [ <optional> $type ]
+        Parameter #3 [ <optional> $maxlen ]
+        Parameter #4 [ <optional> $driverdata ]
+      }
+    }
+
+    Method [ <internal:PDO> public method bindValue ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $paramno ]
+        Parameter #1 [ <required> $param ]
+        Parameter #2 [ <optional> $type ]
+      }
+    }
+
+    Method [ <internal:PDO> public method rowCount ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:PDO> public method fetchColumn ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $column_number ]
+      }
+    }
+
+    Method [ <internal:PDO> public method fetchAll ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $how ]
+        Parameter #1 [ <optional> $class_name ]
+        Parameter #2 [ <optional> $ctor_args ]
+      }
+    }
+
+    Method [ <internal:PDO> public method fetchObject ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $class_name ]
+        Parameter #1 [ <optional> $ctor_args ]
+      }
+    }
+
+    Method [ <internal:PDO> public method errorCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:PDO> public method errorInfo ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:PDO> public method setAttribute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $attribute ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:PDO> public method getAttribute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $attribute ]
+      }
+    }
+
+    Method [ <internal:PDO> public method columnCount ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:PDO> public method getColumnMeta ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $column ]
+      }
+    }
+
+    Method [ <internal:PDO> public method setFetchMode ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $mode ]
+        Parameter #1 [ <optional> $params ]
+      }
+    }
+
+    Method [ <internal:PDO> public method nextRowset ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:PDO> public method closeCursor ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:PDO> public method debugDumpParams ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

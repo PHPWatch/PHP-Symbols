@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,23 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'odbc',
+  'toString' => 'Function [ <internal:odbc> function odbc_specialcolumns ] {
+
+  - Parameters [7] {
+    Parameter #0 [ <required> $odbc ]
+    Parameter #1 [ <required> int $type ]
+    Parameter #2 [ <required> ?string $catalog ]
+    Parameter #3 [ <required> string $schema ]
+    Parameter #4 [ <required> string $table ]
+    Parameter #5 [ <required> int $scope ]
+    Parameter #6 [ <required> int $nullable ]
+  }
+}
+',
 );

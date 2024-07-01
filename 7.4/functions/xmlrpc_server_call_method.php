@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'xmlrpc',
+  'toString' => 'Function [ <internal:xmlrpc> function xmlrpc_server_call_method ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $server ]
+    Parameter #1 [ <required> $xml ]
+    Parameter #2 [ <required> $user_data ]
+    Parameter #3 [ <optional> $output_options ]
+  }
+}
+',
 );

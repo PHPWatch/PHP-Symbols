@@ -95,4 +95,26 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:standard> final class StreamBucket ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [4] {
+    Property [ public $bucket = NULL ]
+    Property [ public string $data ]
+    Property [ public int $datalen ]
+    Property [ public int $dataLength ]
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

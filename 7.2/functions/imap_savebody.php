@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'imap',
+  'toString' => 'Function [ <internal:imap> function imap_savebody ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $stream_id ]
+    Parameter #1 [ <required> $file ]
+    Parameter #2 [ <required> $msg_no ]
+    Parameter #3 [ <optional> $section ]
+    Parameter #4 [ <optional> $options ]
+  }
+}
+',
 );

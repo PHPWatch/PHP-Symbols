@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,29 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'imap',
+  'toString' => 'Function [ <internal:imap> function imap_open ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> string $mailbox ]
+    Parameter #1 [ <required> string $user ]
+    Parameter #2 [ <required> string $password ]
+    Parameter #3 [ <optional> int $flags = 0 ]
+    Parameter #4 [ <optional> int $retries = 0 ]
+    Parameter #5 [ <optional> array $options = [] ]
+  }
+  - Return [ IMAP\\Connection|false ]
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function stream_socket_pair ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> int $domain ]
+    Parameter #1 [ <required> int $type ]
+    Parameter #2 [ <required> int $protocol ]
+  }
+  - Return [ array|false ]
+}
+',
 );

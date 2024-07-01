@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'gd',
+  'toString' => 'Function [ <internal:gd> function imagedashedline ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $im ]
+    Parameter #1 [ <required> $x1 ]
+    Parameter #2 [ <required> $y1 ]
+    Parameter #3 [ <required> $x2 ]
+    Parameter #4 [ <required> $y2 ]
+    Parameter #5 [ <required> $col ]
+  }
+}
+',
 );

@@ -894,4 +894,302 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Reflection> class ReflectionObject extends ReflectionClass implements Reflector ] {
+
+  - Constants [3] {
+    Constant [ integer IS_IMPLICIT_ABSTRACT ] { 16 }
+    Constant [ integer IS_EXPLICIT_ABSTRACT ] { 32 }
+    Constant [ integer IS_FINAL ] { 64 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:Reflection, overwrites ReflectionClass, prototype ReflectionClass> static public method export ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $argument ]
+        Parameter #1 [ <optional> $return ]
+      }
+    }
+  }
+
+  - Properties [1] {
+    Property [ <default> public $name ]
+  }
+
+  - Methods [42] {
+    Method [ <internal:Reflection, overwrites ReflectionClass, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $argument ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method isInternal ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method isUserDefined ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method isInstantiable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getFileName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getStartLine ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getEndLine ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getDocComment ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getConstructor ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method hasMethod ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getMethod ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getMethods ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $filter ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method hasProperty ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getProperty ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getProperties ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $filter ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method hasConstant ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getConstants ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getConstant ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getInterfaces ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getInterfaceNames ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method isInterface ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method isAbstract ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method isFinal ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getModifiers ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method isInstance ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method newInstance ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $args ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method newInstanceArgs ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array $args ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getParentClass ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method isSubclassOf ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $class ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getStaticProperties ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getStaticPropertyValue ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $default ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method setStaticPropertyValue ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getDefaultProperties ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method isIterateable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method implementsInterface ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $interface ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getExtension ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getExtensionName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method inNamespace ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getNamespaceName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getShortName ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

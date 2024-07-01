@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'gd',
+  'toString' => 'Function [ <internal:gd> function imagefilltoborder ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $im ]
+    Parameter #1 [ <required> $x ]
+    Parameter #2 [ <required> $y ]
+    Parameter #3 [ <required> $border ]
+    Parameter #4 [ <required> $col ]
+  }
+}
+',
 );

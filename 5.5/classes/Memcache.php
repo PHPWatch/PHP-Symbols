@@ -365,4 +365,90 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:memcache> class Memcache extends MemcachePool ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [23] {
+    Method [ <internal:memcache, overwrites MemcachePool, prototype MemcachePool> public method connect ] {
+    }
+
+    Method [ <internal:memcache> public method pconnect ] {
+    }
+
+    Method [ <internal:memcache, overwrites MemcachePool, prototype MemcachePool> public method addserver ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method setserverparams ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method setfailurecallback ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method getserverstatus ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method findserver ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method getversion ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method add ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method set ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method replace ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method cas ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method append ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method prepend ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method get ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method delete ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method getstats ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method getextendedstats ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method setcompressthreshold ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method increment ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method decrement ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method close ] {
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method flush ] {
+    }
+  }
+}
+',
 );

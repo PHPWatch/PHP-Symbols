@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'raphf',
+    )),
     'removed' => NULL,
+    'version' => '1.1.2',
     'resources' => 
     array (
       0 => 
@@ -26,16 +30,19 @@ return array (
   'classes' => 
   array (
   ),
+  'functions' => 
+  array (
+    'raphf\\stat_persistent_handles' => 'raphf\\stat_persistent_handles',
+    'raphf\\clean_persistent_handles' => 'raphf\\clean_persistent_handles',
+  ),
   'constants' => 
   array (
   ),
   'dependencies' => 
   array (
   ),
-  'functions' => 
-  array (
-  ),
   'ini' => 
   array (
+    'raphf.persistent_handle.limit' => '-1',
   ),
 );

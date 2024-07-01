@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,18 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'iconv',
+  'toString' => 'Function [ <internal:iconv> function iconv_set_encoding ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $type ]
+    Parameter #1 [ <required> $charset ]
+  }
+}
+',
 );

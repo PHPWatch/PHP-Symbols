@@ -800,4 +800,295 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Phar> class PharFileInfo extends SplFileInfo ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [44] {
+    Method [ <internal:Phar, overwrites SplFileInfo, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $filename ]
+      }
+    }
+
+    Method [ <internal:Phar, dtor> public method __destruct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Phar> public method chmod ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $perms ]
+      }
+    }
+
+    Method [ <internal:Phar> public method compress ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $compression_type ]
+      }
+    }
+
+    Method [ <internal:Phar> public method decompress ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Phar> public method delMetadata ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Phar> public method getCompressedSize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Phar> public method getCRC32 ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Phar> public method getContent ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Phar> public method getMetadata ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Phar> public method getPharFlags ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Phar> public method hasMetadata ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Phar> public method isCompressed ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $compression_type ]
+      }
+    }
+
+    Method [ <internal:Phar> public method isCRCChecked ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Phar> public method setMetadata ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $metadata ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getPath ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getFilename ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getExtension ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getBasename ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $suffix ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getPathname ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getPerms ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getInode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getSize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getOwner ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getGroup ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getATime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getMTime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getCTime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isWritable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isReadable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isExecutable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isFile ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isDir ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isLink ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getLinkTarget ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getRealPath ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getFileInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $class_name ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getPathInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $class_name ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method openFile ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $open_mode ]
+        Parameter #1 [ <optional> $use_include_path ]
+        Parameter #2 [ <optional> $context ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method setFileClass ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $class_name ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method setInfoClass ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $class_name ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> final public method _bad_state_ex ] {
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

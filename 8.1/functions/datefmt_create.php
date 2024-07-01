@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,29 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => true,
   ),
   'extension' => 'intl',
+  'toString' => 'Function [ <internal:intl> function datefmt_create ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> ?string $locale ]
+    Parameter #1 [ <optional> int $dateType = IntlDateFormatter::FULL ]
+    Parameter #2 [ <optional> int $timeType = IntlDateFormatter::FULL ]
+    Parameter #3 [ <optional> $timezone = null ]
+    Parameter #4 [ <optional> IntlCalendar|int|null $calendar = null ]
+    Parameter #5 [ <optional> ?string $pattern = null ]
+  }
+  - Return [ ?IntlDateFormatter ]
+}
+',
 );

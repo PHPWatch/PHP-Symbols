@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'pgsql',
+  'toString' => 'Function [ <internal:pgsql> function pg_copy_to ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> PgSql\\Connection $connection ]
+    Parameter #1 [ <required> string $table_name ]
+    Parameter #2 [ <optional> string $separator = "\\t" ]
+    Parameter #3 [ <optional> string $null_as = "\\\\\\\\N" ]
+  }
+  - Return [ array|false ]
+}
+',
 );

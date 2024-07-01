@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'mbstring',
+  'toString' => 'Function [ <internal, deprecated:mbstring> function mbereg_search_init ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $string ]
+    Parameter #1 [ <optional> $pattern ]
+    Parameter #2 [ <optional> $option ]
+  }
+}
+',
 );

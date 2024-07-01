@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'interbase',
+  'toString' => 'Function [ <internal:interbase> function ibase_set_event_handler ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $link_identifier ]
+    Parameter #1 [ <required> $handler ]
+    Parameter #2 [ <optional> $event ]
+    Parameter #3 [ <optional> $event2 ]
+  }
+}
+',
 );

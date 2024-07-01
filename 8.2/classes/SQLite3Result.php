@@ -174,4 +174,71 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:sqlite3> class SQLite3Result ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [7] {
+    Method [ <internal:sqlite3, ctor> private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:sqlite3> public method numColumns ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:sqlite3> public method columnName ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $column ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:sqlite3> public method columnType ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $column ]
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:sqlite3> public method fetchArray ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $mode = SQLITE3_BOTH ]
+      }
+      - Tentative return [ array|false ]
+    }
+
+    Method [ <internal:sqlite3> public method reset ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:sqlite3> public method finalize ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

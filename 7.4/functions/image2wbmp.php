@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'gd',
+  'toString' => 'Function [ <internal, deprecated:gd> function image2wbmp ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $im ]
+    Parameter #1 [ <optional> $filename ]
+    Parameter #2 [ <optional> $foreground ]
+  }
+}
+',
 );

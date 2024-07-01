@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function error_log ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $message ]
+    Parameter #1 [ <optional> $message_type ]
+    Parameter #2 [ <optional> $destination ]
+    Parameter #3 [ <optional> $extra_headers ]
+  }
+}
+',
 );

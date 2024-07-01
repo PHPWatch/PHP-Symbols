@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_x509_checkpurpose ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $x509cert ]
+    Parameter #1 [ <required> $purpose ]
+    Parameter #2 [ <required> $cainfo ]
+    Parameter #3 [ <optional> $untrustedfile ]
+  }
+}
+',
 );

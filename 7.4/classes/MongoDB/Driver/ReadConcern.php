@@ -221,4 +221,91 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\ReadConcern implements MongoDB\\BSON\\Serializable, MongoDB\\BSON\\Type, Serializable ] {
+
+  - Constants [5] {
+    Constant [ public string LINEARIZABLE ] { linearizable }
+    Constant [ public string LOCAL ] { local }
+    Constant [ public string MAJORITY ] { majority }
+    Constant [ public string AVAILABLE ] { available }
+    Constant [ public string SNAPSHOT ] { snapshot }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:mongodb> final static public method __set_state ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $properties ]
+      }
+      - Return [ MongoDB\\Driver\\ReadConcern ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [8] {
+    Method [ <internal:mongodb, ctor> final public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string or NULL $level ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getLevel ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string or NULL ]
+    }
+
+    Method [ <internal:mongodb> final public method isDefault ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:mongodb, prototype MongoDB\\BSON\\Serializable> final public method bsonSerialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ stdClass ]
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method serialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $serialized ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb> final public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb> final public method __serialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+  }
+}
+',
 );

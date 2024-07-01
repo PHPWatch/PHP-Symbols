@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'SPL',
+  'toString' => 'Function [ <internal:SPL> function spl_autoload_register ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <optional> ?callable $callback = null ]
+    Parameter #1 [ <optional> bool $throw = true ]
+    Parameter #2 [ <optional> bool $prepend = false ]
+  }
+  - Return [ bool ]
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function stream_socket_server ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $localaddress ]
+    Parameter #1 [ <optional> &$errcode ]
+    Parameter #2 [ <optional> &$errstring ]
+    Parameter #3 [ <optional> $flags ]
+    Parameter #4 [ <optional> $context ]
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'gd',
+  'toString' => 'Function [ <internal:gd> function imagecropauto ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> GdImage $image ]
+    Parameter #1 [ <optional> int $mode = IMG_CROP_DEFAULT ]
+    Parameter #2 [ <optional> float $threshold = 0.5 ]
+    Parameter #3 [ <optional> int $color = -1 ]
+  }
+  - Return [ GdImage|false ]
+}
+',
 );

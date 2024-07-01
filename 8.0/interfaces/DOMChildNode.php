@@ -124,4 +124,52 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:dom> interface DOMChildNode ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [4] {
+    Method [ <internal:dom> abstract public method remove ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom> abstract public method before ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom> abstract public method after ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom> abstract public method replaceWith ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$nodes ]
+      }
+      - Return [ void ]
+    }
+  }
+}
+',
 );

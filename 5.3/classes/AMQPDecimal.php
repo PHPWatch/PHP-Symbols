@@ -135,4 +135,47 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:amqp> final class AMQPDecimal ] {
+
+  - Constants [4] {
+    Constant [ integer EXPONENT_MIN ] { 0 }
+    Constant [ integer EXPONENT_MAX ] { 255 }
+    Constant [ integer SIGNIFICAND_MIN ] { 0 }
+    Constant [ integer SIGNIFICAND_MAX ] { 4294967295 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [2] {
+    Property [ <default> private $exponent ]
+    Property [ <default> private $significand ]
+  }
+
+  - Methods [3] {
+    Method [ <internal:amqp, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $exponent ]
+        Parameter #1 [ <required> $significand ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getExponent ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method getSignificand ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

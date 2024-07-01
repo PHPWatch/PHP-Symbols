@@ -649,4 +649,214 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> class Mongo extends MongoClient ] {
+
+  - Constants [8] {
+    Constant [ string DEFAULT_HOST ] { localhost }
+    Constant [ integer DEFAULT_PORT ] { 27017 }
+    Constant [ string VERSION ] { 1.6.16 }
+    Constant [ string RP_PRIMARY ] { primary }
+    Constant [ string RP_PRIMARY_PREFERRED ] { primaryPreferred }
+    Constant [ string RP_SECONDARY ] { secondary }
+    Constant [ string RP_SECONDARY_PREFERRED ] { secondaryPreferred }
+    Constant [ string RP_NEAREST ] { nearest }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [5] {
+    Method [ <internal, deprecated:mongo> static public method setPoolSize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $size ]
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> static public method getPoolSize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> static public method poolDebug ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoClient> static public method getConnections ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoClient> static public method killCursor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $cursor_id ]
+      }
+    }
+  }
+
+  - Properties [4] {
+    Property [ <default> public $connected ]
+    Property [ <default> public $status ]
+    Property [ <default> protected $server ]
+    Property [ <default> protected $persistent ]
+  }
+
+  - Methods [23] {
+    Method [ <internal:mongo, overwrites MongoClient, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $server ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> protected method connectUtil ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> public method getSlaveOkay ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> public method setSlaveOkay ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $slave_okay ]
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> public method lastError ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> public method prevError ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> public method resetError ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> public method forceError ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> public method getSlave ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> public method switchSlave ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoClient> public method connect ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoClient> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoClient> public method __get ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoClient> public method selectDB ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $database_name ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoClient> public method selectCollection ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $database_name ]
+        Parameter #1 [ <optional> $collection_name ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoClient> public method getReadPreference ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoClient> public method setReadPreference ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $read_preference ]
+        Parameter #1 [ <optional> array $tags ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoClient> public method getWriteConcern ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoClient> public method setWriteConcern ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $w ]
+        Parameter #1 [ <optional> $wtimeout ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoClient> public method dropDB ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $MongoDB_object_OR_database_name ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoClient> public method listDBs ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoClient> public method getHosts ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoClient> public method close ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'tidy',
+  'toString' => 'Function [ <internal:tidy> function tidy_repair_file ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $filename ]
+    Parameter #1 [ <optional> $config_file ]
+    Parameter #2 [ <optional> $encoding ]
+    Parameter #3 [ <optional> $use_include_path ]
+  }
+}
+',
 );

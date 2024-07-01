@@ -108,4 +108,27 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mysqli> final class mysqli_driver ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [5] {
+    Property [ public $client_info = NULL ]
+    Property [ public $client_version = NULL ]
+    Property [ public $driver_version = NULL ]
+    Property [ public $reconnect = NULL ]
+    Property [ public $report_mode = NULL ]
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

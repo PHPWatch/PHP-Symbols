@@ -405,4 +405,143 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> <iterateable> final class MongoDB\\BSON\\PackedArray implements Stringable, IteratorAggregate, Traversable, Serializable, ArrayAccess, MongoDB\\BSON\\Type ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:mongodb> final static public method fromPHP ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $value ]
+      }
+      - Return [ MongoDB\\BSON\\PackedArray ]
+    }
+
+    Method [ <internal:mongodb> final static public method __set_state ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $properties ]
+      }
+      - Return [ MongoDB\\BSON\\PackedArray ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [14] {
+    Method [ <internal:mongodb, ctor> private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method get ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $index ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:mongodb, prototype IteratorAggregate> final public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ MongoDB\\BSON\\Iterator ]
+    }
+
+    Method [ <internal:mongodb> final public method has ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $index ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:mongodb> final public method toPHP ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?array $typeMap = null ]
+      }
+      - Return [ object|array ]
+    }
+
+    Method [ <internal:mongodb, prototype ArrayAccess> public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $offset ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:mongodb, prototype ArrayAccess> public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $offset ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:mongodb, prototype ArrayAccess> public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> mixed $offset ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb, prototype ArrayAccess> public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $offset ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb, prototype Stringable> final public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method serialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb, prototype Serializable> final public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $data ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb> final public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb> final public method __serialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+  }
+}
+',
 );

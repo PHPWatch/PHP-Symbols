@@ -129,4 +129,33 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:curl> class CURLStringFile ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [3] {
+    Property [ public string $data ]
+    Property [ public string $postname ]
+    Property [ public string $mime ]
+  }
+
+  - Methods [1] {
+    Method [ <internal:curl, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $data ]
+        Parameter #1 [ <required> string $postname ]
+        Parameter #2 [ <optional> string $mime = "application/octet-stream" ]
+      }
+    }
+  }
+}
+',
 );

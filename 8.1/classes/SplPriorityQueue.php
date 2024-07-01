@@ -328,4 +328,139 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class SplPriorityQueue implements Iterator, Traversable, Countable ] {
+
+  - Constants [3] {
+    Constant [ public int EXTR_BOTH ] { 3 }
+    Constant [ public int EXTR_PRIORITY ] { 2 }
+    Constant [ public int EXTR_DATA ] { 1 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [16] {
+    Method [ <internal:SPL> public method compare ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> mixed $priority1 ]
+        Parameter #1 [ <required> mixed $priority2 ]
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL> public method insert ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> mixed $value ]
+        Parameter #1 [ <required> mixed $priority ]
+      }
+    }
+
+    Method [ <internal:SPL> public method setExtractFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $flags ]
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL> public method top ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL> public method extract ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL> public method isEmpty ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL> public method recoverFromCorruption ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method isCorrupted ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL> public method getExtractFlags ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL> public method __debugInfo ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+  }
+}
+',
 );

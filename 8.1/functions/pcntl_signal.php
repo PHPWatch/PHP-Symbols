@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'pcntl',
+  'toString' => 'Function [ <internal:pcntl> function pcntl_signal ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> int $signal ]
+    Parameter #1 [ <required> $handler ]
+    Parameter #2 [ <optional> bool $restart_syscalls = true ]
+  }
+  - Return [ bool ]
+}
+',
 );

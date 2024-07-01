@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function str_ireplace ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> array|string $search ]
+    Parameter #1 [ <required> array|string $replace ]
+    Parameter #2 [ <required> array|string $subject ]
+    Parameter #3 [ <optional> &$count = null ]
+  }
+  - Return [ array|string ]
+}
+',
 );

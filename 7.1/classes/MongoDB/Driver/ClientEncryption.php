@@ -170,4 +170,58 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\ClientEncryption ] {
+
+  - Constants [2] {
+    Constant [ public string AEAD_AES_256_CBC_HMAC_SHA_512_DETERMINISTIC ] { AEAD_AES_256_CBC_HMAC_SHA_512-Deterministic }
+    Constant [ public string AEAD_AES_256_CBC_HMAC_SHA_512_RANDOM ] { AEAD_AES_256_CBC_HMAC_SHA_512-Random }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [5] {
+    Method [ <internal:mongodb> final public method createDataKey ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $kmsProvider ]
+        Parameter #1 [ <optional> array or NULL $options ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method encrypt ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $value ]
+        Parameter #1 [ <optional> array or NULL $options ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method decrypt ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\BSON\\BinaryInterface $keyVaultClient ]
+      }
+    }
+
+    Method [ <internal:mongodb, ctor> final private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

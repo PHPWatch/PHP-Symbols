@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_public_encrypt ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> string $data ]
+    Parameter #1 [ <required> &$encrypted_data ]
+    Parameter #2 [ <required> $public_key ]
+    Parameter #3 [ <optional> int $padding = OPENSSL_PKCS1_PADDING ]
+  }
+  - Return [ bool ]
+}
+',
 );

@@ -784,4 +784,239 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> <iterateable> class MongoCursor implements MongoCursorInterface, Traversable, Iterator ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [2] {
+    Property [ public static $slaveOkay ]
+    Property [ public static $timeout ]
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [32] {
+    Method [ <internal:mongo, ctor> public method __construct ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> MongoClient $connection ]
+        Parameter #1 [ <required> $database_and_collection_name ]
+        Parameter #2 [ <optional> $query ]
+        Parameter #3 [ <optional> $array_of_fields_OR_object ]
+      }
+    }
+
+    Method [ <internal:mongo> public method hasNext ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method getNext ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method limit ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $number ]
+      }
+    }
+
+    Method [ <internal:mongo, prototype MongoCursorInterface> public method batchSize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $number ]
+      }
+    }
+
+    Method [ <internal:mongo> public method skip ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $number ]
+      }
+    }
+
+    Method [ <internal:mongo> public method fields ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $fields ]
+      }
+    }
+
+    Method [ <internal:mongo> public method maxTimeMS ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $ms ]
+      }
+    }
+
+    Method [ <internal:mongo> public method addOption ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:mongo> public method snapshot ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method sort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $fields ]
+      }
+    }
+
+    Method [ <internal:mongo> public method hint ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $keyPattern ]
+      }
+    }
+
+    Method [ <internal:mongo> public method explain ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method setFlag ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $bit ]
+        Parameter #1 [ <optional> $set ]
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> public method slaveOkay ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $okay ]
+      }
+    }
+
+    Method [ <internal:mongo> public method tailable ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $tail ]
+      }
+    }
+
+    Method [ <internal:mongo> public method immortal ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $liveForever ]
+      }
+    }
+
+    Method [ <internal:mongo> public method awaitData ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $wait ]
+      }
+    }
+
+    Method [ <internal:mongo> public method partial ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $okay ]
+      }
+    }
+
+    Method [ <internal:mongo, prototype MongoCursorInterface> public method getReadPreference ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, prototype MongoCursorInterface> public method setReadPreference ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $read_preference ]
+        Parameter #1 [ <optional> array $tags ]
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> final protected method doQuery ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, prototype MongoCursorInterface> public method timeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timeoutMS ]
+      }
+    }
+
+    Method [ <internal:mongo, prototype MongoCursorInterface> public method info ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, prototype MongoCursorInterface> public method dead ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method reset ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method count ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $foundOnly ]
+      }
+    }
+  }
+}
+',
 );

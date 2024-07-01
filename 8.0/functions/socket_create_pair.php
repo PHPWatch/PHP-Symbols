@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'sockets',
+  'toString' => 'Function [ <internal:sockets> function socket_create_pair ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> int $domain ]
+    Parameter #1 [ <required> int $type ]
+    Parameter #2 [ <required> int $protocol ]
+    Parameter #3 [ <required> &$pair ]
+  }
+  - Return [ bool ]
+}
+',
 );

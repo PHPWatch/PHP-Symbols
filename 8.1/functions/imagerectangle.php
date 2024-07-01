@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,29 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'gd',
+  'toString' => 'Function [ <internal:gd> function imagerectangle ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> GdImage $image ]
+    Parameter #1 [ <required> int $x1 ]
+    Parameter #2 [ <required> int $y1 ]
+    Parameter #3 [ <required> int $x2 ]
+    Parameter #4 [ <required> int $y2 ]
+    Parameter #5 [ <required> int $color ]
+  }
+  - Return [ bool ]
+}
+',
 );

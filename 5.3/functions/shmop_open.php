@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'shmop',
+  'toString' => 'Function [ <internal:shmop> function shmop_open ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $key ]
+    Parameter #1 [ <required> $flags ]
+    Parameter #2 [ <required> $mode ]
+    Parameter #3 [ <required> $size ]
+  }
+}
+',
 );

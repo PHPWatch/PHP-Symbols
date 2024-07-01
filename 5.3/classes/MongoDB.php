@@ -784,4 +784,216 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> class MongoDB ] {
+
+  - Constants [3] {
+    Constant [ integer PROFILING_OFF ] { 0 }
+    Constant [ integer PROFILING_SLOW ] { 1 }
+    Constant [ integer PROFILING_ON ] { 2 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [2] {
+    Property [ <default> public $w ]
+    Property [ <default> public $wtimeout ]
+  }
+
+  - Methods [29] {
+    Method [ <internal:mongo, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> MongoClient $connection ]
+        Parameter #1 [ <required> $database_name ]
+      }
+    }
+
+    Method [ <internal:mongo> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method __get ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:mongo> public method getGridFS ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $prefix ]
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> public method getSlaveOkay ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> public method setSlaveOkay ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $slave_okay ]
+      }
+    }
+
+    Method [ <internal:mongo> public method getReadPreference ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method setReadPreference ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $read_preference ]
+        Parameter #1 [ <optional> array $tags ]
+      }
+    }
+
+    Method [ <internal:mongo> public method getWriteConcern ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method setWriteConcern ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $w ]
+        Parameter #1 [ <optional> $wtimeout ]
+      }
+    }
+
+    Method [ <internal:mongo> public method getProfilingLevel ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method setProfilingLevel ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $level ]
+      }
+    }
+
+    Method [ <internal:mongo> public method drop ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method repair ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $keep_cloned_files ]
+        Parameter #1 [ <optional> $backup_original_files ]
+      }
+    }
+
+    Method [ <internal:mongo> public method selectCollection ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $collection_name ]
+      }
+    }
+
+    Method [ <internal:mongo> public method createCollection ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $collection_name ]
+      }
+    }
+
+    Method [ <internal:mongo> public method dropCollection ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $collection_name ]
+      }
+    }
+
+    Method [ <internal:mongo> public method listCollections ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $includeSystemCollections ]
+      }
+    }
+
+    Method [ <internal:mongo> public method getCollectionNames ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $includeSystemCollections ]
+      }
+    }
+
+    Method [ <internal:mongo> public method getCollectionInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $includeSystemCollections ]
+      }
+    }
+
+    Method [ <internal:mongo> public method createDBRef ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $collection_name ]
+        Parameter #1 [ <required> $array_with_id_fields_OR_MongoID ]
+      }
+    }
+
+    Method [ <internal:mongo> public method getDBRef ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $reference_information ]
+      }
+    }
+
+    Method [ <internal:mongo> public method execute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $javascript_code ]
+        Parameter #1 [ <optional> array $arguments ]
+      }
+    }
+
+    Method [ <internal:mongo> public method command ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $command ]
+        Parameter #1 [ <optional> array or NULL $options ]
+        Parameter #2 [ <optional> &$hash ]
+      }
+    }
+
+    Method [ <internal:mongo> public method lastError ] {
+    }
+
+    Method [ <internal, deprecated:mongo> public method prevError ] {
+    }
+
+    Method [ <internal, deprecated:mongo> public method resetError ] {
+    }
+
+    Method [ <internal, deprecated:mongo> public method forceError ] {
+    }
+
+    Method [ <internal, deprecated:mongo> public method authenticate ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $username ]
+        Parameter #1 [ <required> $password ]
+      }
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,18 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'sqlsrv',
+  'toString' => 'Function [ <internal:sqlsrv> function sqlsrv_connect ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $server_name ]
+    Parameter #1 [ <optional> array $connection_info ]
+  }
+}
+',
 );

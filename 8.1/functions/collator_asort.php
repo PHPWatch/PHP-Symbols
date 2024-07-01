@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'intl',
+  'toString' => 'Function [ <internal:intl> function collator_asort ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> Collator $object ]
+    Parameter #1 [ <required> array &$array ]
+    Parameter #2 [ <optional> int $flags = Collator::SORT_REGULAR ]
+  }
+  - Return [ bool ]
+}
+',
 );

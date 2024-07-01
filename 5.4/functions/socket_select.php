@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'sockets',
+  'toString' => 'Function [ <internal:sockets> function socket_select ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> &$read_fds ]
+    Parameter #1 [ <required> &$write_fds ]
+    Parameter #2 [ <required> &$except_fds ]
+    Parameter #3 [ <required> $tv_sec ]
+    Parameter #4 [ <optional> $tv_usec ]
+  }
+}
+',
 );

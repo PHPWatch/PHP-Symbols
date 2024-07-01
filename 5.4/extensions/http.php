@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'http',
+    )),
     'removed' => NULL,
+    'version' => '2.6.0',
     'resources' => 
     array (
       0 => 
@@ -25,17 +29,98 @@ return array (
   ),
   'classes' => 
   array (
-  ),
-  'constants' => 
-  array (
-  ),
-  'dependencies' => 
-  array (
+    0 => 'http\\Exception',
+    1 => 'http\\Exception\\RuntimeException',
+    2 => 'http\\Exception\\UnexpectedValueException',
+    3 => 'http\\Exception\\BadMethodCallException',
+    4 => 'http\\Exception\\InvalidArgumentException',
+    5 => 'http\\Exception\\BadHeaderException',
+    6 => 'http\\Exception\\BadUrlException',
+    7 => 'http\\Exception\\BadMessageException',
+    8 => 'http\\Exception\\BadConversionException',
+    9 => 'http\\Exception\\BadQueryStringException',
+    10 => 'http\\Cookie',
+    11 => 'http\\Encoding\\Stream',
+    12 => 'http\\Encoding\\Stream\\Deflate',
+    13 => 'http\\Encoding\\Stream\\Inflate',
+    14 => 'http\\Encoding\\Stream\\Dechunk',
+    15 => 'http\\Header',
+    16 => 'http\\Header\\Parser',
+    17 => 'http\\Message',
+    18 => 'http\\Message\\Parser',
+    19 => 'http\\Message\\Body',
+    20 => 'http\\QueryString',
+    21 => 'http\\Client',
+    22 => 'http\\Client\\Request',
+    23 => 'http\\Client\\Response',
+    24 => 'http\\Client\\Curl\\User',
+    25 => 'http\\Url',
+    26 => 'http\\Env',
+    27 => 'http\\Env\\Request',
+    28 => 'http\\Env\\Response',
+    29 => 'http\\Params',
   ),
   'functions' => 
   array (
   ),
+  'constants' => 
+  array (
+    'http\\Client\\Curl\\FEATURES' => 364890013,
+    'http\\Client\\Curl\\Features\\IPV6' => 1,
+    'http\\Client\\Curl\\Features\\KERBEROS4' => 2,
+    'http\\Client\\Curl\\Features\\SSL' => 4,
+    'http\\Client\\Curl\\Features\\LIBZ' => 8,
+    'http\\Client\\Curl\\Features\\NTLM' => 16,
+    'http\\Client\\Curl\\Features\\GSSNEGOTIATE' => 32,
+    'http\\Client\\Curl\\Features\\ASYNCHDNS' => 128,
+    'http\\Client\\Curl\\Features\\SPNEGO' => 256,
+    'http\\Client\\Curl\\Features\\LARGEFILE' => 512,
+    'http\\Client\\Curl\\Features\\IDN' => 1024,
+    'http\\Client\\Curl\\Features\\SSPI' => 2048,
+    'http\\Client\\Curl\\Features\\TLSAUTH_SRP' => 16384,
+    'http\\Client\\Curl\\Features\\NTLM_WB' => 32768,
+    'http\\Client\\Curl\\Features\\HTTP2' => 65536,
+    'http\\Client\\Curl\\VERSIONS' => 'libcurl/7.81.0 GnuTLS/3.7.3 zlib/1.2.11 brotli/1.0.9 zstd/1.4.8 libidn2/2.3.2 libpsl/0.21.0 (+libidn2/2.3.2) libssh/0.9.6/openssl/zlib nghttp2/1.43.0 librtmp/2.3 OpenLDAP/2.5.17',
+    'http\\Client\\Curl\\Versions\\CURL' => '7.81.0',
+    'http\\Client\\Curl\\Versions\\SSL' => 'GnuTLS/3.7.3',
+    'http\\Client\\Curl\\Versions\\LIBZ' => '1.2.11',
+    'http\\Client\\Curl\\HTTP_VERSION_1_0' => 1,
+    'http\\Client\\Curl\\HTTP_VERSION_1_1' => 2,
+    'http\\Client\\Curl\\HTTP_VERSION_2_0' => 3,
+    'http\\Client\\Curl\\HTTP_VERSION_ANY' => 0,
+    'http\\Client\\Curl\\SSL_VERSION_TLSv1' => 1,
+    'http\\Client\\Curl\\SSL_VERSION_TLSv1_0' => 4,
+    'http\\Client\\Curl\\SSL_VERSION_TLSv1_1' => 5,
+    'http\\Client\\Curl\\SSL_VERSION_TLSv1_2' => 6,
+    'http\\Client\\Curl\\SSL_VERSION_SSLv2' => 2,
+    'http\\Client\\Curl\\SSL_VERSION_SSLv3' => 3,
+    'http\\Client\\Curl\\SSL_VERSION_ANY' => 0,
+    'http\\Client\\Curl\\TLSAUTH_SRP' => 1,
+    'http\\Client\\Curl\\IPRESOLVE_V4' => 1,
+    'http\\Client\\Curl\\IPRESOLVE_V6' => 2,
+    'http\\Client\\Curl\\IPRESOLVE_ANY' => 0,
+    'http\\Client\\Curl\\AUTH_BASIC' => 1,
+    'http\\Client\\Curl\\AUTH_DIGEST' => 2,
+    'http\\Client\\Curl\\AUTH_DIGEST_IE' => 16,
+    'http\\Client\\Curl\\AUTH_NTLM' => 8,
+    'http\\Client\\Curl\\AUTH_GSSNEG' => 4,
+    'http\\Client\\Curl\\AUTH_ANY' => -17,
+    'http\\Client\\Curl\\PROXY_SOCKS4' => 4,
+    'http\\Client\\Curl\\PROXY_SOCKS4A' => 5,
+    'http\\Client\\Curl\\PROXY_SOCKS5_HOSTNAME' => 5,
+    'http\\Client\\Curl\\PROXY_SOCKS5' => 5,
+    'http\\Client\\Curl\\PROXY_HTTP' => 0,
+    'http\\Client\\Curl\\PROXY_HTTP_1_0' => 1,
+    'http\\Client\\Curl\\POSTREDIR_301' => 1,
+    'http\\Client\\Curl\\POSTREDIR_302' => 2,
+    'http\\Client\\Curl\\POSTREDIR_303' => 4,
+    'http\\Client\\Curl\\POSTREDIR_ALL' => 7,
+  ),
+  'dependencies' => 
+  array (
+  ),
   'ini' => 
   array (
+    'http.etag.mode' => 'crc32b',
   ),
 );

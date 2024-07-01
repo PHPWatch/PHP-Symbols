@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'xmlwriter',
+  'toString' => 'Function [ <internal:xmlwriter> function xmlwriter_start_document ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> XMLWriter $writer ]
+    Parameter #1 [ <optional> ?string $version = "1.0" ]
+    Parameter #2 [ <optional> ?string $encoding = null ]
+    Parameter #3 [ <optional> ?string $standalone = null ]
+  }
+  - Return [ bool ]
+}
+',
 );

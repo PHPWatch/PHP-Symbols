@@ -63,4 +63,29 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:Reflection> interface Reflector ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:Reflection> abstract static public method export ] {
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:Reflection> abstract public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

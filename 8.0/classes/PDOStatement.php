@@ -648,4 +648,171 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:PDO> <iterateable> class PDOStatement implements IteratorAggregate, Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ public $queryString = NULL ]
+  }
+
+  - Methods [20] {
+    Method [ <internal:PDO> public method bindColumn ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string|int $column ]
+        Parameter #1 [ <required> mixed &$var ]
+        Parameter #2 [ <optional> int $type = PDO::PARAM_STR ]
+        Parameter #3 [ <optional> int $maxLength = 0 ]
+        Parameter #4 [ <optional> mixed $driverOptions = null ]
+      }
+    }
+
+    Method [ <internal:PDO> public method bindParam ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string|int $param ]
+        Parameter #1 [ <required> mixed &$var ]
+        Parameter #2 [ <optional> int $type = PDO::PARAM_STR ]
+        Parameter #3 [ <optional> int $maxLength = 0 ]
+        Parameter #4 [ <optional> mixed $driverOptions = null ]
+      }
+    }
+
+    Method [ <internal:PDO> public method bindValue ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string|int $param ]
+        Parameter #1 [ <required> mixed $value ]
+        Parameter #2 [ <optional> int $type = PDO::PARAM_STR ]
+      }
+    }
+
+    Method [ <internal:PDO> public method closeCursor ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:PDO> public method columnCount ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:PDO> public method debugDumpParams ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:PDO> public method errorCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:PDO> public method errorInfo ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:PDO> public method execute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?array $params = null ]
+      }
+    }
+
+    Method [ <internal:PDO> public method fetch ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> int $mode = PDO::FETCH_DEFAULT ]
+        Parameter #1 [ <optional> int $cursorOrientation = PDO::FETCH_ORI_NEXT ]
+        Parameter #2 [ <optional> int $cursorOffset = 0 ]
+      }
+    }
+
+    Method [ <internal:PDO> public method fetchAll ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> int $mode = PDO::FETCH_DEFAULT ]
+        Parameter #1 [ <optional> mixed ...$args ]
+      }
+    }
+
+    Method [ <internal:PDO> public method fetchColumn ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $column = 0 ]
+      }
+    }
+
+    Method [ <internal:PDO> public method fetchObject ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> ?string $class = "stdClass" ]
+        Parameter #1 [ <optional> array $constructorArgs = [] ]
+      }
+    }
+
+    Method [ <internal:PDO> public method getAttribute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $name ]
+      }
+    }
+
+    Method [ <internal:PDO> public method getColumnMeta ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $column ]
+      }
+    }
+
+    Method [ <internal:PDO> public method nextRowset ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:PDO> public method rowCount ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:PDO> public method setAttribute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $attribute ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+    }
+
+    Method [ <internal:PDO> public method setFetchMode ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $mode ]
+        Parameter #1 [ <optional> mixed ...$args ]
+      }
+    }
+
+    Method [ <internal:PDO, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Iterator ]
+    }
+  }
+}
+',
 );

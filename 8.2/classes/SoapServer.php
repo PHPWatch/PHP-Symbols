@@ -338,4 +338,98 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:soap> class SoapServer ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ private ?SoapFault $__soap_fault = NULL ]
+  }
+
+  - Methods [9] {
+    Method [ <internal:soap, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?string $wsdl ]
+        Parameter #1 [ <optional> array $options = [] ]
+      }
+    }
+
+    Method [ <internal:soap> public method fault ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $code ]
+        Parameter #1 [ <required> string $string ]
+        Parameter #2 [ <optional> string $actor = "" ]
+        Parameter #3 [ <optional> mixed $details = null ]
+        Parameter #4 [ <optional> string $name = "" ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:soap> public method addSoapHeader ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> SoapHeader $header ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:soap> public method setPersistence ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $mode ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:soap> public method setClass ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $class ]
+        Parameter #1 [ <optional> mixed ...$args ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:soap> public method setObject ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> object $object ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:soap> public method getFunctions ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:soap> public method addFunction ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $functions ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:soap> public method handle ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $request = null ]
+      }
+      - Tentative return [ void ]
+    }
+  }
+}
+',
 );

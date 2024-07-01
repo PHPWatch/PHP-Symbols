@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'SQLite',
+  'toString' => 'Function [ <internal:SQLite> function sqlite_array_query ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $db ]
+    Parameter #1 [ <required> $query ]
+    Parameter #2 [ <optional> $result_type ]
+    Parameter #3 [ <optional> $decode_binary ]
+  }
+}
+',
 );

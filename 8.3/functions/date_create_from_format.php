@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'date',
+  'toString' => 'Function [ <internal:date> function date_create_from_format ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> string $format ]
+    Parameter #1 [ <required> string $datetime ]
+    Parameter #2 [ <optional> ?DateTimeZone $timezone = null ]
+  }
+  - Return [ DateTime|false ]
+}
+',
 );

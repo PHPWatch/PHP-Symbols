@@ -179,4 +179,49 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> class MongoId ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [3] {
+    Method [ <internal:mongo> static public method __set_state ] {
+    }
+
+    Method [ <internal:mongo> static public method getHostname ] {
+    }
+
+    Method [ <internal:mongo> static public method isValid ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $id ]
+      }
+    }
+  }
+
+  - Properties [1] {
+    Property [ <default> public $$id ]
+  }
+
+  - Methods [5] {
+    Method [ <internal:mongo, ctor> public method __construct ] {
+    }
+
+    Method [ <internal:mongo> public method __toString ] {
+    }
+
+    Method [ <internal:mongo> public method getTimestamp ] {
+    }
+
+    Method [ <internal:mongo> public method getPID ] {
+    }
+
+    Method [ <internal:mongo> public method getInc ] {
+    }
+  }
+}
+',
 );

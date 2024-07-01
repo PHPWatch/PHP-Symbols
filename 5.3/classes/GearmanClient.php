@@ -1408,4 +1408,355 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:gearman> class GearmanClient ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [45] {
+    Method [ <internal:gearman, ctor> public method __construct ] {
+    }
+
+    Method [ <internal:gearman> public method returnCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method clone ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method error ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method getErrno ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method options ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method setOptions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $option ]
+      }
+    }
+
+    Method [ <internal:gearman> public method addOptions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $option ]
+      }
+    }
+
+    Method [ <internal:gearman> public method removeOptions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $option ]
+      }
+    }
+
+    Method [ <internal:gearman> public method timeout ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method setTimeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timeout ]
+      }
+    }
+
+    Method [ <internal:gearman> public method context ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method setContext ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $context ]
+      }
+    }
+
+    Method [ <internal:gearman> public method addServer ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $host ]
+        Parameter #1 [ <required> $port ]
+      }
+    }
+
+    Method [ <internal:gearman> public method addServers ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $servers ]
+      }
+    }
+
+    Method [ <internal:gearman> public method wait ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method do ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $function_name ]
+        Parameter #1 [ <required> $workload ]
+        Parameter #2 [ <optional> $unique ]
+      }
+    }
+
+    Method [ <internal:gearman> public method doNormal ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $function_name ]
+        Parameter #1 [ <required> $workload ]
+        Parameter #2 [ <optional> $unique ]
+      }
+    }
+
+    Method [ <internal:gearman> public method doHigh ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $function_name ]
+        Parameter #1 [ <required> $workload ]
+        Parameter #2 [ <optional> $unique ]
+      }
+    }
+
+    Method [ <internal:gearman> public method doLow ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $function_name ]
+        Parameter #1 [ <required> $workload ]
+        Parameter #2 [ <optional> $unique ]
+      }
+    }
+
+    Method [ <internal:gearman> public method doJobHandle ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method doStatus ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method doBackground ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $function_name ]
+        Parameter #1 [ <required> $workload ]
+        Parameter #2 [ <optional> $unique ]
+      }
+    }
+
+    Method [ <internal:gearman> public method doHighBackground ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $function_name ]
+        Parameter #1 [ <required> $workload ]
+        Parameter #2 [ <optional> $unique ]
+      }
+    }
+
+    Method [ <internal:gearman> public method doLowBackground ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $function_name ]
+        Parameter #1 [ <required> $workload ]
+        Parameter #2 [ <optional> $unique ]
+      }
+    }
+
+    Method [ <internal:gearman> public method jobStatus ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $job_handle ]
+      }
+    }
+
+    Method [ <internal:gearman> public method echo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $workload ]
+      }
+    }
+
+    Method [ <internal:gearman> public method ping ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $workload ]
+      }
+    }
+
+    Method [ <internal:gearman> public method addTask ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $function_name ]
+        Parameter #1 [ <required> $workload ]
+        Parameter #2 [ <optional> $context ]
+        Parameter #3 [ <optional> $unique ]
+      }
+    }
+
+    Method [ <internal:gearman> public method addTaskHigh ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $function_name ]
+        Parameter #1 [ <required> $workload ]
+        Parameter #2 [ <optional> $context ]
+        Parameter #3 [ <optional> $unique ]
+      }
+    }
+
+    Method [ <internal:gearman> public method addTaskLow ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $function_name ]
+        Parameter #1 [ <required> $workload ]
+        Parameter #2 [ <optional> $context ]
+        Parameter #3 [ <optional> $unique ]
+      }
+    }
+
+    Method [ <internal:gearman> public method addTaskBackground ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $function_name ]
+        Parameter #1 [ <required> $workload ]
+        Parameter #2 [ <optional> $context ]
+        Parameter #3 [ <optional> $unique ]
+      }
+    }
+
+    Method [ <internal:gearman> public method addTaskHighBackground ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $function_name ]
+        Parameter #1 [ <required> $workload ]
+        Parameter #2 [ <optional> $context ]
+        Parameter #3 [ <optional> $unique ]
+      }
+    }
+
+    Method [ <internal:gearman> public method addTaskLowBackground ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $function_name ]
+        Parameter #1 [ <required> $workload ]
+        Parameter #2 [ <optional> $context ]
+        Parameter #3 [ <optional> $unique ]
+      }
+    }
+
+    Method [ <internal:gearman> public method addTaskStatus ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $job_handle ]
+        Parameter #1 [ <optional> $context ]
+      }
+    }
+
+    Method [ <internal:gearman> public method setWorkloadCallback ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $callback ]
+      }
+    }
+
+    Method [ <internal:gearman> public method setCreatedCallback ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $callback ]
+      }
+    }
+
+    Method [ <internal:gearman> public method setDataCallback ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $callback ]
+      }
+    }
+
+    Method [ <internal:gearman> public method setWarningCallback ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $client_object ]
+        Parameter #1 [ <optional> $callback ]
+      }
+    }
+
+    Method [ <internal:gearman> public method setStatusCallback ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $callback ]
+      }
+    }
+
+    Method [ <internal:gearman> public method setCompleteCallback ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $callback ]
+      }
+    }
+
+    Method [ <internal:gearman> public method setExceptionCallback ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $callback ]
+      }
+    }
+
+    Method [ <internal:gearman> public method setFailCallback ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $callback ]
+      }
+    }
+
+    Method [ <internal:gearman> public method clearCallbacks ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method runTasks ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,18 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'sodium',
+  'toString' => 'Function [ <internal:sodium> function sodium_crypto_kx_server_session_keys ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $server_keypair ]
+    Parameter #1 [ <required> $client_key ]
+  }
+}
+',
 );

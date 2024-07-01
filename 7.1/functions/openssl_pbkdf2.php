@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_pbkdf2 ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $password ]
+    Parameter #1 [ <required> $salt ]
+    Parameter #2 [ <required> $key_length ]
+    Parameter #3 [ <required> $iterations ]
+    Parameter #4 [ <optional> $digest_algorithm ]
+  }
+}
+',
 );

@@ -100,4 +100,46 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Reflection> class ReflectionNamedType extends ReflectionType implements Stringable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [4] {
+    Method [ <internal:Reflection> public method getName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isBuiltin ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionType> public method allowsNull ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionType, prototype Stringable> public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'date',
+  'toString' => 'Function [ <internal:date> function date_date_set ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $object ]
+    Parameter #1 [ <required> $year ]
+    Parameter #2 [ <required> $month ]
+    Parameter #3 [ <required> $day ]
+  }
+}
+',
 );

@@ -149,4 +149,110 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:zmq> class ZMQ ] {
+
+  - Constants [78] {
+    Constant [ integer SOCKET_PAIR ] { 0 }
+    Constant [ integer SOCKET_PUB ] { 1 }
+    Constant [ integer SOCKET_SUB ] { 2 }
+    Constant [ integer SOCKET_XSUB ] { 10 }
+    Constant [ integer SOCKET_XPUB ] { 9 }
+    Constant [ integer SOCKET_REQ ] { 3 }
+    Constant [ integer SOCKET_REP ] { 4 }
+    Constant [ integer SOCKET_XREQ ] { 5 }
+    Constant [ integer SOCKET_XREP ] { 6 }
+    Constant [ integer SOCKET_PUSH ] { 8 }
+    Constant [ integer SOCKET_PULL ] { 7 }
+    Constant [ integer SOCKET_DEALER ] { 5 }
+    Constant [ integer SOCKET_ROUTER ] { 6 }
+    Constant [ integer SOCKET_STREAM ] { 11 }
+    Constant [ integer SOCKET_UPSTREAM ] { 7 }
+    Constant [ integer SOCKET_DOWNSTREAM ] { 8 }
+    Constant [ integer POLL_IN ] { 1 }
+    Constant [ integer POLL_OUT ] { 2 }
+    Constant [ integer MODE_SNDMORE ] { 2 }
+    Constant [ integer MODE_NOBLOCK ] { 1 }
+    Constant [ integer MODE_DONTWAIT ] { 1 }
+    Constant [ integer DEVICE_FORWARDER ] { 2 }
+    Constant [ integer DEVICE_QUEUE ] { 3 }
+    Constant [ integer DEVICE_STREAMER ] { 1 }
+    Constant [ integer ERR_INTERNAL ] { -99 }
+    Constant [ integer ERR_EAGAIN ] { 11 }
+    Constant [ integer ERR_ENOTSUP ] { 95 }
+    Constant [ integer ERR_EFSM ] { 156384763 }
+    Constant [ integer ERR_ETERM ] { 156384765 }
+    Constant [ string LIBZMQ_VER ] { 4.3.4 }
+    Constant [ integer SOCKOPT_HWM ] { 201 }
+    Constant [ integer SOCKOPT_SNDHWM ] { 23 }
+    Constant [ integer SOCKOPT_RCVHWM ] { 24 }
+    Constant [ integer SOCKOPT_AFFINITY ] { 4 }
+    Constant [ integer SOCKOPT_IDENTITY ] { 5 }
+    Constant [ integer SOCKOPT_RATE ] { 8 }
+    Constant [ integer SOCKOPT_RECOVERY_IVL ] { 9 }
+    Constant [ integer SOCKOPT_SNDBUF ] { 11 }
+    Constant [ integer SOCKOPT_RCVBUF ] { 12 }
+    Constant [ integer SOCKOPT_LINGER ] { 17 }
+    Constant [ integer SOCKOPT_RECONNECT_IVL ] { 18 }
+    Constant [ integer SOCKOPT_RECONNECT_IVL_MAX ] { 21 }
+    Constant [ integer SOCKOPT_BACKLOG ] { 19 }
+    Constant [ integer SOCKOPT_MAXMSGSIZE ] { 22 }
+    Constant [ integer SOCKOPT_SUBSCRIBE ] { 6 }
+    Constant [ integer SOCKOPT_UNSUBSCRIBE ] { 7 }
+    Constant [ integer SOCKOPT_TYPE ] { 16 }
+    Constant [ integer SOCKOPT_RCVMORE ] { 13 }
+    Constant [ integer SOCKOPT_FD ] { 14 }
+    Constant [ integer SOCKOPT_EVENTS ] { 15 }
+    Constant [ integer SOCKOPT_SNDTIMEO ] { 28 }
+    Constant [ integer SOCKOPT_RCVTIMEO ] { 27 }
+    Constant [ integer SOCKOPT_IPV4ONLY ] { 31 }
+    Constant [ integer SOCKOPT_LAST_ENDPOINT ] { 32 }
+    Constant [ integer SOCKOPT_TCP_KEEPALIVE ] { 34 }
+    Constant [ integer SOCKOPT_TCP_KEEPALIVE_IDLE ] { 36 }
+    Constant [ integer SOCKOPT_TCP_KEEPALIVE_CNT ] { 35 }
+    Constant [ integer SOCKOPT_TCP_KEEPALIVE_INTVL ] { 37 }
+    Constant [ integer SOCKOPT_TCP_ACCEPT_FILTER ] { 38 }
+    Constant [ integer SOCKOPT_DELAY_ATTACH_ON_CONNECT ] { 39 }
+    Constant [ integer SOCKOPT_XPUB_VERBOSE ] { 40 }
+    Constant [ integer SOCKOPT_ROUTER_MANDATORY ] { 33 }
+    Constant [ integer SOCKOPT_ROUTER_RAW ] { 41 }
+    Constant [ integer SOCKOPT_IPV6 ] { 42 }
+    Constant [ integer SOCKOPT_PLAIN_SERVER ] { 44 }
+    Constant [ integer SOCKOPT_PLAIN_USERNAME ] { 45 }
+    Constant [ integer SOCKOPT_PLAIN_PASSWORD ] { 46 }
+    Constant [ integer SOCKOPT_CURVE_SERVER ] { 47 }
+    Constant [ integer SOCKOPT_CURVE_PUBLICKEY ] { 48 }
+    Constant [ integer SOCKOPT_CURVE_SECRETKEY ] { 49 }
+    Constant [ integer SOCKOPT_CURVE_SERVERKEY ] { 50 }
+    Constant [ integer SOCKOPT_PROBE_ROUTER ] { 51 }
+    Constant [ integer SOCKOPT_REQ_CORRELATE ] { 52 }
+    Constant [ integer SOCKOPT_REQ_RELAXED ] { 53 }
+    Constant [ integer SOCKOPT_CONFLATE ] { 54 }
+    Constant [ integer SOCKOPT_ZAP_DOMAIN ] { 55 }
+    Constant [ integer CTXOPT_MAX_SOCKETS ] { 2 }
+    Constant [ integer CTXOPT_MAX_SOCKETS_DEFAULT ] { 1023 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:zmq> static public method clock ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:zmq, ctor> private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

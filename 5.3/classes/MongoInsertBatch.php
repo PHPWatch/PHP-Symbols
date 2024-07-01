@@ -158,4 +158,58 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> class MongoInsertBatch extends MongoWriteBatch ] {
+
+  - Constants [3] {
+    Constant [ integer COMMAND_INSERT ] { 1 }
+    Constant [ integer COMMAND_UPDATE ] { 2 }
+    Constant [ integer COMMAND_DELETE ] { 3 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [5] {
+    Method [ <internal:mongo, overwrites MongoWriteBatch, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> MongoCollection $collection ]
+        Parameter #1 [ <optional> array $write_options ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoWriteBatch> public method add ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $item ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoWriteBatch> final public method execute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array $write_options ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoWriteBatch> public method getItemCount ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoWriteBatch> public method getBatchInfo ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

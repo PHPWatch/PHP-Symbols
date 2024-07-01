@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_pkcs7_encrypt ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $infile ]
+    Parameter #1 [ <required> $outfile ]
+    Parameter #2 [ <required> $recipcerts ]
+    Parameter #3 [ <required> $headers ]
+    Parameter #4 [ <optional> $flags ]
+    Parameter #5 [ <optional> $cipher ]
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,28 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'memcache',
+  'toString' => 'Function [ <internal:memcache> function memcache_increment ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> MemcachePool $memcache ]
+    Parameter #1 [ <required> array|string $key ]
+    Parameter #2 [ <optional> int $value = <default> ]
+    Parameter #3 [ <optional> int $defval = <default> ]
+    Parameter #4 [ <optional> int $exptime = <default> ]
+  }
+  - Return [ array|int|bool ]
+}
+',
 );

@@ -813,4 +813,297 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Reflection> class ReflectionMethod extends ReflectionFunctionAbstract implements Reflector ] {
+
+  - Constants [6] {
+    Constant [ integer IS_STATIC ] { 1 }
+    Constant [ integer IS_PUBLIC ] { 256 }
+    Constant [ integer IS_PROTECTED ] { 512 }
+    Constant [ integer IS_PRIVATE ] { 1024 }
+    Constant [ integer IS_ABSTRACT ] { 2 }
+    Constant [ integer IS_FINAL ] { 4 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:Reflection, overwrites Reflector, prototype Reflector> static public method export ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $class ]
+        Parameter #1 [ <required> $name ]
+        Parameter #2 [ <optional> $return ]
+      }
+    }
+  }
+
+  - Properties [2] {
+    Property [ <default> public $name ]
+    Property [ <default> public $class ]
+  }
+
+  - Methods [42] {
+    Method [ <internal:Reflection, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $class_or_method ]
+        Parameter #1 [ <optional> $name ]
+      }
+    }
+
+    Method [ <internal:Reflection, overwrites Reflector, prototype Reflector> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isPublic ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isPrivate ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isProtected ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isAbstract ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isFinal ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isStatic ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isConstructor ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isDestructor ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getClosure ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $object ]
+      }
+    }
+
+    Method [ <internal:Reflection> public method getModifiers ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method invoke ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $object ]
+        Parameter #1 [ <required> $args ]
+      }
+    }
+
+    Method [ <internal:Reflection> public method invokeArgs ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $object ]
+        Parameter #1 [ <required> array $args ]
+      }
+    }
+
+    Method [ <internal:Reflection> public method getDeclaringClass ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getPrototype ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method setAccessible ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method inNamespace ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method isClosure ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method isDeprecated ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method isInternal ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method isUserDefined ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method isGenerator ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method isVariadic ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method getClosureThis ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method getClosureScopeClass ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method getDocComment ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method getEndLine ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method getExtension ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method getExtensionName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method getFileName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method getName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method getNamespaceName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method getNumberOfParameters ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method getNumberOfRequiredParameters ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method getParameters ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method getShortName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method getStartLine ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method getStaticVariables ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method returnsReference ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method hasReturnType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionFunctionAbstract> public method getReturnType ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

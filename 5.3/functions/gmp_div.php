@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'gmp',
+  'toString' => 'Function [ <internal:gmp> function gmp_div ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $a ]
+    Parameter #1 [ <required> $b ]
+    Parameter #2 [ <optional> $round ]
+  }
+}
+',
 );

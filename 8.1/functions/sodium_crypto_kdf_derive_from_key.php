@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'sodium',
+  'toString' => 'Function [ <internal:sodium> function sodium_crypto_kdf_derive_from_key ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> int $subkey_length ]
+    Parameter #1 [ <required> int $subkey_id ]
+    Parameter #2 [ <required> string $context ]
+    Parameter #3 [ <required> string $key ]
+  }
+  - Return [ string ]
+}
+',
 );

@@ -123,4 +123,33 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:soap> class SoapVar ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:soap, ctor> public method SoapVar ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <required> $encoding ]
+        Parameter #2 [ <optional> $type_name ]
+        Parameter #3 [ <optional> $type_namespace ]
+        Parameter #4 [ <optional> $node_name ]
+        Parameter #5 [ <optional> $node_namespace ]
+      }
+    }
+  }
+}
+',
 );

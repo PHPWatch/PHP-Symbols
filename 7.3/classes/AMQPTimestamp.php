@@ -111,4 +111,43 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:amqp> final class AMQPTimestamp ] {
+
+  - Constants [2] {
+    Constant [ public string MAX ] { 18446744073709551616 }
+    Constant [ public string MIN ] { 0 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ <default> private $timestamp ]
+  }
+
+  - Methods [3] {
+    Method [ <internal:amqp, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $timestamp ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getTimestamp ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

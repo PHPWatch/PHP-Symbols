@@ -448,4 +448,145 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> class Collator ] {
+
+  - Constants [24] {
+    Constant [ integer DEFAULT_VALUE ] { -1 }
+    Constant [ integer PRIMARY ] { 0 }
+    Constant [ integer SECONDARY ] { 1 }
+    Constant [ integer TERTIARY ] { 2 }
+    Constant [ integer DEFAULT_STRENGTH ] { 2 }
+    Constant [ integer QUATERNARY ] { 3 }
+    Constant [ integer IDENTICAL ] { 15 }
+    Constant [ integer OFF ] { 16 }
+    Constant [ integer ON ] { 17 }
+    Constant [ integer SHIFTED ] { 20 }
+    Constant [ integer NON_IGNORABLE ] { 21 }
+    Constant [ integer LOWER_FIRST ] { 24 }
+    Constant [ integer UPPER_FIRST ] { 25 }
+    Constant [ integer FRENCH_COLLATION ] { 0 }
+    Constant [ integer ALTERNATE_HANDLING ] { 1 }
+    Constant [ integer CASE_FIRST ] { 2 }
+    Constant [ integer CASE_LEVEL ] { 3 }
+    Constant [ integer NORMALIZATION_MODE ] { 4 }
+    Constant [ integer STRENGTH ] { 5 }
+    Constant [ integer HIRAGANA_QUATERNARY_MODE ] { 6 }
+    Constant [ integer NUMERIC_COLLATION ] { 7 }
+    Constant [ integer SORT_REGULAR ] { 0 }
+    Constant [ integer SORT_STRING ] { 1 }
+    Constant [ integer SORT_NUMERIC ] { 2 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:intl> static public method create ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg1 ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [13] {
+    Method [ <internal:intl, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg1 ]
+      }
+    }
+
+    Method [ <internal:intl> public method compare ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $arg1 ]
+        Parameter #1 [ <required> $arg2 ]
+      }
+    }
+
+    Method [ <internal:intl> public method sort ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array &$arr ]
+        Parameter #1 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:intl> public method sortWithSortKeys ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array &$arr ]
+        Parameter #1 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:intl> public method asort ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array &$arr ]
+        Parameter #1 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:intl> public method getAttribute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg1 ]
+      }
+    }
+
+    Method [ <internal:intl> public method setAttribute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $arg1 ]
+        Parameter #1 [ <required> $arg2 ]
+      }
+    }
+
+    Method [ <internal:intl> public method getStrength ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method setStrength ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg1 ]
+      }
+    }
+
+    Method [ <internal:intl> public method getLocale ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg1 ]
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorMessage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getSortKey ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $arg1 ]
+        Parameter #1 [ <required> $arg2 ]
+      }
+    }
+  }
+}
+',
 );

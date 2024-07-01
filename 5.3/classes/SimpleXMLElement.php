@@ -480,4 +480,127 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SimpleXML> <iterateable> class SimpleXMLElement implements Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [14] {
+    Method [ <internal:SimpleXML, ctor> final public method __construct ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <optional> $options ]
+        Parameter #2 [ <optional> $data_is_url ]
+        Parameter #3 [ <optional> $ns ]
+        Parameter #4 [ <optional> $is_prefix ]
+      }
+    }
+
+    Method [ <internal:SimpleXML> public method asXML ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $filename ]
+      }
+    }
+
+    Method [ <internal:SimpleXML> public method saveXML ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $filename ]
+      }
+    }
+
+    Method [ <internal:SimpleXML> public method xpath ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $path ]
+      }
+    }
+
+    Method [ <internal:SimpleXML> public method registerXPathNamespace ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $prefix ]
+        Parameter #1 [ <required> $ns ]
+      }
+    }
+
+    Method [ <internal:SimpleXML> public method attributes ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $ns ]
+        Parameter #1 [ <optional> $is_prefix ]
+      }
+    }
+
+    Method [ <internal:SimpleXML> public method children ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $ns ]
+        Parameter #1 [ <optional> $is_prefix ]
+      }
+    }
+
+    Method [ <internal:SimpleXML> public method getNamespaces ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $recursve ]
+      }
+    }
+
+    Method [ <internal:SimpleXML> public method getDocNamespaces ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $recursve ]
+      }
+    }
+
+    Method [ <internal:SimpleXML> public method getName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SimpleXML> public method addChild ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $value ]
+        Parameter #2 [ <optional> $ns ]
+      }
+    }
+
+    Method [ <internal:SimpleXML> public method addAttribute ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $value ]
+        Parameter #2 [ <optional> $ns ]
+      }
+    }
+
+    Method [ <internal:SimpleXML> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SimpleXML> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

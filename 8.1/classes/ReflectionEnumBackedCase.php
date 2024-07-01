@@ -329,4 +329,135 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Reflection> class ReflectionEnumBackedCase extends ReflectionEnumUnitCase implements Stringable, Reflector ] {
+
+  - Constants [4] {
+    Constant [ public int IS_PUBLIC ] { 1 }
+    Constant [ public int IS_PROTECTED ] { 2 }
+    Constant [ public int IS_PRIVATE ] { 4 }
+    Constant [ public int IS_FINAL ] { 32 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [2] {
+    Property [ public string $name ]
+    Property [ public string $class ]
+  }
+
+  - Methods [15] {
+    Method [ <internal:Reflection, overwrites ReflectionEnumUnitCase, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> object|string $class ]
+        Parameter #1 [ <required> string $constant ]
+      }
+    }
+
+    Method [ <internal:Reflection> public method getBackingValue ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string|int ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionEnumUnitCase> public method getEnum ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ReflectionEnum ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionEnumUnitCase, prototype ReflectionClassConstant> public method getValue ] {
+
+      - Parameters [0] {
+      }
+      - Return [ UnitEnum ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClassConstant, prototype Stringable> public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClassConstant> public method getName ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClassConstant> public method isPublic ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClassConstant> public method isPrivate ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClassConstant> public method isProtected ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClassConstant> public method isFinal ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClassConstant> public method getModifiers ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClassConstant> public method getDeclaringClass ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ReflectionClass ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClassConstant> public method getDocComment ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClassConstant> public method getAttributes ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> ?string $name = null ]
+        Parameter #1 [ <optional> int $flags = 0 ]
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClassConstant> public method isEnumCase ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+  }
+}
+',
 );

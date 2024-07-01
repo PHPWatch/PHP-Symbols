@@ -753,4 +753,227 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> <iterateable> class MongoGridFSCursor extends MongoCursor implements Iterator, Traversable, MongoCursorInterface ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [2] {
+    Property [ public static $slaveOkay ]
+    Property [ public static $timeout ]
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ <default> protected $gridfs ]
+  }
+
+  - Methods [32] {
+    Method [ <internal:mongo, overwrites MongoCursor, ctor> public method __construct ] {
+    }
+
+    Method [ <internal:mongo, overwrites MongoCursor, prototype MongoCursor> public method getNext ] {
+    }
+
+    Method [ <internal:mongo, overwrites MongoCursor, prototype Iterator> public method current ] {
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method hasNext ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method limit ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $number ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor, prototype MongoCursorInterface> public method batchSize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $number ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method skip ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $number ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method fields ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $fields ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method maxTimeMS ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $ms ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method addOption ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method snapshot ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method sort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $fields ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method hint ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $keyPattern ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method explain ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method setFlag ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $bit ]
+        Parameter #1 [ <optional> $set ]
+      }
+    }
+
+    Method [ <internal, deprecated:mongo, inherits MongoCursor> public method slaveOkay ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $okay ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method tailable ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $tail ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method immortal ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $liveForever ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method awaitData ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $wait ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method partial ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $okay ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor, prototype MongoCursorInterface> public method getReadPreference ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor, prototype MongoCursorInterface> public method setReadPreference ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $read_preference ]
+        Parameter #1 [ <optional> array $tags ]
+      }
+    }
+
+    Method [ <internal, deprecated:mongo, inherits MongoCursor> final protected method doQuery ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor, prototype MongoCursorInterface> public method timeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timeoutMS ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor, prototype MongoCursorInterface> public method info ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor, prototype MongoCursorInterface> public method dead ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method reset ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCursor> public method count ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $foundOnly ]
+      }
+    }
+  }
+}
+',
 );

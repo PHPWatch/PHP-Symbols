@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'pcre',
+  'toString' => 'Function [ <internal:pcre> function preg_grep ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $regex ]
+    Parameter #1 [ <required> $input ]
+    Parameter #2 [ <optional> $flags ]
+  }
+}
+',
 );

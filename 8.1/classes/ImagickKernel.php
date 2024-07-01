@@ -229,4 +229,77 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:imagick> class ImagickKernel ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:imagick> static public method fromBuiltin ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $kernel ]
+        Parameter #1 [ <required> string $shape ]
+      }
+      - Return [ ImagickKernel ]
+    }
+
+    Method [ <internal:imagick> static public method fromMatrix ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array $matrix ]
+        Parameter #1 [ <required> ?array $origin ]
+      }
+      - Return [ ImagickKernel ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [5] {
+    Method [ <internal:imagick> public method addKernel ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ImagickKernel $kernel ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:imagick> public method addUnityKernel ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> float $scale ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:imagick> public method getMatrix ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:imagick> public method scale ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> float $scale ]
+        Parameter #1 [ <optional> ?int $normalize_kernel = null ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:imagick> public method separate ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+  }
+}
+',
 );

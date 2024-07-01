@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'iconv',
+  'toString' => 'Function [ <internal:iconv> function iconv_mime_encode ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> string $field_name ]
+    Parameter #1 [ <required> string $field_value ]
+    Parameter #2 [ <optional> array $options = [] ]
+  }
+  - Return [ string|false ]
+}
+',
 );

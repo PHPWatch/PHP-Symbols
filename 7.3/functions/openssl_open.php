@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_open ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $data ]
+    Parameter #1 [ <required> &$opendata ]
+    Parameter #2 [ <required> $ekey ]
+    Parameter #3 [ <required> $privkey ]
+    Parameter #4 [ <optional> $method ]
+    Parameter #5 [ <optional> $iv ]
+  }
+}
+',
 );

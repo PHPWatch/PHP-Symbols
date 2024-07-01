@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'wddx',
+  'toString' => 'Function [ <internal:wddx> function wddx_add_vars ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $packet_id ]
+    Parameter #1 [ <required> $var_name ]
+    Parameter #2 [ <optional> $... ]
+  }
+}
+',
 );

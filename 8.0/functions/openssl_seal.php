@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,29 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_seal ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> string $data ]
+    Parameter #1 [ <required> &$sealed_data ]
+    Parameter #2 [ <required> &$encrypted_keys ]
+    Parameter #3 [ <required> array $public_key ]
+    Parameter #4 [ <required> string $cipher_algo ]
+    Parameter #5 [ <optional> &$iv = null ]
+  }
+  - Return [ int|false ]
+}
+',
 );

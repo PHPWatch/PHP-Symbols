@@ -1128,4 +1128,281 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> class MongoCollection ] {
+
+  - Constants [2] {
+    Constant [ integer ASCENDING ] { 1 }
+    Constant [ integer DESCENDING ] { -1 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal, deprecated:mongo> static protected method toIndexString ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $string_OR_array_of_keys ]
+      }
+    }
+  }
+
+  - Properties [2] {
+    Property [ <default> public $w ]
+    Property [ <default> public $wtimeout ]
+  }
+
+  - Methods [33] {
+    Method [ <internal:mongo, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> MongoDB $database ]
+        Parameter #1 [ <required> $collection_name ]
+      }
+    }
+
+    Method [ <internal:mongo> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method __get ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:mongo> public method getName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> public method getSlaveOkay ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:mongo> public method setSlaveOkay ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $slave_okay ]
+      }
+    }
+
+    Method [ <internal:mongo> public method getReadPreference ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method setReadPreference ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $read_preference ]
+        Parameter #1 [ <optional> array $tags ]
+      }
+    }
+
+    Method [ <internal:mongo> public method getWriteConcern ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method setWriteConcern ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $w ]
+        Parameter #1 [ <optional> $wtimeout ]
+      }
+    }
+
+    Method [ <internal:mongo> public method drop ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method validate ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $validate ]
+      }
+    }
+
+    Method [ <internal:mongo> public method insert ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $array_of_fields_OR_object ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo> public method batchInsert ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array $documents ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo> public method update ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $old_array_of_fields_OR_object ]
+        Parameter #1 [ <required> $new_array_of_fields_OR_object ]
+        Parameter #2 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo> public method remove ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $array_of_fields_OR_object ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo> public method find ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $query ]
+        Parameter #1 [ <optional> $fields ]
+      }
+    }
+
+    Method [ <internal:mongo> public method findOne ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $query ]
+        Parameter #1 [ <optional> $fields ]
+        Parameter #2 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo> public method findAndModify ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $query ]
+        Parameter #1 [ <optional> $update ]
+        Parameter #2 [ <optional> $fields ]
+        Parameter #3 [ <optional> array or NULL $options ]
+      }
+    }
+
+    Method [ <internal:mongo> public method createIndex ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $array_of_keys ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo> public method ensureIndex ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key_OR_array_of_keys ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo> public method deleteIndex ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $string_OR_array_of_keys ]
+      }
+    }
+
+    Method [ <internal:mongo> public method deleteIndexes ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method getIndexInfo ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo> public method count ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $query_AS_array_of_fields_OR_object ]
+        Parameter #1 [ <optional> $options_OR_limit ]
+        Parameter #2 [ <optional> $skip ]
+      }
+    }
+
+    Method [ <internal:mongo> public method save ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $array_of_fields_OR_object ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo> public method createDBRef ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $array_with_id_fields_OR_MongoID ]
+      }
+    }
+
+    Method [ <internal:mongo> public method getDBRef ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $reference ]
+      }
+    }
+
+    Method [ <internal:mongo> public method group ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $keys_or_MongoCode ]
+        Parameter #1 [ <required> $initial_value ]
+        Parameter #2 [ <required> $array_OR_MongoCode ]
+        Parameter #3 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo> public method distinct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> $query ]
+      }
+    }
+
+    Method [ <internal:mongo> public method aggregate ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $pipeline ]
+        Parameter #1 [ <optional> $op ]
+        Parameter #2 [ <optional> $... ]
+      }
+    }
+
+    Method [ <internal:mongo> public method aggregateCursor ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array or NULL $pipeline ]
+        Parameter #1 [ <optional> array or NULL $options ]
+      }
+    }
+
+    Method [ <internal:mongo> public method parallelCollectionScan ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $num_cursors ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+  }
+}
+',
 );

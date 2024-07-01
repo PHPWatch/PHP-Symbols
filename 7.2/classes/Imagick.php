@@ -11824,4 +11824,3384 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:imagick> <iterateable> class Imagick implements Iterator, Traversable, Countable ] {
+
+  - Constants [583] {
+    Constant [ public integer COLOR_BLACK ] { 11 }
+    Constant [ public integer COLOR_BLUE ] { 12 }
+    Constant [ public integer COLOR_CYAN ] { 13 }
+    Constant [ public integer COLOR_GREEN ] { 14 }
+    Constant [ public integer COLOR_RED ] { 15 }
+    Constant [ public integer COLOR_YELLOW ] { 16 }
+    Constant [ public integer COLOR_MAGENTA ] { 17 }
+    Constant [ public integer COLOR_OPACITY ] { 18 }
+    Constant [ public integer COLOR_ALPHA ] { 19 }
+    Constant [ public integer COLOR_FUZZ ] { 20 }
+    Constant [ public integer IMAGICK_EXTNUM ] { 30700 }
+    Constant [ public string IMAGICK_EXTVER ] { 3.7.0 }
+    Constant [ public integer QUANTUM_RANGE ] { 65535 }
+    Constant [ public integer USE_ZEND_MM ] { 0 }
+    Constant [ public integer COMPOSITE_DEFAULT ] { 40 }
+    Constant [ public integer COMPOSITE_UNDEFINED ] { 0 }
+    Constant [ public integer COMPOSITE_NO ] { 1 }
+    Constant [ public integer COMPOSITE_ADD ] { 2 }
+    Constant [ public integer COMPOSITE_ATOP ] { 3 }
+    Constant [ public integer COMPOSITE_BLEND ] { 4 }
+    Constant [ public integer COMPOSITE_BUMPMAP ] { 5 }
+    Constant [ public integer COMPOSITE_CLEAR ] { 7 }
+    Constant [ public integer COMPOSITE_COLORBURN ] { 8 }
+    Constant [ public integer COMPOSITE_COLORDODGE ] { 9 }
+    Constant [ public integer COMPOSITE_COLORIZE ] { 10 }
+    Constant [ public integer COMPOSITE_COPYBLACK ] { 11 }
+    Constant [ public integer COMPOSITE_COPYBLUE ] { 12 }
+    Constant [ public integer COMPOSITE_COPY ] { 13 }
+    Constant [ public integer COMPOSITE_COPYCYAN ] { 14 }
+    Constant [ public integer COMPOSITE_COPYGREEN ] { 15 }
+    Constant [ public integer COMPOSITE_COPYMAGENTA ] { 16 }
+    Constant [ public integer COMPOSITE_COPYOPACITY ] { 17 }
+    Constant [ public integer COMPOSITE_COPYRED ] { 18 }
+    Constant [ public integer COMPOSITE_COPYYELLOW ] { 19 }
+    Constant [ public integer COMPOSITE_DARKEN ] { 20 }
+    Constant [ public integer COMPOSITE_DSTATOP ] { 21 }
+    Constant [ public integer COMPOSITE_DST ] { 22 }
+    Constant [ public integer COMPOSITE_DSTIN ] { 23 }
+    Constant [ public integer COMPOSITE_DSTOUT ] { 24 }
+    Constant [ public integer COMPOSITE_DSTOVER ] { 25 }
+    Constant [ public integer COMPOSITE_DIFFERENCE ] { 26 }
+    Constant [ public integer COMPOSITE_DISPLACE ] { 27 }
+    Constant [ public integer COMPOSITE_DISSOLVE ] { 28 }
+    Constant [ public integer COMPOSITE_EXCLUSION ] { 29 }
+    Constant [ public integer COMPOSITE_HARDLIGHT ] { 30 }
+    Constant [ public integer COMPOSITE_HUE ] { 31 }
+    Constant [ public integer COMPOSITE_IN ] { 32 }
+    Constant [ public integer COMPOSITE_LIGHTEN ] { 33 }
+    Constant [ public integer COMPOSITE_LUMINIZE ] { 35 }
+    Constant [ public integer COMPOSITE_MINUS ] { 36 }
+    Constant [ public integer COMPOSITE_MODULATE ] { 37 }
+    Constant [ public integer COMPOSITE_MULTIPLY ] { 38 }
+    Constant [ public integer COMPOSITE_OUT ] { 39 }
+    Constant [ public integer COMPOSITE_OVER ] { 40 }
+    Constant [ public integer COMPOSITE_OVERLAY ] { 41 }
+    Constant [ public integer COMPOSITE_PLUS ] { 42 }
+    Constant [ public integer COMPOSITE_REPLACE ] { 43 }
+    Constant [ public integer COMPOSITE_SATURATE ] { 44 }
+    Constant [ public integer COMPOSITE_SCREEN ] { 45 }
+    Constant [ public integer COMPOSITE_SOFTLIGHT ] { 46 }
+    Constant [ public integer COMPOSITE_SRCATOP ] { 47 }
+    Constant [ public integer COMPOSITE_SRC ] { 48 }
+    Constant [ public integer COMPOSITE_SRCIN ] { 49 }
+    Constant [ public integer COMPOSITE_SRCOUT ] { 50 }
+    Constant [ public integer COMPOSITE_SRCOVER ] { 51 }
+    Constant [ public integer COMPOSITE_SUBTRACT ] { 52 }
+    Constant [ public integer COMPOSITE_THRESHOLD ] { 53 }
+    Constant [ public integer COMPOSITE_XOR ] { 54 }
+    Constant [ public integer COMPOSITE_CHANGEMASK ] { 6 }
+    Constant [ public integer COMPOSITE_LINEARLIGHT ] { 34 }
+    Constant [ public integer COMPOSITE_DIVIDE ] { 55 }
+    Constant [ public integer COMPOSITE_DISTORT ] { 56 }
+    Constant [ public integer COMPOSITE_BLUR ] { 57 }
+    Constant [ public integer COMPOSITE_PEGTOPLIGHT ] { 58 }
+    Constant [ public integer COMPOSITE_VIVIDLIGHT ] { 59 }
+    Constant [ public integer COMPOSITE_PINLIGHT ] { 60 }
+    Constant [ public integer COMPOSITE_LINEARDODGE ] { 61 }
+    Constant [ public integer COMPOSITE_LINEARBURN ] { 62 }
+    Constant [ public integer COMPOSITE_MATHEMATICS ] { 63 }
+    Constant [ public integer COMPOSITE_MODULUSADD ] { 2 }
+    Constant [ public integer COMPOSITE_MODULUSSUBTRACT ] { 52 }
+    Constant [ public integer COMPOSITE_MINUSDST ] { 36 }
+    Constant [ public integer COMPOSITE_DIVIDEDST ] { 55 }
+    Constant [ public integer COMPOSITE_DIVIDESRC ] { 64 }
+    Constant [ public integer COMPOSITE_MINUSSRC ] { 65 }
+    Constant [ public integer COMPOSITE_DARKENINTENSITY ] { 66 }
+    Constant [ public integer COMPOSITE_LIGHTENINTENSITY ] { 67 }
+    Constant [ public integer COMPOSITE_HARDMIX ] { 68 }
+    Constant [ public integer COMPOSITE_STEREO ] { 69 }
+    Constant [ public integer MONTAGEMODE_FRAME ] { 1 }
+    Constant [ public integer MONTAGEMODE_UNFRAME ] { 2 }
+    Constant [ public integer MONTAGEMODE_CONCATENATE ] { 3 }
+    Constant [ public integer STYLE_NORMAL ] { 1 }
+    Constant [ public integer STYLE_ITALIC ] { 2 }
+    Constant [ public integer STYLE_OBLIQUE ] { 3 }
+    Constant [ public integer STYLE_ANY ] { 4 }
+    Constant [ public integer STYLE_BOLD ] { 5 }
+    Constant [ public integer FILTER_UNDEFINED ] { 0 }
+    Constant [ public integer FILTER_POINT ] { 1 }
+    Constant [ public integer FILTER_BOX ] { 2 }
+    Constant [ public integer FILTER_TRIANGLE ] { 3 }
+    Constant [ public integer FILTER_HERMITE ] { 4 }
+    Constant [ public integer FILTER_HANNING ] { 5 }
+    Constant [ public integer FILTER_HAMMING ] { 6 }
+    Constant [ public integer FILTER_BLACKMAN ] { 7 }
+    Constant [ public integer FILTER_GAUSSIAN ] { 8 }
+    Constant [ public integer FILTER_QUADRATIC ] { 9 }
+    Constant [ public integer FILTER_CUBIC ] { 10 }
+    Constant [ public integer FILTER_CATROM ] { 11 }
+    Constant [ public integer FILTER_MITCHELL ] { 12 }
+    Constant [ public integer FILTER_LANCZOS ] { 22 }
+    Constant [ public integer FILTER_BESSEL ] { 13 }
+    Constant [ public integer FILTER_SINC ] { 14 }
+    Constant [ public integer FILTER_KAISER ] { 16 }
+    Constant [ public integer FILTER_WELSH ] { 17 }
+    Constant [ public integer FILTER_PARZEN ] { 18 }
+    Constant [ public integer FILTER_LAGRANGE ] { 21 }
+    Constant [ public integer FILTER_SENTINEL ] { 31 }
+    Constant [ public integer FILTER_BOHMAN ] { 19 }
+    Constant [ public integer FILTER_BARTLETT ] { 20 }
+    Constant [ public integer FILTER_JINC ] { 13 }
+    Constant [ public integer FILTER_SINCFAST ] { 15 }
+    Constant [ public integer FILTER_ROBIDOUX ] { 26 }
+    Constant [ public integer FILTER_LANCZOSSHARP ] { 23 }
+    Constant [ public integer FILTER_LANCZOS2 ] { 24 }
+    Constant [ public integer FILTER_LANCZOS2SHARP ] { 25 }
+    Constant [ public integer FILTER_ROBIDOUXSHARP ] { 27 }
+    Constant [ public integer FILTER_COSINE ] { 28 }
+    Constant [ public integer FILTER_SPLINE ] { 29 }
+    Constant [ public integer FILTER_LANCZOSRADIUS ] { 30 }
+    Constant [ public integer IMGTYPE_UNDEFINED ] { 0 }
+    Constant [ public integer IMGTYPE_BILEVEL ] { 1 }
+    Constant [ public integer IMGTYPE_GRAYSCALE ] { 2 }
+    Constant [ public integer IMGTYPE_GRAYSCALEMATTE ] { 3 }
+    Constant [ public integer IMGTYPE_PALETTE ] { 4 }
+    Constant [ public integer IMGTYPE_PALETTEMATTE ] { 5 }
+    Constant [ public integer IMGTYPE_TRUECOLOR ] { 6 }
+    Constant [ public integer IMGTYPE_TRUECOLORMATTE ] { 7 }
+    Constant [ public integer IMGTYPE_COLORSEPARATION ] { 8 }
+    Constant [ public integer IMGTYPE_COLORSEPARATIONMATTE ] { 9 }
+    Constant [ public integer IMGTYPE_OPTIMIZE ] { 10 }
+    Constant [ public integer IMGTYPE_PALETTEBILEVELMATTE ] { 11 }
+    Constant [ public integer RESOLUTION_UNDEFINED ] { 0 }
+    Constant [ public integer RESOLUTION_PIXELSPERINCH ] { 1 }
+    Constant [ public integer RESOLUTION_PIXELSPERCENTIMETER ] { 2 }
+    Constant [ public integer COMPRESSION_UNDEFINED ] { 0 }
+    Constant [ public integer COMPRESSION_NO ] { 1 }
+    Constant [ public integer COMPRESSION_BZIP ] { 2 }
+    Constant [ public integer COMPRESSION_FAX ] { 6 }
+    Constant [ public integer COMPRESSION_GROUP4 ] { 7 }
+    Constant [ public integer COMPRESSION_JPEG ] { 8 }
+    Constant [ public integer COMPRESSION_JPEG2000 ] { 9 }
+    Constant [ public integer COMPRESSION_LOSSLESSJPEG ] { 10 }
+    Constant [ public integer COMPRESSION_LZW ] { 11 }
+    Constant [ public integer COMPRESSION_RLE ] { 12 }
+    Constant [ public integer COMPRESSION_ZIP ] { 13 }
+    Constant [ public integer COMPRESSION_DXT1 ] { 3 }
+    Constant [ public integer COMPRESSION_DXT3 ] { 4 }
+    Constant [ public integer COMPRESSION_DXT5 ] { 5 }
+    Constant [ public integer COMPRESSION_ZIPS ] { 14 }
+    Constant [ public integer COMPRESSION_PIZ ] { 15 }
+    Constant [ public integer COMPRESSION_PXR24 ] { 16 }
+    Constant [ public integer COMPRESSION_B44 ] { 17 }
+    Constant [ public integer COMPRESSION_B44A ] { 18 }
+    Constant [ public integer COMPRESSION_LZMA ] { 19 }
+    Constant [ public integer COMPRESSION_JBIG1 ] { 20 }
+    Constant [ public integer COMPRESSION_JBIG2 ] { 21 }
+    Constant [ public integer PAINT_POINT ] { 1 }
+    Constant [ public integer PAINT_REPLACE ] { 2 }
+    Constant [ public integer PAINT_FLOODFILL ] { 3 }
+    Constant [ public integer PAINT_FILLTOBORDER ] { 4 }
+    Constant [ public integer PAINT_RESET ] { 5 }
+    Constant [ public integer GRAVITY_NORTHWEST ] { 1 }
+    Constant [ public integer GRAVITY_NORTH ] { 2 }
+    Constant [ public integer GRAVITY_NORTHEAST ] { 3 }
+    Constant [ public integer GRAVITY_WEST ] { 4 }
+    Constant [ public integer GRAVITY_CENTER ] { 5 }
+    Constant [ public integer GRAVITY_EAST ] { 6 }
+    Constant [ public integer GRAVITY_SOUTHWEST ] { 7 }
+    Constant [ public integer GRAVITY_SOUTH ] { 8 }
+    Constant [ public integer GRAVITY_SOUTHEAST ] { 9 }
+    Constant [ public integer GRAVITY_FORGET ] { 0 }
+    Constant [ public integer GRAVITY_STATIC ] { 10 }
+    Constant [ public integer STRETCH_NORMAL ] { 1 }
+    Constant [ public integer STRETCH_ULTRACONDENSED ] { 2 }
+    Constant [ public integer STRETCH_EXTRACONDENSED ] { 3 }
+    Constant [ public integer STRETCH_CONDENSED ] { 4 }
+    Constant [ public integer STRETCH_SEMICONDENSED ] { 5 }
+    Constant [ public integer STRETCH_SEMIEXPANDED ] { 6 }
+    Constant [ public integer STRETCH_EXPANDED ] { 7 }
+    Constant [ public integer STRETCH_EXTRAEXPANDED ] { 8 }
+    Constant [ public integer STRETCH_ULTRAEXPANDED ] { 9 }
+    Constant [ public integer STRETCH_ANY ] { 10 }
+    Constant [ public integer ALIGN_UNDEFINED ] { 0 }
+    Constant [ public integer ALIGN_LEFT ] { 1 }
+    Constant [ public integer ALIGN_CENTER ] { 2 }
+    Constant [ public integer ALIGN_RIGHT ] { 3 }
+    Constant [ public integer DECORATION_NO ] { 1 }
+    Constant [ public integer DECORATION_UNDERLINE ] { 2 }
+    Constant [ public integer DECORATION_OVERLINE ] { 3 }
+    Constant [ public integer DECORATION_LINETROUGH ] { 4 }
+    Constant [ public integer DECORATION_LINETHROUGH ] { 4 }
+    Constant [ public integer NOISE_UNIFORM ] { 1 }
+    Constant [ public integer NOISE_GAUSSIAN ] { 2 }
+    Constant [ public integer NOISE_MULTIPLICATIVEGAUSSIAN ] { 3 }
+    Constant [ public integer NOISE_IMPULSE ] { 4 }
+    Constant [ public integer NOISE_LAPLACIAN ] { 5 }
+    Constant [ public integer NOISE_POISSON ] { 6 }
+    Constant [ public integer NOISE_RANDOM ] { 7 }
+    Constant [ public integer CHANNEL_UNDEFINED ] { 0 }
+    Constant [ public integer CHANNEL_RED ] { 1 }
+    Constant [ public integer CHANNEL_GRAY ] { 1 }
+    Constant [ public integer CHANNEL_CYAN ] { 1 }
+    Constant [ public integer CHANNEL_GREEN ] { 2 }
+    Constant [ public integer CHANNEL_MAGENTA ] { 2 }
+    Constant [ public integer CHANNEL_BLUE ] { 4 }
+    Constant [ public integer CHANNEL_YELLOW ] { 4 }
+    Constant [ public integer CHANNEL_ALPHA ] { 8 }
+    Constant [ public integer CHANNEL_OPACITY ] { 8 }
+    Constant [ public integer CHANNEL_MATTE ] { 8 }
+    Constant [ public integer CHANNEL_BLACK ] { 32 }
+    Constant [ public integer CHANNEL_INDEX ] { 32 }
+    Constant [ public integer CHANNEL_ALL ] { 134217727 }
+    Constant [ public integer CHANNEL_DEFAULT ] { 134217719 }
+    Constant [ public integer CHANNEL_RGBA ] { 15 }
+    Constant [ public integer CHANNEL_TRUEALPHA ] { 64 }
+    Constant [ public integer CHANNEL_RGBS ] { 128 }
+    Constant [ public integer CHANNEL_GRAY_CHANNELS ] { 128 }
+    Constant [ public integer CHANNEL_SYNC ] { 256 }
+    Constant [ public integer CHANNEL_COMPOSITES ] { 47 }
+    Constant [ public integer METRIC_UNDEFINED ] { 0 }
+    Constant [ public integer METRIC_ABSOLUTEERRORMETRIC ] { 1 }
+    Constant [ public integer METRIC_MEANABSOLUTEERROR ] { 2 }
+    Constant [ public integer METRIC_MEANERRORPERPIXELMETRIC ] { 3 }
+    Constant [ public integer METRIC_MEANSQUAREERROR ] { 4 }
+    Constant [ public integer METRIC_PEAKABSOLUTEERROR ] { 5 }
+    Constant [ public integer METRIC_PEAKSIGNALTONOISERATIO ] { 6 }
+    Constant [ public integer METRIC_ROOTMEANSQUAREDERROR ] { 7 }
+    Constant [ public integer METRIC_NORMALIZEDCROSSCORRELATIONERRORMETRIC ] { 8 }
+    Constant [ public integer METRIC_FUZZERROR ] { 9 }
+    Constant [ public integer METRIC_PERCEPTUALHASH_ERROR ] { 255 }
+    Constant [ public integer PIXEL_CHAR ] { 1 }
+    Constant [ public integer PIXELSTORAGE_CHAR ] { 1 }
+    Constant [ public integer PIXEL_DOUBLE ] { 2 }
+    Constant [ public integer PIXELSTORAGE_DOUBLE ] { 2 }
+    Constant [ public integer PIXEL_FLOAT ] { 3 }
+    Constant [ public integer PIXELSTORAGE_FLOAT ] { 3 }
+    Constant [ public integer PIXEL_INTEGER ] { 4 }
+    Constant [ public integer PIXELSTORAGE_INTEGER ] { 4 }
+    Constant [ public integer PIXEL_LONG ] { 5 }
+    Constant [ public integer PIXELSTORAGE_LONG ] { 5 }
+    Constant [ public integer PIXEL_QUANTUM ] { 6 }
+    Constant [ public integer PIXELSTORAGE_QUANTUM ] { 6 }
+    Constant [ public integer PIXEL_SHORT ] { 7 }
+    Constant [ public integer PIXELSTORAGE_SHORT ] { 7 }
+    Constant [ public integer EVALUATE_UNDEFINED ] { 0 }
+    Constant [ public integer EVALUATE_ADD ] { 1 }
+    Constant [ public integer EVALUATE_AND ] { 2 }
+    Constant [ public integer EVALUATE_DIVIDE ] { 3 }
+    Constant [ public integer EVALUATE_LEFTSHIFT ] { 4 }
+    Constant [ public integer EVALUATE_MAX ] { 5 }
+    Constant [ public integer EVALUATE_MIN ] { 6 }
+    Constant [ public integer EVALUATE_MULTIPLY ] { 7 }
+    Constant [ public integer EVALUATE_OR ] { 8 }
+    Constant [ public integer EVALUATE_RIGHTSHIFT ] { 9 }
+    Constant [ public integer EVALUATE_SET ] { 10 }
+    Constant [ public integer EVALUATE_SUBTRACT ] { 11 }
+    Constant [ public integer EVALUATE_XOR ] { 12 }
+    Constant [ public integer EVALUATE_POW ] { 13 }
+    Constant [ public integer EVALUATE_LOG ] { 14 }
+    Constant [ public integer EVALUATE_THRESHOLD ] { 15 }
+    Constant [ public integer EVALUATE_THRESHOLDBLACK ] { 16 }
+    Constant [ public integer EVALUATE_THRESHOLDWHITE ] { 17 }
+    Constant [ public integer EVALUATE_GAUSSIANNOISE ] { 18 }
+    Constant [ public integer EVALUATE_IMPULSENOISE ] { 19 }
+    Constant [ public integer EVALUATE_LAPLACIANNOISE ] { 20 }
+    Constant [ public integer EVALUATE_MULTIPLICATIVENOISE ] { 21 }
+    Constant [ public integer EVALUATE_POISSONNOISE ] { 22 }
+    Constant [ public integer EVALUATE_UNIFORMNOISE ] { 23 }
+    Constant [ public integer EVALUATE_COSINE ] { 24 }
+    Constant [ public integer EVALUATE_SINE ] { 25 }
+    Constant [ public integer EVALUATE_ADDMODULUS ] { 26 }
+    Constant [ public integer EVALUATE_MEAN ] { 27 }
+    Constant [ public integer EVALUATE_ABS ] { 28 }
+    Constant [ public integer EVALUATE_EXPONENTIAL ] { 29 }
+    Constant [ public integer EVALUATE_MEDIAN ] { 30 }
+    Constant [ public integer EVALUATE_SUM ] { 31 }
+    Constant [ public integer EVALUATE_ROOT_MEAN_SQUARE ] { 32 }
+    Constant [ public integer COLORSPACE_UNDEFINED ] { 0 }
+    Constant [ public integer COLORSPACE_RGB ] { 1 }
+    Constant [ public integer COLORSPACE_GRAY ] { 2 }
+    Constant [ public integer COLORSPACE_TRANSPARENT ] { 3 }
+    Constant [ public integer COLORSPACE_OHTA ] { 4 }
+    Constant [ public integer COLORSPACE_LAB ] { 5 }
+    Constant [ public integer COLORSPACE_XYZ ] { 6 }
+    Constant [ public integer COLORSPACE_YCBCR ] { 7 }
+    Constant [ public integer COLORSPACE_YCC ] { 8 }
+    Constant [ public integer COLORSPACE_YIQ ] { 9 }
+    Constant [ public integer COLORSPACE_YPBPR ] { 10 }
+    Constant [ public integer COLORSPACE_YUV ] { 11 }
+    Constant [ public integer COLORSPACE_CMYK ] { 12 }
+    Constant [ public integer COLORSPACE_SRGB ] { 13 }
+    Constant [ public integer COLORSPACE_HSB ] { 14 }
+    Constant [ public integer COLORSPACE_HSL ] { 15 }
+    Constant [ public integer COLORSPACE_HWB ] { 16 }
+    Constant [ public integer COLORSPACE_REC601LUMA ] { 17 }
+    Constant [ public integer COLORSPACE_REC709LUMA ] { 19 }
+    Constant [ public integer COLORSPACE_LOG ] { 21 }
+    Constant [ public integer COLORSPACE_CMY ] { 22 }
+    Constant [ public integer COLORSPACE_LUV ] { 23 }
+    Constant [ public integer COLORSPACE_HCL ] { 24 }
+    Constant [ public integer COLORSPACE_LCH ] { 25 }
+    Constant [ public integer COLORSPACE_LMS ] { 26 }
+    Constant [ public integer COLORSPACE_LCHAB ] { 27 }
+    Constant [ public integer COLORSPACE_LCHUV ] { 28 }
+    Constant [ public integer COLORSPACE_SCRGB ] { 29 }
+    Constant [ public integer COLORSPACE_HSI ] { 30 }
+    Constant [ public integer COLORSPACE_HSV ] { 31 }
+    Constant [ public integer COLORSPACE_HCLP ] { 32 }
+    Constant [ public integer COLORSPACE_YDBDR ] { 33 }
+    Constant [ public integer COLORSPACE_REC601YCBCR ] { 18 }
+    Constant [ public integer COLORSPACE_REC709YCBCR ] { 20 }
+    Constant [ public integer COLORSPACE_XYY ] { 34 }
+    Constant [ public integer COLORSPACE_LINEARGRAY ] { 35 }
+    Constant [ public integer VIRTUALPIXELMETHOD_UNDEFINED ] { 0 }
+    Constant [ public integer VIRTUALPIXELMETHOD_BACKGROUND ] { 1 }
+    Constant [ public integer VIRTUALPIXELMETHOD_CONSTANT ] { 2 }
+    Constant [ public integer VIRTUALPIXELMETHOD_EDGE ] { 4 }
+    Constant [ public integer VIRTUALPIXELMETHOD_MIRROR ] { 5 }
+    Constant [ public integer VIRTUALPIXELMETHOD_TILE ] { 7 }
+    Constant [ public integer VIRTUALPIXELMETHOD_TRANSPARENT ] { 8 }
+    Constant [ public integer VIRTUALPIXELMETHOD_MASK ] { 9 }
+    Constant [ public integer VIRTUALPIXELMETHOD_BLACK ] { 10 }
+    Constant [ public integer VIRTUALPIXELMETHOD_GRAY ] { 11 }
+    Constant [ public integer VIRTUALPIXELMETHOD_WHITE ] { 12 }
+    Constant [ public integer VIRTUALPIXELMETHOD_HORIZONTALTILE ] { 13 }
+    Constant [ public integer VIRTUALPIXELMETHOD_VERTICALTILE ] { 14 }
+    Constant [ public integer VIRTUALPIXELMETHOD_HORIZONTALTILEEDGE ] { 15 }
+    Constant [ public integer VIRTUALPIXELMETHOD_VERTICALTILEEDGE ] { 16 }
+    Constant [ public integer VIRTUALPIXELMETHOD_CHECKERTILE ] { 17 }
+    Constant [ public integer VIRTUALPIXELMETHOD_DITHER ] { 3 }
+    Constant [ public integer VIRTUALPIXELMETHOD_RANDOM ] { 6 }
+    Constant [ public integer PREVIEW_UNDEFINED ] { 0 }
+    Constant [ public integer PREVIEW_ROTATE ] { 1 }
+    Constant [ public integer PREVIEW_SHEAR ] { 2 }
+    Constant [ public integer PREVIEW_ROLL ] { 3 }
+    Constant [ public integer PREVIEW_HUE ] { 4 }
+    Constant [ public integer PREVIEW_SATURATION ] { 5 }
+    Constant [ public integer PREVIEW_BRIGHTNESS ] { 6 }
+    Constant [ public integer PREVIEW_GAMMA ] { 7 }
+    Constant [ public integer PREVIEW_SPIFF ] { 8 }
+    Constant [ public integer PREVIEW_DULL ] { 9 }
+    Constant [ public integer PREVIEW_GRAYSCALE ] { 10 }
+    Constant [ public integer PREVIEW_QUANTIZE ] { 11 }
+    Constant [ public integer PREVIEW_DESPECKLE ] { 12 }
+    Constant [ public integer PREVIEW_REDUCENOISE ] { 13 }
+    Constant [ public integer PREVIEW_ADDNOISE ] { 14 }
+    Constant [ public integer PREVIEW_SHARPEN ] { 15 }
+    Constant [ public integer PREVIEW_BLUR ] { 16 }
+    Constant [ public integer PREVIEW_THRESHOLD ] { 17 }
+    Constant [ public integer PREVIEW_EDGEDETECT ] { 18 }
+    Constant [ public integer PREVIEW_SPREAD ] { 19 }
+    Constant [ public integer PREVIEW_SOLARIZE ] { 20 }
+    Constant [ public integer PREVIEW_SHADE ] { 21 }
+    Constant [ public integer PREVIEW_RAISE ] { 22 }
+    Constant [ public integer PREVIEW_SEGMENT ] { 23 }
+    Constant [ public integer PREVIEW_SWIRL ] { 24 }
+    Constant [ public integer PREVIEW_IMPLODE ] { 25 }
+    Constant [ public integer PREVIEW_WAVE ] { 26 }
+    Constant [ public integer PREVIEW_OILPAINT ] { 27 }
+    Constant [ public integer PREVIEW_CHARCOALDRAWING ] { 28 }
+    Constant [ public integer PREVIEW_JPEG ] { 29 }
+    Constant [ public integer RENDERINGINTENT_UNDEFINED ] { 0 }
+    Constant [ public integer RENDERINGINTENT_SATURATION ] { 1 }
+    Constant [ public integer RENDERINGINTENT_PERCEPTUAL ] { 2 }
+    Constant [ public integer RENDERINGINTENT_ABSOLUTE ] { 3 }
+    Constant [ public integer RENDERINGINTENT_RELATIVE ] { 4 }
+    Constant [ public integer INTERLACE_UNDEFINED ] { 0 }
+    Constant [ public integer INTERLACE_NO ] { 1 }
+    Constant [ public integer INTERLACE_LINE ] { 2 }
+    Constant [ public integer INTERLACE_PLANE ] { 3 }
+    Constant [ public integer INTERLACE_PARTITION ] { 4 }
+    Constant [ public integer INTERLACE_GIF ] { 5 }
+    Constant [ public integer INTERLACE_JPEG ] { 6 }
+    Constant [ public integer INTERLACE_PNG ] { 7 }
+    Constant [ public integer FILLRULE_UNDEFINED ] { 0 }
+    Constant [ public integer FILLRULE_EVENODD ] { 1 }
+    Constant [ public integer FILLRULE_NONZERO ] { 2 }
+    Constant [ public integer PATHUNITS_UNDEFINED ] { 0 }
+    Constant [ public integer PATHUNITS_USERSPACE ] { 1 }
+    Constant [ public integer PATHUNITS_USERSPACEONUSE ] { 2 }
+    Constant [ public integer PATHUNITS_OBJECTBOUNDINGBOX ] { 3 }
+    Constant [ public integer LINECAP_UNDEFINED ] { 0 }
+    Constant [ public integer LINECAP_BUTT ] { 1 }
+    Constant [ public integer LINECAP_ROUND ] { 2 }
+    Constant [ public integer LINECAP_SQUARE ] { 3 }
+    Constant [ public integer LINEJOIN_UNDEFINED ] { 0 }
+    Constant [ public integer LINEJOIN_MITER ] { 1 }
+    Constant [ public integer LINEJOIN_ROUND ] { 2 }
+    Constant [ public integer LINEJOIN_BEVEL ] { 3 }
+    Constant [ public integer RESOURCETYPE_UNDEFINED ] { 0 }
+    Constant [ public integer RESOURCETYPE_AREA ] { 1 }
+    Constant [ public integer RESOURCETYPE_DISK ] { 2 }
+    Constant [ public integer RESOURCETYPE_FILE ] { 3 }
+    Constant [ public integer RESOURCETYPE_MAP ] { 4 }
+    Constant [ public integer RESOURCETYPE_MEMORY ] { 5 }
+    Constant [ public integer RESOURCETYPE_TIME ] { 7 }
+    Constant [ public integer RESOURCETYPE_THROTTLE ] { 8 }
+    Constant [ public integer RESOURCETYPE_THREAD ] { 6 }
+    Constant [ public integer RESOURCETYPE_WIDTH ] { 9 }
+    Constant [ public integer RESOURCETYPE_HEIGHT ] { 10 }
+    Constant [ public integer RESOURCETYPE_LISTLENGTH ] { 11 }
+    Constant [ public integer DISPOSE_UNRECOGNIZED ] { 0 }
+    Constant [ public integer DISPOSE_UNDEFINED ] { 0 }
+    Constant [ public integer DISPOSE_NONE ] { 1 }
+    Constant [ public integer DISPOSE_BACKGROUND ] { 2 }
+    Constant [ public integer DISPOSE_PREVIOUS ] { 3 }
+    Constant [ public integer INTERPOLATE_UNDEFINED ] { 0 }
+    Constant [ public integer INTERPOLATE_AVERAGE ] { 1 }
+    Constant [ public integer INTERPOLATE_BICUBIC ] { 2 }
+    Constant [ public integer INTERPOLATE_BILINEAR ] { 3 }
+    Constant [ public integer INTERPOLATE_FILTER ] { 4 }
+    Constant [ public integer INTERPOLATE_INTEGER ] { 5 }
+    Constant [ public integer INTERPOLATE_MESH ] { 6 }
+    Constant [ public integer INTERPOLATE_NEARESTNEIGHBOR ] { 7 }
+    Constant [ public integer INTERPOLATE_SPLINE ] { 8 }
+    Constant [ public integer INTERPOLATE_AVERAGE_9 ] { 9 }
+    Constant [ public integer INTERPOLATE_AVERAGE_16 ] { 10 }
+    Constant [ public integer INTERPOLATE_BLEND ] { 11 }
+    Constant [ public integer INTERPOLATE_BACKGROUND_COLOR ] { 12 }
+    Constant [ public integer INTERPOLATE_CATROM ] { 13 }
+    Constant [ public integer LAYERMETHOD_UNDEFINED ] { 0 }
+    Constant [ public integer LAYERMETHOD_COALESCE ] { 1 }
+    Constant [ public integer LAYERMETHOD_COMPAREANY ] { 2 }
+    Constant [ public integer LAYERMETHOD_COMPARECLEAR ] { 3 }
+    Constant [ public integer LAYERMETHOD_COMPAREOVERLAY ] { 4 }
+    Constant [ public integer LAYERMETHOD_DISPOSE ] { 5 }
+    Constant [ public integer LAYERMETHOD_OPTIMIZE ] { 6 }
+    Constant [ public integer LAYERMETHOD_OPTIMIZEPLUS ] { 8 }
+    Constant [ public integer LAYERMETHOD_OPTIMIZETRANS ] { 9 }
+    Constant [ public integer LAYERMETHOD_COMPOSITE ] { 12 }
+    Constant [ public integer LAYERMETHOD_OPTIMIZEIMAGE ] { 7 }
+    Constant [ public integer LAYERMETHOD_REMOVEDUPS ] { 10 }
+    Constant [ public integer LAYERMETHOD_REMOVEZERO ] { 11 }
+    Constant [ public integer LAYERMETHOD_TRIMBOUNDS ] { 16 }
+    Constant [ public integer ORIENTATION_UNDEFINED ] { 0 }
+    Constant [ public integer ORIENTATION_TOPLEFT ] { 1 }
+    Constant [ public integer ORIENTATION_TOPRIGHT ] { 2 }
+    Constant [ public integer ORIENTATION_BOTTOMRIGHT ] { 3 }
+    Constant [ public integer ORIENTATION_BOTTOMLEFT ] { 4 }
+    Constant [ public integer ORIENTATION_LEFTTOP ] { 5 }
+    Constant [ public integer ORIENTATION_RIGHTTOP ] { 6 }
+    Constant [ public integer ORIENTATION_RIGHTBOTTOM ] { 7 }
+    Constant [ public integer ORIENTATION_LEFTBOTTOM ] { 8 }
+    Constant [ public integer DISTORTION_UNDEFINED ] { 0 }
+    Constant [ public integer DISTORTION_AFFINE ] { 1 }
+    Constant [ public integer DISTORTION_AFFINEPROJECTION ] { 2 }
+    Constant [ public integer DISTORTION_ARC ] { 9 }
+    Constant [ public integer DISTORTION_BILINEAR ] { 6 }
+    Constant [ public integer DISTORTION_PERSPECTIVE ] { 4 }
+    Constant [ public integer DISTORTION_PERSPECTIVEPROJECTION ] { 5 }
+    Constant [ public integer DISTORTION_SCALEROTATETRANSLATE ] { 3 }
+    Constant [ public integer DISTORTION_POLYNOMIAL ] { 8 }
+    Constant [ public integer DISTORTION_POLAR ] { 10 }
+    Constant [ public integer DISTORTION_DEPOLAR ] { 11 }
+    Constant [ public integer DISTORTION_BARREL ] { 14 }
+    Constant [ public integer DISTORTION_SHEPARDS ] { 16 }
+    Constant [ public integer DISTORTION_SENTINEL ] { 18 }
+    Constant [ public integer DISTORTION_BARRELINVERSE ] { 15 }
+    Constant [ public integer DISTORTION_BILINEARFORWARD ] { 6 }
+    Constant [ public integer DISTORTION_BILINEARREVERSE ] { 7 }
+    Constant [ public integer DISTORTION_RESIZE ] { 17 }
+    Constant [ public integer DISTORTION_CYLINDER2PLANE ] { 12 }
+    Constant [ public integer DISTORTION_PLANE2CYLINDER ] { 13 }
+    Constant [ public integer LAYERMETHOD_MERGE ] { 13 }
+    Constant [ public integer LAYERMETHOD_FLATTEN ] { 14 }
+    Constant [ public integer LAYERMETHOD_MOSAIC ] { 15 }
+    Constant [ public integer ALPHACHANNEL_ACTIVATE ] { 1 }
+    Constant [ public integer ALPHACHANNEL_RESET ] { 7 }
+    Constant [ public integer ALPHACHANNEL_SET ] { 8 }
+    Constant [ public integer ALPHACHANNEL_UNDEFINED ] { 0 }
+    Constant [ public integer ALPHACHANNEL_COPY ] { 3 }
+    Constant [ public integer ALPHACHANNEL_DEACTIVATE ] { 4 }
+    Constant [ public integer ALPHACHANNEL_EXTRACT ] { 5 }
+    Constant [ public integer ALPHACHANNEL_OPAQUE ] { 6 }
+    Constant [ public integer ALPHACHANNEL_SHAPE ] { 9 }
+    Constant [ public integer ALPHACHANNEL_TRANSPARENT ] { 10 }
+    Constant [ public integer ALPHACHANNEL_ASSOCIATE ] { 13 }
+    Constant [ public integer ALPHACHANNEL_DISSOCIATE ] { 14 }
+    Constant [ public integer SPARSECOLORMETHOD_UNDEFINED ] { 0 }
+    Constant [ public integer SPARSECOLORMETHOD_BARYCENTRIC ] { 1 }
+    Constant [ public integer SPARSECOLORMETHOD_BILINEAR ] { 7 }
+    Constant [ public integer SPARSECOLORMETHOD_POLYNOMIAL ] { 8 }
+    Constant [ public integer SPARSECOLORMETHOD_SPEPARDS ] { 16 }
+    Constant [ public integer SPARSECOLORMETHOD_VORONOI ] { 18 }
+    Constant [ public integer SPARSECOLORMETHOD_INVERSE ] { 19 }
+    Constant [ public integer SPARSECOLORMETHOD_MANHATTAN ] { 20 }
+    Constant [ public integer DITHERMETHOD_UNDEFINED ] { 0 }
+    Constant [ public integer DITHERMETHOD_NO ] { 1 }
+    Constant [ public integer DITHERMETHOD_RIEMERSMA ] { 2 }
+    Constant [ public integer DITHERMETHOD_FLOYDSTEINBERG ] { 3 }
+    Constant [ public integer FUNCTION_UNDEFINED ] { 0 }
+    Constant [ public integer FUNCTION_POLYNOMIAL ] { 1 }
+    Constant [ public integer FUNCTION_SINUSOID ] { 2 }
+    Constant [ public integer ALPHACHANNEL_BACKGROUND ] { 2 }
+    Constant [ public integer FUNCTION_ARCSIN ] { 3 }
+    Constant [ public integer FUNCTION_ARCTAN ] { 4 }
+    Constant [ public integer ALPHACHANNEL_FLATTEN ] { 11 }
+    Constant [ public integer ALPHACHANNEL_REMOVE ] { 12 }
+    Constant [ public integer STATISTIC_GRADIENT ] { 1 }
+    Constant [ public integer STATISTIC_MAXIMUM ] { 2 }
+    Constant [ public integer STATISTIC_MEAN ] { 3 }
+    Constant [ public integer STATISTIC_MEDIAN ] { 4 }
+    Constant [ public integer STATISTIC_MINIMUM ] { 5 }
+    Constant [ public integer STATISTIC_MODE ] { 6 }
+    Constant [ public integer STATISTIC_NONPEAK ] { 7 }
+    Constant [ public integer STATISTIC_STANDARD_DEVIATION ] { 8 }
+    Constant [ public integer STATISTIC_ROOT_MEAN_SQUARE ] { 9 }
+    Constant [ public integer MORPHOLOGY_CONVOLVE ] { 1 }
+    Constant [ public integer MORPHOLOGY_CORRELATE ] { 2 }
+    Constant [ public integer MORPHOLOGY_ERODE ] { 3 }
+    Constant [ public integer MORPHOLOGY_DILATE ] { 4 }
+    Constant [ public integer MORPHOLOGY_ERODE_INTENSITY ] { 5 }
+    Constant [ public integer MORPHOLOGY_DILATE_INTENSITY ] { 6 }
+    Constant [ public integer MORPHOLOGY_DISTANCE ] { 7 }
+    Constant [ public integer MORPHOLOGY_OPEN ] { 8 }
+    Constant [ public integer MORPHOLOGY_CLOSE ] { 9 }
+    Constant [ public integer MORPHOLOGY_OPEN_INTENSITY ] { 10 }
+    Constant [ public integer MORPHOLOGY_CLOSE_INTENSITY ] { 11 }
+    Constant [ public integer MORPHOLOGY_SMOOTH ] { 12 }
+    Constant [ public integer MORPHOLOGY_EDGE_IN ] { 13 }
+    Constant [ public integer MORPHOLOGY_EDGE_OUT ] { 14 }
+    Constant [ public integer MORPHOLOGY_EDGE ] { 15 }
+    Constant [ public integer MORPHOLOGY_TOP_HAT ] { 16 }
+    Constant [ public integer MORPHOLOGY_BOTTOM_HAT ] { 17 }
+    Constant [ public integer MORPHOLOGY_HIT_AND_MISS ] { 18 }
+    Constant [ public integer MORPHOLOGY_THINNING ] { 19 }
+    Constant [ public integer MORPHOLOGY_THICKEN ] { 20 }
+    Constant [ public integer MORPHOLOGY_VORONOI ] { 21 }
+    Constant [ public integer MORPHOLOGY_ITERATIVE ] { 22 }
+    Constant [ public integer KERNEL_UNITY ] { 1 }
+    Constant [ public integer KERNEL_GAUSSIAN ] { 2 }
+    Constant [ public integer KERNEL_DIFFERENCE_OF_GAUSSIANS ] { 3 }
+    Constant [ public integer KERNEL_LAPLACIAN_OF_GAUSSIANS ] { 4 }
+    Constant [ public integer KERNEL_BLUR ] { 5 }
+    Constant [ public integer KERNEL_COMET ] { 6 }
+    Constant [ public integer KERNEL_LAPLACIAN ] { 7 }
+    Constant [ public integer KERNEL_SOBEL ] { 8 }
+    Constant [ public integer KERNEL_FREI_CHEN ] { 9 }
+    Constant [ public integer KERNEL_ROBERTS ] { 10 }
+    Constant [ public integer KERNEL_PREWITT ] { 11 }
+    Constant [ public integer KERNEL_COMPASS ] { 12 }
+    Constant [ public integer KERNEL_KIRSCH ] { 13 }
+    Constant [ public integer KERNEL_DIAMOND ] { 14 }
+    Constant [ public integer KERNEL_SQUARE ] { 15 }
+    Constant [ public integer KERNEL_RECTANGLE ] { 16 }
+    Constant [ public integer KERNEL_OCTAGON ] { 17 }
+    Constant [ public integer KERNEL_DISK ] { 18 }
+    Constant [ public integer KERNEL_PLUS ] { 19 }
+    Constant [ public integer KERNEL_CROSS ] { 20 }
+    Constant [ public integer KERNEL_RING ] { 21 }
+    Constant [ public integer KERNEL_PEAKS ] { 22 }
+    Constant [ public integer KERNEL_EDGES ] { 23 }
+    Constant [ public integer KERNEL_CORNERS ] { 24 }
+    Constant [ public integer KERNEL_DIAGONALS ] { 25 }
+    Constant [ public integer KERNEL_LINE_ENDS ] { 26 }
+    Constant [ public integer KERNEL_LINE_JUNCTIONS ] { 27 }
+    Constant [ public integer KERNEL_RIDGES ] { 28 }
+    Constant [ public integer KERNEL_CONVEX_HULL ] { 29 }
+    Constant [ public integer KERNEL_THIN_SE ] { 30 }
+    Constant [ public integer KERNEL_SKELETON ] { 31 }
+    Constant [ public integer KERNEL_CHEBYSHEV ] { 32 }
+    Constant [ public integer KERNEL_MANHATTAN ] { 33 }
+    Constant [ public integer KERNEL_OCTAGONAL ] { 34 }
+    Constant [ public integer KERNEL_EUCLIDEAN ] { 35 }
+    Constant [ public integer KERNEL_USER_DEFINED ] { 36 }
+    Constant [ public integer KERNEL_BINOMIAL ] { 37 }
+    Constant [ public integer DIRECTION_LEFT_TO_RIGHT ] { 2 }
+    Constant [ public integer DIRECTION_RIGHT_TO_LEFT ] { 1 }
+    Constant [ public integer NORMALIZE_KERNEL_NONE ] { 0 }
+    Constant [ public integer NORMALIZE_KERNEL_VALUE ] { 8192 }
+    Constant [ public integer NORMALIZE_KERNEL_CORRELATE ] { 65536 }
+    Constant [ public integer NORMALIZE_KERNEL_PERCENT ] { 4096 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [20] {
+    Method [ <internal:imagick> static public method queryFormats ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $pattern ]
+      }
+    }
+
+    Method [ <internal:imagick> static public method queryFonts ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $pattern ]
+      }
+    }
+
+    Method [ <internal:imagick> static public method calculateCrop ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $original_width ]
+        Parameter #1 [ <required> $original_height ]
+        Parameter #2 [ <required> $desired_width ]
+        Parameter #3 [ <required> $desired_height ]
+        Parameter #4 [ <optional> $legacy ]
+      }
+    }
+
+    Method [ <internal:imagick> static public method getCopyright ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> static public method getConfigureOptions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $pattern ]
+      }
+    }
+
+    Method [ <internal:imagick> static public method getFeatures ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> static public method getHomeURL ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> static public method getPackageName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> static public method getQuantum ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> static public method getHdriEnabled ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> static public method getQuantumDepth ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> static public method getQuantumRange ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> static public method getReleaseDate ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> static public method getResource ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $type ]
+      }
+    }
+
+    Method [ <internal:imagick> static public method getResourceLimit ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $type ]
+      }
+    }
+
+    Method [ <internal:imagick> static public method getVersion ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> static public method setResourceLimit ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $type ]
+        Parameter #1 [ <required> $limit ]
+      }
+    }
+
+    Method [ <internal:imagick> static public method setRegistry ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:imagick> static public method getRegistry ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:imagick> static public method listRegistry ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [353] {
+    Method [ <internal:imagick> public method optimizeImageLayers ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method compareImageLayers ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $metric ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pingImageBlob ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $image ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pingImageFile ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $filehandle ]
+        Parameter #1 [ <optional> $filename ]
+      }
+    }
+
+    Method [ <internal:imagick> public method transposeImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method transverseImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method trimImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $fuzz ]
+      }
+    }
+
+    Method [ <internal:imagick> public method waveImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $amplitude ]
+        Parameter #1 [ <required> $length ]
+      }
+    }
+
+    Method [ <internal:imagick> public method vignetteImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $black_point ]
+        Parameter #1 [ <required> $white_point ]
+        Parameter #2 [ <required> $x ]
+        Parameter #3 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method uniqueImageColors ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method getImageMatte ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageMatte ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $matte ]
+      }
+    }
+
+    Method [ <internal:imagick> public method adaptiveResizeImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $columns ]
+        Parameter #1 [ <required> $rows ]
+        Parameter #2 [ <optional> $bestfit ]
+        Parameter #3 [ <optional> $legacy ]
+      }
+    }
+
+    Method [ <internal:imagick> public method sketchImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $radius ]
+        Parameter #1 [ <required> $sigma ]
+        Parameter #2 [ <required> $angle ]
+      }
+    }
+
+    Method [ <internal:imagick> public method shadeImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $gray ]
+        Parameter #1 [ <required> $azimuth ]
+        Parameter #2 [ <required> $elevation ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getSizeOffset ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setSizeOffset ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $columns ]
+        Parameter #1 [ <required> $rows ]
+        Parameter #2 [ <required> $offset ]
+      }
+    }
+
+    Method [ <internal:imagick> public method adaptiveBlurImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $radius ]
+        Parameter #1 [ <required> $sigma ]
+        Parameter #2 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method contrastStretchImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $black_point ]
+        Parameter #1 [ <required> $white_point ]
+        Parameter #2 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method adaptiveSharpenImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $radius ]
+        Parameter #1 [ <required> $sigma ]
+        Parameter #2 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method randomThresholdImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $low ]
+        Parameter #1 [ <required> $high ]
+        Parameter #2 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method roundCornersImage ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $x_rounding ]
+        Parameter #1 [ <required> $y_rounding ]
+        Parameter #2 [ <optional> $stroke_width ]
+        Parameter #3 [ <optional> $displace ]
+        Parameter #4 [ <optional> $size_correction ]
+      }
+    }
+
+    Method [ <internal:imagick> public method roundCorners ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $x_rounding ]
+        Parameter #1 [ <required> $y_rounding ]
+        Parameter #2 [ <optional> $stroke_width ]
+        Parameter #3 [ <optional> $displace ]
+        Parameter #4 [ <optional> $size_correction ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setIteratorIndex ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getIteratorIndex ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method transformImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $crop ]
+        Parameter #1 [ <required> $geometry ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method setImageOpacity ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $opacity ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method orderedPosterizeImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $threshold_map ]
+        Parameter #1 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method polaroidImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ImagickDraw $settings ]
+        Parameter #1 [ <required> $angle ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageProperty ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageProperty ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:imagick> public method deleteImageProperty ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:imagick> public method identifyFormat ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $format ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageInterpolateMethod ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $method ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageInterpolateMethod ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method linearStretchImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $black_point ]
+        Parameter #1 [ <required> $white_point ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageLength ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method extentImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $width ]
+        Parameter #1 [ <required> $height ]
+        Parameter #2 [ <required> $x ]
+        Parameter #3 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageOrientation ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageOrientation ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $orientation ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method paintFloodfillImage ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $fill_color ]
+        Parameter #1 [ <required> $fuzz ]
+        Parameter #2 [ <required> $border_color ]
+        Parameter #3 [ <required> $x ]
+        Parameter #4 [ <required> $y ]
+        Parameter #5 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method clutImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> Imagick $lookup_table ]
+        Parameter #1 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageProperties ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $pattern ]
+        Parameter #1 [ <optional> $include_values ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageProfiles ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $pattern ]
+        Parameter #1 [ <optional> $include_values ]
+      }
+    }
+
+    Method [ <internal:imagick> public method distortImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $distortion ]
+        Parameter #1 [ <required> $arguments ]
+        Parameter #2 [ <required> $bestfit ]
+      }
+    }
+
+    Method [ <internal:imagick> public method writeImageFile ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $filehandle ]
+        Parameter #1 [ <optional> $format ]
+      }
+    }
+
+    Method [ <internal:imagick> public method writeImagesFile ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $filehandle ]
+        Parameter #1 [ <optional> $format ]
+      }
+    }
+
+    Method [ <internal:imagick> public method resetImagePage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $page ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method setImageClipMask ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> imagick $clip_mask ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method getImageClipMask ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method animateImages ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $x_server ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method recolorImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $matrix ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setFont ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $font ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getFont ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setPointSize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $point_size ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getPointSize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method mergeImageLayers ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $layermethod ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageAlphaChannel ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $alphachannel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method floodfillPaintImage ] {
+
+      - Parameters [7] {
+        Parameter #0 [ <required> $fill_color ]
+        Parameter #1 [ <required> $fuzz ]
+        Parameter #2 [ <required> $border_color ]
+        Parameter #3 [ <required> $x ]
+        Parameter #4 [ <required> $y ]
+        Parameter #5 [ <required> $invert ]
+        Parameter #6 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method opaquePaintImage ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $target_color ]
+        Parameter #1 [ <required> $fill_color ]
+        Parameter #2 [ <required> $fuzz ]
+        Parameter #3 [ <required> $invert ]
+        Parameter #4 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method transparentPaintImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $target_color ]
+        Parameter #1 [ <required> $alpha ]
+        Parameter #2 [ <required> $fuzz ]
+        Parameter #3 [ <required> $invert ]
+      }
+    }
+
+    Method [ <internal:imagick> public method liquidRescaleImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $width ]
+        Parameter #1 [ <required> $height ]
+        Parameter #2 [ <required> $delta_x ]
+        Parameter #3 [ <required> $rigidity ]
+      }
+    }
+
+    Method [ <internal:imagick> public method encipherImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $passphrase ]
+      }
+    }
+
+    Method [ <internal:imagick> public method decipherImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $passphrase ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setGravity ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $gravity ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getGravity ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageChannelRange ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageAlphaChannel ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageChannelDistortions ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> Imagick $reference_image ]
+        Parameter #1 [ <required> $metric ]
+        Parameter #2 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageGravity ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $gravity ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageGravity ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method importImagePixels ] {
+
+      - Parameters [7] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+        Parameter #2 [ <required> $width ]
+        Parameter #3 [ <required> $height ]
+        Parameter #4 [ <required> $map ]
+        Parameter #5 [ <required> $pixelstorage ]
+        Parameter #6 [ <required> $pixels ]
+      }
+    }
+
+    Method [ <internal:imagick> public method deskewImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $threshold ]
+      }
+    }
+
+    Method [ <internal:imagick> public method segmentImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $colorspace ]
+        Parameter #1 [ <required> $cluster_threshold ]
+        Parameter #2 [ <required> $smooth_threshold ]
+        Parameter #3 [ <optional> $verbose ]
+      }
+    }
+
+    Method [ <internal:imagick> public method sparseColorImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $sparsecolormethod ]
+        Parameter #1 [ <required> $arguments ]
+        Parameter #2 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method remapImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> Imagick $replacement ]
+        Parameter #1 [ <required> $dither_method ]
+      }
+    }
+
+    Method [ <internal:imagick> public method exportImagePixels ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+        Parameter #2 [ <required> $width ]
+        Parameter #3 [ <required> $height ]
+        Parameter #4 [ <required> $map ]
+        Parameter #5 [ <required> $pixelstorage ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageChannelKurtosis ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method functionImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $function ]
+        Parameter #1 [ <required> $parameters ]
+        Parameter #2 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method transformImageColorspace ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $colorspace ]
+      }
+    }
+
+    Method [ <internal:imagick> public method haldClutImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> Imagick $clut ]
+        Parameter #1 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method autoLevelImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method blueShiftImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $factor ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageArtifact ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $artifact ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageArtifact ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $artifact ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:imagick> public method deleteImageArtifact ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $artifact ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getColorspace ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setColorspace ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $colorspace ]
+      }
+    }
+
+    Method [ <internal:imagick> public method clampImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method smushImages ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $stack ]
+        Parameter #1 [ <required> $offset ]
+      }
+    }
+
+    Method [ <internal:imagick, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $files ]
+      }
+    }
+
+    Method [ <internal:imagick> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick, prototype Countable> public method count ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $mode ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getPixelIterator ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getPixelRegionIterator ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+        Parameter #2 [ <required> $columns ]
+        Parameter #3 [ <required> $rows ]
+      }
+    }
+
+    Method [ <internal:imagick> public method readImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $filename ]
+      }
+    }
+
+    Method [ <internal:imagick> public method readImages ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $filenames ]
+      }
+    }
+
+    Method [ <internal:imagick> public method readImageBlob ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $image ]
+        Parameter #1 [ <optional> $filename ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageFormat ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $format ]
+      }
+    }
+
+    Method [ <internal:imagick> public method scaleImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $columns ]
+        Parameter #1 [ <required> $rows ]
+        Parameter #2 [ <optional> $bestfit ]
+        Parameter #3 [ <optional> $legacy ]
+      }
+    }
+
+    Method [ <internal:imagick> public method writeImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $filename ]
+      }
+    }
+
+    Method [ <internal:imagick> public method writeImages ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $filename ]
+        Parameter #1 [ <required> $adjoin ]
+      }
+    }
+
+    Method [ <internal:imagick> public method blurImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $radius ]
+        Parameter #1 [ <required> $sigma ]
+        Parameter #2 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method thumbnailImage ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $columns ]
+        Parameter #1 [ <required> $rows ]
+        Parameter #2 [ <optional> $bestfit ]
+        Parameter #3 [ <optional> $fill ]
+        Parameter #4 [ <optional> $legacy ]
+      }
+    }
+
+    Method [ <internal:imagick> public method cropThumbnailImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $width ]
+        Parameter #1 [ <required> $height ]
+        Parameter #2 [ <optional> $legacy ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageFilename ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageFilename ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $filename ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageFormat ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageMimeType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method removeImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method destroy ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method clear ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method clone ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageSize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageBlob ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImagesBlob ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setFirstIterator ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setLastIterator ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method resetIterator ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method previousImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method nextImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method hasPreviousImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method hasNextImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageIndex ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageIndex ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method commentImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $comment ]
+      }
+    }
+
+    Method [ <internal:imagick> public method cropImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $width ]
+        Parameter #1 [ <required> $height ]
+        Parameter #2 [ <required> $x ]
+        Parameter #3 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method labelImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $label ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageGeometry ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method drawImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ImagickDraw $drawing ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageCompressionQuality ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $quality ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageCompressionQuality ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageCompression ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $compression ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageCompression ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method annotateImage ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> ImagickDraw $settings ]
+        Parameter #1 [ <required> $x ]
+        Parameter #2 [ <required> $y ]
+        Parameter #3 [ <required> $angle ]
+        Parameter #4 [ <required> $text ]
+      }
+    }
+
+    Method [ <internal:imagick> public method compositeImage ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> Imagick $composite_image ]
+        Parameter #1 [ <required> $composite ]
+        Parameter #2 [ <required> $x ]
+        Parameter #3 [ <required> $y ]
+        Parameter #4 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method modulateImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $brightness ]
+        Parameter #1 [ <required> $saturation ]
+        Parameter #2 [ <required> $hue ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageColors ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method montageImage ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> ImagickDraw $settings ]
+        Parameter #1 [ <required> $tile_geometry ]
+        Parameter #2 [ <required> $thumbnail_geometry ]
+        Parameter #3 [ <required> $monatgemode ]
+        Parameter #4 [ <required> $frame ]
+      }
+    }
+
+    Method [ <internal:imagick> public method identifyImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $append_raw_output ]
+      }
+    }
+
+    Method [ <internal:imagick> public method thresholdImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $threshold ]
+        Parameter #1 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method adaptiveThresholdImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $width ]
+        Parameter #1 [ <required> $height ]
+        Parameter #2 [ <required> $offset ]
+      }
+    }
+
+    Method [ <internal:imagick> public method blackThresholdImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $threshold_color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method whiteThresholdImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $threshold_color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method appendImages ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $stack ]
+      }
+    }
+
+    Method [ <internal:imagick> public method charcoalImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $radius ]
+        Parameter #1 [ <required> $sigma ]
+      }
+    }
+
+    Method [ <internal:imagick> public method normalizeImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method oilPaintImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $radius ]
+      }
+    }
+
+    Method [ <internal:imagick> public method posterizeImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $levels ]
+        Parameter #1 [ <required> $dither ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method radialBlurImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $angle ]
+        Parameter #1 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method raiseImage ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $width ]
+        Parameter #1 [ <required> $height ]
+        Parameter #2 [ <required> $x ]
+        Parameter #3 [ <required> $y ]
+        Parameter #4 [ <required> $raise ]
+      }
+    }
+
+    Method [ <internal:imagick> public method resampleImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $x_resolution ]
+        Parameter #1 [ <required> $y_resolution ]
+        Parameter #2 [ <required> $filter ]
+        Parameter #3 [ <required> $blur ]
+      }
+    }
+
+    Method [ <internal:imagick> public method resizeImage ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $columns ]
+        Parameter #1 [ <required> $rows ]
+        Parameter #2 [ <required> $filter ]
+        Parameter #3 [ <required> $blur ]
+        Parameter #4 [ <optional> $bestfit ]
+        Parameter #5 [ <optional> $legacy ]
+      }
+    }
+
+    Method [ <internal:imagick> public method rollImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method rotateImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $background_color ]
+        Parameter #1 [ <required> $degrees ]
+      }
+    }
+
+    Method [ <internal:imagick> public method sampleImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $columns ]
+        Parameter #1 [ <required> $rows ]
+      }
+    }
+
+    Method [ <internal:imagick> public method solarizeImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $threshold ]
+      }
+    }
+
+    Method [ <internal:imagick> public method shadowImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $opacity ]
+        Parameter #1 [ <required> $sigma ]
+        Parameter #2 [ <required> $x ]
+        Parameter #3 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method setImageAttribute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageBackgroundColor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $background_color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageCompose ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $compose ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageDelay ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $delay ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageDepth ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $depth ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageGamma ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $gamma ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageIterations ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $iterations ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageMatteColor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $matte_color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImagePage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $width ]
+        Parameter #1 [ <required> $height ]
+        Parameter #2 [ <required> $x ]
+        Parameter #3 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageProgressMonitor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $filename ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setProgressMonitor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $callback ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageResolution ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x_resolution ]
+        Parameter #1 [ <required> $y_resolution ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageScene ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $scene ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageTicksPerSecond ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $ticks_per_second ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageType ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $image_type ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageUnits ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $units ]
+      }
+    }
+
+    Method [ <internal:imagick> public method sharpenImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $radius ]
+        Parameter #1 [ <required> $sigma ]
+        Parameter #2 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method shaveImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $columns ]
+        Parameter #1 [ <required> $rows ]
+      }
+    }
+
+    Method [ <internal:imagick> public method shearImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $background_color ]
+        Parameter #1 [ <required> $x_shear ]
+        Parameter #2 [ <required> $y_shear ]
+      }
+    }
+
+    Method [ <internal:imagick> public method spliceImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $width ]
+        Parameter #1 [ <required> $height ]
+        Parameter #2 [ <required> $x ]
+        Parameter #3 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method pingImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $filename ]
+      }
+    }
+
+    Method [ <internal:imagick> public method readImageFile ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $filehandle ]
+        Parameter #1 [ <optional> $filename ]
+      }
+    }
+
+    Method [ <internal:imagick> public method displayImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $servername ]
+      }
+    }
+
+    Method [ <internal:imagick> public method displayImages ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $servername ]
+      }
+    }
+
+    Method [ <internal:imagick> public method spreadImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $radius ]
+      }
+    }
+
+    Method [ <internal:imagick> public method swirlImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $degrees ]
+      }
+    }
+
+    Method [ <internal:imagick> public method stripImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method queryFontMetrics ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> ImagickDraw $settings ]
+        Parameter #1 [ <required> $text ]
+        Parameter #2 [ <optional> $multiline ]
+      }
+    }
+
+    Method [ <internal:imagick> public method steganoImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> Imagick $watermark ]
+        Parameter #1 [ <required> $offset ]
+      }
+    }
+
+    Method [ <internal:imagick> public method addNoiseImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $noise ]
+        Parameter #1 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method motionBlurImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $radius ]
+        Parameter #1 [ <required> $sigma ]
+        Parameter #2 [ <required> $angle ]
+        Parameter #3 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method mosaicImages ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method morphImages ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $number_frames ]
+      }
+    }
+
+    Method [ <internal:imagick> public method minifyImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method affineTransformImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ImagickDraw $settings ]
+      }
+    }
+
+    Method [ <internal:imagick> public method averageImages ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method borderImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $border_color ]
+        Parameter #1 [ <required> $width ]
+        Parameter #2 [ <required> $height ]
+      }
+    }
+
+    Method [ <internal:imagick> public method chopImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $width ]
+        Parameter #1 [ <required> $height ]
+        Parameter #2 [ <required> $x ]
+        Parameter #3 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method clipImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method clipPathImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $pathname ]
+        Parameter #1 [ <required> $inside ]
+      }
+    }
+
+    Method [ <internal:imagick> public method clipImagePath ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $pathname ]
+        Parameter #1 [ <required> $inside ]
+      }
+    }
+
+    Method [ <internal:imagick> public method coalesceImages ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method colorFloodfillImage ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $fill_color ]
+        Parameter #1 [ <required> $fuzz ]
+        Parameter #2 [ <required> $border_color ]
+        Parameter #3 [ <required> $x ]
+        Parameter #4 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method colorizeImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $colorize_color ]
+        Parameter #1 [ <required> $opacity_color ]
+        Parameter #2 [ <optional> $legacy ]
+      }
+    }
+
+    Method [ <internal:imagick> public method compareImageChannels ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> Imagick $reference ]
+        Parameter #1 [ <required> $channel ]
+        Parameter #2 [ <required> $metric ]
+      }
+    }
+
+    Method [ <internal:imagick> public method compareImages ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> Imagick $reference ]
+        Parameter #1 [ <required> $metric ]
+      }
+    }
+
+    Method [ <internal:imagick> public method contrastImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $sharpen ]
+      }
+    }
+
+    Method [ <internal:imagick> public method combineImages ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $colorspace ]
+      }
+    }
+
+    Method [ <internal:imagick> public method convolveImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $kernel ]
+        Parameter #1 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method cycleColormapImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $displace ]
+      }
+    }
+
+    Method [ <internal:imagick> public method deconstructImages ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method despeckleImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method edgeImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $radius ]
+      }
+    }
+
+    Method [ <internal:imagick> public method embossImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $radius ]
+        Parameter #1 [ <required> $sigma ]
+      }
+    }
+
+    Method [ <internal:imagick> public method enhanceImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method equalizeImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method evaluateImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $evaluate ]
+        Parameter #1 [ <required> $constant ]
+        Parameter #2 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method evaluateImages ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $evaluate ]
+      }
+    }
+
+    Method [ <internal:imagick> public method flattenImages ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method flipImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method flopImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method forwardFourierTransformImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $magnitude ]
+      }
+    }
+
+    Method [ <internal:imagick> public method frameImage ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $matte_color ]
+        Parameter #1 [ <required> $width ]
+        Parameter #2 [ <required> $height ]
+        Parameter #3 [ <required> $inner_bevel ]
+        Parameter #4 [ <required> $outer_bevel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method fxImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $expression ]
+        Parameter #1 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method gammaImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $gamma ]
+        Parameter #1 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method gaussianBlurImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $radius ]
+        Parameter #1 [ <required> $sigma ]
+        Parameter #2 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method getImageAttribute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageBackgroundColor ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageBluePrimary ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageBorderColor ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageChannelDepth ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageChannelDistortion ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> Imagick $reference ]
+        Parameter #1 [ <required> $channel ]
+        Parameter #2 [ <required> $metric ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method getImageChannelExtrema ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageChannelMean ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageChannelStatistics ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageColormapColor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageColorspace ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageCompose ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageDelay ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageDepth ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageDistortion ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> Imagick $reference ]
+        Parameter #1 [ <required> $metric ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method getImageExtrema ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageDispose ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageGamma ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageGreenPrimary ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageHeight ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageHistogram ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageInterlaceScheme ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageIterations ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method getImageMatteColor ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImagePage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImagePixelColor ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageProfile ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageRedPrimary ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageRenderingIntent ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageResolution ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageScene ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageSignature ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageTicksPerSecond ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageUnits ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageVirtualPixelMethod ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageWhitePoint ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageWidth ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getNumberImages ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageTotalInkDensity ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getImageRegion ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $width ]
+        Parameter #1 [ <required> $height ]
+        Parameter #2 [ <required> $x ]
+        Parameter #3 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method implodeImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $radius ]
+      }
+    }
+
+    Method [ <internal:imagick> public method inverseFourierTransformImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> Imagick $complement ]
+        Parameter #1 [ <required> $magnitude ]
+      }
+    }
+
+    Method [ <internal:imagick> public method levelImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $black_point ]
+        Parameter #1 [ <required> $gamma ]
+        Parameter #2 [ <required> $white_point ]
+        Parameter #3 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method magnifyImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method mapImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> imagick $map ]
+        Parameter #1 [ <required> $dither ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method matteFloodfillImage ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $alpha ]
+        Parameter #1 [ <required> $fuzz ]
+        Parameter #2 [ <required> $border_color ]
+        Parameter #3 [ <required> $x ]
+        Parameter #4 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method medianFilterImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $radius ]
+      }
+    }
+
+    Method [ <internal:imagick> public method negateImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $gray ]
+        Parameter #1 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method paintOpaqueImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $target_color ]
+        Parameter #1 [ <required> $fill_color ]
+        Parameter #2 [ <required> $fuzz ]
+        Parameter #3 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method paintTransparentImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $target_color ]
+        Parameter #1 [ <required> $alpha ]
+        Parameter #2 [ <required> $fuzz ]
+      }
+    }
+
+    Method [ <internal:imagick> public method previewImages ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $preview ]
+      }
+    }
+
+    Method [ <internal:imagick> public method profileImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $profile ]
+      }
+    }
+
+    Method [ <internal:imagick> public method quantizeImage ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $number_colors ]
+        Parameter #1 [ <required> $colorspace ]
+        Parameter #2 [ <required> $tree_depth ]
+        Parameter #3 [ <required> $dither ]
+        Parameter #4 [ <required> $measure_error ]
+      }
+    }
+
+    Method [ <internal:imagick> public method quantizeImages ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $number_colors ]
+        Parameter #1 [ <required> $colorspace ]
+        Parameter #2 [ <required> $tree_depth ]
+        Parameter #3 [ <required> $dither ]
+        Parameter #4 [ <required> $measure_error ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method reduceNoiseImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $radius ]
+      }
+    }
+
+    Method [ <internal:imagick> public method removeImageProfile ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:imagick> public method separateImageChannel ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method sepiaToneImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $threshold ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method setImageBias ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $bias ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method setImageBiasQuantum ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $bias ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageBluePrimary ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageBorderColor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $border_color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageChannelDepth ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $channel ]
+        Parameter #1 [ <required> $depth ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageColormapColor ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <required> $color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageColorspace ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $colorspace ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageDispose ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $dispose ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageExtent ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $columns ]
+        Parameter #1 [ <required> $rows ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageGreenPrimary ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageInterlaceScheme ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $interlace ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageProfile ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $profile ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageRedPrimary ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageRenderingIntent ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $rendering_intent ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageVirtualPixelMethod ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $method ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImageWhitePoint ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x ]
+        Parameter #1 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method sigmoidalContrastImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $sharpen ]
+        Parameter #1 [ <required> $alpha ]
+        Parameter #2 [ <required> $beta ]
+        Parameter #3 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method stereoImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Imagick $offset_image ]
+      }
+    }
+
+    Method [ <internal:imagick> public method textureImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Imagick $texture ]
+      }
+    }
+
+    Method [ <internal:imagick> public method tintImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $tint_color ]
+        Parameter #1 [ <required> $opacity_color ]
+        Parameter #2 [ <optional> $legacy ]
+      }
+    }
+
+    Method [ <internal:imagick> public method unsharpMaskImage ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $radius ]
+        Parameter #1 [ <required> $sigma ]
+        Parameter #2 [ <required> $amount ]
+        Parameter #3 [ <required> $threshold ]
+        Parameter #4 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getImage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method addImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Imagick $image ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Imagick $image ]
+      }
+    }
+
+    Method [ <internal:imagick> public method newImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $columns ]
+        Parameter #1 [ <required> $rows ]
+        Parameter #2 [ <required> $background_color ]
+        Parameter #3 [ <optional> $format ]
+      }
+    }
+
+    Method [ <internal:imagick> public method newPseudoImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $columns ]
+        Parameter #1 [ <required> $rows ]
+        Parameter #2 [ <required> $pseudo_format ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getCompression ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getCompressionQuality ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getFilename ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getFormat ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getInterlaceScheme ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getOption ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getPage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getSamplingFactors ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method getSize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method setBackgroundColor ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $background_color ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setCompression ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $compression ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setCompressionQuality ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $quality ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setFilename ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $filename ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setFormat ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $format ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setInterlaceScheme ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $interlace ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setOption ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setPage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $width ]
+        Parameter #1 [ <required> $height ]
+        Parameter #2 [ <required> $x ]
+        Parameter #3 [ <required> $y ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setResolution ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $x_resolution ]
+        Parameter #1 [ <required> $y_resolution ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setSamplingFactors ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $factors ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setSize ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $columns ]
+        Parameter #1 [ <required> $rows ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setType ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $imgtype ]
+      }
+    }
+
+    Method [ <internal:imagick, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method brightnessContrastImage ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $brightness ]
+        Parameter #1 [ <required> $contrast ]
+        Parameter #2 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method colorMatrixImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $color_matrix ]
+      }
+    }
+
+    Method [ <internal:imagick> public method selectiveBlurImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $radius ]
+        Parameter #1 [ <required> $sigma ]
+        Parameter #2 [ <required> $threshold ]
+        Parameter #3 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method rotationalBlurImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $angle ]
+        Parameter #1 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method statisticImage ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $type ]
+        Parameter #1 [ <required> $width ]
+        Parameter #2 [ <required> $height ]
+        Parameter #3 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method subimageMatch ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> Imagick $image ]
+        Parameter #1 [ <optional> &$offset ]
+        Parameter #2 [ <optional> &$similarity ]
+        Parameter #3 [ <optional> $threshold ]
+        Parameter #4 [ <optional> $metric ]
+      }
+    }
+
+    Method [ <internal:imagick> public method similarityImage ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> Imagick $image ]
+        Parameter #1 [ <optional> &$offset ]
+        Parameter #2 [ <optional> &$similarity ]
+        Parameter #3 [ <optional> $threshold ]
+        Parameter #4 [ <optional> $metric ]
+      }
+    }
+
+    Method [ <internal:imagick> public method morphology ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $morphology ]
+        Parameter #1 [ <required> $iterations ]
+        Parameter #2 [ <required> ImagickKernel $kernel ]
+        Parameter #3 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal, deprecated:imagick> public method filter ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ImagickKernel $kernel ]
+        Parameter #1 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method setAntialias ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $antialias ]
+      }
+    }
+
+    Method [ <internal:imagick> public method getAntialias ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method colorDecisionListImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $color_correction_collection ]
+      }
+    }
+
+    Method [ <internal:imagick> public method optimizeImageTransparency ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method autoGammaImage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $channel ]
+      }
+    }
+
+    Method [ <internal:imagick> public method autoOrient ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method autoOrientate ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:imagick> public method compositeImageGravity ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> Imagick $image ]
+        Parameter #1 [ <required> $composite_constant ]
+        Parameter #2 [ <required> $gravity ]
+      }
+    }
+
+    Method [ <internal:imagick> public method localContrastImage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $radius ]
+        Parameter #1 [ <required> $strength ]
+      }
+    }
+  }
+}
+',
 );

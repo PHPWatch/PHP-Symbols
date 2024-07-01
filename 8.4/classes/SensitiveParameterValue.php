@@ -109,4 +109,43 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Core> final class SensitiveParameterValue ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ private readonly mixed $value ]
+  }
+
+  - Methods [3] {
+    Method [ <internal:Core, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $value ]
+      }
+    }
+
+    Method [ <internal:Core> public method getValue ] {
+
+      - Parameters [0] {
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:Core> public method __debugInfo ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+  }
+}
+',
 );

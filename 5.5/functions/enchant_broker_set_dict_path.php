@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'enchant',
+  'toString' => 'Function [ <internal:enchant> function enchant_broker_set_dict_path ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $broker ]
+    Parameter #1 [ <required> $name ]
+    Parameter #2 [ <required> $value ]
+  }
+}
+',
 );

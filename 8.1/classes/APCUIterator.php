@@ -215,4 +215,87 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:apcu> <iterateable> class APCUIterator implements Iterator, Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [9] {
+    Method [ <internal:apcu, ctor> public method __construct ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $search = null ]
+        Parameter #1 [ <optional> int $format = APC_ITER_ALL ]
+        Parameter #2 [ <optional> int $chunk_size = 0 ]
+        Parameter #3 [ <optional> int $list = APC_LIST_ACTIVE ]
+      }
+    }
+
+    Method [ <internal:apcu, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:apcu, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:apcu, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:apcu, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string|int ]
+    }
+
+    Method [ <internal:apcu, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:apcu> public method getTotalHits ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:apcu> public method getTotalSize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:apcu> public method getTotalCount ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,23 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'interbase',
+  'toString' => 'Function [ <internal:interbase> function ibase_connect ] {
+
+  - Parameters [7] {
+    Parameter #0 [ <required> $database ]
+    Parameter #1 [ <optional> $username ]
+    Parameter #2 [ <optional> $password ]
+    Parameter #3 [ <optional> $charset ]
+    Parameter #4 [ <optional> $buffers ]
+    Parameter #5 [ <optional> $dialect ]
+    Parameter #6 [ <optional> $role ]
+  }
+}
+',
 );

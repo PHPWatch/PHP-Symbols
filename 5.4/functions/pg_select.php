@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'pgsql',
+  'toString' => 'Function [ <internal:pgsql> function pg_select ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $db ]
+    Parameter #1 [ <required> $table ]
+    Parameter #2 [ <required> $ids ]
+    Parameter #3 [ <optional> $options ]
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_x509_checkpurpose ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> OpenSSLCertificate|string $certificate ]
+    Parameter #1 [ <required> int $purpose ]
+    Parameter #2 [ <optional> array $ca_info = [] ]
+    Parameter #3 [ <optional> ?string $untrusted_certificates_file = null ]
+  }
+  - Return [ int|bool ]
+}
+',
 );

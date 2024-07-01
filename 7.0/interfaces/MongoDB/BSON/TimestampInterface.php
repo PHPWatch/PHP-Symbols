@@ -77,4 +77,39 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:mongodb> interface MongoDB\\BSON\\TimestampInterface ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:mongodb> abstract public method getIncrement ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> abstract public method getTimestamp ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> abstract public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

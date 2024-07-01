@@ -97,4 +97,29 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> class MongoRegex ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [2] {
+    Property [ <default> public $regex ]
+    Property [ <default> public $flags ]
+  }
+
+  - Methods [2] {
+    Method [ <internal:mongo, ctor> public method __construct ] {
+    }
+
+    Method [ <internal:mongo> public method __toString ] {
+    }
+  }
+}
+',
 );

@@ -162,4 +162,49 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> class Dom\\Implementation ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:dom> public method createDocumentType ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $qualifiedName ]
+        Parameter #1 [ <required> string $publicId ]
+        Parameter #2 [ <required> string $systemId ]
+      }
+      - Return [ Dom\\DocumentType ]
+    }
+
+    Method [ <internal:dom> public method createDocument ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> ?string $namespace ]
+        Parameter #1 [ <required> string $qualifiedName ]
+        Parameter #2 [ <optional> ?Dom\\DocumentType $doctype = null ]
+      }
+      - Return [ Dom\\XMLDocument ]
+    }
+
+    Method [ <internal:dom> public method createHTMLDocument ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $title = null ]
+      }
+      - Return [ Dom\\HTMLDocument ]
+    }
+  }
+}
+',
 );

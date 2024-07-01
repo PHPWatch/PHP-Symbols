@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'xdebug',
+  'toString' => 'Function [ <internal:xdebug> function xdebug_set_filter ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> integer $group ]
+    Parameter #1 [ <required> integer $listType ]
+    Parameter #2 [ <required> array $configuration ]
+  }
+}
+',
 );

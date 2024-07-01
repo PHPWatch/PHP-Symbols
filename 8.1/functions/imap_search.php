@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'imap',
+  'toString' => 'Function [ <internal:imap> function imap_search ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> IMAP\\Connection $imap ]
+    Parameter #1 [ <required> string $criteria ]
+    Parameter #2 [ <optional> int $flags = SE_FREE ]
+    Parameter #3 [ <optional> string $charset = "" ]
+  }
+  - Return [ array|false ]
+}
+',
 );

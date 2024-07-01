@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'pgsql',
+  'toString' => 'Function [ <internal:pgsql> function pg_trace ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> string $filename ]
+    Parameter #1 [ <optional> string $mode = "w" ]
+    Parameter #2 [ <optional> ?PgSql\\Connection $connection = null ]
+    Parameter #3 [ <optional> int $trace_mode = 0 ]
+  }
+  - Return [ bool ]
+}
+',
 );

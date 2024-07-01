@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,17 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'libxml',
+  'toString' => 'Function [ <internal:libxml> function libxml_set_external_entity_loader ] {
+
+  - Parameters [1] {
+    Parameter #0 [ <required> $resolver_function ]
+  }
+}
+',
 );

@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    \ReflectionExtension::__set_state(array(
+       'name' => 'zmq',
+    )),
     'removed' => NULL,
+    'version' => '@PACKAGE_VERSION@',
     'resources' => 
     array (
       0 => 
@@ -25,14 +29,24 @@ return array (
   ),
   'classes' => 
   array (
+    0 => 'ZMQ',
+    1 => 'ZMQContext',
+    2 => 'ZMQSocket',
+    3 => 'ZMQPoll',
+    4 => 'ZMQDevice',
+    5 => 'ZMQException',
+    6 => 'ZMQContextException',
+    7 => 'ZMQSocketException',
+    8 => 'ZMQPollException',
+    9 => 'ZMQDeviceException',
+  ),
+  'functions' => 
+  array (
   ),
   'constants' => 
   array (
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

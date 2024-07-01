@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,18 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'session',
+  'toString' => 'Function [ <internal, deprecated:session> function session_register ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $name ]
+    Parameter #1 [ <optional> $... ]
+  }
+}
+',
 );

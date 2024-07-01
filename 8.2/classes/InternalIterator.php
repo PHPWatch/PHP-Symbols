@@ -129,4 +129,62 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Core> <iterateable> final class InternalIterator implements Iterator, Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [6] {
+    Method [ <internal:Core, ctor> private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Core, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:Core, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:Core, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:Core, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Core, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+  }
+}
+',
 );

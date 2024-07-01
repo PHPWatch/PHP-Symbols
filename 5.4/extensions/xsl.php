@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'xsl',
+    )),
     'removed' => NULL,
+    'version' => '0.1',
     'resources' => 
     array (
       0 => 
@@ -25,17 +29,33 @@ return array (
   ),
   'classes' => 
   array (
-  ),
-  'constants' => 
-  array (
-  ),
-  'dependencies' => 
-  array (
+    0 => 'XSLTProcessor',
   ),
   'functions' => 
   array (
   ),
+  'constants' => 
+  array (
+    'XSL_CLONE_AUTO' => 0,
+    'XSL_CLONE_NEVER' => -1,
+    'XSL_CLONE_ALWAYS' => 1,
+    'XSL_SECPREF_NONE' => 0,
+    'XSL_SECPREF_READ_FILE' => 2,
+    'XSL_SECPREF_WRITE_FILE' => 4,
+    'XSL_SECPREF_CREATE_DIRECTORY' => 8,
+    'XSL_SECPREF_READ_NETWORK' => 16,
+    'XSL_SECPREF_WRITE_NETWORK' => 32,
+    'XSL_SECPREF_DEFAULT' => 44,
+    'LIBXSLT_VERSION' => 10128,
+    'LIBXSLT_DOTTED_VERSION' => '1.1.28',
+    'LIBEXSLT_VERSION' => 817,
+    'LIBEXSLT_DOTTED_VERSION' => '1.1.28',
+  ),
+  'dependencies' => 
+  array (
+  ),
   'ini' => 
   array (
+    'xsl.security_prefs' => '44',
   ),
 );

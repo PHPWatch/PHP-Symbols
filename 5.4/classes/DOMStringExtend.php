@@ -93,4 +93,35 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> class DOMStringExtend ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [2] {
+    Method [ <internal:dom> public method findOffset16 ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $offset32 ]
+      }
+    }
+
+    Method [ <internal:dom> public method findOffset32 ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $offset16 ]
+      }
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,29 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'sockets',
+  'toString' => 'Function [ <internal:sockets> function socket_sendto ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> Socket $socket ]
+    Parameter #1 [ <required> string $data ]
+    Parameter #2 [ <required> int $length ]
+    Parameter #3 [ <required> int $flags ]
+    Parameter #4 [ <required> string $address ]
+    Parameter #5 [ <optional> ?int $port = null ]
+  }
+  - Return [ int|false ]
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'pgsql',
+  'toString' => 'Function [ <internal:pgsql> function pg_fetch_object ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $result ]
+    Parameter #1 [ <optional> $row ]
+    Parameter #2 [ <optional> $class_name ]
+    Parameter #3 [ <optional> $l ]
+    Parameter #4 [ <optional> $ctor_params ]
+  }
+}
+',
 );

@@ -465,4 +465,188 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:amqp> class AMQPEnvelope extends AMQPBasicProperties ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [6] {
+    Property [ <default> private $body ]
+    Property [ <default> private $consumerTag ]
+    Property [ <default> private $deliveryTag ]
+    Property [ <default> private $isRedelivery ]
+    Property [ <default> private $exchangeName ]
+    Property [ <default> private $routingKey ]
+  }
+
+  - Methods [23] {
+    Method [ <internal:amqp, overwrites AMQPBasicProperties, ctor> public method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:amqp> public method getBody ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:amqp> public method getRoutingKey ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:amqp> public method getConsumerTag ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string or NULL ]
+    }
+
+    Method [ <internal:amqp> public method getDeliveryTag ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int or NULL ]
+    }
+
+    Method [ <internal:amqp> public method getExchangeName ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string or NULL ]
+    }
+
+    Method [ <internal:amqp> public method isRedelivery ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:amqp> public method getHeader ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $headerName ]
+      }
+    }
+
+    Method [ <internal:amqp> public method hasHeader ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $headerName ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:amqp, inherits AMQPBasicProperties> public method getContentType ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string or NULL ]
+    }
+
+    Method [ <internal:amqp, inherits AMQPBasicProperties> public method getContentEncoding ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string or NULL ]
+    }
+
+    Method [ <internal:amqp, inherits AMQPBasicProperties> public method getHeaders ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:amqp, inherits AMQPBasicProperties> public method getDeliveryMode ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp, inherits AMQPBasicProperties> public method getPriority ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp, inherits AMQPBasicProperties> public method getCorrelationId ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string or NULL ]
+    }
+
+    Method [ <internal:amqp, inherits AMQPBasicProperties> public method getReplyTo ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string or NULL ]
+    }
+
+    Method [ <internal:amqp, inherits AMQPBasicProperties> public method getExpiration ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string or NULL ]
+    }
+
+    Method [ <internal:amqp, inherits AMQPBasicProperties> public method getMessageId ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string or NULL ]
+    }
+
+    Method [ <internal:amqp, inherits AMQPBasicProperties> public method getTimestamp ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int or NULL ]
+    }
+
+    Method [ <internal:amqp, inherits AMQPBasicProperties> public method getType ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string or NULL ]
+    }
+
+    Method [ <internal:amqp, inherits AMQPBasicProperties> public method getUserId ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string or NULL ]
+    }
+
+    Method [ <internal:amqp, inherits AMQPBasicProperties> public method getAppId ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string or NULL ]
+    }
+
+    Method [ <internal:amqp, inherits AMQPBasicProperties> public method getClusterId ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string or NULL ]
+    }
+  }
+}
+',
 );

@@ -365,4 +365,90 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:memcache> class MemcachePool ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [23] {
+    Method [ <internal:memcache> public method connect ] {
+    }
+
+    Method [ <internal:memcache> public method addserver ] {
+    }
+
+    Method [ <internal:memcache> public method setserverparams ] {
+    }
+
+    Method [ <internal:memcache> public method setfailurecallback ] {
+    }
+
+    Method [ <internal:memcache> public method getserverstatus ] {
+    }
+
+    Method [ <internal:memcache> public method findserver ] {
+    }
+
+    Method [ <internal:memcache> public method getversion ] {
+    }
+
+    Method [ <internal:memcache> public method add ] {
+    }
+
+    Method [ <internal:memcache> public method set ] {
+    }
+
+    Method [ <internal:memcache> public method replace ] {
+    }
+
+    Method [ <internal:memcache> public method cas ] {
+    }
+
+    Method [ <internal:memcache> public method append ] {
+    }
+
+    Method [ <internal:memcache> public method prepend ] {
+    }
+
+    Method [ <internal:memcache> public method get ] {
+    }
+
+    Method [ <internal:memcache> public method delete ] {
+    }
+
+    Method [ <internal:memcache> public method getstats ] {
+    }
+
+    Method [ <internal:memcache> public method getextendedstats ] {
+    }
+
+    Method [ <internal:memcache> public method setcompressthreshold ] {
+    }
+
+    Method [ <internal:memcache> public method increment ] {
+    }
+
+    Method [ <internal:memcache> public method decrement ] {
+    }
+
+    Method [ <internal:memcache> public method close ] {
+    }
+
+    Method [ <internal:memcache> public method flush ] {
+    }
+
+    Method [ <internal:memcache> public method setSaslAuthData ] {
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,28 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'hash',
+  'toString' => 'Function [ <internal:hash> function hash_hkdf ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> string $algo ]
+    Parameter #1 [ <required> string $key ]
+    Parameter #2 [ <optional> int $length = 0 ]
+    Parameter #3 [ <optional> string $info = "" ]
+    Parameter #4 [ <optional> string $salt = "" ]
+  }
+  - Return [ string ]
+}
+',
 );

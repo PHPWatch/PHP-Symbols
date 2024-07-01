@@ -520,4 +520,126 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SQLite> class SQLiteDatabase ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [13] {
+    Method [ <internal:SQLite, ctor> final public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $filename ]
+        Parameter #1 [ <optional> $mode ]
+        Parameter #2 [ <optional> &$error_message ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method query ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $query ]
+        Parameter #1 [ <optional> $result_type ]
+        Parameter #2 [ <optional> &$error_message ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method queryExec ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $query ]
+        Parameter #1 [ <optional> &$error_message ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method arrayQuery ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $query ]
+        Parameter #1 [ <optional> $result_type ]
+        Parameter #2 [ <optional> $decode_binary ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method singleQuery ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $query ]
+        Parameter #1 [ <optional> $first_row_only ]
+        Parameter #2 [ <optional> $decode_binary ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method unbufferedQuery ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $query ]
+        Parameter #1 [ <optional> $result_type ]
+        Parameter #2 [ <optional> &$error_message ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method lastInsertRowid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SQLite> public method changes ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SQLite> public method createAggregate ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $funcname ]
+        Parameter #1 [ <required> $step_func ]
+        Parameter #2 [ <required> $finalize_func ]
+        Parameter #3 [ <optional> $num_args ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method createFunction ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $funcname ]
+        Parameter #1 [ <required> $callback ]
+        Parameter #2 [ <optional> $num_args ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method busyTimeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $ms ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method lastError ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SQLite> public method fetchColumnTypes ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $table_name ]
+        Parameter #1 [ <optional> $result_type ]
+      }
+    }
+  }
+}
+',
 );

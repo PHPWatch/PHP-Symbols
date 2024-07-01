@@ -233,4 +233,95 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:gearman> class GearmanTask ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [12] {
+    Method [ <internal:gearman> public method returnCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method functionName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method unique ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method jobHandle ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method isKnown ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method isRunning ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method taskNumerator ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method taskDenominator ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method sendWorkload ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $data ]
+      }
+    }
+
+    Method [ <internal:gearman> public method data ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method dataSize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method recvData ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $data_len ]
+      }
+    }
+  }
+}
+',
 );

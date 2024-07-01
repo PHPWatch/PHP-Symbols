@@ -121,4 +121,28 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:libxml> class LibXMLError ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [6] {
+    Property [ public int $level ]
+    Property [ public int $code ]
+    Property [ public int $column ]
+    Property [ public string $message ]
+    Property [ public string $file ]
+    Property [ public int $line ]
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

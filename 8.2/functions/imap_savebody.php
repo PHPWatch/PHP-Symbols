@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,28 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'imap',
+  'toString' => 'Function [ <internal:imap> function imap_savebody ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> IMAP\\Connection $imap ]
+    Parameter #1 [ <required> $file ]
+    Parameter #2 [ <required> int $message_num ]
+    Parameter #3 [ <optional> string $section = "" ]
+    Parameter #4 [ <optional> int $flags = 0 ]
+  }
+  - Return [ bool ]
+}
+',
 );

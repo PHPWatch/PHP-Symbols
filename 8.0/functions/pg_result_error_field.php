@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => true,
   ),
   'extension' => 'pgsql',
+  'toString' => 'Function [ <internal:pgsql> function pg_result_error_field ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $result ]
+    Parameter #1 [ <required> int $field_code ]
+  }
+  - Return [ string|false|null ]
+}
+',
 );

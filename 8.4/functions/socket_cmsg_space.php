@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => true,
   ),
   'extension' => 'sockets',
+  'toString' => 'Function [ <internal:sockets> function socket_cmsg_space ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> int $level ]
+    Parameter #1 [ <required> int $type ]
+    Parameter #2 [ <optional> int $num = 0 ]
+  }
+  - Return [ ?int ]
+}
+',
 );

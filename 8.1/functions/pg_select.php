@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,28 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'pgsql',
+  'toString' => 'Function [ <internal:pgsql> function pg_select ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> PgSql\\Connection $connection ]
+    Parameter #1 [ <required> string $table_name ]
+    Parameter #2 [ <required> array $conditions ]
+    Parameter #3 [ <optional> int $flags = PGSQL_DML_EXEC ]
+    Parameter #4 [ <optional> int $mode = PGSQL_ASSOC ]
+  }
+  - Return [ array|string|false ]
+}
+',
 );

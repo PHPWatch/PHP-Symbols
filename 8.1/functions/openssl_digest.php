@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_digest ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> string $data ]
+    Parameter #1 [ <required> string $digest_algo ]
+    Parameter #2 [ <optional> bool $binary = false ]
+  }
+  - Return [ string|false ]
+}
+',
 );

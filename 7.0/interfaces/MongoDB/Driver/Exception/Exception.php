@@ -148,4 +148,45 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:mongodb> interface MongoDB\\Driver\\Exception\\Exception extends Throwable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [8] {
+    Method [ <internal:Core, inherits Throwable> abstract public method getMessage ] {
+    }
+
+    Method [ <internal:Core, inherits Throwable> abstract public method getCode ] {
+    }
+
+    Method [ <internal:Core, inherits Throwable> abstract public method getFile ] {
+    }
+
+    Method [ <internal:Core, inherits Throwable> abstract public method getLine ] {
+    }
+
+    Method [ <internal:Core, inherits Throwable> abstract public method getTrace ] {
+    }
+
+    Method [ <internal:Core, inherits Throwable> abstract public method getPrevious ] {
+    }
+
+    Method [ <internal:Core, inherits Throwable> abstract public method getTraceAsString ] {
+    }
+
+    Method [ <internal:Core, inherits Throwable> abstract public method __toString ] {
+    }
+  }
+}
+',
 );

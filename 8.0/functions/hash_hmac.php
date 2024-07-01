@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'hash',
+  'toString' => 'Function [ <internal:hash> function hash_hmac ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> string $algo ]
+    Parameter #1 [ <required> string $data ]
+    Parameter #2 [ <required> string $key ]
+    Parameter #3 [ <optional> bool $binary = false ]
+  }
+  - Return [ string ]
+}
+',
 );

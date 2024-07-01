@@ -247,4 +247,78 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> class Transliterator ] {
+
+  - Constants [2] {
+    Constant [ public int FORWARD ] { 0 }
+    Constant [ public int REVERSE ] { 1 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [3] {
+    Method [ <internal:intl> static public method create ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $id ]
+        Parameter #1 [ <optional> int $direction = Transliterator::FORWARD ]
+      }
+    }
+
+    Method [ <internal:intl> static public method createFromRules ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $rules ]
+        Parameter #1 [ <optional> int $direction = Transliterator::FORWARD ]
+      }
+    }
+
+    Method [ <internal:intl> static public method listIDs ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+
+  - Properties [1] {
+    Property [ public $id = NULL ]
+  }
+
+  - Methods [5] {
+    Method [ <internal:intl, ctor> final private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method createInverse ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method transliterate ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $string ]
+        Parameter #1 [ <optional> int $start = 0 ]
+        Parameter #2 [ <optional> int $end = -1 ]
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorMessage ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

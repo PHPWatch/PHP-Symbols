@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function array_multisort ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> &$arr1 ]
+    Parameter #1 [ <optional> &$SORT_ASC_or_SORT_DESC ]
+    Parameter #2 [ <optional> &$SORT_REGULAR_or_SORT_NUMERIC_or_SORT_STRING ]
+    Parameter #3 [ <optional> &$arr2 ]
+    Parameter #4 [ <optional> &$SORT_ASC_or_SORT_DESC ]
+    Parameter #5 [ <optional> &$SORT_REGULAR_or_SORT_NUMERIC_or_SORT_STRING ]
+  }
+}
+',
 );

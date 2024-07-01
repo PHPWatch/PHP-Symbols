@@ -60,4 +60,28 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:SPL> interface SplObserver ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:SPL> abstract public method update ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> SplSubject $subject ]
+      }
+    }
+  }
+}
+',
 );

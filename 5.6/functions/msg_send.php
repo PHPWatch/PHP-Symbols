@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'sysvmsg',
+  'toString' => 'Function [ <internal:sysvmsg> function msg_send ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $queue ]
+    Parameter #1 [ <required> $msgtype ]
+    Parameter #2 [ <required> $message ]
+    Parameter #3 [ <optional> $serialize ]
+    Parameter #4 [ <optional> $blocking ]
+    Parameter #5 [ <optional> &$errorcode ]
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,28 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'ldap',
+  'toString' => 'Function [ <internal:ldap> function ldap_compare ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> LDAP\\Connection $ldap ]
+    Parameter #1 [ <required> string $dn ]
+    Parameter #2 [ <required> string $attribute ]
+    Parameter #3 [ <required> string $value ]
+    Parameter #4 [ <optional> ?array $controls = null ]
+  }
+  - Return [ int|bool ]
+}
+',
 );

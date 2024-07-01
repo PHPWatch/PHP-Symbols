@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'pspell',
+  'toString' => 'Function [ <internal:pspell> function pspell_config_create ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $language ]
+    Parameter #1 [ <optional> $spelling ]
+    Parameter #2 [ <optional> $jargon ]
+    Parameter #3 [ <optional> $encoding ]
+  }
+}
+',
 );

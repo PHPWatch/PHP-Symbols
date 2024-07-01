@@ -35,4 +35,22 @@ return array (
   'methods' => 
   array (
   ),
+  'toString' => 'Interface [ <internal:mongodb> interface MongoDB\\BSON\\MinKeyInterface ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

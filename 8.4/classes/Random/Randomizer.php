@@ -379,4 +379,119 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:random> final class Random\\Randomizer ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ public readonly Random\\Engine $engine ]
+  }
+
+  - Methods [12] {
+    Method [ <internal:random, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?Random\\Engine $engine = null ]
+      }
+    }
+
+    Method [ <internal:random> public method nextInt ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:random> public method nextFloat ] {
+
+      - Parameters [0] {
+      }
+      - Return [ float ]
+    }
+
+    Method [ <internal:random> public method getFloat ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> float $min ]
+        Parameter #1 [ <required> float $max ]
+        Parameter #2 [ <optional> Random\\IntervalBoundary $boundary = Random\\IntervalBoundary::ClosedOpen ]
+      }
+      - Return [ float ]
+    }
+
+    Method [ <internal:random> public method getInt ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $min ]
+        Parameter #1 [ <required> int $max ]
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:random> public method getBytes ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $length ]
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:random> public method getBytesFromString ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $string ]
+        Parameter #1 [ <required> int $length ]
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:random> public method shuffleArray ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $array ]
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:random> public method shuffleBytes ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $bytes ]
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:random> public method pickArrayKeys ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array $array ]
+        Parameter #1 [ <required> int $num ]
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:random> public method __serialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:random> public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+      - Return [ void ]
+    }
+  }
+}
+',
 );

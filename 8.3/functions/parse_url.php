@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => true,
   ),
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function parse_url ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> string $url ]
+    Parameter #1 [ <optional> int $component = -1 ]
+  }
+  - Return [ array|string|int|false|null ]
+}
+',
 );

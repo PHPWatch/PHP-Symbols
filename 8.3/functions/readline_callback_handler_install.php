@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'readline',
+  'toString' => 'Function [ <internal:readline> function readline_callback_handler_install ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> string $prompt ]
+    Parameter #1 [ <required> callable $callback ]
+  }
+  - Return [ bool ]
+}
+',
 );

@@ -219,4 +219,82 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:date> class DateTimeZone ] {
+
+  - Constants [14] {
+    Constant [ integer AFRICA ] { 1 }
+    Constant [ integer AMERICA ] { 2 }
+    Constant [ integer ANTARCTICA ] { 4 }
+    Constant [ integer ARCTIC ] { 8 }
+    Constant [ integer ASIA ] { 16 }
+    Constant [ integer ATLANTIC ] { 32 }
+    Constant [ integer AUSTRALIA ] { 64 }
+    Constant [ integer EUROPE ] { 128 }
+    Constant [ integer INDIAN ] { 256 }
+    Constant [ integer PACIFIC ] { 512 }
+    Constant [ integer UTC ] { 1024 }
+    Constant [ integer ALL ] { 2047 }
+    Constant [ integer ALL_WITH_BC ] { 4095 }
+    Constant [ integer PER_COUNTRY ] { 4096 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:date> static public method listAbbreviations ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:date> static public method listIdentifiers ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $what ]
+        Parameter #1 [ <optional> $country ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [5] {
+    Method [ <internal:date, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timezone ]
+      }
+    }
+
+    Method [ <internal:date> public method getName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:date> public method getOffset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $datetime ]
+      }
+    }
+
+    Method [ <internal:date> public method getTransitions ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $timestamp_begin ]
+        Parameter #1 [ <required> $timestamp_end ]
+      }
+    }
+
+    Method [ <internal:date> public method getLocation ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

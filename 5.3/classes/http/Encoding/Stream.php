@@ -136,4 +136,56 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:http> abstract class http\\Encoding\\Stream ] {
+
+  - Constants [3] {
+    Constant [ integer FLUSH_NONE ] { 0 }
+    Constant [ integer FLUSH_SYNC ] { 1048576 }
+    Constant [ integer FLUSH_FULL ] { 2097152 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [5] {
+    Method [ <internal:http, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:http> public method update ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $data ]
+      }
+    }
+
+    Method [ <internal:http> public method flush ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method done ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method finish ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

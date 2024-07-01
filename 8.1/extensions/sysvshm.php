@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'sysvshm',
+    )),
     'removed' => NULL,
+    'version' => '8.1.29',
     'resources' => 
     array (
       0 => 
@@ -25,14 +29,22 @@ return array (
   ),
   'classes' => 
   array (
+    0 => 'SysvSharedMemory',
+  ),
+  'functions' => 
+  array (
+    'shm_attach' => 'shm_attach',
+    'shm_detach' => 'shm_detach',
+    'shm_has_var' => 'shm_has_var',
+    'shm_remove' => 'shm_remove',
+    'shm_put_var' => 'shm_put_var',
+    'shm_get_var' => 'shm_get_var',
+    'shm_remove_var' => 'shm_remove_var',
   ),
   'constants' => 
   array (
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

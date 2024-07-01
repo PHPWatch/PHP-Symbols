@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function str_word_count ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> string $string ]
+    Parameter #1 [ <optional> int $format = 0 ]
+    Parameter #2 [ <optional> ?string $characters = null ]
+  }
+  - Return [ array|int ]
+}
+',
 );

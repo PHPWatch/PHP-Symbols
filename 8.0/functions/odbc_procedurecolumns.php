@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'odbc',
+  'toString' => 'Function [ <internal:odbc> function odbc_procedurecolumns ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $odbc ]
+    Parameter #1 [ <optional> ?string $catalog = null ]
+    Parameter #2 [ <optional> ?string $schema = null ]
+    Parameter #3 [ <optional> ?string $procedure = null ]
+    Parameter #4 [ <optional> ?string $column = null ]
+  }
+}
+',
 );

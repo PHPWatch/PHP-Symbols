@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function levenshtein ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $str1 ]
+    Parameter #1 [ <required> $str2 ]
+    Parameter #2 [ <required> $cost_ins ]
+    Parameter #3 [ <required> $cost_rep ]
+    Parameter #4 [ <required> $cost_del ]
+  }
+}
+',
 );

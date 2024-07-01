@@ -97,4 +97,37 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\BSON\\ObjectID implements MongoDB\\BSON\\Type ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:mongodb, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $id ]
+      }
+    }
+
+    Method [ <internal:mongodb> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> public method __wakeUp ] {
+    }
+  }
+}
+',
 );

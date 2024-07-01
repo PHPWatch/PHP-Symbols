@@ -332,4 +332,85 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> class DOMXPath ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:dom> static public method quote ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $str ]
+      }
+      - Return [ string ]
+    }
+  }
+
+  - Properties [2] {
+    Property [ public DOMDocument $document ]
+    Property [ public bool $registerNodeNamespaces ]
+  }
+
+  - Methods [6] {
+    Method [ <internal:dom, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> DOMDocument $document ]
+        Parameter #1 [ <optional> bool $registerNodeNS = true ]
+      }
+    }
+
+    Method [ <internal:dom> public method evaluate ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $expression ]
+        Parameter #1 [ <optional> ?DOMNode $contextNode = null ]
+        Parameter #2 [ <optional> bool $registerNodeNS = true ]
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:dom> public method query ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $expression ]
+        Parameter #1 [ <optional> ?DOMNode $contextNode = null ]
+        Parameter #2 [ <optional> bool $registerNodeNS = true ]
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:dom> public method registerNamespace ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $prefix ]
+        Parameter #1 [ <required> string $namespace ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom> public method registerPhpFunctions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> array|string|null $restrict = null ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:dom> public method registerPhpFunctionNS ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $namespaceURI ]
+        Parameter #1 [ <required> string $name ]
+        Parameter #2 [ <required> callable $callable ]
+      }
+      - Return [ void ]
+    }
+  }
+}
+',
 );

@@ -257,4 +257,78 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> <iterateable> class ResourceBundle implements IteratorAggregate, Traversable, Countable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:intl> static public method create ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> ?string $locale ]
+        Parameter #1 [ <required> ?string $bundle ]
+        Parameter #2 [ <optional> bool $fallback = true ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getLocales ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $bundle ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [6] {
+    Method [ <internal:intl, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> ?string $locale ]
+        Parameter #1 [ <required> ?string $bundle ]
+        Parameter #2 [ <optional> bool $fallback = true ]
+      }
+    }
+
+    Method [ <internal:intl> public method get ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <optional> bool $fallback = true ]
+      }
+    }
+
+    Method [ <internal:intl, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorMessage ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Iterator ]
+    }
+  }
+}
+',
 );

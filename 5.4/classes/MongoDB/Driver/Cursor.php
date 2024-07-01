@@ -153,4 +153,58 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> <iterateable> final class MongoDB\\Driver\\Cursor implements Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [7] {
+    Method [ <internal:mongodb, ctor> final private method __construct ] {
+    }
+
+    Method [ <internal:mongodb> final public method setTypeMap ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $typemap ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method toArray ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getId ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getServer ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method isDead ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> public method __wakeUp ] {
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_verify ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> string $data ]
+    Parameter #1 [ <required> string $signature ]
+    Parameter #2 [ <required> $public_key ]
+    Parameter #3 [ <optional> string|int $algorithm = OPENSSL_ALGO_SHA1 ]
+  }
+  - Return [ int|false ]
+}
+',
 );

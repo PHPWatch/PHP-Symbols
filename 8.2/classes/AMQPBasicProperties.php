@@ -593,4 +593,153 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:amqp> class AMQPBasicProperties ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [14] {
+    Property [ private ?string $contentType = NULL ]
+    Property [ private ?string $contentEncoding = NULL ]
+    Property [ private array $headers = [] ]
+    Property [ private int $deliveryMode = 1 ]
+    Property [ private int $priority = 0 ]
+    Property [ private ?string $correlationId = NULL ]
+    Property [ private ?string $replyTo = NULL ]
+    Property [ private ?string $expiration = NULL ]
+    Property [ private ?string $messageId = NULL ]
+    Property [ private ?int $timestamp = NULL ]
+    Property [ private ?string $type = NULL ]
+    Property [ private ?string $userId = NULL ]
+    Property [ private ?string $appId = NULL ]
+    Property [ private ?string $clusterId = NULL ]
+  }
+
+  - Methods [15] {
+    Method [ <internal:amqp, ctor> public method __construct ] {
+
+      - Parameters [14] {
+        Parameter #0 [ <optional> ?string $contentType = null ]
+        Parameter #1 [ <optional> ?string $contentEncoding = null ]
+        Parameter #2 [ <optional> array $headers = [] ]
+        Parameter #3 [ <optional> int $deliveryMode = AMQP_DELIVERY_MODE_TRANSIENT ]
+        Parameter #4 [ <optional> int $priority = 0 ]
+        Parameter #5 [ <optional> ?string $correlationId = null ]
+        Parameter #6 [ <optional> ?string $replyTo = null ]
+        Parameter #7 [ <optional> ?string $expiration = null ]
+        Parameter #8 [ <optional> ?string $messageId = null ]
+        Parameter #9 [ <optional> ?int $timestamp = null ]
+        Parameter #10 [ <optional> ?string $type = null ]
+        Parameter #11 [ <optional> ?string $userId = null ]
+        Parameter #12 [ <optional> ?string $appId = null ]
+        Parameter #13 [ <optional> ?string $clusterId = null ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getContentType ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:amqp> public method getContentEncoding ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:amqp> public method getHeaders ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:amqp> public method getDeliveryMode ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method getPriority ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method getCorrelationId ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:amqp> public method getReplyTo ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:amqp> public method getExpiration ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:amqp> public method getMessageId ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:amqp> public method getTimestamp ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?int ]
+    }
+
+    Method [ <internal:amqp> public method getType ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:amqp> public method getUserId ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:amqp> public method getAppId ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:amqp> public method getClusterId ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+  }
+}
+',
 );

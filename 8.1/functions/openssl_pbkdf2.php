@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,28 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_pbkdf2 ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> string $password ]
+    Parameter #1 [ <required> string $salt ]
+    Parameter #2 [ <required> int $key_length ]
+    Parameter #3 [ <required> int $iterations ]
+    Parameter #4 [ <optional> string $digest_algo = "sha1" ]
+  }
+  - Return [ string|false ]
+}
+',
 );

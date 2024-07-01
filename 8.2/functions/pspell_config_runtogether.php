@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'pspell',
+  'toString' => 'Function [ <internal:pspell> function pspell_config_runtogether ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> PSpell\\Config $config ]
+    Parameter #1 [ <required> bool $allow ]
+  }
+  - Return [ bool ]
+}
+',
 );

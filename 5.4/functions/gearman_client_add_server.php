@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'gearman',
+  'toString' => 'Function [ <internal:gearman> function gearman_client_add_server ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $client_object ]
+    Parameter #1 [ <required> $host ]
+    Parameter #2 [ <required> $port ]
+  }
+}
+',
 );

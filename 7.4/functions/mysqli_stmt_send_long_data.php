@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'mysqli',
+  'toString' => 'Function [ <internal:mysqli> function mysqli_stmt_send_long_data ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $stmt ]
+    Parameter #1 [ <required> $param_nr ]
+    Parameter #2 [ <required> $data ]
+  }
+}
+',
 );

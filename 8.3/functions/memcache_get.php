@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => true,
   ),
   'extension' => 'memcache',
+  'toString' => 'Function [ <internal:memcache> function memcache_get ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> MemcachePool $memcache ]
+    Parameter #1 [ <required> $key ]
+    Parameter #2 [ <optional> &$flags = <default> ]
+    Parameter #3 [ <optional> &$cas = <default> ]
+  }
+  - Return [ mixed ]
+}
+',
 );

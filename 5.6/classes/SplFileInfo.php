@@ -562,4 +562,207 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> class SplFileInfo ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [30] {
+    Method [ <internal:SPL, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $file_name ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getPath ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getFilename ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getExtension ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getBasename ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $suffix ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getPathname ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getPerms ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getInode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getSize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getOwner ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getGroup ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getATime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getMTime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getCTime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method isWritable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method isReadable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method isExecutable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method isFile ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method isDir ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method isLink ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getLinkTarget ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getRealPath ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getFileInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $class_name ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getPathInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $class_name ]
+      }
+    }
+
+    Method [ <internal:SPL> public method openFile ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $open_mode ]
+        Parameter #1 [ <optional> $use_include_path ]
+        Parameter #2 [ <optional> $context ]
+      }
+    }
+
+    Method [ <internal:SPL> public method setFileClass ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $class_name ]
+      }
+    }
+
+    Method [ <internal:SPL> public method setInfoClass ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $class_name ]
+      }
+    }
+
+    Method [ <internal:SPL> final public method _bad_state_ex ] {
+    }
+
+    Method [ <internal:SPL> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

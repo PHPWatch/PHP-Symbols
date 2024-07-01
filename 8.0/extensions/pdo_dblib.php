@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'pdo_dblib',
+    )),
     'removed' => NULL,
+    'version' => '8.0.30',
     'resources' => 
     array (
       0 => 
@@ -26,13 +30,13 @@ return array (
   'classes' => 
   array (
   ),
+  'functions' => 
+  array (
+  ),
   'constants' => 
   array (
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

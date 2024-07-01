@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    \ReflectionExtension::__set_state(array(
+       'name' => 'iconv',
+    )),
     'removed' => NULL,
+    'version' => '8.2.20',
     'resources' => 
     array (
       0 => 
@@ -26,16 +30,33 @@ return array (
   'classes' => 
   array (
   ),
+  'functions' => 
+  array (
+    'iconv_strlen' => 'iconv_strlen',
+    'iconv_substr' => 'iconv_substr',
+    'iconv_strpos' => 'iconv_strpos',
+    'iconv_strrpos' => 'iconv_strrpos',
+    'iconv_mime_encode' => 'iconv_mime_encode',
+    'iconv_mime_decode' => 'iconv_mime_decode',
+    'iconv_mime_decode_headers' => 'iconv_mime_decode_headers',
+    'iconv' => 'iconv',
+    'iconv_set_encoding' => 'iconv_set_encoding',
+    'iconv_get_encoding' => 'iconv_get_encoding',
+  ),
   'constants' => 
   array (
+    'ICONV_IMPL' => 'glibc',
+    'ICONV_VERSION' => '2.35',
+    'ICONV_MIME_DECODE_STRICT' => 1,
+    'ICONV_MIME_DECODE_CONTINUE_ON_ERROR' => 2,
   ),
   'dependencies' => 
   array (
   ),
-  'functions' => 
-  array (
-  ),
   'ini' => 
   array (
+    'iconv.input_encoding' => '',
+    'iconv.internal_encoding' => '',
+    'iconv.output_encoding' => '',
   ),
 );

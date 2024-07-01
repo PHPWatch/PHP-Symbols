@@ -143,4 +143,50 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> class Dom\\AdjacentPosition implements BackedEnum, UnitEnum ] {
+
+  - Constants [4] {
+    Constant [ public Dom\\AdjacentPosition BeforeBegin ] { Object }
+    Constant [ public Dom\\AdjacentPosition AfterBegin ] { Object }
+    Constant [ public Dom\\AdjacentPosition BeforeEnd ] { Object }
+    Constant [ public Dom\\AdjacentPosition AfterEnd ] { Object }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [3] {
+    Method [ <internal:dom, prototype UnitEnum> static public method cases ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:dom, prototype BackedEnum> static public method from ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string|int $value ]
+      }
+      - Return [ static ]
+    }
+
+    Method [ <internal:dom, prototype BackedEnum> static public method tryFrom ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string|int $value ]
+      }
+      - Return [ ?static ]
+    }
+  }
+
+  - Properties [2] {
+    Property [ public readonly string $name ]
+    Property [ public readonly string $value ]
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

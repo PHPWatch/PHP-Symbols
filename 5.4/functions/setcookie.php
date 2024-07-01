@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function setcookie ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $name ]
+    Parameter #1 [ <optional> $value ]
+    Parameter #2 [ <optional> $expires ]
+    Parameter #3 [ <optional> $path ]
+    Parameter #4 [ <optional> $domain ]
+    Parameter #5 [ <optional> $secure ]
+  }
+}
+',
 );

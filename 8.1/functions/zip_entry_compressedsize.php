@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,24 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'zip',
+  'toString' => 'Function [ <internal, deprecated:zip> function zip_entry_compressedsize ] {
+
+  - Parameters [1] {
+    Parameter #0 [ <required> $zip_entry ]
+  }
+  - Return [ int|false ]
+}
+',
 );

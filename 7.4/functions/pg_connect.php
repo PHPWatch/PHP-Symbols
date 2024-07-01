@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,23 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'pgsql',
+  'toString' => 'Function [ <internal:pgsql> function pg_connect ] {
+
+  - Parameters [7] {
+    Parameter #0 [ <required> $connection_string ]
+    Parameter #1 [ <optional> $connect_type ]
+    Parameter #2 [ <optional> $host ]
+    Parameter #3 [ <optional> $port ]
+    Parameter #4 [ <optional> $options ]
+    Parameter #5 [ <optional> $tty ]
+    Parameter #6 [ <optional> $database ]
+  }
+}
+',
 );

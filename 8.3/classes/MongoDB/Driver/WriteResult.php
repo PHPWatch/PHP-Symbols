@@ -211,4 +211,104 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\WriteResult ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [12] {
+    Method [ <internal:mongodb, ctor> final private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getInsertedCount ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?int ]
+    }
+
+    Method [ <internal:mongodb> final public method getMatchedCount ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?int ]
+    }
+
+    Method [ <internal:mongodb> final public method getModifiedCount ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?int ]
+    }
+
+    Method [ <internal:mongodb> final public method getDeletedCount ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?int ]
+    }
+
+    Method [ <internal:mongodb> final public method getUpsertedCount ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?int ]
+    }
+
+    Method [ <internal:mongodb> final public method getServer ] {
+
+      - Parameters [0] {
+      }
+      - Return [ MongoDB\\Driver\\Server ]
+    }
+
+    Method [ <internal:mongodb> final public method getUpsertedIds ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:mongodb> final public method getWriteConcernError ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?MongoDB\\Driver\\WriteConcernError ]
+    }
+
+    Method [ <internal:mongodb> final public method getWriteErrors ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:mongodb> final public method getErrorReplies ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:mongodb> final public method isAcknowledged ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+  }
+}
+',
 );

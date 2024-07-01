@@ -260,4 +260,103 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:date> class DateTimeZone ] {
+
+  - Constants [14] {
+    Constant [ public int AFRICA ] { 1 }
+    Constant [ public int AMERICA ] { 2 }
+    Constant [ public int ANTARCTICA ] { 4 }
+    Constant [ public int ARCTIC ] { 8 }
+    Constant [ public int ASIA ] { 16 }
+    Constant [ public int ATLANTIC ] { 32 }
+    Constant [ public int AUSTRALIA ] { 64 }
+    Constant [ public int EUROPE ] { 128 }
+    Constant [ public int INDIAN ] { 256 }
+    Constant [ public int PACIFIC ] { 512 }
+    Constant [ public int UTC ] { 1024 }
+    Constant [ public int ALL ] { 2047 }
+    Constant [ public int ALL_WITH_BC ] { 4095 }
+    Constant [ public int PER_COUNTRY ] { 4096 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [3] {
+    Method [ <internal:date> static public method listAbbreviations ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:date> static public method listIdentifiers ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> int $timezoneGroup = DateTimeZone::ALL ]
+        Parameter #1 [ <optional> ?string $countryCode = null ]
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:date> static public method __set_state ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $array ]
+      }
+      - Tentative return [ DateTimeZone ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [6] {
+    Method [ <internal:date, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $timezone ]
+      }
+    }
+
+    Method [ <internal:date> public method getName ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:date> public method getOffset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DateTimeInterface $datetime ]
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:date> public method getTransitions ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> int $timestampBegin = PHP_INT_MIN ]
+        Parameter #1 [ <optional> int $timestampEnd = PHP_INT_MAX ]
+      }
+      - Tentative return [ array|false ]
+    }
+
+    Method [ <internal:date> public method getLocation ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array|false ]
+    }
+
+    Method [ <internal:date> public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+  }
+}
+',
 );

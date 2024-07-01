@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'gettext',
+  'toString' => 'Function [ <internal:gettext> function dngettext ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $domain ]
+    Parameter #1 [ <required> $msgid1 ]
+    Parameter #2 [ <required> $msgid2 ]
+    Parameter #3 [ <required> $count ]
+  }
+}
+',
 );

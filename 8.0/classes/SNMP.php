@@ -423,4 +423,109 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:snmp> class SNMP ] {
+
+  - Constants [12] {
+    Constant [ public int VERSION_1 ] { 0 }
+    Constant [ public int VERSION_2c ] { 1 }
+    Constant [ public int VERSION_2C ] { 1 }
+    Constant [ public int VERSION_3 ] { 3 }
+    Constant [ public int ERRNO_NOERROR ] { 0 }
+    Constant [ public int ERRNO_ANY ] { 126 }
+    Constant [ public int ERRNO_GENERIC ] { 2 }
+    Constant [ public int ERRNO_TIMEOUT ] { 4 }
+    Constant [ public int ERRNO_ERROR_IN_REPLY ] { 8 }
+    Constant [ public int ERRNO_OID_NOT_INCREASING ] { 16 }
+    Constant [ public int ERRNO_OID_PARSING_ERROR ] { 32 }
+    Constant [ public int ERRNO_MULTIPLE_SET_QUERIES ] { 64 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [9] {
+    Method [ <internal:snmp, ctor> public method __construct ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> int $version ]
+        Parameter #1 [ <required> string $hostname ]
+        Parameter #2 [ <required> string $community ]
+        Parameter #3 [ <optional> int $timeout = -1 ]
+        Parameter #4 [ <optional> int $retries = -1 ]
+      }
+    }
+
+    Method [ <internal:snmp> public method close ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:snmp> public method setSecurity ] {
+
+      - Parameters [7] {
+        Parameter #0 [ <required> string $securityLevel ]
+        Parameter #1 [ <optional> string $authProtocol = "" ]
+        Parameter #2 [ <optional> string $authPassphrase = "" ]
+        Parameter #3 [ <optional> string $privacyProtocol = "" ]
+        Parameter #4 [ <optional> string $privacyPassphrase = "" ]
+        Parameter #5 [ <optional> string $contextName = "" ]
+        Parameter #6 [ <optional> string $contextEngineId = "" ]
+      }
+    }
+
+    Method [ <internal:snmp> public method get ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $objectId ]
+        Parameter #1 [ <optional> bool $preserveKeys = false ]
+      }
+    }
+
+    Method [ <internal:snmp> public method getnext ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array|string $objectId ]
+      }
+    }
+
+    Method [ <internal:snmp> public method walk ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> array|string $objectId ]
+        Parameter #1 [ <optional> bool $suffixAsKey = false ]
+        Parameter #2 [ <optional> int $maxRepetitions = -1 ]
+        Parameter #3 [ <optional> int $nonRepeaters = -1 ]
+      }
+    }
+
+    Method [ <internal:snmp> public method set ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array|string $objectId ]
+        Parameter #1 [ <required> array|string $type ]
+        Parameter #2 [ <required> array|string $value ]
+      }
+    }
+
+    Method [ <internal:snmp> public method getErrno ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:snmp> public method getError ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

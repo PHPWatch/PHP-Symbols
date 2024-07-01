@@ -118,4 +118,44 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:gmp> class GMP ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:gmp, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> string|int $num = 0 ]
+        Parameter #1 [ <optional> int $base = 0 ]
+      }
+    }
+
+    Method [ <internal:gmp> public method __serialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:gmp> public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+      - Return [ void ]
+    }
+  }
+}
+',
 );

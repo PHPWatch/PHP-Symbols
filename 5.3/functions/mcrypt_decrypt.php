@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'mcrypt',
+  'toString' => 'Function [ <internal:mcrypt> function mcrypt_decrypt ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $cipher ]
+    Parameter #1 [ <required> $key ]
+    Parameter #2 [ <required> $data ]
+    Parameter #3 [ <required> $mode ]
+    Parameter #4 [ <required> $iv ]
+  }
+}
+',
 );

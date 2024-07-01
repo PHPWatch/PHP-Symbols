@@ -57,4 +57,27 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Core> final class ReturnTypeWillChange ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:Core, ctor> public method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

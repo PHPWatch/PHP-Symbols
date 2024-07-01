@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'SQLite',
+  'toString' => 'Function [ <internal:SQLite> function sqlite_fetch_column_types ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $table_name ]
+    Parameter #1 [ <required> $db ]
+    Parameter #2 [ <optional> $result_type ]
+  }
+}
+',
 );

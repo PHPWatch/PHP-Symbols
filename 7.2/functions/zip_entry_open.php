@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'zip',
+  'toString' => 'Function [ <internal:zip> function zip_entry_open ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $zip_dp ]
+    Parameter #1 [ <required> $zip_entry ]
+    Parameter #2 [ <optional> $mode ]
+  }
+}
+',
 );

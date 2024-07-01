@@ -179,4 +179,67 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:http> interface http\\Client\\Curl\\User ] {
+
+  - Constants [5] {
+    Constant [ integer POLL_NONE ] { 0 }
+    Constant [ integer POLL_IN ] { 1 }
+    Constant [ integer POLL_OUT ] { 2 }
+    Constant [ integer POLL_INOUT ] { 3 }
+    Constant [ integer POLL_REMOVE ] { 4 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [6] {
+    Method [ <internal:http> abstract public method init ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $run ]
+      }
+    }
+
+    Method [ <internal:http> abstract public method timer ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timeout_ms ]
+      }
+    }
+
+    Method [ <internal:http> abstract public method socket ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $socket ]
+        Parameter #1 [ <required> $action ]
+      }
+    }
+
+    Method [ <internal:http> abstract public method once ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> abstract public method wait ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $timeout_ms ]
+      }
+    }
+
+    Method [ <internal:http> abstract public method send ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'readline',
+    )),
     'removed' => NULL,
+    'version' => NULL,
     'resources' => 
     array (
       0 => 
@@ -26,13 +30,26 @@ return array (
   'classes' => 
   array (
   ),
+  'functions' => 
+  array (
+    'readline' => 'readline',
+    'readline_info' => 'readline_info',
+    'readline_add_history' => 'readline_add_history',
+    'readline_clear_history' => 'readline_clear_history',
+    'readline_list_history' => 'readline_list_history',
+    'readline_read_history' => 'readline_read_history',
+    'readline_write_history' => 'readline_write_history',
+    'readline_completion_function' => 'readline_completion_function',
+    'readline_callback_handler_install' => 'readline_callback_handler_install',
+    'readline_callback_read_char' => 'readline_callback_read_char',
+    'readline_callback_handler_remove' => 'readline_callback_handler_remove',
+    'readline_redisplay' => 'readline_redisplay',
+    'readline_on_new_line' => 'readline_on_new_line',
+  ),
   'constants' => 
   array (
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

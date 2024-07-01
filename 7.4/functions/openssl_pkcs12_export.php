@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_pkcs12_export ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $x509 ]
+    Parameter #1 [ <required> &$out ]
+    Parameter #2 [ <required> $priv_key ]
+    Parameter #3 [ <required> $pass ]
+    Parameter #4 [ <optional> $args ]
+  }
+}
+',
 );

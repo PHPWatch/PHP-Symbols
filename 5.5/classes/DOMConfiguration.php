@@ -140,4 +140,44 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> class DOMConfiguration ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:dom> public method setParameter ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:dom> public method getParameter ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $name ]
+      }
+    }
+
+    Method [ <internal:dom> public method canSetParameter ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $name ]
+        Parameter #1 [ <optional> $value ]
+      }
+    }
+  }
+}
+',
 );

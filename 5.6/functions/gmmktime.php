@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,23 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'date',
+  'toString' => 'Function [ <internal:date> function gmmktime ] {
+
+  - Parameters [7] {
+    Parameter #0 [ <optional> $hour ]
+    Parameter #1 [ <optional> $min ]
+    Parameter #2 [ <optional> $sec ]
+    Parameter #3 [ <optional> $mon ]
+    Parameter #4 [ <optional> $day ]
+    Parameter #5 [ <optional> $year ]
+    Parameter #6 [ <optional> $is_dst ]
+  }
+}
+',
 );

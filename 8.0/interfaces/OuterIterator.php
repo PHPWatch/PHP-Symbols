@@ -121,4 +121,57 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:SPL> interface OuterIterator extends Iterator, Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [6] {
+    Method [ <internal:SPL> abstract public method getInnerIterator ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Core, inherits Iterator> abstract public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

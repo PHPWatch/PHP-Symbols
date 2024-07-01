@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,17 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'gmp',
+  'toString' => 'Function [ <internal, deprecated:gmp> function gmp_random ] {
+
+  - Parameters [1] {
+    Parameter #0 [ <optional> $limiter ]
+  }
+}
+',
 );

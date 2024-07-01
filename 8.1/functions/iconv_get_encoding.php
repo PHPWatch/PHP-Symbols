@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,24 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'iconv',
+  'toString' => 'Function [ <internal:iconv> function iconv_get_encoding ] {
+
+  - Parameters [1] {
+    Parameter #0 [ <optional> string $type = "all" ]
+  }
+  - Return [ array|string|false ]
+}
+',
 );

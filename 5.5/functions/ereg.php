@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'ereg',
+  'toString' => 'Function [ <internal, deprecated:ereg> function ereg ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $pattern ]
+    Parameter #1 [ <required> $string ]
+    Parameter #2 [ <optional> &$registers ]
+  }
+}
+',
 );

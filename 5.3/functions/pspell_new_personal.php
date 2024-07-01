@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'pspell',
+  'toString' => 'Function [ <internal:pspell> function pspell_new_personal ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $personal ]
+    Parameter #1 [ <required> $language ]
+    Parameter #2 [ <optional> $spelling ]
+    Parameter #3 [ <optional> $jargon ]
+    Parameter #4 [ <optional> $encoding ]
+    Parameter #5 [ <optional> $mode ]
+  }
+}
+',
 );

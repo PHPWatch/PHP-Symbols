@@ -110,4 +110,46 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\ReadPreference ] {
+
+  - Constants [5] {
+    Constant [ integer RP_PRIMARY ] { 1 }
+    Constant [ integer RP_PRIMARY_PREFERRED ] { 5 }
+    Constant [ integer RP_SECONDARY ] { 2 }
+    Constant [ integer RP_SECONDARY_PREFERRED ] { 6 }
+    Constant [ integer RP_NEAREST ] { 10 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:mongodb, ctor> final public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $mode ]
+        Parameter #1 [ <optional> array or NULL $tagSets ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getMode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getTagSets ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

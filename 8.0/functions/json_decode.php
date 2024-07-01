@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => true,
   ),
   'extension' => 'json',
+  'toString' => 'Function [ <internal:json> function json_decode ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> string $json ]
+    Parameter #1 [ <optional> ?bool $associative = null ]
+    Parameter #2 [ <optional> int $depth = 512 ]
+    Parameter #3 [ <optional> int $flags = 0 ]
+  }
+  - Return [ mixed ]
+}
+',
 );

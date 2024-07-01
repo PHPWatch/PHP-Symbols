@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function fputcsv ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $fp ]
+    Parameter #1 [ <required> $fields ]
+    Parameter #2 [ <optional> $delimiter ]
+    Parameter #3 [ <optional> $enclosure ]
+    Parameter #4 [ <optional> $escape_char ]
+  }
+}
+',
 );

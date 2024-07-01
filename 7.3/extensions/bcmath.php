@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'bcmath',
+    )),
     'removed' => NULL,
+    'version' => '7.3.33-19+ubuntu22.04.1+deb.sury.org+1',
     'resources' => 
     array (
       0 => 
@@ -26,16 +30,27 @@ return array (
   'classes' => 
   array (
   ),
+  'functions' => 
+  array (
+    'bcadd' => 'bcadd',
+    'bcsub' => 'bcsub',
+    'bcmul' => 'bcmul',
+    'bcdiv' => 'bcdiv',
+    'bcmod' => 'bcmod',
+    'bcpow' => 'bcpow',
+    'bcsqrt' => 'bcsqrt',
+    'bcscale' => 'bcscale',
+    'bccomp' => 'bccomp',
+    'bcpowmod' => 'bcpowmod',
+  ),
   'constants' => 
   array (
   ),
   'dependencies' => 
   array (
   ),
-  'functions' => 
-  array (
-  ),
   'ini' => 
   array (
+    'bcmath.scale' => '0',
   ),
 );

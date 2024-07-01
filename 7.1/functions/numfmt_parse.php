@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'intl',
+  'toString' => 'Function [ <internal:intl> function numfmt_parse ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $formatter ]
+    Parameter #1 [ <required> $string ]
+    Parameter #2 [ <optional> $type ]
+    Parameter #3 [ <optional> &$position ]
+  }
+}
+',
 );

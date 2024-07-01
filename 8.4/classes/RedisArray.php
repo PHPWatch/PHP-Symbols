@@ -873,4 +873,273 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:redis> class RedisArray ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [31] {
+    Method [ <internal:redis> public method __call ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $function_name ]
+        Parameter #1 [ <required> array $arguments ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $name_or_hosts ]
+        Parameter #1 [ <optional> ?array $options = null ]
+      }
+    }
+
+    Method [ <internal:redis> public method _continuum ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method _distributor ] {
+
+      - Parameters [0] {
+      }
+      - Return [ callable|bool ]
+    }
+
+    Method [ <internal:redis> public method _function ] {
+
+      - Parameters [0] {
+      }
+      - Return [ callable|bool ]
+    }
+
+    Method [ <internal:redis> public method _hosts ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method _instance ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $host ]
+      }
+      - Return [ Redis|bool|null ]
+    }
+
+    Method [ <internal:redis> public method _rehash ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?callable $fn = null ]
+      }
+      - Return [ ?bool ]
+    }
+
+    Method [ <internal:redis> public method _target ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ string|bool|null ]
+    }
+
+    Method [ <internal:redis> public method bgsave ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:redis> public method del ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <optional> string ...$otherkeys ]
+      }
+      - Return [ int|bool ]
+    }
+
+    Method [ <internal:redis> public method discard ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?bool ]
+    }
+
+    Method [ <internal:redis> public method exec ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?bool ]
+    }
+
+    Method [ <internal:redis> public method flushall ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method flushdb ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method getOption ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $opt ]
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method hscan ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> ?int &$iterator ]
+        Parameter #2 [ <optional> ?string $pattern = null ]
+        Parameter #3 [ <optional> int $count = 0 ]
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method info ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method keys ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $pattern ]
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method mget ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $keys ]
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method mset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $pairs ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:redis> public method multi ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $host ]
+        Parameter #1 [ <optional> ?int $mode = null ]
+      }
+      - Return [ RedisArray|bool ]
+    }
+
+    Method [ <internal:redis> public method ping ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method save ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method scan ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> ?int &$iterator ]
+        Parameter #1 [ <required> string $node ]
+        Parameter #2 [ <optional> ?string $pattern = null ]
+        Parameter #3 [ <optional> int $count = 0 ]
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method select ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $index ]
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method setOption ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $opt ]
+        Parameter #1 [ <required> string $value ]
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method sscan ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> ?int &$iterator ]
+        Parameter #2 [ <optional> ?string $pattern = null ]
+        Parameter #3 [ <optional> int $count = 0 ]
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method unlink ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <optional> string ...$otherkeys ]
+      }
+      - Return [ int|bool ]
+    }
+
+    Method [ <internal:redis> public method unwatch ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?bool ]
+    }
+
+    Method [ <internal:redis> public method zscan ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> ?int &$iterator ]
+        Parameter #2 [ <optional> ?string $pattern = null ]
+        Parameter #3 [ <optional> int $count = 0 ]
+      }
+      - Return [ array|bool ]
+    }
+  }
+}
+',
 );

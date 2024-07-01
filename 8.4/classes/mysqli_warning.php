@@ -110,4 +110,37 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mysqli> final class mysqli_warning ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [3] {
+    Property [ public string $message ]
+    Property [ public string $sqlstate ]
+    Property [ public int $errno ]
+  }
+
+  - Methods [2] {
+    Method [ <internal:mysqli, ctor> private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method next ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+  }
+}
+',
 );

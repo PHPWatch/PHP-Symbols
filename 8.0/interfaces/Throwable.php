@@ -148,4 +148,76 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:Core> interface Throwable extends Stringable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [8] {
+    Method [ <internal:Core> abstract public method getMessage ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Core> abstract public method getCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Core> abstract public method getFile ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Core> abstract public method getLine ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:Core> abstract public method getTrace ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:Core> abstract public method getPrevious ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?Throwable ]
+    }
+
+    Method [ <internal:Core> abstract public method getTraceAsString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Core, inherits Stringable> abstract public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+  }
+}
+',
 );

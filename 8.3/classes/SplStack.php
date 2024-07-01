@@ -548,4 +548,219 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class SplStack extends SplDoublyLinkedList implements Serializable, ArrayAccess, Countable, Traversable, Iterator ] {
+
+  - Constants [4] {
+    Constant [ public int IT_MODE_LIFO ] { 2 }
+    Constant [ public int IT_MODE_FIFO ] { 0 }
+    Constant [ public int IT_MODE_DELETE ] { 1 }
+    Constant [ public int IT_MODE_KEEP ] { 0 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [26] {
+    Method [ <internal:SPL, inherits SplDoublyLinkedList> public method add ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $index ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList> public method pop ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList> public method shift ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList> public method push ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $value ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList> public method unshift ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $value ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList> public method top ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList> public method bottom ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList> public method __debugInfo ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList> public method isEmpty ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList> public method setIteratorMode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $mode ]
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList> public method getIteratorMode ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList, prototype ArrayAccess> public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList, prototype ArrayAccess> public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList, prototype ArrayAccess> public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList, prototype ArrayAccess> public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList> public method prev ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList, prototype Serializable> public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $data ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList, prototype Serializable> public method serialize ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList> public method __serialize ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:SPL, inherits SplDoublyLinkedList> public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+      - Tentative return [ void ]
+    }
+  }
+}
+',
 );

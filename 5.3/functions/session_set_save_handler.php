@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'session',
+  'toString' => 'Function [ <internal:session> function session_set_save_handler ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $open ]
+    Parameter #1 [ <required> $close ]
+    Parameter #2 [ <required> $read ]
+    Parameter #3 [ <required> $write ]
+    Parameter #4 [ <required> $destroy ]
+    Parameter #5 [ <required> $gc ]
+  }
+}
+',
 );

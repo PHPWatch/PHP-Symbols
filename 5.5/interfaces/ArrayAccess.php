@@ -146,4 +146,50 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:Core> interface ArrayAccess ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [4] {
+    Method [ <internal:Core> abstract public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $offset ]
+      }
+    }
+
+    Method [ <internal:Core> abstract public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $offset ]
+      }
+    }
+
+    Method [ <internal:Core> abstract public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $offset ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:Core> abstract public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $offset ]
+      }
+    }
+  }
+}
+',
 );

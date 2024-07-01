@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'sysvshm',
+    )),
     'removed' => NULL,
+    'version' => NULL,
     'resources' => 
     array (
       0 => 
@@ -26,13 +30,20 @@ return array (
   'classes' => 
   array (
   ),
+  'functions' => 
+  array (
+    'shm_attach' => 'shm_attach',
+    'shm_remove' => 'shm_remove',
+    'shm_detach' => 'shm_detach',
+    'shm_put_var' => 'shm_put_var',
+    'shm_has_var' => 'shm_has_var',
+    'shm_get_var' => 'shm_get_var',
+    'shm_remove_var' => 'shm_remove_var',
+  ),
   'constants' => 
   array (
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

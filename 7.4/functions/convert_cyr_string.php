@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal, deprecated:standard> function convert_cyr_string ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $str ]
+    Parameter #1 [ <required> $from ]
+    Parameter #2 [ <required> $to ]
+  }
+}
+',
 );

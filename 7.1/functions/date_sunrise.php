@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'date',
+  'toString' => 'Function [ <internal:date> function date_sunrise ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $time ]
+    Parameter #1 [ <optional> $format ]
+    Parameter #2 [ <optional> $latitude ]
+    Parameter #3 [ <optional> $longitude ]
+    Parameter #4 [ <optional> $zenith ]
+    Parameter #5 [ <optional> $gmt_offset ]
+  }
+}
+',
 );

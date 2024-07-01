@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,24 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'sysvmsg',
+  'toString' => 'Function [ <internal:sysvmsg> function msg_receive ] {
+
+  - Parameters [8] {
+    Parameter #0 [ <required> $queue ]
+    Parameter #1 [ <required> $desiredmsgtype ]
+    Parameter #2 [ <required> &$msgtype ]
+    Parameter #3 [ <required> $maxsize ]
+    Parameter #4 [ <required> &$message ]
+    Parameter #5 [ <optional> $unserialize ]
+    Parameter #6 [ <optional> $flags ]
+    Parameter #7 [ <optional> &$errorcode ]
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'mysql',
+  'toString' => 'Function [ <internal:mysql> function mysql_pconnect ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <optional> $hostname ]
+    Parameter #1 [ <optional> $username ]
+    Parameter #2 [ <optional> $password ]
+    Parameter #3 [ <optional> $flags ]
+  }
+}
+',
 );

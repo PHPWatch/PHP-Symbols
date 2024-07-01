@@ -9324,4 +9324,2042 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:redis> class Redis ] {
+
+  - Constants [47] {
+    Constant [ public integer REDIS_NOT_FOUND ] { 0 }
+    Constant [ public integer REDIS_STRING ] { 1 }
+    Constant [ public integer REDIS_SET ] { 2 }
+    Constant [ public integer REDIS_LIST ] { 3 }
+    Constant [ public integer REDIS_ZSET ] { 4 }
+    Constant [ public integer REDIS_HASH ] { 5 }
+    Constant [ public integer REDIS_STREAM ] { 6 }
+    Constant [ public integer PIPELINE ] { 2 }
+    Constant [ public integer ATOMIC ] { 0 }
+    Constant [ public integer MULTI ] { 1 }
+    Constant [ public integer OPT_SERIALIZER ] { 1 }
+    Constant [ public integer OPT_PREFIX ] { 2 }
+    Constant [ public integer OPT_READ_TIMEOUT ] { 3 }
+    Constant [ public integer OPT_TCP_KEEPALIVE ] { 6 }
+    Constant [ public integer OPT_COMPRESSION ] { 7 }
+    Constant [ public integer OPT_REPLY_LITERAL ] { 8 }
+    Constant [ public integer OPT_COMPRESSION_LEVEL ] { 9 }
+    Constant [ public integer OPT_NULL_MULTIBULK_AS_NULL ] { 10 }
+    Constant [ public integer SERIALIZER_NONE ] { 0 }
+    Constant [ public integer SERIALIZER_PHP ] { 1 }
+    Constant [ public integer SERIALIZER_IGBINARY ] { 2 }
+    Constant [ public integer SERIALIZER_JSON ] { 4 }
+    Constant [ public integer COMPRESSION_NONE ] { 0 }
+    Constant [ public integer COMPRESSION_LZF ] { 1 }
+    Constant [ public integer COMPRESSION_ZSTD ] { 2 }
+    Constant [ public integer COMPRESSION_ZSTD_MIN ] { 1 }
+    Constant [ public integer COMPRESSION_ZSTD_DEFAULT ] { 3 }
+    Constant [ public integer COMPRESSION_ZSTD_MAX ] { 22 }
+    Constant [ public integer COMPRESSION_LZ4 ] { 3 }
+    Constant [ public integer OPT_SCAN ] { 4 }
+    Constant [ public integer SCAN_RETRY ] { 1 }
+    Constant [ public integer SCAN_NORETRY ] { 0 }
+    Constant [ public integer SCAN_PREFIX ] { 2 }
+    Constant [ public integer SCAN_NOPREFIX ] { 3 }
+    Constant [ public string AFTER ] { after }
+    Constant [ public string BEFORE ] { before }
+    Constant [ public integer OPT_MAX_RETRIES ] { 11 }
+    Constant [ public integer OPT_BACKOFF_ALGORITHM ] { 12 }
+    Constant [ public integer BACKOFF_ALGORITHM_DEFAULT ] { 0 }
+    Constant [ public integer BACKOFF_ALGORITHM_CONSTANT ] { 6 }
+    Constant [ public integer BACKOFF_ALGORITHM_UNIFORM ] { 5 }
+    Constant [ public integer BACKOFF_ALGORITHM_EXPONENTIAL ] { 4 }
+    Constant [ public integer BACKOFF_ALGORITHM_FULL_JITTER ] { 2 }
+    Constant [ public integer BACKOFF_ALGORITHM_EQUAL_JITTER ] { 3 }
+    Constant [ public integer BACKOFF_ALGORITHM_DECORRELATED_JITTER ] { 1 }
+    Constant [ public integer OPT_BACKOFF_BASE ] { 13 }
+    Constant [ public integer OPT_BACKOFF_CAP ] { 14 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [240] {
+    Method [ <internal:redis, ctor> public method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis, dtor> public method __destruct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method _prefix ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method _serialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method _unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method _pack ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method _unpack ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method _compress ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method _uncompress ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method acl ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $subcmd ]
+        Parameter #1 [ <optional> ...$args ]
+      }
+    }
+
+    Method [ <internal:redis> public method append ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method auth ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $auth ]
+      }
+    }
+
+    Method [ <internal:redis> public method bgSave ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method bgrewriteaof ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method bitcount ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method bitop ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $operation ]
+        Parameter #1 [ <required> $ret_key ]
+        Parameter #2 [ <required> $key ]
+        Parameter #3 [ <optional> ...$other_keys ]
+      }
+    }
+
+    Method [ <internal:redis> public method bitpos ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $bit ]
+        Parameter #2 [ <optional> $start ]
+        Parameter #3 [ <optional> $end ]
+      }
+    }
+
+    Method [ <internal:redis> public method blPop ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $timeout_or_key ]
+        Parameter #2 [ <optional> ...$extra_args ]
+      }
+    }
+
+    Method [ <internal:redis> public method brPop ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $timeout_or_key ]
+        Parameter #2 [ <optional> ...$extra_args ]
+      }
+    }
+
+    Method [ <internal:redis> public method brpoplpush ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $src ]
+        Parameter #1 [ <required> $dst ]
+        Parameter #2 [ <required> $timeout ]
+      }
+    }
+
+    Method [ <internal:redis> public method bzPopMax ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $timeout_or_key ]
+        Parameter #2 [ <optional> ...$extra_args ]
+      }
+    }
+
+    Method [ <internal:redis> public method bzPopMin ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $timeout_or_key ]
+        Parameter #2 [ <optional> ...$extra_args ]
+      }
+    }
+
+    Method [ <internal:redis> public method clearLastError ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method client ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $cmd ]
+        Parameter #1 [ <optional> ...$args ]
+      }
+    }
+
+    Method [ <internal:redis> public method close ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method command ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$args ]
+      }
+    }
+
+    Method [ <internal:redis> public method config ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $cmd ]
+        Parameter #1 [ <required> $key ]
+        Parameter #2 [ <optional> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method connect ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $host ]
+        Parameter #1 [ <optional> $port ]
+        Parameter #2 [ <optional> $timeout ]
+        Parameter #3 [ <optional> $retry_interval ]
+      }
+    }
+
+    Method [ <internal:redis> public method dbSize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method debug ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method decr ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method decrBy ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method del ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> ...$other_keys ]
+      }
+    }
+
+    Method [ <internal:redis> public method discard ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method dump ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method echo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $msg ]
+      }
+    }
+
+    Method [ <internal:redis> public method eval ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $script ]
+        Parameter #1 [ <optional> $args ]
+        Parameter #2 [ <optional> $num_keys ]
+      }
+    }
+
+    Method [ <internal:redis> public method evalsha ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $script_sha ]
+        Parameter #1 [ <optional> $args ]
+        Parameter #2 [ <optional> $num_keys ]
+      }
+    }
+
+    Method [ <internal:redis> public method exec ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method exists ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> ...$other_keys ]
+      }
+    }
+
+    Method [ <internal:redis> public method expire ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $timeout ]
+      }
+    }
+
+    Method [ <internal:redis> public method expireAt ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $timestamp ]
+      }
+    }
+
+    Method [ <internal:redis> public method flushAll ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $async ]
+      }
+    }
+
+    Method [ <internal:redis> public method flushDB ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $async ]
+      }
+    }
+
+    Method [ <internal:redis> public method geoadd ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $lng ]
+        Parameter #2 [ <required> $lat ]
+        Parameter #3 [ <required> $member ]
+        Parameter #4 [ <optional> ...$other_triples ]
+      }
+    }
+
+    Method [ <internal:redis> public method geodist ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $src ]
+        Parameter #2 [ <required> $dst ]
+        Parameter #3 [ <optional> $unit ]
+      }
+    }
+
+    Method [ <internal:redis> public method geohash ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+        Parameter #2 [ <optional> ...$other_members ]
+      }
+    }
+
+    Method [ <internal:redis> public method geopos ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+        Parameter #2 [ <optional> ...$other_members ]
+      }
+    }
+
+    Method [ <internal:redis> public method georadius ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $lng ]
+        Parameter #2 [ <required> $lan ]
+        Parameter #3 [ <required> $radius ]
+        Parameter #4 [ <required> $unit ]
+        Parameter #5 [ <optional> array $opts ]
+      }
+    }
+
+    Method [ <internal:redis> public method georadius_ro ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $lng ]
+        Parameter #2 [ <required> $lan ]
+        Parameter #3 [ <required> $radius ]
+        Parameter #4 [ <required> $unit ]
+        Parameter #5 [ <optional> array $opts ]
+      }
+    }
+
+    Method [ <internal:redis> public method georadiusbymember ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+        Parameter #2 [ <required> $radius ]
+        Parameter #3 [ <required> $unit ]
+        Parameter #4 [ <optional> array $opts ]
+      }
+    }
+
+    Method [ <internal:redis> public method georadiusbymember_ro ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+        Parameter #2 [ <required> $radius ]
+        Parameter #3 [ <required> $unit ]
+        Parameter #4 [ <optional> array $opts ]
+      }
+    }
+
+    Method [ <internal:redis> public method get ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method getAuth ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method getBit ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $offset ]
+      }
+    }
+
+    Method [ <internal:redis> public method getDBNum ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method getHost ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method getLastError ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method getMode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method getOption ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $option ]
+      }
+    }
+
+    Method [ <internal:redis> public method getPersistentID ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method getPort ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method getRange ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $start ]
+        Parameter #2 [ <required> $end ]
+      }
+    }
+
+    Method [ <internal:redis> public method getReadTimeout ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method getSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method getTimeout ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method hDel ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+        Parameter #2 [ <optional> ...$other_members ]
+      }
+    }
+
+    Method [ <internal:redis> public method hExists ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+      }
+    }
+
+    Method [ <internal:redis> public method hGet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+      }
+    }
+
+    Method [ <internal:redis> public method hGetAll ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method hIncrBy ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+        Parameter #2 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method hIncrByFloat ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+        Parameter #2 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method hKeys ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method hLen ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method hMget ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> array $keys ]
+      }
+    }
+
+    Method [ <internal:redis> public method hMset ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> array $pairs ]
+      }
+    }
+
+    Method [ <internal:redis> public method hSet ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+        Parameter #2 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method hSetNx ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+        Parameter #2 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method hStrLen ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+      }
+    }
+
+    Method [ <internal:redis> public method hVals ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method hscan ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $str_key ]
+        Parameter #1 [ <required> &$i_iterator ]
+        Parameter #2 [ <optional> $str_pattern ]
+        Parameter #3 [ <optional> $i_count ]
+      }
+    }
+
+    Method [ <internal:redis> public method incr ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method incrBy ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method incrByFloat ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method info ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $option ]
+      }
+    }
+
+    Method [ <internal:redis> public method isConnected ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method keys ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $pattern ]
+      }
+    }
+
+    Method [ <internal:redis> public method lInsert ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $position ]
+        Parameter #2 [ <required> $pivot ]
+        Parameter #3 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method lLen ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method lPop ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method lPush ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method lPushx ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method lSet ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $index ]
+        Parameter #2 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method lastSave ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method lindex ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal:redis> public method lrange ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $start ]
+        Parameter #2 [ <required> $end ]
+      }
+    }
+
+    Method [ <internal:redis> public method lrem ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+        Parameter #2 [ <required> $count ]
+      }
+    }
+
+    Method [ <internal:redis> public method ltrim ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $start ]
+        Parameter #2 [ <required> $stop ]
+      }
+    }
+
+    Method [ <internal:redis> public method mget ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $keys ]
+      }
+    }
+
+    Method [ <internal:redis> public method migrate ] {
+
+      - Parameters [7] {
+        Parameter #0 [ <required> $host ]
+        Parameter #1 [ <required> $port ]
+        Parameter #2 [ <required> $key ]
+        Parameter #3 [ <required> $db ]
+        Parameter #4 [ <required> $timeout ]
+        Parameter #5 [ <optional> $copy ]
+        Parameter #6 [ <optional> $replace ]
+      }
+    }
+
+    Method [ <internal:redis> public method move ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $dbindex ]
+      }
+    }
+
+    Method [ <internal:redis> public method mset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $pairs ]
+      }
+    }
+
+    Method [ <internal:redis> public method msetnx ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $pairs ]
+      }
+    }
+
+    Method [ <internal:redis> public method multi ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $mode ]
+      }
+    }
+
+    Method [ <internal:redis> public method object ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $field ]
+        Parameter #1 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method pconnect ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $host ]
+        Parameter #1 [ <optional> $port ]
+        Parameter #2 [ <optional> $timeout ]
+      }
+    }
+
+    Method [ <internal:redis> public method persist ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method pexpire ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $timestamp ]
+      }
+    }
+
+    Method [ <internal:redis> public method pexpireAt ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $timestamp ]
+      }
+    }
+
+    Method [ <internal:redis> public method pfadd ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> array $elements ]
+      }
+    }
+
+    Method [ <internal:redis> public method pfcount ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method pfmerge ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $dstkey ]
+        Parameter #1 [ <required> array $keys ]
+      }
+    }
+
+    Method [ <internal:redis> public method ping ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method pipeline ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method psetex ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $expire ]
+        Parameter #2 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method psubscribe ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array $patterns ]
+        Parameter #1 [ <required> $callback ]
+      }
+    }
+
+    Method [ <internal:redis> public method pttl ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method publish ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $channel ]
+        Parameter #1 [ <required> $message ]
+      }
+    }
+
+    Method [ <internal:redis> public method pubsub ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $cmd ]
+        Parameter #1 [ <optional> ...$args ]
+      }
+    }
+
+    Method [ <internal:redis> public method punsubscribe ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $pattern ]
+        Parameter #1 [ <optional> ...$other_patterns ]
+      }
+    }
+
+    Method [ <internal:redis> public method rPop ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method rPush ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method rPushx ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method randomKey ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method rawcommand ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $cmd ]
+        Parameter #1 [ <optional> ...$args ]
+      }
+    }
+
+    Method [ <internal:redis> public method rename ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $newkey ]
+      }
+    }
+
+    Method [ <internal:redis> public method renameNx ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $newkey ]
+      }
+    }
+
+    Method [ <internal:redis> public method restore ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $ttl ]
+        Parameter #1 [ <required> $key ]
+        Parameter #2 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method role ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method rpoplpush ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $src ]
+        Parameter #1 [ <required> $dst ]
+      }
+    }
+
+    Method [ <internal:redis> public method sAdd ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method sAddArray ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> array $options ]
+      }
+    }
+
+    Method [ <internal:redis> public method sDiff ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> ...$other_keys ]
+      }
+    }
+
+    Method [ <internal:redis> public method sDiffStore ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $dst ]
+        Parameter #1 [ <required> $key ]
+        Parameter #2 [ <optional> ...$other_keys ]
+      }
+    }
+
+    Method [ <internal:redis> public method sInter ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> ...$other_keys ]
+      }
+    }
+
+    Method [ <internal:redis> public method sInterStore ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $dst ]
+        Parameter #1 [ <required> $key ]
+        Parameter #2 [ <optional> ...$other_keys ]
+      }
+    }
+
+    Method [ <internal:redis> public method sMembers ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method sMisMember ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+        Parameter #2 [ <optional> ...$other_members ]
+      }
+    }
+
+    Method [ <internal:redis> public method sMove ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $src ]
+        Parameter #1 [ <required> $dst ]
+        Parameter #2 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method sPop ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method sRandMember ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> $count ]
+      }
+    }
+
+    Method [ <internal:redis> public method sUnion ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> ...$other_keys ]
+      }
+    }
+
+    Method [ <internal:redis> public method sUnionStore ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $dst ]
+        Parameter #1 [ <required> $key ]
+        Parameter #2 [ <optional> ...$other_keys ]
+      }
+    }
+
+    Method [ <internal:redis> public method save ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method scan ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> &$i_iterator ]
+        Parameter #1 [ <optional> $str_pattern ]
+        Parameter #2 [ <optional> $i_count ]
+      }
+    }
+
+    Method [ <internal:redis> public method scard ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method script ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $cmd ]
+        Parameter #1 [ <optional> ...$args ]
+      }
+    }
+
+    Method [ <internal:redis> public method select ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $dbindex ]
+      }
+    }
+
+    Method [ <internal:redis> public method set ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+        Parameter #2 [ <optional> $opts ]
+      }
+    }
+
+    Method [ <internal:redis> public method setBit ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $offset ]
+        Parameter #2 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method setOption ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $option ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method setRange ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $offset ]
+        Parameter #2 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method setex ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $expire ]
+        Parameter #2 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method setnx ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method sismember ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:redis> public method slaveof ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $host ]
+        Parameter #1 [ <optional> $port ]
+      }
+    }
+
+    Method [ <internal:redis> public method slowlog ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $arg ]
+        Parameter #1 [ <optional> $option ]
+      }
+    }
+
+    Method [ <internal:redis> public method sort ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method sortAsc ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> $pattern ]
+        Parameter #2 [ <optional> $get ]
+        Parameter #3 [ <optional> $start ]
+        Parameter #4 [ <optional> $end ]
+        Parameter #5 [ <optional> $getList ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method sortAscAlpha ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> $pattern ]
+        Parameter #2 [ <optional> $get ]
+        Parameter #3 [ <optional> $start ]
+        Parameter #4 [ <optional> $end ]
+        Parameter #5 [ <optional> $getList ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method sortDesc ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> $pattern ]
+        Parameter #2 [ <optional> $get ]
+        Parameter #3 [ <optional> $start ]
+        Parameter #4 [ <optional> $end ]
+        Parameter #5 [ <optional> $getList ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method sortDescAlpha ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> $pattern ]
+        Parameter #2 [ <optional> $get ]
+        Parameter #3 [ <optional> $start ]
+        Parameter #4 [ <optional> $end ]
+        Parameter #5 [ <optional> $getList ]
+      }
+    }
+
+    Method [ <internal:redis> public method srem ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+        Parameter #2 [ <optional> ...$other_members ]
+      }
+    }
+
+    Method [ <internal:redis> public method sscan ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $str_key ]
+        Parameter #1 [ <required> &$i_iterator ]
+        Parameter #2 [ <optional> $str_pattern ]
+        Parameter #3 [ <optional> $i_count ]
+      }
+    }
+
+    Method [ <internal:redis> public method strlen ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method subscribe ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array $channels ]
+        Parameter #1 [ <required> $callback ]
+      }
+    }
+
+    Method [ <internal:redis> public method swapdb ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $srcdb ]
+        Parameter #1 [ <required> $dstdb ]
+      }
+    }
+
+    Method [ <internal:redis> public method time ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method ttl ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method type ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method unlink ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> ...$other_keys ]
+      }
+    }
+
+    Method [ <internal:redis> public method unsubscribe ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $channel ]
+        Parameter #1 [ <optional> ...$other_channels ]
+      }
+    }
+
+    Method [ <internal:redis> public method unwatch ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method wait ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $numslaves ]
+        Parameter #1 [ <required> $timeout ]
+      }
+    }
+
+    Method [ <internal:redis> public method watch ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> ...$other_keys ]
+      }
+    }
+
+    Method [ <internal:redis> public method xack ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $str_key ]
+        Parameter #1 [ <required> $str_group ]
+        Parameter #2 [ <required> array $arr_ids ]
+      }
+    }
+
+    Method [ <internal:redis> public method xadd ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $str_key ]
+        Parameter #1 [ <required> $str_id ]
+        Parameter #2 [ <required> array $arr_fields ]
+        Parameter #3 [ <optional> $i_maxlen ]
+        Parameter #4 [ <optional> $boo_approximate ]
+      }
+    }
+
+    Method [ <internal:redis> public method xclaim ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $str_key ]
+        Parameter #1 [ <required> $str_group ]
+        Parameter #2 [ <required> $str_consumer ]
+        Parameter #3 [ <required> $i_min_idle ]
+        Parameter #4 [ <required> array $arr_ids ]
+        Parameter #5 [ <optional> array $arr_opts ]
+      }
+    }
+
+    Method [ <internal:redis> public method xdel ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $str_key ]
+        Parameter #1 [ <required> array $arr_ids ]
+      }
+    }
+
+    Method [ <internal:redis> public method xgroup ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $str_operation ]
+        Parameter #1 [ <optional> $str_key ]
+        Parameter #2 [ <optional> $str_arg1 ]
+        Parameter #3 [ <optional> $str_arg2 ]
+        Parameter #4 [ <optional> $str_arg3 ]
+      }
+    }
+
+    Method [ <internal:redis> public method xinfo ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $str_cmd ]
+        Parameter #1 [ <optional> $str_key ]
+        Parameter #2 [ <optional> $str_group ]
+      }
+    }
+
+    Method [ <internal:redis> public method xlen ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method xpending ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $str_key ]
+        Parameter #1 [ <required> $str_group ]
+        Parameter #2 [ <optional> $str_start ]
+        Parameter #3 [ <optional> $str_end ]
+        Parameter #4 [ <optional> $i_count ]
+        Parameter #5 [ <optional> $str_consumer ]
+      }
+    }
+
+    Method [ <internal:redis> public method xrange ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $str_key ]
+        Parameter #1 [ <required> $str_start ]
+        Parameter #2 [ <required> $str_end ]
+        Parameter #3 [ <optional> $i_count ]
+      }
+    }
+
+    Method [ <internal:redis> public method xread ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array $arr_streams ]
+        Parameter #1 [ <optional> $i_count ]
+        Parameter #2 [ <optional> $i_block ]
+      }
+    }
+
+    Method [ <internal:redis> public method xreadgroup ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $str_group ]
+        Parameter #1 [ <required> $str_consumer ]
+        Parameter #2 [ <required> array $arr_streams ]
+        Parameter #3 [ <optional> $i_count ]
+        Parameter #4 [ <optional> $i_block ]
+      }
+    }
+
+    Method [ <internal:redis> public method xrevrange ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $str_key ]
+        Parameter #1 [ <required> $str_start ]
+        Parameter #2 [ <required> $str_end ]
+        Parameter #3 [ <optional> $i_count ]
+      }
+    }
+
+    Method [ <internal:redis> public method xtrim ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $str_key ]
+        Parameter #1 [ <required> $i_maxlen ]
+        Parameter #2 [ <optional> $boo_approximate ]
+      }
+    }
+
+    Method [ <internal:redis> public method zAdd ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $score ]
+        Parameter #2 [ <required> $value ]
+        Parameter #3 [ <optional> ...$extra_args ]
+      }
+    }
+
+    Method [ <internal:redis> public method zCard ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method zCount ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $min ]
+        Parameter #2 [ <required> $max ]
+      }
+    }
+
+    Method [ <internal:redis> public method zIncrBy ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+        Parameter #2 [ <required> $member ]
+      }
+    }
+
+    Method [ <internal:redis> public method zLexCount ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $min ]
+        Parameter #2 [ <required> $max ]
+      }
+    }
+
+    Method [ <internal:redis> public method zPopMax ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method zPopMin ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method zRange ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $start ]
+        Parameter #2 [ <required> $end ]
+        Parameter #3 [ <optional> $scores ]
+      }
+    }
+
+    Method [ <internal:redis> public method zRangeByLex ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $min ]
+        Parameter #2 [ <required> $max ]
+        Parameter #3 [ <optional> $offset ]
+        Parameter #4 [ <optional> $limit ]
+      }
+    }
+
+    Method [ <internal:redis> public method zRangeByScore ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $start ]
+        Parameter #2 [ <required> $end ]
+        Parameter #3 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:redis> public method zRank ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+      }
+    }
+
+    Method [ <internal:redis> public method zRem ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+        Parameter #2 [ <optional> ...$other_members ]
+      }
+    }
+
+    Method [ <internal:redis> public method zRemRangeByLex ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $min ]
+        Parameter #2 [ <required> $max ]
+      }
+    }
+
+    Method [ <internal:redis> public method zRemRangeByRank ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $start ]
+        Parameter #2 [ <required> $end ]
+      }
+    }
+
+    Method [ <internal:redis> public method zRemRangeByScore ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $min ]
+        Parameter #2 [ <required> $max ]
+      }
+    }
+
+    Method [ <internal:redis> public method zRevRange ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $start ]
+        Parameter #2 [ <required> $end ]
+        Parameter #3 [ <optional> $scores ]
+      }
+    }
+
+    Method [ <internal:redis> public method zRevRangeByLex ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $min ]
+        Parameter #2 [ <required> $max ]
+        Parameter #3 [ <optional> $offset ]
+        Parameter #4 [ <optional> $limit ]
+      }
+    }
+
+    Method [ <internal:redis> public method zRevRangeByScore ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $start ]
+        Parameter #2 [ <required> $end ]
+        Parameter #3 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:redis> public method zRevRank ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+      }
+    }
+
+    Method [ <internal:redis> public method zScore ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+      }
+    }
+
+    Method [ <internal:redis> public method zinterstore ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> array $keys ]
+        Parameter #2 [ <optional> array or NULL $weights ]
+        Parameter #3 [ <optional> $aggregate ]
+      }
+    }
+
+    Method [ <internal:redis> public method zscan ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $str_key ]
+        Parameter #1 [ <required> &$i_iterator ]
+        Parameter #2 [ <optional> $str_pattern ]
+        Parameter #3 [ <optional> $i_count ]
+      }
+    }
+
+    Method [ <internal:redis> public method zunionstore ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> array $keys ]
+        Parameter #2 [ <optional> array or NULL $weights ]
+        Parameter #3 [ <optional> $aggregate ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method delete ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> ...$other_keys ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method evaluate ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $script ]
+        Parameter #1 [ <optional> $args ]
+        Parameter #2 [ <optional> $num_keys ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method evaluateSha ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $script_sha ]
+        Parameter #1 [ <optional> $args ]
+        Parameter #2 [ <optional> $num_keys ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method getKeys ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $pattern ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method getMultiple ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $keys ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method lGet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $index ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method lGetRange ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $start ]
+        Parameter #2 [ <required> $end ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method lRemove ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+        Parameter #2 [ <required> $count ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method lSize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method listTrim ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $start ]
+        Parameter #2 [ <required> $stop ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method open ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $host ]
+        Parameter #1 [ <optional> $port ]
+        Parameter #2 [ <optional> $timeout ]
+        Parameter #3 [ <optional> $retry_interval ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method popen ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $host ]
+        Parameter #1 [ <optional> $port ]
+        Parameter #2 [ <optional> $timeout ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method renameKey ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $newkey ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method sContains ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method sGetMembers ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method sRemove ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+        Parameter #2 [ <optional> ...$other_members ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method sSize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method sendEcho ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $msg ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method setTimeout ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $timeout ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method substr ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $start ]
+        Parameter #2 [ <required> $end ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method zDelete ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+        Parameter #2 [ <optional> ...$other_members ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method zDeleteRangeByRank ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $min ]
+        Parameter #2 [ <required> $max ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method zDeleteRangeByScore ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $min ]
+        Parameter #2 [ <required> $max ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method zInter ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> array $keys ]
+        Parameter #2 [ <optional> array or NULL $weights ]
+        Parameter #3 [ <optional> $aggregate ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method zRemove ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $member ]
+        Parameter #2 [ <optional> ...$other_members ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method zRemoveRangeByScore ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $min ]
+        Parameter #2 [ <required> $max ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method zReverseRange ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $start ]
+        Parameter #2 [ <required> $end ]
+        Parameter #3 [ <optional> $scores ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method zSize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal, deprecated:redis> public method zUnion ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> array $keys ]
+        Parameter #2 [ <optional> array or NULL $weights ]
+        Parameter #3 [ <optional> $aggregate ]
+      }
+    }
+  }
+}
+',
 );

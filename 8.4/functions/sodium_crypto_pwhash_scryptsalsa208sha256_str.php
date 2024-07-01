@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'sodium',
+  'toString' => 'Function [ <internal:sodium> function sodium_crypto_pwhash_scryptsalsa208sha256_str ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> string $password ]
+    Parameter #1 [ <required> int $opslimit ]
+    Parameter #2 [ <required> int $memlimit ]
+  }
+  - Return [ string ]
+}
+',
 );

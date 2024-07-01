@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'Core',
+  'toString' => 'Function [ <internal:Core> function trigger_error ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> string $message ]
+    Parameter #1 [ <optional> int $error_level = E_USER_NOTICE ]
+  }
+  - Return [ true ]
+}
+',
 );

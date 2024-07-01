@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'mysqli',
+  'toString' => 'Function [ <internal:mysqli> function mysqli_query ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> mysqli $mysql ]
+    Parameter #1 [ <required> string $query ]
+    Parameter #2 [ <optional> int $result_mode = MYSQLI_STORE_RESULT ]
+  }
+  - Return [ mysqli_result|bool ]
+}
+',
 );

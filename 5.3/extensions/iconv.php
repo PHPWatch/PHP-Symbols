@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'iconv',
+    )),
     'removed' => NULL,
+    'version' => NULL,
     'resources' => 
     array (
       0 => 
@@ -26,16 +30,34 @@ return array (
   'classes' => 
   array (
   ),
+  'functions' => 
+  array (
+    'iconv' => 'iconv',
+    'ob_iconv_handler' => 'ob_iconv_handler',
+    'iconv_get_encoding' => 'iconv_get_encoding',
+    'iconv_set_encoding' => 'iconv_set_encoding',
+    'iconv_strlen' => 'iconv_strlen',
+    'iconv_substr' => 'iconv_substr',
+    'iconv_strpos' => 'iconv_strpos',
+    'iconv_strrpos' => 'iconv_strrpos',
+    'iconv_mime_encode' => 'iconv_mime_encode',
+    'iconv_mime_decode' => 'iconv_mime_decode',
+    'iconv_mime_decode_headers' => 'iconv_mime_decode_headers',
+  ),
   'constants' => 
   array (
+    'ICONV_IMPL' => 'glibc',
+    'ICONV_VERSION' => '2.35',
+    'ICONV_MIME_DECODE_STRICT' => 1,
+    'ICONV_MIME_DECODE_CONTINUE_ON_ERROR' => 2,
   ),
   'dependencies' => 
   array (
   ),
-  'functions' => 
-  array (
-  ),
   'ini' => 
   array (
+    'iconv.input_encoding' => 'ISO-8859-1',
+    'iconv.internal_encoding' => 'ISO-8859-1',
+    'iconv.output_encoding' => 'ISO-8859-1',
   ),
 );

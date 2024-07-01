@@ -293,4 +293,99 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Reflection> class ReflectionClassConstant implements Reflector ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal, deprecated:Reflection> static public method export ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $class ]
+        Parameter #1 [ <required> $name ]
+        Parameter #2 [ <optional> $return ]
+      }
+    }
+  }
+
+  - Properties [2] {
+    Property [ <default> public $name ]
+    Property [ <default> public $class ]
+  }
+
+  - Methods [11] {
+    Method [ <internal:Reflection> final private method __clone ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $class ]
+        Parameter #1 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:Reflection, prototype Reflector> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getValue ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isPublic ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isPrivate ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method isProtected ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getModifiers ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getDeclaringClass ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Reflection> public method getDocComment ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

@@ -50,4 +50,28 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:random> interface Random\\CryptoSafeEngine extends Random\\Engine ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:random, inherits Random\\Engine> abstract public method generate ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+  }
+}
+',
 );

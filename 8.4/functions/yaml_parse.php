@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'yaml',
+  'toString' => 'Function [ <internal:yaml> function yaml_parse ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $input ]
+    Parameter #1 [ <optional> $pos = <default> ]
+    Parameter #2 [ <optional> &$ndocs = <default> ]
+    Parameter #3 [ <optional> array $callbacks = <default> ]
+  }
+}
+',
 );

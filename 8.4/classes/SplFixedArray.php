@@ -368,4 +368,134 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class SplFixedArray implements IteratorAggregate, Traversable, ArrayAccess, Countable, JsonSerializable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:SPL> static public method fromArray ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array $array ]
+        Parameter #1 [ <optional> bool $preserveKeys = true ]
+      }
+      - Tentative return [ SplFixedArray ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [14] {
+    Method [ <internal:SPL, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $size = 0 ]
+      }
+    }
+
+    Method [ <internal:SPL> public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL> public method __serialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:SPL> public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:SPL, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL> public method toArray ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:SPL> public method getSize ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL> public method setSize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $size ]
+      }
+      - Tentative return [ true ]
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $index ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $index ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Iterator ]
+    }
+
+    Method [ <internal:SPL, prototype JsonSerializable> public method jsonSerialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+  }
+}
+',
 );

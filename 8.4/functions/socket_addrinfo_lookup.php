@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'sockets',
+  'toString' => 'Function [ <internal:sockets> function socket_addrinfo_lookup ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> string $host ]
+    Parameter #1 [ <optional> ?string $service = null ]
+    Parameter #2 [ <optional> array $hints = [] ]
+  }
+  - Return [ array|false ]
+}
+',
 );

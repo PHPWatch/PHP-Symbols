@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'xmlwriter',
+  'toString' => 'Function [ <internal:xmlwriter> function xmlwriter_flush ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> XMLWriter $writer ]
+    Parameter #1 [ <optional> bool $empty = true ]
+  }
+  - Return [ string|int ]
+}
+',
 );

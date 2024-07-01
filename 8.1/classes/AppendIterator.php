@@ -197,4 +197,91 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class AppendIterator extends IteratorIterator implements Iterator, Traversable, OuterIterator ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [10] {
+    Method [ <internal:SPL, overwrites IteratorIterator, ctor> public method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method append ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Iterator $iterator ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, overwrites IteratorIterator, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, overwrites IteratorIterator, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, overwrites IteratorIterator, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, overwrites IteratorIterator, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL> public method getIteratorIndex ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?int ]
+    }
+
+    Method [ <internal:SPL> public method getArrayIterator ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ArrayIterator ]
+    }
+
+    Method [ <internal:SPL, inherits IteratorIterator, prototype OuterIterator> public method getInnerIterator ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?Iterator ]
+    }
+
+    Method [ <internal:SPL, inherits IteratorIterator, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+  }
+}
+',
 );

@@ -601,4 +601,153 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:FFI> final class FFI ] {
+
+  - Constants [1] {
+    Constant [ public int __BIGGEST_ALIGNMENT__ ] { 16 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [17] {
+    Method [ <internal:FFI> static public method cdef ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $code ]
+        Parameter #1 [ <optional> $lib ]
+      }
+    }
+
+    Method [ <internal:FFI> static public method load ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $filename ]
+      }
+    }
+
+    Method [ <internal:FFI> static public method scope ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $scope_name ]
+      }
+    }
+
+    Method [ <internal:FFI> static public method new ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $type ]
+        Parameter #1 [ <optional> $owned ]
+        Parameter #2 [ <optional> $persistent ]
+      }
+    }
+
+    Method [ <internal:FFI> static public method free ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> &$ptr ]
+      }
+    }
+
+    Method [ <internal:FFI> static public method cast ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $type ]
+        Parameter #1 [ <required> &$ptr ]
+      }
+    }
+
+    Method [ <internal:FFI> static public method type ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $type ]
+      }
+    }
+
+    Method [ <internal:FFI> static public method typeof ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> &$ptr ]
+      }
+    }
+
+    Method [ <internal:FFI> static public method arrayType ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $type ]
+        Parameter #1 [ <required> $dims ]
+      }
+    }
+
+    Method [ <internal:FFI> static public method addr ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> &$ptr ]
+      }
+    }
+
+    Method [ <internal:FFI> static public method sizeof ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> &$ptr ]
+      }
+    }
+
+    Method [ <internal:FFI> static public method alignof ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> &$ptr ]
+      }
+    }
+
+    Method [ <internal:FFI> static public method memcpy ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> &$dst ]
+        Parameter #1 [ <required> &$src ]
+        Parameter #2 [ <required> $size ]
+      }
+    }
+
+    Method [ <internal:FFI> static public method memcmp ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> &$ptr1 ]
+        Parameter #1 [ <required> &$ptr2 ]
+        Parameter #2 [ <required> $size ]
+      }
+    }
+
+    Method [ <internal:FFI> static public method memset ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> &$ptr ]
+        Parameter #1 [ <required> $ch ]
+        Parameter #2 [ <required> $size ]
+      }
+    }
+
+    Method [ <internal:FFI> static public method string ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> &$ptr ]
+        Parameter #1 [ <optional> $size ]
+      }
+    }
+
+    Method [ <internal:FFI> static public method isNull ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> &$ptr ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

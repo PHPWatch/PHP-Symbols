@@ -421,4 +421,126 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mysqli> <iterateable> class mysqli_result implements IteratorAggregate, Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [5] {
+    Property [ public $current_field = NULL ]
+    Property [ public $field_count = NULL ]
+    Property [ public $lengths = NULL ]
+    Property [ public $num_rows = NULL ]
+    Property [ public $type = NULL ]
+  }
+
+  - Methods [15] {
+    Method [ <internal:mysqli, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> mysqli $mysql ]
+        Parameter #1 [ <optional> int $result_mode = MYSQLI_STORE_RESULT ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method close ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method free ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method data_seek ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $offset ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch_field ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch_fields ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch_field_direct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $index ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch_all ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $mode = MYSQLI_NUM ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch_array ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $mode = MYSQLI_BOTH ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch_assoc ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch_object ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> string $class = "stdClass" ]
+        Parameter #1 [ <optional> array $constructor_args = [] ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method fetch_row ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli> public method field_seek ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $index ]
+      }
+    }
+
+    Method [ <internal:mysqli> public method free_result ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mysqli, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Iterator ]
+    }
+  }
+}
+',
 );

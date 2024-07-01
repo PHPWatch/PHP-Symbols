@@ -162,4 +162,45 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:date> <iterateable> class DatePeriod implements Traversable ] {
+
+  - Constants [1] {
+    Constant [ public integer EXCLUDE_START_DATE ] { 1 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:date> static public method __set_state ] {
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [5] {
+    Method [ <internal:date, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $start ]
+        Parameter #1 [ <required> $interval ]
+        Parameter #2 [ <required> $end ]
+      }
+    }
+
+    Method [ <internal:date> public method __wakeup ] {
+    }
+
+    Method [ <internal:date> public method getStartDate ] {
+    }
+
+    Method [ <internal:date> public method getEndDate ] {
+    }
+
+    Method [ <internal:date> public method getDateInterval ] {
+    }
+  }
+}
+',
 );

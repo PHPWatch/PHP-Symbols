@@ -436,4 +436,137 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SQLite> <iterateable> final class SQLiteResult implements Iterator, Traversable, Countable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [17] {
+    Method [ <internal:SQLite> public method fetch ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $result_type ]
+        Parameter #1 [ <optional> $decode_binary ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method fetchObject ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $class_name ]
+        Parameter #1 [ <optional> $ctor_params ]
+        Parameter #2 [ <optional> $decode_binary ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method fetchSingle ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $decode_binary ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method fetchAll ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $result_type ]
+        Parameter #1 [ <optional> $decode_binary ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method column ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $index_or_name ]
+        Parameter #1 [ <optional> $decode_binary ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method numFields ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SQLite> public method fieldName ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $field_index ]
+      }
+    }
+
+    Method [ <internal:SQLite, prototype Iterator> public method current ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $result_type ]
+        Parameter #1 [ <optional> $decode_binary ]
+      }
+    }
+
+    Method [ <internal:SQLite, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SQLite, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SQLite, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SQLite, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SQLite, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SQLite> public method prev ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SQLite> public method hasPrev ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SQLite> public method numRows ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SQLite> public method seek ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $row ]
+      }
+    }
+  }
+}
+',
 );

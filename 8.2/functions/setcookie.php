@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,30 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function setcookie ] {
+
+  - Parameters [7] {
+    Parameter #0 [ <required> string $name ]
+    Parameter #1 [ <optional> string $value = "" ]
+    Parameter #2 [ <optional> array|int $expires_or_options = 0 ]
+    Parameter #3 [ <optional> string $path = "" ]
+    Parameter #4 [ <optional> string $domain = "" ]
+    Parameter #5 [ <optional> bool $secure = false ]
+    Parameter #6 [ <optional> bool $httponly = false ]
+  }
+  - Return [ bool ]
+}
+',
 );

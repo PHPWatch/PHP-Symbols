@@ -151,4 +151,55 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> class Normalizer ] {
+
+  - Constants [11] {
+    Constant [ public int NONE ] { 2 }
+    Constant [ public int FORM_D ] { 4 }
+    Constant [ public int NFD ] { 4 }
+    Constant [ public int FORM_KD ] { 8 }
+    Constant [ public int NFKD ] { 8 }
+    Constant [ public int FORM_C ] { 16 }
+    Constant [ public int NFC ] { 16 }
+    Constant [ public int FORM_KC ] { 32 }
+    Constant [ public int NFKC ] { 32 }
+    Constant [ public int FORM_KC_CF ] { 48 }
+    Constant [ public int NFKC_CF ] { 48 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [3] {
+    Method [ <internal:intl> static public method normalize ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $input ]
+        Parameter #1 [ <optional> $form ]
+      }
+    }
+
+    Method [ <internal:intl> static public method isNormalized ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $input ]
+        Parameter #1 [ <optional> $form ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getRawDecomposition ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $input ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

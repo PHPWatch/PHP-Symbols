@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'sqlsrv',
+  'toString' => 'Function [ <internal:sqlsrv> function sqlsrv_query ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $conn ]
+    Parameter #1 [ <required> $tsql ]
+    Parameter #2 [ <optional> $params = <default> ]
+    Parameter #3 [ <optional> $options = <default> ]
+  }
+}
+',
 );

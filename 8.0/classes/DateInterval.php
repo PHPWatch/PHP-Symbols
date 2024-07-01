@@ -157,4 +157,54 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:date> class DateInterval ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:date> static public method createFromDateString ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $datetime ]
+      }
+    }
+
+    Method [ <internal:date> static public method __set_state ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $array ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:date, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $duration ]
+      }
+    }
+
+    Method [ <internal:date> public method format ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $format ]
+      }
+    }
+
+    Method [ <internal:date> public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

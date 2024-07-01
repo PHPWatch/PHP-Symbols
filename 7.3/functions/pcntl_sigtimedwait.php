@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'pcntl',
+  'toString' => 'Function [ <internal:pcntl> function pcntl_sigtimedwait ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $set ]
+    Parameter #1 [ <optional> &$info ]
+    Parameter #2 [ <optional> $seconds ]
+    Parameter #3 [ <optional> $nanoseconds ]
+  }
+}
+',
 );

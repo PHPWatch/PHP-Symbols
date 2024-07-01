@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'ldap',
+  'toString' => 'Function [ <internal:ldap> function ldap_bind ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> LDAP\\Connection $ldap ]
+    Parameter #1 [ <optional> ?string $dn = null ]
+    Parameter #2 [ <optional> ?string $password = null ]
+  }
+  - Return [ bool ]
+}
+',
 );

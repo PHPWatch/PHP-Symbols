@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'zlib',
+  'toString' => 'Function [ <internal:zlib> function zlib_encode ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> string $data ]
+    Parameter #1 [ <required> int $encoding ]
+    Parameter #2 [ <optional> int $level = -1 ]
+  }
+  - Return [ string|false ]
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'pcre',
+  'toString' => 'Function [ <internal:pcre> function preg_replace_callback_array ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $pattern ]
+    Parameter #1 [ <required> $subject ]
+    Parameter #2 [ <optional> $limit ]
+    Parameter #3 [ <optional> &$count ]
+    Parameter #4 [ <optional> $flags ]
+  }
+}
+',
 );

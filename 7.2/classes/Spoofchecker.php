@@ -197,4 +197,65 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> class Spoofchecker ] {
+
+  - Constants [7] {
+    Constant [ public integer SINGLE_SCRIPT_CONFUSABLE ] { 1 }
+    Constant [ public integer MIXED_SCRIPT_CONFUSABLE ] { 2 }
+    Constant [ public integer WHOLE_SCRIPT_CONFUSABLE ] { 4 }
+    Constant [ public integer ANY_CASE ] { 8 }
+    Constant [ public integer SINGLE_SCRIPT ] { 16 }
+    Constant [ public integer INVISIBLE ] { 32 }
+    Constant [ public integer CHAR_LIMIT ] { 64 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [5] {
+    Method [ <internal:intl, ctor> public method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method isSuspicious ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $text ]
+        Parameter #1 [ <optional> &$error ]
+      }
+    }
+
+    Method [ <internal:intl> public method areConfusable ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $s1 ]
+        Parameter #1 [ <required> $s2 ]
+        Parameter #2 [ <optional> &$error ]
+      }
+    }
+
+    Method [ <internal:intl> public method setAllowedLocales ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $locale_list ]
+      }
+    }
+
+    Method [ <internal:intl> public method setChecks ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $checks ]
+      }
+    }
+  }
+}
+',
 );

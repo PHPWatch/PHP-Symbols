@@ -336,4 +336,108 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> <iterateable> class MongoCommandCursor implements MongoCursorInterface, Traversable, Iterator ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:mongo> static public method createFromDocument ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> MongoClient $connection ]
+        Parameter #1 [ <required> $connection_hash ]
+        Parameter #2 [ <required> $cursor_document ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [12] {
+    Method [ <internal:mongo, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> MongoClient $connection ]
+        Parameter #1 [ <required> $database_and_collection_name ]
+        Parameter #2 [ <optional> $query ]
+      }
+    }
+
+    Method [ <internal:mongo, prototype MongoCursorInterface> public method batchSize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $number ]
+      }
+    }
+
+    Method [ <internal:mongo, prototype MongoCursorInterface> public method timeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timeoutMS ]
+      }
+    }
+
+    Method [ <internal:mongo, prototype MongoCursorInterface> public method info ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, prototype MongoCursorInterface> public method dead ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, prototype MongoCursorInterface> public method getReadPreference ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, prototype MongoCursorInterface> public method setReadPreference ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $read_preference ]
+        Parameter #1 [ <optional> array $tags ]
+      }
+    }
+
+    Method [ <internal:mongo, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

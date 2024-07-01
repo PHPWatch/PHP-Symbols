@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'gd',
+  'toString' => 'Function [ <internal:gd> function imagepolygon ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> GdImage $image ]
+    Parameter #1 [ <required> array $points ]
+    Parameter #2 [ <required> int $num_points_or_color ]
+    Parameter #3 [ <optional> ?int $color = null ]
+  }
+  - Return [ bool ]
+}
+',
 );

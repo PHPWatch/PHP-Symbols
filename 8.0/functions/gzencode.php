@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'zlib',
+  'toString' => 'Function [ <internal:zlib> function gzencode ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> string $data ]
+    Parameter #1 [ <optional> int $level = -1 ]
+    Parameter #2 [ <optional> int $encoding = ZLIB_ENCODING_GZIP ]
+  }
+  - Return [ string|false ]
+}
+',
 );

@@ -335,4 +335,95 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:xsl> class XSLTProcessor ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [10] {
+    Method [ <internal:xsl> public method importStylesheet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $doc ]
+      }
+    }
+
+    Method [ <internal:xsl> public method transformToDoc ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $doc ]
+      }
+    }
+
+    Method [ <internal:xsl> public method transformToUri ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $doc ]
+        Parameter #1 [ <required> $uri ]
+      }
+    }
+
+    Method [ <internal:xsl> public method transformToXml ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $doc ]
+      }
+    }
+
+    Method [ <internal:xsl> public method setParameter ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $namespace ]
+        Parameter #1 [ <required> $name ]
+        Parameter #2 [ <optional> $value ]
+      }
+    }
+
+    Method [ <internal:xsl> public method getParameter ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $namespace ]
+        Parameter #1 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:xsl> public method removeParameter ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $namespace ]
+        Parameter #1 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:xsl> public method hasExsltSupport ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:xsl> public method registerPHPFunctions ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $restrict ]
+      }
+    }
+
+    Method [ <internal:xsl> public method setProfiling ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $filename ]
+      }
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'Core',
+  'toString' => 'Function [ <internal:Core> function is_a ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> mixed $object_or_class ]
+    Parameter #1 [ <required> string $class ]
+    Parameter #2 [ <optional> bool $allow_string = false ]
+  }
+  - Return [ bool ]
+}
+',
 );

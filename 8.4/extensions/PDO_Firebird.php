@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    \ReflectionExtension::__set_state(array(
+       'name' => 'PDO_Firebird',
+    )),
     'removed' => NULL,
+    'version' => '8.4.0-dev',
     'resources' => 
     array (
       0 => 
@@ -25,14 +29,15 @@ return array (
   ),
   'classes' => 
   array (
+    0 => 'Pdo\\Firebird',
+  ),
+  'functions' => 
+  array (
   ),
   'constants' => 
   array (
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

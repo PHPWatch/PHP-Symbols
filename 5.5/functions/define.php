@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'Core',
+  'toString' => 'Function [ <internal:Core> function define ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $constant_name ]
+    Parameter #1 [ <required> $value ]
+    Parameter #2 [ <required> $case_insensitive ]
+  }
+}
+',
 );

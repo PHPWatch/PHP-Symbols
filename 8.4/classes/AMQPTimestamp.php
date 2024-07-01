@@ -127,4 +127,51 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => true,
+  'toString' => 'Class [ <internal:amqp> final readonly class AMQPTimestamp implements Stringable, AMQPValue ] {
+
+  - Constants [2] {
+    Constant [ public float MAX ] { 1.844674407371E+19 }
+    Constant [ public float MIN ] { 0 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ private float $timestamp ]
+  }
+
+  - Methods [4] {
+    Method [ <internal:amqp, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> float $timestamp ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getTimestamp ] {
+
+      - Parameters [0] {
+      }
+      - Return [ float ]
+    }
+
+    Method [ <internal:amqp, prototype Stringable> public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:amqp, prototype AMQPValue> public method toAmqpValue ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

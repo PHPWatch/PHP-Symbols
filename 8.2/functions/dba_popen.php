@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'dba',
+  'toString' => 'Function [ <internal:dba> function dba_popen ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> string $path ]
+    Parameter #1 [ <required> string $mode ]
+    Parameter #2 [ <optional> ?string $handler = null ]
+    Parameter #3 [ <optional> int $permission = 0644 ]
+    Parameter #4 [ <optional> int $map_size = 0 ]
+    Parameter #5 [ <optional> ?int $flags = null ]
+  }
+}
+',
 );

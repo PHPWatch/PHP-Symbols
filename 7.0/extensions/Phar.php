@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'Phar',
+    )),
     'removed' => NULL,
+    'version' => '2.0.2',
     'resources' => 
     array (
       0 => 
@@ -25,6 +29,13 @@ return array (
   ),
   'classes' => 
   array (
+    0 => 'PharException',
+    1 => 'Phar',
+    2 => 'PharData',
+    3 => 'PharFileInfo',
+  ),
+  'functions' => 
+  array (
   ),
   'constants' => 
   array (
@@ -32,10 +43,10 @@ return array (
   'dependencies' => 
   array (
   ),
-  'functions' => 
-  array (
-  ),
   'ini' => 
   array (
+    'phar.cache_list' => '',
+    'phar.readonly' => '1',
+    'phar.require_hash' => '1',
   ),
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'mbstring',
+  'toString' => 'Function [ <internal:mbstring> function mb_strimwidth ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $str ]
+    Parameter #1 [ <required> $start ]
+    Parameter #2 [ <required> $width ]
+    Parameter #3 [ <optional> $trimmarker ]
+    Parameter #4 [ <optional> $encoding ]
+  }
+}
+',
 );

@@ -1347,4 +1347,275 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:memcache> class Memcache extends MemcachePool ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [24] {
+    Method [ <internal:memcache, overwrites MemcachePool, prototype MemcachePool> public method connect ] {
+
+      - Parameters [8] {
+        Parameter #0 [ <required> $host ]
+        Parameter #1 [ <optional> $port = <default> ]
+        Parameter #2 [ <optional> $timeout = <default> ]
+        Parameter #3 [ <optional> $unused4 = <default> ]
+        Parameter #4 [ <optional> $unused5 = <default> ]
+        Parameter #5 [ <optional> $unused6 = <default> ]
+        Parameter #6 [ <optional> $unused7 = <default> ]
+        Parameter #7 [ <optional> $unugsed8 = <default> ]
+      }
+    }
+
+    Method [ <internal:memcache> public method pconnect ] {
+
+      - Parameters [8] {
+        Parameter #0 [ <required> $host ]
+        Parameter #1 [ <optional> $port = <default> ]
+        Parameter #2 [ <optional> $timeout = <default> ]
+        Parameter #3 [ <optional> $unused4 = <default> ]
+        Parameter #4 [ <optional> $unused5 = <default> ]
+        Parameter #5 [ <optional> $unused6 = <default> ]
+        Parameter #6 [ <optional> $unused7 = <default> ]
+        Parameter #7 [ <optional> $unugsed8 = <default> ]
+      }
+    }
+
+    Method [ <internal:memcache, overwrites MemcachePool, prototype MemcachePool> public method addserver ] {
+
+      - Parameters [8] {
+        Parameter #0 [ <required> $host ]
+        Parameter #1 [ <optional> $tcp_port = <default> ]
+        Parameter #2 [ <optional> $persistent = <default> ]
+        Parameter #3 [ <optional> $weight = <default> ]
+        Parameter #4 [ <optional> $timeout = <default> ]
+        Parameter #5 [ <optional> $retry_interval = <default> ]
+        Parameter #6 [ <optional> $status = <default> ]
+        Parameter #7 [ <optional> $failure_callback = <default> ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method setserverparams ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> string $host ]
+        Parameter #1 [ <optional> int $tcp_port = <default> ]
+        Parameter #2 [ <optional> float $timeout = <default> ]
+        Parameter #3 [ <optional> int $retry_interval = <default> ]
+        Parameter #4 [ <optional> bool $status = <default> ]
+        Parameter #5 [ <optional> $failure_callback = <default> ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method setfailurecallback ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?callable $failure_callback ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method getserverstatus ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $host ]
+        Parameter #1 [ <optional> int $tcp_port = <default> ]
+      }
+      - Return [ int|bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method findserver ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ string|bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method getversion ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string|bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method add ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <optional> mixed $value = <default> ]
+        Parameter #2 [ <optional> int $flags = <default> ]
+        Parameter #3 [ <optional> int $exptime = <default> ]
+        Parameter #4 [ <optional> int $cas = <default> ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method set ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <optional> mixed $value = <default> ]
+        Parameter #2 [ <optional> int $flags = <default> ]
+        Parameter #3 [ <optional> int $exptime = <default> ]
+        Parameter #4 [ <optional> int $cas = <default> ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method replace ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <optional> mixed $value = <default> ]
+        Parameter #2 [ <optional> int $flags = <default> ]
+        Parameter #3 [ <optional> int $exptime = <default> ]
+        Parameter #4 [ <optional> int $cas = <default> ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method cas ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <optional> mixed $value = <default> ]
+        Parameter #2 [ <optional> int $flags = <default> ]
+        Parameter #3 [ <optional> int $exptime = <default> ]
+        Parameter #4 [ <optional> int $cas = <default> ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method append ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <optional> mixed $value = <default> ]
+        Parameter #2 [ <optional> int $flags = <default> ]
+        Parameter #3 [ <optional> int $exptime = <default> ]
+        Parameter #4 [ <optional> int $cas = <default> ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method prepend ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <optional> mixed $value = <default> ]
+        Parameter #2 [ <optional> int $flags = <default> ]
+        Parameter #3 [ <optional> int $exptime = <default> ]
+        Parameter #4 [ <optional> int $cas = <default> ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method get ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <optional> mixed &$flags = <default> ]
+        Parameter #2 [ <optional> mixed &$cas = <default> ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method delete ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <optional> int $exptime = <default> ]
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method getstats ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> string $type = <default> ]
+        Parameter #1 [ <optional> int $slabid = <default> ]
+        Parameter #2 [ <optional> int $limit = <default> ]
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method getextendedstats ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> string $type = <default> ]
+        Parameter #1 [ <optional> int $slabid = <default> ]
+        Parameter #2 [ <optional> int $limit = <default> ]
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method setcompressthreshold ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $threshold ]
+        Parameter #1 [ <optional> float $min_savings = <default> ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method increment ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <optional> int $value = <default> ]
+        Parameter #2 [ <optional> int $defval = <default> ]
+        Parameter #3 [ <optional> int $exptime = <default> ]
+      }
+      - Return [ array|int|bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method decrement ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <optional> int $value = <default> ]
+        Parameter #2 [ <optional> int $defval = <default> ]
+        Parameter #3 [ <optional> int $exptime = <default> ]
+      }
+      - Return [ array|int|bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method close ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method flush ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $delay = <default> ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:memcache, inherits MemcachePool> public method setSaslAuthData ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $username ]
+        Parameter #1 [ <required> string $password ]
+      }
+      - Return [ bool ]
+    }
+  }
+}
+',
 );

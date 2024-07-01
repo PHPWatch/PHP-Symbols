@@ -153,4 +153,45 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:standard> class php_user_filter ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [2] {
+    Property [ <default> public $filtername ]
+    Property [ <default> public $params ]
+  }
+
+  - Methods [3] {
+    Method [ <internal:standard> public method filter ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $in ]
+        Parameter #1 [ <required> $out ]
+        Parameter #2 [ <required> &$consumed ]
+        Parameter #3 [ <required> $closing ]
+      }
+    }
+
+    Method [ <internal:standard> public method onCreate ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:standard> public method onClose ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,18 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'sysvmsg',
+  'toString' => 'Function [ <internal:sysvmsg> function msg_get_queue ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $key ]
+    Parameter #1 [ <optional> $perms ]
+  }
+}
+',
 );

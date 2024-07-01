@@ -343,4 +343,96 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:http> class http\\Params implements ArrayAccess ] {
+
+  - Constants [12] {
+    Constant [ string DEF_PARAM_SEP ] { , }
+    Constant [ string DEF_ARG_SEP ] { ; }
+    Constant [ string DEF_VAL_SEP ] { = }
+    Constant [ string COOKIE_PARAM_SEP ] {  }
+    Constant [ integer PARSE_RAW ] { 0 }
+    Constant [ integer PARSE_ESCAPED ] { 1 }
+    Constant [ integer PARSE_URLENCODED ] { 4 }
+    Constant [ integer PARSE_DIMENSION ] { 8 }
+    Constant [ integer PARSE_RFC5987 ] { 16 }
+    Constant [ integer PARSE_RFC5988 ] { 32 }
+    Constant [ integer PARSE_DEFAULT ] { 17 }
+    Constant [ integer PARSE_QUERY ] { 12 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [5] {
+    Property [ <default> public $params ]
+    Property [ <default> public $param_sep ]
+    Property [ <default> public $arg_sep ]
+    Property [ <default> public $val_sep ]
+    Property [ <default> public $flags ]
+  }
+
+  - Methods [8] {
+    Method [ <internal:http, ctor> final public method __construct ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <optional> $params ]
+        Parameter #1 [ <optional> $param_sep ]
+        Parameter #2 [ <optional> $arg_sep ]
+        Parameter #3 [ <optional> $val_sep ]
+        Parameter #4 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:http> public method toArray ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, prototype ArrayAccess> public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:http, prototype ArrayAccess> public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:http, prototype ArrayAccess> public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:http, prototype ArrayAccess> public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+  }
+}
+',
 );

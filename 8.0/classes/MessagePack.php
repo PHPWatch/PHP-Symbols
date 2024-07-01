@@ -180,4 +180,58 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:msgpack> class MessagePack ] {
+
+  - Constants [1] {
+    Constant [ public int OPT_PHPONLY ] { -1001 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [5] {
+    Method [ <internal:msgpack, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $opt = <default> ]
+      }
+    }
+
+    Method [ <internal:msgpack> public method setOption ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $option ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:msgpack> public method pack ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:msgpack> public method unpack ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $str ]
+        Parameter #1 [ <optional> $object = <default> ]
+      }
+    }
+
+    Method [ <internal:msgpack> public method unpacker ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

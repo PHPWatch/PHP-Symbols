@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'gd',
+  'toString' => 'Function [ <internal:gd> function imagecopymergegray ] {
+
+  - Parameters [9] {
+    Parameter #0 [ <required> $dst_im ]
+    Parameter #1 [ <required> $src_im ]
+    Parameter #2 [ <required> $dst_x ]
+    Parameter #3 [ <required> $dst_y ]
+    Parameter #4 [ <required> $src_x ]
+    Parameter #5 [ <required> $src_y ]
+    Parameter #6 [ <required> $src_w ]
+    Parameter #7 [ <required> $src_h ]
+    Parameter #8 [ <required> $pct ]
+  }
+}
+',
 );

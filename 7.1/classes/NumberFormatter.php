@@ -651,4 +651,222 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> class NumberFormatter ] {
+
+  - Constants [73] {
+    Constant [ public integer PATTERN_DECIMAL ] { 0 }
+    Constant [ public integer DECIMAL ] { 1 }
+    Constant [ public integer CURRENCY ] { 2 }
+    Constant [ public integer PERCENT ] { 3 }
+    Constant [ public integer SCIENTIFIC ] { 4 }
+    Constant [ public integer SPELLOUT ] { 5 }
+    Constant [ public integer ORDINAL ] { 6 }
+    Constant [ public integer DURATION ] { 7 }
+    Constant [ public integer PATTERN_RULEBASED ] { 9 }
+    Constant [ public integer IGNORE ] { 0 }
+    Constant [ public integer DEFAULT_STYLE ] { 1 }
+    Constant [ public integer ROUND_CEILING ] { 0 }
+    Constant [ public integer ROUND_FLOOR ] { 1 }
+    Constant [ public integer ROUND_DOWN ] { 2 }
+    Constant [ public integer ROUND_UP ] { 3 }
+    Constant [ public integer ROUND_HALFEVEN ] { 4 }
+    Constant [ public integer ROUND_HALFDOWN ] { 5 }
+    Constant [ public integer ROUND_HALFUP ] { 6 }
+    Constant [ public integer PAD_BEFORE_PREFIX ] { 0 }
+    Constant [ public integer PAD_AFTER_PREFIX ] { 1 }
+    Constant [ public integer PAD_BEFORE_SUFFIX ] { 2 }
+    Constant [ public integer PAD_AFTER_SUFFIX ] { 3 }
+    Constant [ public integer PARSE_INT_ONLY ] { 0 }
+    Constant [ public integer GROUPING_USED ] { 1 }
+    Constant [ public integer DECIMAL_ALWAYS_SHOWN ] { 2 }
+    Constant [ public integer MAX_INTEGER_DIGITS ] { 3 }
+    Constant [ public integer MIN_INTEGER_DIGITS ] { 4 }
+    Constant [ public integer INTEGER_DIGITS ] { 5 }
+    Constant [ public integer MAX_FRACTION_DIGITS ] { 6 }
+    Constant [ public integer MIN_FRACTION_DIGITS ] { 7 }
+    Constant [ public integer FRACTION_DIGITS ] { 8 }
+    Constant [ public integer MULTIPLIER ] { 9 }
+    Constant [ public integer GROUPING_SIZE ] { 10 }
+    Constant [ public integer ROUNDING_MODE ] { 11 }
+    Constant [ public integer ROUNDING_INCREMENT ] { 12 }
+    Constant [ public integer FORMAT_WIDTH ] { 13 }
+    Constant [ public integer PADDING_POSITION ] { 14 }
+    Constant [ public integer SECONDARY_GROUPING_SIZE ] { 15 }
+    Constant [ public integer SIGNIFICANT_DIGITS_USED ] { 16 }
+    Constant [ public integer MIN_SIGNIFICANT_DIGITS ] { 17 }
+    Constant [ public integer MAX_SIGNIFICANT_DIGITS ] { 18 }
+    Constant [ public integer LENIENT_PARSE ] { 19 }
+    Constant [ public integer POSITIVE_PREFIX ] { 0 }
+    Constant [ public integer POSITIVE_SUFFIX ] { 1 }
+    Constant [ public integer NEGATIVE_PREFIX ] { 2 }
+    Constant [ public integer NEGATIVE_SUFFIX ] { 3 }
+    Constant [ public integer PADDING_CHARACTER ] { 4 }
+    Constant [ public integer CURRENCY_CODE ] { 5 }
+    Constant [ public integer DEFAULT_RULESET ] { 6 }
+    Constant [ public integer PUBLIC_RULESETS ] { 7 }
+    Constant [ public integer DECIMAL_SEPARATOR_SYMBOL ] { 0 }
+    Constant [ public integer GROUPING_SEPARATOR_SYMBOL ] { 1 }
+    Constant [ public integer PATTERN_SEPARATOR_SYMBOL ] { 2 }
+    Constant [ public integer PERCENT_SYMBOL ] { 3 }
+    Constant [ public integer ZERO_DIGIT_SYMBOL ] { 4 }
+    Constant [ public integer DIGIT_SYMBOL ] { 5 }
+    Constant [ public integer MINUS_SIGN_SYMBOL ] { 6 }
+    Constant [ public integer PLUS_SIGN_SYMBOL ] { 7 }
+    Constant [ public integer CURRENCY_SYMBOL ] { 8 }
+    Constant [ public integer INTL_CURRENCY_SYMBOL ] { 9 }
+    Constant [ public integer MONETARY_SEPARATOR_SYMBOL ] { 10 }
+    Constant [ public integer EXPONENTIAL_SYMBOL ] { 11 }
+    Constant [ public integer PERMILL_SYMBOL ] { 12 }
+    Constant [ public integer PAD_ESCAPE_SYMBOL ] { 13 }
+    Constant [ public integer INFINITY_SYMBOL ] { 14 }
+    Constant [ public integer NAN_SYMBOL ] { 15 }
+    Constant [ public integer SIGNIFICANT_DIGIT_SYMBOL ] { 16 }
+    Constant [ public integer MONETARY_GROUPING_SEPARATOR_SYMBOL ] { 17 }
+    Constant [ public integer TYPE_DEFAULT ] { 0 }
+    Constant [ public integer TYPE_INT32 ] { 1 }
+    Constant [ public integer TYPE_INT64 ] { 2 }
+    Constant [ public integer TYPE_DOUBLE ] { 3 }
+    Constant [ public integer TYPE_CURRENCY ] { 4 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:intl> static public method create ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $locale ]
+        Parameter #1 [ <required> $style ]
+        Parameter #2 [ <optional> $pattern ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [16] {
+    Method [ <internal:intl, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $locale ]
+        Parameter #1 [ <required> $style ]
+        Parameter #2 [ <optional> $pattern ]
+      }
+    }
+
+    Method [ <internal:intl> public method format ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $num ]
+        Parameter #1 [ <optional> $type ]
+      }
+    }
+
+    Method [ <internal:intl> public method parse ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $string ]
+        Parameter #1 [ <optional> $type ]
+        Parameter #2 [ <optional> &$position ]
+      }
+    }
+
+    Method [ <internal:intl> public method formatCurrency ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $num ]
+        Parameter #1 [ <required> $currency ]
+      }
+    }
+
+    Method [ <internal:intl> public method parseCurrency ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $string ]
+        Parameter #1 [ <required> &$currency ]
+        Parameter #2 [ <optional> &$position ]
+      }
+    }
+
+    Method [ <internal:intl> public method setAttribute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $attr ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:intl> public method getAttribute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $attr ]
+      }
+    }
+
+    Method [ <internal:intl> public method setTextAttribute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $attr ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:intl> public method getTextAttribute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $attr ]
+      }
+    }
+
+    Method [ <internal:intl> public method setSymbol ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $attr ]
+        Parameter #1 [ <required> $symbol ]
+      }
+    }
+
+    Method [ <internal:intl> public method getSymbol ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $attr ]
+      }
+    }
+
+    Method [ <internal:intl> public method setPattern ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $pattern ]
+      }
+    }
+
+    Method [ <internal:intl> public method getPattern ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getLocale ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $type ]
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorMessage ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

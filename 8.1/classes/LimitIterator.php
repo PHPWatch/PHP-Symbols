@@ -216,4 +216,87 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class LimitIterator extends IteratorIterator implements Iterator, Traversable, OuterIterator ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [9] {
+    Method [ <internal:SPL, overwrites IteratorIterator, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> Iterator $iterator ]
+        Parameter #1 [ <optional> int $offset = 0 ]
+        Parameter #2 [ <optional> int $limit = -1 ]
+      }
+    }
+
+    Method [ <internal:SPL, overwrites IteratorIterator, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, overwrites IteratorIterator, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, overwrites IteratorIterator, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL> public method seek ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $offset ]
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL> public method getPosition ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL, inherits IteratorIterator, prototype OuterIterator> public method getInnerIterator ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?Iterator ]
+    }
+
+    Method [ <internal:SPL, inherits IteratorIterator, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, inherits IteratorIterator, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+  }
+}
+',
 );

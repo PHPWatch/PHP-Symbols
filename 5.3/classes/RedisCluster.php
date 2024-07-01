@@ -2453,4 +2453,547 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:redis> class RedisCluster ] {
+
+  - Constants [24] {
+    Constant [ integer REDIS_NOT_FOUND ] { 0 }
+    Constant [ integer REDIS_STRING ] { 1 }
+    Constant [ integer REDIS_SET ] { 2 }
+    Constant [ integer REDIS_LIST ] { 3 }
+    Constant [ integer REDIS_ZSET ] { 4 }
+    Constant [ integer REDIS_HASH ] { 5 }
+    Constant [ integer ATOMIC ] { 0 }
+    Constant [ integer MULTI ] { 1 }
+    Constant [ integer OPT_SERIALIZER ] { 1 }
+    Constant [ integer OPT_PREFIX ] { 2 }
+    Constant [ integer OPT_READ_TIMEOUT ] { 3 }
+    Constant [ integer SERIALIZER_NONE ] { 0 }
+    Constant [ integer SERIALIZER_PHP ] { 1 }
+    Constant [ integer OPT_SCAN ] { 4 }
+    Constant [ integer SCAN_RETRY ] { 1 }
+    Constant [ integer SCAN_NORETRY ] { 0 }
+    Constant [ integer OPT_SLAVE_FAILOVER ] { 5 }
+    Constant [ integer FAILOVER_NONE ] { 0 }
+    Constant [ integer FAILOVER_ERROR ] { 1 }
+    Constant [ integer FAILOVER_DISTRIBUTE ] { 2 }
+    Constant [ integer FAILOVER_DISTRIBUTE_SLAVES ] { 3 }
+    Constant [ integer SERIALIZER_IGBINARY ] { 2 }
+    Constant [ string AFTER ] { after }
+    Constant [ string BEFORE ] { before }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [158] {
+    Method [ <internal:redis, ctor> public method __construct ] {
+    }
+
+    Method [ <internal:redis> public method close ] {
+    }
+
+    Method [ <internal:redis> public method get ] {
+    }
+
+    Method [ <internal:redis> public method set ] {
+    }
+
+    Method [ <internal:redis> public method mget ] {
+    }
+
+    Method [ <internal:redis> public method mset ] {
+    }
+
+    Method [ <internal:redis> public method msetnx ] {
+    }
+
+    Method [ <internal:redis> public method del ] {
+    }
+
+    Method [ <internal:redis> public method setex ] {
+    }
+
+    Method [ <internal:redis> public method psetex ] {
+    }
+
+    Method [ <internal:redis> public method setnx ] {
+    }
+
+    Method [ <internal:redis> public method getset ] {
+    }
+
+    Method [ <internal:redis> public method exists ] {
+    }
+
+    Method [ <internal:redis> public method keys ] {
+    }
+
+    Method [ <internal:redis> public method type ] {
+    }
+
+    Method [ <internal:redis> public method lpop ] {
+    }
+
+    Method [ <internal:redis> public method rpop ] {
+    }
+
+    Method [ <internal:redis> public method lset ] {
+    }
+
+    Method [ <internal:redis> public method spop ] {
+    }
+
+    Method [ <internal:redis> public method lpush ] {
+    }
+
+    Method [ <internal:redis> public method rpush ] {
+    }
+
+    Method [ <internal:redis> public method blpop ] {
+    }
+
+    Method [ <internal:redis> public method brpop ] {
+    }
+
+    Method [ <internal:redis> public method rpushx ] {
+    }
+
+    Method [ <internal:redis> public method lpushx ] {
+    }
+
+    Method [ <internal:redis> public method linsert ] {
+    }
+
+    Method [ <internal:redis> public method lindex ] {
+    }
+
+    Method [ <internal:redis> public method lrem ] {
+    }
+
+    Method [ <internal:redis> public method brpoplpush ] {
+    }
+
+    Method [ <internal:redis> public method rpoplpush ] {
+    }
+
+    Method [ <internal:redis> public method llen ] {
+    }
+
+    Method [ <internal:redis> public method scard ] {
+    }
+
+    Method [ <internal:redis> public method smembers ] {
+    }
+
+    Method [ <internal:redis> public method sismember ] {
+    }
+
+    Method [ <internal:redis> public method sadd ] {
+    }
+
+    Method [ <internal:redis> public method saddarray ] {
+    }
+
+    Method [ <internal:redis> public method srem ] {
+    }
+
+    Method [ <internal:redis> public method sunion ] {
+    }
+
+    Method [ <internal:redis> public method sunionstore ] {
+    }
+
+    Method [ <internal:redis> public method sinter ] {
+    }
+
+    Method [ <internal:redis> public method sinterstore ] {
+    }
+
+    Method [ <internal:redis> public method sdiff ] {
+    }
+
+    Method [ <internal:redis> public method sdiffstore ] {
+    }
+
+    Method [ <internal:redis> public method srandmember ] {
+    }
+
+    Method [ <internal:redis> public method strlen ] {
+    }
+
+    Method [ <internal:redis> public method persist ] {
+    }
+
+    Method [ <internal:redis> public method ttl ] {
+    }
+
+    Method [ <internal:redis> public method pttl ] {
+    }
+
+    Method [ <internal:redis> public method zcard ] {
+    }
+
+    Method [ <internal:redis> public method zcount ] {
+    }
+
+    Method [ <internal:redis> public method zremrangebyscore ] {
+    }
+
+    Method [ <internal:redis> public method zscore ] {
+    }
+
+    Method [ <internal:redis> public method zadd ] {
+    }
+
+    Method [ <internal:redis> public method zincrby ] {
+    }
+
+    Method [ <internal:redis> public method hlen ] {
+    }
+
+    Method [ <internal:redis> public method hkeys ] {
+    }
+
+    Method [ <internal:redis> public method hvals ] {
+    }
+
+    Method [ <internal:redis> public method hget ] {
+    }
+
+    Method [ <internal:redis> public method hgetall ] {
+    }
+
+    Method [ <internal:redis> public method hexists ] {
+    }
+
+    Method [ <internal:redis> public method hincrby ] {
+    }
+
+    Method [ <internal:redis> public method hset ] {
+    }
+
+    Method [ <internal:redis> public method hsetnx ] {
+    }
+
+    Method [ <internal:redis> public method hmget ] {
+    }
+
+    Method [ <internal:redis> public method hmset ] {
+    }
+
+    Method [ <internal:redis> public method hdel ] {
+    }
+
+    Method [ <internal:redis> public method hincrbyfloat ] {
+    }
+
+    Method [ <internal:redis> public method dump ] {
+    }
+
+    Method [ <internal:redis> public method zrank ] {
+    }
+
+    Method [ <internal:redis> public method zrevrank ] {
+    }
+
+    Method [ <internal:redis> public method incr ] {
+    }
+
+    Method [ <internal:redis> public method decr ] {
+    }
+
+    Method [ <internal:redis> public method incrby ] {
+    }
+
+    Method [ <internal:redis> public method decrby ] {
+    }
+
+    Method [ <internal:redis> public method incrbyfloat ] {
+    }
+
+    Method [ <internal:redis> public method expire ] {
+    }
+
+    Method [ <internal:redis> public method pexpire ] {
+    }
+
+    Method [ <internal:redis> public method expireat ] {
+    }
+
+    Method [ <internal:redis> public method pexpireat ] {
+    }
+
+    Method [ <internal:redis> public method append ] {
+    }
+
+    Method [ <internal:redis> public method getbit ] {
+    }
+
+    Method [ <internal:redis> public method setbit ] {
+    }
+
+    Method [ <internal:redis> public method bitop ] {
+    }
+
+    Method [ <internal:redis> public method bitpos ] {
+    }
+
+    Method [ <internal:redis> public method bitcount ] {
+    }
+
+    Method [ <internal:redis> public method lget ] {
+    }
+
+    Method [ <internal:redis> public method getrange ] {
+    }
+
+    Method [ <internal:redis> public method ltrim ] {
+    }
+
+    Method [ <internal:redis> public method lrange ] {
+    }
+
+    Method [ <internal:redis> public method zremrangebyrank ] {
+    }
+
+    Method [ <internal:redis> public method publish ] {
+    }
+
+    Method [ <internal:redis> public method rename ] {
+    }
+
+    Method [ <internal:redis> public method renamenx ] {
+    }
+
+    Method [ <internal:redis> public method pfcount ] {
+    }
+
+    Method [ <internal:redis> public method pfadd ] {
+    }
+
+    Method [ <internal:redis> public method pfmerge ] {
+    }
+
+    Method [ <internal:redis> public method setrange ] {
+    }
+
+    Method [ <internal:redis> public method restore ] {
+    }
+
+    Method [ <internal:redis> public method smove ] {
+    }
+
+    Method [ <internal:redis> public method zrange ] {
+    }
+
+    Method [ <internal:redis> public method zrevrange ] {
+    }
+
+    Method [ <internal:redis> public method zrangebyscore ] {
+    }
+
+    Method [ <internal:redis> public method zrevrangebyscore ] {
+    }
+
+    Method [ <internal:redis> public method zrangebylex ] {
+    }
+
+    Method [ <internal:redis> public method zrevrangebylex ] {
+    }
+
+    Method [ <internal:redis> public method zlexcount ] {
+    }
+
+    Method [ <internal:redis> public method zremrangebylex ] {
+    }
+
+    Method [ <internal:redis> public method zunionstore ] {
+    }
+
+    Method [ <internal:redis> public method zinterstore ] {
+    }
+
+    Method [ <internal:redis> public method zrem ] {
+    }
+
+    Method [ <internal:redis> public method sort ] {
+    }
+
+    Method [ <internal:redis> public method object ] {
+    }
+
+    Method [ <internal:redis> public method subscribe ] {
+    }
+
+    Method [ <internal:redis> public method psubscribe ] {
+    }
+
+    Method [ <internal:redis> public method unsubscribe ] {
+    }
+
+    Method [ <internal:redis> public method punsubscribe ] {
+    }
+
+    Method [ <internal:redis> public method eval ] {
+    }
+
+    Method [ <internal:redis> public method evalsha ] {
+    }
+
+    Method [ <internal:redis> public method scan ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> &$i_iterator ]
+        Parameter #1 [ <required> $str_node ]
+        Parameter #2 [ <optional> $str_pattern ]
+        Parameter #3 [ <optional> $i_count ]
+      }
+    }
+
+    Method [ <internal:redis> public method sscan ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $str_key ]
+        Parameter #1 [ <required> &$i_iterator ]
+        Parameter #2 [ <optional> $str_pattern ]
+        Parameter #3 [ <optional> $i_count ]
+      }
+    }
+
+    Method [ <internal:redis> public method zscan ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $str_key ]
+        Parameter #1 [ <required> &$i_iterator ]
+        Parameter #2 [ <optional> $str_pattern ]
+        Parameter #3 [ <optional> $i_count ]
+      }
+    }
+
+    Method [ <internal:redis> public method hscan ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $str_key ]
+        Parameter #1 [ <required> &$i_iterator ]
+        Parameter #2 [ <optional> $str_pattern ]
+        Parameter #3 [ <optional> $i_count ]
+      }
+    }
+
+    Method [ <internal:redis> public method getmode ] {
+    }
+
+    Method [ <internal:redis> public method getlasterror ] {
+    }
+
+    Method [ <internal:redis> public method clearlasterror ] {
+    }
+
+    Method [ <internal:redis> public method getoption ] {
+    }
+
+    Method [ <internal:redis> public method setoption ] {
+    }
+
+    Method [ <internal:redis> public method _prefix ] {
+    }
+
+    Method [ <internal:redis> public method _serialize ] {
+    }
+
+    Method [ <internal:redis> public method _unserialize ] {
+    }
+
+    Method [ <internal:redis> public method _masters ] {
+    }
+
+    Method [ <internal:redis> public method _redir ] {
+    }
+
+    Method [ <internal:redis> public method multi ] {
+    }
+
+    Method [ <internal:redis> public method exec ] {
+    }
+
+    Method [ <internal:redis> public method discard ] {
+    }
+
+    Method [ <internal:redis> public method watch ] {
+    }
+
+    Method [ <internal:redis> public method unwatch ] {
+    }
+
+    Method [ <internal:redis> public method save ] {
+    }
+
+    Method [ <internal:redis> public method bgsave ] {
+    }
+
+    Method [ <internal:redis> public method flushdb ] {
+    }
+
+    Method [ <internal:redis> public method flushall ] {
+    }
+
+    Method [ <internal:redis> public method dbsize ] {
+    }
+
+    Method [ <internal:redis> public method bgrewriteaof ] {
+    }
+
+    Method [ <internal:redis> public method lastsave ] {
+    }
+
+    Method [ <internal:redis> public method info ] {
+    }
+
+    Method [ <internal:redis> public method role ] {
+    }
+
+    Method [ <internal:redis> public method time ] {
+    }
+
+    Method [ <internal:redis> public method randomkey ] {
+    }
+
+    Method [ <internal:redis> public method ping ] {
+    }
+
+    Method [ <internal:redis> public method echo ] {
+    }
+
+    Method [ <internal:redis> public method command ] {
+    }
+
+    Method [ <internal:redis> public method rawcommand ] {
+    }
+
+    Method [ <internal:redis> public method cluster ] {
+    }
+
+    Method [ <internal:redis> public method client ] {
+    }
+
+    Method [ <internal:redis> public method config ] {
+    }
+
+    Method [ <internal:redis> public method pubsub ] {
+    }
+
+    Method [ <internal:redis> public method script ] {
+    }
+
+    Method [ <internal:redis> public method slowlog ] {
+    }
+  }
+}
+',
 );

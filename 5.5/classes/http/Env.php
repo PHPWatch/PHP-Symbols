@@ -456,4 +456,120 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:http> class http\\Env ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [13] {
+    Method [ <internal:http> static public method getRequestHeader ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $header_name ]
+      }
+    }
+
+    Method [ <internal:http> static public method getRequestBody ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $body_class_name ]
+      }
+    }
+
+    Method [ <internal:http> static public method getResponseStatusForCode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $code ]
+      }
+    }
+
+    Method [ <internal:http> static public method getResponseStatusForAllCodes ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> static public method getResponseHeader ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $header_name ]
+      }
+    }
+
+    Method [ <internal:http> static public method getResponseCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> static public method setResponseHeader ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $header_name ]
+        Parameter #1 [ <optional> $header_value ]
+        Parameter #2 [ <optional> $response_code ]
+        Parameter #3 [ <optional> $replace_header ]
+      }
+    }
+
+    Method [ <internal:http> static public method setResponseCode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $code ]
+      }
+    }
+
+    Method [ <internal:http> static public method negotiateLanguage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $supported ]
+        Parameter #1 [ <optional> &$result_array ]
+      }
+    }
+
+    Method [ <internal:http> static public method negotiateContentType ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $supported ]
+        Parameter #1 [ <optional> &$result_array ]
+      }
+    }
+
+    Method [ <internal:http> static public method negotiateEncoding ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $supported ]
+        Parameter #1 [ <optional> &$result_array ]
+      }
+    }
+
+    Method [ <internal:http> static public method negotiateCharset ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $supported ]
+        Parameter #1 [ <optional> &$result_array ]
+      }
+    }
+
+    Method [ <internal:http> static public method negotiate ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $params ]
+        Parameter #1 [ <required> $supported ]
+        Parameter #2 [ <optional> $primary_type_separator ]
+        Parameter #3 [ <optional> &$result_array ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

@@ -164,4 +164,60 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:http> class http\\Message\\Parser ] {
+
+  - Constants [15] {
+    Constant [ integer CLEANUP ] { 1 }
+    Constant [ integer DUMB_BODIES ] { 2 }
+    Constant [ integer EMPTY_REDIRECTS ] { 4 }
+    Constant [ integer GREEDY ] { 8 }
+    Constant [ integer STATE_FAILURE ] { -1 }
+    Constant [ integer STATE_START ] { 0 }
+    Constant [ integer STATE_HEADER ] { 1 }
+    Constant [ integer STATE_HEADER_DONE ] { 2 }
+    Constant [ integer STATE_BODY ] { 3 }
+    Constant [ integer STATE_BODY_DUMB ] { 4 }
+    Constant [ integer STATE_BODY_LENGTH ] { 5 }
+    Constant [ integer STATE_BODY_CHUNKED ] { 6 }
+    Constant [ integer STATE_BODY_DONE ] { 7 }
+    Constant [ integer STATE_UPDATE_CL ] { 8 }
+    Constant [ integer STATE_DONE ] { 9 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:http> public method getState ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method parse ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <required> $flags ]
+        Parameter #2 [ <required> &$message ]
+      }
+    }
+
+    Method [ <internal:http> public method stream ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $stream ]
+        Parameter #1 [ <required> $flags ]
+        Parameter #2 [ <required> &$message ]
+      }
+    }
+  }
+}
+',
 );

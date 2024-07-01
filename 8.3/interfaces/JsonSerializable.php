@@ -49,4 +49,28 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:json> interface JsonSerializable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:json> abstract public method jsonSerialize ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'apcu',
+  'toString' => 'Function [ <internal:apcu> function apcu_bin_dumpfile ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $user_vars ]
+    Parameter #1 [ <required> $filename ]
+    Parameter #2 [ <optional> $flags ]
+    Parameter #3 [ <optional> $context ]
+  }
+}
+',
 );

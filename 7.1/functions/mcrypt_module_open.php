@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'mcrypt',
+  'toString' => 'Function [ <internal, deprecated:mcrypt> function mcrypt_module_open ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $cipher ]
+    Parameter #1 [ <required> $cipher_directory ]
+    Parameter #2 [ <required> $mode ]
+    Parameter #3 [ <required> $mode_directory ]
+  }
+}
+',
 );

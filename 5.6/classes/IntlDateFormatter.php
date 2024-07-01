@@ -644,4 +644,185 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> class IntlDateFormatter ] {
+
+  - Constants [7] {
+    Constant [ integer FULL ] { 0 }
+    Constant [ integer LONG ] { 1 }
+    Constant [ integer MEDIUM ] { 2 }
+    Constant [ integer SHORT ] { 3 }
+    Constant [ integer NONE ] { -1 }
+    Constant [ integer GREGORIAN ] { 1 }
+    Constant [ integer TRADITIONAL ] { 0 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:intl> static public method create ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $locale ]
+        Parameter #1 [ <required> $datetype ]
+        Parameter #2 [ <required> $timetype ]
+        Parameter #3 [ <optional> $timezone ]
+        Parameter #4 [ <optional> $calendar ]
+        Parameter #5 [ <optional> $pattern ]
+      }
+    }
+
+    Method [ <internal:intl> static public method formatObject ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $object ]
+        Parameter #1 [ <optional> $format ]
+        Parameter #2 [ <optional> $locale ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [20] {
+    Method [ <internal:intl, ctor> public method __construct ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $locale ]
+        Parameter #1 [ <required> $datetype ]
+        Parameter #2 [ <required> $timetype ]
+        Parameter #3 [ <optional> $timezone ]
+        Parameter #4 [ <optional> $calendar ]
+        Parameter #5 [ <optional> $pattern ]
+      }
+    }
+
+    Method [ <internal:intl> public method getDateType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getTimeType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getCalendar ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getCalendarObject ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method setCalendar ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $which ]
+      }
+    }
+
+    Method [ <internal:intl> public method getTimeZoneId ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method setTimeZoneId ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $zone ]
+      }
+    }
+
+    Method [ <internal:intl> public method getTimeZone ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method setTimeZone ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $zone ]
+      }
+    }
+
+    Method [ <internal:intl> public method setPattern ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $pattern ]
+      }
+    }
+
+    Method [ <internal:intl> public method getPattern ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getLocale ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method setLenient ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $lenient ]
+      }
+    }
+
+    Method [ <internal:intl> public method isLenient ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method format ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $args ]
+        Parameter #1 [ <optional> $array ]
+      }
+    }
+
+    Method [ <internal:intl> public method parse ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $string ]
+        Parameter #1 [ <optional> &$position ]
+      }
+    }
+
+    Method [ <internal:intl> public method localtime ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $string ]
+        Parameter #1 [ <optional> &$position ]
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorMessage ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

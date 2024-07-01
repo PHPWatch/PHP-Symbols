@@ -1894,4 +1894,470 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> class DOMElement extends DOMNode implements DOMParentNode, DOMChildNode ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [27] {
+    Property [ public string $nodeName ]
+    Property [ public ?string $nodeValue ]
+    Property [ public int $nodeType ]
+    Property [ public ?DOMNode $parentNode ]
+    Property [ public ?DOMElement $parentElement ]
+    Property [ public DOMNodeList $childNodes ]
+    Property [ public ?DOMNode $firstChild ]
+    Property [ public ?DOMNode $lastChild ]
+    Property [ public ?DOMNode $previousSibling ]
+    Property [ public ?DOMNode $nextSibling ]
+    Property [ public ?DOMNamedNodeMap $attributes ]
+    Property [ public bool $isConnected ]
+    Property [ public ?DOMDocument $ownerDocument ]
+    Property [ public ?string $namespaceURI ]
+    Property [ public string $prefix ]
+    Property [ public ?string $localName ]
+    Property [ public ?string $baseURI ]
+    Property [ public string $textContent ]
+    Property [ public string $tagName ]
+    Property [ public string $className ]
+    Property [ public string $id ]
+    Property [ public mixed $schemaTypeInfo = NULL ]
+    Property [ public ?DOMElement $firstElementChild ]
+    Property [ public ?DOMElement $lastElementChild ]
+    Property [ public int $childElementCount ]
+    Property [ public ?DOMElement $previousElementSibling ]
+    Property [ public ?DOMElement $nextElementSibling ]
+  }
+
+  - Methods [52] {
+    Method [ <internal:dom, ctor> public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $qualifiedName ]
+        Parameter #1 [ <optional> ?string $value = null ]
+        Parameter #2 [ <optional> string $namespace = "" ]
+      }
+    }
+
+    Method [ <internal:dom> public method getAttribute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $qualifiedName ]
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:dom> public method getAttributeNames ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:dom> public method getAttributeNS ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?string $namespace ]
+        Parameter #1 [ <required> string $localName ]
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:dom> public method getAttributeNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $qualifiedName ]
+      }
+    }
+
+    Method [ <internal:dom> public method getAttributeNodeNS ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?string $namespace ]
+        Parameter #1 [ <required> string $localName ]
+      }
+    }
+
+    Method [ <internal:dom> public method getElementsByTagName ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $qualifiedName ]
+      }
+      - Tentative return [ DOMNodeList ]
+    }
+
+    Method [ <internal:dom> public method getElementsByTagNameNS ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?string $namespace ]
+        Parameter #1 [ <required> string $localName ]
+      }
+      - Tentative return [ DOMNodeList ]
+    }
+
+    Method [ <internal:dom> public method hasAttribute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $qualifiedName ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom> public method hasAttributeNS ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?string $namespace ]
+        Parameter #1 [ <required> string $localName ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom> public method removeAttribute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $qualifiedName ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom> public method removeAttributeNS ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?string $namespace ]
+        Parameter #1 [ <required> string $localName ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:dom> public method removeAttributeNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DOMAttr $attr ]
+      }
+    }
+
+    Method [ <internal:dom> public method setAttribute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $qualifiedName ]
+        Parameter #1 [ <required> string $value ]
+      }
+    }
+
+    Method [ <internal:dom> public method setAttributeNS ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> ?string $namespace ]
+        Parameter #1 [ <required> string $qualifiedName ]
+        Parameter #2 [ <required> string $value ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:dom> public method setAttributeNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DOMAttr $attr ]
+      }
+    }
+
+    Method [ <internal:dom> public method setAttributeNodeNS ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DOMAttr $attr ]
+      }
+    }
+
+    Method [ <internal:dom> public method setIdAttribute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $qualifiedName ]
+        Parameter #1 [ <required> bool $isId ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:dom> public method setIdAttributeNS ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $namespace ]
+        Parameter #1 [ <required> string $qualifiedName ]
+        Parameter #2 [ <required> bool $isId ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:dom> public method setIdAttributeNode ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> DOMAttr $attr ]
+        Parameter #1 [ <required> bool $isId ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:dom> public method toggleAttribute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $qualifiedName ]
+        Parameter #1 [ <optional> ?bool $force = null ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:dom, prototype DOMChildNode> public method remove ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom, prototype DOMChildNode> public method before ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom, prototype DOMChildNode> public method after ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom, prototype DOMChildNode> public method replaceWith ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom, prototype DOMParentNode> public method append ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom, prototype DOMParentNode> public method prepend ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom, prototype DOMParentNode> public method replaceChildren ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$nodes ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom> public method insertAdjacentElement ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $where ]
+        Parameter #1 [ <required> DOMElement $element ]
+      }
+      - Return [ ?DOMElement ]
+    }
+
+    Method [ <internal:dom> public method insertAdjacentText ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $where ]
+        Parameter #1 [ <required> string $data ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method __sleep ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method appendChild ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DOMNode $node ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method C14N ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> bool $exclusive = false ]
+        Parameter #1 [ <optional> bool $withComments = false ]
+        Parameter #2 [ <optional> ?array $xpath = null ]
+        Parameter #3 [ <optional> ?array $nsPrefixes = null ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method C14NFile ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $uri ]
+        Parameter #1 [ <optional> bool $exclusive = false ]
+        Parameter #2 [ <optional> bool $withComments = false ]
+        Parameter #3 [ <optional> ?array $xpath = null ]
+        Parameter #4 [ <optional> ?array $nsPrefixes = null ]
+      }
+      - Tentative return [ int|false ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method cloneNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> bool $deep = false ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method getLineNo ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method getNodePath ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method hasAttributes ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method hasChildNodes ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method insertBefore ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> DOMNode $node ]
+        Parameter #1 [ <optional> ?DOMNode $child = null ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method isDefaultNamespace ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $namespace ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method isSameNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DOMNode $otherNode ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method isEqualNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?DOMNode $otherNode ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method isSupported ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $feature ]
+        Parameter #1 [ <required> string $version ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method lookupNamespaceURI ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $prefix ]
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method lookupPrefix ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $namespace ]
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method normalize ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method removeChild ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DOMNode $child ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method replaceChild ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> DOMNode $node ]
+        Parameter #1 [ <required> DOMNode $child ]
+      }
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method contains ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> DOMNode|DOMNameSpaceNode|null $other ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:dom, inherits DOMNode> public method getRootNode ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?array $options = null ]
+      }
+      - Return [ DOMNode ]
+    }
+  }
+}
+',
 );

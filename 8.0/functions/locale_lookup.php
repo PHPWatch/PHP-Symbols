@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => true,
   ),
   'extension' => 'intl',
+  'toString' => 'Function [ <internal:intl> function locale_lookup ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> array $languageTag ]
+    Parameter #1 [ <required> string $locale ]
+    Parameter #2 [ <optional> bool $canonicalize = false ]
+    Parameter #3 [ <optional> ?string $defaultLocale = null ]
+  }
+  - Return [ ?string ]
+}
+',
 );

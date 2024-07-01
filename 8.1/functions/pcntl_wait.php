@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'pcntl',
+  'toString' => 'Function [ <internal:pcntl> function pcntl_wait ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> &$status ]
+    Parameter #1 [ <optional> int $flags = 0 ]
+    Parameter #2 [ <optional> &$resource_usage = [] ]
+  }
+  - Return [ int ]
+}
+',
 );

@@ -209,4 +209,55 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:dom> class DOMImplementation ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [4] {
+    Method [ <internal:dom> public method getFeature ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $feature ]
+        Parameter #1 [ <required> string $version ]
+      }
+    }
+
+    Method [ <internal:dom> public method hasFeature ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $feature ]
+        Parameter #1 [ <required> string $version ]
+      }
+    }
+
+    Method [ <internal:dom> public method createDocumentType ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $qualifiedName ]
+        Parameter #1 [ <optional> string $publicId = "" ]
+        Parameter #2 [ <optional> string $systemId = "" ]
+      }
+    }
+
+    Method [ <internal:dom> public method createDocument ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> ?string $namespace = null ]
+        Parameter #1 [ <optional> string $qualifiedName = "" ]
+        Parameter #2 [ <optional> ?DOMDocumentType $doctype = null ]
+      }
+    }
+  }
+}
+',
 );

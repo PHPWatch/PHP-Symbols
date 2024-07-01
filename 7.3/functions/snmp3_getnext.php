@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'snmp',
+  'toString' => 'Function [ <internal:snmp> function snmp3_getnext ] {
+
+  - Parameters [10] {
+    Parameter #0 [ <required> $host ]
+    Parameter #1 [ <required> $sec_name ]
+    Parameter #2 [ <required> $sec_level ]
+    Parameter #3 [ <required> $auth_protocol ]
+    Parameter #4 [ <required> $auth_passphrase ]
+    Parameter #5 [ <required> $priv_protocol ]
+    Parameter #6 [ <required> $priv_passphrase ]
+    Parameter #7 [ <required> $object_id ]
+    Parameter #8 [ <optional> $timeout ]
+    Parameter #9 [ <optional> $retries ]
+  }
+}
+',
 );

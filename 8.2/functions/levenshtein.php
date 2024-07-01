@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,28 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function levenshtein ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> string $string1 ]
+    Parameter #1 [ <required> string $string2 ]
+    Parameter #2 [ <optional> int $insertion_cost = 1 ]
+    Parameter #3 [ <optional> int $replacement_cost = 1 ]
+    Parameter #4 [ <optional> int $deletion_cost = 1 ]
+  }
+  - Return [ int ]
+}
+',
 );

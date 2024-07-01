@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'odbc',
+  'toString' => 'Function [ <internal:odbc> function odbc_columnprivileges ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $connection_id ]
+    Parameter #1 [ <required> $catalog ]
+    Parameter #2 [ <required> $schema ]
+    Parameter #3 [ <required> $table ]
+    Parameter #4 [ <required> $column ]
+  }
+}
+',
 );

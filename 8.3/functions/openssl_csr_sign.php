@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,29 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_csr_sign ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> OpenSSLCertificateSigningRequest|string $csr ]
+    Parameter #1 [ <required> OpenSSLCertificate|string|null $ca_certificate ]
+    Parameter #2 [ <required> $private_key ]
+    Parameter #3 [ <required> int $days ]
+    Parameter #4 [ <optional> ?array $options = null ]
+    Parameter #5 [ <optional> int $serial = 0 ]
+  }
+  - Return [ OpenSSLCertificate|false ]
+}
+',
 );

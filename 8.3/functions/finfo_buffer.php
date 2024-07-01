@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'fileinfo',
+  'toString' => 'Function [ <internal:fileinfo> function finfo_buffer ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> finfo $finfo ]
+    Parameter #1 [ <required> string $string ]
+    Parameter #2 [ <optional> int $flags = FILEINFO_NONE ]
+    Parameter #3 [ <optional> $context = null ]
+  }
+  - Return [ string|false ]
+}
+',
 );

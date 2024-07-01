@@ -213,4 +213,81 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:date> <iterateable> class DatePeriod implements IteratorAggregate, Traversable ] {
+
+  - Constants [1] {
+    Constant [ public int EXCLUDE_START_DATE ] { 1 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:date> static public method __set_state ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $array ]
+      }
+      - Tentative return [ DatePeriod ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [7] {
+    Method [ <internal:date, ctor> public method __construct ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $start ]
+        Parameter #1 [ <optional> $interval = <default> ]
+        Parameter #2 [ <optional> $end = <default> ]
+        Parameter #3 [ <optional> $options = <default> ]
+      }
+    }
+
+    Method [ <internal:date> public method getStartDate ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ DateTimeInterface ]
+    }
+
+    Method [ <internal:date> public method getEndDate ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?DateTimeInterface ]
+    }
+
+    Method [ <internal:date> public method getDateInterval ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ DateInterval ]
+    }
+
+    Method [ <internal:date> public method getRecurrences ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?int ]
+    }
+
+    Method [ <internal:date> public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:date, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Iterator ]
+    }
+  }
+}
+',
 );

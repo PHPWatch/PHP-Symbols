@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'hash',
+  'toString' => 'Function [ <internal, deprecated:hash> function mhash_keygen_s2k ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> int $algo ]
+    Parameter #1 [ <required> string $password ]
+    Parameter #2 [ <required> string $salt ]
+    Parameter #3 [ <required> int $length ]
+  }
+  - Return [ string|false ]
+}
+',
 );

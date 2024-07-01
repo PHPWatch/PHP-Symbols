@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'pgsql',
+  'toString' => 'Function [ <internal, deprecated:pgsql> function pg_loexport ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $connection ]
+    Parameter #1 [ <optional> $oid = <default> ]
+    Parameter #2 [ <optional> $filename = <default> ]
+  }
+  - Return [ bool ]
+}
+',
 );

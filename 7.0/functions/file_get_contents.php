@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'standard',
+  'toString' => 'Function [ <internal:standard> function file_get_contents ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $filename ]
+    Parameter #1 [ <optional> $flags ]
+    Parameter #2 [ <optional> $context ]
+    Parameter #3 [ <optional> $offset ]
+    Parameter #4 [ <optional> $maxlen ]
+  }
+}
+',
 );

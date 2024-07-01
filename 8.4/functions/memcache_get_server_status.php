@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'memcache',
+  'toString' => 'Function [ <internal:memcache> function memcache_get_server_status ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> MemcachePool $memcache ]
+    Parameter #1 [ <required> string $host ]
+    Parameter #2 [ <optional> int $tcp_port = <default> ]
+  }
+  - Return [ int|bool ]
+}
+',
 );

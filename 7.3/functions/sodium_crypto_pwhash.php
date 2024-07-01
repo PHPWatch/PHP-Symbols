@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'sodium',
+  'toString' => 'Function [ <internal:sodium> function sodium_crypto_pwhash ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $length ]
+    Parameter #1 [ <required> $password ]
+    Parameter #2 [ <required> $salt ]
+    Parameter #3 [ <required> $opslimit ]
+    Parameter #4 [ <required> $memlimit ]
+    Parameter #5 [ <optional> $alg ]
+  }
+}
+',
 );

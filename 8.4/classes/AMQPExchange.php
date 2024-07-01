@@ -704,4 +704,197 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:amqp> class AMQPExchange ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [9] {
+    Property [ private AMQPConnection $connection ]
+    Property [ private AMQPChannel $channel ]
+    Property [ private ?string $name = NULL ]
+    Property [ private ?string $type = NULL ]
+    Property [ private bool $passive = false ]
+    Property [ private bool $durable = false ]
+    Property [ private bool $autoDelete = false ]
+    Property [ private bool $internal = false ]
+    Property [ private array $arguments = [] ]
+  }
+
+  - Methods [21] {
+    Method [ <internal:amqp, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> AMQPChannel $channel ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getName ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:amqp> public method setName ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $exchangeName ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getFlags ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:amqp> public method setFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?int $flags ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getType ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:amqp> public method setType ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $exchangeType ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getArgument ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $argumentName ]
+      }
+    }
+
+    Method [ <internal:amqp> public method getArguments ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:amqp> public method setArgument ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $argumentName ]
+        Parameter #1 [ <required> $argumentValue ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method removeArgument ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $argumentName ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method setArguments ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $arguments ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method hasArgument ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $argumentName ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:amqp> public method declareExchange ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method declare ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method bind ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $exchangeName ]
+        Parameter #1 [ <optional> ?string $routingKey = null ]
+        Parameter #2 [ <optional> array $arguments = [] ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method unbind ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $exchangeName ]
+        Parameter #1 [ <optional> ?string $routingKey = null ]
+        Parameter #2 [ <optional> array $arguments = [] ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method delete ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> ?string $exchangeName = null ]
+        Parameter #1 [ <optional> ?int $flags = null ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method publish ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $message ]
+        Parameter #1 [ <optional> ?string $routingKey = null ]
+        Parameter #2 [ <optional> ?int $flags = null ]
+        Parameter #3 [ <optional> array $headers = [] ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:amqp> public method getChannel ] {
+
+      - Parameters [0] {
+      }
+      - Return [ AMQPChannel ]
+    }
+
+    Method [ <internal:amqp> public method getConnection ] {
+
+      - Parameters [0] {
+      }
+      - Return [ AMQPConnection ]
+    }
+  }
+}
+',
 );

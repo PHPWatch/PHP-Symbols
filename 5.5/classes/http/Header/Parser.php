@@ -159,4 +159,53 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:http> class http\\Header\\Parser ] {
+
+  - Constants [8] {
+    Constant [ integer CLEANUP ] { 1 }
+    Constant [ integer STATE_FAILURE ] { -1 }
+    Constant [ integer STATE_START ] { 0 }
+    Constant [ integer STATE_KEY ] { 1 }
+    Constant [ integer STATE_VALUE ] { 2 }
+    Constant [ integer STATE_VALUE_EX ] { 3 }
+    Constant [ integer STATE_HEADER_DONE ] { 4 }
+    Constant [ integer STATE_DONE ] { 5 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:http> public method getState ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method parse ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <required> $flags ]
+        Parameter #2 [ <required> array or NULL &$headers ]
+      }
+    }
+
+    Method [ <internal:http> public method stream ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $stream ]
+        Parameter #1 [ <required> $flags ]
+        Parameter #2 [ <required> array or NULL &$headers ]
+      }
+    }
+  }
+}
+',
 );

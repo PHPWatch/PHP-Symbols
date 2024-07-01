@@ -468,4 +468,179 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class RecursiveTreeIterator extends RecursiveIteratorIterator implements OuterIterator, Traversable, Iterator ] {
+
+  - Constants [12] {
+    Constant [ public integer LEAVES_ONLY ] { 0 }
+    Constant [ public integer SELF_FIRST ] { 1 }
+    Constant [ public integer CHILD_FIRST ] { 2 }
+    Constant [ public integer CATCH_GET_CHILD ] { 16 }
+    Constant [ public integer BYPASS_CURRENT ] { 4 }
+    Constant [ public integer BYPASS_KEY ] { 8 }
+    Constant [ public integer PREFIX_LEFT ] { 0 }
+    Constant [ public integer PREFIX_MID_HAS_NEXT ] { 1 }
+    Constant [ public integer PREFIX_MID_LAST ] { 2 }
+    Constant [ public integer PREFIX_END_HAS_NEXT ] { 3 }
+    Constant [ public integer PREFIX_END_LAST ] { 4 }
+    Constant [ public integer PREFIX_RIGHT ] { 5 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [23] {
+    Method [ <internal:SPL, overwrites RecursiveIteratorIterator, ctor> public method __construct ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> Traversable $iterator ]
+        Parameter #1 [ <optional> $flags ]
+        Parameter #2 [ <optional> $caching_it_flags ]
+        Parameter #3 [ <optional> $mode ]
+      }
+    }
+
+    Method [ <internal:SPL, overwrites RecursiveIteratorIterator, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, overwrites RecursiveIteratorIterator, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, overwrites RecursiveIteratorIterator, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, overwrites RecursiveIteratorIterator, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, overwrites RecursiveIteratorIterator, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, overwrites RecursiveIteratorIterator, prototype RecursiveIteratorIterator> public method beginIteration ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, overwrites RecursiveIteratorIterator, prototype RecursiveIteratorIterator> public method endIteration ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, overwrites RecursiveIteratorIterator, prototype RecursiveIteratorIterator> public method callHasChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, overwrites RecursiveIteratorIterator, prototype RecursiveIteratorIterator> public method callGetChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, overwrites RecursiveIteratorIterator, prototype RecursiveIteratorIterator> public method beginChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, overwrites RecursiveIteratorIterator, prototype RecursiveIteratorIterator> public method endChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, overwrites RecursiveIteratorIterator, prototype RecursiveIteratorIterator> public method nextElement ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getPrefix ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method setPrefixPart ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $part ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getEntry ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method setPostfix ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getPostfix ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits RecursiveIteratorIterator> public method getDepth ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits RecursiveIteratorIterator> public method getSubIterator ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $level ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits RecursiveIteratorIterator, prototype OuterIterator> public method getInnerIterator ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits RecursiveIteratorIterator> public method setMaxDepth ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $max_depth ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits RecursiveIteratorIterator> public method getMaxDepth ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

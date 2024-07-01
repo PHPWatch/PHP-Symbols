@@ -257,4 +257,72 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:tokenizer> class PhpToken implements Stringable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:tokenizer> static public method tokenize ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $code ]
+        Parameter #1 [ <optional> int $flags = 0 ]
+      }
+      - Return [ array ]
+    }
+  }
+
+  - Properties [4] {
+    Property [ public int $id ]
+    Property [ public string $text ]
+    Property [ public int $line ]
+    Property [ public int $pos ]
+  }
+
+  - Methods [5] {
+    Method [ <internal:tokenizer, ctor> final public method __construct ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> int $id ]
+        Parameter #1 [ <required> string $text ]
+        Parameter #2 [ <optional> int $line = -1 ]
+        Parameter #3 [ <optional> int $pos = -1 ]
+      }
+    }
+
+    Method [ <internal:tokenizer> public method is ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $kind ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:tokenizer> public method isIgnorable ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:tokenizer> public method getTokenName ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:tokenizer, prototype Stringable> public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+  }
+}
+',
 );

@@ -117,4 +117,52 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:mongodb> interface MongoDB\\Driver\\CursorInterface extends Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [5] {
+    Method [ <internal:mongodb> abstract public method getId ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> abstract public method getServer ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> abstract public method isDead ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> abstract public method setTypeMap ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $typemap ]
+      }
+    }
+
+    Method [ <internal:mongodb> abstract public method toArray ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

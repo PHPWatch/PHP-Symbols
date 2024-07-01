@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'exif',
+  'toString' => 'Function [ <internal:exif> function exif_thumbnail ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $file ]
+    Parameter #1 [ <optional> &$width = null ]
+    Parameter #2 [ <optional> &$height = null ]
+    Parameter #3 [ <optional> &$image_type = null ]
+  }
+  - Return [ string|false ]
+}
+',
 );

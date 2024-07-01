@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'gd',
+  'toString' => 'Function [ <internal:gd> function jpeg2wbmp ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $f_org ]
+    Parameter #1 [ <required> $f_dest ]
+    Parameter #2 [ <required> $d_height ]
+    Parameter #3 [ <required> $d_width ]
+    Parameter #4 [ <required> $d_threshold ]
+  }
+}
+',
 );

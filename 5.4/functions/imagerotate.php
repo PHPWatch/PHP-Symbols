@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'gd',
+  'toString' => 'Function [ <internal:gd> function imagerotate ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $im ]
+    Parameter #1 [ <required> $angle ]
+    Parameter #2 [ <required> $bgdcolor ]
+    Parameter #3 [ <optional> $ignoretransparent ]
+  }
+}
+',
 );

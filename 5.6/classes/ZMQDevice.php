@@ -290,4 +290,86 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:zmq> class ZMQDevice ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [9] {
+    Method [ <internal:zmq, ctor> final public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> ZMQSocket $frontend ]
+        Parameter #1 [ <required> ZMQSocket $backend ]
+        Parameter #2 [ <optional> ZMQSocket $capture ]
+      }
+    }
+
+    Method [ <internal:zmq> public method run ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:zmq> public method setidlecallback ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $idle_callback ]
+        Parameter #1 [ <required> $timeout ]
+        Parameter #2 [ <optional> $user_data ]
+      }
+    }
+
+    Method [ <internal:zmq> public method setidletimeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timeout ]
+      }
+    }
+
+    Method [ <internal:zmq> public method getidletimeout ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:zmq> public method settimercallback ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $idle_callback ]
+        Parameter #1 [ <required> $timeout ]
+        Parameter #2 [ <optional> $user_data ]
+      }
+    }
+
+    Method [ <internal:zmq> public method settimertimeout ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timeout ]
+      }
+    }
+
+    Method [ <internal:zmq> public method gettimertimeout ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:zmq> final private method __clone ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

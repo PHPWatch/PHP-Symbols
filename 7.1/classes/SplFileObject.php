@@ -1301,4 +1301,424 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversable, Iterator, SeekableIterator ] {
+
+  - Constants [4] {
+    Constant [ public integer DROP_NEW_LINE ] { 1 }
+    Constant [ public integer READ_AHEAD ] { 2 }
+    Constant [ public integer SKIP_EMPTY ] { 4 }
+    Constant [ public integer READ_CSV ] { 8 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [61] {
+    Method [ <internal:SPL, overwrites SplFileInfo, ctor> public method __construct ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $file_name ]
+        Parameter #1 [ <optional> $open_mode ]
+        Parameter #2 [ <optional> $use_include_path ]
+        Parameter #3 [ <optional> $context ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method eof ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method fgets ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method fgetcsv ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $delimiter ]
+        Parameter #1 [ <optional> $enclosure ]
+        Parameter #2 [ <optional> $escape ]
+      }
+    }
+
+    Method [ <internal:SPL> public method fputcsv ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $fields ]
+        Parameter #1 [ <optional> $delimiter ]
+        Parameter #2 [ <optional> $enclosure ]
+        Parameter #3 [ <optional> $escape ]
+      }
+    }
+
+    Method [ <internal:SPL> public method setCsvControl ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $delimiter ]
+        Parameter #1 [ <optional> $enclosure ]
+        Parameter #2 [ <optional> $escape ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getCsvControl ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method flock ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $operation ]
+        Parameter #1 [ <optional> &$wouldblock ]
+      }
+    }
+
+    Method [ <internal:SPL> public method fflush ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method ftell ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method fseek ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $pos ]
+        Parameter #1 [ <optional> $whence ]
+      }
+    }
+
+    Method [ <internal:SPL> public method fgetc ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method fpassthru ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method fgetss ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $allowable_tags ]
+      }
+    }
+
+    Method [ <internal:SPL> public method fscanf ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $format ]
+        Parameter #1 [ <optional> &...$vars ]
+      }
+    }
+
+    Method [ <internal:SPL> public method fwrite ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $str ]
+        Parameter #1 [ <optional> $length ]
+      }
+    }
+
+    Method [ <internal:SPL> public method fread ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $length ]
+      }
+    }
+
+    Method [ <internal:SPL> public method fstat ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method ftruncate ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $size ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method setFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $flags ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getFlags ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method setMaxLineLen ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $max_len ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getMaxLineLen ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype RecursiveIterator> public method hasChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype RecursiveIterator> public method getChildren ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype SeekableIterator> public method seek ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $line_pos ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getCurrentLine ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, overwrites SplFileInfo, prototype SplFileInfo> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getPath ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getFilename ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getExtension ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getBasename ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $suffix ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getPathname ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getPerms ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getInode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getSize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getOwner ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getGroup ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getATime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getMTime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getCTime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isWritable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isReadable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isExecutable ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isFile ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isDir ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method isLink ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getLinkTarget ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getRealPath ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getFileInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $class_name ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method getPathInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $class_name ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method openFile ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $open_mode ]
+        Parameter #1 [ <optional> $use_include_path ]
+        Parameter #2 [ <optional> $context ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method setFileClass ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $class_name ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> public method setInfoClass ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $class_name ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits SplFileInfo> final public method _bad_state_ex ] {
+    }
+  }
+}
+',
 );

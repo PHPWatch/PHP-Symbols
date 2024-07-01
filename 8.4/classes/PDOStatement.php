@@ -648,4 +648,190 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:PDO> <iterateable> class PDOStatement implements IteratorAggregate, Traversable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ public string $queryString ]
+  }
+
+  - Methods [20] {
+    Method [ <internal:PDO> public method bindColumn ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string|int $column ]
+        Parameter #1 [ <required> mixed &$var ]
+        Parameter #2 [ <optional> int $type = PDO::PARAM_STR ]
+        Parameter #3 [ <optional> int $maxLength = 0 ]
+        Parameter #4 [ <optional> mixed $driverOptions = null ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:PDO> public method bindParam ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string|int $param ]
+        Parameter #1 [ <required> mixed &$var ]
+        Parameter #2 [ <optional> int $type = PDO::PARAM_STR ]
+        Parameter #3 [ <optional> int $maxLength = 0 ]
+        Parameter #4 [ <optional> mixed $driverOptions = null ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:PDO> public method bindValue ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string|int $param ]
+        Parameter #1 [ <required> mixed $value ]
+        Parameter #2 [ <optional> int $type = PDO::PARAM_STR ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:PDO> public method closeCursor ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:PDO> public method columnCount ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:PDO> public method debugDumpParams ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?bool ]
+    }
+
+    Method [ <internal:PDO> public method errorCode ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:PDO> public method errorInfo ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:PDO> public method execute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?array $params = null ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:PDO> public method fetch ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> int $mode = PDO::FETCH_DEFAULT ]
+        Parameter #1 [ <optional> int $cursorOrientation = PDO::FETCH_ORI_NEXT ]
+        Parameter #2 [ <optional> int $cursorOffset = 0 ]
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:PDO> public method fetchAll ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> int $mode = PDO::FETCH_DEFAULT ]
+        Parameter #1 [ <optional> mixed ...$args ]
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:PDO> public method fetchColumn ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $column = 0 ]
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:PDO> public method fetchObject ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> ?string $class = "stdClass" ]
+        Parameter #1 [ <optional> array $constructorArgs = [] ]
+      }
+      - Tentative return [ object|false ]
+    }
+
+    Method [ <internal:PDO> public method getAttribute ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $name ]
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:PDO> public method getColumnMeta ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $column ]
+      }
+      - Tentative return [ array|false ]
+    }
+
+    Method [ <internal:PDO> public method nextRowset ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:PDO> public method rowCount ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:PDO> public method setAttribute ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $attribute ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:PDO> public method setFetchMode ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $mode ]
+        Parameter #1 [ <optional> mixed ...$args ]
+      }
+      - Tentative return [ true ]
+    }
+
+    Method [ <internal:PDO, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Iterator ]
+    }
+  }
+}
+',
 );

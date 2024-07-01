@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'mbstring',
+  'toString' => 'Function [ <internal:mbstring> function mb_decode_numericentity ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $string ]
+    Parameter #1 [ <required> $convmap ]
+    Parameter #2 [ <optional> $encoding ]
+    Parameter #3 [ <optional> $is_hex ]
+  }
+}
+',
 );

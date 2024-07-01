@@ -307,4 +307,78 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:tidy> class tidy ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [19] {
+    Method [ <internal:tidy> public method getOpt ] {
+    }
+
+    Method [ <internal:tidy> public method cleanRepair ] {
+    }
+
+    Method [ <internal:tidy> public method parseFile ] {
+    }
+
+    Method [ <internal:tidy> public method parseString ] {
+    }
+
+    Method [ <internal:tidy> public method repairString ] {
+    }
+
+    Method [ <internal:tidy> public method repairFile ] {
+    }
+
+    Method [ <internal:tidy> public method diagnose ] {
+    }
+
+    Method [ <internal:tidy> public method getRelease ] {
+    }
+
+    Method [ <internal:tidy> public method getConfig ] {
+    }
+
+    Method [ <internal:tidy> public method getStatus ] {
+    }
+
+    Method [ <internal:tidy> public method getHtmlVer ] {
+    }
+
+    Method [ <internal:tidy> public method getOptDoc ] {
+    }
+
+    Method [ <internal:tidy> public method isXhtml ] {
+    }
+
+    Method [ <internal:tidy> public method isXml ] {
+    }
+
+    Method [ <internal:tidy> public method root ] {
+    }
+
+    Method [ <internal:tidy> public method head ] {
+    }
+
+    Method [ <internal:tidy> public method html ] {
+    }
+
+    Method [ <internal:tidy> public method body ] {
+    }
+
+    Method [ <internal:tidy, ctor> public method __construct ] {
+    }
+  }
+}
+',
 );

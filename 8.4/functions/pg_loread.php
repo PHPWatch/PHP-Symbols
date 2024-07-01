@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'pgsql',
+  'toString' => 'Function [ <internal, deprecated:pgsql> function pg_loread ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> PgSql\\Lob $lob ]
+    Parameter #1 [ <optional> int $length = 8192 ]
+  }
+  - Return [ string|false ]
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'filter',
+  'toString' => 'Function [ <internal:filter> function filter_input ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $type ]
+    Parameter #1 [ <required> $variable_name ]
+    Parameter #2 [ <optional> $filter ]
+    Parameter #3 [ <optional> $options ]
+  }
+}
+',
 );

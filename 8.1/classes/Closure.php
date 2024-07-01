@@ -215,4 +215,62 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Core> final class Closure ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:Core> static public method bind ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> Closure $closure ]
+        Parameter #1 [ <required> ?object $newThis ]
+        Parameter #2 [ <optional> object|string|null $newScope = "static" ]
+      }
+      - Return [ ?Closure ]
+    }
+
+    Method [ <internal:Core> static public method fromCallable ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> callable $callback ]
+      }
+      - Return [ Closure ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:Core, ctor> private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:Core> public method bindTo ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?object $newThis ]
+        Parameter #1 [ <optional> object|string|null $newScope = "static" ]
+      }
+      - Return [ ?Closure ]
+    }
+
+    Method [ <internal:Core> public method call ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> object $newThis ]
+        Parameter #1 [ <optional> mixed ...$args ]
+      }
+      - Return [ mixed ]
+    }
+  }
+}
+',
 );

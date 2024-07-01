@@ -1231,4 +1231,294 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongo> class MongoGridFS extends MongoCollection ] {
+
+  - Constants [2] {
+    Constant [ integer ASCENDING ] { 1 }
+    Constant [ integer DESCENDING ] { -1 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal, deprecated:mongo, inherits MongoCollection> static protected method toIndexString ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $string_OR_array_of_keys ]
+      }
+    }
+  }
+
+  - Properties [5] {
+    Property [ <default> public $w ]
+    Property [ <default> public $wtimeout ]
+    Property [ <default> public $chunks ]
+    Property [ <default> protected $filesName ]
+    Property [ <default> protected $chunksName ]
+  }
+
+  - Methods [39] {
+    Method [ <internal:mongo, overwrites MongoCollection, ctor> public method __construct ] {
+    }
+
+    Method [ <internal:mongo, overwrites MongoCollection, prototype MongoCollection> public method drop ] {
+    }
+
+    Method [ <internal:mongo, overwrites MongoCollection, prototype MongoCollection> public method find ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $query ]
+        Parameter #1 [ <optional> $fields ]
+      }
+    }
+
+    Method [ <internal:mongo> public method storeFile ] {
+    }
+
+    Method [ <internal:mongo> public method storeBytes ] {
+    }
+
+    Method [ <internal:mongo, overwrites MongoCollection, prototype MongoCollection> public method findOne ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $query ]
+        Parameter #1 [ <optional> $fields ]
+        Parameter #2 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo, overwrites MongoCollection, prototype MongoCollection> public method remove ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $filename_OR_fields_OR_object ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo> public method storeUpload ] {
+    }
+
+    Method [ <internal:mongo> public method delete ] {
+    }
+
+    Method [ <internal:mongo> public method get ] {
+    }
+
+    Method [ <internal:mongo> public method put ] {
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method __get ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $name ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method getName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:mongo, inherits MongoCollection> public method getSlaveOkay ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal, deprecated:mongo, inherits MongoCollection> public method setSlaveOkay ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $slave_okay ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method getReadPreference ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method setReadPreference ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $read_preference ]
+        Parameter #1 [ <optional> array $tags ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method getWriteConcern ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method setWriteConcern ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $w ]
+        Parameter #1 [ <optional> $wtimeout ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method validate ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $validate ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method insert ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $array_of_fields_OR_object ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method batchInsert ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array $documents ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method update ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $old_array_of_fields_OR_object ]
+        Parameter #1 [ <required> $new_array_of_fields_OR_object ]
+        Parameter #2 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method findAndModify ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $query ]
+        Parameter #1 [ <optional> $update ]
+        Parameter #2 [ <optional> $fields ]
+        Parameter #3 [ <optional> array or NULL $options ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method createIndex ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $array_of_keys ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method ensureIndex ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key_OR_array_of_keys ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method deleteIndex ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $string_OR_array_of_keys ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method deleteIndexes ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method getIndexInfo ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method count ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $query_AS_array_of_fields_OR_object ]
+        Parameter #1 [ <optional> $options_OR_limit ]
+        Parameter #2 [ <optional> $skip ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method save ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $array_of_fields_OR_object ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method createDBRef ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $array_with_id_fields_OR_MongoID ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method getDBRef ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $reference ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method group ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $keys_or_MongoCode ]
+        Parameter #1 [ <required> $initial_value ]
+        Parameter #2 [ <required> $array_OR_MongoCode ]
+        Parameter #3 [ <optional> array $options ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method distinct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> $query ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method aggregate ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $pipeline ]
+        Parameter #1 [ <optional> $op ]
+        Parameter #2 [ <optional> $... ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method aggregateCursor ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array or NULL $pipeline ]
+        Parameter #1 [ <optional> array or NULL $options ]
+      }
+    }
+
+    Method [ <internal:mongo, inherits MongoCollection> public method parallelCollectionScan ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $num_cursors ]
+        Parameter #1 [ <optional> array $options ]
+      }
+    }
+  }
+}
+',
 );

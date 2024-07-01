@@ -165,4 +165,86 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\ServerDescription ] {
+
+  - Constants [10] {
+    Constant [ public string TYPE_UNKNOWN ] { Unknown }
+    Constant [ public string TYPE_STANDALONE ] { Standalone }
+    Constant [ public string TYPE_MONGOS ] { Mongos }
+    Constant [ public string TYPE_POSSIBLE_PRIMARY ] { PossiblePrimary }
+    Constant [ public string TYPE_RS_PRIMARY ] { RSPrimary }
+    Constant [ public string TYPE_RS_SECONDARY ] { RSSecondary }
+    Constant [ public string TYPE_RS_ARBITER ] { RSArbiter }
+    Constant [ public string TYPE_RS_OTHER ] { RSOther }
+    Constant [ public string TYPE_RS_GHOST ] { RSGhost }
+    Constant [ public string TYPE_LOAD_BALANCER ] { LoadBalancer }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [8] {
+    Method [ <internal:mongodb, ctor> final private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getHelloResponse ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:mongodb> final public method getHost ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb> final public method getLastUpdateTime ] {
+
+      - Parameters [0] {
+      }
+      - Return [ integer ]
+    }
+
+    Method [ <internal:mongodb> final public method getPort ] {
+
+      - Parameters [0] {
+      }
+      - Return [ integer ]
+    }
+
+    Method [ <internal:mongodb> final public method getRoundTripTime ] {
+
+      - Parameters [0] {
+      }
+      - Return [ integer or NULL ]
+    }
+
+    Method [ <internal:mongodb> final public method getType ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb> final public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+  }
+}
+',
 );

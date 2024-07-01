@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,18 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'mssql',
+  'toString' => 'Function [ <internal:mssql> function sybase_select_db ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $database_name ]
+    Parameter #1 [ <optional> $link_identifier ]
+  }
+}
+',
 );

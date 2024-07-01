@@ -637,4 +637,242 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class RecursiveArrayIterator extends ArrayIterator implements Countable, Serializable, ArrayAccess, Iterator, Traversable, SeekableIterator, RecursiveIterator ] {
+
+  - Constants [3] {
+    Constant [ public int STD_PROP_LIST ] { 1 }
+    Constant [ public int ARRAY_AS_PROPS ] { 2 }
+    Constant [ public int CHILD_ARRAYS_ONLY ] { 4 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [29] {
+    Method [ <internal:SPL, prototype RecursiveIterator> public method hasChildren ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, prototype RecursiveIterator> public method getChildren ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?RecursiveArrayIterator ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> object|array $array = [] ]
+        Parameter #1 [ <optional> int $flags = 0 ]
+      }
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype ArrayAccess> public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $key ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype ArrayAccess> public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $key ]
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype ArrayAccess> public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> mixed $key ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype ArrayAccess> public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $key ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method append ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $value ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method getArrayCopy ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method getFlags ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ int ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method setFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $flags ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method asort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $flags = SORT_REGULAR ]
+      }
+      - Tentative return [ true ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method ksort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $flags = SORT_REGULAR ]
+      }
+      - Tentative return [ true ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method uasort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> callable $callback ]
+      }
+      - Tentative return [ true ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method uksort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> callable $callback ]
+      }
+      - Tentative return [ true ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method natsort ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ true ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method natcasesort ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ true ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype Serializable> public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $data ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype Serializable> public method serialize ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method __serialize ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string|int|null ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator, prototype SeekableIterator> public method seek ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $offset ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:SPL, inherits ArrayIterator> public method __debugInfo ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+  }
+}
+',
 );

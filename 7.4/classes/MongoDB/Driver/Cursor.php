@@ -211,4 +211,97 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> <iterateable> final class MongoDB\\Driver\\Cursor implements Iterator, Traversable, MongoDB\\Driver\\CursorInterface ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [11] {
+    Method [ <internal:mongodb, ctor> final private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb, prototype MongoDB\\Driver\\CursorInterface> final public method getId ] {
+
+      - Parameters [0] {
+      }
+      - Return [ MongoDB\\Driver\\CursorId ]
+    }
+
+    Method [ <internal:mongodb, prototype MongoDB\\Driver\\CursorInterface> final public method getServer ] {
+
+      - Parameters [0] {
+      }
+      - Return [ MongoDB\\Driver\\Server ]
+    }
+
+    Method [ <internal:mongodb, prototype MongoDB\\Driver\\CursorInterface> final public method isDead ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:mongodb, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int or NULL ]
+    }
+
+    Method [ <internal:mongodb, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb, prototype MongoDB\\Driver\\CursorInterface> final public method setTypeMap ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $typemap ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:mongodb, prototype MongoDB\\Driver\\CursorInterface> final public method toArray ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:mongodb, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+  }
+}
+',
 );

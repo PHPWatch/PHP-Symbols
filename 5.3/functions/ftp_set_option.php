@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,19 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'ftp',
+  'toString' => 'Function [ <internal:ftp> function ftp_set_option ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> $ftp ]
+    Parameter #1 [ <required> $option ]
+    Parameter #2 [ <required> $value ]
+  }
+}
+',
 );

@@ -104,4 +104,36 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:Reflection> class Reflection ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [2] {
+    Method [ <internal:Reflection> static public method getModifierNames ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $modifiers ]
+      }
+    }
+
+    Method [ <internal, deprecated:Reflection> static public method export ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> Reflector $reflector ]
+        Parameter #1 [ <optional> $return ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

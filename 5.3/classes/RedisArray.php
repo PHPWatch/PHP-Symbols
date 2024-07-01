@@ -441,4 +441,107 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:redis> class RedisArray ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [27] {
+    Method [ <internal:redis, ctor> public method __construct ] {
+    }
+
+    Method [ <internal:redis> public method __call ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $function_name ]
+        Parameter #1 [ <required> $arguments ]
+      }
+    }
+
+    Method [ <internal:redis> public method _hosts ] {
+    }
+
+    Method [ <internal:redis> public method _target ] {
+    }
+
+    Method [ <internal:redis> public method _instance ] {
+    }
+
+    Method [ <internal:redis> public method _function ] {
+    }
+
+    Method [ <internal:redis> public method _distributor ] {
+    }
+
+    Method [ <internal:redis> public method _rehash ] {
+    }
+
+    Method [ <internal:redis> public method select ] {
+    }
+
+    Method [ <internal:redis> public method info ] {
+    }
+
+    Method [ <internal:redis> public method ping ] {
+    }
+
+    Method [ <internal:redis> public method flushdb ] {
+    }
+
+    Method [ <internal:redis> public method flushall ] {
+    }
+
+    Method [ <internal:redis> public method mget ] {
+    }
+
+    Method [ <internal:redis> public method mset ] {
+    }
+
+    Method [ <internal:redis> public method del ] {
+    }
+
+    Method [ <internal:redis> public method getOption ] {
+    }
+
+    Method [ <internal:redis> public method setOption ] {
+    }
+
+    Method [ <internal:redis> public method keys ] {
+    }
+
+    Method [ <internal:redis> public method save ] {
+    }
+
+    Method [ <internal:redis> public method bgsave ] {
+    }
+
+    Method [ <internal:redis> public method multi ] {
+    }
+
+    Method [ <internal:redis> public method exec ] {
+    }
+
+    Method [ <internal:redis> public method discard ] {
+    }
+
+    Method [ <internal:redis> public method unwatch ] {
+    }
+
+    Method [ <internal:redis> public method delete ] {
+    }
+
+    Method [ <internal:redis> public method getMultiple ] {
+    }
+  }
+}
+',
 );

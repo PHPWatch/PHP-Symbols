@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    \ReflectionExtension::__set_state(array(
+       'name' => 'SimpleXML',
+    )),
     'removed' => NULL,
+    'version' => '8.3.8',
     'resources' => 
     array (
       0 => 
@@ -25,14 +29,19 @@ return array (
   ),
   'classes' => 
   array (
+    0 => 'SimpleXMLElement',
+    1 => 'SimpleXMLIterator',
+  ),
+  'functions' => 
+  array (
+    'simplexml_load_file' => 'simplexml_load_file',
+    'simplexml_load_string' => 'simplexml_load_string',
+    'simplexml_import_dom' => 'simplexml_import_dom',
   ),
   'constants' => 
   array (
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

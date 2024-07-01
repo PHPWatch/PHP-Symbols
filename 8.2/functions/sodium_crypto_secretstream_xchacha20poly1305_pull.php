@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,26 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'sodium',
+  'toString' => 'Function [ <internal:sodium> function sodium_crypto_secretstream_xchacha20poly1305_pull ] {
+
+  - Parameters [3] {
+    Parameter #0 [ <required> string &$state ]
+    Parameter #1 [ <required> string $ciphertext ]
+    Parameter #2 [ <optional> string $additional_data = "" ]
+  }
+  - Return [ array|false ]
+}
+',
 );

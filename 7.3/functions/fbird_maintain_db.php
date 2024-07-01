@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'interbase',
+  'toString' => 'Function [ <internal:interbase> function fbird_maintain_db ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $service_handle ]
+    Parameter #1 [ <required> $db ]
+    Parameter #2 [ <required> $action ]
+    Parameter #3 [ <optional> $argument ]
+  }
+}
+',
 );

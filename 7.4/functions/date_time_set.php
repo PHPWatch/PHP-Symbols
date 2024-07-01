@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'date',
+  'toString' => 'Function [ <internal:date> function date_time_set ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $object ]
+    Parameter #1 [ <required> $hour ]
+    Parameter #2 [ <required> $minute ]
+    Parameter #3 [ <optional> $second ]
+    Parameter #4 [ <optional> $microseconds ]
+  }
+}
+',
 );

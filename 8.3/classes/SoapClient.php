@@ -909,4 +909,172 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:soap> class SoapClient ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [36] {
+    Property [ private ?string $uri = NULL ]
+    Property [ private ?int $style = NULL ]
+    Property [ private ?int $use = NULL ]
+    Property [ private ?string $location = NULL ]
+    Property [ private bool $trace = false ]
+    Property [ private ?int $compression = NULL ]
+    Property [ private $sdl = NULL ]
+    Property [ private $typemap = NULL ]
+    Property [ private $httpsocket = NULL ]
+    Property [ private $httpurl = NULL ]
+    Property [ private ?string $_login = NULL ]
+    Property [ private ?string $_password = NULL ]
+    Property [ private bool $_use_digest = false ]
+    Property [ private ?string $_digest = NULL ]
+    Property [ private ?string $_proxy_host = NULL ]
+    Property [ private ?int $_proxy_port = NULL ]
+    Property [ private ?string $_proxy_login = NULL ]
+    Property [ private ?string $_proxy_password = NULL ]
+    Property [ private bool $_exceptions = true ]
+    Property [ private ?string $_encoding = NULL ]
+    Property [ private ?array $_classmap = NULL ]
+    Property [ private ?int $_features = NULL ]
+    Property [ private int $_connection_timeout = 0 ]
+    Property [ private $_stream_context = NULL ]
+    Property [ private ?string $_user_agent = NULL ]
+    Property [ private bool $_keep_alive = true ]
+    Property [ private ?int $_ssl_method = NULL ]
+    Property [ private int $_soap_version ]
+    Property [ private ?int $_use_proxy = NULL ]
+    Property [ private array $_cookies = [] ]
+    Property [ private ?array $__default_headers = NULL ]
+    Property [ private ?SoapFault $__soap_fault = NULL ]
+    Property [ private ?string $__last_request = NULL ]
+    Property [ private ?string $__last_response = NULL ]
+    Property [ private ?string $__last_request_headers = NULL ]
+    Property [ private ?string $__last_response_headers = NULL ]
+  }
+
+  - Methods [14] {
+    Method [ <internal:soap, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?string $wsdl ]
+        Parameter #1 [ <optional> array $options = [] ]
+      }
+    }
+
+    Method [ <internal:soap> public method __call ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $name ]
+        Parameter #1 [ <required> array $args ]
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:soap> public method __soapCall ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $name ]
+        Parameter #1 [ <required> array $args ]
+        Parameter #2 [ <optional> ?array $options = null ]
+        Parameter #3 [ <optional> $inputHeaders = null ]
+        Parameter #4 [ <optional> &$outputHeaders = null ]
+      }
+      - Tentative return [ mixed ]
+    }
+
+    Method [ <internal:soap> public method __getFunctions ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?array ]
+    }
+
+    Method [ <internal:soap> public method __getTypes ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?array ]
+    }
+
+    Method [ <internal:soap> public method __getLastRequest ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:soap> public method __getLastResponse ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:soap> public method __getLastRequestHeaders ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:soap> public method __getLastResponseHeaders ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:soap> public method __doRequest ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $request ]
+        Parameter #1 [ <required> string $location ]
+        Parameter #2 [ <required> string $action ]
+        Parameter #3 [ <required> int $version ]
+        Parameter #4 [ <optional> bool $oneWay = false ]
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:soap> public method __setCookie ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $name ]
+        Parameter #1 [ <optional> ?string $value = null ]
+      }
+      - Tentative return [ void ]
+    }
+
+    Method [ <internal:soap> public method __getCookies ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ array ]
+    }
+
+    Method [ <internal:soap> public method __setSoapHeaders ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $headers = null ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:soap> public method __setLocation ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?string $location = null ]
+      }
+      - Tentative return [ ?string ]
+    }
+  }
+}
+',
 );

@@ -600,4 +600,166 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> class Locale ] {
+
+  - Constants [10] {
+    Constant [ integer ACTUAL_LOCALE ] { 0 }
+    Constant [ integer VALID_LOCALE ] { 1 }
+    Constant [ null DEFAULT_LOCALE ] {  }
+    Constant [ string LANG_TAG ] { language }
+    Constant [ string EXTLANG_TAG ] { extlang }
+    Constant [ string SCRIPT_TAG ] { script }
+    Constant [ string REGION_TAG ] { region }
+    Constant [ string VARIANT_TAG ] { variant }
+    Constant [ string GRANDFATHERED_LANG_TAG ] { grandfathered }
+    Constant [ string PRIVATE_TAG ] { private }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [18] {
+    Method [ <internal:intl> static public method getDefault ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> static public method setDefault ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg1 ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getPrimaryLanguage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg1 ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getScript ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg1 ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getRegion ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg1 ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getKeywords ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg1 ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getDisplayScript ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $arg1 ]
+        Parameter #1 [ <required> $arg2 ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getDisplayRegion ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $arg1 ]
+        Parameter #1 [ <required> $arg2 ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getDisplayName ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $arg1 ]
+        Parameter #1 [ <required> $arg2 ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getDisplayLanguage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $arg1 ]
+        Parameter #1 [ <required> $arg2 ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getDisplayVariant ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $arg1 ]
+        Parameter #1 [ <required> $arg2 ]
+      }
+    }
+
+    Method [ <internal:intl> static public method composeLocale ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg1 ]
+      }
+    }
+
+    Method [ <internal:intl> static public method parseLocale ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg1 ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getAllVariants ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg1 ]
+      }
+    }
+
+    Method [ <internal:intl> static public method filterMatches ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $arg1 ]
+        Parameter #1 [ <required> $arg2 ]
+        Parameter #2 [ <required> $arg3 ]
+      }
+    }
+
+    Method [ <internal:intl> static public method lookup ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $arg1 ]
+        Parameter #1 [ <required> $arg2 ]
+        Parameter #2 [ <required> $arg3 ]
+        Parameter #3 [ <required> $arg4 ]
+      }
+    }
+
+    Method [ <internal:intl> static public method canonicalize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg1 ]
+      }
+    }
+
+    Method [ <internal:intl> static public method acceptFromHttp ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $arg1 ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,18 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'pcre',
+  'toString' => 'Function [ <internal:pcre> function preg_quote ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> $str ]
+    Parameter #1 [ <optional> $delim_char ]
+  }
+}
+',
 );

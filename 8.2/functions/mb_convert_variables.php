@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'mbstring',
+  'toString' => 'Function [ <internal:mbstring> function mb_convert_variables ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> string $to_encoding ]
+    Parameter #1 [ <required> array|string $from_encoding ]
+    Parameter #2 [ <required> mixed &$var ]
+    Parameter #3 [ <optional> mixed &...$vars ]
+  }
+  - Return [ string|false ]
+}
+',
 );

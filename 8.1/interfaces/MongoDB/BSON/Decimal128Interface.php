@@ -50,4 +50,28 @@ return array (
       'is_private' => false,
     ),
   ),
+  'toString' => 'Interface [ <internal:mongodb> interface MongoDB\\BSON\\Decimal128Interface extends Stringable ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:mongodb, prototype Stringable> abstract public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+  }
+}
+',
 );

@@ -9239,4 +9239,2130 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:redis> class RedisCluster ] {
+
+  - Constants [5] {
+    Constant [ public int OPT_SLAVE_FAILOVER ] { 5 }
+    Constant [ public int FAILOVER_NONE ] { 0 }
+    Constant [ public int FAILOVER_ERROR ] { 1 }
+    Constant [ public int FAILOVER_DISTRIBUTE ] { 2 }
+    Constant [ public int FAILOVER_DISTRIBUTE_SLAVES ] { 3 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [222] {
+    Method [ <internal:redis, ctor> public method __construct ] {
+
+      - Parameters [7] {
+        Parameter #0 [ <required> ?string $name ]
+        Parameter #1 [ <optional> ?array $seeds = null ]
+        Parameter #2 [ <optional> int|float $timeout = 0 ]
+        Parameter #3 [ <optional> int|float $read_timeout = 0 ]
+        Parameter #4 [ <optional> bool $persistent = false ]
+        Parameter #5 [ <optional> mixed $auth = null ]
+        Parameter #6 [ <optional> ?array $context = null ]
+      }
+    }
+
+    Method [ <internal:redis> public method _compress ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $value ]
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:redis> public method _uncompress ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $value ]
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:redis> public method _serialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $value ]
+      }
+      - Return [ string|bool ]
+    }
+
+    Method [ <internal:redis> public method _unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $value ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method _pack ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $value ]
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:redis> public method _unpack ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $value ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method _prefix ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ string|bool ]
+    }
+
+    Method [ <internal:redis> public method _masters ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:redis> public method _redir ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:redis> public method acl ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+        Parameter #1 [ <required> string $subcmd ]
+        Parameter #2 [ <optional> string ...$args ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method append ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Return [ RedisCluster|int|bool ]
+    }
+
+    Method [ <internal:redis> public method bgrewriteaof ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method bgsave ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method bitcount ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> int $start = 0 ]
+        Parameter #2 [ <optional> int $end = -1 ]
+        Parameter #3 [ <optional> bool $bybit = false ]
+      }
+      - Return [ RedisCluster|int|bool ]
+    }
+
+    Method [ <internal:redis> public method bitop ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $operation ]
+        Parameter #1 [ <required> string $deskey ]
+        Parameter #2 [ <required> string $srckey ]
+        Parameter #3 [ <optional> string ...$otherkeys ]
+      }
+      - Return [ RedisCluster|int|bool ]
+    }
+
+    Method [ <internal:redis> public method bitpos ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> bool $bit ]
+        Parameter #2 [ <optional> int $start = 0 ]
+        Parameter #3 [ <optional> int $end = -1 ]
+        Parameter #4 [ <optional> bool $bybit = false ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method blpop ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <required> string|int|float $timeout_or_key ]
+        Parameter #2 [ <optional> mixed ...$extra_args ]
+      }
+      - Return [ RedisCluster|array|false|null ]
+    }
+
+    Method [ <internal:redis> public method brpop ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <required> string|int|float $timeout_or_key ]
+        Parameter #2 [ <optional> mixed ...$extra_args ]
+      }
+      - Return [ RedisCluster|array|false|null ]
+    }
+
+    Method [ <internal:redis> public method brpoplpush ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $srckey ]
+        Parameter #1 [ <required> string $deskey ]
+        Parameter #2 [ <required> int $timeout ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method lmove ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $src ]
+        Parameter #1 [ <required> string $dst ]
+        Parameter #2 [ <required> string $wherefrom ]
+        Parameter #3 [ <required> string $whereto ]
+      }
+      - Return [ Redis|string|false ]
+    }
+
+    Method [ <internal:redis> public method blmove ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $src ]
+        Parameter #1 [ <required> string $dst ]
+        Parameter #2 [ <required> string $wherefrom ]
+        Parameter #3 [ <required> string $whereto ]
+        Parameter #4 [ <required> float $timeout ]
+      }
+      - Return [ Redis|string|false ]
+    }
+
+    Method [ <internal:redis> public method bzpopmax ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <required> string|int $timeout_or_key ]
+        Parameter #2 [ <optional> mixed ...$extra_args ]
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:redis> public method bzpopmin ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <required> string|int $timeout_or_key ]
+        Parameter #2 [ <optional> mixed ...$extra_args ]
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:redis> public method bzmpop ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> float $timeout ]
+        Parameter #1 [ <required> array $keys ]
+        Parameter #2 [ <required> string $from ]
+        Parameter #3 [ <optional> int $count = 1 ]
+      }
+      - Return [ RedisCluster|array|false|null ]
+    }
+
+    Method [ <internal:redis> public method zmpop ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array $keys ]
+        Parameter #1 [ <required> string $from ]
+        Parameter #2 [ <optional> int $count = 1 ]
+      }
+      - Return [ RedisCluster|array|false|null ]
+    }
+
+    Method [ <internal:redis> public method blmpop ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> float $timeout ]
+        Parameter #1 [ <required> array $keys ]
+        Parameter #2 [ <required> string $from ]
+        Parameter #3 [ <optional> int $count = 1 ]
+      }
+      - Return [ RedisCluster|array|false|null ]
+    }
+
+    Method [ <internal:redis> public method lmpop ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array $keys ]
+        Parameter #1 [ <required> string $from ]
+        Parameter #2 [ <optional> int $count = 1 ]
+      }
+      - Return [ RedisCluster|array|false|null ]
+    }
+
+    Method [ <internal:redis> public method clearlasterror ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:redis> public method client ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+        Parameter #1 [ <required> string $subcommand ]
+        Parameter #2 [ <optional> ?string $arg = NULL ]
+      }
+      - Return [ array|string|bool ]
+    }
+
+    Method [ <internal:redis> public method close ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:redis> public method cluster ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+        Parameter #1 [ <required> string $command ]
+        Parameter #2 [ <optional> mixed ...$extra_args ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method command ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> mixed ...$extra_args ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method config ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+        Parameter #1 [ <required> string $subcommand ]
+        Parameter #2 [ <optional> mixed ...$extra_args ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method dbsize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+      }
+      - Return [ RedisCluster|int ]
+    }
+
+    Method [ <internal:redis> public method copy ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $src ]
+        Parameter #1 [ <required> string $dst ]
+        Parameter #2 [ <optional> ?array $options = null ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method decr ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> int $by = 1 ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method decrby ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $value ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method decrbyfloat ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> float $value ]
+      }
+      - Return [ float ]
+    }
+
+    Method [ <internal:redis> public method del ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <optional> string ...$other_keys ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method discard ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:redis> public method dump ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|string|false ]
+    }
+
+    Method [ <internal:redis> public method echo ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+        Parameter #1 [ <required> string $msg ]
+      }
+      - Return [ RedisCluster|string|false ]
+    }
+
+    Method [ <internal:redis> public method eval ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $script ]
+        Parameter #1 [ <optional> array $args = [] ]
+        Parameter #2 [ <optional> int $num_keys = 0 ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method eval_ro ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $script ]
+        Parameter #1 [ <optional> array $args = [] ]
+        Parameter #2 [ <optional> int $num_keys = 0 ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method evalsha ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $script_sha ]
+        Parameter #1 [ <optional> array $args = [] ]
+        Parameter #2 [ <optional> int $num_keys = 0 ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method evalsha_ro ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $script_sha ]
+        Parameter #1 [ <optional> array $args = [] ]
+        Parameter #2 [ <optional> int $num_keys = 0 ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method exec ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array|false ]
+    }
+
+    Method [ <internal:redis> public method exists ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> mixed $key ]
+        Parameter #1 [ <optional> mixed ...$other_keys ]
+      }
+      - Return [ RedisCluster|int|bool ]
+    }
+
+    Method [ <internal:redis> public method touch ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> mixed $key ]
+        Parameter #1 [ <optional> mixed ...$other_keys ]
+      }
+      - Return [ RedisCluster|int|bool ]
+    }
+
+    Method [ <internal:redis> public method expire ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $timeout ]
+        Parameter #2 [ <optional> ?string $mode = NULL ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method expireat ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $timestamp ]
+        Parameter #2 [ <optional> ?string $mode = NULL ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method expiretime ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method pexpiretime ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method flushall ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+        Parameter #1 [ <optional> bool $async = false ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method flushdb ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+        Parameter #1 [ <optional> bool $async = false ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method geoadd ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> float $lng ]
+        Parameter #2 [ <required> float $lat ]
+        Parameter #3 [ <required> string $member ]
+        Parameter #4 [ <optional> mixed ...$other_triples_and_options ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method geodist ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $src ]
+        Parameter #2 [ <required> string $dest ]
+        Parameter #3 [ <optional> ?string $unit = null ]
+      }
+      - Return [ RedisCluster|float|false ]
+    }
+
+    Method [ <internal:redis> public method geohash ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $member ]
+        Parameter #2 [ <optional> string ...$other_members ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method geopos ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $member ]
+        Parameter #2 [ <optional> string ...$other_members ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method georadius ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> float $lng ]
+        Parameter #2 [ <required> float $lat ]
+        Parameter #3 [ <required> float $radius ]
+        Parameter #4 [ <required> string $unit ]
+        Parameter #5 [ <optional> array $options = [] ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method georadius_ro ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> float $lng ]
+        Parameter #2 [ <required> float $lat ]
+        Parameter #3 [ <required> float $radius ]
+        Parameter #4 [ <required> string $unit ]
+        Parameter #5 [ <optional> array $options = [] ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method georadiusbymember ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $member ]
+        Parameter #2 [ <required> float $radius ]
+        Parameter #3 [ <required> string $unit ]
+        Parameter #4 [ <optional> array $options = [] ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method georadiusbymember_ro ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $member ]
+        Parameter #2 [ <required> float $radius ]
+        Parameter #3 [ <required> string $unit ]
+        Parameter #4 [ <optional> array $options = [] ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method geosearch ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> array|string $position ]
+        Parameter #2 [ <required> array|int|float $shape ]
+        Parameter #3 [ <required> string $unit ]
+        Parameter #4 [ <optional> array $options = [] ]
+      }
+      - Return [ RedisCluster|array ]
+    }
+
+    Method [ <internal:redis> public method geosearchstore ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> string $dst ]
+        Parameter #1 [ <required> string $src ]
+        Parameter #2 [ <required> array|string $position ]
+        Parameter #3 [ <required> array|int|float $shape ]
+        Parameter #4 [ <required> string $unit ]
+        Parameter #5 [ <optional> array $options = [] ]
+      }
+      - Return [ RedisCluster|array|int|false ]
+    }
+
+    Method [ <internal:redis> public method get ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method getbit ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $value ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method getlasterror ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
+    }
+
+    Method [ <internal:redis> public method getmode ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:redis> public method getoption ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $option ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method getrange ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $start ]
+        Parameter #2 [ <required> int $end ]
+      }
+      - Return [ RedisCluster|string|false ]
+    }
+
+    Method [ <internal:redis> public method lcs ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key1 ]
+        Parameter #1 [ <required> string $key2 ]
+        Parameter #2 [ <optional> ?array $options = NULL ]
+      }
+      - Return [ RedisCluster|array|string|int|false ]
+    }
+
+    Method [ <internal:redis> public method getset ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Return [ RedisCluster|string|bool ]
+    }
+
+    Method [ <internal:redis> public method gettransferredbytes ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array|false ]
+    }
+
+    Method [ <internal:redis> public method cleartransferredbytes ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:redis> public method hdel ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $member ]
+        Parameter #2 [ <optional> string ...$other_members ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method hexists ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $member ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method hget ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $member ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method hgetall ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method hincrby ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $member ]
+        Parameter #2 [ <required> int $value ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method hincrbyfloat ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $member ]
+        Parameter #2 [ <required> float $value ]
+      }
+      - Return [ RedisCluster|float|false ]
+    }
+
+    Method [ <internal:redis> public method hkeys ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method hlen ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method hmget ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> array $keys ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method hmset ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> array $key_values ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method hscan ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> ?int &$iterator ]
+        Parameter #2 [ <optional> ?string $pattern = null ]
+        Parameter #3 [ <optional> int $count = 0 ]
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method hrandfield ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> ?array $options = null ]
+      }
+      - Return [ RedisCluster|array|string ]
+    }
+
+    Method [ <internal:redis> public method hset ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $member ]
+        Parameter #2 [ <required> mixed $value ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method hsetnx ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $member ]
+        Parameter #2 [ <required> mixed $value ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method hstrlen ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $field ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method hvals ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method incr ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> int $by = 1 ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method incrby ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $value ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method incrbyfloat ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> float $value ]
+      }
+      - Return [ RedisCluster|float|false ]
+    }
+
+    Method [ <internal:redis> public method info ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+        Parameter #1 [ <optional> string ...$sections ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method keys ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $pattern ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method lastsave ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method lget ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $index ]
+      }
+      - Return [ RedisCluster|string|bool ]
+    }
+
+    Method [ <internal:redis> public method lindex ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $index ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method linsert ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $pos ]
+        Parameter #2 [ <required> mixed $pivot ]
+        Parameter #3 [ <required> mixed $value ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method llen ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|int|bool ]
+    }
+
+    Method [ <internal:redis> public method lpop ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> int $count = 0 ]
+      }
+      - Return [ RedisCluster|array|string|bool ]
+    }
+
+    Method [ <internal:redis> public method lpos ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> mixed $value ]
+        Parameter #2 [ <optional> ?array $options = null ]
+      }
+      - Return [ Redis|array|int|bool|null ]
+    }
+
+    Method [ <internal:redis> public method lpush ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> mixed $value ]
+        Parameter #2 [ <optional> mixed ...$other_values ]
+      }
+      - Return [ RedisCluster|int|bool ]
+    }
+
+    Method [ <internal:redis> public method lpushx ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Return [ RedisCluster|int|bool ]
+    }
+
+    Method [ <internal:redis> public method lrange ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $start ]
+        Parameter #2 [ <required> int $end ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method lrem ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> mixed $value ]
+        Parameter #2 [ <optional> int $count = 0 ]
+      }
+      - Return [ RedisCluster|int|bool ]
+    }
+
+    Method [ <internal:redis> public method lset ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $index ]
+        Parameter #2 [ <required> mixed $value ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method ltrim ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $start ]
+        Parameter #2 [ <required> int $end ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method mget ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $keys ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method mset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $key_values ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method msetnx ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $key_values ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method multi ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $value = Redis::MULTI ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method object ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $subcommand ]
+        Parameter #1 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|string|int|false ]
+    }
+
+    Method [ <internal:redis> public method persist ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method pexpire ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $timeout ]
+        Parameter #2 [ <optional> ?string $mode = NULL ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method pexpireat ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $timestamp ]
+        Parameter #2 [ <optional> ?string $mode = NULL ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method pfadd ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> array $elements ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method pfcount ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method pfmerge ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> array $keys ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method ping ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+        Parameter #1 [ <optional> ?string $message = NULL ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method psetex ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $timeout ]
+        Parameter #2 [ <required> string $value ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method psubscribe ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array $patterns ]
+        Parameter #1 [ <required> callable $callback ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:redis> public method pttl ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method publish ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $channel ]
+        Parameter #1 [ <required> string $message ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method pubsub ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+        Parameter #1 [ <optional> string ...$values ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method punsubscribe ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $pattern ]
+        Parameter #1 [ <optional> string ...$other_patterns ]
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method randomkey ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+      }
+      - Return [ RedisCluster|string|bool ]
+    }
+
+    Method [ <internal:redis> public method rawcommand ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+        Parameter #1 [ <required> string $command ]
+        Parameter #2 [ <optional> mixed ...$args ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method rename ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key_src ]
+        Parameter #1 [ <required> string $key_dst ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method renamenx ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $newkey ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method restore ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $timeout ]
+        Parameter #2 [ <required> string $value ]
+        Parameter #3 [ <optional> ?array $options = NULL ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method role ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method rpop ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> int $count = 0 ]
+      }
+      - Return [ RedisCluster|array|string|bool ]
+    }
+
+    Method [ <internal:redis> public method rpoplpush ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $src ]
+        Parameter #1 [ <required> string $dst ]
+      }
+      - Return [ RedisCluster|string|bool ]
+    }
+
+    Method [ <internal:redis> public method rpush ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> mixed ...$elements ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method rpushx ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $value ]
+      }
+      - Return [ RedisCluster|int|bool ]
+    }
+
+    Method [ <internal:redis> public method sadd ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> mixed $value ]
+        Parameter #2 [ <optional> mixed ...$other_values ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method saddarray ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> array $values ]
+      }
+      - Return [ RedisCluster|int|bool ]
+    }
+
+    Method [ <internal:redis> public method save ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method scan ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> ?int &$iterator ]
+        Parameter #1 [ <required> array|string $key_or_address ]
+        Parameter #2 [ <optional> ?string $pattern = null ]
+        Parameter #3 [ <optional> int $count = 0 ]
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method scard ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method script ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+        Parameter #1 [ <optional> mixed ...$args ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method sdiff ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> string ...$other_keys ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method sdiffstore ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $dst ]
+        Parameter #1 [ <required> string $key ]
+        Parameter #2 [ <optional> string ...$other_keys ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method set ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> mixed $value ]
+        Parameter #2 [ <optional> mixed $options = null ]
+      }
+      - Return [ RedisCluster|string|bool ]
+    }
+
+    Method [ <internal:redis> public method setbit ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $offset ]
+        Parameter #2 [ <required> bool $onoff ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method setex ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $expire ]
+        Parameter #2 [ <required> mixed $value ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method setnx ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method setoption ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $option ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:redis> public method setrange ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $offset ]
+        Parameter #2 [ <required> string $value ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method sinter ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <optional> string ...$other_keys ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method sintercard ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array $keys ]
+        Parameter #1 [ <optional> int $limit = -1 ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method sinterstore ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <optional> string ...$other_keys ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method sismember ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method smismember ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $member ]
+        Parameter #2 [ <optional> string ...$other_members ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method slowlog ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+        Parameter #1 [ <optional> mixed ...$args ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method smembers ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method smove ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $src ]
+        Parameter #1 [ <required> string $dst ]
+        Parameter #2 [ <required> string $member ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method sort ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> ?array $options = NULL ]
+      }
+      - Return [ RedisCluster|array|string|int|bool ]
+    }
+
+    Method [ <internal:redis> public method sort_ro ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> ?array $options = NULL ]
+      }
+      - Return [ RedisCluster|array|string|int|bool ]
+    }
+
+    Method [ <internal:redis> public method spop ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> int $count = 0 ]
+      }
+      - Return [ RedisCluster|array|string|false ]
+    }
+
+    Method [ <internal:redis> public method srandmember ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> int $count = 0 ]
+      }
+      - Return [ RedisCluster|array|string|false ]
+    }
+
+    Method [ <internal:redis> public method srem ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> mixed $value ]
+        Parameter #2 [ <optional> mixed ...$other_values ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method sscan ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> ?int &$iterator ]
+        Parameter #2 [ <optional> ?string $pattern = null ]
+        Parameter #3 [ <optional> int $count = 0 ]
+      }
+      - Return [ array|false ]
+    }
+
+    Method [ <internal:redis> public method strlen ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method subscribe ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array $channels ]
+        Parameter #1 [ <required> callable $cb ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:redis> public method sunion ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> string ...$other_keys ]
+      }
+      - Return [ RedisCluster|array|bool ]
+    }
+
+    Method [ <internal:redis> public method sunionstore ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $dst ]
+        Parameter #1 [ <required> string $key ]
+        Parameter #2 [ <optional> string ...$other_keys ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method time ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+      }
+      - Return [ RedisCluster|array|bool ]
+    }
+
+    Method [ <internal:redis> public method ttl ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method type ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method unsubscribe ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $channels ]
+      }
+      - Return [ array|bool ]
+    }
+
+    Method [ <internal:redis> public method unlink ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array|string $key ]
+        Parameter #1 [ <optional> string ...$other_keys ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method unwatch ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:redis> public method watch ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> string ...$other_keys ]
+      }
+      - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method xack ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $group ]
+        Parameter #2 [ <required> array $ids ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method xadd ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $id ]
+        Parameter #2 [ <required> array $values ]
+        Parameter #3 [ <optional> int $maxlen = 0 ]
+        Parameter #4 [ <optional> bool $approx = false ]
+      }
+      - Return [ RedisCluster|string|false ]
+    }
+
+    Method [ <internal:redis> public method xclaim ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $group ]
+        Parameter #2 [ <required> string $consumer ]
+        Parameter #3 [ <required> int $min_iddle ]
+        Parameter #4 [ <required> array $ids ]
+        Parameter #5 [ <required> array $options ]
+      }
+      - Return [ RedisCluster|array|string|false ]
+    }
+
+    Method [ <internal:redis> public method xdel ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> array $ids ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method xgroup ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> string $operation ]
+        Parameter #1 [ <optional> ?string $key = null ]
+        Parameter #2 [ <optional> ?string $group = null ]
+        Parameter #3 [ <optional> ?string $id_or_consumer = null ]
+        Parameter #4 [ <optional> bool $mkstream = false ]
+        Parameter #5 [ <optional> int $entries_read = -2 ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method xautoclaim ] {
+
+      - Parameters [7] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $group ]
+        Parameter #2 [ <required> string $consumer ]
+        Parameter #3 [ <required> int $min_idle ]
+        Parameter #4 [ <required> string $start ]
+        Parameter #5 [ <optional> int $count = -1 ]
+        Parameter #6 [ <optional> bool $justid = false ]
+      }
+      - Return [ RedisCluster|array|bool ]
+    }
+
+    Method [ <internal:redis> public method xinfo ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $operation ]
+        Parameter #1 [ <optional> ?string $arg1 = null ]
+        Parameter #2 [ <optional> ?string $arg2 = null ]
+        Parameter #3 [ <optional> int $count = -1 ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:redis> public method xlen ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method xpending ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $group ]
+        Parameter #2 [ <optional> ?string $start = null ]
+        Parameter #3 [ <optional> ?string $end = null ]
+        Parameter #4 [ <optional> int $count = -1 ]
+        Parameter #5 [ <optional> ?string $consumer = null ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method xrange ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $start ]
+        Parameter #2 [ <required> string $end ]
+        Parameter #3 [ <optional> int $count = -1 ]
+      }
+      - Return [ RedisCluster|array|bool ]
+    }
+
+    Method [ <internal:redis> public method xread ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array $streams ]
+        Parameter #1 [ <optional> int $count = -1 ]
+        Parameter #2 [ <optional> int $block = -1 ]
+      }
+      - Return [ RedisCluster|array|bool ]
+    }
+
+    Method [ <internal:redis> public method xreadgroup ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $group ]
+        Parameter #1 [ <required> string $consumer ]
+        Parameter #2 [ <required> array $streams ]
+        Parameter #3 [ <optional> int $count = 1 ]
+        Parameter #4 [ <optional> int $block = 1 ]
+      }
+      - Return [ RedisCluster|array|bool ]
+    }
+
+    Method [ <internal:redis> public method xrevrange ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $start ]
+        Parameter #2 [ <required> string $end ]
+        Parameter #3 [ <optional> int $count = -1 ]
+      }
+      - Return [ RedisCluster|array|bool ]
+    }
+
+    Method [ <internal:redis> public method xtrim ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> int $maxlen ]
+        Parameter #2 [ <optional> bool $approx = false ]
+        Parameter #3 [ <optional> bool $minid = false ]
+        Parameter #4 [ <optional> int $limit = -1 ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method zadd ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> array|float $score_or_options ]
+        Parameter #2 [ <optional> mixed ...$more_scores_and_mems ]
+      }
+      - Return [ RedisCluster|int|float|false ]
+    }
+
+    Method [ <internal:redis> public method zcard ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $key ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method zcount ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $start ]
+        Parameter #2 [ <required> string $end ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method zincrby ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> float $value ]
+        Parameter #2 [ <required> string $member ]
+      }
+      - Return [ RedisCluster|float|false ]
+    }
+
+    Method [ <internal:redis> public method zinterstore ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $dst ]
+        Parameter #1 [ <required> array $keys ]
+        Parameter #2 [ <optional> ?array $weights = null ]
+        Parameter #3 [ <optional> ?string $aggregate = null ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method zintercard ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array $keys ]
+        Parameter #1 [ <optional> int $limit = -1 ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method zlexcount ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $min ]
+        Parameter #2 [ <required> string $max ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method zpopmax ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> ?int $value = null ]
+      }
+      - Return [ RedisCluster|array|bool ]
+    }
+
+    Method [ <internal:redis> public method zpopmin ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> ?int $value = null ]
+      }
+      - Return [ RedisCluster|array|bool ]
+    }
+
+    Method [ <internal:redis> public method zrange ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> mixed $start ]
+        Parameter #2 [ <required> mixed $end ]
+        Parameter #3 [ <optional> array|bool|null $options = null ]
+      }
+      - Return [ RedisCluster|array|bool ]
+    }
+
+    Method [ <internal:redis> public method zrangestore ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $dstkey ]
+        Parameter #1 [ <required> string $srckey ]
+        Parameter #2 [ <required> int $start ]
+        Parameter #3 [ <required> int $end ]
+        Parameter #4 [ <optional> array|bool|null $options = null ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method zrandmember ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> ?array $options = null ]
+      }
+      - Return [ RedisCluster|array|string ]
+    }
+
+    Method [ <internal:redis> public method zrangebylex ] {
+
+      - Parameters [5] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $min ]
+        Parameter #2 [ <required> string $max ]
+        Parameter #3 [ <optional> int $offset = -1 ]
+        Parameter #4 [ <optional> int $count = -1 ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method zrangebyscore ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $start ]
+        Parameter #2 [ <required> string $end ]
+        Parameter #3 [ <optional> array $options = [] ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method zrank ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> mixed $member ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method zrem ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $value ]
+        Parameter #2 [ <optional> string ...$other_values ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method zremrangebylex ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $min ]
+        Parameter #2 [ <required> string $max ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method zremrangebyrank ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $min ]
+        Parameter #2 [ <required> string $max ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method zremrangebyscore ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $min ]
+        Parameter #2 [ <required> string $max ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method zrevrange ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $min ]
+        Parameter #2 [ <required> string $max ]
+        Parameter #3 [ <optional> ?array $options = null ]
+      }
+      - Return [ RedisCluster|array|bool ]
+    }
+
+    Method [ <internal:redis> public method zrevrangebylex ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $min ]
+        Parameter #2 [ <required> string $max ]
+        Parameter #3 [ <optional> ?array $options = null ]
+      }
+      - Return [ RedisCluster|array|bool ]
+    }
+
+    Method [ <internal:redis> public method zrevrangebyscore ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> string $min ]
+        Parameter #2 [ <required> string $max ]
+        Parameter #3 [ <optional> ?array $options = null ]
+      }
+      - Return [ RedisCluster|array|bool ]
+    }
+
+    Method [ <internal:redis> public method zrevrank ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> mixed $member ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method zscan ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> ?int &$iterator ]
+        Parameter #2 [ <optional> ?string $pattern = null ]
+        Parameter #3 [ <optional> int $count = 0 ]
+      }
+      - Return [ RedisCluster|array|bool ]
+    }
+
+    Method [ <internal:redis> public method zscore ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> mixed $member ]
+      }
+      - Return [ RedisCluster|float|false ]
+    }
+
+    Method [ <internal:redis> public method zmscore ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <required> mixed $member ]
+        Parameter #2 [ <optional> mixed ...$other_members ]
+      }
+      - Return [ Redis|array|false ]
+    }
+
+    Method [ <internal:redis> public method zunionstore ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> string $dst ]
+        Parameter #1 [ <required> array $keys ]
+        Parameter #2 [ <optional> ?array $weights = NULL ]
+        Parameter #3 [ <optional> ?string $aggregate = NULL ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method zinter ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array $keys ]
+        Parameter #1 [ <optional> ?array $weights = null ]
+        Parameter #2 [ <optional> ?array $options = null ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method zdiffstore ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $dst ]
+        Parameter #1 [ <required> array $keys ]
+      }
+      - Return [ RedisCluster|int|false ]
+    }
+
+    Method [ <internal:redis> public method zunion ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> array $keys ]
+        Parameter #1 [ <optional> ?array $weights = null ]
+        Parameter #2 [ <optional> ?array $options = null ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+
+    Method [ <internal:redis> public method zdiff ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> array $keys ]
+        Parameter #1 [ <optional> ?array $options = null ]
+      }
+      - Return [ RedisCluster|array|false ]
+    }
+  }
+}
+',
 );

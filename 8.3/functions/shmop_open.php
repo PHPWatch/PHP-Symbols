@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,27 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionUnionType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'shmop',
+  'toString' => 'Function [ <internal:shmop> function shmop_open ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> int $key ]
+    Parameter #1 [ <required> string $mode ]
+    Parameter #2 [ <required> int $permissions ]
+    Parameter #3 [ <required> int $size ]
+  }
+  - Return [ Shmop|false ]
+}
+',
 );

@@ -300,4 +300,106 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:gearman> class GearmanJob ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [13] {
+    Method [ <internal:gearman> public method returnCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method setReturn ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $gearman_return_t ]
+      }
+    }
+
+    Method [ <internal:gearman> public method sendData ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $data ]
+      }
+    }
+
+    Method [ <internal:gearman> public method sendWarning ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $warning ]
+      }
+    }
+
+    Method [ <internal:gearman> public method sendStatus ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $numerator ]
+        Parameter #1 [ <required> $denominator ]
+      }
+    }
+
+    Method [ <internal:gearman> public method sendComplete ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $result ]
+      }
+    }
+
+    Method [ <internal:gearman> public method sendException ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $exception ]
+      }
+    }
+
+    Method [ <internal:gearman> public method sendFail ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method handle ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method functionName ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method unique ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method workload ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:gearman> public method workloadSize ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

@@ -344,4 +344,94 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:http> class http\\Header implements Serializable ] {
+
+  - Constants [5] {
+    Constant [ integer MATCH_LOOSE ] { 0 }
+    Constant [ integer MATCH_CASE ] { 1 }
+    Constant [ integer MATCH_WORD ] { 16 }
+    Constant [ integer MATCH_FULL ] { 32 }
+    Constant [ integer MATCH_STRICT ] { 33 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [1] {
+    Method [ <internal:http> static public method parse ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $string ]
+        Parameter #1 [ <optional> $header_class ]
+      }
+    }
+  }
+
+  - Properties [2] {
+    Property [ <default> public $name ]
+    Property [ <default> public $value ]
+  }
+
+  - Methods [8] {
+    Method [ <internal:http, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $name ]
+        Parameter #1 [ <optional> $value ]
+      }
+    }
+
+    Method [ <internal:http, prototype Serializable> public method serialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method __toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http> public method toString ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:http, prototype Serializable> public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $serialized ]
+      }
+    }
+
+    Method [ <internal:http> public method match ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $value ]
+        Parameter #1 [ <optional> $flags ]
+      }
+    }
+
+    Method [ <internal:http> public method negotiate ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $supported ]
+        Parameter #1 [ <optional> &$result ]
+      }
+    }
+
+    Method [ <internal:http> public method getParams ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $param_sep ]
+        Parameter #1 [ <optional> $arg_sep ]
+        Parameter #2 [ <optional> $val_sep ]
+        Parameter #3 [ <optional> $flags ]
+      }
+    }
+  }
+}
+',
 );

@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,25 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'curl',
+  'toString' => 'Function [ <internal:curl> function curl_multi_exec ] {
+
+  - Parameters [2] {
+    Parameter #0 [ <required> CurlMultiHandle $multi_handle ]
+    Parameter #1 [ <required> &$still_running ]
+  }
+  - Return [ int ]
+}
+',
 );

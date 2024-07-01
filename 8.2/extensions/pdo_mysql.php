@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    \ReflectionExtension::__set_state(array(
+       'name' => 'pdo_mysql',
+    )),
     'removed' => NULL,
+    'version' => '8.2.20',
     'resources' => 
     array (
       0 => 
@@ -26,16 +30,17 @@ return array (
   'classes' => 
   array (
   ),
+  'functions' => 
+  array (
+  ),
   'constants' => 
   array (
   ),
   'dependencies' => 
   array (
   ),
-  'functions' => 
-  array (
-  ),
   'ini' => 
   array (
+    'pdo_mysql.default_socket' => '/var/run/mysqld/mysqld.sock',
   ),
 );

@@ -324,4 +324,91 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\Manager ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [10] {
+    Method [ <internal:mongodb, ctor> final public method __construct ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $uri ]
+        Parameter #1 [ <optional> array $options ]
+        Parameter #2 [ <optional> array $driverOptions ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method executeCommand ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $db ]
+        Parameter #1 [ <required> MongoDB\\Driver\\Command $command ]
+        Parameter #2 [ <optional> MongoDB\\Driver\\ReadPreference or NULL $readPreference ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method executeQuery ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $namespace ]
+        Parameter #1 [ <required> MongoDB\\Driver\\Query $zquery ]
+        Parameter #2 [ <optional> MongoDB\\Driver\\ReadPreference or NULL $readPreference ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method executeBulkWrite ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $namespace ]
+        Parameter #1 [ <required> MongoDB\\Driver\\BulkWrite $zbulk ]
+        Parameter #2 [ <optional> MongoDB\\Driver\\WriteConcern or NULL $writeConcern ]
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getReadConcern ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getReadPreference ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getServers ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method getWriteConcern ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:mongodb> final public method selectServer ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> MongoDB\\Driver\\ReadPreference or NULL $readPreference ]
+      }
+    }
+
+    Method [ <internal:mongodb> public method __wakeUp ] {
+    }
+  }
+}
+',
 );

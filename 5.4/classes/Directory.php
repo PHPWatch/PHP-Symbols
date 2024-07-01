@@ -118,4 +118,42 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:standard> class Directory ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [3] {
+    Method [ <internal:standard> public method close ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $dir_handle ]
+      }
+    }
+
+    Method [ <internal:standard> public method rewind ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $dir_handle ]
+      }
+    }
+
+    Method [ <internal:standard> public method read ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $dir_handle ]
+      }
+    }
+  }
+}
+',
 );

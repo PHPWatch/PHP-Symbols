@@ -324,4 +324,94 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SQLite> <iterateable> final class SQLiteUnbuffered ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [10] {
+    Method [ <internal:SQLite> public method fetch ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $result_type ]
+        Parameter #1 [ <optional> $decode_binary ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method fetchObject ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <optional> $class_name ]
+        Parameter #1 [ <optional> $ctor_params ]
+        Parameter #2 [ <optional> $decode_binary ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method fetchSingle ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $decode_binary ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method fetchAll ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $result_type ]
+        Parameter #1 [ <optional> $decode_binary ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method column ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $index_or_name ]
+        Parameter #1 [ <optional> $decode_binary ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method numFields ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SQLite> public method fieldName ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $field_index ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method current ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $result_type ]
+        Parameter #1 [ <optional> $decode_binary ]
+      }
+    }
+
+    Method [ <internal:SQLite> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SQLite> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

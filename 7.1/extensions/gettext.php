@@ -12,8 +12,12 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => 
+    ReflectionExtension::__set_state(array(
+       'name' => 'gettext',
+    )),
     'removed' => NULL,
+    'version' => '7.1.33-63+ubuntu22.04.1+deb.sury.org+1',
     'resources' => 
     array (
       0 => 
@@ -26,13 +30,23 @@ return array (
   'classes' => 
   array (
   ),
+  'functions' => 
+  array (
+    'textdomain' => 'textdomain',
+    'gettext' => 'gettext',
+    '_' => '_',
+    'dgettext' => 'dgettext',
+    'dcgettext' => 'dcgettext',
+    'bindtextdomain' => 'bindtextdomain',
+    'ngettext' => 'ngettext',
+    'dngettext' => 'dngettext',
+    'dcngettext' => 'dcngettext',
+    'bind_textdomain_codeset' => 'bind_textdomain_codeset',
+  ),
   'constants' => 
   array (
   ),
   'dependencies' => 
-  array (
-  ),
-  'functions' => 
   array (
   ),
   'ini' => 

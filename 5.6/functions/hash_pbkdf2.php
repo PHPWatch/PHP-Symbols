@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,22 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'hash',
+  'toString' => 'Function [ <internal:hash> function hash_pbkdf2 ] {
+
+  - Parameters [6] {
+    Parameter #0 [ <required> $algo ]
+    Parameter #1 [ <required> $password ]
+    Parameter #2 [ <required> $salt ]
+    Parameter #3 [ <required> $iterations ]
+    Parameter #4 [ <optional> $length ]
+    Parameter #5 [ <optional> $raw_output ]
+  }
+}
+',
 );

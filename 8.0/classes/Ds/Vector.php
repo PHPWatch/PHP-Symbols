@@ -916,4 +916,300 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:ds> <iterateable> final class Ds\\Vector implements Ds\\Sequence, ArrayAccess, IteratorAggregate, Traversable, Countable, JsonSerializable, Ds\\Collection ] {
+
+  - Constants [1] {
+    Constant [ public int MIN_CAPACITY ] { 8 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [39] {
+    Method [ <internal:ds, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $values = <default> ]
+      }
+    }
+
+    Method [ <internal:ds, prototype IteratorAggregate> public method getIterator ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Traversable ]
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method allocate ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $capacity ]
+      }
+    }
+
+    Method [ <internal:ds> public method apply ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> callable $callback ]
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method capacity ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method contains ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$values ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method filter ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?callable $callback = <default> ]
+      }
+      - Return [ Ds\\Sequence ]
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method find ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method first ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method get ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $index ]
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method insert ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $index ]
+        Parameter #1 [ <optional> ...$values ]
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method join ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> string $glue = <default> ]
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method last ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method map ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> callable $callback ]
+      }
+      - Return [ Ds\\Sequence ]
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method merge ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $values ]
+      }
+      - Return [ Ds\\Sequence ]
+    }
+
+    Method [ <internal:ds, prototype ArrayAccess> public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $offset ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:ds, prototype ArrayAccess> public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $offset ]
+      }
+    }
+
+    Method [ <internal:ds, prototype ArrayAccess> public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> mixed $offset ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+    }
+
+    Method [ <internal:ds, prototype ArrayAccess> public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $offset ]
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method pop ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method push ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$values ]
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method reduce ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> callable $callback ]
+        Parameter #1 [ <optional> $initial = <default> ]
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method remove ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $index ]
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method reverse ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds> public method reversed ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Ds\\Sequence ]
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method rotate ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $rotations ]
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method set ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $index ]
+        Parameter #1 [ <required> $value ]
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method shift ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method slice ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $index ]
+        Parameter #1 [ <optional> ?int $length = <default> ]
+      }
+      - Return [ Ds\\Sequence ]
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method sort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?callable $comparator = <default> ]
+      }
+    }
+
+    Method [ <internal:ds> public method sorted ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ?callable $comparator = <default> ]
+      }
+      - Return [ Ds\\Sequence ]
+    }
+
+    Method [ <internal:ds> public method sum ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Sequence> public method unshift ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> ...$values ]
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Collection> public method clear ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Collection> public method copy ] {
+
+      - Parameters [0] {
+      }
+      - Return [ Ds\\Collection ]
+    }
+
+    Method [ <internal:ds, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:ds, prototype Ds\\Collection> public method isEmpty ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:ds, prototype JsonSerializable> public method jsonSerialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:ds, prototype Ds\\Collection> public method toArray ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+  }
+}
+',
 );

@@ -607,4 +607,201 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:SPL> <iterateable> class ArrayIterator implements Iterator, Traversable, ArrayAccess, SeekableIterator, Serializable, Countable ] {
+
+  - Constants [2] {
+    Constant [ public int STD_PROP_LIST ] { 1 }
+    Constant [ public int ARRAY_AS_PROPS ] { 2 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [27] {
+    Method [ <internal:SPL, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> object|array $array = [] ]
+        Parameter #1 [ <optional> int $flags = 0 ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetExists ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $key ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetGet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $key ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetSet ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> mixed $key ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype ArrayAccess> public method offsetUnset ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $key ]
+      }
+    }
+
+    Method [ <internal:SPL> public method append ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> mixed $value ]
+      }
+    }
+
+    Method [ <internal:SPL> public method getArrayCopy ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Countable> public method count ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method getFlags ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method setFlags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $flags ]
+      }
+    }
+
+    Method [ <internal:SPL> public method asort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $flags = SORT_REGULAR ]
+      }
+    }
+
+    Method [ <internal:SPL> public method ksort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $flags = SORT_REGULAR ]
+      }
+    }
+
+    Method [ <internal:SPL> public method uasort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> callable $callback ]
+      }
+    }
+
+    Method [ <internal:SPL> public method uksort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> callable $callback ]
+      }
+    }
+
+    Method [ <internal:SPL> public method natsort ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method natcasesort ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Serializable> public method unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $data ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype Serializable> public method serialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method __serialize ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL> public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method rewind ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method current ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method key ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method next ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype Iterator> public method valid ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:SPL, prototype SeekableIterator> public method seek ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $offset ]
+      }
+    }
+
+    Method [ <internal:SPL> public method __debugInfo ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

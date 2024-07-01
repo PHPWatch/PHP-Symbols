@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,24 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
   'return' => 
   array (
+    'type' => 
+    \ReflectionNamedType::__set_state(array(
+    )),
+    'nullable' => false,
   ),
   'extension' => 'enchant',
+  'toString' => 'Function [ <internal, deprecated:enchant> function enchant_broker_free_dict ] {
+
+  - Parameters [1] {
+    Parameter #0 [ <required> EnchantDictionary $dictionary ]
+  }
+  - Return [ bool ]
+}
+',
 );

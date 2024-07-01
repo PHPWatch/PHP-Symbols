@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,21 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'snmp',
+  'toString' => 'Function [ <internal:snmp> function snmpget ] {
+
+  - Parameters [5] {
+    Parameter #0 [ <required> $host ]
+    Parameter #1 [ <required> $community ]
+    Parameter #2 [ <required> $object_id ]
+    Parameter #3 [ <optional> $timeout ]
+    Parameter #4 [ <optional> $retries ]
+  }
+}
+',
 );

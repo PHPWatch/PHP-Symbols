@@ -529,4 +529,119 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:tidy> class tidy ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [19] {
+    Method [ <internal:tidy> public method getOpt ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $option ]
+      }
+    }
+
+    Method [ <internal:tidy> public method cleanRepair ] {
+    }
+
+    Method [ <internal:tidy> public method parseFile ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $file ]
+        Parameter #1 [ <optional> $config_options ]
+        Parameter #2 [ <optional> $encoding ]
+        Parameter #3 [ <optional> $use_include_path ]
+      }
+    }
+
+    Method [ <internal:tidy> public method parseString ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $input ]
+        Parameter #1 [ <optional> $config_options ]
+        Parameter #2 [ <optional> $encoding ]
+      }
+    }
+
+    Method [ <internal:tidy> public method repairString ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <optional> $config_file ]
+        Parameter #2 [ <optional> $encoding ]
+      }
+    }
+
+    Method [ <internal:tidy> public method repairFile ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $filename ]
+        Parameter #1 [ <optional> $config_file ]
+        Parameter #2 [ <optional> $encoding ]
+        Parameter #3 [ <optional> $use_include_path ]
+      }
+    }
+
+    Method [ <internal:tidy> public method diagnose ] {
+    }
+
+    Method [ <internal:tidy> public method getRelease ] {
+    }
+
+    Method [ <internal:tidy> public method getConfig ] {
+    }
+
+    Method [ <internal:tidy> public method getStatus ] {
+    }
+
+    Method [ <internal:tidy> public method getHtmlVer ] {
+    }
+
+    Method [ <internal:tidy> public method getOptDoc ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $optname ]
+      }
+    }
+
+    Method [ <internal:tidy> public method isXhtml ] {
+    }
+
+    Method [ <internal:tidy> public method isXml ] {
+    }
+
+    Method [ <internal:tidy> public method root ] {
+    }
+
+    Method [ <internal:tidy> public method head ] {
+    }
+
+    Method [ <internal:tidy> public method html ] {
+    }
+
+    Method [ <internal:tidy> public method body ] {
+    }
+
+    Method [ <internal:tidy, ctor> public method __construct ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $filename ]
+        Parameter #1 [ <optional> $config_file ]
+        Parameter #2 [ <optional> $encoding ]
+        Parameter #3 [ <optional> $use_include_path ]
+      }
+    }
+  }
+}
+',
 );

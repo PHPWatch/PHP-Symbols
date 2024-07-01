@@ -1188,4 +1188,377 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> class IntlCalendar ] {
+
+  - Constants [39] {
+    Constant [ public int FIELD_ERA ] { 0 }
+    Constant [ public int FIELD_YEAR ] { 1 }
+    Constant [ public int FIELD_MONTH ] { 2 }
+    Constant [ public int FIELD_WEEK_OF_YEAR ] { 3 }
+    Constant [ public int FIELD_WEEK_OF_MONTH ] { 4 }
+    Constant [ public int FIELD_DATE ] { 5 }
+    Constant [ public int FIELD_DAY_OF_YEAR ] { 6 }
+    Constant [ public int FIELD_DAY_OF_WEEK ] { 7 }
+    Constant [ public int FIELD_DAY_OF_WEEK_IN_MONTH ] { 8 }
+    Constant [ public int FIELD_AM_PM ] { 9 }
+    Constant [ public int FIELD_HOUR ] { 10 }
+    Constant [ public int FIELD_HOUR_OF_DAY ] { 11 }
+    Constant [ public int FIELD_MINUTE ] { 12 }
+    Constant [ public int FIELD_SECOND ] { 13 }
+    Constant [ public int FIELD_MILLISECOND ] { 14 }
+    Constant [ public int FIELD_ZONE_OFFSET ] { 15 }
+    Constant [ public int FIELD_DST_OFFSET ] { 16 }
+    Constant [ public int FIELD_YEAR_WOY ] { 17 }
+    Constant [ public int FIELD_DOW_LOCAL ] { 18 }
+    Constant [ public int FIELD_EXTENDED_YEAR ] { 19 }
+    Constant [ public int FIELD_JULIAN_DAY ] { 20 }
+    Constant [ public int FIELD_MILLISECONDS_IN_DAY ] { 21 }
+    Constant [ public int FIELD_IS_LEAP_MONTH ] { 22 }
+    Constant [ public int FIELD_FIELD_COUNT ] { 23 }
+    Constant [ public int FIELD_DAY_OF_MONTH ] { 5 }
+    Constant [ public int DOW_SUNDAY ] { 1 }
+    Constant [ public int DOW_MONDAY ] { 2 }
+    Constant [ public int DOW_TUESDAY ] { 3 }
+    Constant [ public int DOW_WEDNESDAY ] { 4 }
+    Constant [ public int DOW_THURSDAY ] { 5 }
+    Constant [ public int DOW_FRIDAY ] { 6 }
+    Constant [ public int DOW_SATURDAY ] { 7 }
+    Constant [ public int DOW_TYPE_WEEKDAY ] { 0 }
+    Constant [ public int DOW_TYPE_WEEKEND ] { 1 }
+    Constant [ public int DOW_TYPE_WEEKEND_OFFSET ] { 2 }
+    Constant [ public int DOW_TYPE_WEEKEND_CEASE ] { 3 }
+    Constant [ public int WALLTIME_FIRST ] { 1 }
+    Constant [ public int WALLTIME_LAST ] { 0 }
+    Constant [ public int WALLTIME_NEXT_VALID ] { 2 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [5] {
+    Method [ <internal:intl> static public method createInstance ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $timeZone ]
+        Parameter #1 [ <optional> $locale ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getKeywordValuesForLocale ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <required> $locale ]
+        Parameter #2 [ <required> $commonlyUsed ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getNow ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> static public method getAvailableLocales ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> static public method fromDateTime ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $dateTime ]
+      }
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [41] {
+    Method [ <internal:intl, ctor> private method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method get ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $field ]
+      }
+    }
+
+    Method [ <internal:intl> public method getTime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method setTime ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $date ]
+      }
+    }
+
+    Method [ <internal:intl> public method add ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $field ]
+        Parameter #1 [ <required> $amount ]
+      }
+    }
+
+    Method [ <internal:intl> public method setTimeZone ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $timeZone ]
+      }
+    }
+
+    Method [ <internal:intl> public method after ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> IntlCalendar $calendar ]
+      }
+    }
+
+    Method [ <internal:intl> public method before ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> IntlCalendar $calendar ]
+      }
+    }
+
+    Method [ <internal:intl> public method set ] {
+
+      - Parameters [6] {
+        Parameter #0 [ <required> $fieldOrYear ]
+        Parameter #1 [ <required> $valueOrMonth ]
+        Parameter #2 [ <optional> $dayOfMonth ]
+        Parameter #3 [ <optional> $hour ]
+        Parameter #4 [ <optional> $minute ]
+        Parameter #5 [ <optional> $second ]
+      }
+    }
+
+    Method [ <internal:intl> public method roll ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $field ]
+        Parameter #1 [ <required> $amountOrUpOrDown ]
+      }
+    }
+
+    Method [ <internal:intl> public method clear ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $field ]
+      }
+    }
+
+    Method [ <internal:intl> public method fieldDifference ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $when ]
+        Parameter #1 [ <required> $field ]
+      }
+    }
+
+    Method [ <internal:intl> public method getActualMaximum ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $field ]
+      }
+    }
+
+    Method [ <internal:intl> public method getActualMinimum ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $field ]
+      }
+    }
+
+    Method [ <internal:intl> public method getDayOfWeekType ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $dayOfWeek ]
+      }
+    }
+
+    Method [ <internal:intl> public method getFirstDayOfWeek ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getGreatestMinimum ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $field ]
+      }
+    }
+
+    Method [ <internal:intl> public method getLeastMaximum ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $field ]
+      }
+    }
+
+    Method [ <internal:intl> public method getLocale ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $localeType ]
+      }
+    }
+
+    Method [ <internal:intl> public method getMaximum ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $field ]
+      }
+    }
+
+    Method [ <internal:intl> public method getMinimalDaysInFirstWeek ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getMinimum ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $field ]
+      }
+    }
+
+    Method [ <internal:intl> public method getTimeZone ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getType ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getWeekendTransition ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $dayOfWeek ]
+      }
+    }
+
+    Method [ <internal:intl> public method inDaylightTime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method isEquivalentTo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> IntlCalendar $calendar ]
+      }
+    }
+
+    Method [ <internal:intl> public method isLenient ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method isSet ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $field ]
+      }
+    }
+
+    Method [ <internal:intl> public method isWeekend ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $date ]
+      }
+    }
+
+    Method [ <internal:intl> public method setFirstDayOfWeek ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $dayOfWeek ]
+      }
+    }
+
+    Method [ <internal:intl> public method setLenient ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $isLenient ]
+      }
+    }
+
+    Method [ <internal:intl> public method setMinimalDaysInFirstWeek ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $numberOfDays ]
+      }
+    }
+
+    Method [ <internal:intl> public method equals ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> IntlCalendar $calendar ]
+      }
+    }
+
+    Method [ <internal:intl> public method getRepeatedWallTimeOption ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getSkippedWallTimeOption ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method setRepeatedWallTimeOption ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $wallTimeOption ]
+      }
+    }
+
+    Method [ <internal:intl> public method setSkippedWallTimeOption ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $wallTimeOption ]
+      }
+    }
+
+    Method [ <internal:intl> public method toDateTime ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorCode ] {
+
+      - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:intl> public method getErrorMessage ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
 );

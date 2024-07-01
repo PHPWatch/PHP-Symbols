@@ -11,9 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'added' => NULL,
-    'deprecated' => NULL,
-    'removed' => NULL,
+    'deprecated' => false,
     'resources' => 
     array (
       0 => 
@@ -23,11 +21,20 @@ return array (
       ),
     ),
   ),
+  'doc' => false,
   'parameters' => 
   array (
   ),
-  'return' => 
-  array (
-  ),
+  'return' => NULL,
   'extension' => 'openssl',
+  'toString' => 'Function [ <internal:openssl> function openssl_private_decrypt ] {
+
+  - Parameters [4] {
+    Parameter #0 [ <required> $data ]
+    Parameter #1 [ <required> &$crypted ]
+    Parameter #2 [ <required> $key ]
+    Parameter #3 [ <optional> $padding ]
+  }
+}
+',
 );

@@ -602,4 +602,183 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'toString' => 'Class [ <internal:intl> class Locale ] {
+
+  - Constants [10] {
+    Constant [ public int ACTUAL_LOCALE ] { 0 }
+    Constant [ public int VALID_LOCALE ] { 1 }
+    Constant [ public null DEFAULT_LOCALE ] {  }
+    Constant [ public string LANG_TAG ] { language }
+    Constant [ public string EXTLANG_TAG ] { extlang }
+    Constant [ public string SCRIPT_TAG ] { script }
+    Constant [ public string REGION_TAG ] { region }
+    Constant [ public string VARIANT_TAG ] { variant }
+    Constant [ public string GRANDFATHERED_LANG_TAG ] { grandfathered }
+    Constant [ public string PRIVATE_TAG ] { private }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [18] {
+    Method [ <internal:intl> static public method getDefault ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ string ]
+    }
+
+    Method [ <internal:intl> static public method setDefault ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $locale ]
+      }
+    }
+
+    Method [ <internal:intl> static public method getPrimaryLanguage ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $locale ]
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:intl> static public method getScript ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $locale ]
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:intl> static public method getRegion ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $locale ]
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:intl> static public method getKeywords ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $locale ]
+      }
+      - Tentative return [ array|false|null ]
+    }
+
+    Method [ <internal:intl> static public method getDisplayScript ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $locale ]
+        Parameter #1 [ <optional> ?string $displayLocale = null ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:intl> static public method getDisplayRegion ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $locale ]
+        Parameter #1 [ <optional> ?string $displayLocale = null ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:intl> static public method getDisplayName ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $locale ]
+        Parameter #1 [ <optional> ?string $displayLocale = null ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:intl> static public method getDisplayLanguage ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $locale ]
+        Parameter #1 [ <optional> ?string $displayLocale = null ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:intl> static public method getDisplayVariant ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $locale ]
+        Parameter #1 [ <optional> ?string $displayLocale = null ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:intl> static public method composeLocale ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $subtags ]
+      }
+      - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:intl> static public method parseLocale ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $locale ]
+      }
+      - Tentative return [ ?array ]
+    }
+
+    Method [ <internal:intl> static public method getAllVariants ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $locale ]
+      }
+      - Tentative return [ ?array ]
+    }
+
+    Method [ <internal:intl> static public method filterMatches ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $languageTag ]
+        Parameter #1 [ <required> string $locale ]
+        Parameter #2 [ <optional> bool $canonicalize = false ]
+      }
+      - Tentative return [ ?bool ]
+    }
+
+    Method [ <internal:intl> static public method lookup ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> array $languageTag ]
+        Parameter #1 [ <required> string $locale ]
+        Parameter #2 [ <optional> bool $canonicalize = false ]
+        Parameter #3 [ <optional> ?string $defaultLocale = null ]
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:intl> static public method canonicalize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $locale ]
+      }
+      - Tentative return [ ?string ]
+    }
+
+    Method [ <internal:intl> static public method acceptFromHttp ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $header ]
+      }
+      - Tentative return [ string|false ]
+    }
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}
+',
 );
