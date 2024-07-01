@@ -1309,6 +1309,56 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'querySelector' => 
+    array (
+      'name' => 'querySelector',
+      'class' => 'Dom\\Document',
+      'parameters' => 
+      array (
+        'selectors' => 
+        array (
+          'position' => 0,
+          'name' => 'selectors',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => '?Dom\\Element',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'querySelectorAll' => 
+    array (
+      'name' => 'querySelectorAll',
+      'class' => 'Dom\\Document',
+      'parameters' => 
+      array (
+        'selectors' => 
+        array (
+          'position' => 0,
+          'name' => 'selectors',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'Dom\\NodeList',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getRootNode' => 
     array (
       'name' => 'getRootNode',

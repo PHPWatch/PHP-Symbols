@@ -616,6 +616,111 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'fromUri' => 
+    array (
+      'name' => 'fromUri',
+      'class' => 'XMLReader',
+      'parameters' => 
+      array (
+        'uri' => 
+        array (
+          'position' => 0,
+          'name' => 'uri',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'encoding' => 
+        array (
+          'position' => 1,
+          'name' => 'encoding',
+          'type' => '?string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'flags' => 
+        array (
+          'position' => 2,
+          'name' => 'flags',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 0,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'static',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'fromStream' => 
+    array (
+      'name' => 'fromStream',
+      'class' => 'XMLReader',
+      'parameters' => 
+      array (
+        'stream' => 
+        array (
+          'position' => 0,
+          'name' => 'stream',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'encoding' => 
+        array (
+          'position' => 1,
+          'name' => 'encoding',
+          'type' => '?string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'flags' => 
+        array (
+          'position' => 2,
+          'name' => 'flags',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 0,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'documentUri' => 
+        array (
+          'position' => 3,
+          'name' => 'documentUri',
+          'type' => '?string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'static',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'readInnerXml' => 
     array (
       'name' => 'readInnerXml',
@@ -811,6 +916,53 @@ return array (
       ),
       'return_type' => NULL,
       'has_return_type' => false,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'fromString' => 
+    array (
+      'name' => 'fromString',
+      'class' => 'XMLReader',
+      'parameters' => 
+      array (
+        'source' => 
+        array (
+          'position' => 0,
+          'name' => 'source',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'encoding' => 
+        array (
+          'position' => 1,
+          'name' => 'encoding',
+          'type' => '?string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'flags' => 
+        array (
+          'position' => 2,
+          'name' => 'flags',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 0,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'static',
+      'has_return_type' => true,
       'is_static' => true,
       'is_public' => true,
       'is_protected' => false,

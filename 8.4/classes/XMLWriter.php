@@ -59,6 +59,31 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'toUri' => 
+    array (
+      'name' => 'toUri',
+      'class' => 'XMLWriter',
+      'parameters' => 
+      array (
+        'uri' => 
+        array (
+          'position' => 0,
+          'name' => 'uri',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'static',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'openMemory' => 
     array (
       'name' => 'openMemory',
@@ -69,6 +94,45 @@ return array (
       'return_type' => NULL,
       'has_return_type' => false,
       'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'toMemory' => 
+    array (
+      'name' => 'toMemory',
+      'class' => 'XMLWriter',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'static',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'toStream' => 
+    array (
+      'name' => 'toStream',
+      'class' => 'XMLWriter',
+      'parameters' => 
+      array (
+        'stream' => 
+        array (
+          'position' => 0,
+          'name' => 'stream',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'static',
+      'has_return_type' => true,
+      'is_static' => true,
       'is_public' => true,
       'is_protected' => false,
       'is_private' => false,
