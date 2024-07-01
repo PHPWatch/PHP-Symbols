@@ -27,9 +27,7 @@ return array (
   ),
   'return' => 
   array (
-    'type' => 
-    \ReflectionNamedType::__set_state(array(
-    )),
+    'type' => 'ReflectionNamedType',
     'nullable' => false,
   ),
   'extension' => 'pspell',

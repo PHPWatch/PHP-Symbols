@@ -27,9 +27,7 @@ return array (
   ),
   'return' => 
   array (
-    'type' => 
-    ReflectionUnionType::__set_state(array(
-    )),
+    'type' => 'ReflectionUnionType',
     'nullable' => false,
   ),
   'extension' => 'zlib',
