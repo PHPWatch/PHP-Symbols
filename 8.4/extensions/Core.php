@@ -56,11 +56,12 @@ return array (
     29 => 'SensitiveParameter',
     30 => 'SensitiveParameterValue',
     31 => 'Override',
-    32 => 'UnitEnum',
-    33 => 'BackedEnum',
-    34 => 'Fiber',
-    35 => 'FiberError',
-    36 => 'stdClass',
+    32 => 'Deprecated',
+    33 => 'UnitEnum',
+    34 => 'BackedEnum',
+    35 => 'Fiber',
+    36 => 'FiberError',
+    37 => 'stdClass',
   ),
   'functions' => 
   array (

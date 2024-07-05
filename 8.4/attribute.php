@@ -6,4 +6,5 @@ return array (
   'AllowDynamicProperties',
   'SensitiveParameter',
   'Override',
+  'Deprecated',
 );

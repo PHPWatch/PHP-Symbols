@@ -327,6 +327,42 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'rename' => 
+    array (
+      'name' => 'rename',
+      'class' => 'Dom\\Attr',
+      'parameters' => 
+      array (
+        'namespaceURI' => 
+        array (
+          'position' => 0,
+          'name' => 'namespaceURI',
+          'type' => '?string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'qualifiedName' => 
+        array (
+          'position' => 1,
+          'name' => 'qualifiedName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getRootNode' => 
     array (
       'name' => 'getRootNode',
@@ -937,12 +973,21 @@ return array (
     Property [ public bool $specified = true ]
   }
 
-  - Methods [22] {
+  - Methods [23] {
     Method [ <internal:dom> public method isId ] {
 
       - Parameters [0] {
       }
       - Return [ bool ]
+    }
+
+    Method [ <internal:dom> public method rename ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?string $namespaceURI ]
+        Parameter #1 [ <required> string $qualifiedName ]
+      }
+      - Return [ void ]
     }
 
     Method [ <internal:dom, inherits Dom\\Node> public method getRootNode ] {

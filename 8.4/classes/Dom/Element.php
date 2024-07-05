@@ -299,6 +299,19 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
+    'classList' => 
+    array (
+      'name' => 'classList',
+      'class' => 'Dom\\Element',
+      'type' => 'Dom\\TokenList',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
     'attributes' => 
     array (
       'name' => 'attributes',
@@ -369,6 +382,32 @@ return array (
       'name' => 'nextElementSibling',
       'class' => 'Dom\\Element',
       'type' => '?Dom\\Element',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'innerHTML' => 
+    array (
+      'name' => 'innerHTML',
+      'class' => 'Dom\\Element',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'substitutedNodeValue' => 
+    array (
+      'name' => 'substitutedNodeValue',
+      'class' => 'Dom\\Element',
+      'type' => 'string',
       'has_default_value' => false,
       'default_value' => NULL,
       'is_static' => false,
@@ -1362,6 +1401,70 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getInScopeNamespaces' => 
+    array (
+      'name' => 'getInScopeNamespaces',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'array',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getDescendantNamespaces' => 
+    array (
+      'name' => 'getDescendantNamespaces',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'array',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'rename' => 
+    array (
+      'name' => 'rename',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'namespaceURI' => 
+        array (
+          'position' => 0,
+          'name' => 'namespaceURI',
+          'type' => '?string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'qualifiedName' => 
+        array (
+          'position' => 1,
+          'name' => 'qualifiedName',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getRootNode' => 
     array (
       'name' => 'getRootNode',
@@ -1948,7 +2051,7 @@ return array (
   - Static methods [0] {
   }
 
-  - Properties [26] {
+  - Properties [29] {
     Property [ public int $nodeType ]
     Property [ public string $nodeName ]
     Property [ public string $baseURI ]
@@ -1969,15 +2072,18 @@ return array (
     Property [ public string $tagName ]
     Property [ public string $id ]
     Property [ public string $className ]
+    Property [ public Dom\\TokenList $classList ]
     Property [ public Dom\\NamedNodeMap $attributes ]
     Property [ public ?Dom\\Element $firstElementChild ]
     Property [ public ?Dom\\Element $lastElementChild ]
     Property [ public int $childElementCount ]
     Property [ public ?Dom\\Element $previousElementSibling ]
     Property [ public ?Dom\\Element $nextElementSibling ]
+    Property [ public string $innerHTML ]
+    Property [ public string $substitutedNodeValue ]
   }
 
-  - Methods [55] {
+  - Methods [58] {
     Method [ <internal:dom> public method hasAttributes ] {
 
       - Parameters [0] {
@@ -2260,6 +2366,29 @@ return array (
         Parameter #0 [ <required> string $selectors ]
       }
       - Return [ bool ]
+    }
+
+    Method [ <internal:dom> public method getInScopeNamespaces ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:dom> public method getDescendantNamespaces ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:dom> public method rename ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?string $namespaceURI ]
+        Parameter #1 [ <required> string $qualifiedName ]
+      }
+      - Return [ void ]
     }
 
     Method [ <internal:dom, inherits Dom\\Node> public method getRootNode ] {
