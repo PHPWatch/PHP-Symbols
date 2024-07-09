@@ -23,6 +23,6 @@ return array (
       ),
     ),
   ),
-  'value' => '8.3.8',
+  'value' => '8.3.9',
   'extension' => 'Core',
 );

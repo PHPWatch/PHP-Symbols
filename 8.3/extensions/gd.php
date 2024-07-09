@@ -17,7 +17,7 @@ return array (
        'name' => 'gd',
     )),
     'removed' => NULL,
-    'version' => '8.3.8',
+    'version' => '8.3.9',
     'resources' => 
     array (
       0 => 

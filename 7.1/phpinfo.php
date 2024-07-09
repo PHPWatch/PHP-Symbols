@@ -591,7 +591,7 @@ msgpack
 
 MessagePack Support => enabled
 Session Support => enabled
-extension Version => 2.1.2
+extension Version => 2.2.0
 header Version => 3.2.0
 
 Directive => Local Value => Master Value

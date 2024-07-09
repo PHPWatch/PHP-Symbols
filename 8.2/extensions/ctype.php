@@ -17,7 +17,7 @@ return array (
        'name' => 'ctype',
     )),
     'removed' => NULL,
-    'version' => '8.2.20',
+    'version' => '8.2.21',
     'resources' => 
     array (
       0 => 

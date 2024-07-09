@@ -17,7 +17,7 @@ return array (
        'name' => 'PDO_Firebird',
     )),
     'removed' => NULL,
-    'version' => '8.2.20',
+    'version' => '8.2.21',
     'resources' => 
     array (
       0 => 

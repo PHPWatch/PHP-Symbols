@@ -17,7 +17,7 @@ return array (
        'name' => 'msgpack',
     )),
     'removed' => NULL,
-    'version' => '2.1.2',
+    'version' => '2.2.0',
     'resources' => 
     array (
       0 => 

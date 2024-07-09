@@ -277,9 +277,9 @@ enchant
 
 enchant support => enabled
 
-hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
-aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
 hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
+aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
+hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
 
 exif
 
@@ -586,7 +586,7 @@ msgpack
 
 MessagePack Support => enabled
 Session Support => enabled
-extension Version => 2.1.2
+extension Version => 2.2.0
 header Version => 3.2.0
 
 Directive => Local Value => Master Value

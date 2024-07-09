@@ -17,7 +17,7 @@ return array (
        'name' => 'sqlite3',
     )),
     'removed' => NULL,
-    'version' => '8.3.8',
+    'version' => '8.3.9',
     'resources' => 
     array (
       0 => 

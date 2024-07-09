@@ -2412,7 +2412,7 @@ return array (
   ),
   'mongodb' => 
   array (
-    'MONGODB_VERSION' => '1.19.2',
+    'MONGODB_VERSION' => '1.19.3',
     'MONGODB_STABILITY' => 'stable',
   ),
   'msgpack' => 

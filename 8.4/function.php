@@ -253,6 +253,7 @@ return array (
   'json_last_error_msg',
   'pcntl_fork',
   'pcntl_waitpid',
+  'pcntl_waitid',
   'pcntl_wait',
   'pcntl_signal',
   'pcntl_signal_get_handler',

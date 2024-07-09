@@ -1236,7 +1236,7 @@ Consistent 64 bit support => Anthony Ferrara, Anatol Belski
 
                                SAPI Modules                               
 Contribution => Authors
-Apache 2.0 Handler => Ian Holsman, Justin Erenkrantz (based on Apache 2.0 Filter code)
+Apache 2 Handler => Ian Holsman, Justin Erenkrantz (based on Apache 2 Filter code)
 CGI / FastCGI => Rasmus Lerdorf, Stig Bakken, Shane Caraveo, Dmitry Stogov
 CLI => Edin Kadribasic, Marcus Boerger, Johannes Schlueter, Moriyoshi Koizumi, Xinchen Hui
 Embed => Edin Kadribasic

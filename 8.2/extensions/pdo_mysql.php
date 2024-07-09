@@ -17,7 +17,7 @@ return array (
        'name' => 'pdo_mysql',
     )),
     'removed' => NULL,
-    'version' => '8.2.20',
+    'version' => '8.2.21',
     'resources' => 
     array (
       0 => 

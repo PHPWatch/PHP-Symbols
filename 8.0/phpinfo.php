@@ -545,7 +545,7 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.19.2
+MongoDB extension version => 1.19.3
 MongoDB extension stability => stable
 libbson bundled version => 1.27.2
 libmongoc bundled version => 1.27.2
@@ -572,7 +572,7 @@ msgpack
 
 MessagePack Support => enabled
 Session Support => enabled
-extension Version => 2.1.2
+extension Version => 2.2.0
 header Version => 3.2.0
 
 Directive => Local Value => Master Value
