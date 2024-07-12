@@ -51,6 +51,7 @@ return array (
   'DeflateContext',
   'HashContext',
   'JsonException',
+  'Pcntl\\QosClass',
   'Random\\RandomError',
   'Random\\BrokenRandomEngineError',
   'Random\\RandomException',
