@@ -439,7 +439,7 @@ LDAP Support => enabled
 Total Links => 0/unlimited
 API Version => 3001
 Vendor Name => OpenLDAP
-Vendor Version => 20517
+Vendor Version => 20518
 SASL Support => Enabled
 
 Directive => Local Value => Master Value
