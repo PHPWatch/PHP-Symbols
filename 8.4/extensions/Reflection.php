@@ -54,6 +54,7 @@ return array (
     22 => 'ReflectionEnumBackedCase',
     23 => 'ReflectionFiber',
     24 => 'ReflectionConstant',
+    25 => 'PropertyHookType',
   ),
   'functions' => 
   array (

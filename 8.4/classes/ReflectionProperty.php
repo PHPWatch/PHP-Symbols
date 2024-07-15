@@ -35,6 +35,7 @@ return array (
     'IS_PUBLIC' => 1,
     'IS_PROTECTED' => 2,
     'IS_PRIVATE' => 4,
+    'IS_ABSTRACT' => 64,
   ),
   'properties' => 
   array (
@@ -206,6 +207,67 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getRawValue' => 
+    array (
+      'name' => 'getRawValue',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+        'object' => 
+        array (
+          'position' => 0,
+          'name' => 'object',
+          'type' => 'object',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'mixed',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setRawValue' => 
+    array (
+      'name' => 'setRawValue',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+        'object' => 
+        array (
+          'position' => 0,
+          'name' => 'object',
+          'type' => 'object',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'value' => 
+        array (
+          'position' => 1,
+          'name' => 'value',
+          'type' => 'mixed',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'isInitialized' => 
     array (
       'name' => 'isInitialized',
@@ -315,6 +377,34 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'isAbstract' => 
+    array (
+      'name' => 'isAbstract',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isVirtual' => 
+    array (
+      'name' => 'isVirtual',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'isPromoted' => 
     array (
       'name' => 'isPromoted',
@@ -410,6 +500,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getSettableType' => 
+    array (
+      'name' => 'getSettableType',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => '?ReflectionType',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'hasType' => 
     array (
       'name' => 'hasType',
@@ -488,6 +592,45 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getHooks' => 
+    array (
+      'name' => 'getHooks',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'array',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getHook' => 
+    array (
+      'name' => 'getHook',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+        'type' => 
+        array (
+          'position' => 0,
+          'name' => 'type',
+          'type' => 'PropertyHookType',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => '?ReflectionMethod',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'traits' => 
   array (
@@ -499,12 +642,13 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:Reflection> class ReflectionProperty implements Stringable, Reflector ] {
 
-  - Constants [5] {
+  - Constants [6] {
     Constant [ public int IS_STATIC ] { 16 }
     Constant [ public int IS_READONLY ] { 128 }
     Constant [ public int IS_PUBLIC ] { 1 }
     Constant [ public int IS_PROTECTED ] { 2 }
     Constant [ public int IS_PRIVATE ] { 4 }
+    Constant [ public int IS_ABSTRACT ] { 64 }
   }
 
   - Static properties [0] {
@@ -518,7 +662,7 @@ return array (
     Property [ public string $class ]
   }
 
-  - Methods [23] {
+  - Methods [30] {
     Method [ <internal:Reflection> private method __clone ] {
 
       - Parameters [0] {
@@ -563,6 +707,23 @@ return array (
         Parameter #1 [ <optional> mixed $value = <default> ]
       }
       - Tentative return [ void ]
+    }
+
+    Method [ <internal:Reflection> public method getRawValue ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> object $object ]
+      }
+      - Return [ mixed ]
+    }
+
+    Method [ <internal:Reflection> public method setRawValue ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> object $object ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Return [ void ]
     }
 
     Method [ <internal:Reflection> public method isInitialized ] {
@@ -615,6 +776,20 @@ return array (
       - Tentative return [ bool ]
     }
 
+    Method [ <internal:Reflection> public method isAbstract ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Reflection> public method isVirtual ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
     Method [ <internal:Reflection> public method isPromoted ] {
 
       - Parameters [0] {
@@ -658,6 +833,13 @@ return array (
       - Tentative return [ ?ReflectionType ]
     }
 
+    Method [ <internal:Reflection> public method getSettableType ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?ReflectionType ]
+    }
+
     Method [ <internal:Reflection> public method hasType ] {
 
       - Parameters [0] {
@@ -686,6 +868,21 @@ return array (
         Parameter #1 [ <optional> int $flags = 0 ]
       }
       - Return [ array ]
+    }
+
+    Method [ <internal:Reflection> public method getHooks ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:Reflection> public method getHook ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> PropertyHookType $type ]
+      }
+      - Return [ ?ReflectionMethod ]
     }
   }
 }

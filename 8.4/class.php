@@ -85,6 +85,7 @@ return array (
   'ReflectionEnumBackedCase',
   'ReflectionFiber',
   'ReflectionConstant',
+  'PropertyHookType',
   'LogicException',
   'BadFunctionCallException',
   'BadMethodCallException',

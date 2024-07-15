@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'T_AMPERSAND_FOLLOWED_BY_VAR_OR_VARARG',
+  'name' => 'T_PROPERTY_C',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'T_AMPERSAND_FOLLOWED_BY_VAR_OR_VARARG',
+    'name' => 'T_PROPERTY_C',
     'description' => '',
     'keywords' => 
     array (
@@ -18,6 +18,6 @@ return array (
     array (
     ),
   ),
-  'value' => 404,
+  'value' => 350,
   'extension' => 'tokenizer',
 );

@@ -18,6 +18,6 @@ return array (
     array (
     ),
   ),
-  'value' => 1280,
+  'value' => 1536,
   'extension' => 'ast',
 );
