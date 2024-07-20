@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'interface',
-  'name' => 'DOMChildNode',
+  'name' => 'DOM\\ChildNode',
   'meta' => 
   array (
     'type' => 'interface',
-    'name' => 'DOMChildNode',
+    'name' => 'DOM\\ChildNode',
     'description' => '',
     'keywords' => 
     array (
@@ -18,7 +18,7 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'dom\\childnode interface (php.net)',
+        'name' => 'DOM\\ChildNode interface (php.net)',
         'url' => 'https://www.php.net/manual/class.dom-childnode.php',
       ),
     ),
@@ -37,7 +37,7 @@ return array (
     'remove' => 
     array (
       'name' => 'remove',
-      'class' => 'DOMChildNode',
+      'class' => 'DOM\\ChildNode',
       'parameters' => 
       array (
       ),
@@ -51,14 +51,14 @@ return array (
     'before' => 
     array (
       'name' => 'before',
-      'class' => 'DOMChildNode',
+      'class' => 'DOM\\ChildNode',
       'parameters' => 
       array (
         'nodes' => 
         array (
           'position' => 0,
           'name' => 'nodes',
-          'type' => NULL,
+          'type' => 'DOM\\Node|string',
           'is_optional' => true,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -76,14 +76,14 @@ return array (
     'after' => 
     array (
       'name' => 'after',
-      'class' => 'DOMChildNode',
+      'class' => 'DOM\\ChildNode',
       'parameters' => 
       array (
         'nodes' => 
         array (
           'position' => 0,
           'name' => 'nodes',
-          'type' => NULL,
+          'type' => 'DOM\\Node|string',
           'is_optional' => true,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -101,14 +101,14 @@ return array (
     'replaceWith' => 
     array (
       'name' => 'replaceWith',
-      'class' => 'DOMChildNode',
+      'class' => 'DOM\\ChildNode',
       'parameters' => 
       array (
         'nodes' => 
         array (
           'position' => 0,
           'name' => 'nodes',
-          'type' => NULL,
+          'type' => 'DOM\\Node|string',
           'is_optional' => true,
           'has_default_value' => false,
           'default_value' => NULL,

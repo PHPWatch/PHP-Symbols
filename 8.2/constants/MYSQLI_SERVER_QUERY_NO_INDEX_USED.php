@@ -12,7 +12,8 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => true,
+    'deprecated_message' => 'Constant MYSQLI_SERVER_QUERY_NO_INDEX_USED is deprecated',
     'removed' => NULL,
     'resources' => 
     array (

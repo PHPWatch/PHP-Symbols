@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'class',
-  'name' => 'DOMNodeList',
+  'name' => 'DOM\\NodeList',
   'meta' => 
   array (
     'type' => 'class',
-    'name' => 'DOMNodeList',
+    'name' => 'DOM\\NodeList',
     'description' => '',
     'keywords' => 
     array (
@@ -18,7 +18,7 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'dom\\nodelist class (php.net)',
+        'name' => 'DOM\\NodeList class (php.net)',
         'url' => 'https://www.php.net/manual/class.dom-nodelist.php',
       ),
     ),
@@ -37,7 +37,7 @@ return array (
     'length' => 
     array (
       'name' => 'length',
-      'class' => 'DOMNodeList',
+      'class' => 'DOM\\NodeList',
       'type' => 'int',
       'has_default_value' => false,
       'default_value' => NULL,
@@ -53,12 +53,12 @@ return array (
     'count' => 
     array (
       'name' => 'count',
-      'class' => 'DOMNodeList',
+      'class' => 'DOM\\NodeList',
       'parameters' => 
       array (
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => 'int',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -67,7 +67,7 @@ return array (
     'getIterator' => 
     array (
       'name' => 'getIterator',
-      'class' => 'DOMNodeList',
+      'class' => 'DOM\\NodeList',
       'parameters' => 
       array (
       ),
@@ -81,7 +81,7 @@ return array (
     'item' => 
     array (
       'name' => 'item',
-      'class' => 'DOMNodeList',
+      'class' => 'DOM\\NodeList',
       'parameters' => 
       array (
         'index' => 
@@ -96,8 +96,8 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => '?DOM\\Node',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,

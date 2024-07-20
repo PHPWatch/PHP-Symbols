@@ -12,7 +12,8 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => true,
+    'deprecated_message' => 'Constant MYSQLI_IS_MARIADB is deprecated',
     'removed' => NULL,
     'resources' => 
     array (

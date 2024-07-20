@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'interface',
-  'name' => 'DOMParentNode',
+  'name' => 'DOM\\ParentNode',
   'meta' => 
   array (
     'type' => 'interface',
-    'name' => 'DOMParentNode',
+    'name' => 'DOM\\ParentNode',
     'description' => '',
     'keywords' => 
     array (
@@ -18,7 +18,7 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'dom\\parentnode interface (php.net)',
+        'name' => 'DOM\\ParentNode interface (php.net)',
         'url' => 'https://www.php.net/manual/class.dom-parentnode.php',
       ),
     ),
@@ -37,14 +37,14 @@ return array (
     'append' => 
     array (
       'name' => 'append',
-      'class' => 'DOMParentNode',
+      'class' => 'DOM\\ParentNode',
       'parameters' => 
       array (
         'nodes' => 
         array (
           'position' => 0,
           'name' => 'nodes',
-          'type' => NULL,
+          'type' => 'DOM\\Node|string',
           'is_optional' => true,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -62,14 +62,14 @@ return array (
     'prepend' => 
     array (
       'name' => 'prepend',
-      'class' => 'DOMParentNode',
+      'class' => 'DOM\\ParentNode',
       'parameters' => 
       array (
         'nodes' => 
         array (
           'position' => 0,
           'name' => 'nodes',
-          'type' => NULL,
+          'type' => 'DOM\\Node|string',
           'is_optional' => true,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -87,14 +87,14 @@ return array (
     'replaceChildren' => 
     array (
       'name' => 'replaceChildren',
-      'class' => 'DOMParentNode',
+      'class' => 'DOM\\ParentNode',
       'parameters' => 
       array (
         'nodes' => 
         array (
           'position' => 0,
           'name' => 'nodes',
-          'type' => NULL,
+          'type' => 'DOM\\Node|string',
           'is_optional' => true,
           'has_default_value' => false,
           'default_value' => NULL,

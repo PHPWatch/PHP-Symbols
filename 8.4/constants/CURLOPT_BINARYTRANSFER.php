@@ -12,7 +12,8 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => true,
+    'deprecated_message' => 'Constant CURLOPT_BINARYTRANSFER is deprecated',
     'removed' => NULL,
     'resources' => 
     array (

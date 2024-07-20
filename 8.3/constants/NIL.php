@@ -12,7 +12,8 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => NULL,
+    'deprecated' => true,
+    'deprecated_message' => 'Constant NIL is deprecated',
     'removed' => NULL,
     'resources' => 
     array (

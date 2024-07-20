@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'class',
-  'name' => 'DOMNamedNodeMap',
+  'name' => 'DOM\\NamedNodeMap',
   'meta' => 
   array (
     'type' => 'class',
-    'name' => 'DOMNamedNodeMap',
+    'name' => 'DOM\\NamedNodeMap',
     'description' => '',
     'keywords' => 
     array (
@@ -18,7 +18,7 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'dom\\namednodemap class (php.net)',
+        'name' => 'DOM\\NamedNodeMap class (php.net)',
         'url' => 'https://www.php.net/manual/class.dom-namednodemap.php',
       ),
     ),
@@ -37,7 +37,7 @@ return array (
     'length' => 
     array (
       'name' => 'length',
-      'class' => 'DOMNamedNodeMap',
+      'class' => 'DOM\\NamedNodeMap',
       'type' => 'int',
       'has_default_value' => false,
       'default_value' => NULL,
@@ -50,10 +50,35 @@ return array (
   ),
   'methods' => 
   array (
+    'item' => 
+    array (
+      'name' => 'item',
+      'class' => 'DOM\\NamedNodeMap',
+      'parameters' => 
+      array (
+        'index' => 
+        array (
+          'position' => 0,
+          'name' => 'index',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => '?DOM\\Attr',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getNamedItem' => 
     array (
       'name' => 'getNamedItem',
-      'class' => 'DOMNamedNodeMap',
+      'class' => 'DOM\\NamedNodeMap',
       'parameters' => 
       array (
         'qualifiedName' => 
@@ -68,8 +93,8 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => '?DOM\\Attr',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -78,7 +103,7 @@ return array (
     'getNamedItemNS' => 
     array (
       'name' => 'getNamedItemNS',
-      'class' => 'DOMNamedNodeMap',
+      'class' => 'DOM\\NamedNodeMap',
       'parameters' => 
       array (
         'namespace' => 
@@ -104,33 +129,8 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    'item' => 
-    array (
-      'name' => 'item',
-      'class' => 'DOMNamedNodeMap',
-      'parameters' => 
-      array (
-        'index' => 
-        array (
-          'position' => 0,
-          'name' => 'index',
-          'type' => 'int',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => '?DOM\\Attr',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -139,12 +139,12 @@ return array (
     'count' => 
     array (
       'name' => 'count',
-      'class' => 'DOMNamedNodeMap',
+      'class' => 'DOM\\NamedNodeMap',
       'parameters' => 
       array (
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => 'int',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -153,7 +153,7 @@ return array (
     'getIterator' => 
     array (
       'name' => 'getIterator',
-      'class' => 'DOMNamedNodeMap',
+      'class' => 'DOM\\NamedNodeMap',
       'parameters' => 
       array (
       ),
