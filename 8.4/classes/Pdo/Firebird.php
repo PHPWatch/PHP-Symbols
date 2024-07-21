@@ -112,11 +112,6 @@ return array (
     'FB_ATTR_DATE_FORMAT' => 1000,
     'FB_ATTR_TIME_FORMAT' => 1001,
     'FB_ATTR_TIMESTAMP_FORMAT' => 1002,
-    'FB_TRANSACTION_ISOLATION_LEVEL' => 1003,
-    'FB_READ_COMMITTED' => 1004,
-    'FB_REPEATABLE_READ' => 1005,
-    'FB_SERIALIZABLE' => 1006,
-    'FB_WRITABLE_TRANSACTION' => 1007,
     'ATTR_DATE_FORMAT' => 1000,
     'ATTR_TIME_FORMAT' => 1001,
     'ATTR_TIMESTAMP_FORMAT' => 1002,
@@ -131,6 +126,20 @@ return array (
   ),
   'methods' => 
   array (
+    'getApiVersion' => 
+    array (
+      'name' => 'getApiVersion',
+      'class' => 'Pdo\\Firebird',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'int',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     '__construct' => 
     array (
       'name' => '__construct',
@@ -588,7 +597,7 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:PDO_Firebird> class Pdo\\Firebird extends PDO ] {
 
-  - Constants [97] {
+  - Constants [92] {
     Constant [ public int PARAM_NULL ] { 0 }
     Constant [ public int PARAM_BOOL ] { 5 }
     Constant [ public int PARAM_INT ] { 1 }
@@ -673,11 +682,6 @@ return array (
     Constant [ public int FB_ATTR_DATE_FORMAT ] { 1000 }
     Constant [ public int FB_ATTR_TIME_FORMAT ] { 1001 }
     Constant [ public int FB_ATTR_TIMESTAMP_FORMAT ] { 1002 }
-    Constant [ public int FB_TRANSACTION_ISOLATION_LEVEL ] { 1003 }
-    Constant [ public int FB_READ_COMMITTED ] { 1004 }
-    Constant [ public int FB_REPEATABLE_READ ] { 1005 }
-    Constant [ public int FB_SERIALIZABLE ] { 1006 }
-    Constant [ public int FB_WRITABLE_TRANSACTION ] { 1007 }
     Constant [ public int ATTR_DATE_FORMAT ] { 1000 }
     Constant [ public int ATTR_TIME_FORMAT ] { 1001 }
     Constant [ public int ATTR_TIMESTAMP_FORMAT ] { 1002 }
@@ -691,7 +695,14 @@ return array (
   - Static properties [0] {
   }
 
-  - Static methods [2] {
+  - Static methods [3] {
+    Method [ <internal:PDO_Firebird> static public method getApiVersion ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
     Method [ <internal:PDO, inherits PDO> static public method connect ] {
 
       - Parameters [4] {

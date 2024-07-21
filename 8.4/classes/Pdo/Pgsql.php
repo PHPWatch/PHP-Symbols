@@ -112,11 +112,6 @@ return array (
     'FB_ATTR_DATE_FORMAT' => 1000,
     'FB_ATTR_TIME_FORMAT' => 1001,
     'FB_ATTR_TIMESTAMP_FORMAT' => 1002,
-    'FB_TRANSACTION_ISOLATION_LEVEL' => 1003,
-    'FB_READ_COMMITTED' => 1004,
-    'FB_REPEATABLE_READ' => 1005,
-    'FB_SERIALIZABLE' => 1006,
-    'FB_WRITABLE_TRANSACTION' => 1007,
     'MYSQL_ATTR_USE_BUFFERED_QUERY' => 1000,
     'MYSQL_ATTR_LOCAL_INFILE' => 1001,
     'MYSQL_ATTR_INIT_COMMAND' => 1002,
@@ -1055,7 +1050,7 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:pdo_pgsql> class Pdo\\Pgsql extends PDO ] {
 
-  - Constants [124] {
+  - Constants [119] {
     Constant [ public int PARAM_NULL ] { 0 }
     Constant [ public int PARAM_BOOL ] { 5 }
     Constant [ public int PARAM_INT ] { 1 }
@@ -1140,11 +1135,6 @@ return array (
     Constant [ public int FB_ATTR_DATE_FORMAT ] { 1000 }
     Constant [ public int FB_ATTR_TIME_FORMAT ] { 1001 }
     Constant [ public int FB_ATTR_TIMESTAMP_FORMAT ] { 1002 }
-    Constant [ public int FB_TRANSACTION_ISOLATION_LEVEL ] { 1003 }
-    Constant [ public int FB_READ_COMMITTED ] { 1004 }
-    Constant [ public int FB_REPEATABLE_READ ] { 1005 }
-    Constant [ public int FB_SERIALIZABLE ] { 1006 }
-    Constant [ public int FB_WRITABLE_TRANSACTION ] { 1007 }
     Constant [ public int MYSQL_ATTR_USE_BUFFERED_QUERY ] { 1000 }
     Constant [ public int MYSQL_ATTR_LOCAL_INFILE ] { 1001 }
     Constant [ public int MYSQL_ATTR_INIT_COMMAND ] { 1002 }

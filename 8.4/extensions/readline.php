@@ -48,7 +48,7 @@ return array (
   ),
   'constants' => 
   array (
-    'READLINE_LIB' => 'libedit',
+    'READLINE_LIB' => 'readline',
   ),
   'dependencies' => 
   array (

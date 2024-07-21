@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '2.9.14',
+  'value' => '2.9.13',
   'extension' => 'libxml',
 );

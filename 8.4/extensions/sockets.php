@@ -82,6 +82,7 @@ return array (
     'SOCK_RAW' => 3,
     'SOCK_SEQPACKET' => 5,
     'SOCK_RDM' => 4,
+    'SOCK_DCCP' => 6,
     'MSG_OOB' => 1,
     'MSG_WAITALL' => 256,
     'MSG_CTRUNC' => 8,

@@ -36,7 +36,7 @@ return array (
   - Parameters [3] {
     Parameter #0 [ <required> string $num ]
     Parameter #1 [ <optional> int $precision = 0 ]
-    Parameter #2 [ <optional> int $mode = PHP_ROUND_HALF_UP ]
+    Parameter #2 [ <optional> RoundingMode $mode = RoundingMode::HalfAwayFromZero ]
   }
   - Return [ string ]
 }

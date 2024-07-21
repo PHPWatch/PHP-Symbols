@@ -24,6 +24,6 @@ return array (
       ),
     ),
   ),
-  'value' => '/usr/bin/php8.4',
+  'value' => '/usr/bin/php',
   'extension' => 'Core',
 );

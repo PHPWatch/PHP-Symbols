@@ -240,7 +240,7 @@ return array (
   'ini' => 
   array (
     'pgsql.allow_persistent' => '1',
-    'pgsql.auto_reset_persistent' => '',
+    'pgsql.auto_reset_persistent' => '0',
     'pgsql.ignore_notice' => '0',
     'pgsql.log_notice' => '0',
     'pgsql.max_links' => '-1',

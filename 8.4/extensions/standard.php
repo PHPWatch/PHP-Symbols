@@ -26,9 +26,10 @@ return array (
   array (
     0 => '__PHP_Incomplete_Class',
     1 => 'AssertionError',
-    2 => 'php_user_filter',
-    3 => 'StreamBucket',
-    4 => 'Directory',
+    2 => 'RoundingMode',
+    3 => 'php_user_filter',
+    4 => 'StreamBucket',
+    5 => 'Directory',
   ),
   'functions' => 
   array (
@@ -310,7 +311,6 @@ return array (
     'dir' => 'dir',
     'closedir' => 'closedir',
     'chdir' => 'chdir',
-    'chroot' => 'chroot',
     'getcwd' => 'getcwd',
     'rewinddir' => 'rewinddir',
     'readdir' => 'readdir',
@@ -648,10 +648,6 @@ return array (
     'PHP_ROUND_HALF_DOWN' => 2,
     'PHP_ROUND_HALF_EVEN' => 3,
     'PHP_ROUND_HALF_ODD' => 4,
-    'PHP_ROUND_CEILING' => 5,
-    'PHP_ROUND_FLOOR' => 6,
-    'PHP_ROUND_TOWARD_ZERO' => 7,
-    'PHP_ROUND_AWAY_FROM_ZERO' => 8,
     'CRYPT_SALT_LENGTH' => 123,
     'CRYPT_STD_DES' => 1,
     'CRYPT_EXT_DES' => 1,

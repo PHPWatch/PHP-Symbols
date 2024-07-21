@@ -112,11 +112,6 @@ return array (
     'FB_ATTR_DATE_FORMAT' => 1000,
     'FB_ATTR_TIME_FORMAT' => 1001,
     'FB_ATTR_TIMESTAMP_FORMAT' => 1002,
-    'FB_TRANSACTION_ISOLATION_LEVEL' => 1003,
-    'FB_READ_COMMITTED' => 1004,
-    'FB_REPEATABLE_READ' => 1005,
-    'FB_SERIALIZABLE' => 1006,
-    'FB_WRITABLE_TRANSACTION' => 1007,
     'MYSQL_ATTR_USE_BUFFERED_QUERY' => 1000,
     'MYSQL_ATTR_LOCAL_INFILE' => 1001,
     'MYSQL_ATTR_INIT_COMMAND' => 1002,
@@ -152,30 +147,6 @@ return array (
     'SQLITE_OPEN_CREATE' => 4,
     'SQLITE_ATTR_READONLY_STATEMENT' => 1001,
     'SQLITE_ATTR_EXTENDED_RESULT_CODES' => 1002,
-    'SQLSRV_ATTR_ENCODING' => 1000,
-    'SQLSRV_ATTR_QUERY_TIMEOUT' => 1001,
-    'SQLSRV_ATTR_DIRECT_QUERY' => 1002,
-    'SQLSRV_ATTR_CURSOR_SCROLL_TYPE' => 1003,
-    'SQLSRV_ATTR_CLIENT_BUFFER_MAX_KB_SIZE' => 1004,
-    'SQLSRV_ATTR_FETCHES_NUMERIC_TYPE' => 1005,
-    'SQLSRV_ATTR_FETCHES_DATETIME_TYPE' => 1006,
-    'SQLSRV_ATTR_FORMAT_DECIMALS' => 1007,
-    'SQLSRV_ATTR_DECIMAL_PLACES' => 1008,
-    'SQLSRV_ATTR_DATA_CLASSIFICATION' => 1009,
-    'SQLSRV_PARAM_OUT_DEFAULT_SIZE' => -1,
-    'SQLSRV_ENCODING_DEFAULT' => 1,
-    'SQLSRV_ENCODING_SYSTEM' => 3,
-    'SQLSRV_ENCODING_BINARY' => 2,
-    'SQLSRV_ENCODING_UTF8' => 65001,
-    'SQLSRV_CURSOR_STATIC' => 3,
-    'SQLSRV_CURSOR_DYNAMIC' => 2,
-    'SQLSRV_CURSOR_KEYSET' => 1,
-    'SQLSRV_CURSOR_BUFFERED' => 42,
-    'SQLSRV_TXN_READ_UNCOMMITTED' => 'READ_UNCOMMITTED',
-    'SQLSRV_TXN_READ_COMMITTED' => 'READ_COMMITTED',
-    'SQLSRV_TXN_REPEATABLE_READ' => 'REPEATABLE_READ',
-    'SQLSRV_TXN_SERIALIZABLE' => 'SERIALIZABLE',
-    'SQLSRV_TXN_SNAPSHOT' => 'SNAPSHOT',
   ),
   'properties' => 
   array (
@@ -639,7 +610,7 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:PDO> class PDO ] {
 
-  - Constants [148] {
+  - Constants [119] {
     Constant [ public int PARAM_NULL ] { 0 }
     Constant [ public int PARAM_BOOL ] { 5 }
     Constant [ public int PARAM_INT ] { 1 }
@@ -724,11 +695,6 @@ return array (
     Constant [ public int FB_ATTR_DATE_FORMAT ] { 1000 }
     Constant [ public int FB_ATTR_TIME_FORMAT ] { 1001 }
     Constant [ public int FB_ATTR_TIMESTAMP_FORMAT ] { 1002 }
-    Constant [ public int FB_TRANSACTION_ISOLATION_LEVEL ] { 1003 }
-    Constant [ public int FB_READ_COMMITTED ] { 1004 }
-    Constant [ public int FB_REPEATABLE_READ ] { 1005 }
-    Constant [ public int FB_SERIALIZABLE ] { 1006 }
-    Constant [ public int FB_WRITABLE_TRANSACTION ] { 1007 }
     Constant [ public int MYSQL_ATTR_USE_BUFFERED_QUERY ] { 1000 }
     Constant [ public int MYSQL_ATTR_LOCAL_INFILE ] { 1001 }
     Constant [ public int MYSQL_ATTR_INIT_COMMAND ] { 1002 }
@@ -764,30 +730,6 @@ return array (
     Constant [ public int SQLITE_OPEN_CREATE ] { 4 }
     Constant [ public int SQLITE_ATTR_READONLY_STATEMENT ] { 1001 }
     Constant [ public int SQLITE_ATTR_EXTENDED_RESULT_CODES ] { 1002 }
-    Constant [ public int SQLSRV_ATTR_ENCODING ] { 1000 }
-    Constant [ public int SQLSRV_ATTR_QUERY_TIMEOUT ] { 1001 }
-    Constant [ public int SQLSRV_ATTR_DIRECT_QUERY ] { 1002 }
-    Constant [ public int SQLSRV_ATTR_CURSOR_SCROLL_TYPE ] { 1003 }
-    Constant [ public int SQLSRV_ATTR_CLIENT_BUFFER_MAX_KB_SIZE ] { 1004 }
-    Constant [ public int SQLSRV_ATTR_FETCHES_NUMERIC_TYPE ] { 1005 }
-    Constant [ public int SQLSRV_ATTR_FETCHES_DATETIME_TYPE ] { 1006 }
-    Constant [ public int SQLSRV_ATTR_FORMAT_DECIMALS ] { 1007 }
-    Constant [ public int SQLSRV_ATTR_DECIMAL_PLACES ] { 1008 }
-    Constant [ public int SQLSRV_ATTR_DATA_CLASSIFICATION ] { 1009 }
-    Constant [ public int SQLSRV_PARAM_OUT_DEFAULT_SIZE ] { -1 }
-    Constant [ public int SQLSRV_ENCODING_DEFAULT ] { 1 }
-    Constant [ public int SQLSRV_ENCODING_SYSTEM ] { 3 }
-    Constant [ public int SQLSRV_ENCODING_BINARY ] { 2 }
-    Constant [ public int SQLSRV_ENCODING_UTF8 ] { 65001 }
-    Constant [ public int SQLSRV_CURSOR_STATIC ] { 3 }
-    Constant [ public int SQLSRV_CURSOR_DYNAMIC ] { 2 }
-    Constant [ public int SQLSRV_CURSOR_KEYSET ] { 1 }
-    Constant [ public int SQLSRV_CURSOR_BUFFERED ] { 42 }
-    Constant [ public string SQLSRV_TXN_READ_UNCOMMITTED ] { READ_UNCOMMITTED }
-    Constant [ public string SQLSRV_TXN_READ_COMMITTED ] { READ_COMMITTED }
-    Constant [ public string SQLSRV_TXN_REPEATABLE_READ ] { REPEATABLE_READ }
-    Constant [ public string SQLSRV_TXN_SERIALIZABLE ] { SERIALIZABLE }
-    Constant [ public string SQLSRV_TXN_SNAPSHOT ] { SNAPSHOT }
   }
 
   - Static properties [0] {

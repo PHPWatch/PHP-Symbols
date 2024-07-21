@@ -24,6 +24,6 @@ return array (
       ),
     ),
   ),
-  'value' => '/var',
+  'value' => '/usr/var',
   'extension' => 'Core',
 );
