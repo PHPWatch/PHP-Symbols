@@ -43,6 +43,9 @@ return array (
     'SINGLE_SCRIPT_RESTRICTIVE' => 536870912,
     'MIXED_NUMBERS' => 128,
     'HIDDEN_OVERLAY' => 256,
+    'IGNORE_SPACE' => 1,
+    'CASE_INSENSITIVE' => 2,
+    'ADD_CASE_MAPPINGS' => 4,
   ),
   'properties' => 
   array (
@@ -221,6 +224,42 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'setAllowedChars' => 
+    array (
+      'name' => 'setAllowedChars',
+      'class' => 'Spoofchecker',
+      'parameters' => 
+      array (
+        'pattern' => 
+        array (
+          'position' => 0,
+          'name' => 'pattern',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'patternOptions' => 
+        array (
+          'position' => 1,
+          'name' => 'patternOptions',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 0,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'traits' => 
   array (
@@ -232,7 +271,7 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:intl> class Spoofchecker ] {
 
-  - Constants [15] {
+  - Constants [18] {
     Constant [ public int SINGLE_SCRIPT_CONFUSABLE ] { 1 }
     Constant [ public int MIXED_SCRIPT_CONFUSABLE ] { 2 }
     Constant [ public int WHOLE_SCRIPT_CONFUSABLE ] { 4 }
@@ -248,6 +287,9 @@ return array (
     Constant [ public int SINGLE_SCRIPT_RESTRICTIVE ] { 536870912 }
     Constant [ public int MIXED_NUMBERS ] { 128 }
     Constant [ public int HIDDEN_OVERLAY ] { 256 }
+    Constant [ public int IGNORE_SPACE ] { 1 }
+    Constant [ public int CASE_INSENSITIVE ] { 2 }
+    Constant [ public int ADD_CASE_MAPPINGS ] { 4 }
   }
 
   - Static properties [0] {
@@ -259,7 +301,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [6] {
+  - Methods [7] {
     Method [ <internal:intl, ctor> public method __construct ] {
 
       - Parameters [0] {
@@ -307,6 +349,15 @@ return array (
         Parameter #0 [ <required> int $level ]
       }
       - Tentative return [ void ]
+    }
+
+    Method [ <internal:intl> public method setAllowedChars ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $pattern ]
+        Parameter #1 [ <optional> int $patternOptions = 0 ]
+      }
+      - Return [ void ]
     }
   }
 }
