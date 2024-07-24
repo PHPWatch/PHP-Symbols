@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => 'libcurl/7.81.0 GnuTLS/3.7.3 zlib/1.2.11 brotli/1.0.9 zstd/1.4.8 libidn2/2.3.2 libpsl/0.21.0 (+libidn2/2.3.2) libssh/0.9.6/openssl/zlib nghttp2/1.43.0 librtmp/2.3 OpenLDAP/2.5.17',
+  'value' => 'libcurl/7.81.0 GnuTLS/3.7.3 zlib/1.2.11 brotli/1.0.9 zstd/1.4.8 libidn2/2.3.2 libpsl/0.21.0 (+libidn2/2.3.2) libssh/0.9.6/openssl/zlib nghttp2/1.43.0 librtmp/2.3 OpenLDAP/2.5.18',
   'extension' => 'http',
 );
