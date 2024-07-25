@@ -291,6 +291,34 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getPreviousSibling' => 
+    array (
+      'name' => 'getPreviousSibling',
+      'class' => 'tidyNode',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => '?tidyNode',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getNextSibling' => 
+    array (
+      'name' => 'getNextSibling',
+      'class' => 'tidyNode',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => '?tidyNode',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'traits' => 
   array (
@@ -323,7 +351,7 @@ return array (
     Property [ public readonly ?array $child ]
   }
 
-  - Methods [10] {
+  - Methods [12] {
     Method [ <internal:tidy, ctor> private method __construct ] {
 
       - Parameters [0] {
@@ -387,6 +415,20 @@ return array (
     }
 
     Method [ <internal:tidy> public method getParent ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?tidyNode ]
+    }
+
+    Method [ <internal:tidy> public method getPreviousSibling ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?tidyNode ]
+    }
+
+    Method [ <internal:tidy> public method getNextSibling ] {
 
       - Parameters [0] {
       }
