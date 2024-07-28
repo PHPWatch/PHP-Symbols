@@ -116,9 +116,9 @@ return array (
   'is_abstract' => false,
   'is_anonymous' => false,
   'is_cloneable' => true,
-  'is_final' => false,
+  'is_final' => true,
   'is_read_only' => false,
-  'toString' => 'Class [ <internal:gmp> class GMP ] {
+  'toString' => 'Class [ <internal:gmp> final class GMP ] {
 
   - Constants [0] {
   }
