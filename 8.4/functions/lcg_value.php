@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,7 +31,7 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'random',
-  'toString' => 'Function [ <internal:random> function lcg_value ] {
+  'toString' => 'Function [ <internal, deprecated:random> function lcg_value ] {
 
   - Parameters [0] {
   }

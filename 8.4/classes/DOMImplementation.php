@@ -34,42 +34,6 @@ return array (
   ),
   'methods' => 
   array (
-    'getFeature' => 
-    array (
-      'name' => 'getFeature',
-      'class' => 'DOMImplementation',
-      'parameters' => 
-      array (
-        'feature' => 
-        array (
-          'position' => 0,
-          'name' => 'feature',
-          'type' => 'string',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-        'version' => 
-        array (
-          'position' => 1,
-          'name' => 'version',
-          'type' => 'string',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-      ),
-      'return_type' => NULL,
-      'has_return_type' => false,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
     'hasFeature' => 
     array (
       'name' => 'hasFeature',
@@ -223,16 +187,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [4] {
-    Method [ <internal:dom> public method getFeature ] {
-
-      - Parameters [2] {
-        Parameter #0 [ <required> string $feature ]
-        Parameter #1 [ <required> string $version ]
-      }
-      - Tentative return [ never ]
-    }
-
+  - Methods [3] {
     Method [ <internal:dom> public method hasFeature ] {
 
       - Parameters [2] {
