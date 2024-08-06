@@ -1594,4 +1594,325 @@ return array (
   'zip' => 
   array (
   ),
+  'Zend OPcache' => 
+  array (
+    'opcache.blacklist_filename' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 4,
+    ),
+    'opcache.dups_fix' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'opcache.enable' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+    'opcache.enable_cli' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 4,
+    ),
+    'opcache.enable_file_override' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'opcache.error_log' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 4,
+    ),
+    'opcache.file_cache' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 4,
+    ),
+    'opcache.file_cache_consistency_checks' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 4,
+    ),
+    'opcache.file_cache_only' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'opcache.file_update_protection' => 
+    array (
+      'global_value' => '2',
+      'local_value' => '2',
+      'access' => 7,
+    ),
+    'opcache.force_restart_timeout' => 
+    array (
+      'global_value' => '180',
+      'local_value' => '180',
+      'access' => 4,
+    ),
+    'opcache.huge_code_pages' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'opcache.interned_strings_buffer' => 
+    array (
+      'global_value' => '8',
+      'local_value' => '8',
+      'access' => 4,
+    ),
+    'opcache.jit' => 
+    array (
+      'global_value' => 'disable',
+      'local_value' => 'disable',
+      'access' => 7,
+    ),
+    'opcache.jit_bisect_limit' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'opcache.jit_blacklist_root_trace' => 
+    array (
+      'global_value' => '16',
+      'local_value' => '16',
+      'access' => 7,
+    ),
+    'opcache.jit_blacklist_side_trace' => 
+    array (
+      'global_value' => '8',
+      'local_value' => '8',
+      'access' => 7,
+    ),
+    'opcache.jit_buffer_size' => 
+    array (
+      'global_value' => '64M',
+      'local_value' => '64M',
+      'access' => 4,
+    ),
+    'opcache.jit_debug' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'opcache.jit_hot_func' => 
+    array (
+      'global_value' => '127',
+      'local_value' => '127',
+      'access' => 4,
+    ),
+    'opcache.jit_hot_loop' => 
+    array (
+      'global_value' => '64',
+      'local_value' => '64',
+      'access' => 4,
+    ),
+    'opcache.jit_hot_return' => 
+    array (
+      'global_value' => '8',
+      'local_value' => '8',
+      'access' => 4,
+    ),
+    'opcache.jit_hot_side_exit' => 
+    array (
+      'global_value' => '8',
+      'local_value' => '8',
+      'access' => 7,
+    ),
+    'opcache.jit_max_exit_counters' => 
+    array (
+      'global_value' => '8192',
+      'local_value' => '8192',
+      'access' => 4,
+    ),
+    'opcache.jit_max_loop_unrolls' => 
+    array (
+      'global_value' => '8',
+      'local_value' => '8',
+      'access' => 7,
+    ),
+    'opcache.jit_max_polymorphic_calls' => 
+    array (
+      'global_value' => '2',
+      'local_value' => '2',
+      'access' => 7,
+    ),
+    'opcache.jit_max_recursive_calls' => 
+    array (
+      'global_value' => '2',
+      'local_value' => '2',
+      'access' => 7,
+    ),
+    'opcache.jit_max_recursive_returns' => 
+    array (
+      'global_value' => '2',
+      'local_value' => '2',
+      'access' => 7,
+    ),
+    'opcache.jit_max_root_traces' => 
+    array (
+      'global_value' => '1024',
+      'local_value' => '1024',
+      'access' => 4,
+    ),
+    'opcache.jit_max_side_traces' => 
+    array (
+      'global_value' => '128',
+      'local_value' => '128',
+      'access' => 4,
+    ),
+    'opcache.jit_max_trace_length' => 
+    array (
+      'global_value' => '1024',
+      'local_value' => '1024',
+      'access' => 7,
+    ),
+    'opcache.jit_prof_threshold' => 
+    array (
+      'global_value' => '0.005',
+      'local_value' => '0.005',
+      'access' => 7,
+    ),
+    'opcache.lockfile_path' => 
+    array (
+      'global_value' => '/tmp',
+      'local_value' => '/tmp',
+      'access' => 4,
+    ),
+    'opcache.log_verbosity_level' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 4,
+    ),
+    'opcache.max_accelerated_files' => 
+    array (
+      'global_value' => '10000',
+      'local_value' => '10000',
+      'access' => 4,
+    ),
+    'opcache.max_file_size' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'opcache.max_wasted_percentage' => 
+    array (
+      'global_value' => '5',
+      'local_value' => '5',
+      'access' => 4,
+    ),
+    'opcache.memory_consumption' => 
+    array (
+      'global_value' => '128',
+      'local_value' => '128',
+      'access' => 4,
+    ),
+    'opcache.opt_debug_level' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'opcache.optimization_level' => 
+    array (
+      'global_value' => '0x7FFEBFFF',
+      'local_value' => '0x7FFEBFFF',
+      'access' => 4,
+    ),
+    'opcache.preferred_memory_model' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 4,
+    ),
+    'opcache.preload' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 4,
+    ),
+    'opcache.preload_user' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 4,
+    ),
+    'opcache.protect_memory' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'opcache.record_warnings' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'opcache.restrict_api' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 4,
+    ),
+    'opcache.revalidate_freq' => 
+    array (
+      'global_value' => '2',
+      'local_value' => '2',
+      'access' => 7,
+    ),
+    'opcache.revalidate_path' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'opcache.save_comments' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 4,
+    ),
+    'opcache.use_cwd' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 4,
+    ),
+    'opcache.validate_permission' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'opcache.validate_root' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'opcache.validate_timestamps' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+  ),
 );

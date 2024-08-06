@@ -712,6 +712,87 @@ libxslt compiled against libxml Version => 2.9.13
 EXSLT => enabled
 libexslt Version => 1.1.34
 
+Zend OPcache
+
+Opcode Caching => Up and Running
+Optimization => Enabled
+SHM Cache => Enabled
+File Cache => Disabled
+JIT => Disabled
+Startup => OK
+Shared memory model => mmap
+Cache hits => 0
+Cache misses => 1
+Used memory => 9177064
+Free memory => 125040664
+Wasted memory => 0
+Interned Strings Used memory => 2596224
+Interned Strings Free memory => 5792384
+Cached scripts => 1
+Cached keys => 2
+Max keys => 16229
+OOM restarts => 0
+Hash keys restarts => 0
+Manual restarts => 0
+Start time => 2024-08-06T18:51:53+0000
+Last restart time => none
+Last force restart time => none
+
+Directive => Local Value => Master Value
+opcache.blacklist_filename => no value => no value
+opcache.dups_fix => Off => Off
+opcache.enable => On => On
+opcache.enable_cli => On => On
+opcache.enable_file_override => Off => Off
+opcache.error_log => no value => no value
+opcache.file_cache => no value => no value
+opcache.file_cache_consistency_checks => On => On
+opcache.file_cache_only => Off => Off
+opcache.file_update_protection => 2 => 2
+opcache.force_restart_timeout => 180 => 180
+opcache.huge_code_pages => Off => Off
+opcache.interned_strings_buffer => 8 => 8
+opcache.jit => disable => disable
+opcache.jit_bisect_limit => 0 => 0
+opcache.jit_blacklist_root_trace => 16 => 16
+opcache.jit_blacklist_side_trace => 8 => 8
+opcache.jit_buffer_size => 64M => 64M
+opcache.jit_debug => 0 => 0
+opcache.jit_hot_func => 127 => 127
+opcache.jit_hot_loop => 64 => 64
+opcache.jit_hot_return => 8 => 8
+opcache.jit_hot_side_exit => 8 => 8
+opcache.jit_max_exit_counters => 8192 => 8192
+opcache.jit_max_loop_unrolls => 8 => 8
+opcache.jit_max_polymorphic_calls => 2 => 2
+opcache.jit_max_recursive_calls => 2 => 2
+opcache.jit_max_recursive_returns => 2 => 2
+opcache.jit_max_root_traces => 1024 => 1024
+opcache.jit_max_side_traces => 128 => 128
+opcache.jit_max_trace_length => 1024 => 1024
+opcache.jit_prof_threshold => 0.005 => 0.005
+opcache.lockfile_path => /tmp => /tmp
+opcache.log_verbosity_level => 1 => 1
+opcache.max_accelerated_files => 10000 => 10000
+opcache.max_file_size => 0 => 0
+opcache.max_wasted_percentage => 5 => 5
+opcache.memory_consumption => 128 => 128
+opcache.opt_debug_level => 0 => 0
+opcache.optimization_level => 0x7FFEBFFF => 0x7FFEBFFF
+opcache.preferred_memory_model => no value => no value
+opcache.preload => no value => no value
+opcache.preload_user => no value => no value
+opcache.protect_memory => Off => Off
+opcache.record_warnings => Off => Off
+opcache.restrict_api => no value => no value
+opcache.revalidate_freq => 2 => 2
+opcache.revalidate_path => Off => Off
+opcache.save_comments => On => On
+opcache.use_cwd => On => On
+opcache.validate_permission => Off => Off
+opcache.validate_root => Off => Off
+opcache.validate_timestamps => On => On
+
 zip
 
 Zip => enabled

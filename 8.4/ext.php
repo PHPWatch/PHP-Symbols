@@ -66,4 +66,5 @@ return array (
   'xmlwriter',
   'xsl',
   'zip',
+  'Zend OPcache',
 );
