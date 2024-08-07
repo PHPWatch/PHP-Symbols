@@ -269,9 +269,9 @@ enchant
 enchant support => enabled
 Version => 7.2.34-50+ubuntu22.04.1+deb.sury.org+1
 
+aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
 hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
 hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
-aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
 
 exif
 

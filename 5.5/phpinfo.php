@@ -255,10 +255,10 @@ Version => 1.1.0
 Libenchant Version => 1.5.x
 Revision => $Id: d7c115e366f245f6234c5d1b1f3e93cf5500ab14 $
 
-hspell => Hspell Provider => /usr/lib/enchant/libenchant_hspell.so
-aspell => Aspell Provider => /usr/lib/enchant/libenchant_aspell.so
 ispell => Ispell Provider => /usr/lib/enchant/libenchant_ispell.so
 myspell => Myspell Provider => /usr/lib/enchant/libenchant_myspell.so
+aspell => Aspell Provider => /usr/lib/enchant/libenchant_aspell.so
+hspell => Hspell Provider => /usr/lib/enchant/libenchant_hspell.so
 
 ereg
 
