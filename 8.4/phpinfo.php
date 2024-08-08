@@ -734,7 +734,7 @@ Max keys => 16229
 OOM restarts => 0
 Hash keys restarts => 0
 Manual restarts => 0
-Start time => 2024-08-08T01:51:39+0000
+Start time => 2024-08-08T12:55:01+0000
 Last restart time => none
 Last force restart time => none
 
