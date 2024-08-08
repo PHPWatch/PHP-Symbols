@@ -398,7 +398,7 @@ return array (
       }
     }
 
-    Method [ <internal:SPL> public method __wakeup ] {
+    Method [ <internal, deprecated:SPL> public method __wakeup ] {
 
       - Parameters [0] {
       }
