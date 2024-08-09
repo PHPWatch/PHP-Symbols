@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,7 +31,7 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'xml',
-  'toString' => 'Function [ <internal:xml> function xml_set_object ] {
+  'toString' => 'Function [ <internal, deprecated:xml> function xml_set_object ] {
 
   - Parameters [2] {
     Parameter #0 [ <required> XMLParser $parser ]
