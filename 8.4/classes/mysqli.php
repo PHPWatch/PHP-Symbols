@@ -1737,7 +1737,7 @@ return array (
       }
     }
 
-    Method [ <internal:mysqli> public method kill ] {
+    Method [ <internal, deprecated:mysqli> public method kill ] {
 
       - Parameters [1] {
         Parameter #0 [ <required> int $process_id ]
@@ -1767,7 +1767,7 @@ return array (
       - Tentative return [ bool ]
     }
 
-    Method [ <internal:mysqli> public method ping ] {
+    Method [ <internal, deprecated:mysqli> public method ping ] {
 
       - Parameters [0] {
       }
@@ -1943,7 +1943,7 @@ return array (
       - Tentative return [ mysqli_result|false ]
     }
 
-    Method [ <internal:mysqli> public method refresh ] {
+    Method [ <internal, deprecated:mysqli> public method refresh ] {
 
       - Parameters [1] {
         Parameter #0 [ <required> int $flags ]

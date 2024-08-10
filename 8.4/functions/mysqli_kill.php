@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,7 +31,7 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'mysqli',
-  'toString' => 'Function [ <internal:mysqli> function mysqli_kill ] {
+  'toString' => 'Function [ <internal, deprecated:mysqli> function mysqli_kill ] {
 
   - Parameters [2] {
     Parameter #0 [ <required> mysqli $mysql ]
