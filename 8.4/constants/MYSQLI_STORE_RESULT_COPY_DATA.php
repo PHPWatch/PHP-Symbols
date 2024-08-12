@@ -12,8 +12,8 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => false,
-    'deprecated_message' => NULL,
+    'deprecated' => true,
+    'deprecated_message' => 'Constant MYSQLI_STORE_RESULT_COPY_DATA is deprecated',
     'removed' => NULL,
     'resources' => 
     array (
