@@ -2563,6 +2563,8 @@ return array (
     'SOCK_SEQPACKET' => 5,
     'SOCK_RDM' => 4,
     'SOCK_DCCP' => 6,
+    'SOCK_CLOEXEC' => 524288,
+    'SOCK_NONBLOCK' => 2048,
     'MSG_OOB' => 1,
     'MSG_WAITALL' => 256,
     'MSG_CTRUNC' => 8,

@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'PGSQL_LIBPQ_VERSION',
+  'name' => 'SOCK_CLOEXEC',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'PGSQL_LIBPQ_VERSION',
+    'name' => 'SOCK_CLOEXEC',
     'description' => '',
     'keywords' => 
     array (
@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '16.3',
-  'extension' => 'pgsql',
+  'value' => 524288,
+  'extension' => 'sockets',
 );
