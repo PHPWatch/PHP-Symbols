@@ -490,7 +490,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 16.3
+PostgreSQL(libpq) Version => 16.4
 
 pdo_sqlite
 
@@ -500,7 +500,7 @@ SQLite Library => 3.37.2
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL (libpq) Version => 16.3
+PostgreSQL (libpq) Version => 16.4
 Multibyte character support => enabled
 Active Persistent Links => 0
 Active Links => 0
@@ -734,7 +734,7 @@ Max keys => 16229
 OOM restarts => 0
 Hash keys restarts => 0
 Manual restarts => 0
-Start time => 2024-08-13T01:53:18+0000
+Start time => __DYNAMIC__
 Last restart time => none
 Last force restart time => none
 
