@@ -490,7 +490,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 16.3
+PostgreSQL(libpq) Version => 16.4
 
 pdo_sqlite
 
@@ -500,7 +500,7 @@ SQLite Library => 3.37.2
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL (libpq) Version => 16.3
+PostgreSQL (libpq) Version => 16.4
 Multibyte character support => enabled
 Active Persistent Links => 0
 Active Links => 0
@@ -726,8 +726,8 @@ Cache misses => 1
 Used memory => 9177064
 Free memory => 125040664
 Wasted memory => 0
-Interned Strings Used memory => 2596368
-Interned Strings Free memory => 5792240
+Interned Strings Used memory => 2596440
+Interned Strings Free memory => 5792168
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229

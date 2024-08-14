@@ -65,6 +65,8 @@ return array (
   ),
   'functions' => 
   array (
+    'exit' => 'exit',
+    'die' => 'die',
     'zend_version' => 'zend_version',
     'func_num_args' => 'func_num_args',
     'func_get_arg' => 'func_get_arg',

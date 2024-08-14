@@ -1,6 +1,8 @@
 <?php
 
 return array (
+  'exit',
+  'die',
   'zend_version',
   'func_num_args',
   'func_get_arg',
