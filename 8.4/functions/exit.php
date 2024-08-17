@@ -34,7 +34,7 @@ return array (
   'toString' => 'Function [ <internal:Core> function exit ] {
 
   - Parameters [1] {
-    Parameter #0 [ <optional> string|int $code = 0 ]
+    Parameter #0 [ <optional> string|int $status = 0 ]
   }
   - Return [ never ]
 }
