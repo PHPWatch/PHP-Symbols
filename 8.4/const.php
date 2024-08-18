@@ -2598,6 +2598,7 @@ return array (
     'SO_TYPE' => 3,
     'SO_ERROR' => 4,
     'SO_BINDTODEVICE' => 25,
+    'SO_BINDTOIFINDEX' => 62,
     'SOL_SOCKET' => 1,
     'SOMAXCONN' => 4096,
     'SO_MARK' => 36,
