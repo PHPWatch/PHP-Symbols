@@ -2697,7 +2697,7 @@ return array (
       - Parameters [1] {
         Parameter #0 [ <required> string $alias ]
       }
-      - Tentative return [ bool ]
+      - Tentative return [ true ]
     }
 
     Method [ <internal:Phar> public method setDefaultStub ] {
@@ -2706,7 +2706,7 @@ return array (
         Parameter #0 [ <optional> ?string $index = null ]
         Parameter #1 [ <optional> ?string $webIndex = null ]
       }
-      - Tentative return [ bool ]
+      - Tentative return [ true ]
     }
 
     Method [ <internal:Phar> public method setMetadata ] {
