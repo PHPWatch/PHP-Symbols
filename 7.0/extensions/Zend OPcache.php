@@ -17,7 +17,7 @@ return array (
        'name' => 'Zend OPcache',
     )),
     'removed' => NULL,
-    'version' => '7.0.33-75+ubuntu22.04.1+deb.sury.org+1',
+    'version' => '7.0.33',
     'resources' => 
     array (
       0 => 

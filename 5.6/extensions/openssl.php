@@ -89,8 +89,8 @@ return array (
   ),
   'constants' => 
   array (
-    'OPENSSL_VERSION_TEXT' => 'OpenSSL 3.0.2 15 Mar 2022',
-    'OPENSSL_VERSION_NUMBER' => 805306400,
+    'OPENSSL_VERSION_TEXT' => 'OpenSSL 3.0.13 30 Jan 2024',
+    'OPENSSL_VERSION_NUMBER' => 805306576,
     'X509_PURPOSE_SSL_CLIENT' => 1,
     'X509_PURPOSE_SSL_SERVER' => 2,
     'X509_PURPOSE_NS_SSL_SERVER' => 3,

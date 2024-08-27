@@ -28,7 +28,7 @@ return array (
   ),
   'constants' => 
   array (
-    'UNICODE_VERSION' => '14.0',
+    'UNICODE_VERSION' => '15.1',
     'CODEPOINT_MIN' => 0,
     'CODEPOINT_MAX' => 1114111,
     'FOLD_CASE_DEFAULT' => 0,
@@ -92,7 +92,7 @@ return array (
     'PROPERTY_CHANGES_WHEN_CASEFOLDED' => 54,
     'PROPERTY_CHANGES_WHEN_CASEMAPPED' => 55,
     'PROPERTY_CHANGES_WHEN_NFKC_CASEFOLDED' => 56,
-    'PROPERTY_BINARY_LIMIT' => 72,
+    'PROPERTY_BINARY_LIMIT' => 75,
     'PROPERTY_BIDI_CLASS' => 4096,
     'PROPERTY_INT_START' => 4096,
     'PROPERTY_BLOCK' => 4097,
@@ -454,7 +454,7 @@ return array (
     'BLOCK_CODE_SUPPLEMENTAL_ARROWS_C' => 250,
     'BLOCK_CODE_TIRHUTA' => 251,
     'BLOCK_CODE_WARANG_CITI' => 252,
-    'BLOCK_CODE_COUNT' => 321,
+    'BLOCK_CODE_COUNT' => 329,
     'BLOCK_CODE_INVALID_CODE' => -1,
     'BPT_NONE' => 0,
     'BPT_OPEN' => 1,
@@ -678,7 +678,7 @@ return array (
     'LB_CONDITIONAL_JAPANESE_STARTER' => 37,
     'LB_HEBREW_LETTER' => 38,
     'LB_REGIONAL_INDICATOR' => 39,
-    'LB_COUNT' => 43,
+    'LB_COUNT' => 48,
     'NT_NONE' => 0,
     'NT_DECIMAL' => 1,
     'NT_DIGIT' => 2,
@@ -2327,7 +2327,7 @@ return array (
   'toString' => 'Class [ <internal:intl> class IntlChar ] {
 
   - Constants [663] {
-    Constant [ public string UNICODE_VERSION ] { 14.0 }
+    Constant [ public string UNICODE_VERSION ] { 15.1 }
     Constant [ public integer CODEPOINT_MIN ] { 0 }
     Constant [ public integer CODEPOINT_MAX ] { 1114111 }
     Constant [ public integer FOLD_CASE_DEFAULT ] { 0 }
@@ -2391,7 +2391,7 @@ return array (
     Constant [ public integer PROPERTY_CHANGES_WHEN_CASEFOLDED ] { 54 }
     Constant [ public integer PROPERTY_CHANGES_WHEN_CASEMAPPED ] { 55 }
     Constant [ public integer PROPERTY_CHANGES_WHEN_NFKC_CASEFOLDED ] { 56 }
-    Constant [ public integer PROPERTY_BINARY_LIMIT ] { 72 }
+    Constant [ public integer PROPERTY_BINARY_LIMIT ] { 75 }
     Constant [ public integer PROPERTY_BIDI_CLASS ] { 4096 }
     Constant [ public integer PROPERTY_INT_START ] { 4096 }
     Constant [ public integer PROPERTY_BLOCK ] { 4097 }
@@ -2753,7 +2753,7 @@ return array (
     Constant [ public integer BLOCK_CODE_SUPPLEMENTAL_ARROWS_C ] { 250 }
     Constant [ public integer BLOCK_CODE_TIRHUTA ] { 251 }
     Constant [ public integer BLOCK_CODE_WARANG_CITI ] { 252 }
-    Constant [ public integer BLOCK_CODE_COUNT ] { 321 }
+    Constant [ public integer BLOCK_CODE_COUNT ] { 329 }
     Constant [ public integer BLOCK_CODE_INVALID_CODE ] { -1 }
     Constant [ public integer BPT_NONE ] { 0 }
     Constant [ public integer BPT_OPEN ] { 1 }
@@ -2977,7 +2977,7 @@ return array (
     Constant [ public integer LB_CONDITIONAL_JAPANESE_STARTER ] { 37 }
     Constant [ public integer LB_HEBREW_LETTER ] { 38 }
     Constant [ public integer LB_REGIONAL_INDICATOR ] { 39 }
-    Constant [ public integer LB_COUNT ] { 43 }
+    Constant [ public integer LB_COUNT ] { 48 }
     Constant [ public integer NT_NONE ] { 0 }
     Constant [ public integer NT_DECIMAL ] { 1 }
     Constant [ public integer NT_DIGIT ] { 2 }

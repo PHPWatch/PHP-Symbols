@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '1.2.11',
+  'value' => '1.3',
   'extension' => 'zlib',
 );

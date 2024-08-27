@@ -17,7 +17,7 @@ return array (
        'name' => 'standard',
     )),
     'removed' => NULL,
-    'version' => '5.6.40-77+ubuntu22.04.1+deb.sury.org+1',
+    'version' => '5.6.40',
     'resources' => 
     array (
     ),

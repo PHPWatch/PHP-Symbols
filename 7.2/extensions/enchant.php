@@ -17,7 +17,7 @@ return array (
        'name' => 'enchant',
     )),
     'removed' => NULL,
-    'version' => '7.2.34-50+ubuntu22.04.1+deb.sury.org+1',
+    'version' => '7.2.34',
     'resources' => 
     array (
       0 => 
@@ -59,7 +59,7 @@ return array (
   array (
     'ENCHANT_MYSPELL' => 1,
     'ENCHANT_ISPELL' => 2,
-    'LIBENCHANT_VERSION' => '2.3.2',
+    'LIBENCHANT_VERSION' => '2.3.3',
   ),
   'dependencies' => 
   array (

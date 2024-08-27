@@ -57,7 +57,7 @@ return array (
     'PREG_RECURSION_LIMIT_ERROR' => 3,
     'PREG_BAD_UTF8_ERROR' => 4,
     'PREG_BAD_UTF8_OFFSET_ERROR' => 5,
-    'PCRE_VERSION' => '8.45 2021-06-15',
+    'PCRE_VERSION' => '8.39 2016-06-14',
   ),
   'dependencies' => 
   array (

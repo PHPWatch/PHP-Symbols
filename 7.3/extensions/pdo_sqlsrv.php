@@ -17,7 +17,7 @@ return array (
        'name' => 'pdo_sqlsrv',
     )),
     'removed' => NULL,
-    'version' => '5.9.0',
+    'version' => '5.10.1',
     'resources' => 
     array (
       0 => 

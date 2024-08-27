@@ -56,6 +56,6 @@ return array (
     'imagick.progress_monitor' => '0',
     'imagick.set_single_thread' => '1',
     'imagick.shutdown_sleep_count' => '10',
-    'imagick.skip_version_check' => '1',
+    'imagick.skip_version_check' => '0',
   ),
 );

@@ -17,7 +17,7 @@ return array (
        'name' => 'mongodb',
     )),
     'removed' => NULL,
-    'version' => '1.19.3',
+    'version' => '1.19.2',
     'resources' => 
     array (
       0 => 
@@ -123,7 +123,7 @@ return array (
   ),
   'constants' => 
   array (
-    'MONGODB_VERSION' => '1.19.3',
+    'MONGODB_VERSION' => '1.19.2',
     'MONGODB_STABILITY' => 'stable',
   ),
   'dependencies' => 

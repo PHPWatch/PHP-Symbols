@@ -44,9 +44,9 @@ return array (
   ),
   'constants' => 
   array (
-    'LIBXML_VERSION' => 20913,
-    'LIBXML_DOTTED_VERSION' => '2.9.13',
-    'LIBXML_LOADED_VERSION' => '20913',
+    'LIBXML_VERSION' => 20914,
+    'LIBXML_DOTTED_VERSION' => '2.9.14',
+    'LIBXML_LOADED_VERSION' => '20914',
     'LIBXML_RECOVER' => 1,
     'LIBXML_NOENT' => 2,
     'LIBXML_DTDLOAD' => 4,

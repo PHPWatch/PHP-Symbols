@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => 805306400,
+  'value' => 805306576,
   'extension' => 'openssl',
 );

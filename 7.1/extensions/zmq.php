@@ -17,7 +17,7 @@ return array (
        'name' => 'zmq',
     )),
     'removed' => NULL,
-    'version' => '1.1.3',
+    'version' => '@PACKAGE_VERSION@',
     'resources' => 
     array (
       0 => 

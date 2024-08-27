@@ -48,15 +48,8 @@ return array (
     'OPT_NULL_MULTIBULK_AS_NULL' => 10,
     'SERIALIZER_NONE' => 0,
     'SERIALIZER_PHP' => 1,
-    'SERIALIZER_IGBINARY' => 2,
     'SERIALIZER_JSON' => 4,
     'COMPRESSION_NONE' => 0,
-    'COMPRESSION_LZF' => 1,
-    'COMPRESSION_ZSTD' => 2,
-    'COMPRESSION_ZSTD_MIN' => 1,
-    'COMPRESSION_ZSTD_DEFAULT' => 3,
-    'COMPRESSION_ZSTD_MAX' => 22,
-    'COMPRESSION_LZ4' => 3,
     'OPT_SCAN' => 4,
     'SCAN_RETRY' => 1,
     'SCAN_NORETRY' => 0,
@@ -9326,7 +9319,7 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:redis> class Redis ] {
 
-  - Constants [47] {
+  - Constants [40] {
     Constant [ public integer REDIS_NOT_FOUND ] { 0 }
     Constant [ public integer REDIS_STRING ] { 1 }
     Constant [ public integer REDIS_SET ] { 2 }
@@ -9347,15 +9340,8 @@ return array (
     Constant [ public integer OPT_NULL_MULTIBULK_AS_NULL ] { 10 }
     Constant [ public integer SERIALIZER_NONE ] { 0 }
     Constant [ public integer SERIALIZER_PHP ] { 1 }
-    Constant [ public integer SERIALIZER_IGBINARY ] { 2 }
     Constant [ public integer SERIALIZER_JSON ] { 4 }
     Constant [ public integer COMPRESSION_NONE ] { 0 }
-    Constant [ public integer COMPRESSION_LZF ] { 1 }
-    Constant [ public integer COMPRESSION_ZSTD ] { 2 }
-    Constant [ public integer COMPRESSION_ZSTD_MIN ] { 1 }
-    Constant [ public integer COMPRESSION_ZSTD_DEFAULT ] { 3 }
-    Constant [ public integer COMPRESSION_ZSTD_MAX ] { 22 }
-    Constant [ public integer COMPRESSION_LZ4 ] { 3 }
     Constant [ public integer OPT_SCAN ] { 4 }
     Constant [ public integer SCAN_RETRY ] { 1 }
     Constant [ public integer SCAN_NORETRY ] { 0 }

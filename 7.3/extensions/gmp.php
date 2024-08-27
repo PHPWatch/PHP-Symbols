@@ -17,7 +17,7 @@ return array (
        'name' => 'gmp',
     )),
     'removed' => NULL,
-    'version' => '7.3.33-19+ubuntu22.04.1+deb.sury.org+1',
+    'version' => '7.3.33',
     'resources' => 
     array (
       0 => 
@@ -91,7 +91,7 @@ return array (
     'GMP_ROUND_ZERO' => 0,
     'GMP_ROUND_PLUSINF' => 1,
     'GMP_ROUND_MINUSINF' => 2,
-    'GMP_VERSION' => '6.2.1',
+    'GMP_VERSION' => '6.3.0',
     'GMP_MSW_FIRST' => 1,
     'GMP_LSW_FIRST' => 2,
     'GMP_LITTLE_ENDIAN' => 4,

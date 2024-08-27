@@ -17,7 +17,7 @@ return array (
        'name' => 'posix',
     )),
     'removed' => NULL,
-    'version' => '7.3.33-19+ubuntu22.04.1+deb.sury.org+1',
+    'version' => '7.3.33',
     'resources' => 
     array (
       0 => 

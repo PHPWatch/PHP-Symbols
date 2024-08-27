@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '1.1.34',
+  'value' => '0.8.21',
   'extension' => 'xsl',
 );

@@ -17,7 +17,7 @@ return array (
        'name' => 'Core',
     )),
     'removed' => NULL,
-    'version' => '7.3.33-19+ubuntu22.04.1+deb.sury.org+1',
+    'version' => '7.3.33',
     'resources' => 
     array (
     ),
@@ -129,11 +129,11 @@ return array (
     'ZEND_THREAD_SAFE' => false,
     'ZEND_DEBUG_BUILD' => false,
     'NULL' => NULL,
-    'PHP_VERSION' => '7.3.33-19+ubuntu22.04.1+deb.sury.org+1',
+    'PHP_VERSION' => '7.3.33',
     'PHP_MAJOR_VERSION' => 7,
     'PHP_MINOR_VERSION' => 3,
     'PHP_RELEASE_VERSION' => 33,
-    'PHP_EXTRA_VERSION' => '-19+ubuntu22.04.1+deb.sury.org+1',
+    'PHP_EXTRA_VERSION' => '',
     'PHP_VERSION_ID' => 70333,
     'PHP_ZTS' => 0,
     'PHP_DEBUG' => 0,

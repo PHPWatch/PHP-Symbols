@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => 'OpenSSL 3.0.2 15 Mar 2022',
+  'value' => 'OpenSSL 3.0.13 30 Jan 2024',
   'extension' => 'openssl',
 );

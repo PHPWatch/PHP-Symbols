@@ -401,8 +401,8 @@ return array (
     ),
     'sendmail_path' => 
     array (
-      'global_value' => '/usr/sbin/sendmail -t -i ',
-      'local_value' => '/usr/sbin/sendmail -t -i ',
+      'global_value' => ' -t -i ',
+      'local_value' => ' -t -i ',
       'access' => 4,
     ),
     'serialize_precision' => 
@@ -1418,8 +1418,8 @@ return array (
     ),
     'imagick.skip_version_check' => 
     array (
-      'global_value' => '1',
-      'local_value' => '1',
+      'global_value' => '0',
+      'local_value' => '0',
       'access' => 7,
     ),
   ),
@@ -1430,69 +1430,6 @@ return array (
       'global_value' => '0',
       'local_value' => '0',
       'access' => 4,
-    ),
-  ),
-  'interbase' => 
-  array (
-    'ibase.allow_persistent' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'ibase.dateformat' => 
-    array (
-      'global_value' => '%Y-%m-%d',
-      'local_value' => '%Y-%m-%d',
-      'access' => 7,
-    ),
-    'ibase.default_charset' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'ibase.default_db' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 4,
-    ),
-    'ibase.default_password' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'ibase.default_user' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'ibase.max_links' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-    'ibase.max_persistent' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-    'ibase.timeformat' => 
-    array (
-      'global_value' => '%H:%M:%S',
-      'local_value' => '%H:%M:%S',
-      'access' => 7,
-    ),
-    'ibase.timestampformat' => 
-    array (
-      'global_value' => '%Y-%m-%d %H:%M:%S',
-      'local_value' => '%Y-%m-%d %H:%M:%S',
-      'access' => 7,
     ),
   ),
   'intl' => 
@@ -1564,21 +1501,6 @@ return array (
     array (
       'global_value' => 'ISO-8859-15',
       'local_value' => 'ISO-8859-15',
-      'access' => 7,
-    ),
-  ),
-  'mcrypt' => 
-  array (
-    'mcrypt.algorithms_dir' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mcrypt.modes_dir' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
       'access' => 7,
     ),
   ),
@@ -1741,174 +1663,6 @@ return array (
     array (
       'global_value' => '1',
       'local_value' => '1',
-      'access' => 7,
-    ),
-  ),
-  'mssql' => 
-  array (
-    'mssql.allow_persistent' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'mssql.batchsize' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'mssql.charset' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'mssql.compatability_mode' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'mssql.compatibility_mode' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'mssql.connect_timeout' => 
-    array (
-      'global_value' => '5',
-      'local_value' => '5',
-      'access' => 7,
-    ),
-    'mssql.datetimeconvert' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'mssql.max_links' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-    'mssql.max_persistent' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-    'mssql.max_procs' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 7,
-    ),
-    'mssql.min_error_severity' => 
-    array (
-      'global_value' => '10',
-      'local_value' => '10',
-      'access' => 7,
-    ),
-    'mssql.min_message_severity' => 
-    array (
-      'global_value' => '10',
-      'local_value' => '10',
-      'access' => 7,
-    ),
-    'mssql.secure_connection' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 4,
-    ),
-    'mssql.textlimit' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 7,
-    ),
-    'mssql.textsize' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 7,
-    ),
-    'mssql.timeout' => 
-    array (
-      'global_value' => '60',
-      'local_value' => '60',
-      'access' => 7,
-    ),
-  ),
-  'mysql' => 
-  array (
-    'mysql.allow_local_infile' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'mysql.allow_persistent' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'mysql.connect_timeout' => 
-    array (
-      'global_value' => '60',
-      'local_value' => '60',
-      'access' => 7,
-    ),
-    'mysql.default_host' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'mysql.default_password' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'mysql.default_port' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'mysql.default_socket' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mysql.default_user' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'mysql.max_links' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-    'mysql.max_persistent' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-    'mysql.trace_mode' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
       'access' => 7,
     ),
   ),
@@ -2148,9 +1902,6 @@ return array (
       'local_value' => '\\b \\> ',
       'access' => 7,
     ),
-  ),
-  'recode' => 
-  array (
   ),
   'redis' => 
   array (
@@ -2396,9 +2147,6 @@ return array (
     ),
   ),
   'tokenizer' => 
-  array (
-  ),
-  'wddx' => 
   array (
   ),
   'xmlreader' => 

@@ -228,6 +228,7 @@ return array (
     'intltz_has_same_rules' => 'intltz_has_same_rules',
     'intltz_to_date_time_zone' => 'intltz_to_date_time_zone',
     'intltz_use_daylight_time' => 'intltz_use_daylight_time',
+    'intltz_get_iana_id' => 'intltz_get_iana_id',
     'transliterator_create' => 'transliterator_create',
     'transliterator_create_from_rules' => 'transliterator_create_from_rules',
     'transliterator_list_ids' => 'transliterator_list_ids',
@@ -239,8 +240,8 @@ return array (
   'constants' => 
   array (
     'INTL_MAX_LOCALE_LEN' => 156,
-    'INTL_ICU_VERSION' => '70.1',
-    'INTL_ICU_DATA_VERSION' => '70.1',
+    'INTL_ICU_VERSION' => '74.2',
+    'INTL_ICU_DATA_VERSION' => '74.2',
     'GRAPHEME_EXTR_COUNT' => 0,
     'GRAPHEME_EXTR_MAXBYTES' => 1,
     'GRAPHEME_EXTR_MAXCHARS' => 2,

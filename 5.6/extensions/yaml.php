@@ -17,7 +17,7 @@ return array (
        'name' => 'yaml',
     )),
     'removed' => NULL,
-    'version' => '1.3.2',
+    'version' => '1.3.1',
     'resources' => 
     array (
       0 => 

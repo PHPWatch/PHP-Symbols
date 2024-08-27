@@ -17,7 +17,7 @@ return array (
        'name' => 'memcached',
     )),
     'removed' => NULL,
-    'version' => '3.2.0',
+    'version' => '3.2.1-dev',
     'resources' => 
     array (
       0 => 
@@ -44,11 +44,13 @@ return array (
   'ini' => 
   array (
     'memcached.compression_factor' => '1.3',
+    'memcached.compression_level' => '3',
     'memcached.compression_threshold' => '2000',
     'memcached.compression_type' => 'fastlz',
     'memcached.default_binary_protocol' => '0',
     'memcached.default_connect_timeout' => '0',
     'memcached.default_consistent_hash' => '0',
+    'memcached.item_size_limit' => '0',
     'memcached.serializer' => 'php',
     'memcached.sess_binary_protocol' => '1',
     'memcached.sess_connect_timeout' => '0',

@@ -62,7 +62,7 @@ return array (
   array (
     'ENCHANT_MYSPELL' => 1,
     'ENCHANT_ISPELL' => 2,
-    'LIBENCHANT_VERSION' => '2.3.2',
+    'LIBENCHANT_VERSION' => '2.3.3',
   ),
   'dependencies' => 
   array (

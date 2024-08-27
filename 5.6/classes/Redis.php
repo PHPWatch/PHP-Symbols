@@ -44,9 +44,7 @@ return array (
     'OPT_COMPRESSION' => 7,
     'SERIALIZER_NONE' => 0,
     'SERIALIZER_PHP' => 1,
-    'SERIALIZER_IGBINARY' => 2,
     'COMPRESSION_NONE' => 0,
-    'COMPRESSION_LZF' => 1,
     'OPT_SCAN' => 4,
     'SCAN_RETRY' => 1,
     'SCAN_NORETRY' => 0,
@@ -9109,7 +9107,7 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:redis> class Redis ] {
 
-  - Constants [24] {
+  - Constants [22] {
     Constant [ integer REDIS_NOT_FOUND ] { 0 }
     Constant [ integer REDIS_STRING ] { 1 }
     Constant [ integer REDIS_SET ] { 2 }
@@ -9126,9 +9124,7 @@ return array (
     Constant [ integer OPT_COMPRESSION ] { 7 }
     Constant [ integer SERIALIZER_NONE ] { 0 }
     Constant [ integer SERIALIZER_PHP ] { 1 }
-    Constant [ integer SERIALIZER_IGBINARY ] { 2 }
     Constant [ integer COMPRESSION_NONE ] { 0 }
-    Constant [ integer COMPRESSION_LZF ] { 1 }
     Constant [ integer OPT_SCAN ] { 4 }
     Constant [ integer SCAN_RETRY ] { 1 }
     Constant [ integer SCAN_NORETRY ] { 0 }

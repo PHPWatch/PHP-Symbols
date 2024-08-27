@@ -119,7 +119,7 @@ return array (
     'MB_CASE_LOWER_SIMPLE' => 5,
     'MB_CASE_TITLE_SIMPLE' => 6,
     'MB_CASE_FOLD_SIMPLE' => 7,
-    'MB_ONIGURUMA_VERSION' => '6.9.7',
+    'MB_ONIGURUMA_VERSION' => '6.9.9',
   ),
   'dependencies' => 
   array (

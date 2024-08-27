@@ -17,7 +17,7 @@ return array (
        'name' => 'mysqli',
     )),
     'removed' => NULL,
-    'version' => '7.1.33-63+ubuntu22.04.1+deb.sury.org+1',
+    'version' => '7.1.33',
     'resources' => 
     array (
       0 => 
@@ -266,7 +266,7 @@ return array (
     'mysqli.default_host' => '',
     'mysqli.default_port' => '3306',
     'mysqli.default_pw' => '',
-    'mysqli.default_socket' => NULL,
+    'mysqli.default_socket' => '/var/run/mysqld/mysqld.sock',
     'mysqli.default_user' => '',
     'mysqli.max_links' => '-1',
     'mysqli.max_persistent' => '-1',

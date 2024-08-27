@@ -17,7 +17,7 @@ return array (
        'name' => 'libxml',
     )),
     'removed' => NULL,
-    'version' => '7.3.33-19+ubuntu22.04.1+deb.sury.org+1',
+    'version' => '7.3.33',
     'resources' => 
     array (
       0 => 
@@ -45,7 +45,7 @@ return array (
   array (
     'LIBXML_VERSION' => 20914,
     'LIBXML_DOTTED_VERSION' => '2.9.14',
-    'LIBXML_LOADED_VERSION' => '20913',
+    'LIBXML_LOADED_VERSION' => '20914',
     'LIBXML_NOENT' => 2,
     'LIBXML_DTDLOAD' => 4,
     'LIBXML_DTDATTR' => 8,

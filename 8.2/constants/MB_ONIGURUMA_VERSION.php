@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '6.9.7',
+  'value' => '6.9.9',
   'extension' => 'mbstring',
 );

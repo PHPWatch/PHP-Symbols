@@ -134,8 +134,8 @@ ctype functions => enabled
 curl
 
 cURL support => enabled
-cURL Information => 7.81.0
-Age => 9
+cURL Information => 8.5.0
+Age => 10
 Features
 AsynchDNS => Yes
 CharConv => No
@@ -147,7 +147,7 @@ krb4 => No
 Largefile => Yes
 libz => Yes
 NTLM => Yes
-NTLMWB => Yes
+NTLMWB => No
 SPNEGO => Yes
 SSL => Yes
 SSPI => No
@@ -166,11 +166,11 @@ UNICODE => No
 ZSTD => Yes
 HSTS => Yes
 GSASL => No
-Protocols => dict, file, ftp, ftps, gopher, gophers, http, https, imap, imaps, ldap, ldaps, mqtt, pop3, pop3s, rtmp, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp
+Protocols => dict, file, ftp, ftps, gopher, gophers, http, https, imap, imaps, ldap, ldaps, mqtt, pop3, pop3s, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp
 Host => x86_64-pc-linux-gnu
-SSL Version => OpenSSL/3.0.2
-ZLib Version => 1.2.11
-libSSH Version => libssh/0.9.6/openssl/zlib
+SSL Version => OpenSSL/3.0.13
+ZLib Version => 1.3
+libSSH Version => libssh/0.10.6/openssl/zlib
 
 Directive => Local Value => Master Value
 curl.cainfo => no value => no value
@@ -202,7 +202,7 @@ dom
 
 DOM/XML => enabled
 DOM/XML API Version => 20031129
-libxml Version => 2.9.13
+libxml Version => 2.9.14
 HTML Support => enabled
 XPath Support => enabled
 XPointer Support => enabled
@@ -212,11 +212,11 @@ RelaxNG Support => enabled
 enchant
 
 enchant support => enabled
-Libenchant Version => 2.3.2
+Libenchant Version => 2.3.3
 
-aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
-hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
 hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
+hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
+aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
 
 exif
 
@@ -266,13 +266,13 @@ GD Support => enabled
 GD Version => bundled (2.1.0 compatible)
 FreeType Support => enabled
 FreeType Linkage => with freetype
-FreeType Version => 2.11.1
+FreeType Version => 2.13.2
 GIF Read Support => enabled
 GIF Create Support => enabled
 JPEG Support => enabled
 libJPEG Version => 8
 PNG Support => enabled
-libPNG Version => 1.6.37
+libPNG Version => 1.6.43
 WBMP Support => enabled
 XPM Support => enabled
 libXpm Version => 30411
@@ -291,7 +291,7 @@ GetText Support => enabled
 gmp
 
 gmp support => enabled
-GMP version => 6.2.1
+GMP version => 6.3.0
 
 hash
 
@@ -305,7 +305,7 @@ iconv
 
 iconv support => enabled
 iconv implementation => glibc
-iconv library version => 2.35
+iconv library version => 2.39
 
 Directive => Local Value => Master Value
 iconv.input_encoding => no value => no value
@@ -315,10 +315,10 @@ iconv.output_encoding => no value => no value
 intl
 
 Internationalization support => enabled
-ICU version => 70.1
-ICU Data version => 70.1
-ICU TZData version => 2024a
-ICU Unicode version => 14.0
+ICU version => 74.2
+ICU Data version => 74.2
+ICU TZData version => 2023c
+ICU Unicode version => 15.1
 
 Directive => Local Value => Master Value
 intl.default_locale => no value => no value
@@ -335,7 +335,7 @@ LDAP Support => enabled
 Total Links => 0/unlimited
 API Version => 3001
 Vendor Name => OpenLDAP
-Vendor Version => 20518
+Vendor Version => 20607
 SASL Support => Enabled
 
 Directive => Local Value => Master Value
@@ -344,8 +344,8 @@ ldap.max_links => Unlimited => Unlimited
 libxml
 
 libXML support => active
-libXML Compiled Version => 2.9.13
-libXML Loaded Version => 20913
+libXML Compiled Version => 2.9.14
+libXML Loaded Version => 20914
 libXML streams => enabled
 
 mbstring
@@ -358,7 +358,7 @@ libmbfl version => 1.3.2
 mbstring extension makes use of "streamable kanji code filter and converter", which is distributed under the GNU Lesser General Public License version 2.1.
 
 Multibyte (japanese) regex support => enabled
-Multibyte regex (oniguruma) version => 6.9.7
+Multibyte regex (oniguruma) version => 6.9.9
 
 Directive => Local Value => Master Value
 mbstring.detect_order => no value => no value
@@ -433,8 +433,8 @@ odbc.max_persistent => Unlimited => Unlimited
 openssl
 
 OpenSSL support => enabled
-OpenSSL Library Version => OpenSSL 3.0.2 15 Mar 2022
-OpenSSL Header Version => OpenSSL 3.0.2 15 Mar 2022
+OpenSSL Library Version => OpenSSL 3.0.13 30 Jan 2024
+OpenSSL Header Version => OpenSSL 3.0.13 30 Jan 2024
 Openssl default config => /usr/lib/ssl/openssl.cnf
 
 Directive => Local Value => Master Value
@@ -461,18 +461,12 @@ pcre.recursion_limit => 100000 => 100000
 PDO
 
 PDO support => enabled
-PDO drivers => dblib, firebird, mysql, odbc, pgsql, sqlite
+PDO drivers => dblib, mysql, odbc, pgsql, sqlite
 
 pdo_dblib
 
 PDO Driver for FreeTDS/Sybase DB-lib => enabled
 Flavour => freetds
-
-PDO_Firebird
-
-PDO Driver for Firebird => enabled
-Client Library Version => LI-V6.3.8.33535 Firebird 3.0
-Firebird API version => 30
 
 pdo_mysql
 
@@ -495,7 +489,7 @@ PostgreSQL(libpq) Version => 16.4
 pdo_sqlite
 
 PDO Driver for SQLite 3.x => enabled
-SQLite Library => 3.37.2
+SQLite Library => 3.45.1
 
 pgsql
 
@@ -544,7 +538,7 @@ Version => 8.4.0-dev
 readline
 
 Readline Support => enabled
-Readline library => 8.1
+Readline library => 8.2
 
 Directive => Local Value => Master Value
 cli.pager => no value => no value
@@ -604,7 +598,7 @@ Schema support => enabled
 snmp
 
 NET-SNMP Support => enabled
-NET-SNMP Version => 5.9.1
+NET-SNMP Version => 5.9.4.pre2
 
 soap
 
@@ -637,7 +631,7 @@ Classes => AppendIterator, ArrayIterator, ArrayObject, BadFunctionCallException,
 sqlite3
 
 SQLite3 support => enabled
-SQLite Library => 3.37.2
+SQLite Library => 3.45.1
 
 Directive => Local Value => Master Value
 sqlite3.defensive => On => On
@@ -694,7 +688,7 @@ xml
 
 XML Support => active
 XML Namespace Support => active
-libxml2 Version => 2.9.13
+libxml2 Version => 2.9.14
 
 xmlreader
 
@@ -707,10 +701,10 @@ XMLWriter => enabled
 xsl
 
 XSL => enabled
-libxslt Version => 1.1.34
-libxslt compiled against libxml Version => 2.9.13
+libxslt Version => 1.1.39
+libxslt compiled against libxml Version => 2.9.14
 EXSLT => enabled
-libexslt Version => 1.1.34
+libexslt Version => 0.8.21
 
 Zend OPcache
 
@@ -726,8 +720,8 @@ Cache misses => 1
 Used memory => 9177064
 Free memory => 125040664
 Wasted memory => 0
-Interned Strings Used memory => 2596880
-Interned Strings Free memory => 5791728
+Interned Strings Used memory => 2597080
+Interned Strings Free memory => 5791528
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229
@@ -810,8 +804,8 @@ zlib
 ZLib Support => enabled
 Stream Wrapper => compress.zlib://
 Stream Filter => zlib.inflate, zlib.deflate
-Compiled Version => 1.2.11
-Linked Version => 1.2.11
+Compiled Version => 1.3
+Linked Version => 1.3
 
 Directive => Local Value => Master Value
 zlib.output_compression => Off => Off

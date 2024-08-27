@@ -1439,8 +1439,8 @@ return array (
     ),
     'imagick.skip_version_check' => 
     array (
-      'global_value' => '1',
-      'local_value' => '1',
+      'global_value' => '0',
+      'local_value' => '0',
       'access' => 7,
     ),
   ),
@@ -1451,69 +1451,6 @@ return array (
       'global_value' => '0',
       'local_value' => '0',
       'access' => 4,
-    ),
-  ),
-  'interbase' => 
-  array (
-    'ibase.allow_persistent' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'ibase.dateformat' => 
-    array (
-      'global_value' => '%Y-%m-%d',
-      'local_value' => '%Y-%m-%d',
-      'access' => 7,
-    ),
-    'ibase.default_charset' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'ibase.default_db' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 4,
-    ),
-    'ibase.default_password' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'ibase.default_user' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'ibase.max_links' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-    'ibase.max_persistent' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-    'ibase.timeformat' => 
-    array (
-      'global_value' => '%H:%M:%S',
-      'local_value' => '%H:%M:%S',
-      'access' => 7,
-    ),
-    'ibase.timestampformat' => 
-    array (
-      'global_value' => '%Y-%m-%d %H:%M:%S',
-      'local_value' => '%Y-%m-%d %H:%M:%S',
-      'access' => 7,
     ),
   ),
   'intl' => 
@@ -1781,8 +1718,8 @@ return array (
     ),
     'mysqli.default_socket' => 
     array (
-      'global_value' => NULL,
-      'local_value' => NULL,
+      'global_value' => '/var/run/mysqld/mysqld.sock',
+      'local_value' => '/var/run/mysqld/mysqld.sock',
       'access' => 7,
     ),
     'mysqli.default_user' => 
@@ -1877,39 +1814,6 @@ return array (
       'global_value' => '-1',
       'local_value' => '-1',
       'access' => 4,
-    ),
-  ),
-  'pcov' => 
-  array (
-    'pcov.directory' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 6,
-    ),
-    'pcov.enabled' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'pcov.exclude' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 6,
-    ),
-    'pcov.initial.files' => 
-    array (
-      'global_value' => '64',
-      'local_value' => '64',
-      'access' => 6,
-    ),
-    'pcov.initial.memory' => 
-    array (
-      'global_value' => '65336',
-      'local_value' => '65336',
-      'access' => 6,
     ),
   ),
   'pdo_dblib' => 
@@ -2043,9 +1947,6 @@ return array (
       'local_value' => '\\b \\> ',
       'access' => 7,
     ),
-  ),
-  'recode' => 
-  array (
   ),
   'redis' => 
   array (
@@ -2360,9 +2261,6 @@ return array (
     ),
   ),
   'tokenizer' => 
-  array (
-  ),
-  'wddx' => 
   array (
   ),
   'xmlreader' => 
@@ -2720,8 +2618,8 @@ return array (
     ),
     'opcache.optimization_level' => 
     array (
-      'global_value' => '0x7FFEBF5F',
-      'local_value' => '0x7FFEBF5F',
+      'global_value' => '0x7FFEBFFF',
+      'local_value' => '0x7FFEBFFF',
       'access' => 4,
     ),
     'opcache.preferred_memory_model' => 
@@ -3215,8 +3113,8 @@ return array (
     ),
     'xdebug.use_compression' => 
     array (
-      'global_value' => '0',
-      'local_value' => '0',
+      'global_value' => '1',
+      'local_value' => '1',
       'access' => 7,
     ),
     'xdebug.var_display_max_children' => 

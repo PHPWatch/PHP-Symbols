@@ -1475,8 +1475,8 @@ return array (
     ),
     'imagick.skip_version_check' => 
     array (
-      'global_value' => '1',
-      'local_value' => '1',
+      'global_value' => '0',
+      'local_value' => '0',
       'access' => 7,
     ),
   ),
@@ -1847,39 +1847,6 @@ return array (
       'global_value' => '-1',
       'local_value' => '-1',
       'access' => 4,
-    ),
-  ),
-  'pcov' => 
-  array (
-    'pcov.directory' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 6,
-    ),
-    'pcov.enabled' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'pcov.exclude' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 6,
-    ),
-    'pcov.initial.files' => 
-    array (
-      'global_value' => '64',
-      'local_value' => '64',
-      'access' => 6,
-    ),
-    'pcov.initial.memory' => 
-    array (
-      'global_value' => '65336',
-      'local_value' => '65336',
-      'access' => 6,
     ),
   ),
   'pdo_dblib' => 
@@ -2391,6 +2358,12 @@ return array (
       'local_value' => '1.3',
       'access' => 7,
     ),
+    'memcached.compression_level' => 
+    array (
+      'global_value' => '3',
+      'local_value' => '3',
+      'access' => 7,
+    ),
     'memcached.compression_threshold' => 
     array (
       'global_value' => '2000',
@@ -2416,6 +2389,12 @@ return array (
       'access' => 7,
     ),
     'memcached.default_consistent_hash' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'memcached.item_size_limit' => 
     array (
       'global_value' => '0',
       'local_value' => '0',

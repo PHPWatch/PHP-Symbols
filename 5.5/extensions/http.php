@@ -65,7 +65,7 @@ return array (
   ),
   'constants' => 
   array (
-    'http\\Client\\Curl\\FEATURES' => 364890013,
+    'http\\Client\\Curl\\FEATURES' => 1438599069,
     'http\\Client\\Curl\\Features\\IPV6' => 1,
     'http\\Client\\Curl\\Features\\KERBEROS4' => 2,
     'http\\Client\\Curl\\Features\\SSL' => 4,
@@ -80,10 +80,10 @@ return array (
     'http\\Client\\Curl\\Features\\TLSAUTH_SRP' => 16384,
     'http\\Client\\Curl\\Features\\NTLM_WB' => 32768,
     'http\\Client\\Curl\\Features\\HTTP2' => 65536,
-    'http\\Client\\Curl\\VERSIONS' => 'libcurl/7.81.0 GnuTLS/3.7.3 zlib/1.2.11 brotli/1.0.9 zstd/1.4.8 libidn2/2.3.2 libpsl/0.21.0 (+libidn2/2.3.2) libssh/0.9.6/openssl/zlib nghttp2/1.43.0 librtmp/2.3 OpenLDAP/2.5.18',
-    'http\\Client\\Curl\\Versions\\CURL' => '7.81.0',
-    'http\\Client\\Curl\\Versions\\SSL' => 'GnuTLS/3.7.3',
-    'http\\Client\\Curl\\Versions\\LIBZ' => '1.2.11',
+    'http\\Client\\Curl\\VERSIONS' => 'libcurl/8.5.0 GnuTLS/3.8.3 zlib/1.3 brotli/1.1.0 zstd/1.5.5 libidn2/2.3.7 libpsl/0.21.2 (+libidn2/2.3.7) libssh/0.10.6/openssl/zlib nghttp2/1.59.0 librtmp/2.3 OpenLDAP/2.6.7',
+    'http\\Client\\Curl\\Versions\\CURL' => '8.5.0',
+    'http\\Client\\Curl\\Versions\\SSL' => 'GnuTLS/3.8.3',
+    'http\\Client\\Curl\\Versions\\LIBZ' => '1.3',
     'http\\Client\\Curl\\HTTP_VERSION_1_0' => 1,
     'http\\Client\\Curl\\HTTP_VERSION_1_1' => 2,
     'http\\Client\\Curl\\HTTP_VERSION_2_0' => 3,

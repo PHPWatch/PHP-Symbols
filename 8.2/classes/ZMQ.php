@@ -54,12 +54,12 @@ return array (
     'ERR_ENOTSUP' => 95,
     'ERR_EFSM' => 156384763,
     'ERR_ETERM' => 156384765,
-    'LIBZMQ_VER' => '4.3.4',
-    'LIBZMQ_VERSION' => '4.3.4',
-    'LIBZMQ_VERSION_ID' => 40304,
+    'LIBZMQ_VER' => '4.3.5',
+    'LIBZMQ_VERSION' => '4.3.5',
+    'LIBZMQ_VERSION_ID' => 40305,
     'LIBZMQ_VERSION_MAJOR' => 4,
     'LIBZMQ_VERSION_MINOR' => 3,
-    'LIBZMQ_VERSION_PATCH' => 4,
+    'LIBZMQ_VERSION_PATCH' => 5,
     'SOCKOPT_GSSAPI_PRINCIPAL_NAMETYPE' => 90,
     'SOCKOPT_GSSAPI_SERVICE_PRINCIPAL_NAMETYPE' => 91,
     'SOCKOPT_BINDTODEVICE' => 92,
@@ -289,12 +289,12 @@ return array (
     Constant [ public int ERR_ENOTSUP ] { 95 }
     Constant [ public int ERR_EFSM ] { 156384763 }
     Constant [ public int ERR_ETERM ] { 156384765 }
-    Constant [ public string LIBZMQ_VER ] { 4.3.4 }
-    Constant [ public string LIBZMQ_VERSION ] { 4.3.4 }
-    Constant [ public int LIBZMQ_VERSION_ID ] { 40304 }
+    Constant [ public string LIBZMQ_VER ] { 4.3.5 }
+    Constant [ public string LIBZMQ_VERSION ] { 4.3.5 }
+    Constant [ public int LIBZMQ_VERSION_ID ] { 40305 }
     Constant [ public int LIBZMQ_VERSION_MAJOR ] { 4 }
     Constant [ public int LIBZMQ_VERSION_MINOR ] { 3 }
-    Constant [ public int LIBZMQ_VERSION_PATCH ] { 4 }
+    Constant [ public int LIBZMQ_VERSION_PATCH ] { 5 }
     Constant [ public int SOCKOPT_GSSAPI_PRINCIPAL_NAMETYPE ] { 90 }
     Constant [ public int SOCKOPT_GSSAPI_SERVICE_PRINCIPAL_NAMETYPE ] { 91 }
     Constant [ public int SOCKOPT_BINDTODEVICE ] { 92 }

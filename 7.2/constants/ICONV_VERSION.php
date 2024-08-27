@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '2.35',
+  'value' => '2.39',
   'extension' => 'iconv',
 );

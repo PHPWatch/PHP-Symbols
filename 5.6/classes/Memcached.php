@@ -28,15 +28,15 @@ return array (
   ),
   'constants' => 
   array (
-    'LIBMEMCACHED_VERSION_HEX' => 16781315,
+    'LIBMEMCACHED_VERSION_HEX' => 16781316,
     'OPT_COMPRESSION' => -1001,
     'OPT_COMPRESSION_TYPE' => -1004,
     'OPT_PREFIX_KEY' => -1002,
     'OPT_SERIALIZER' => -1003,
     'OPT_STORE_RETRY_COUNT' => -1005,
-    'HAVE_IGBINARY' => 1,
-    'HAVE_JSON' => 1,
-    'HAVE_MSGPACK' => 1,
+    'HAVE_IGBINARY' => 0,
+    'HAVE_JSON' => 0,
+    'HAVE_MSGPACK' => 0,
     'HAVE_SESSION' => 1,
     'HAVE_SASL' => 1,
     'OPT_HASH' => 2,
@@ -2417,15 +2417,15 @@ return array (
   'toString' => 'Class [ <internal:memcached> class Memcached ] {
 
   - Constants [99] {
-    Constant [ integer LIBMEMCACHED_VERSION_HEX ] { 16781315 }
+    Constant [ integer LIBMEMCACHED_VERSION_HEX ] { 16781316 }
     Constant [ integer OPT_COMPRESSION ] { -1001 }
     Constant [ integer OPT_COMPRESSION_TYPE ] { -1004 }
     Constant [ integer OPT_PREFIX_KEY ] { -1002 }
     Constant [ integer OPT_SERIALIZER ] { -1003 }
     Constant [ integer OPT_STORE_RETRY_COUNT ] { -1005 }
-    Constant [ integer HAVE_IGBINARY ] { 1 }
-    Constant [ integer HAVE_JSON ] { 1 }
-    Constant [ integer HAVE_MSGPACK ] { 1 }
+    Constant [ integer HAVE_IGBINARY ] { 0 }
+    Constant [ integer HAVE_JSON ] { 0 }
+    Constant [ integer HAVE_MSGPACK ] { 0 }
     Constant [ integer HAVE_SESSION ] { 1 }
     Constant [ integer HAVE_SASL ] { 1 }
     Constant [ integer OPT_HASH ] { 2 }

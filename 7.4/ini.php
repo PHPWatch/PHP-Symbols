@@ -1484,8 +1484,8 @@ return array (
     ),
     'imagick.skip_version_check' => 
     array (
-      'global_value' => '1',
-      'local_value' => '1',
+      'global_value' => '0',
+      'local_value' => '0',
       'access' => 7,
     ),
   ),
@@ -1763,8 +1763,8 @@ return array (
     ),
     'mysqli.default_socket' => 
     array (
-      'global_value' => NULL,
-      'local_value' => NULL,
+      'global_value' => '/var/run/mysqld/mysqld.sock',
+      'local_value' => '/var/run/mysqld/mysqld.sock',
       'access' => 7,
     ),
     'mysqli.default_user' => 
@@ -1859,39 +1859,6 @@ return array (
       'global_value' => '-1',
       'local_value' => '-1',
       'access' => 4,
-    ),
-  ),
-  'pcov' => 
-  array (
-    'pcov.directory' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 6,
-    ),
-    'pcov.enabled' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'pcov.exclude' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 6,
-    ),
-    'pcov.initial.files' => 
-    array (
-      'global_value' => '64',
-      'local_value' => '64',
-      'access' => 6,
-    ),
-    'pcov.initial.memory' => 
-    array (
-      'global_value' => '65336',
-      'local_value' => '65336',
-      'access' => 6,
     ),
   ),
   'pdo_dblib' => 
@@ -3203,8 +3170,8 @@ return array (
     ),
     'xdebug.use_compression' => 
     array (
-      'global_value' => '0',
-      'local_value' => '0',
+      'global_value' => '1',
+      'local_value' => '1',
       'access' => 7,
     ),
     'xdebug.var_display_max_children' => 

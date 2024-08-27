@@ -17,7 +17,7 @@ return array (
        'name' => 'iconv',
     )),
     'removed' => NULL,
-    'version' => '7.1.33-63+ubuntu22.04.1+deb.sury.org+1',
+    'version' => '7.1.33',
     'resources' => 
     array (
       0 => 
@@ -46,7 +46,7 @@ return array (
   'constants' => 
   array (
     'ICONV_IMPL' => 'glibc',
-    'ICONV_VERSION' => '2.35',
+    'ICONV_VERSION' => '2.39',
     'ICONV_MIME_DECODE_STRICT' => 1,
     'ICONV_MIME_DECODE_CONTINUE_ON_ERROR' => 2,
   ),

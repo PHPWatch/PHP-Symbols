@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '14.12 (Ubuntu 14.12-0ubuntu0.22.04.1)',
+  'value' => '16.2 (Ubuntu 16.2-1ubuntu4)',
   'extension' => 'pgsql',
 );

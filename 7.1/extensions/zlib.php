@@ -17,7 +17,7 @@ return array (
        'name' => 'zlib',
     )),
     'removed' => NULL,
-    'version' => '7.1.33-63+ubuntu22.04.1+deb.sury.org+1',
+    'version' => '7.1.33',
     'resources' => 
     array (
       0 => 
@@ -80,8 +80,8 @@ return array (
     'ZLIB_RLE' => 3,
     'ZLIB_FIXED' => 4,
     'ZLIB_DEFAULT_STRATEGY' => 0,
-    'ZLIB_VERSION' => '1.2.11',
-    'ZLIB_VERNUM' => 4784,
+    'ZLIB_VERSION' => '1.3',
+    'ZLIB_VERNUM' => 4864,
   ),
   'dependencies' => 
   array (

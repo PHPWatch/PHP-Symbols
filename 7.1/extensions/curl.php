@@ -17,7 +17,7 @@ return array (
        'name' => 'curl',
     )),
     'removed' => NULL,
-    'version' => '7.1.33-63+ubuntu22.04.1+deb.sury.org+1',
+    'version' => '7.1.33',
     'resources' => 
     array (
       0 => 
@@ -237,7 +237,7 @@ return array (
     'CURLINFO_HEADER_OUT' => 2,
     'CURLINFO_HEADER_SIZE' => 2097163,
     'CURLINFO_HTTP_CODE' => 2097154,
-    'CURLINFO_LASTONE' => 60,
+    'CURLINFO_LASTONE' => 64,
     'CURLINFO_NAMELOOKUP_TIME' => 3145732,
     'CURLINFO_PRETRANSFER_TIME' => 3145734,
     'CURLINFO_PRIVATE' => 1048597,
@@ -252,7 +252,7 @@ return array (
     'CURLINFO_STARTTRANSFER_TIME' => 3145745,
     'CURLINFO_TOTAL_TIME' => 3145731,
     'CURLMSG_DONE' => 1,
-    'CURLVERSION_NOW' => 9,
+    'CURLVERSION_NOW' => 10,
     'CURLM_BAD_EASY_HANDLE' => 2,
     'CURLM_BAD_HANDLE' => 1,
     'CURLM_CALL_MULTI_PERFORM' => -1,

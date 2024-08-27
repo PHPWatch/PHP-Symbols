@@ -57,7 +57,7 @@ return array (
     'ERR_ENOTSUP' => 95,
     'ERR_EFSM' => 156384763,
     'ERR_ETERM' => 156384765,
-    'LIBZMQ_VER' => '4.3.4',
+    'LIBZMQ_VER' => '4.3.5',
     'SOCKOPT_HWM' => 201,
     'SOCKOPT_SNDHWM' => 23,
     'SOCKOPT_RCVHWM' => 24,
@@ -181,7 +181,7 @@ return array (
     Constant [ integer ERR_ENOTSUP ] { 95 }
     Constant [ integer ERR_EFSM ] { 156384763 }
     Constant [ integer ERR_ETERM ] { 156384765 }
-    Constant [ string LIBZMQ_VER ] { 4.3.4 }
+    Constant [ string LIBZMQ_VER ] { 4.3.5 }
     Constant [ integer SOCKOPT_HWM ] { 201 }
     Constant [ integer SOCKOPT_SNDHWM ] { 23 }
     Constant [ integer SOCKOPT_RCVHWM ] { 24 }

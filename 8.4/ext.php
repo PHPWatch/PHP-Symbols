@@ -38,7 +38,6 @@ return array (
   'pcntl',
   'PDO',
   'pdo_dblib',
-  'PDO_Firebird',
   'pdo_mysql',
   'PDO_ODBC',
   'pdo_pgsql',

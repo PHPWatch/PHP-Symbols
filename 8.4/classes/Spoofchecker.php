@@ -46,6 +46,7 @@ return array (
     'IGNORE_SPACE' => 1,
     'CASE_INSENSITIVE' => 2,
     'ADD_CASE_MAPPINGS' => 4,
+    'SIMPLE_CASE_INSENSITIVE' => 6,
   ),
   'properties' => 
   array (
@@ -271,7 +272,7 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:intl> class Spoofchecker ] {
 
-  - Constants [18] {
+  - Constants [19] {
     Constant [ public int SINGLE_SCRIPT_CONFUSABLE ] { 1 }
     Constant [ public int MIXED_SCRIPT_CONFUSABLE ] { 2 }
     Constant [ public int WHOLE_SCRIPT_CONFUSABLE ] { 4 }
@@ -290,6 +291,7 @@ return array (
     Constant [ public int IGNORE_SPACE ] { 1 }
     Constant [ public int CASE_INSENSITIVE ] { 2 }
     Constant [ public int ADD_CASE_MAPPINGS ] { 4 }
+    Constant [ public int SIMPLE_CASE_INSENSITIVE ] { 6 }
   }
 
   - Static properties [0] {

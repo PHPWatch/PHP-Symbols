@@ -17,7 +17,7 @@ return array (
        'name' => 'intl',
     )),
     'removed' => NULL,
-    'version' => '7.3.33-19+ubuntu22.04.1+deb.sury.org+1',
+    'version' => '7.3.33',
     'resources' => 
     array (
       0 => 
@@ -235,8 +235,8 @@ return array (
   'constants' => 
   array (
     'INTL_MAX_LOCALE_LEN' => 156,
-    'INTL_ICU_VERSION' => '70.1',
-    'INTL_ICU_DATA_VERSION' => '70.1',
+    'INTL_ICU_VERSION' => '74.2',
+    'INTL_ICU_DATA_VERSION' => '74.2',
     'ULOC_ACTUAL_LOCALE' => 0,
     'ULOC_VALID_LOCALE' => 1,
     'GRAPHEME_EXTR_COUNT' => 0,

@@ -17,7 +17,7 @@ return array (
        'name' => 'ds',
     )),
     'removed' => NULL,
-    'version' => '1.4.0',
+    'version' => '1.5.0',
     'resources' => 
     array (
       0 => 

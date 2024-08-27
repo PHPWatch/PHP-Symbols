@@ -14,7 +14,7 @@ Version => 1.11.0
 Revision => release
 Compiled => __DYNAMIC__
 AMQP protocol version => 0-9-1
-librabbitmq version => 0.10.0
+librabbitmq version => 0.11.0
 Default max channels per connection => 256
 Default max frame size => 131072
 Default heartbeats interval => 0
@@ -96,7 +96,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 7.2.34-50+ubuntu22.04.1+deb.sury.org+1
+PHP Version => 7.2.34
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -164,7 +164,7 @@ report_memleaks => On => On
 report_zend_debug => Off => Off
 request_order => GP => GP
 sendmail_from => no value => no value
-sendmail_path => /usr/sbin/sendmail -t -i  => /usr/sbin/sendmail -t -i 
+sendmail_path =>  -t -i  =>  -t -i 
 serialize_precision => -1 => -1
 short_open_tag => Off => Off
 SMTP => localhost => localhost
@@ -194,8 +194,8 @@ ctype functions => enabled
 curl
 
 cURL support => enabled
-cURL Information => 7.81.0
-Age => 9
+cURL Information => 8.5.0
+Age => 10
 Features
 AsynchDNS => Yes
 CharConv => No
@@ -207,7 +207,7 @@ krb4 => No
 Largefile => Yes
 libz => Yes
 NTLM => Yes
-NTLMWB => Yes
+NTLMWB => No
 SPNEGO => Yes
 SSL => Yes
 SSPI => No
@@ -217,11 +217,11 @@ GSSAPI => Yes
 KERBEROS5 => Yes
 UNIX_SOCKETS => Yes
 PSL => Yes
-Protocols => dict, file, ftp, ftps, gopher, gophers, http, https, imap, imaps, ldap, ldaps, mqtt, pop3, pop3s, rtmp, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp
+Protocols => dict, file, ftp, ftps, gopher, gophers, http, https, imap, imaps, ldap, ldaps, mqtt, pop3, pop3s, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp
 Host => x86_64-pc-linux-gnu
-SSL Version => OpenSSL/3.0.2
-ZLib Version => 1.2.11
-libSSH Version => libssh/0.9.6/openssl/zlib
+SSL Version => OpenSSL/3.0.13
+ZLib Version => 1.3
+libSSH Version => libssh/0.10.6/openssl/zlib
 
 date
 
@@ -267,16 +267,16 @@ ds version => 1.3.0
 enchant
 
 enchant support => enabled
-Version => 7.2.34-50+ubuntu22.04.1+deb.sury.org+1
+Version => 7.2.34
 
-aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
-hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
 hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
+hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
+aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
 
 exif
 
 EXIF Support => enabled
-EXIF Version => 7.2.34-50+ubuntu22.04.1+deb.sury.org+1
+EXIF Version => 7.2.34
 Supported EXIF Version => 0220
 Supported filetypes => JPEG, TIFF
 Multibyte decoding support using mbstring => enabled
@@ -317,13 +317,13 @@ GD headers Version => 2.3.3
 GD library Version => 2.3.3
 FreeType Support => enabled
 FreeType Linkage => with freetype
-FreeType Version => 2.11.1
+FreeType Version => 2.13.2
 GIF Read Support => enabled
 GIF Create Support => enabled
 JPEG Support => enabled
 libJPEG Version => 8
 PNG Support => enabled
-libPNG Version => 1.6.37
+libPNG Version => 1.6.43
 WBMP Support => enabled
 XPM Support => enabled
 libXpm Version => 30411
@@ -340,7 +340,7 @@ GetText Support => enabled
 gmp
 
 gmp support => enabled
-GMP version => 6.2.1
+GMP version => 6.3.0
 
 hash
 
@@ -354,7 +354,7 @@ iconv
 
 iconv support => enabled
 iconv implementation => glibc
-iconv library version => 2.35
+iconv library version => 2.39
 
 Directive => Local Value => Master Value
 iconv.input_encoding => no value => no value
@@ -376,12 +376,12 @@ imagick
 imagick module => enabled
 imagick module version => 3.7.0
 imagick classes => Imagick, ImagickDraw, ImagickPixel, ImagickPixelIterator, ImagickKernel
-Imagick compiled with ImageMagick version => ImageMagick 6.9.11-60 Q16 x86_64 2021-01-25 https://imagemagick.org
-Imagick using ImageMagick library version => ImageMagick 6.9.11-60 Q16 x86_64 2021-01-25 https://imagemagick.org
-ImageMagick copyright => (C) 1999-2021 ImageMagick Studio LLC
-ImageMagick release date => 2021-01-25
-ImageMagick number of supported formats:  => 247
-ImageMagick supported formats => 3FR, 3G2, 3GP, AAI, AI, APNG, ART, ARW, AVI, AVIF, AVS, BGR, BGRA, BGRO, BIE, BMP, BMP2, BMP3, BRF, CAL, CALS, CANVAS, CAPTION, CIN, CIP, CLIP, CMYK, CMYKA, CR2, CR3, CRW, CUR, CUT, DATA, DCM, DCR, DCX, DDS, DFONT, DJVU, DNG, DOT, DPX, DXT1, DXT5, EPDF, EPI, EPS, EPS2, EPS3, EPSF, EPSI, EPT, EPT2, EPT3, ERF, EXR, FAX, FILE, FITS, FRACTAL, FTP, FTS, G3, G4, GIF, GIF87, GRADIENT, GRAY, GRAYA, GROUP4, GV, H, HALD, HDR, HEIC, HISTOGRAM, HRZ, HTM, HTML, HTTP, HTTPS, ICB, ICO, ICON, IIQ, INFO, INLINE, IPL, ISOBRL, ISOBRL6, J2C, J2K, JBG, JBIG, JNG, JNX, JP2, JPC, JPE, JPEG, JPG, JPM, JPS, JPT, JSON, K25, KDC, LABEL, M2V, M4V, MAC, MAGICK, MAP, MASK, MAT, MATTE, MEF, MIFF, MKV, MNG, MONO, MOV, MP4, MPC, MPG, MRW, MSL, MSVG, MTV, MVG, NEF, NRW, NULL, ORF, OTB, OTF, PAL, PALM, PAM, PANGO, PATTERN, PBM, PCD, PCDS, PCL, PCT, PCX, PDB, PDF, PDFA, PEF, PES, PFA, PFB, PFM, PGM, PGX, PICON, PICT, PIX, PJPEG, PLASMA, PNG, PNG00, PNG24, PNG32, PNG48, PNG64, PNG8, PNM, POCKETMOD, PPM, PREVIEW, PS, PS2, PS3, PSB, PSD, PTIF, PWP, RADIAL-GRADIENT, RAF, RAS, RAW, RGB, RGBA, RGBO, RGF, RLA, RLE, RMF, RW2, SCR, SCT, SFW, SGI, SHTML, SIX, SIXEL, SPARSE-COLOR, SR2, SRF, STEGANO, SUN, SVG, SVGZ, TEXT, TGA, THUMBNAIL, TIFF, TIFF64, TILE, TIM, TTC, TTF, TXT, UBRL, UBRL6, UIL, UYVY, VDA, VICAR, VID, VIDEO, VIFF, VIPS, VST, WBMP, WEBM, WEBP, WMF, WMV, WMZ, WPG, X, X3F, XBM, XC, XCF, XPM, XPS, XV, XWD, YCbCr, YCbCrA, YUV
+Imagick compiled with ImageMagick version => ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org
+Imagick using ImageMagick library version => ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org
+ImageMagick copyright => (C) 1999 ImageMagick Studio LLC
+ImageMagick release date => 2024-03-31
+ImageMagick number of supported formats:  => 240
+ImageMagick supported formats => 3FR, 3G2, 3GP, AAI, AI, APNG, ART, ARW, AVI, AVIF, AVS, BGR, BGRA, BGRO, BIE, BMP, BMP2, BMP3, BRF, CAL, CALS, CANVAS, CAPTION, CIN, CIP, CLIP, CMYK, CMYKA, CR2, CR3, CRW, CUR, CUT, DATA, DCM, DCR, DCX, DDS, DFONT, DNG, DPX, DXT1, DXT5, EPDF, EPI, EPS, EPS2, EPS3, EPSF, EPSI, EPT, EPT2, EPT3, ERF, FAX, FILE, FITS, FLV, FRACTAL, FTP, FTS, G3, G4, GIF, GIF87, GRADIENT, GRAY, GRAYA, GROUP4, H, HALD, HDR, HEIC, HEIF, HISTOGRAM, HRZ, HTM, HTML, HTTP, HTTPS, ICB, ICO, ICON, IIQ, INFO, INLINE, IPL, ISOBRL, ISOBRL6, J2C, J2K, JBG, JBIG, JNG, JNX, JP2, JPC, JPE, JPEG, JPG, JPM, JPS, JPT, JSON, K25, KDC, LABEL, M2V, M4V, MAC, MAGICK, MAP, MASK, MAT, MATTE, MEF, MIFF, MKV, MNG, MONO, MOV, MP4, MPC, MPEG, MPG, MRW, MSL, MTV, MVG, NEF, NRW, NULL, ORF, OTB, OTF, PAL, PALM, PAM, PATTERN, PBM, PCD, PCDS, PCL, PCT, PCX, PDB, PDF, PDFA, PEF, PES, PFA, PFB, PFM, PGM, PGX, PICON, PICT, PIX, PJPEG, PLASMA, PNG, PNG00, PNG24, PNG32, PNG48, PNG64, PNG8, PNM, POCKETMOD, PPM, PREVIEW, PS, PS2, PS3, PSB, PSD, PTIF, PWP, RADIAL-GRADIENT, RAF, RAS, RAW, RGB, RGBA, RGBO, RGF, RLA, RLE, RMF, RW2, SCR, SCT, SFW, SGI, SHTML, SIX, SIXEL, SPARSE-COLOR, SR2, SRF, STEGANO, SUN, TEXT, TGA, THUMBNAIL, TIFF, TIFF64, TILE, TIM, TTC, TTF, TXT, UBRL, UBRL6, UIL, UYVY, VDA, VICAR, VID, VIDEO, VIFF, VIPS, VST, WBMP, WEBM, WEBP, WMV, WPG, X, X3F, XBM, XC, XCF, XPM, XPS, XV, XWD, YCbCr, YCbCrA, YUV
 
 Directive => Local Value => Master Value
 imagick.allow_zero_dimension_images => 0 => 0
@@ -389,7 +389,7 @@ imagick.locale_fix => 0 => 0
 imagick.progress_monitor => 0 => 0
 imagick.set_single_thread => 1 => 1
 imagick.shutdown_sleep_count => 10 => 10
-imagick.skip_version_check => 1 => 1
+imagick.skip_version_check => 0 => 0
 
 imap
 
@@ -400,32 +400,14 @@ Kerberos Support => enabled
 Directive => Local Value => Master Value
 imap.enable_insecure_rsh => Off => Off
 
-interbase
-
-Firebird/InterBase Support => dynamic
-Compile-time Client Library Version => Firebird API version 30
-Run-time Client Library Version => LI-V6.3.8.33535 Firebird 3.0
-
-Directive => Local Value => Master Value
-ibase.allow_persistent => On => On
-ibase.dateformat => %Y-%m-%d => %Y-%m-%d
-ibase.default_charset => no value => no value
-ibase.default_db => no value => no value
-ibase.default_password => no value => no value
-ibase.default_user => no value => no value
-ibase.max_links => Unlimited => Unlimited
-ibase.max_persistent => Unlimited => Unlimited
-ibase.timeformat => %H:%M:%S => %H:%M:%S
-ibase.timestampformat => %Y-%m-%d %H:%M:%S => %Y-%m-%d %H:%M:%S
-
 intl
 
 Internationalization support => enabled
 version => 1.1.0
-ICU version => 70.1
-ICU Data version => 70.1
-ICU TZData version => 2024a
-ICU Unicode version => 14.0
+ICU version => 74.2
+ICU Data version => 74.2
+ICU TZData version => 2023c
+ICU Unicode version => 15.1
 
 Directive => Local Value => Master Value
 intl.default_locale => no value => no value
@@ -444,7 +426,7 @@ RCS Version => $Id: 3839f871a91c293a52322c63329c68db23a0290a $
 Total Links => 0/unlimited
 API Version => 3001
 Vendor Name => OpenLDAP
-Vendor Version => 20517
+Vendor Version => 20607
 SASL Support => Enabled
 
 Directive => Local Value => Master Value
@@ -454,7 +436,7 @@ libxml
 
 libXML support => active
 libXML Compiled Version => 2.9.14
-libXML Loaded Version => 20913
+libXML Loaded Version => 20914
 libXML streams => enabled
 
 mbstring
@@ -515,13 +497,12 @@ memcached
 
 memcached support => enabled
 Version => 3.2.0
-libmemcached-awesome headers version => 1.1.3
-libmemcached-awesome library version => 1.1.4
+libmemcached-awesome version => 1.1.4
 SASL support => yes
 Session support => yes
-igbinary support => yes
-json support => yes
-msgpack support => yes
+igbinary support => no
+json support => no
+msgpack support => no
 
 Directive => Local Value => Master Value
 memcached.compression_factor => 1.3 => 1.3
@@ -565,9 +546,9 @@ libmongoc crypto => enabled
 libmongoc crypto library => libcrypto
 libmongoc crypto system profile => disabled
 libmongoc SASL => enabled
-libmongoc ICU => disabled
+libmongoc ICU => enabled
 libmongoc compression => enabled
-libmongoc compression snappy => enabled
+libmongoc compression snappy => disabled
 libmongoc compression zlib => enabled
 libmongoc compression zstd => enabled
 libmongocrypt bundled version => 1.8.1
@@ -605,7 +586,7 @@ mysqli.allow_persistent => On => On
 mysqli.default_host => no value => no value
 mysqli.default_port => 3306 => 3306
 mysqli.default_pw => no value => no value
-mysqli.default_socket => no value => no value
+mysqli.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
 mysqli.default_user => no value => no value
 mysqli.max_links => Unlimited => Unlimited
 mysqli.max_persistent => Unlimited => Unlimited
@@ -801,7 +782,7 @@ Active Links => 0
 ODBC library => unixODBC
 ODBCVER => 0x0380
 ODBC_INCLUDE => -I/usr/include
-ODBC_LFLAGS => -L/usr/lib
+ODBC_LFLAGS => -L/usr/lib/x86_64-linux-gnu
 ODBC_LIBS => -lodbc
 
 Directive => Local Value => Master Value
@@ -819,8 +800,8 @@ odbc.max_persistent => Unlimited => Unlimited
 openssl
 
 OpenSSL support => enabled
-OpenSSL Library Version => OpenSSL 3.0.2 15 Mar 2022
-OpenSSL Header Version => OpenSSL 3.0.2 15 Mar 2022
+OpenSSL Library Version => OpenSSL 3.0.13 30 Jan 2024
+OpenSSL Header Version => OpenSSL 3.0.13 30 Jan 2024
 Openssl default config => /usr/lib/ssl/openssl.cnf
 
 Directive => Local Value => Master Value
@@ -831,19 +812,10 @@ pcntl
 
 pcntl support => enabled
 
-pcov
-
-PCOV support => Enabled
-PCOV version => 1.0.11
-pcov.directory => /home/runner/work/symbol-data-builder/symbol-data-builder/src
-pcov.exclude => none
-pcov.initial.memory => 65336 bytes
-pcov.initial.files => 64
-
 pcre
 
 PCRE (Perl Compatible Regular Expressions) Support => enabled
-PCRE Library Version => 8.45 2021-06-15
+PCRE Library Version => 8.39 2016-06-14
 PCRE JIT Support => enabled
 
 Directive => Local Value => Master Value
@@ -881,14 +853,14 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 14.12 (Ubuntu 14.12-0ubuntu0.22.04.1)
-Module version => 7.2.34-50+ubuntu22.04.1+deb.sury.org+1
+PostgreSQL(libpq) Version => 16.2 (Ubuntu 16.2-1ubuntu4)
+Module version => 7.2.34
 Revision =>  $Id: 9c5f356c77143981d2e905e276e439501fe0f419 $ 
 
 pdo_sqlite
 
 PDO Driver for SQLite 3.x => enabled
-SQLite Library => 3.37.2
+SQLite Library => 3.45.1
 
 pdo_sqlsrv
 
@@ -904,8 +876,8 @@ pdo_sqlsrv.set_locale_info => 2 => 2
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL(libpq) Version => 14.12 (Ubuntu 14.12-0ubuntu0.22.04.1)
-PostgreSQL(libpq)  => PostgreSQL 14.12 (Ubuntu 14.12-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+PostgreSQL(libpq) Version => 16.2 (Ubuntu 16.2-1ubuntu4)
+PostgreSQL(libpq)  => PostgreSQL 16.2 (Ubuntu 16.2-1ubuntu4) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu3) 13.2.0, 64-bit
 Multibyte character support => enabled
 SSL support => enabled
 Active Persistent Links => 0
@@ -958,18 +930,12 @@ Directive => Local Value => Master Value
 cli.pager => no value => no value
 cli.prompt => \\b \\>  => \\b \\> 
 
-recode
-
-Recode Support => enabled
-Revision => $Id: 8850a0f49afd824e77a2873e4cb19798daf74354 $
-
 redis
 
 Redis Support => enabled
 Redis Version => 6.0.2
 Redis Sentinel Version => 1.0
-Available serializers => php, json, igbinary
-Available compression => lzf, zstd, lz4
+Available serializers => php, json
 
 Directive => Local Value => Master Value
 redis.arrays.algorithm => no value => no value
@@ -1014,7 +980,7 @@ session
 
 Session Support => enabled
 Registered save handlers => files user memcache redis rediscluster memcached 
-Registered serializer handlers => php_serialize php php_binary igbinary msgpack wddx 
+Registered serializer handlers => php_serialize php php_binary igbinary msgpack 
 
 Directive => Local Value => Master Value
 session.auto_start => Off => Off
@@ -1060,7 +1026,7 @@ Schema support => enabled
 snmp
 
 NET-SNMP Support => enabled
-NET-SNMP Version => 5.9.1
+NET-SNMP Version => 5.9.4.pre2
 PHP SNMP Version => 0.1
 
 soap
@@ -1094,8 +1060,8 @@ Classes => AppendIterator, ArrayIterator, ArrayObject, BadFunctionCallException,
 sqlite3
 
 SQLite3 support => enabled
-SQLite3 module version => 7.2.34-50+ubuntu22.04.1+deb.sury.org+1
-SQLite Library => 3.37.2
+SQLite3 module version => 7.2.34
+SQLite Library => 3.45.1
 
 Directive => Local Value => Master Value
 sqlite3.defensive => 1 => 1
@@ -1116,7 +1082,7 @@ sqlsrv.WarningsReturnAsErrors => On => On
 standard
 
 Dynamic Library Support => enabled
-Path to sendmail => /usr/sbin/sendmail -t -i 
+Path to sendmail =>  -t -i 
 
 Directive => Local Value => Master Value
 assert.active => 1 => 1
@@ -1141,18 +1107,18 @@ Revision => $Id: 73c7c7668de72405a739f837dc62fd6ce8e5eba6 $
 
 sysvsem
 
-Version => 7.2.34-50+ubuntu22.04.1+deb.sury.org+1
+Version => 7.2.34
 
 sysvshm
 
-Version => 7.2.34-50+ubuntu22.04.1+deb.sury.org+1
+Version => 7.2.34
 
 tidy
 
 Tidy support => enabled
 libTidy Version => 5.6.0
 libTidy Release => 2017/11/25
-Extension Version => 7.2.34-50+ubuntu22.04.1+deb.sury.org+1 ($Id: 19b720964b65317b146dcc31b678ab20e7236543 $)
+Extension Version => 7.2.34 ($Id: 19b720964b65317b146dcc31b678ab20e7236543 $)
 
 Directive => Local Value => Master Value
 tidy.clean_output => no value => no value
@@ -1161,11 +1127,6 @@ tidy.default_config => no value => no value
 tokenizer
 
 Tokenizer Support => enabled
-
-wddx
-
-WDDX Support => enabled
-WDDX Session Serializer => enabled
 
 xdebug
 
@@ -1178,7 +1139,7 @@ xdebug
 [1m                              __/ |
 [1m                             |___/ 
 
-[0mVersion => 3.1.6
+[0mVersion => 3.1.5
 Support Xdebug on Patreon, GitHub, or as a business: https://xdebug.org/support
 
              Enabled Features (through \'xdebug.mode\' setting)             
@@ -1191,7 +1152,7 @@ Step Debugger => ✘ disabled
 Tracing => ✘ disabled
 
                             Optional Features                            
-Compressed File Support => no
+Compressed File Support => yes (gzip)
 Clock Source => clock_gettime
 
 Directive => Local Value => Master Value
@@ -1266,7 +1227,7 @@ xdebug.trace_options => 0 => 0
 xdebug.trace_output_dir => (setting renamed in Xdebug 3) => (setting renamed in Xdebug 3)
 xdebug.trace_output_name => trace.%c => trace.%c
 xdebug.trigger_value => no value => no value
-xdebug.use_compression => 0 => 0
+xdebug.use_compression => 1 => 1
 xdebug.var_display_max_children => 128 => 128
 xdebug.var_display_max_data => 512 => 512
 xdebug.var_display_max_depth => 3 => 3
@@ -1284,7 +1245,7 @@ XMLReader => enabled
 xmlrpc
 
 core library version => xmlrpc-epi v. 0.54
-php extension version => 7.2.34-50+ubuntu22.04.1+deb.sury.org+1
+php extension version => 7.2.34
 author => Dan Libby
 homepage => http://xmlrpc-epi.sourceforge.net
 open sourced by => Epinions.com
@@ -1296,16 +1257,16 @@ XMLWriter => enabled
 xsl
 
 XSL => enabled
-libxslt Version => 1.1.34
-libxslt compiled against libxml Version => 2.9.13
+libxslt Version => 1.1.39
+libxslt compiled against libxml Version => 2.9.14
 EXSLT => enabled
-libexslt Version => 1.1.34
+libexslt Version => 0.8.21
 
 yaml
 
 LibYAML Support => enabled
 Module Version => 2.2.3
-LibYAML Version => 0.2.2
+LibYAML Version => 0.2.5
 
 Directive => Local Value => Master Value
 yaml.decode_binary => 0 => 0
@@ -1346,7 +1307,7 @@ opcache.max_file_size => 0 => 0
 opcache.max_wasted_percentage => 5 => 5
 opcache.memory_consumption => 128 => 128
 opcache.opt_debug_level => 0 => 0
-opcache.optimization_level => 0x7FFEBF5F => 0x7FFEBF5F
+opcache.optimization_level => 0x7FFFBFFF => 0x7FFFBFFF
 opcache.preferred_memory_model => no value => no value
 opcache.protect_memory => 0 => 0
 opcache.restrict_api => no value => no value
@@ -1370,8 +1331,8 @@ zlib
 ZLib Support => enabled
 Stream Wrapper => compress.zlib://
 Stream Filter => zlib.inflate, zlib.deflate
-Compiled Version => 1.2.11
-Linked Version => 1.2.11
+Compiled Version => 1.3
+Linked Version => 1.3
 
 Directive => Local Value => Master Value
 zlib.output_compression => Off => Off
@@ -1381,8 +1342,8 @@ zlib.output_handler => no value => no value
 zmq
 
 ZMQ extension => enabled
-ZMQ extension version => 1.1.3
-libzmq version => 4.3.4
+ZMQ extension version => @PACKAGE_VERSION@
+libzmq version => 4.3.5
 
 Additional Modules
 

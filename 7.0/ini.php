@@ -389,8 +389,8 @@ return array (
     ),
     'sendmail_path' => 
     array (
-      'global_value' => '/usr/sbin/sendmail -t -i ',
-      'local_value' => '/usr/sbin/sendmail -t -i ',
+      'global_value' => ' -t -i ',
+      'local_value' => ' -t -i ',
       'access' => 4,
     ),
     'serialize_precision' => 
@@ -1394,8 +1394,8 @@ return array (
     ),
     'imagick.skip_version_check' => 
     array (
-      'global_value' => '1',
-      'local_value' => '1',
+      'global_value' => '0',
+      'local_value' => '0',
       'access' => 7,
     ),
   ),
@@ -1406,69 +1406,6 @@ return array (
       'global_value' => '0',
       'local_value' => '0',
       'access' => 4,
-    ),
-  ),
-  'interbase' => 
-  array (
-    'ibase.allow_persistent' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'ibase.dateformat' => 
-    array (
-      'global_value' => '%Y-%m-%d',
-      'local_value' => '%Y-%m-%d',
-      'access' => 7,
-    ),
-    'ibase.default_charset' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'ibase.default_db' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 4,
-    ),
-    'ibase.default_password' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'ibase.default_user' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'ibase.max_links' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-    'ibase.max_persistent' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-    'ibase.timeformat' => 
-    array (
-      'global_value' => '%H:%M:%S',
-      'local_value' => '%H:%M:%S',
-      'access' => 7,
-    ),
-    'ibase.timestampformat' => 
-    array (
-      'global_value' => '%Y-%m-%d %H:%M:%S',
-      'local_value' => '%Y-%m-%d %H:%M:%S',
-      'access' => 7,
     ),
   ),
   'intl' => 
@@ -1540,21 +1477,6 @@ return array (
     array (
       'global_value' => 'ISO-8859-15',
       'local_value' => 'ISO-8859-15',
-      'access' => 7,
-    ),
-  ),
-  'mcrypt' => 
-  array (
-    'mcrypt.algorithms_dir' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mcrypt.modes_dir' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
       'access' => 7,
     ),
   ),
@@ -1751,8 +1673,8 @@ return array (
     ),
     'mysqli.default_socket' => 
     array (
-      'global_value' => NULL,
-      'local_value' => NULL,
+      'global_value' => '/var/run/mysqld/mysqld.sock',
+      'local_value' => '/var/run/mysqld/mysqld.sock',
       'access' => 7,
     ),
     'mysqli.default_user' => 
@@ -1980,9 +1902,6 @@ return array (
       'local_value' => '\\b \\> ',
       'access' => 7,
     ),
-  ),
-  'recode' => 
-  array (
   ),
   'redis' => 
   array (
@@ -2218,9 +2137,6 @@ return array (
   'sockets' => 
   array (
   ),
-  'sodium' => 
-  array (
-  ),
   'sqlite3' => 
   array (
     'sqlite3.defensive' => 
@@ -2294,9 +2210,6 @@ return array (
     ),
   ),
   'tokenizer' => 
-  array (
-  ),
-  'wddx' => 
   array (
   ),
   'xmlreader' => 
@@ -2919,12 +2832,6 @@ return array (
       'local_value' => '2',
       'access' => 7,
     ),
-    'xdebug.profiler_aggregate' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 6,
-    ),
     'xdebug.profiler_append' => 
     array (
       'global_value' => '0',
@@ -2990,12 +2897,6 @@ return array (
       'global_value' => '0',
       'local_value' => '0',
       'access' => 6,
-    ),
-    'xdebug.remote_handler' => 
-    array (
-      'global_value' => 'dbgp',
-      'local_value' => 'dbgp',
-      'access' => 7,
     ),
     'xdebug.remote_host' => 
     array (

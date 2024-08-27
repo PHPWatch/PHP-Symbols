@@ -395,6 +395,31 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getIanaID' => 
+    array (
+      'name' => 'getIanaID',
+      'class' => 'IntlTimeZone',
+      'parameters' => 
+      array (
+        'timezoneId' => 
+        array (
+          'position' => 0,
+          'name' => 'timezoneId',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'string|false',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getID' => 
     array (
       'name' => 'getID',
@@ -676,7 +701,7 @@ return array (
   - Static properties [0] {
   }
 
-  - Static methods [14] {
+  - Static methods [15] {
     Method [ <internal:intl> static public method countEquivalentIDs ] {
 
       - Parameters [1] {
@@ -749,6 +774,14 @@ return array (
       - Parameters [0] {
       }
       - Tentative return [ IntlTimeZone ]
+    }
+
+    Method [ <internal:intl> static public method getIanaID ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $timezoneId ]
+      }
+      - Return [ string|false ]
     }
 
     Method [ <internal:intl> static public method getRegion ] {

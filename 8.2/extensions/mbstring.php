@@ -94,7 +94,7 @@ return array (
   ),
   'constants' => 
   array (
-    'MB_ONIGURUMA_VERSION' => '6.9.7',
+    'MB_ONIGURUMA_VERSION' => '6.9.9',
     'MB_CASE_UPPER' => 0,
     'MB_CASE_LOWER' => 1,
     'MB_CASE_TITLE' => 2,

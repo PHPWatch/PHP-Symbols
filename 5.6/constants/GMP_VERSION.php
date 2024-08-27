@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '6.2.1',
+  'value' => '6.3.0',
   'extension' => 'gmp',
 );

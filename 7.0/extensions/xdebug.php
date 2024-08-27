@@ -17,7 +17,7 @@ return array (
        'name' => 'xdebug',
     )),
     'removed' => NULL,
-    'version' => '2.8.1',
+    'version' => '2.9.0',
     'resources' => 
     array (
       0 => 
@@ -53,8 +53,6 @@ return array (
     'xdebug_stop_trace' => 'xdebug_stop_trace',
     'xdebug_get_tracefile_name' => 'xdebug_get_tracefile_name',
     'xdebug_get_profiler_filename' => 'xdebug_get_profiler_filename',
-    'xdebug_dump_aggr_profiling_data' => 'xdebug_dump_aggr_profiling_data',
-    'xdebug_clear_aggr_profiling_data' => 'xdebug_clear_aggr_profiling_data',
     'xdebug_start_gcstats' => 'xdebug_start_gcstats',
     'xdebug_stop_gcstats' => 'xdebug_stop_gcstats',
     'xdebug_get_gcstats_filename' => 'xdebug_get_gcstats_filename',
@@ -80,14 +78,14 @@ return array (
   ),
   'constants' => 
   array (
+    'XDEBUG_STACK_NO_DESC' => 1,
+    'XDEBUG_CC_UNUSED' => 1,
+    'XDEBUG_CC_DEAD_CODE' => 2,
+    'XDEBUG_CC_BRANCH_CHECK' => 4,
     'XDEBUG_TRACE_APPEND' => 1,
     'XDEBUG_TRACE_COMPUTERIZED' => 2,
     'XDEBUG_TRACE_HTML' => 4,
     'XDEBUG_TRACE_NAKED_FILENAME' => 8,
-    'XDEBUG_CC_UNUSED' => 1,
-    'XDEBUG_CC_DEAD_CODE' => 2,
-    'XDEBUG_CC_BRANCH_CHECK' => 4,
-    'XDEBUG_STACK_NO_DESC' => 1,
     'XDEBUG_FILTER_TRACING' => 256,
     'XDEBUG_FILTER_CODE_COVERAGE' => 512,
     'XDEBUG_FILTER_NONE' => 0,
@@ -133,7 +131,6 @@ return array (
     'xdebug.max_nesting_level' => '256',
     'xdebug.max_stack_frames' => '-1',
     'xdebug.overload_var_dump' => '2',
-    'xdebug.profiler_aggregate' => '0',
     'xdebug.profiler_append' => '0',
     'xdebug.profiler_enable' => '0',
     'xdebug.profiler_enable_trigger' => '0',
@@ -145,7 +142,6 @@ return array (
     'xdebug.remote_connect_back' => '0',
     'xdebug.remote_cookie_expire_time' => '3600',
     'xdebug.remote_enable' => '0',
-    'xdebug.remote_handler' => 'dbgp',
     'xdebug.remote_host' => 'localhost',
     'xdebug.remote_log' => '',
     'xdebug.remote_log_level' => '7',

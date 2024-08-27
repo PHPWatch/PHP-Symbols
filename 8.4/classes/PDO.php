@@ -109,9 +109,6 @@ return array (
     'DBLIB_ATTR_TDS_VERSION' => 1004,
     'DBLIB_ATTR_SKIP_EMPTY_ROWSETS' => 1005,
     'DBLIB_ATTR_DATETIME_CONVERT' => 1006,
-    'FB_ATTR_DATE_FORMAT' => 1000,
-    'FB_ATTR_TIME_FORMAT' => 1001,
-    'FB_ATTR_TIMESTAMP_FORMAT' => 1002,
     'MYSQL_ATTR_USE_BUFFERED_QUERY' => 1000,
     'MYSQL_ATTR_LOCAL_INFILE' => 1001,
     'MYSQL_ATTR_INIT_COMMAND' => 1002,
@@ -610,7 +607,7 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:PDO> class PDO ] {
 
-  - Constants [119] {
+  - Constants [116] {
     Constant [ public int PARAM_NULL ] { 0 }
     Constant [ public int PARAM_BOOL ] { 5 }
     Constant [ public int PARAM_INT ] { 1 }
@@ -692,9 +689,6 @@ return array (
     Constant [ public int DBLIB_ATTR_TDS_VERSION ] { 1004 }
     Constant [ public int DBLIB_ATTR_SKIP_EMPTY_ROWSETS ] { 1005 }
     Constant [ public int DBLIB_ATTR_DATETIME_CONVERT ] { 1006 }
-    Constant [ public int FB_ATTR_DATE_FORMAT ] { 1000 }
-    Constant [ public int FB_ATTR_TIME_FORMAT ] { 1001 }
-    Constant [ public int FB_ATTR_TIMESTAMP_FORMAT ] { 1002 }
     Constant [ public int MYSQL_ATTR_USE_BUFFERED_QUERY ] { 1000 }
     Constant [ public int MYSQL_ATTR_LOCAL_INFILE ] { 1001 }
     Constant [ public int MYSQL_ATTR_INIT_COMMAND ] { 1002 }

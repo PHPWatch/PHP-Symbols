@@ -17,7 +17,7 @@ return array (
        'name' => 'Zend OPcache',
     )),
     'removed' => NULL,
-    'version' => '7.3.33-19+ubuntu22.04.1+deb.sury.org+1',
+    'version' => '7.3.33',
     'resources' => 
     array (
       0 => 
@@ -68,7 +68,7 @@ return array (
     'opcache.max_wasted_percentage' => '5',
     'opcache.memory_consumption' => '128',
     'opcache.opt_debug_level' => '0',
-    'opcache.optimization_level' => '0x7FFEBF5F',
+    'opcache.optimization_level' => '0x7FFEBFFF',
     'opcache.preferred_memory_model' => '',
     'opcache.protect_memory' => '0',
     'opcache.restrict_api' => '',

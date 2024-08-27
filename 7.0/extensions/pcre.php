@@ -17,7 +17,7 @@ return array (
        'name' => 'pcre',
     )),
     'removed' => NULL,
-    'version' => '7.0.33-75+ubuntu22.04.1+deb.sury.org+1',
+    'version' => '7.0.33',
     'resources' => 
     array (
       0 => 
@@ -59,7 +59,7 @@ return array (
     'PREG_BAD_UTF8_ERROR' => 4,
     'PREG_BAD_UTF8_OFFSET_ERROR' => 5,
     'PREG_JIT_STACKLIMIT_ERROR' => 6,
-    'PCRE_VERSION' => '8.45 2021-06-15',
+    'PCRE_VERSION' => '8.39 2016-06-14',
   ),
   'dependencies' => 
   array (

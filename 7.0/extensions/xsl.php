@@ -17,7 +17,7 @@ return array (
        'name' => 'xsl',
     )),
     'removed' => NULL,
-    'version' => '7.0.33-75+ubuntu22.04.1+deb.sury.org+1',
+    'version' => '7.0.33',
     'resources' => 
     array (
       0 => 
@@ -46,10 +46,10 @@ return array (
     'XSL_SECPREF_READ_NETWORK' => 16,
     'XSL_SECPREF_WRITE_NETWORK' => 32,
     'XSL_SECPREF_DEFAULT' => 44,
-    'LIBXSLT_VERSION' => 10134,
-    'LIBXSLT_DOTTED_VERSION' => '1.1.34',
-    'LIBEXSLT_VERSION' => 820,
-    'LIBEXSLT_DOTTED_VERSION' => '1.1.34',
+    'LIBXSLT_VERSION' => 10139,
+    'LIBXSLT_DOTTED_VERSION' => '1.1.39',
+    'LIBEXSLT_VERSION' => 821,
+    'LIBEXSLT_DOTTED_VERSION' => '0.8.21',
   ),
   'dependencies' => 
   array (

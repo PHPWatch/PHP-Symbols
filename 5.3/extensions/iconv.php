@@ -47,7 +47,7 @@ return array (
   'constants' => 
   array (
     'ICONV_IMPL' => 'glibc',
-    'ICONV_VERSION' => '2.35',
+    'ICONV_VERSION' => '2.39',
     'ICONV_MIME_DECODE_STRICT' => 1,
     'ICONV_MIME_DECODE_CONTINUE_ON_ERROR' => 2,
   ),

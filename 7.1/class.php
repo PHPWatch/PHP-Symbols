@@ -251,7 +251,6 @@ return array (
   'SoapFault',
   'SoapParam',
   'SoapHeader',
-  'SodiumException',
   'SQLite3',
   'SQLite3Stmt',
   'SQLite3Result',

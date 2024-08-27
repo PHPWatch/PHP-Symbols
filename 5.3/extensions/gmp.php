@@ -79,7 +79,7 @@ return array (
     'GMP_ROUND_ZERO' => 0,
     'GMP_ROUND_PLUSINF' => 1,
     'GMP_ROUND_MINUSINF' => 2,
-    'GMP_VERSION' => '6.2.1',
+    'GMP_VERSION' => '6.3.0',
   ),
   'dependencies' => 
   array (

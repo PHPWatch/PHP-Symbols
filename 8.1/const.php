@@ -112,7 +112,7 @@ return array (
   array (
     'LIBXML_VERSION' => 20914,
     'LIBXML_DOTTED_VERSION' => '2.9.14',
-    'LIBXML_LOADED_VERSION' => '20913',
+    'LIBXML_LOADED_VERSION' => '20914',
     'LIBXML_NOENT' => 2,
     'LIBXML_DTDLOAD' => 4,
     'LIBXML_DTDATTR' => 8,
@@ -140,8 +140,8 @@ return array (
   ),
   'openssl' => 
   array (
-    'OPENSSL_VERSION_TEXT' => 'OpenSSL 3.0.2 15 Mar 2022',
-    'OPENSSL_VERSION_NUMBER' => 805306400,
+    'OPENSSL_VERSION_TEXT' => 'OpenSSL 3.0.13 30 Jan 2024',
+    'OPENSSL_VERSION_NUMBER' => 805306576,
     'X509_PURPOSE_SSL_CLIENT' => 1,
     'X509_PURPOSE_SSL_SERVER' => 2,
     'X509_PURPOSE_NS_SSL_SERVER' => 3,
@@ -238,8 +238,8 @@ return array (
     'ZLIB_RLE' => 3,
     'ZLIB_FIXED' => 4,
     'ZLIB_DEFAULT_STRATEGY' => 0,
-    'ZLIB_VERSION' => '1.2.11',
-    'ZLIB_VERNUM' => 4784,
+    'ZLIB_VERSION' => '1.3',
+    'ZLIB_VERNUM' => 4864,
     'ZLIB_OK' => 0,
     'ZLIB_STREAM_END' => 1,
     'ZLIB_NEED_DICT' => 2,
@@ -1476,7 +1476,7 @@ return array (
     'CURLINFO_HEADER_OUT' => 2,
     'CURLINFO_HEADER_SIZE' => 2097163,
     'CURLINFO_HTTP_CODE' => 2097154,
-    'CURLINFO_LASTONE' => 60,
+    'CURLINFO_LASTONE' => 64,
     'CURLINFO_NAMELOOKUP_TIME' => 3145732,
     'CURLINFO_PRETRANSFER_TIME' => 3145734,
     'CURLINFO_PRIVATE' => 1048597,
@@ -1491,7 +1491,7 @@ return array (
     'CURLINFO_STARTTRANSFER_TIME' => 3145745,
     'CURLINFO_TOTAL_TIME' => 3145731,
     'CURLMSG_DONE' => 1,
-    'CURLVERSION_NOW' => 9,
+    'CURLVERSION_NOW' => 10,
     'CURLM_BAD_EASY_HANDLE' => 2,
     'CURLM_BAD_HANDLE' => 1,
     'CURLM_CALL_MULTI_PERFORM' => -1,
@@ -1827,7 +1827,7 @@ return array (
     'CURLOPT_PROXY_TLSAUTH_TYPE' => 10253,
     'CURLOPT_PROXY_TLSAUTH_USERNAME' => 10251,
     'CURLPROXY_HTTPS' => 2,
-    'CURL_MAX_READ_SIZE' => 524288,
+    'CURL_MAX_READ_SIZE' => 10485760,
     'CURLOPT_ABSTRACT_UNIX_SOCKET' => 10264,
     'CURL_SSLVERSION_MAX_DEFAULT' => 65536,
     'CURL_SSLVERSION_MAX_NONE' => 0,
@@ -1931,7 +1931,7 @@ return array (
   array (
     'ENCHANT_MYSPELL' => 1,
     'ENCHANT_ISPELL' => 2,
-    'LIBENCHANT_VERSION' => '2.3.2',
+    'LIBENCHANT_VERSION' => '2.3.3',
   ),
   'mbstring' => 
   array (
@@ -1943,7 +1943,7 @@ return array (
     'MB_CASE_LOWER_SIMPLE' => 5,
     'MB_CASE_TITLE_SIMPLE' => 6,
     'MB_CASE_FOLD_SIMPLE' => 7,
-    'MB_ONIGURUMA_VERSION' => '6.9.7',
+    'MB_ONIGURUMA_VERSION' => '6.9.9',
   ),
   'fileinfo' => 
   array (
@@ -2069,7 +2069,7 @@ return array (
     'GMP_ROUND_ZERO' => 0,
     'GMP_ROUND_PLUSINF' => 1,
     'GMP_ROUND_MINUSINF' => 2,
-    'GMP_VERSION' => '6.2.1',
+    'GMP_VERSION' => '6.3.0',
     'GMP_MSW_FIRST' => 1,
     'GMP_LSW_FIRST' => 2,
     'GMP_LITTLE_ENDIAN' => 4,
@@ -2079,7 +2079,7 @@ return array (
   'iconv' => 
   array (
     'ICONV_IMPL' => 'glibc',
-    'ICONV_VERSION' => '2.35',
+    'ICONV_VERSION' => '2.39',
     'ICONV_MIME_DECODE_STRICT' => 1,
     'ICONV_MIME_DECODE_CONTINUE_ON_ERROR' => 2,
   ),
@@ -2157,8 +2157,8 @@ return array (
   'intl' => 
   array (
     'INTL_MAX_LOCALE_LEN' => 156,
-    'INTL_ICU_VERSION' => '70.1',
-    'INTL_ICU_DATA_VERSION' => '70.1',
+    'INTL_ICU_VERSION' => '74.2',
+    'INTL_ICU_DATA_VERSION' => '74.2',
     'ULOC_ACTUAL_LOCALE' => 0,
     'ULOC_VALID_LOCALE' => 1,
     'GRAPHEME_EXTR_COUNT' => 0,
@@ -2439,7 +2439,7 @@ return array (
   ),
   'mongodb' => 
   array (
-    'MONGODB_VERSION' => '1.19.3',
+    'MONGODB_VERSION' => '1.19.2',
     'MONGODB_STABILITY' => 'stable',
   ),
   'msgpack' => 
@@ -2622,13 +2622,6 @@ return array (
     'SQL_INDEX_ALL' => 1,
     'SQL_ENSURE' => 1,
     'SQL_QUICK' => 0,
-  ),
-  'pcov' => 
-  array (
-    'pcov\\all' => 0,
-    'pcov\\inclusive' => 1,
-    'pcov\\exclusive' => 2,
-    'pcov\\version' => '1.0.11',
   ),
   'pgsql' => 
   array (
@@ -3466,10 +3459,10 @@ return array (
     'XSL_SECPREF_READ_NETWORK' => 16,
     'XSL_SECPREF_WRITE_NETWORK' => 32,
     'XSL_SECPREF_DEFAULT' => 44,
-    'LIBXSLT_VERSION' => 10134,
-    'LIBXSLT_DOTTED_VERSION' => '1.1.34',
-    'LIBEXSLT_VERSION' => 820,
-    'LIBEXSLT_DOTTED_VERSION' => '1.1.34',
+    'LIBXSLT_VERSION' => 10139,
+    'LIBXSLT_DOTTED_VERSION' => '1.1.39',
+    'LIBEXSLT_VERSION' => 821,
+    'LIBEXSLT_DOTTED_VERSION' => '0.8.21',
   ),
   'yaml' => 
   array (

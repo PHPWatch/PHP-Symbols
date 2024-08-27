@@ -215,7 +215,6 @@ return array (
   'PDOStatement',
   'PDORow',
   'Pdo\\Dblib',
-  'Pdo\\Firebird',
   'Pdo\\Mysql',
   'Pdo\\Odbc',
   'Pdo\\Pgsql',

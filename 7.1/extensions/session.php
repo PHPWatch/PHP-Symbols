@@ -17,7 +17,7 @@ return array (
        'name' => 'session',
     )),
     'removed' => NULL,
-    'version' => '7.1.33-63+ubuntu22.04.1+deb.sury.org+1',
+    'version' => '7.1.33',
     'resources' => 
     array (
       0 => 

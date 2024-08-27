@@ -1360,9 +1360,6 @@ return array (
   'pdo_dblib' => 
   array (
   ),
-  'PDO_Firebird' => 
-  array (
-  ),
   'pdo_mysql' => 
   array (
     'pdo_mysql.default_socket' => 

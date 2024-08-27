@@ -17,7 +17,7 @@ return array (
        'name' => 'sqlsrv',
     )),
     'removed' => NULL,
-    'version' => '5.9.0',
+    'version' => '5.10.1',
     'resources' => 
     array (
       0 => 
@@ -91,6 +91,7 @@ return array (
     'SQLSRV_PHPTYPE_INT' => 2,
     'SQLSRV_PHPTYPE_FLOAT' => 3,
     'SQLSRV_PHPTYPE_DATETIME' => 5,
+    'SQLSRV_PHPTYPE_TABLE' => 7,
     'SQLSRV_ENC_BINARY' => 'binary',
     'SQLSRV_ENC_CHAR' => 'char',
     'SQLSRV_NULLABLE_NO' => 0,
@@ -112,6 +113,7 @@ return array (
     'SQLSRV_SQLTYPE_TIMESTAMP' => 4606,
     'SQLSRV_SQLTYPE_TINYINT' => -6,
     'SQLSRV_SQLTYPE_UDT' => -151,
+    'SQLSRV_SQLTYPE_TABLE' => -153,
     'SQLSRV_SQLTYPE_UNIQUEIDENTIFIER' => -11,
     'SQLSRV_SQLTYPE_XML' => -152,
     'SQLSRV_SQLTYPE_DATE' => 5211,

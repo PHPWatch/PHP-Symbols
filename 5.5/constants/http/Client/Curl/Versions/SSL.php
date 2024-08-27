@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => 'GnuTLS/3.7.3',
+  'value' => 'GnuTLS/3.8.3',
   'extension' => 'http',
 );

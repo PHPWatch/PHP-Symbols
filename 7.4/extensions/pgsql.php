@@ -149,8 +149,8 @@ return array (
   ),
   'constants' => 
   array (
-    'PGSQL_LIBPQ_VERSION' => '14.12 (Ubuntu 14.12-0ubuntu0.22.04.1)',
-    'PGSQL_LIBPQ_VERSION_STR' => 'PostgreSQL 14.12 (Ubuntu 14.12-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit',
+    'PGSQL_LIBPQ_VERSION' => '16.2 (Ubuntu 16.2-1ubuntu4)',
+    'PGSQL_LIBPQ_VERSION_STR' => 'PostgreSQL 16.2 (Ubuntu 16.2-1ubuntu4) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu3) 13.2.0, 64-bit',
     'PGSQL_CONNECT_FORCE_NEW' => 2,
     'PGSQL_CONNECT_ASYNC' => 4,
     'PGSQL_ASSOC' => 1,

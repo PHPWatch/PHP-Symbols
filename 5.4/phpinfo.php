@@ -190,8 +190,8 @@ ctype functions => enabled
 curl
 
 cURL support => enabled
-cURL Information => 7.81.0
-Age => 9
+cURL Information => 8.5.0
+Age => 10
 Features
 AsynchDNS => Yes
 Debug => No
@@ -206,11 +206,11 @@ SSPI => No
 krb4 => No
 libz => Yes
 CharConv => No
-Protocols => dict, file, ftp, ftps, gopher, gophers, http, https, imap, imaps, ldap, ldaps, mqtt, pop3, pop3s, rtmp, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp
+Protocols => dict, file, ftp, ftps, gopher, gophers, http, https, imap, imaps, ldap, ldaps, mqtt, pop3, pop3s, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp
 Host => x86_64-pc-linux-gnu
-SSL Version => GnuTLS/3.7.3
-ZLib Version => 1.2.11
-libSSH Version => libssh/0.9.6/openssl/zlib
+SSL Version => GnuTLS/3.8.3
+ZLib Version => 1.3
+libSSH Version => libssh/0.10.6/openssl/zlib
 
 date
 
@@ -252,10 +252,10 @@ Version => 1.1.0
 Libenchant Version => 1.5.x
 Revision => $Id: 0eb8144f76f6744a423c3c05eb51932caa4ca17e $
 
-ispell => Ispell Provider => /usr/lib/enchant/libenchant_ispell.so
-myspell => Myspell Provider => /usr/lib/enchant/libenchant_myspell.so
 aspell => Aspell Provider => /usr/lib/enchant/libenchant_aspell.so
 hspell => Hspell Provider => /usr/lib/enchant/libenchant_hspell.so
+myspell => Myspell Provider => /usr/lib/enchant/libenchant_myspell.so
+ispell => Ispell Provider => /usr/lib/enchant/libenchant_ispell.so
 
 ereg
 
@@ -330,7 +330,7 @@ GetText Support => enabled
 gmp
 
 gmp support => enabled
-GMP version => 6.2.1
+GMP version => 6.3.0
 
 hash
 
@@ -343,8 +343,8 @@ HTTP Support => enabled
 Extension Version => 2.6.0
 
 Used Library => Compiled => Linked
-libz => 1.2.8 => 1.2.11
-libcurl => 7.35.0 => 7.81.0
+libz => 1.2.8 => 1.3
+libcurl => 7.35.0 => 8.5.0
 libevent => 2.0.21-stable => 2.0.21-stable
 libidn (IDNA2003) => 0.26 => unknown
 
@@ -355,7 +355,7 @@ iconv
 
 iconv support => enabled
 iconv implementation => glibc
-iconv library version => 2.35
+iconv library version => 2.39
 
 Directive => Local Value => Master Value
 iconv.input_encoding => ISO-8859-1 => ISO-8859-1
@@ -428,7 +428,7 @@ libxml
 
 libXML support => active
 libXML Compiled Version => 2.9.1
-libXML Loaded Version => 20913
+libXML Loaded Version => 20914
 libXML streams => enabled
 
 mbstring
@@ -863,7 +863,7 @@ Revision =>  $Id: 8e4cc97fb53f418d98b489c3e9d722e48446e676 $
 pdo_sqlite
 
 PDO Driver for SQLite 3.x => enabled
-SQLite Library => 3.37.2
+SQLite Library => 3.45.1
 
 pgsql
 
@@ -1021,7 +1021,7 @@ sqlite3
 
 SQLite3 support => enabled
 SQLite3 module version => 0.7
-SQLite Library => 3.37.2
+SQLite Library => 3.45.1
 
 Directive => Local Value => Master Value
 sqlite3.extension_dir => no value => no value
@@ -1140,7 +1140,7 @@ xml
 
 XML Support => active
 XML Namespace Support => active
-EXPAT Version => expat_2.4.7
+EXPAT Version => expat_2.6.1
 
 xmlreader
 
@@ -1161,8 +1161,8 @@ XMLWriter => enabled
 xsl
 
 XSL => enabled
-libxslt Version => 1.1.34
-libxslt compiled against libxml Version => 2.9.13
+libxslt Version => 1.1.39
+libxslt compiled against libxml Version => 2.9.14
 EXSLT => enabled
 libexslt Version => 1.1.28
 
@@ -1214,7 +1214,7 @@ ZLib Support => enabled
 Stream Wrapper => compress.zlib://
 Stream Filter => zlib.inflate, zlib.deflate
 Compiled Version => 1.2.8
-Linked Version => 1.2.11
+Linked Version => 1.3
 
 Directive => Local Value => Master Value
 zlib.output_compression => Off => Off

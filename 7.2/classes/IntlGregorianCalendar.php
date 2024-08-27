@@ -51,7 +51,7 @@ return array (
     'FIELD_JULIAN_DAY' => 20,
     'FIELD_MILLISECONDS_IN_DAY' => 21,
     'FIELD_IS_LEAP_MONTH' => 22,
-    'FIELD_FIELD_COUNT' => 23,
+    'FIELD_FIELD_COUNT' => 24,
     'FIELD_DAY_OF_MONTH' => 5,
     'DOW_SUNDAY' => 1,
     'DOW_MONDAY' => 2,
@@ -1344,7 +1344,7 @@ return array (
     Constant [ public integer FIELD_JULIAN_DAY ] { 20 }
     Constant [ public integer FIELD_MILLISECONDS_IN_DAY ] { 21 }
     Constant [ public integer FIELD_IS_LEAP_MONTH ] { 22 }
-    Constant [ public integer FIELD_FIELD_COUNT ] { 23 }
+    Constant [ public integer FIELD_FIELD_COUNT ] { 24 }
     Constant [ public integer FIELD_DAY_OF_MONTH ] { 5 }
     Constant [ public integer DOW_SUNDAY ] { 1 }
     Constant [ public integer DOW_MONDAY ] { 2 }

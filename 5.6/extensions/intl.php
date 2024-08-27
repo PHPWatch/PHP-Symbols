@@ -234,8 +234,8 @@ return array (
   'constants' => 
   array (
     'INTL_MAX_LOCALE_LEN' => 80,
-    'INTL_ICU_VERSION' => '70.1',
-    'INTL_ICU_DATA_VERSION' => '70.1',
+    'INTL_ICU_VERSION' => '74.2',
+    'INTL_ICU_DATA_VERSION' => '74.2',
     'ULOC_ACTUAL_LOCALE' => 0,
     'ULOC_VALID_LOCALE' => 1,
     'GRAPHEME_EXTR_COUNT' => 0,

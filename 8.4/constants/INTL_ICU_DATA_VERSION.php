@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '70.1',
+  'value' => '74.2',
   'extension' => 'intl',
 );

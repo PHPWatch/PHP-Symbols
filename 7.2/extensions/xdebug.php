@@ -17,7 +17,7 @@ return array (
        'name' => 'xdebug',
     )),
     'removed' => NULL,
-    'version' => '3.1.6',
+    'version' => '3.1.5',
     'resources' => 
     array (
       0 => 
@@ -168,7 +168,7 @@ return array (
     'xdebug.trace_output_dir' => 'This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.trace_output_dir',
     'xdebug.trace_output_name' => 'trace.%c',
     'xdebug.trigger_value' => '',
-    'xdebug.use_compression' => '0',
+    'xdebug.use_compression' => '1',
     'xdebug.var_display_max_children' => '128',
     'xdebug.var_display_max_data' => '512',
     'xdebug.var_display_max_depth' => '3',

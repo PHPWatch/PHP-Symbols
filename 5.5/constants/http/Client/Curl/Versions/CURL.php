@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '7.81.0',
+  'value' => '8.5.0',
   'extension' => 'http',
 );

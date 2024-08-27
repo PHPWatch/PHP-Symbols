@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => 4784,
+  'value' => 4864,
   'extension' => 'zlib',
 );
