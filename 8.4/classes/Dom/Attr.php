@@ -302,8 +302,8 @@ return array (
       'name' => 'specified',
       'class' => 'Dom\\Attr',
       'type' => 'bool',
-      'has_default_value' => true,
-      'default_value' => true,
+      'has_default_value' => false,
+      'default_value' => NULL,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -970,7 +970,7 @@ return array (
     Property [ public string $name ]
     Property [ public string $value ]
     Property [ public ?Dom\\Element $ownerElement ]
-    Property [ public bool $specified = true ]
+    Property [ public bool $specified ]
   }
 
   - Methods [23] {

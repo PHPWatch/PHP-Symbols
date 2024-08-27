@@ -317,7 +317,7 @@ return array (
       'name' => 'schemaTypeInfo',
       'class' => 'DOMElement',
       'type' => 'mixed',
-      'has_default_value' => true,
+      'has_default_value' => false,
       'default_value' => NULL,
       'is_static' => false,
       'is_public' => true,
@@ -1964,7 +1964,7 @@ return array (
     Property [ public string $tagName ]
     Property [ public string $className ]
     Property [ public string $id ]
-    Property [ public mixed $schemaTypeInfo = NULL ]
+    Property [ public mixed $schemaTypeInfo ]
     Property [ public ?DOMElement $firstElementChild ]
     Property [ public ?DOMElement $lastElementChild ]
     Property [ public int $childElementCount ]

@@ -315,7 +315,7 @@ return array (
       'name' => 'actualEncoding',
       'class' => 'DOMEntity',
       'type' => '?string',
-      'has_default_value' => true,
+      'has_default_value' => false,
       'default_value' => NULL,
       'is_static' => false,
       'is_public' => true,
@@ -328,7 +328,7 @@ return array (
       'name' => 'encoding',
       'class' => 'DOMEntity',
       'type' => '?string',
-      'has_default_value' => true,
+      'has_default_value' => false,
       'default_value' => NULL,
       'is_static' => false,
       'is_public' => true,
@@ -341,7 +341,7 @@ return array (
       'name' => 'version',
       'class' => 'DOMEntity',
       'type' => '?string',
-      'has_default_value' => true,
+      'has_default_value' => false,
       'default_value' => NULL,
       'is_static' => false,
       'is_public' => true,
@@ -1008,9 +1008,9 @@ return array (
     Property [ public ?string $publicId ]
     Property [ public ?string $systemId ]
     Property [ public ?string $notationName ]
-    Property [ public ?string $actualEncoding = NULL ]
-    Property [ public ?string $encoding = NULL ]
-    Property [ public ?string $version = NULL ]
+    Property [ public ?string $actualEncoding ]
+    Property [ public ?string $encoding ]
+    Property [ public ?string $version ]
   }
 
   - Methods [23] {
