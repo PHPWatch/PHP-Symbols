@@ -117,8 +117,8 @@ return array (
   }
 
   - Properties [2] {
-    Property [ public readonly ?string $message ]
-    Property [ public readonly ?string $since ]
+    Property [ public protected(set) readonly ?string $message ]
+    Property [ public protected(set) readonly ?string $since ]
   }
 
   - Methods [1] {

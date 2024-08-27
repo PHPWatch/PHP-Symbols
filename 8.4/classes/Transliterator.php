@@ -285,7 +285,7 @@ return array (
   }
 
   - Properties [1] {
-    Property [ public readonly string $id ]
+    Property [ public protected(set) readonly string $id ]
   }
 
   - Methods [5] {

@@ -340,15 +340,15 @@ return array (
   }
 
   - Properties [9] {
-    Property [ public readonly string $value ]
-    Property [ public readonly string $name ]
-    Property [ public readonly int $type ]
-    Property [ public readonly int $line ]
-    Property [ public readonly int $column ]
-    Property [ public readonly bool $proprietary ]
-    Property [ public readonly ?int $id ]
-    Property [ public readonly ?array $attribute ]
-    Property [ public readonly ?array $child ]
+    Property [ public protected(set) readonly string $value ]
+    Property [ public protected(set) readonly string $name ]
+    Property [ public protected(set) readonly int $type ]
+    Property [ public protected(set) readonly int $line ]
+    Property [ public protected(set) readonly int $column ]
+    Property [ public protected(set) readonly bool $proprietary ]
+    Property [ public protected(set) readonly ?int $id ]
+    Property [ public protected(set) readonly ?array $attribute ]
+    Property [ public protected(set) readonly ?array $child ]
   }
 
   - Methods [12] {

@@ -36,6 +36,8 @@ return array (
     'IS_PROTECTED' => 2,
     'IS_PRIVATE' => 4,
     'IS_ABSTRACT' => 64,
+    'IS_PROTECTED_SET' => 2048,
+    'IS_PRIVATE_SET' => 4096,
   ),
   'properties' => 
   array (
@@ -330,6 +332,34 @@ return array (
       ),
       'return_type' => NULL,
       'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isPrivateSet' => 
+    array (
+      'name' => 'isPrivateSet',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isProtectedSet' => 
+    array (
+      'name' => 'isProtectedSet',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -642,13 +672,15 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:Reflection> class ReflectionProperty implements Stringable, Reflector ] {
 
-  - Constants [6] {
+  - Constants [8] {
     Constant [ public int IS_STATIC ] { 16 }
     Constant [ public int IS_READONLY ] { 128 }
     Constant [ public int IS_PUBLIC ] { 1 }
     Constant [ public int IS_PROTECTED ] { 2 }
     Constant [ public int IS_PRIVATE ] { 4 }
     Constant [ public int IS_ABSTRACT ] { 64 }
+    Constant [ public int IS_PROTECTED_SET ] { 2048 }
+    Constant [ public int IS_PRIVATE_SET ] { 4096 }
   }
 
   - Static properties [0] {
@@ -662,7 +694,7 @@ return array (
     Property [ public string $class ]
   }
 
-  - Methods [30] {
+  - Methods [32] {
     Method [ <internal:Reflection> private method __clone ] {
 
       - Parameters [0] {
@@ -753,6 +785,20 @@ return array (
       - Parameters [0] {
       }
       - Tentative return [ bool ]
+    }
+
+    Method [ <internal:Reflection> public method isPrivateSet ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Reflection> public method isProtectedSet ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
     }
 
     Method [ <internal:Reflection> public method isStatic ] {

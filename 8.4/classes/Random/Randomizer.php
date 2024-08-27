@@ -391,7 +391,7 @@ return array (
   }
 
   - Properties [1] {
-    Property [ public readonly Random\\Engine $engine ]
+    Property [ public protected(set) readonly Random\\Engine $engine ]
   }
 
   - Methods [12] {

@@ -175,8 +175,8 @@ return array (
   }
 
   - Properties [2] {
-    Property [ public readonly string $name ]
-    Property [ public readonly string $value ]
+    Property [ public protected(set) readonly string $name ]
+    Property [ public protected(set) readonly string $value ]
   }
 
   - Methods [0] {

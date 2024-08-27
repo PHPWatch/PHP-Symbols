@@ -123,8 +123,8 @@ return array (
   }
 
   - Properties [2] {
-    Property [ public readonly string $path ]
-    Property [ public readonly mixed $handle ]
+    Property [ public protected(set) readonly string $path ]
+    Property [ public protected(set) readonly mixed $handle ]
   }
 
   - Methods [3] {

@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'T_METHOD_C',
+  'name' => 'T_PROTECTED_SET',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'T_METHOD_C',
+    'name' => 'T_PROTECTED_SET',
     'description' => '',
     'keywords' => 
     array (
@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => 351,
+  'value' => 328,
   'extension' => 'tokenizer',
 );

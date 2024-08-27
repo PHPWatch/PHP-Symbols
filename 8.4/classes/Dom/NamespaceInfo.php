@@ -108,9 +108,9 @@ return array (
   }
 
   - Properties [3] {
-    Property [ public readonly ?string $prefix ]
-    Property [ public readonly ?string $namespaceURI ]
-    Property [ public readonly Dom\\Element $element ]
+    Property [ public protected(set) readonly ?string $prefix ]
+    Property [ public protected(set) readonly ?string $namespaceURI ]
+    Property [ public protected(set) readonly Dom\\Element $element ]
   }
 
   - Methods [1] {
