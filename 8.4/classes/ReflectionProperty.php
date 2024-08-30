@@ -270,6 +270,67 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'setRawValueWithoutLazyInitialization' => 
+    array (
+      'name' => 'setRawValueWithoutLazyInitialization',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+        'object' => 
+        array (
+          'position' => 0,
+          'name' => 'object',
+          'type' => 'object',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'value' => 
+        array (
+          'position' => 1,
+          'name' => 'value',
+          'type' => 'mixed',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'skipLazyInitialization' => 
+    array (
+      'name' => 'skipLazyInitialization',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+        'object' => 
+        array (
+          'position' => 0,
+          'name' => 'object',
+          'type' => 'object',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'isInitialized' => 
     array (
       'name' => 'isInitialized',
@@ -694,7 +755,7 @@ return array (
     Property [ public string $class ]
   }
 
-  - Methods [32] {
+  - Methods [34] {
     Method [ <internal:Reflection> private method __clone ] {
 
       - Parameters [0] {
@@ -754,6 +815,23 @@ return array (
       - Parameters [2] {
         Parameter #0 [ <required> object $object ]
         Parameter #1 [ <required> mixed $value ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:Reflection> public method setRawValueWithoutLazyInitialization ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> object $object ]
+        Parameter #1 [ <required> mixed $value ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:Reflection> public method skipLazyInitialization ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> object $object ]
       }
       - Return [ void ]
     }

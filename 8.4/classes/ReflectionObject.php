@@ -34,6 +34,8 @@ return array (
     'IS_EXPLICIT_ABSTRACT' => 64,
     'IS_FINAL' => 32,
     'IS_READONLY' => 65536,
+    'SKIP_INITIALIZATION_ON_SERIALIZE' => 8,
+    'SKIP_DESTRUCTOR' => 16,
   ),
   'properties' => 
   array (
@@ -780,6 +782,272 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'newLazyGhost' => 
+    array (
+      'name' => 'newLazyGhost',
+      'class' => 'ReflectionClass',
+      'parameters' => 
+      array (
+        'initializer' => 
+        array (
+          'position' => 0,
+          'name' => 'initializer',
+          'type' => 'callable',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'options' => 
+        array (
+          'position' => 1,
+          'name' => 'options',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 0,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'object',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'newLazyProxy' => 
+    array (
+      'name' => 'newLazyProxy',
+      'class' => 'ReflectionClass',
+      'parameters' => 
+      array (
+        'factory' => 
+        array (
+          'position' => 0,
+          'name' => 'factory',
+          'type' => 'callable',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'options' => 
+        array (
+          'position' => 1,
+          'name' => 'options',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 0,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'object',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'resetAsLazyGhost' => 
+    array (
+      'name' => 'resetAsLazyGhost',
+      'class' => 'ReflectionClass',
+      'parameters' => 
+      array (
+        'object' => 
+        array (
+          'position' => 0,
+          'name' => 'object',
+          'type' => 'object',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'factory' => 
+        array (
+          'position' => 1,
+          'name' => 'factory',
+          'type' => 'callable',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'options' => 
+        array (
+          'position' => 2,
+          'name' => 'options',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 0,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'resetAsLazyProxy' => 
+    array (
+      'name' => 'resetAsLazyProxy',
+      'class' => 'ReflectionClass',
+      'parameters' => 
+      array (
+        'object' => 
+        array (
+          'position' => 0,
+          'name' => 'object',
+          'type' => 'object',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'factory' => 
+        array (
+          'position' => 1,
+          'name' => 'factory',
+          'type' => 'callable',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'options' => 
+        array (
+          'position' => 2,
+          'name' => 'options',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 0,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'initializeLazyObject' => 
+    array (
+      'name' => 'initializeLazyObject',
+      'class' => 'ReflectionClass',
+      'parameters' => 
+      array (
+        'object' => 
+        array (
+          'position' => 0,
+          'name' => 'object',
+          'type' => 'object',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'object',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isUninitializedLazyObject' => 
+    array (
+      'name' => 'isUninitializedLazyObject',
+      'class' => 'ReflectionClass',
+      'parameters' => 
+      array (
+        'object' => 
+        array (
+          'position' => 0,
+          'name' => 'object',
+          'type' => 'object',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'markLazyObjectAsInitialized' => 
+    array (
+      'name' => 'markLazyObjectAsInitialized',
+      'class' => 'ReflectionClass',
+      'parameters' => 
+      array (
+        'object' => 
+        array (
+          'position' => 0,
+          'name' => 'object',
+          'type' => 'object',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'object',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getLazyInitializer' => 
+    array (
+      'name' => 'getLazyInitializer',
+      'class' => 'ReflectionClass',
+      'parameters' => 
+      array (
+        'object' => 
+        array (
+          'position' => 0,
+          'name' => 'object',
+          'type' => 'object',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => '?callable',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getParentClass' => 
     array (
       'name' => 'getParentClass',
@@ -1089,11 +1357,13 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:Reflection> class ReflectionObject extends ReflectionClass implements Reflector, Stringable ] {
 
-  - Constants [4] {
+  - Constants [6] {
     Constant [ public int IS_IMPLICIT_ABSTRACT ] { 16 }
     Constant [ public int IS_EXPLICIT_ABSTRACT ] { 64 }
     Constant [ public int IS_FINAL ] { 32 }
     Constant [ public int IS_READONLY ] { 65536 }
+    Constant [ public int SKIP_INITIALIZATION_ON_SERIALIZE ] { 8 }
+    Constant [ public int SKIP_DESTRUCTOR ] { 16 }
   }
 
   - Static properties [0] {
@@ -1106,7 +1376,7 @@ return array (
     Property [ public string $name ]
   }
 
-  - Methods [55] {
+  - Methods [63] {
     Method [ <internal:Reflection, overwrites ReflectionClass, ctor> public method __construct ] {
 
       - Parameters [1] {
@@ -1399,6 +1669,76 @@ return array (
         Parameter #0 [ <optional> array $args = [] ]
       }
       - Tentative return [ ?object ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method newLazyGhost ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> callable $initializer ]
+        Parameter #1 [ <optional> int $options = 0 ]
+      }
+      - Return [ object ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method newLazyProxy ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> callable $factory ]
+        Parameter #1 [ <optional> int $options = 0 ]
+      }
+      - Return [ object ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method resetAsLazyGhost ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> object $object ]
+        Parameter #1 [ <required> callable $factory ]
+        Parameter #2 [ <optional> int $options = 0 ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method resetAsLazyProxy ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> object $object ]
+        Parameter #1 [ <required> callable $factory ]
+        Parameter #2 [ <optional> int $options = 0 ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method initializeLazyObject ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> object $object ]
+      }
+      - Return [ object ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method isUninitializedLazyObject ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> object $object ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method markLazyObjectAsInitialized ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> object $object ]
+      }
+      - Return [ object ]
+    }
+
+    Method [ <internal:Reflection, inherits ReflectionClass> public method getLazyInitializer ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> object $object ]
+      }
+      - Return [ ?callable ]
     }
 
     Method [ <internal:Reflection, inherits ReflectionClass> public method getParentClass ] {
