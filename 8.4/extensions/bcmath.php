@@ -29,6 +29,7 @@ return array (
   ),
   'classes' => 
   array (
+    0 => 'BcMath\\Number',
   ),
   'functions' => 
   array (

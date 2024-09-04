@@ -53,6 +53,7 @@ return array (
   'SQLite3Result',
   'InflateContext',
   'DeflateContext',
+  'BcMath\\Number',
   'CurlHandle',
   'CurlMultiHandle',
   'CurlShareHandle',
