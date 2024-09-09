@@ -329,6 +329,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    '__getLastResponse' => 
+    array (
+      'name' => '__getLastResponse',
+      'class' => 'SoapServer',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => '?string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'traits' => 
   array (
@@ -353,7 +367,7 @@ return array (
     Property [ private ?SoapFault $__soap_fault = NULL ]
   }
 
-  - Methods [9] {
+  - Methods [10] {
     Method [ <internal:soap, ctor> public method __construct ] {
 
       - Parameters [2] {
@@ -428,6 +442,13 @@ return array (
         Parameter #0 [ <optional> ?string $request = null ]
       }
       - Tentative return [ void ]
+    }
+
+    Method [ <internal:soap> public method __getLastResponse ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?string ]
     }
   }
 }
