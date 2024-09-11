@@ -468,6 +468,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'isDynamic' => 
+    array (
+      'name' => 'isDynamic',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'isAbstract' => 
     array (
       'name' => 'isAbstract',
@@ -755,7 +769,7 @@ return array (
     Property [ public string $class ]
   }
 
-  - Methods [34] {
+  - Methods [35] {
     Method [ <internal:Reflection> private method __clone ] {
 
       - Parameters [0] {
@@ -898,6 +912,13 @@ return array (
       - Parameters [0] {
       }
       - Tentative return [ bool ]
+    }
+
+    Method [ <internal:Reflection> public method isDynamic ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
     }
 
     Method [ <internal:Reflection> public method isAbstract ] {
