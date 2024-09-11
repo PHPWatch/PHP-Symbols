@@ -178,7 +178,7 @@ curl.cainfo => no value => no value
 date
 
 date/time support => enabled
-timelib version => 2022.10
+timelib version => 2022.12
 "Olson" Timezone Database Version => 2024.2
 Timezone Database => internal
 Default timezone => UTC
@@ -214,9 +214,9 @@ enchant
 enchant support => enabled
 Libenchant Version => 2.3.3
 
-hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
-aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
 hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
+aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
+hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
 
 exif
 
