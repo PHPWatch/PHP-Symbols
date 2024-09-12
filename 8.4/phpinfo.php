@@ -279,6 +279,7 @@ libXpm Version => 30411
 XBM Support => enabled
 WebP Support => enabled
 BMP Support => enabled
+AVIF Support => enabled
 TGA Read Support => enabled
 
 Directive => Local Value => Master Value
@@ -720,8 +721,8 @@ Cache misses => 1
 Used memory => 9177064
 Free memory => 125040664
 Wasted memory => 0
-Interned Strings Used memory => 2598680
-Interned Strings Free memory => 5789928
+Interned Strings Used memory => 2598768
+Interned Strings Free memory => 5789840
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229
