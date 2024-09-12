@@ -74,8 +74,8 @@ apc.use_request_time => Off => Off
 ast
 
 ast support => enabled
-extension version => 1.1.1
-AST version => Current version is 90. All versions (including experimental): {50, 60, 70, 80, 85, 90, 100}
+extension version => 1.1.2
+AST version => Current version is 110. All versions (including experimental): {50, 60, 70, 80, 85, 90, 100, 110}
 
 bcmath
 
@@ -97,7 +97,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.3.9
+PHP Version => 8.3.11
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -352,6 +352,7 @@ XPM Support => enabled
 XBM Support => enabled
 WebP Support => enabled
 BMP Support => enabled
+AVIF Support => enabled
 TGA Read Support => enabled
 
 Directive => Local Value => Master Value
@@ -388,7 +389,7 @@ iconv.output_encoding => no value => no value
 igbinary
 
 igbinary support => enabled
-igbinary version => 3.2.15
+igbinary version => 3.2.16
 igbinary APCu serializer ABI => 0
 igbinary session support => yes
 
@@ -597,7 +598,7 @@ msgpack.use_str8_serialization => On => On
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.3.9
+Client API library version => mysqlnd 8.3.11
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -618,7 +619,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.3.9
+Version => mysqlnd 8.3.11
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -700,7 +701,7 @@ Client Library Version => LI-V6.3.11.33703 Firebird 3.0
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.3.9
+Client API version => mysqlnd 8.3.11
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -777,7 +778,7 @@ PSpell Support => enabled
 
 random
 
-Version => 8.3.9
+Version => 8.3.11
 
 readline
 

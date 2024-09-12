@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'PHP_VERSION',
+  'name' => 'ast\\AST_PROPERTY_HOOK_SHORT_BODY',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'PHP_VERSION',
+    'name' => 'ast\\AST_PROPERTY_HOOK_SHORT_BODY',
     'description' => '',
     'keywords' => 
     array (
@@ -17,13 +17,8 @@ return array (
     'removed' => NULL,
     'resources' => 
     array (
-      0 => 
-      array (
-        'name' => 'PHP_VERSION constant (php.net)',
-        'url' => 'https://www.php.net/manual/reserved.constants.php#constant.php-version',
-      ),
     ),
   ),
-  'value' => '8.2.23',
-  'extension' => 'Core',
+  'value' => 510,
+  'extension' => 'ast',
 );

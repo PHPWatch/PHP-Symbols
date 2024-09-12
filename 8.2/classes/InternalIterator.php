@@ -126,7 +126,7 @@ return array (
   ),
   'is_abstract' => false,
   'is_anonymous' => false,
-  'is_cloneable' => true,
+  'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
   'toString' => 'Class [ <internal:Core> <iterateable> final class InternalIterator implements Iterator, Traversable ] {

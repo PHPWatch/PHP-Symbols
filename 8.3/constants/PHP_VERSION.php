@@ -24,6 +24,6 @@ return array (
       ),
     ),
   ),
-  'value' => '8.3.9',
+  'value' => '8.3.11',
   'extension' => 'Core',
 );

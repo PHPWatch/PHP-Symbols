@@ -17,7 +17,7 @@ return array (
        'name' => 'PDO_ODBC',
     )),
     'removed' => NULL,
-    'version' => '8.2.21',
+    'version' => '8.2.23',
     'resources' => 
     array (
       0 => 

@@ -17,7 +17,7 @@ return array (
        'name' => 'Zend OPcache',
     )),
     'removed' => NULL,
-    'version' => '8.3.9',
+    'version' => '8.3.11',
     'resources' => 
     array (
       0 => 

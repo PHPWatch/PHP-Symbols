@@ -17,7 +17,7 @@ return array (
        'name' => 'gd',
     )),
     'removed' => NULL,
-    'version' => '8.2.21',
+    'version' => '8.2.23',
     'resources' => 
     array (
       0 => 
@@ -59,6 +59,7 @@ return array (
     'imagecreate' => 'imagecreate',
     'imagetypes' => 'imagetypes',
     'imagecreatefromstring' => 'imagecreatefromstring',
+    'imagecreatefromavif' => 'imagecreatefromavif',
     'imagecreatefromgif' => 'imagecreatefromgif',
     'imagecreatefromjpeg' => 'imagecreatefromjpeg',
     'imagecreatefrompng' => 'imagecreatefrompng',
@@ -72,6 +73,7 @@ return array (
     'imagecreatefrombmp' => 'imagecreatefrombmp',
     'imagecreatefromtga' => 'imagecreatefromtga',
     'imagexbm' => 'imagexbm',
+    'imageavif' => 'imageavif',
     'imagegif' => 'imagegif',
     'imagepng' => 'imagepng',
     'imagewebp' => 'imagewebp',
