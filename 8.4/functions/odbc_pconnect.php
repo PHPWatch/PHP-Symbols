@@ -42,4 +42,20 @@ return array (
   - Return [ Odbc\\Connection|false ]
 }
 ',
+  'attributes' => 
+  array (
+    'params' => 
+    array (
+      'password' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
 );

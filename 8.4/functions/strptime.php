@@ -40,4 +40,19 @@ return array (
   - Return [ array|false ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.2',
+          'message' => 'use date_parse_from_format() (for locale-independent parsing), or IntlDateFormatter::parse() (for locale-dependent parsing) instead',
+        ),
+      ),
+    ),
+  ),
 );

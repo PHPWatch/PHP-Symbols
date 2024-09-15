@@ -43,4 +43,30 @@ return array (
   - Return [ bool ]
 }
 ',
+  'attributes' => 
+  array (
+    'params' => 
+    array (
+      'certificate' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+      'private_key' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
 );

@@ -40,4 +40,19 @@ return array (
   - Return [ true ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.4',
+          'message' => 'provide a proper method callable to xml_set_*_handler() functions',
+        ),
+      ),
+    ),
+  ),
 );

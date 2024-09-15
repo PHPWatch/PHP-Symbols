@@ -43,4 +43,30 @@ return array (
   - Return [ string|bool ]
 }
 ',
+  'attributes' => 
+  array (
+    'params' => 
+    array (
+      'old_password' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+      'new_password' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
 );

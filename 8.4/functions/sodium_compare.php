@@ -40,4 +40,30 @@ return array (
   - Return [ int ]
 }
 ',
+  'attributes' => 
+  array (
+    'params' => 
+    array (
+      'string1' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+      'string2' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
 );

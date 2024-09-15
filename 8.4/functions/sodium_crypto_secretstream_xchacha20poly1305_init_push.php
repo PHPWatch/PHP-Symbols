@@ -39,4 +39,20 @@ return array (
   - Return [ array ]
 }
 ',
+  'attributes' => 
+  array (
+    'params' => 
+    array (
+      'key' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
 );

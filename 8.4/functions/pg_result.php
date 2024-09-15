@@ -41,4 +41,19 @@ return array (
   - Return [ string|false|null ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.0',
+          'message' => 'use pg_fetch_result() instead',
+        ),
+      ),
+    ),
+  ),
 );

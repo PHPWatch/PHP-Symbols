@@ -40,4 +40,30 @@ return array (
   - Return [ OpenSSLAsymmetricKey|false ]
 }
 ',
+  'attributes' => 
+  array (
+    'params' => 
+    array (
+      'private_key' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+      'passphrase' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
 );

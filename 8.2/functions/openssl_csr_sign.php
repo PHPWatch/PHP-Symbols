@@ -44,4 +44,20 @@ return array (
   - Return [ OpenSSLCertificate|false ]
 }
 ',
+  'attributes' => 
+  array (
+    'params' => 
+    array (
+      'private_key' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
 );

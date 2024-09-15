@@ -44,4 +44,19 @@ return array (
   - Return [ ?IntlGregorianCalendar ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.4',
+          'message' => 'use IntlGregorianCalendar::__construct(), IntlGregorianCalendar::createFromDate(), or IntlGregorianCalendar::createFromDateTime() instead',
+        ),
+      ),
+    ),
+  ),
 );

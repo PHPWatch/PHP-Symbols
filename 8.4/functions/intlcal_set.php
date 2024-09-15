@@ -45,4 +45,19 @@ return array (
   - Return [ true ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.4',
+          'message' => 'use IntlCalendar::set(), IntlCalendar::setDate(), or IntlCalendar::setDateTime() instead',
+        ),
+      ),
+    ),
+  ),
 );

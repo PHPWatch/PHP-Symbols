@@ -39,4 +39,19 @@ return array (
   - Return [ bool ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.4',
+          'message' => 'because the reconnect feature has been removed in PHP 8.2 and this function is now redundant',
+        ),
+      ),
+    ),
+  ),
 );

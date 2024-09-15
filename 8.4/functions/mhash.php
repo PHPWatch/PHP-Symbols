@@ -41,4 +41,18 @@ return array (
   - Return [ string|false ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.1',
+        ),
+      ),
+    ),
+  ),
 );

@@ -40,4 +40,20 @@ return array (
   - Return [ array ]
 }
 ',
+  'attributes' => 
+  array (
+    'params' => 
+    array (
+      'client_key_pair' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
 );

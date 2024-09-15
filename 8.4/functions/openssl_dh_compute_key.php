@@ -40,4 +40,20 @@ return array (
   - Return [ string|false ]
 }
 ',
+  'attributes' => 
+  array (
+    'params' => 
+    array (
+      'private_key' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
 );

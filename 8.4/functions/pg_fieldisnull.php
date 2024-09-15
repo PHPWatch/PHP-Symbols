@@ -41,4 +41,19 @@ return array (
   - Return [ int|false ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.0',
+          'message' => 'use pg_field_is_null() instead',
+        ),
+      ),
+    ),
+  ),
 );

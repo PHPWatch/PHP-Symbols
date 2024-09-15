@@ -40,4 +40,30 @@ return array (
   - Return [ bool ]
 }
 ',
+  'attributes' => 
+  array (
+    'params' => 
+    array (
+      'known_string' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+      'user_string' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
 );

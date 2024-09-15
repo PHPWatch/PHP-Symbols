@@ -41,4 +41,20 @@ return array (
   - Return [ bool ]
 }
 ',
+  'attributes' => 
+  array (
+    'params' => 
+    array (
+      'password' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
 );

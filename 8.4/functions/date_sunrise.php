@@ -44,4 +44,19 @@ return array (
   - Return [ string|int|float|false ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.1',
+          'message' => 'use date_sun_info() instead',
+        ),
+      ),
+    ),
+  ),
 );

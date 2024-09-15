@@ -42,4 +42,30 @@ return array (
   - Return [ string ]
 }
 ',
+  'attributes' => 
+  array (
+    'params' => 
+    array (
+      'message' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+      'key' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
 );

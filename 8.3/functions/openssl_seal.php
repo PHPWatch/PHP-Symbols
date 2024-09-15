@@ -44,4 +44,20 @@ return array (
   - Return [ int|false ]
 }
 ',
+  'attributes' => 
+  array (
+    'params' => 
+    array (
+      'data' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
 );

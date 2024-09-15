@@ -39,4 +39,19 @@ return array (
   - Return [ string ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.0',
+          'message' => 'use pg_client_encoding() instead',
+        ),
+      ),
+    ),
+  ),
 );

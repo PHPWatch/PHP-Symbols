@@ -39,4 +39,20 @@ return array (
   - Return [ void ]
 }
 ',
+  'attributes' => 
+  array (
+    'params' => 
+    array (
+      'string' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
 );

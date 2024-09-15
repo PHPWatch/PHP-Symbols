@@ -38,4 +38,19 @@ return array (
   - Return [ float ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.4',
+          'message' => 'use \\Random\\Randomizer::getFloat() instead',
+        ),
+      ),
+    ),
+  ),
 );

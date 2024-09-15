@@ -40,4 +40,19 @@ return array (
   - Return [ int ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.0',
+          'message' => 'use pg_field_size() instead',
+        ),
+      ),
+    ),
+  ),
 );
