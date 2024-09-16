@@ -697,6 +697,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'hasHooks' => 
+    array (
+      'name' => 'hasHooks',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getHooks' => 
     array (
       'name' => 'getHooks',
@@ -705,6 +719,31 @@ return array (
       array (
       ),
       'return_type' => 'array',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'hasHook' => 
+    array (
+      'name' => 'hasHook',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+        'type' => 
+        array (
+          'position' => 0,
+          'name' => 'type',
+          'type' => 'PropertyHookType',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -769,7 +808,7 @@ return array (
     Property [ public string $class ]
   }
 
-  - Methods [35] {
+  - Methods [37] {
     Method [ <internal:Reflection> private method __clone ] {
 
       - Parameters [0] {
@@ -1015,11 +1054,26 @@ return array (
       - Return [ array ]
     }
 
+    Method [ <internal:Reflection> public method hasHooks ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
     Method [ <internal:Reflection> public method getHooks ] {
 
       - Parameters [0] {
       }
       - Return [ array ]
+    }
+
+    Method [ <internal:Reflection> public method hasHook ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> PropertyHookType $type ]
+      }
+      - Return [ bool ]
     }
 
     Method [ <internal:Reflection> public method getHook ] {
