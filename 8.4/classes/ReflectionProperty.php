@@ -38,6 +38,7 @@ return array (
     'IS_ABSTRACT' => 64,
     'IS_PROTECTED_SET' => 2048,
     'IS_PRIVATE_SET' => 4096,
+    'IS_FINAL' => 32,
   ),
   'properties' => 
   array (
@@ -775,6 +776,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'isFinal' => 
+    array (
+      'name' => 'isFinal',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'traits' => 
   array (
@@ -786,7 +801,7 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:Reflection> class ReflectionProperty implements Stringable, Reflector ] {
 
-  - Constants [8] {
+  - Constants [9] {
     Constant [ public int IS_STATIC ] { 16 }
     Constant [ public int IS_READONLY ] { 128 }
     Constant [ public int IS_PUBLIC ] { 1 }
@@ -795,6 +810,7 @@ return array (
     Constant [ public int IS_ABSTRACT ] { 64 }
     Constant [ public int IS_PROTECTED_SET ] { 2048 }
     Constant [ public int IS_PRIVATE_SET ] { 4096 }
+    Constant [ public int IS_FINAL ] { 32 }
   }
 
   - Static properties [0] {
@@ -808,7 +824,7 @@ return array (
     Property [ public string $class ]
   }
 
-  - Methods [37] {
+  - Methods [38] {
     Method [ <internal:Reflection> private method __clone ] {
 
       - Parameters [0] {
@@ -1082,6 +1098,13 @@ return array (
         Parameter #0 [ <required> PropertyHookType $type ]
       }
       - Return [ ?ReflectionMethod ]
+    }
+
+    Method [ <internal:Reflection> public method isFinal ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
     }
   }
 }
