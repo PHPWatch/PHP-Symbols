@@ -142,7 +142,7 @@ return array (
     'E_RECOVERABLE_ERROR' => 4096,
     'E_DEPRECATED' => 8192,
     'E_USER_DEPRECATED' => 16384,
-    'E_ALL' => 32767,
+    'E_ALL' => 30719,
     'DEBUG_BACKTRACE_PROVIDE_OBJECT' => 1,
     'DEBUG_BACKTRACE_IGNORE_ARGS' => 2,
     'ZEND_THREAD_SAFE' => false,
