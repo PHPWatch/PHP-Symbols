@@ -226,6 +226,7 @@ return array (
   'bcmul',
   'bcdiv',
   'bcmod',
+  'bcdivmod',
   'bcpowmod',
   'bcpow',
   'bcsqrt',

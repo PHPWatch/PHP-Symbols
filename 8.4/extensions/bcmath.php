@@ -38,6 +38,7 @@ return array (
     'bcmul' => 'bcmul',
     'bcdiv' => 'bcdiv',
     'bcmod' => 'bcmod',
+    'bcdivmod' => 'bcdivmod',
     'bcpowmod' => 'bcpowmod',
     'bcpow' => 'bcpow',
     'bcsqrt' => 'bcsqrt',

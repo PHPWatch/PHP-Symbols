@@ -266,6 +266,42 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'divmod' => 
+    array (
+      'name' => 'divmod',
+      'class' => 'BcMath\\Number',
+      'parameters' => 
+      array (
+        'num' => 
+        array (
+          'position' => 0,
+          'name' => 'num',
+          'type' => 'BcMath\\Number|string|int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'scale' => 
+        array (
+          'position' => 1,
+          'name' => 'scale',
+          'type' => '?int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'array',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'powmod' => 
     array (
       'name' => 'powmod',
@@ -553,7 +589,7 @@ return array (
     Property [ public protected(set) readonly int $scale ]
   }
 
-  - Methods [16] {
+  - Methods [17] {
     Method [ <internal:bcmath, ctor> public method __construct ] {
 
       - Parameters [1] {
@@ -604,6 +640,15 @@ return array (
         Parameter #1 [ <optional> ?int $scale = null ]
       }
       - Return [ BcMath\\Number ]
+    }
+
+    Method [ <internal:bcmath> public method divmod ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> BcMath\\Number|string|int $num ]
+        Parameter #1 [ <optional> ?int $scale = null ]
+      }
+      - Return [ array ]
     }
 
     Method [ <internal:bcmath> public method powmod ] {
