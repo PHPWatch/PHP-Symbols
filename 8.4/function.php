@@ -2150,6 +2150,7 @@ return array (
   'opcache_get_status',
   'opcache_compile_file',
   'opcache_invalidate',
+  'opcache_jit_blacklist',
   'opcache_get_configuration',
   'opcache_is_script_cached',
   'dl',
