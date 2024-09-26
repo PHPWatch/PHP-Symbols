@@ -161,7 +161,7 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => '?FFI\\CData',
+      'return_type' => 'FFI\\CData',
       'has_return_type' => true,
       'is_static' => true,
       'is_public' => true,
@@ -222,7 +222,7 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => '?FFI\\CData',
+      'return_type' => 'FFI\\CData',
       'has_return_type' => true,
       'is_static' => true,
       'is_public' => true,
@@ -247,7 +247,7 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => '?FFI\\CType',
+      'return_type' => 'FFI\\CType',
       'has_return_type' => true,
       'is_static' => true,
       'is_public' => true,
@@ -643,7 +643,7 @@ return array (
         Parameter #1 [ <optional> bool $owned = true ]
         Parameter #2 [ <optional> bool $persistent = false ]
       }
-      - Return [ ?FFI\\CData ]
+      - Return [ FFI\\CData ]
     }
 
     Method [ <internal:FFI> static public method free ] {
@@ -660,7 +660,7 @@ return array (
         Parameter #0 [ <required> FFI\\CType|string $type ]
         Parameter #1 [ <required> &$ptr ]
       }
-      - Return [ ?FFI\\CData ]
+      - Return [ FFI\\CData ]
     }
 
     Method [ <internal:FFI> static public method type ] {
@@ -668,7 +668,7 @@ return array (
       - Parameters [1] {
         Parameter #0 [ <required> string $type ]
       }
-      - Return [ ?FFI\\CType ]
+      - Return [ FFI\\CType ]
     }
 
     Method [ <internal:FFI> static public method typeof ] {
