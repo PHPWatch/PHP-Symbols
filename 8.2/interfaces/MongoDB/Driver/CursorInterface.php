@@ -136,7 +136,7 @@ return array (
 
       - Parameters [0] {
       }
-      - Tentative return [ MongoDB\\Driver\\CursorId ]
+      - Tentative return [ MongoDB\\Driver\\CursorId|MongoDB\\BSON\\Int64 ]
     }
 
     Method [ <internal:mongodb> abstract public method getServer ] {

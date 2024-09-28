@@ -17,7 +17,7 @@ return array (
        'name' => 'xml',
     )),
     'removed' => NULL,
-    'version' => '8.3.11',
+    'version' => '8.3.12',
     'resources' => 
     array (
       0 => 

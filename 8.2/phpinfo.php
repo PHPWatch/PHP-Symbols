@@ -48,7 +48,7 @@ amqp.write_timeout => 0 => 0
 apcu
 
 APCu Support => Disabled
-Version => 5.1.23
+Version => 5.1.24
 APCu Debugging => Disabled
 MMAP Support => Enabled
 MMAP File Mask =>  
@@ -97,7 +97,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.2.23
+PHP Version => 8.2.24
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -557,10 +557,10 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.19.3
+MongoDB extension version => 1.20.0
 MongoDB extension stability => stable
-libbson bundled version => 1.27.2
-libmongoc bundled version => 1.27.2
+libbson bundled version => 1.28.0
+libmongoc bundled version => 1.28.0
 libmongoc SSL => enabled
 libmongoc SSL library => OpenSSL
 libmongoc crypto => enabled
@@ -572,7 +572,7 @@ libmongoc compression => enabled
 libmongoc compression snappy => disabled
 libmongoc compression zlib => enabled
 libmongoc compression zstd => enabled
-libmongocrypt bundled version => 1.10.0
+libmongocrypt bundled version => 1.11.0
 libmongocrypt crypto => enabled
 libmongocrypt crypto library => libcrypto
 crypt_shared library version => unknown
@@ -596,7 +596,7 @@ msgpack.use_str8_serialization => On => On
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.2.23
+Client API library version => mysqlnd 8.2.24
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -617,7 +617,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.2.23
+Version => mysqlnd 8.2.24
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -699,7 +699,7 @@ Client Library Version => LI-V6.3.11.33703 Firebird 3.0
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.2.23
+Client API version => mysqlnd 8.2.24
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -776,7 +776,7 @@ PSpell Support => enabled
 
 random
 
-Version => 8.2.23
+Version => 8.2.24
 
 readline
 

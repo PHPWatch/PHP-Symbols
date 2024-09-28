@@ -24,6 +24,6 @@ return array (
       ),
     ),
   ),
-  'value' => 80129,
+  'value' => 80130,
   'extension' => 'Core',
 );

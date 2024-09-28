@@ -17,7 +17,7 @@ return array (
        'name' => 'zlib',
     )),
     'removed' => NULL,
-    'version' => '8.2.23',
+    'version' => '8.2.24',
     'resources' => 
     array (
       0 => 

@@ -17,7 +17,7 @@ return array (
        'name' => 'apcu',
     )),
     'removed' => NULL,
-    'version' => '5.1.23',
+    'version' => '5.1.24',
     'resources' => 
     array (
       0 => 

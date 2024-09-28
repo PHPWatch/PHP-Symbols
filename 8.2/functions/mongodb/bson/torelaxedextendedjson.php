@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,7 +31,7 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'mongodb',
-  'toString' => 'Function [ <internal:mongodb> function MongoDB\\BSON\\toRelaxedExtendedJSON ] {
+  'toString' => 'Function [ <internal, deprecated:mongodb> function MongoDB\\BSON\\toRelaxedExtendedJSON ] {
 
   - Parameters [1] {
     Parameter #0 [ <required> string $bson ]

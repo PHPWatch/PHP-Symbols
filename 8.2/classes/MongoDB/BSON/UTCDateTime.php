@@ -49,7 +49,7 @@ return array (
         array (
           'position' => 0,
           'name' => 'milliseconds',
-          'type' => 'DateTimeInterface|string|int|float|null',
+          'type' => 'DateTimeInterface|MongoDB\\BSON\\Int64|string|int|float|null',
           'is_optional' => true,
           'has_default_value' => true,
           'default_value' => NULL,
@@ -72,6 +72,20 @@ return array (
       array (
       ),
       'return_type' => 'DateTime',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'toDateTimeImmutable' => 
+    array (
+      'name' => 'toDateTimeImmutable',
+      'class' => 'MongoDB\\BSON\\UTCDateTime',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'DateTimeImmutable',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -239,11 +253,11 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [8] {
+  - Methods [9] {
     Method [ <internal:mongodb, ctor> final public method __construct ] {
 
       - Parameters [1] {
-        Parameter #0 [ <optional> DateTimeInterface|string|int|float|null $milliseconds = null ]
+        Parameter #0 [ <optional> DateTimeInterface|MongoDB\\BSON\\Int64|string|int|float|null $milliseconds = null ]
       }
     }
 
@@ -252,6 +266,13 @@ return array (
       - Parameters [0] {
       }
       - Return [ DateTime ]
+    }
+
+    Method [ <internal:mongodb> final public method toDateTimeImmutable ] {
+
+      - Parameters [0] {
+      }
+      - Return [ DateTimeImmutable ]
     }
 
     Method [ <internal:mongodb, prototype MongoDB\\BSON\\UTCDateTimeInterface> final public method __toString ] {

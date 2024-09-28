@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,7 +31,7 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'mongodb',
-  'toString' => 'Function [ <internal:mongodb> function MongoDB\\BSON\\fromPHP ] {
+  'toString' => 'Function [ <internal, deprecated:mongodb> function MongoDB\\BSON\\fromPHP ] {
 
   - Parameters [1] {
     Parameter #0 [ <required> object|array $value ]

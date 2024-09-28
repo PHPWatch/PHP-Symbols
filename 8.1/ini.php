@@ -1686,6 +1686,12 @@ return array (
   ),
   'msgpack' => 
   array (
+    'msgpack.assoc' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
     'msgpack.error_display' => 
     array (
       'global_value' => '1',
