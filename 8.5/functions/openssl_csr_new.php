@@ -39,7 +39,7 @@ return array (
     Parameter #2 [ <optional> ?array $options = null ]
     Parameter #3 [ <optional> ?array $extra_attributes = null ]
   }
-  - Return [ OpenSSLCertificateSigningRequest|false ]
+  - Return [ OpenSSLCertificateSigningRequest|bool ]
 }
 ',
   'attributes' => 
