@@ -28,7 +28,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.4.0-dev
+PHP Version => 8.5.0-dev
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -56,7 +56,7 @@ error_log_mode => 0644 => 0644
 error_prepend_string => no value => no value
 error_reporting => no value => no value
 expose_php => On => On
-extension_dir => /usr/lib/php/extensions/no-debug-non-zts-20240924 => /usr/lib/php/extensions/no-debug-non-zts-20240924
+extension_dir => /usr/lib/php/extensions/no-debug-non-zts-20240925 => /usr/lib/php/extensions/no-debug-non-zts-20240925
 fiber.stack_size => no value => no value
 file_uploads => On => On
 hard_timeout => 2 => 2
@@ -377,7 +377,7 @@ mbstring.substitute_character => no value => no value
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.4.0-dev
+Client API library version => mysqlnd 8.5.0-dev
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -398,7 +398,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.4.0-dev
+Version => mysqlnd 8.5.0-dev
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -472,7 +472,7 @@ Flavour => freetds
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.4.0-dev
+Client API version => mysqlnd 8.5.0-dev
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /tmp/mysql.sock => /tmp/mysql.sock
@@ -534,7 +534,7 @@ POSIX support => enabled
 
 random
 
-Version => 8.4.0-dev
+Version => 8.5.0-dev
 
 readline
 
@@ -721,8 +721,8 @@ Cache misses => 1
 Used memory => 9177064
 Free memory => 125040664
 Wasted memory => 0
-Interned Strings Used memory => 2599424
-Interned Strings Free memory => 5789184
+Interned Strings Used memory => 2599464
+Interned Strings Free memory => 5789144
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229

@@ -17,7 +17,7 @@ return array (
        'name' => 'posix',
     )),
     'removed' => NULL,
-    'version' => '8.4.0-dev',
+    'version' => '8.5.0-dev',
     'resources' => 
     array (
       0 => 

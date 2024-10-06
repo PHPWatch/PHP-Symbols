@@ -66,8 +66,8 @@ return array (
       'parameters' => 
       array (
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => 'int',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -80,8 +80,8 @@ return array (
       'parameters' => 
       array (
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => 'string',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -105,8 +105,8 @@ return array (
           'default_value_constant' => 'DEBUG_BACKTRACE_PROVIDE_OBJECT',
         ),
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => 'array',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -119,8 +119,8 @@ return array (
       'parameters' => 
       array (
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => 'ReflectionFunctionAbstract',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -133,8 +133,8 @@ return array (
       'parameters' => 
       array (
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => '?object',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -147,8 +147,8 @@ return array (
       'parameters' => 
       array (
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => 'Generator',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -203,14 +203,14 @@ return array (
 
       - Parameters [0] {
       }
-      - Tentative return [ int ]
+      - Return [ int ]
     }
 
     Method [ <internal:Reflection> public method getExecutingFile ] {
 
       - Parameters [0] {
       }
-      - Tentative return [ string ]
+      - Return [ string ]
     }
 
     Method [ <internal:Reflection> public method getTrace ] {
@@ -218,28 +218,28 @@ return array (
       - Parameters [1] {
         Parameter #0 [ <optional> int $options = DEBUG_BACKTRACE_PROVIDE_OBJECT ]
       }
-      - Tentative return [ array ]
+      - Return [ array ]
     }
 
     Method [ <internal:Reflection> public method getFunction ] {
 
       - Parameters [0] {
       }
-      - Tentative return [ ReflectionFunctionAbstract ]
+      - Return [ ReflectionFunctionAbstract ]
     }
 
     Method [ <internal:Reflection> public method getThis ] {
 
       - Parameters [0] {
       }
-      - Tentative return [ ?object ]
+      - Return [ ?object ]
     }
 
     Method [ <internal:Reflection> public method getExecutingGenerator ] {
 
       - Parameters [0] {
       }
-      - Tentative return [ Generator ]
+      - Return [ Generator ]
     }
 
     Method [ <internal:Reflection> public method isClosed ] {

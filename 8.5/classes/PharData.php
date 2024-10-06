@@ -2233,8 +2233,8 @@ return array (
       'parameters' => 
       array (
       ),
-      'return_type' => NULL,
-      'has_return_type' => false,
+      'return_type' => 'void',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -3024,7 +3024,7 @@ return array (
 
       - Parameters [0] {
       }
-      - Tentative return [ void ]
+      - Return [ void ]
     }
   }
 }

@@ -24,6 +24,6 @@ return array (
       ),
     ),
   ),
-  'value' => '/usr/lib/php/extensions/no-debug-non-zts-20240924',
+  'value' => '/usr/lib/php/extensions/no-debug-non-zts-20240925',
   'extension' => 'Core',
 );

@@ -403,6 +403,19 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
+    'outerHTML' => 
+    array (
+      'name' => 'outerHTML',
+      'class' => 'Dom\\Element',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
     'substitutedNodeValue' => 
     array (
       'name' => 'substitutedNodeValue',
@@ -2051,7 +2064,7 @@ return array (
   - Static methods [0] {
   }
 
-  - Properties [29] {
+  - Properties [30] {
     Property [ public int $nodeType ]
     Property [ public string $nodeName ]
     Property [ public string $baseURI ]
@@ -2080,6 +2093,7 @@ return array (
     Property [ public ?Dom\\Element $previousElementSibling ]
     Property [ public ?Dom\\Element $nextElementSibling ]
     Property [ public string $innerHTML ]
+    Property [ public string $outerHTML ]
     Property [ public string $substitutedNodeValue ]
   }
 

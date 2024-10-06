@@ -36,7 +36,7 @@ return array (
   - Parameters [5] {
     Parameter #0 [ <required> PgSql\\Connection $connection ]
     Parameter #1 [ <required> string $table_name ]
-    Parameter #2 [ <required> array $rows ]
+    Parameter #2 [ <required> Traversable|array $rows ]
     Parameter #3 [ <optional> string $separator = "\\t" ]
     Parameter #4 [ <optional> string $null_as = "\\\\\\\\N" ]
   }

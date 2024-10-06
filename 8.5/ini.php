@@ -155,8 +155,8 @@ return array (
     ),
     'extension_dir' => 
     array (
-      'global_value' => '/usr/lib/php/extensions/no-debug-non-zts-20240924',
-      'local_value' => '/usr/lib/php/extensions/no-debug-non-zts-20240924',
+      'global_value' => '/usr/lib/php/extensions/no-debug-non-zts-20240925',
+      'local_value' => '/usr/lib/php/extensions/no-debug-non-zts-20240925',
       'access' => 4,
     ),
     'fiber.stack_size' => 
@@ -724,6 +724,75 @@ return array (
   'enchant' => 
   array (
   ),
+  'mbstring' => 
+  array (
+    'mbstring.detect_order' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mbstring.encoding_translation' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 6,
+    ),
+    'mbstring.http_input' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mbstring.http_output' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mbstring.http_output_conv_mimetypes' => 
+    array (
+      'global_value' => '^(text/|application/xhtml\\+xml)',
+      'local_value' => '^(text/|application/xhtml\\+xml)',
+      'access' => 7,
+    ),
+    'mbstring.internal_encoding' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mbstring.language' => 
+    array (
+      'global_value' => 'neutral',
+      'local_value' => 'neutral',
+      'access' => 7,
+    ),
+    'mbstring.regex_retry_limit' => 
+    array (
+      'global_value' => '1000000',
+      'local_value' => '1000000',
+      'access' => 7,
+    ),
+    'mbstring.regex_stack_limit' => 
+    array (
+      'global_value' => '100000',
+      'local_value' => '100000',
+      'access' => 7,
+    ),
+    'mbstring.strict_detection' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'mbstring.substitute_character' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+  ),
   'json' => 
   array (
   ),
@@ -833,75 +902,6 @@ return array (
       'global_value' => '-1',
       'local_value' => '-1',
       'access' => 4,
-    ),
-  ),
-  'mbstring' => 
-  array (
-    'mbstring.detect_order' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mbstring.encoding_translation' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 6,
-    ),
-    'mbstring.http_input' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mbstring.http_output' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mbstring.http_output_conv_mimetypes' => 
-    array (
-      'global_value' => '^(text/|application/xhtml\\+xml)',
-      'local_value' => '^(text/|application/xhtml\\+xml)',
-      'access' => 7,
-    ),
-    'mbstring.internal_encoding' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mbstring.language' => 
-    array (
-      'global_value' => 'neutral',
-      'local_value' => 'neutral',
-      'access' => 7,
-    ),
-    'mbstring.regex_retry_limit' => 
-    array (
-      'global_value' => '1000000',
-      'local_value' => '1000000',
-      'access' => 7,
-    ),
-    'mbstring.regex_stack_limit' => 
-    array (
-      'global_value' => '100000',
-      'local_value' => '100000',
-      'access' => 7,
-    ),
-    'mbstring.strict_detection' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'mbstring.substitute_character' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
     ),
   ),
   'session' => 
