@@ -38,6 +38,7 @@ return array (
     'IS_ABSTRACT' => 64,
     'IS_PROTECTED_SET' => 2048,
     'IS_PRIVATE_SET' => 4096,
+    'IS_VIRTUAL' => 512,
     'IS_FINAL' => 32,
   ),
   'properties' => 
@@ -801,7 +802,7 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:Reflection> class ReflectionProperty implements Stringable, Reflector ] {
 
-  - Constants [9] {
+  - Constants [10] {
     Constant [ public int IS_STATIC ] { 16 }
     Constant [ public int IS_READONLY ] { 128 }
     Constant [ public int IS_PUBLIC ] { 1 }
@@ -810,6 +811,7 @@ return array (
     Constant [ public int IS_ABSTRACT ] { 64 }
     Constant [ public int IS_PROTECTED_SET ] { 2048 }
     Constant [ public int IS_PRIVATE_SET ] { 4096 }
+    Constant [ public int IS_VIRTUAL ] { 512 }
     Constant [ public int IS_FINAL ] { 32 }
   }
 
