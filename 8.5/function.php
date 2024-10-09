@@ -1766,6 +1766,8 @@ return array (
   'pg_put_copy_data',
   'pg_put_copy_end',
   'pg_socket_poll',
+  'pg_set_chunked_rows_size',
+  'pg_close_stmt',
   'posix_kill',
   'posix_getpid',
   'posix_getppid',

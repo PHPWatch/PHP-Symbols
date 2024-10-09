@@ -214,8 +214,8 @@ enchant
 enchant support => enabled
 Libenchant Version => 2.3.3
 
-aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
 hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
+aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
 hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
 
 exif
@@ -485,7 +485,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 16.4
+PostgreSQL(libpq) Version => 17.0
 
 pdo_sqlite
 
@@ -495,7 +495,7 @@ SQLite Library => 3.45.1
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL (libpq) Version => 16.4
+PostgreSQL (libpq) Version => 17.0
 Multibyte character support => enabled
 Active Persistent Links => 0
 Active Links => 0
@@ -721,8 +721,8 @@ Cache misses => 1
 Used memory => 9177064
 Free memory => 125040664
 Wasted memory => 0
-Interned Strings Used memory => 2599464
-Interned Strings Free memory => 5789144
+Interned Strings Used memory => 2599616
+Interned Strings Free memory => 5788992
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229
