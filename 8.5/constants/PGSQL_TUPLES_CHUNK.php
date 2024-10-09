@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'PGSQL_LIBPQ_VERSION',
+  'name' => 'PGSQL_TUPLES_CHUNK',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'PGSQL_LIBPQ_VERSION',
+    'name' => 'PGSQL_TUPLES_CHUNK',
     'description' => '',
     'keywords' => 
     array (
@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '17.0',
+  'value' => 12,
   'extension' => 'pgsql',
 );

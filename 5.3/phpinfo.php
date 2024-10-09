@@ -261,8 +261,8 @@ Version => 1.1.0
 Libenchant Version => 1.5.x
 Revision => $Id: c36987fc33e8b5385cee0e9f7bd179a859c30266 $
 
-myspell => Myspell Provider => /usr/lib/enchant/libenchant_myspell.so
 hspell => Hspell Provider => /usr/lib/enchant/libenchant_hspell.so
+myspell => Myspell Provider => /usr/lib/enchant/libenchant_myspell.so
 aspell => Aspell Provider => /usr/lib/enchant/libenchant_aspell.so
 ispell => Ispell Provider => /usr/lib/enchant/libenchant_ispell.so
 
