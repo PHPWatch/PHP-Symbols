@@ -156,12 +156,11 @@ return array (
     'pg_put_copy_data' => 'pg_put_copy_data',
     'pg_put_copy_end' => 'pg_put_copy_end',
     'pg_socket_poll' => 'pg_socket_poll',
-    'pg_set_chunked_rows_size' => 'pg_set_chunked_rows_size',
   ),
   'constants' => 
   array (
-    'PGSQL_LIBPQ_VERSION' => '17.0',
-    'PGSQL_LIBPQ_VERSION_STR' => '17.0',
+    'PGSQL_LIBPQ_VERSION' => '16.4',
+    'PGSQL_LIBPQ_VERSION_STR' => '16.4',
     'PGSQL_CONNECT_FORCE_NEW' => 2,
     'PGSQL_CONNECT_ASYNC' => 4,
     'PGSQL_ASSOC' => 1,
@@ -199,7 +198,6 @@ return array (
     'PGSQL_EMPTY_QUERY' => 0,
     'PGSQL_COMMAND_OK' => 1,
     'PGSQL_TUPLES_OK' => 2,
-    'PGSQL_TUPLES_CHUNK' => 12,
     'PGSQL_COPY_OUT' => 3,
     'PGSQL_COPY_IN' => 4,
     'PGSQL_BAD_RESPONSE' => 5,
