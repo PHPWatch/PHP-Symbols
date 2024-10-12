@@ -59,7 +59,7 @@ return array (
         array (
           'position' => 0,
           'name' => 'iterator',
-          'type' => NULL,
+          'type' => 'RecursiveIterator|IteratorAggregate',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -509,7 +509,7 @@ return array (
     Method [ <internal:SPL, overwrites RecursiveIteratorIterator, ctor> public method __construct ] {
 
       - Parameters [4] {
-        Parameter #0 [ <required> $iterator ]
+        Parameter #0 [ <required> RecursiveIterator|IteratorAggregate $iterator ]
         Parameter #1 [ <optional> int $flags = RecursiveTreeIterator::BYPASS_KEY ]
         Parameter #2 [ <optional> int $cachingIteratorFlags = CachingIterator::CATCH_GET_CHILD ]
         Parameter #3 [ <optional> int $mode = RecursiveTreeIterator::SELF_FIRST ]
