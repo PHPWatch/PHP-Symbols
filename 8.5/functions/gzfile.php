@@ -35,7 +35,7 @@ return array (
 
   - Parameters [2] {
     Parameter #0 [ <required> string $filename ]
-    Parameter #1 [ <optional> int $use_include_path = 0 ]
+    Parameter #1 [ <optional> bool $use_include_path = false ]
   }
   - Return [ array|false ]
 }

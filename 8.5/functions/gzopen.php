@@ -32,7 +32,7 @@ return array (
   - Parameters [3] {
     Parameter #0 [ <required> string $filename ]
     Parameter #1 [ <required> string $mode ]
-    Parameter #2 [ <optional> int $use_include_path = 0 ]
+    Parameter #2 [ <optional> bool $use_include_path = false ]
   }
 }
 ',
