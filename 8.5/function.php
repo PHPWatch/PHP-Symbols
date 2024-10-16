@@ -287,6 +287,7 @@ return array (
   'curl_init',
   'curl_upkeep',
   'curl_multi_add_handle',
+  'curl_multi_get_handles',
   'curl_multi_close',
   'curl_multi_errno',
   'curl_multi_exec',
