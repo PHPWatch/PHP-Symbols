@@ -27,7 +27,7 @@ return array (
   ),
   'return' => 
   array (
-    'type' => 'ReflectionNamedType',
+    'type' => 'ReflectionUnionType',
     'nullable' => false,
   ),
   'extension' => 'dom',
@@ -36,7 +36,7 @@ return array (
   - Parameters [1] {
     Parameter #0 [ <required> object $node ]
   }
-  - Return [ DOMElement ]
+  - Return [ DOMAttr|DOMElement ]
 }
 ',
 );
