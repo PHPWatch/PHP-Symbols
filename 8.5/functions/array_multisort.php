@@ -37,7 +37,7 @@ return array (
     Parameter #0 [ <required> &$array ]
     Parameter #1 [ <optional> &...$rest ]
   }
-  - Return [ bool ]
+  - Return [ true ]
 }
 ',
 );
