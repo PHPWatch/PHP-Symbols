@@ -919,6 +919,7 @@ default_socket_timeout = 60
 ;
 ;extension=bz2
 ;extension=curl
+;extension=exif
 ;extension=ffi
 ;extension=ftp
 ;extension=fileinfo
@@ -928,7 +929,6 @@ default_socket_timeout = 60
 ;extension=intl
 ;extension=ldap
 ;extension=mbstring
-;extension=exif      ; Must be after mbstring as it depends on it
 ;extension=mysqli
 ;extension=odbc
 ;extension=openssl
