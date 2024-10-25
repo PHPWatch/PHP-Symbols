@@ -37,7 +37,7 @@ return array (
     Parameter #0 [ <required> string $prompt ]
     Parameter #1 [ <required> callable $callback ]
   }
-  - Return [ bool ]
+  - Return [ true ]
 }
 ',
 );
