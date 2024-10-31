@@ -144,6 +144,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getFileName' => 
+    array (
+      'name' => 'getFileName',
+      'class' => 'ReflectionConstant',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string|false',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     '__toString' => 
     array (
       'name' => '__toString',
@@ -182,7 +196,7 @@ return array (
     Property [ public string $name ]
   }
 
-  - Methods [7] {
+  - Methods [8] {
     Method [ <internal:Reflection, ctor> public method __construct ] {
 
       - Parameters [1] {
@@ -223,6 +237,13 @@ return array (
       - Parameters [0] {
       }
       - Return [ bool ]
+    }
+
+    Method [ <internal:Reflection> public method getFileName ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string|false ]
     }
 
     Method [ <internal:Reflection, prototype Stringable> public method __toString ] {
