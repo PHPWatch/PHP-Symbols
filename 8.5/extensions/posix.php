@@ -118,6 +118,7 @@ return array (
     'POSIX_PC_NO_TRUNC' => 7,
     'POSIX_PC_ALLOC_SIZE_MIN' => 18,
     'POSIX_PC_SYMLINK_MAX' => 19,
+    'POSIX_SC_OPEN_MAX' => 4,
   ),
   'dependencies' => 
   array (
