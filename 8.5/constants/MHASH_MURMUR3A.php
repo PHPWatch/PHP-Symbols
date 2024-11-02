@@ -12,8 +12,8 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => false,
-    'deprecated_message' => NULL,
+    'deprecated' => true,
+    'deprecated_message' => 'Constant MHASH_MURMUR3A is deprecated',
     'removed' => NULL,
     'resources' => 
     array (
