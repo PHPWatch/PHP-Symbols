@@ -90,6 +90,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getHost' => 
+    array (
+      'name' => 'getHost',
+      'class' => 'MongoDB\\Driver\\Monitoring\\CommandStartedEvent',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getOperationId' => 
     array (
       'name' => 'getOperationId',
@@ -98,6 +112,20 @@ return array (
       array (
       ),
       'return_type' => 'string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getPort' => 
+    array (
+      'name' => 'getPort',
+      'class' => 'MongoDB\\Driver\\Monitoring\\CommandStartedEvent',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'int',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -183,7 +211,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [9] {
+  - Methods [11] {
     Method [ <internal:mongodb, ctor> final private method __construct ] {
 
       - Parameters [0] {
@@ -211,11 +239,25 @@ return array (
       - Return [ string ]
     }
 
+    Method [ <internal:mongodb> final public method getHost ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
     Method [ <internal:mongodb> final public method getOperationId ] {
 
       - Parameters [0] {
       }
       - Return [ string ]
+    }
+
+    Method [ <internal:mongodb> final public method getPort ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
     }
 
     Method [ <internal:mongodb> final public method getRequestId ] {
@@ -225,7 +267,7 @@ return array (
       - Return [ string ]
     }
 
-    Method [ <internal:mongodb> final public method getServer ] {
+    Method [ <internal, deprecated:mongodb> final public method getServer ] {
 
       - Parameters [0] {
       }

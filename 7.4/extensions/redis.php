@@ -17,7 +17,7 @@ return array (
        'name' => 'redis',
     )),
     'removed' => NULL,
-    'version' => '6.0.2',
+    'version' => '6.1.0',
     'resources' => 
     array (
       0 => 
@@ -74,6 +74,8 @@ return array (
     'redis.pconnect.pool_pattern' => '',
     'redis.pconnect.pool_poll_timeout' => '0',
     'redis.pconnect.pooling_enabled' => '1',
+    'redis.session.compression' => 'none',
+    'redis.session.compression_level' => '3',
     'redis.session.early_refresh' => '0',
     'redis.session.lock_expire' => '0',
     'redis.session.lock_retries' => '100',

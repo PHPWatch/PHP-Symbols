@@ -77,6 +77,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'toDateTimeImmutable' => 
+    array (
+      'name' => 'toDateTimeImmutable',
+      'class' => 'MongoDB\\BSON\\UTCDateTime',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'DateTimeImmutable',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     '__toString' => 
     array (
       'name' => '__toString',
@@ -238,7 +252,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [8] {
+  - Methods [9] {
     Method [ <internal:mongodb, ctor> final public method __construct ] {
 
       - Parameters [1] {
@@ -251,6 +265,13 @@ return array (
       - Parameters [0] {
       }
       - Return [ DateTime ]
+    }
+
+    Method [ <internal:mongodb> final public method toDateTimeImmutable ] {
+
+      - Parameters [0] {
+      }
+      - Return [ DateTimeImmutable ]
     }
 
     Method [ <internal:mongodb, prototype MongoDB\\BSON\\UTCDateTimeInterface> final public method __toString ] {

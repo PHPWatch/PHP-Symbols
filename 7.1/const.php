@@ -2139,6 +2139,7 @@ return array (
   'msgpack' => 
   array (
     'MESSAGEPACK_OPT_PHPONLY' => -1001,
+    'MESSAGEPACK_OPT_ASSOC' => -1002,
   ),
   'mysqli' => 
   array (
@@ -2315,8 +2316,8 @@ return array (
   ),
   'pgsql' => 
   array (
-    'PGSQL_LIBPQ_VERSION' => '16.2 (Ubuntu 16.2-1ubuntu4)',
-    'PGSQL_LIBPQ_VERSION_STR' => 'PostgreSQL 16.2 (Ubuntu 16.2-1ubuntu4) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu3) 13.2.0, 64-bit',
+    'PGSQL_LIBPQ_VERSION' => '16.4 (Ubuntu 16.4-0ubuntu0.24.04.2)',
+    'PGSQL_LIBPQ_VERSION_STR' => 'PostgreSQL 16.4 (Ubuntu 16.4-0ubuntu0.24.04.2) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu4) 13.2.0, 64-bit',
     'PGSQL_CONNECT_FORCE_NEW' => 2,
     'PGSQL_CONNECT_ASYNC' => 4,
     'PGSQL_ASSOC' => 1,

@@ -97,7 +97,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.3.12
+PHP Version => 8.3.13
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -247,7 +247,7 @@ curl.cainfo => no value => no value
 date
 
 date/time support => enabled
-timelib version => 2022.10
+timelib version => 2022.12
 "Olson" Timezone Database Version => 0.system
 Timezone Database => internal
 Default timezone => UTC
@@ -516,7 +516,7 @@ memcache.session_save_path => no value => no value
 memcached
 
 memcached support => enabled
-Version => 3.2.1-dev
+Version => 3.3.1dev
 libmemcached-awesome version => 1.1.4
 SASL support => yes
 Session support => yes
@@ -586,10 +586,12 @@ msgpack
 
 MessagePack Support => enabled
 Session Support => enabled
-extension Version => 2.2.0
+MessagePack APCu Serializer ABI => 0
+extension Version => 3.0.0
 header Version => 3.2.0
 
 Directive => Local Value => Master Value
+msgpack.assoc => On => On
 msgpack.error_display => On => On
 msgpack.illegal_key_insert => Off => Off
 msgpack.php_only => On => On
@@ -598,7 +600,7 @@ msgpack.use_str8_serialization => On => On
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.3.12
+Client API library version => mysqlnd 8.3.13
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -619,7 +621,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.3.12
+Version => mysqlnd 8.3.13
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -701,7 +703,7 @@ Client Library Version => LI-V6.3.11.33703 Firebird 3.0
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.3.12
+Client API version => mysqlnd 8.3.13
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -778,7 +780,7 @@ PSpell Support => enabled
 
 random
 
-Version => 8.3.12
+Version => 8.3.13
 
 readline
 
@@ -792,7 +794,7 @@ cli.prompt => \\b \\>  => \\b \\>
 redis
 
 Redis Support => enabled
-Redis Version => 6.0.2
+Redis Version => 6.1.0
 Redis Sentinel Version => 1.0
 Available serializers => php, json
 
@@ -824,6 +826,8 @@ redis.pconnect.pool_detect_dirty => 0 => 0
 redis.pconnect.pool_pattern => no value => no value
 redis.pconnect.pool_poll_timeout => 0 => 0
 redis.pconnect.pooling_enabled => 1 => 1
+redis.session.compression => none => none
+redis.session.compression_level => 3 => 3
 redis.session.early_refresh => 0 => 0
 redis.session.lock_expire => 0 => 0
 redis.session.lock_retries => 100 => 100
@@ -837,7 +841,7 @@ Reflection => enabled
 session
 
 Session Support => enabled
-Registered save handlers => files user memcache redis rediscluster memcached 
+Registered save handlers => files user memcache memcached redis rediscluster 
 Registered serializer handlers => php_serialize php php_binary igbinary msgpack 
 
 Directive => Local Value => Master Value
@@ -1115,7 +1119,7 @@ libexslt Version => 0.8.21
 yaml
 
 LibYAML Support => enabled
-Module Version => 2.2.3
+Module Version => 2.2.4
 LibYAML Version => 0.2.5
 
 Directive => Local Value => Master Value

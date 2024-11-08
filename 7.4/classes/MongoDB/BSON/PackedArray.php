@@ -53,6 +53,31 @@ return array (
       'is_protected' => false,
       'is_private' => true,
     ),
+    'fromJSON' => 
+    array (
+      'name' => 'fromJSON',
+      'class' => 'MongoDB\\BSON\\PackedArray',
+      'parameters' => 
+      array (
+        'json' => 
+        array (
+          'position' => 0,
+          'name' => 'json',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'MongoDB\\BSON\\PackedArray',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'fromPHP' => 
     array (
       'name' => 'fromPHP',
@@ -162,6 +187,34 @@ return array (
       ),
       'return_type' => NULL,
       'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'toCanonicalExtendedJSON' => 
+    array (
+      'name' => 'toCanonicalExtendedJSON',
+      'class' => 'MongoDB\\BSON\\PackedArray',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'toRelaxedExtendedJSON' => 
+    array (
+      'name' => 'toRelaxedExtendedJSON',
+      'class' => 'MongoDB\\BSON\\PackedArray',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -412,7 +465,15 @@ return array (
   - Static properties [0] {
   }
 
-  - Static methods [2] {
+  - Static methods [3] {
+    Method [ <internal:mongodb> final static public method fromJSON ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $json ]
+      }
+      - Return [ MongoDB\\BSON\\PackedArray ]
+    }
+
     Method [ <internal:mongodb> final static public method fromPHP ] {
 
       - Parameters [1] {
@@ -433,7 +494,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [14] {
+  - Methods [16] {
     Method [ <internal:mongodb, ctor> private method __construct ] {
 
       - Parameters [0] {
@@ -467,6 +528,20 @@ return array (
       - Parameters [1] {
         Parameter #0 [ <optional> array or NULL $typeMap ]
       }
+    }
+
+    Method [ <internal:mongodb> final public method toCanonicalExtendedJSON ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:mongodb> final public method toRelaxedExtendedJSON ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
     }
 
     Method [ <internal:mongodb, prototype ArrayAccess> public method offsetExists ] {

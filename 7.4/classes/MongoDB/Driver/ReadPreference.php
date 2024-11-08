@@ -349,7 +349,7 @@ return array (
       - Return [ int ]
     }
 
-    Method [ <internal:mongodb> final public method getMode ] {
+    Method [ <internal, deprecated:mongodb> final public method getMode ] {
 
       - Parameters [0] {
       }

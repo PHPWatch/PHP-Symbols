@@ -31,11 +31,14 @@ return array (
     'LIBMEMCACHED_VERSION_HEX' => 16781316,
     'OPT_COMPRESSION' => -1001,
     'OPT_COMPRESSION_TYPE' => -1004,
+    'OPT_COMPRESSION_LEVEL' => -1007,
     'OPT_PREFIX_KEY' => -1002,
     'OPT_SERIALIZER' => -1003,
     'OPT_USER_FLAGS' => -1006,
     'OPT_STORE_RETRY_COUNT' => -1005,
+    'OPT_ITEM_SIZE_LIMIT' => -1008,
     'HAVE_IGBINARY' => false,
+    'HAVE_ZSTD' => false,
     'HAVE_JSON' => false,
     'HAVE_MSGPACK' => false,
     'HAVE_ENCODING' => true,
@@ -140,6 +143,7 @@ return array (
     'SERIALIZER_MSGPACK' => 5,
     'COMPRESSION_FASTLZ' => 2,
     'COMPRESSION_ZLIB' => 1,
+    'COMPRESSION_ZSTD' => 3,
     'GET_PRESERVE_ORDER' => 1,
     'GET_EXTENDED' => 2,
     'GET_ERROR_RETURN_VALUE' => false,
@@ -2284,15 +2288,18 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:memcached> class Memcached ] {
 
-  - Constants [115] {
+  - Constants [119] {
     Constant [ public integer LIBMEMCACHED_VERSION_HEX ] { 16781316 }
     Constant [ public integer OPT_COMPRESSION ] { -1001 }
     Constant [ public integer OPT_COMPRESSION_TYPE ] { -1004 }
+    Constant [ public integer OPT_COMPRESSION_LEVEL ] { -1007 }
     Constant [ public integer OPT_PREFIX_KEY ] { -1002 }
     Constant [ public integer OPT_SERIALIZER ] { -1003 }
     Constant [ public integer OPT_USER_FLAGS ] { -1006 }
     Constant [ public integer OPT_STORE_RETRY_COUNT ] { -1005 }
+    Constant [ public integer OPT_ITEM_SIZE_LIMIT ] { -1008 }
     Constant [ public boolean HAVE_IGBINARY ] {  }
+    Constant [ public boolean HAVE_ZSTD ] {  }
     Constant [ public boolean HAVE_JSON ] {  }
     Constant [ public boolean HAVE_MSGPACK ] {  }
     Constant [ public boolean HAVE_ENCODING ] { 1 }
@@ -2397,6 +2404,7 @@ return array (
     Constant [ public integer SERIALIZER_MSGPACK ] { 5 }
     Constant [ public integer COMPRESSION_FASTLZ ] { 2 }
     Constant [ public integer COMPRESSION_ZLIB ] { 1 }
+    Constant [ public integer COMPRESSION_ZSTD ] { 3 }
     Constant [ public integer GET_PRESERVE_ORDER ] { 1 }
     Constant [ public integer GET_EXTENDED ] { 2 }
     Constant [ public boolean GET_ERROR_RETURN_VALUE ] {  }

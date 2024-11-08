@@ -48,7 +48,7 @@ amqp.write_timeout => 0 => 0
 apcu
 
 APCu Support => Disabled
-Version => 5.1.23
+Version => 5.1.24
 APCu Debugging => Disabled
 MMAP Support => Enabled
 MMAP File Mask =>  
@@ -74,8 +74,8 @@ apc.use_request_time => Off => Off
 ast
 
 ast support => enabled
-extension version => 1.1.1
-AST version => Current version is 90. All versions (including experimental): {50, 60, 70, 80, 85, 90, 100}
+extension version => 1.1.2
+AST version => Current version is 110. All versions (including experimental): {50, 60, 70, 80, 85, 90, 100, 110}
 
 bcmath
 
@@ -378,7 +378,7 @@ iconv.output_encoding => no value => no value
 igbinary
 
 igbinary support => enabled
-igbinary version => 3.2.15
+igbinary version => 3.2.16
 igbinary APCu serializer ABI => 0
 igbinary session support => yes
 
@@ -507,21 +507,24 @@ memcache.session_save_path => no value => no value
 memcached
 
 memcached support => enabled
-Version => 3.2.0
+Version => 3.3.0
 libmemcached-awesome version => 1.1.4
 SASL support => yes
 Session support => yes
 igbinary support => no
 json support => no
 msgpack support => no
+zstd support => no
 
 Directive => Local Value => Master Value
 memcached.compression_factor => 1.3 => 1.3
+memcached.compression_level => 3 => 3
 memcached.compression_threshold => 2000 => 2000
 memcached.compression_type => fastlz => fastlz
 memcached.default_binary_protocol => Off => Off
 memcached.default_connect_timeout => 0 => 0
 memcached.default_consistent_hash => Off => Off
+memcached.item_size_limit => 0 => 0
 memcached.serializer => php => php
 memcached.sess_binary_protocol => On => On
 memcached.sess_connect_timeout => 0 => 0
@@ -547,10 +550,10 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.19.0
+MongoDB extension version => 1.20.0
 MongoDB extension stability => stable
-libbson bundled version => 1.27.0
-libmongoc bundled version => 1.27.0
+libbson bundled version => 1.28.0
+libmongoc bundled version => 1.28.0
 libmongoc SSL => enabled
 libmongoc SSL library => OpenSSL
 libmongoc crypto => enabled
@@ -562,7 +565,7 @@ libmongoc compression => enabled
 libmongoc compression snappy => disabled
 libmongoc compression zlib => enabled
 libmongoc compression zstd => enabled
-libmongocrypt bundled version => 1.10.0
+libmongocrypt bundled version => 1.11.0
 libmongocrypt crypto => enabled
 libmongocrypt crypto library => libcrypto
 crypt_shared library version => unknown
@@ -574,10 +577,12 @@ msgpack
 
 MessagePack Support => enabled
 Session Support => enabled
-extension Version => 2.2.0
+MessagePack APCu Serializer ABI => 0
+extension Version => 3.0.0
 header Version => 3.2.0
 
 Directive => Local Value => Master Value
+msgpack.assoc => On => On
 msgpack.error_display => On => On
 msgpack.illegal_key_insert => Off => Off
 msgpack.php_only => On => On
@@ -702,7 +707,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 16.2 (Ubuntu 16.2-1ubuntu4)
+PostgreSQL(libpq) Version => 16.4 (Ubuntu 16.4-0ubuntu0.24.04.2)
 
 pdo_sqlite
 
@@ -723,8 +728,8 @@ pdo_sqlsrv.set_locale_info => 2 => 2
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL(libpq) Version => 16.2 (Ubuntu 16.2-1ubuntu4)
-PostgreSQL(libpq)  => PostgreSQL 16.2 (Ubuntu 16.2-1ubuntu4) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu3) 13.2.0, 64-bit
+PostgreSQL(libpq) Version => 16.4 (Ubuntu 16.4-0ubuntu0.24.04.2)
+PostgreSQL(libpq)  => PostgreSQL 16.4 (Ubuntu 16.4-0ubuntu0.24.04.2) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu4) 13.2.0, 64-bit
 Multibyte character support => enabled
 SSL support => enabled
 Active Persistent Links => 0
@@ -778,7 +783,7 @@ cli.prompt => \\b \\>  => \\b \\>
 redis
 
 Redis Support => enabled
-Redis Version => 6.0.2
+Redis Version => 6.1.0
 Redis Sentinel Version => 1.0
 Available serializers => php, json
 
@@ -810,6 +815,8 @@ redis.pconnect.pool_detect_dirty => 0 => 0
 redis.pconnect.pool_pattern => no value => no value
 redis.pconnect.pool_poll_timeout => 0 => 0
 redis.pconnect.pooling_enabled => 1 => 1
+redis.session.compression => none => none
+redis.session.compression_level => 3 => 3
 redis.session.early_refresh => 0 => 0
 redis.session.lock_expire => 0 => 0
 redis.session.lock_retries => 100 => 100
@@ -823,7 +830,7 @@ Reflection => enabled
 session
 
 Session Support => enabled
-Registered save handlers => files user memcache redis rediscluster memcached 
+Registered save handlers => files user memcache memcached redis rediscluster 
 Registered serializer handlers => php_serialize php php_binary igbinary msgpack 
 
 Directive => Local Value => Master Value
@@ -1105,7 +1112,7 @@ libexslt Version => 0.8.21
 yaml
 
 LibYAML Support => enabled
-Module Version => 2.2.3
+Module Version => 2.2.4
 LibYAML Version => 0.2.5
 
 Directive => Local Value => Master Value

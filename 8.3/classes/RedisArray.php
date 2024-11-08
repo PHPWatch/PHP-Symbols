@@ -308,7 +308,7 @@ return array (
       'parameters' => 
       array (
       ),
-      'return_type' => '?bool',
+      'return_type' => 'array|bool|null',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -389,7 +389,7 @@ return array (
         array (
           'position' => 1,
           'name' => 'iterator',
-          'type' => '?int',
+          'type' => 'string|int|null',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -589,7 +589,7 @@ return array (
         array (
           'position' => 0,
           'name' => 'iterator',
-          'type' => '?int',
+          'type' => 'string|int|null',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -719,7 +719,7 @@ return array (
         array (
           'position' => 1,
           'name' => 'iterator',
-          'type' => '?int',
+          'type' => 'string|int|null',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -827,7 +827,7 @@ return array (
         array (
           'position' => 1,
           'name' => 'iterator',
-          'type' => '?int',
+          'type' => 'string|int|null',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -984,7 +984,7 @@ return array (
 
       - Parameters [0] {
       }
-      - Return [ ?bool ]
+      - Return [ array|bool|null ]
     }
 
     Method [ <internal:redis> public method flushall ] {
@@ -1013,7 +1013,7 @@ return array (
 
       - Parameters [4] {
         Parameter #0 [ <required> string $key ]
-        Parameter #1 [ <required> ?int &$iterator ]
+        Parameter #1 [ <required> string|int|null &$iterator ]
         Parameter #2 [ <optional> ?string $pattern = null ]
         Parameter #3 [ <optional> int $count = 0 ]
       }
@@ -1077,7 +1077,7 @@ return array (
     Method [ <internal:redis> public method scan ] {
 
       - Parameters [4] {
-        Parameter #0 [ <required> ?int &$iterator ]
+        Parameter #0 [ <required> string|int|null &$iterator ]
         Parameter #1 [ <required> string $node ]
         Parameter #2 [ <optional> ?string $pattern = null ]
         Parameter #3 [ <optional> int $count = 0 ]
@@ -1106,7 +1106,7 @@ return array (
 
       - Parameters [4] {
         Parameter #0 [ <required> string $key ]
-        Parameter #1 [ <required> ?int &$iterator ]
+        Parameter #1 [ <required> string|int|null &$iterator ]
         Parameter #2 [ <optional> ?string $pattern = null ]
         Parameter #3 [ <optional> int $count = 0 ]
       }
@@ -1133,7 +1133,7 @@ return array (
 
       - Parameters [4] {
         Parameter #0 [ <required> string $key ]
-        Parameter #1 [ <required> ?int &$iterator ]
+        Parameter #1 [ <required> string|int|null &$iterator ]
         Parameter #2 [ <optional> ?string $pattern = null ]
         Parameter #3 [ <optional> int $count = 0 ]
       }

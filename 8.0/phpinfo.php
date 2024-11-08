@@ -48,7 +48,7 @@ amqp.write_timeout => 0 => 0
 apcu
 
 APCu Support => Disabled
-Version => 5.1.23
+Version => 5.1.24
 APCu Debugging => Disabled
 MMAP Support => Enabled
 MMAP File Mask =>  
@@ -74,8 +74,8 @@ apc.use_request_time => Off => Off
 ast
 
 ast support => enabled
-extension version => 1.1.1
-AST version => Current version is 90. All versions (including experimental): {50, 60, 70, 80, 85, 90, 100}
+extension version => 1.1.2
+AST version => Current version is 110. All versions (including experimental): {50, 60, 70, 80, 85, 90, 100, 110}
 
 bcmath
 
@@ -378,7 +378,7 @@ iconv.output_encoding => no value => no value
 igbinary
 
 igbinary support => enabled
-igbinary version => 3.2.15
+igbinary version => 3.2.16
 igbinary APCu serializer ABI => 0
 igbinary session support => yes
 
@@ -504,7 +504,7 @@ memcache.session_save_path => no value => no value
 memcached
 
 memcached support => enabled
-Version => 3.2.1-dev
+Version => 3.3.1dev
 libmemcached-awesome version => 1.1.4
 SASL support => yes
 Session support => yes
@@ -547,10 +547,10 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.19.0
+MongoDB extension version => 1.20.0
 MongoDB extension stability => stable
-libbson bundled version => 1.27.0
-libmongoc bundled version => 1.27.0
+libbson bundled version => 1.28.0
+libmongoc bundled version => 1.28.0
 libmongoc SSL => enabled
 libmongoc SSL library => OpenSSL
 libmongoc crypto => enabled
@@ -562,7 +562,7 @@ libmongoc compression => enabled
 libmongoc compression snappy => disabled
 libmongoc compression zlib => enabled
 libmongoc compression zstd => enabled
-libmongocrypt bundled version => 1.10.0
+libmongocrypt bundled version => 1.11.0
 libmongocrypt crypto => enabled
 libmongocrypt crypto library => libcrypto
 crypt_shared library version => unknown
@@ -574,10 +574,12 @@ msgpack
 
 MessagePack Support => enabled
 Session Support => enabled
-extension Version => 2.2.0
+MessagePack APCu Serializer ABI => 0
+extension Version => 3.0.0
 header Version => 3.2.0
 
 Directive => Local Value => Master Value
+msgpack.assoc => On => On
 msgpack.error_display => On => On
 msgpack.illegal_key_insert => Off => Off
 msgpack.php_only => On => On
@@ -776,7 +778,7 @@ cli.prompt => \\b \\>  => \\b \\>
 redis
 
 Redis Support => enabled
-Redis Version => 6.0.2
+Redis Version => 6.1.0
 Redis Sentinel Version => 1.0
 Available serializers => php, json
 
@@ -808,6 +810,8 @@ redis.pconnect.pool_detect_dirty => 0 => 0
 redis.pconnect.pool_pattern => no value => no value
 redis.pconnect.pool_poll_timeout => 0 => 0
 redis.pconnect.pooling_enabled => 1 => 1
+redis.session.compression => none => none
+redis.session.compression_level => 3 => 3
 redis.session.early_refresh => 0 => 0
 redis.session.lock_expire => 0 => 0
 redis.session.lock_retries => 100 => 100
@@ -821,7 +825,7 @@ Reflection => enabled
 session
 
 Session Support => enabled
-Registered save handlers => files user memcache redis rediscluster memcached 
+Registered save handlers => files user memcache memcached redis rediscluster 
 Registered serializer handlers => php_serialize php php_binary igbinary msgpack 
 
 Directive => Local Value => Master Value
@@ -1099,7 +1103,7 @@ libexslt Version => 0.8.21
 yaml
 
 LibYAML Support => enabled
-Module Version => 2.2.3
+Module Version => 2.2.4
 LibYAML Version => 0.2.5
 
 Directive => Local Value => Master Value

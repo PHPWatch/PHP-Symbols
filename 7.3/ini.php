@@ -1659,6 +1659,12 @@ return array (
   ),
   'msgpack' => 
   array (
+    'msgpack.assoc' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
     'msgpack.error_display' => 
     array (
       'global_value' => '1',
@@ -1948,6 +1954,360 @@ return array (
       'access' => 7,
     ),
   ),
+  'shmop' => 
+  array (
+  ),
+  'SimpleXML' => 
+  array (
+  ),
+  'snmp' => 
+  array (
+  ),
+  'soap' => 
+  array (
+    'soap.wsdl_cache' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+    'soap.wsdl_cache_dir' => 
+    array (
+      'global_value' => '/tmp',
+      'local_value' => '/tmp',
+      'access' => 7,
+    ),
+    'soap.wsdl_cache_enabled' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+    'soap.wsdl_cache_limit' => 
+    array (
+      'global_value' => '5',
+      'local_value' => '5',
+      'access' => 7,
+    ),
+    'soap.wsdl_cache_ttl' => 
+    array (
+      'global_value' => '86400',
+      'local_value' => '86400',
+      'access' => 7,
+    ),
+  ),
+  'sockets' => 
+  array (
+  ),
+  'sqlite3' => 
+  array (
+    'sqlite3.defensive' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 4,
+    ),
+    'sqlite3.extension_dir' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 4,
+    ),
+  ),
+  'sqlsrv' => 
+  array (
+    'sqlsrv.ClientBufferMaxKBSize' => 
+    array (
+      'global_value' => '10240',
+      'local_value' => '10240',
+      'access' => 7,
+    ),
+    'sqlsrv.LogSeverity' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'sqlsrv.LogSubsystems' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'sqlsrv.SetLocaleInfo' => 
+    array (
+      'global_value' => '2',
+      'local_value' => '2',
+      'access' => 7,
+    ),
+    'sqlsrv.WarningsReturnAsErrors' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+  ),
+  'sysvmsg' => 
+  array (
+  ),
+  'sysvsem' => 
+  array (
+  ),
+  'sysvshm' => 
+  array (
+  ),
+  'tidy' => 
+  array (
+    'tidy.clean_output' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 1,
+    ),
+    'tidy.default_config' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 4,
+    ),
+  ),
+  'tokenizer' => 
+  array (
+  ),
+  'xmlreader' => 
+  array (
+  ),
+  'xmlrpc' => 
+  array (
+  ),
+  'xmlwriter' => 
+  array (
+  ),
+  'xsl' => 
+  array (
+  ),
+  'yaml' => 
+  array (
+    'yaml.decode_binary' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'yaml.decode_php' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'yaml.decode_timestamp' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'yaml.output_canonical' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'yaml.output_indent' => 
+    array (
+      'global_value' => '2',
+      'local_value' => '2',
+      'access' => 7,
+    ),
+    'yaml.output_width' => 
+    array (
+      'global_value' => '80',
+      'local_value' => '80',
+      'access' => 7,
+    ),
+  ),
+  'zip' => 
+  array (
+  ),
+  'zmq' => 
+  array (
+  ),
+  'memcached' => 
+  array (
+    'memcached.compression_factor' => 
+    array (
+      'global_value' => '1.3',
+      'local_value' => '1.3',
+      'access' => 7,
+    ),
+    'memcached.compression_level' => 
+    array (
+      'global_value' => '3',
+      'local_value' => '3',
+      'access' => 7,
+    ),
+    'memcached.compression_threshold' => 
+    array (
+      'global_value' => '2000',
+      'local_value' => '2000',
+      'access' => 7,
+    ),
+    'memcached.compression_type' => 
+    array (
+      'global_value' => 'fastlz',
+      'local_value' => 'fastlz',
+      'access' => 7,
+    ),
+    'memcached.default_binary_protocol' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'memcached.default_connect_timeout' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'memcached.default_consistent_hash' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'memcached.item_size_limit' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'memcached.serializer' => 
+    array (
+      'global_value' => 'php',
+      'local_value' => 'php',
+      'access' => 7,
+    ),
+    'memcached.sess_binary_protocol' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+    'memcached.sess_connect_timeout' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'memcached.sess_consistent_hash' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+    'memcached.sess_consistent_hash_type' => 
+    array (
+      'global_value' => 'ketama',
+      'local_value' => 'ketama',
+      'access' => 7,
+    ),
+    'memcached.sess_lock_expire' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'memcached.sess_lock_max_wait' => 
+    array (
+      'global_value' => 'not set',
+      'local_value' => 'not set',
+      'access' => 7,
+    ),
+    'memcached.sess_lock_retries' => 
+    array (
+      'global_value' => '5',
+      'local_value' => '5',
+      'access' => 7,
+    ),
+    'memcached.sess_lock_wait' => 
+    array (
+      'global_value' => 'not set',
+      'local_value' => 'not set',
+      'access' => 7,
+    ),
+    'memcached.sess_lock_wait_max' => 
+    array (
+      'global_value' => '150',
+      'local_value' => '150',
+      'access' => 7,
+    ),
+    'memcached.sess_lock_wait_min' => 
+    array (
+      'global_value' => '150',
+      'local_value' => '150',
+      'access' => 7,
+    ),
+    'memcached.sess_locking' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+    'memcached.sess_number_of_replicas' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'memcached.sess_persistent' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'memcached.sess_prefix' => 
+    array (
+      'global_value' => 'memc.sess.key.',
+      'local_value' => 'memc.sess.key.',
+      'access' => 7,
+    ),
+    'memcached.sess_randomize_replica_read' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'memcached.sess_remove_failed_servers' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'memcached.sess_sasl_password' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'memcached.sess_sasl_username' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'memcached.sess_server_failure_limit' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'memcached.store_retry_count' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+  ),
   'redis' => 
   array (
     'redis.arrays.algorithm' => 
@@ -2137,348 +2497,6 @@ return array (
       'access' => 7,
     ),
     'redis.session.locking_enabled' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-  ),
-  'shmop' => 
-  array (
-  ),
-  'SimpleXML' => 
-  array (
-  ),
-  'snmp' => 
-  array (
-  ),
-  'soap' => 
-  array (
-    'soap.wsdl_cache' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'soap.wsdl_cache_dir' => 
-    array (
-      'global_value' => '/tmp',
-      'local_value' => '/tmp',
-      'access' => 7,
-    ),
-    'soap.wsdl_cache_enabled' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'soap.wsdl_cache_limit' => 
-    array (
-      'global_value' => '5',
-      'local_value' => '5',
-      'access' => 7,
-    ),
-    'soap.wsdl_cache_ttl' => 
-    array (
-      'global_value' => '86400',
-      'local_value' => '86400',
-      'access' => 7,
-    ),
-  ),
-  'sockets' => 
-  array (
-  ),
-  'sqlite3' => 
-  array (
-    'sqlite3.defensive' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'sqlite3.extension_dir' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 4,
-    ),
-  ),
-  'sqlsrv' => 
-  array (
-    'sqlsrv.ClientBufferMaxKBSize' => 
-    array (
-      'global_value' => '10240',
-      'local_value' => '10240',
-      'access' => 7,
-    ),
-    'sqlsrv.LogSeverity' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'sqlsrv.LogSubsystems' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'sqlsrv.SetLocaleInfo' => 
-    array (
-      'global_value' => '2',
-      'local_value' => '2',
-      'access' => 7,
-    ),
-    'sqlsrv.WarningsReturnAsErrors' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-  ),
-  'sysvmsg' => 
-  array (
-  ),
-  'sysvsem' => 
-  array (
-  ),
-  'sysvshm' => 
-  array (
-  ),
-  'tidy' => 
-  array (
-    'tidy.clean_output' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 1,
-    ),
-    'tidy.default_config' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 4,
-    ),
-  ),
-  'tokenizer' => 
-  array (
-  ),
-  'xmlreader' => 
-  array (
-  ),
-  'xmlrpc' => 
-  array (
-  ),
-  'xmlwriter' => 
-  array (
-  ),
-  'xsl' => 
-  array (
-  ),
-  'yaml' => 
-  array (
-    'yaml.decode_binary' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'yaml.decode_php' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'yaml.decode_timestamp' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'yaml.output_canonical' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'yaml.output_indent' => 
-    array (
-      'global_value' => '2',
-      'local_value' => '2',
-      'access' => 7,
-    ),
-    'yaml.output_width' => 
-    array (
-      'global_value' => '80',
-      'local_value' => '80',
-      'access' => 7,
-    ),
-  ),
-  'zip' => 
-  array (
-  ),
-  'zmq' => 
-  array (
-  ),
-  'memcached' => 
-  array (
-    'memcached.compression_factor' => 
-    array (
-      'global_value' => '1.3',
-      'local_value' => '1.3',
-      'access' => 7,
-    ),
-    'memcached.compression_threshold' => 
-    array (
-      'global_value' => '2000',
-      'local_value' => '2000',
-      'access' => 7,
-    ),
-    'memcached.compression_type' => 
-    array (
-      'global_value' => 'fastlz',
-      'local_value' => 'fastlz',
-      'access' => 7,
-    ),
-    'memcached.default_binary_protocol' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.default_connect_timeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.default_consistent_hash' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.serializer' => 
-    array (
-      'global_value' => 'php',
-      'local_value' => 'php',
-      'access' => 7,
-    ),
-    'memcached.sess_binary_protocol' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'memcached.sess_connect_timeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.sess_consistent_hash' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'memcached.sess_consistent_hash_type' => 
-    array (
-      'global_value' => 'ketama',
-      'local_value' => 'ketama',
-      'access' => 7,
-    ),
-    'memcached.sess_lock_expire' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.sess_lock_max_wait' => 
-    array (
-      'global_value' => 'not set',
-      'local_value' => 'not set',
-      'access' => 7,
-    ),
-    'memcached.sess_lock_retries' => 
-    array (
-      'global_value' => '5',
-      'local_value' => '5',
-      'access' => 7,
-    ),
-    'memcached.sess_lock_wait' => 
-    array (
-      'global_value' => 'not set',
-      'local_value' => 'not set',
-      'access' => 7,
-    ),
-    'memcached.sess_lock_wait_max' => 
-    array (
-      'global_value' => '150',
-      'local_value' => '150',
-      'access' => 7,
-    ),
-    'memcached.sess_lock_wait_min' => 
-    array (
-      'global_value' => '150',
-      'local_value' => '150',
-      'access' => 7,
-    ),
-    'memcached.sess_locking' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'memcached.sess_number_of_replicas' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.sess_persistent' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.sess_prefix' => 
-    array (
-      'global_value' => 'memc.sess.key.',
-      'local_value' => 'memc.sess.key.',
-      'access' => 7,
-    ),
-    'memcached.sess_randomize_replica_read' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.sess_remove_failed_servers' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.sess_sasl_password' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'memcached.sess_sasl_username' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'memcached.sess_server_failure_limit' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.store_retry_count' => 
     array (
       'global_value' => '0',
       'local_value' => '0',

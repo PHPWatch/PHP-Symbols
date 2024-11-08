@@ -1090,6 +1090,7 @@ return array (
     'ast\\AST_METHOD' => 69,
     'ast\\AST_ARROW_FUNC' => 71,
     'ast\\AST_CLASS' => 70,
+    'ast\\AST_PROPERTY_HOOK' => 127,
     'ast\\AST_MAGIC_CONST' => 0,
     'ast\\AST_TYPE' => 1,
     'ast\\AST_CALLABLE_CONVERT' => 3,
@@ -1122,6 +1123,7 @@ return array (
     'ast\\AST_BREAK' => 286,
     'ast\\AST_CONTINUE' => 287,
     'ast\\AST_CLASS_NAME' => 276,
+    'ast\\AST_PROPERTY_HOOK_SHORT_BODY' => 510,
     'ast\\AST_CLASS_CONST_GROUP' => 546,
     'ast\\AST_DIM' => 512,
     'ast\\AST_PROP' => 513,
@@ -2412,12 +2414,13 @@ return array (
   ),
   'mongodb' => 
   array (
-    'MONGODB_VERSION' => '1.19.0',
+    'MONGODB_VERSION' => '1.20.0',
     'MONGODB_STABILITY' => 'stable',
   ),
   'msgpack' => 
   array (
     'MESSAGEPACK_OPT_PHPONLY' => -1001,
+    'MESSAGEPACK_OPT_ASSOC' => -1002,
   ),
   'mysqli' => 
   array (

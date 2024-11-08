@@ -71,9 +71,20 @@ return array (
       'class' => 'MongoDB\\Driver\\Cursor',
       'parameters' => 
       array (
+        'asInt64' => 
+        array (
+          'position' => 0,
+          'name' => 'asInt64',
+          'type' => 'bool',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
       ),
-      'return_type' => 'MongoDB\\Driver\\CursorId',
-      'has_return_type' => true,
+      'return_type' => NULL,
+      'has_return_type' => false,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -241,9 +252,9 @@ return array (
 
     Method [ <internal:mongodb, prototype MongoDB\\Driver\\CursorInterface> final public method getId ] {
 
-      - Parameters [0] {
+      - Parameters [1] {
+        Parameter #0 [ <optional> bool $asInt64 = false ]
       }
-      - Return [ MongoDB\\Driver\\CursorId ]
     }
 
     Method [ <internal:mongodb, prototype MongoDB\\Driver\\CursorInterface> final public method getServer ] {

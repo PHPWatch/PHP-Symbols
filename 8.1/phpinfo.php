@@ -506,7 +506,7 @@ memcache.session_save_path => no value => no value
 memcached
 
 memcached support => enabled
-Version => 3.3.0RC1
+Version => 3.3.1dev
 libmemcached-awesome version => 1.1.4
 SASL support => yes
 Session support => yes
@@ -781,7 +781,7 @@ cli.prompt => \\b \\>  => \\b \\>
 redis
 
 Redis Support => enabled
-Redis Version => 6.0.2
+Redis Version => 6.1.0
 Redis Sentinel Version => 1.0
 Available serializers => php, json
 
@@ -813,6 +813,8 @@ redis.pconnect.pool_detect_dirty => 0 => 0
 redis.pconnect.pool_pattern => no value => no value
 redis.pconnect.pool_poll_timeout => 0 => 0
 redis.pconnect.pooling_enabled => 1 => 1
+redis.session.compression => none => none
+redis.session.compression_level => 3 => 3
 redis.session.early_refresh => 0 => 0
 redis.session.lock_expire => 0 => 0
 redis.session.lock_retries => 100 => 100
@@ -826,7 +828,7 @@ Reflection => enabled
 session
 
 Session Support => enabled
-Registered save handlers => files user memcache redis rediscluster memcached 
+Registered save handlers => files user memcache memcached redis rediscluster 
 Registered serializer handlers => php_serialize php php_binary igbinary msgpack 
 
 Directive => Local Value => Master Value
@@ -1104,7 +1106,7 @@ libexslt Version => 0.8.21
 yaml
 
 LibYAML Support => enabled
-Module Version => 2.2.3
+Module Version => 2.2.4
 LibYAML Version => 0.2.5
 
 Directive => Local Value => Master Value

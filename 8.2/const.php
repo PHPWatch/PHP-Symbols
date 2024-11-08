@@ -26,12 +26,12 @@ return array (
     'TRUE' => true,
     'FALSE' => false,
     'NULL' => NULL,
-    'PHP_VERSION' => '8.2.24',
+    'PHP_VERSION' => '8.2.25',
     'PHP_MAJOR_VERSION' => 8,
     'PHP_MINOR_VERSION' => 2,
-    'PHP_RELEASE_VERSION' => 24,
+    'PHP_RELEASE_VERSION' => 25,
     'PHP_EXTRA_VERSION' => '',
-    'PHP_VERSION_ID' => 80224,
+    'PHP_VERSION_ID' => 80225,
     'PHP_ZTS' => 0,
     'PHP_DEBUG' => 0,
     'PHP_OS' => 'Linux',
@@ -2557,6 +2557,7 @@ return array (
   'msgpack' => 
   array (
     'MESSAGEPACK_OPT_PHPONLY' => -1001,
+    'MESSAGEPACK_OPT_ASSOC' => -1002,
   ),
   'mysqli' => 
   array (

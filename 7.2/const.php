@@ -1020,6 +1020,7 @@ return array (
     'ast\\AST_METHOD' => 68,
     'ast\\AST_ARROW_FUNC' => 1535,
     'ast\\AST_CLASS' => 69,
+    'ast\\AST_PROPERTY_HOOK' => 127,
     'ast\\AST_MAGIC_CONST' => 0,
     'ast\\AST_TYPE' => 1,
     'ast\\AST_CALLABLE_CONVERT' => 3,
@@ -1052,6 +1053,7 @@ return array (
     'ast\\AST_BREAK' => 285,
     'ast\\AST_CONTINUE' => 286,
     'ast\\AST_CLASS_NAME' => 511,
+    'ast\\AST_PROPERTY_HOOK_SHORT_BODY' => 510,
     'ast\\AST_CLASS_CONST_GROUP' => 766,
     'ast\\AST_DIM' => 512,
     'ast\\AST_PROP' => 513,
@@ -2289,6 +2291,7 @@ return array (
   'msgpack' => 
   array (
     'MESSAGEPACK_OPT_PHPONLY' => -1001,
+    'MESSAGEPACK_OPT_ASSOC' => -1002,
   ),
   'mysqli' => 
   array (
@@ -2466,8 +2469,8 @@ return array (
   ),
   'pgsql' => 
   array (
-    'PGSQL_LIBPQ_VERSION' => '16.2 (Ubuntu 16.2-1ubuntu4)',
-    'PGSQL_LIBPQ_VERSION_STR' => 'PostgreSQL 16.2 (Ubuntu 16.2-1ubuntu4) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu3) 13.2.0, 64-bit',
+    'PGSQL_LIBPQ_VERSION' => '16.4 (Ubuntu 16.4-0ubuntu0.24.04.2)',
+    'PGSQL_LIBPQ_VERSION_STR' => 'PostgreSQL 16.4 (Ubuntu 16.4-0ubuntu0.24.04.2) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu4) 13.2.0, 64-bit',
     'PGSQL_CONNECT_FORCE_NEW' => 2,
     'PGSQL_CONNECT_ASYNC' => 4,
     'PGSQL_ASSOC' => 1,

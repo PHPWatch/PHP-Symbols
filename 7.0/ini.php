@@ -1614,6 +1614,12 @@ return array (
   ),
   'msgpack' => 
   array (
+    'msgpack.assoc' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
     'msgpack.error_display' => 
     array (
       'global_value' => '1',
@@ -1903,195 +1909,6 @@ return array (
       'access' => 7,
     ),
   ),
-  'redis' => 
-  array (
-    'redis.arrays.algorithm' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.arrays.auth' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.arrays.autorehash' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.arrays.connecttimeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.arrays.consistent' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.arrays.distributor' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.arrays.functions' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.arrays.hosts' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.arrays.index' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.arrays.lazyconnect' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.arrays.names' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.arrays.pconnect' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.arrays.previous' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.arrays.readtimeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.arrays.retryinterval' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.clusters.auth' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.clusters.cache_slots' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.clusters.persistent' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.clusters.read_timeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.clusters.seeds' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.clusters.timeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.pconnect.connection_limit' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.pconnect.echo_check_liveness' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'redis.pconnect.pool_detect_dirty' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.pconnect.pool_pattern' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.pconnect.pool_poll_timeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.pconnect.pooling_enabled' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'redis.session.lock_expire' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.session.lock_retries' => 
-    array (
-      'global_value' => '10',
-      'local_value' => '10',
-      'access' => 7,
-    ),
-    'redis.session.lock_wait_time' => 
-    array (
-      'global_value' => '2000',
-      'local_value' => '2000',
-      'access' => 7,
-    ),
-    'redis.session.locking_enabled' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-  ),
   'shmop' => 
   array (
   ),
@@ -2277,6 +2094,12 @@ return array (
       'local_value' => '1.3',
       'access' => 7,
     ),
+    'memcached.compression_level' => 
+    array (
+      'global_value' => '3',
+      'local_value' => '3',
+      'access' => 7,
+    ),
     'memcached.compression_threshold' => 
     array (
       'global_value' => '2000',
@@ -2302,6 +2125,12 @@ return array (
       'access' => 7,
     ),
     'memcached.default_consistent_hash' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'memcached.item_size_limit' => 
     array (
       'global_value' => '0',
       'local_value' => '0',
@@ -2428,6 +2257,195 @@ return array (
       'access' => 7,
     ),
     'memcached.store_retry_count' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+  ),
+  'redis' => 
+  array (
+    'redis.arrays.algorithm' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'redis.arrays.auth' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'redis.arrays.autorehash' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'redis.arrays.connecttimeout' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'redis.arrays.consistent' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'redis.arrays.distributor' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'redis.arrays.functions' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'redis.arrays.hosts' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'redis.arrays.index' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'redis.arrays.lazyconnect' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'redis.arrays.names' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'redis.arrays.pconnect' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'redis.arrays.previous' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'redis.arrays.readtimeout' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'redis.arrays.retryinterval' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'redis.clusters.auth' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'redis.clusters.cache_slots' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'redis.clusters.persistent' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'redis.clusters.read_timeout' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'redis.clusters.seeds' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'redis.clusters.timeout' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'redis.pconnect.connection_limit' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'redis.pconnect.echo_check_liveness' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+    'redis.pconnect.pool_detect_dirty' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'redis.pconnect.pool_pattern' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'redis.pconnect.pool_poll_timeout' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'redis.pconnect.pooling_enabled' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+    'redis.session.lock_expire' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'redis.session.lock_retries' => 
+    array (
+      'global_value' => '10',
+      'local_value' => '10',
+      'access' => 7,
+    ),
+    'redis.session.lock_wait_time' => 
+    array (
+      'global_value' => '2000',
+      'local_value' => '2000',
+      'access' => 7,
+    ),
+    'redis.session.locking_enabled' => 
     array (
       'global_value' => '0',
       'local_value' => '0',

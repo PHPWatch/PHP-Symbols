@@ -441,6 +441,64 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'waitaof' => 
+    array (
+      'name' => 'waitaof',
+      'class' => 'RedisCluster',
+      'parameters' => 
+      array (
+        'key_or_address' => 
+        array (
+          'position' => 0,
+          'name' => 'key_or_address',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'numlocal' => 
+        array (
+          'position' => 1,
+          'name' => 'numlocal',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'numreplicas' => 
+        array (
+          'position' => 2,
+          'name' => 'numreplicas',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'timeout' => 
+        array (
+          'position' => 3,
+          'name' => 'timeout',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'bgsave' => 
     array (
       'name' => 'bgsave',
@@ -2878,6 +2936,42 @@ return array (
           'name' => 'key',
           'type' => NULL,
           'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getex' => 
+    array (
+      'name' => 'getex',
+      'class' => 'RedisCluster',
+      'parameters' => 
+      array (
+        'key' => 
+        array (
+          'position' => 0,
+          'name' => 'key',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'options' => 
+        array (
+          'position' => 1,
+          'name' => 'options',
+          'type' => NULL,
+          'is_optional' => true,
           'has_default_value' => false,
           'default_value' => NULL,
           'has_default_value_constant' => false,
@@ -9236,7 +9330,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [222] {
+  - Methods [224] {
     Method [ <internal:redis, ctor> public method __construct ] {
 
       - Parameters [7] {
@@ -9332,6 +9426,16 @@ return array (
 
       - Parameters [1] {
         Parameter #0 [ <required> $key_or_address ]
+      }
+    }
+
+    Method [ <internal:redis> public method waitaof ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> $key_or_address ]
+        Parameter #1 [ <required> $numlocal ]
+        Parameter #2 [ <required> $numreplicas ]
+        Parameter #3 [ <required> $timeout ]
       }
     }
 
@@ -9810,6 +9914,14 @@ return array (
 
       - Parameters [1] {
         Parameter #0 [ <required> $key ]
+      }
+    }
+
+    Method [ <internal:redis> public method getex ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $key ]
+        Parameter #1 [ <optional> $options ]
       }
     }
 

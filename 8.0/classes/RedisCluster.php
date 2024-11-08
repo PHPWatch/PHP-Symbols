@@ -441,6 +441,64 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'waitaof' => 
+    array (
+      'name' => 'waitaof',
+      'class' => 'RedisCluster',
+      'parameters' => 
+      array (
+        'key_or_address' => 
+        array (
+          'position' => 0,
+          'name' => 'key_or_address',
+          'type' => 'array|string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'numlocal' => 
+        array (
+          'position' => 1,
+          'name' => 'numlocal',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'numreplicas' => 
+        array (
+          'position' => 2,
+          'name' => 'numreplicas',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'timeout' => 
+        array (
+          'position' => 3,
+          'name' => 'timeout',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'RedisCluster|array|false',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'bgsave' => 
     array (
       'name' => 'bgsave',
@@ -2911,6 +2969,44 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getex' => 
+    array (
+      'name' => 'getex',
+      'class' => 'RedisCluster',
+      'parameters' => 
+      array (
+        'key' => 
+        array (
+          'position' => 0,
+          'name' => 'key',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'options' => 
+        array (
+          'position' => 1,
+          'name' => 'options',
+          'type' => 'array',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'default_value' => 
+          array (
+          ),
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'RedisCluster|string|false',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getbit' => 
     array (
       'name' => 'getbit',
@@ -3539,7 +3635,7 @@ return array (
         array (
           'position' => 1,
           'name' => 'iterator',
-          'type' => '?int',
+          'type' => 'string|int|null',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -4995,7 +5091,7 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => 'RedisCluster|bool',
+      'return_type' => 'RedisCluster|int|bool',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -5563,7 +5659,7 @@ return array (
         array (
           'position' => 0,
           'name' => 'iterator',
-          'type' => '?int',
+          'type' => 'string|int|null',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -6526,7 +6622,7 @@ return array (
         array (
           'position' => 1,
           'name' => 'iterator',
-          'type' => '?int',
+          'type' => 'string|int|null',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -8886,7 +8982,7 @@ return array (
         array (
           'position' => 1,
           'name' => 'iterator',
-          'type' => '?int',
+          'type' => 'string|int|null',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -9258,7 +9354,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [222] {
+  - Methods [224] {
     Method [ <internal:redis, ctor> public method __construct ] {
 
       - Parameters [7] {
@@ -9367,6 +9463,17 @@ return array (
         Parameter #0 [ <required> array|string $key_or_address ]
       }
       - Return [ RedisCluster|bool ]
+    }
+
+    Method [ <internal:redis> public method waitaof ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> array|string $key_or_address ]
+        Parameter #1 [ <required> int $numlocal ]
+        Parameter #2 [ <required> int $numreplicas ]
+        Parameter #3 [ <required> int $timeout ]
+      }
+      - Return [ RedisCluster|array|false ]
     }
 
     Method [ <internal:redis> public method bgsave ] {
@@ -9538,7 +9645,7 @@ return array (
       - Parameters [3] {
         Parameter #0 [ <required> array|string $key_or_address ]
         Parameter #1 [ <required> string $subcommand ]
-        Parameter #2 [ <optional> ?string $arg = NULL ]
+        Parameter #2 [ <optional> ?string $arg = null ]
       }
       - Return [ array|string|bool ]
     }
@@ -9726,7 +9833,7 @@ return array (
       - Parameters [3] {
         Parameter #0 [ <required> string $key ]
         Parameter #1 [ <required> int $timeout ]
-        Parameter #2 [ <optional> ?string $mode = NULL ]
+        Parameter #2 [ <optional> ?string $mode = null ]
       }
       - Return [ RedisCluster|bool ]
     }
@@ -9736,7 +9843,7 @@ return array (
       - Parameters [3] {
         Parameter #0 [ <required> string $key ]
         Parameter #1 [ <required> int $timestamp ]
-        Parameter #2 [ <optional> ?string $mode = NULL ]
+        Parameter #2 [ <optional> ?string $mode = null ]
       }
       - Return [ RedisCluster|bool ]
     }
@@ -9901,6 +10008,15 @@ return array (
       - Return [ mixed ]
     }
 
+    Method [ <internal:redis> public method getex ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $key ]
+        Parameter #1 [ <optional> array $options = [] ]
+      }
+      - Return [ RedisCluster|string|false ]
+    }
+
     Method [ <internal:redis> public method getbit ] {
 
       - Parameters [2] {
@@ -9947,7 +10063,7 @@ return array (
       - Parameters [3] {
         Parameter #0 [ <required> string $key1 ]
         Parameter #1 [ <required> string $key2 ]
-        Parameter #2 [ <optional> ?array $options = NULL ]
+        Parameter #2 [ <optional> ?array $options = null ]
       }
       - Return [ RedisCluster|array|string|int|false ]
     }
@@ -10069,7 +10185,7 @@ return array (
 
       - Parameters [4] {
         Parameter #0 [ <required> string $key ]
-        Parameter #1 [ <required> ?int &$iterator ]
+        Parameter #1 [ <required> string|int|null &$iterator ]
         Parameter #2 [ <optional> ?string $pattern = null ]
         Parameter #3 [ <optional> int $count = 0 ]
       }
@@ -10343,7 +10459,7 @@ return array (
       - Parameters [3] {
         Parameter #0 [ <required> string $key ]
         Parameter #1 [ <required> int $timeout ]
-        Parameter #2 [ <optional> ?string $mode = NULL ]
+        Parameter #2 [ <optional> ?string $mode = null ]
       }
       - Return [ RedisCluster|bool ]
     }
@@ -10353,7 +10469,7 @@ return array (
       - Parameters [3] {
         Parameter #0 [ <required> string $key ]
         Parameter #1 [ <required> int $timestamp ]
-        Parameter #2 [ <optional> ?string $mode = NULL ]
+        Parameter #2 [ <optional> ?string $mode = null ]
       }
       - Return [ RedisCluster|bool ]
     }
@@ -10388,7 +10504,7 @@ return array (
 
       - Parameters [2] {
         Parameter #0 [ <required> array|string $key_or_address ]
-        Parameter #1 [ <optional> ?string $message = NULL ]
+        Parameter #1 [ <optional> ?string $message = null ]
       }
       - Return [ mixed ]
     }
@@ -10426,7 +10542,7 @@ return array (
         Parameter #0 [ <required> string $channel ]
         Parameter #1 [ <required> string $message ]
       }
-      - Return [ RedisCluster|bool ]
+      - Return [ RedisCluster|int|bool ]
     }
 
     Method [ <internal:redis> public method pubsub ] {
@@ -10489,7 +10605,7 @@ return array (
         Parameter #0 [ <required> string $key ]
         Parameter #1 [ <required> int $timeout ]
         Parameter #2 [ <required> string $value ]
-        Parameter #3 [ <optional> ?array $options = NULL ]
+        Parameter #3 [ <optional> ?array $options = null ]
       }
       - Return [ RedisCluster|bool ]
     }
@@ -10568,7 +10684,7 @@ return array (
     Method [ <internal:redis> public method scan ] {
 
       - Parameters [4] {
-        Parameter #0 [ <required> ?int &$iterator ]
+        Parameter #0 [ <required> string|int|null &$iterator ]
         Parameter #1 [ <required> array|string $key_or_address ]
         Parameter #2 [ <optional> ?string $pattern = null ]
         Parameter #3 [ <optional> int $count = 0 ]
@@ -10747,7 +10863,7 @@ return array (
 
       - Parameters [2] {
         Parameter #0 [ <required> string $key ]
-        Parameter #1 [ <optional> ?array $options = NULL ]
+        Parameter #1 [ <optional> ?array $options = null ]
       }
       - Return [ RedisCluster|array|string|int|bool ]
     }
@@ -10756,7 +10872,7 @@ return array (
 
       - Parameters [2] {
         Parameter #0 [ <required> string $key ]
-        Parameter #1 [ <optional> ?array $options = NULL ]
+        Parameter #1 [ <optional> ?array $options = null ]
       }
       - Return [ RedisCluster|array|string|int|bool ]
     }
@@ -10793,7 +10909,7 @@ return array (
 
       - Parameters [4] {
         Parameter #0 [ <required> string $key ]
-        Parameter #1 [ <required> ?int &$iterator ]
+        Parameter #1 [ <required> string|int|null &$iterator ]
         Parameter #2 [ <optional> ?string $pattern = null ]
         Parameter #3 [ <optional> int $count = 0 ]
       }
@@ -11288,7 +11404,7 @@ return array (
 
       - Parameters [4] {
         Parameter #0 [ <required> string $key ]
-        Parameter #1 [ <required> ?int &$iterator ]
+        Parameter #1 [ <required> string|int|null &$iterator ]
         Parameter #2 [ <optional> ?string $pattern = null ]
         Parameter #3 [ <optional> int $count = 0 ]
       }
@@ -11319,8 +11435,8 @@ return array (
       - Parameters [4] {
         Parameter #0 [ <required> string $dst ]
         Parameter #1 [ <required> array $keys ]
-        Parameter #2 [ <optional> ?array $weights = NULL ]
-        Parameter #3 [ <optional> ?string $aggregate = NULL ]
+        Parameter #2 [ <optional> ?array $weights = null ]
+        Parameter #3 [ <optional> ?string $aggregate = null ]
       }
       - Return [ RedisCluster|int|false ]
     }

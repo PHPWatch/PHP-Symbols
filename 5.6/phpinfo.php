@@ -848,7 +848,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 16.2 (Ubuntu 16.2-1ubuntu4)
+PostgreSQL(libpq) Version => 16.4 (Ubuntu 16.4-0ubuntu0.24.04.2)
 Module version => 1.0.2
 Revision =>  $Id: 0e858dd2051ca8c2fd3c781909a0670ab5fecd36 $ 
 
@@ -860,8 +860,8 @@ SQLite Library => 3.45.1
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL(libpq) Version => 16.2 (Ubuntu 16.2-1ubuntu4)
-PostgreSQL(libpq)  => PostgreSQL 16.2 (Ubuntu 16.2-1ubuntu4) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu3) 13.2.0, 64-bit
+PostgreSQL(libpq) Version => 16.4 (Ubuntu 16.4-0ubuntu0.24.04.2)
+PostgreSQL(libpq)  => PostgreSQL 16.4 (Ubuntu 16.4-0ubuntu0.24.04.2) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu4) 13.2.0, 64-bit
 Multibyte character support => enabled
 SSL support => enabled
 Active Persistent Links => 0
@@ -956,7 +956,7 @@ Version => $Id: 5f15287237d5f78d75b19c26915aa7bd83dee8b8 $
 session
 
 Session Support => enabled
-Registered save handlers => files user memcache redis rediscluster memcached 
+Registered save handlers => files user memcache memcached redis rediscluster 
 Registered serializer handlers => php_serialize php php_binary igbinary msgpack 
 
 Directive => Local Value => Master Value

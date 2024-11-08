@@ -415,6 +415,53 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'waitaof' => 
+    array (
+      'name' => 'waitaof',
+      'class' => 'Redis',
+      'parameters' => 
+      array (
+        'numlocal' => 
+        array (
+          'position' => 0,
+          'name' => 'numlocal',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'numreplicas' => 
+        array (
+          'position' => 1,
+          'name' => 'numreplicas',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'timeout' => 
+        array (
+          'position' => 2,
+          'name' => 'timeout',
+          'type' => NULL,
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'bitcount' => 
     array (
       'name' => 'bitcount',
@@ -3698,23 +3745,12 @@ return array (
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
-        'member' => 
+        'fields_and_vals' => 
         array (
           'position' => 1,
-          'name' => 'member',
+          'name' => 'fields_and_vals',
           'type' => NULL,
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-        'value' => 
-        array (
-          'position' => 2,
-          'name' => 'value',
-          'type' => NULL,
-          'is_optional' => false,
+          'is_optional' => true,
           'has_default_value' => false,
           'default_value' => NULL,
           'has_default_value_constant' => false,
@@ -10462,7 +10498,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [254] {
+  - Methods [255] {
     Method [ <internal:redis, ctor> public method __construct ] {
 
       - Parameters [1] {
@@ -10557,6 +10593,15 @@ return array (
     Method [ <internal:redis> public method bgrewriteaof ] {
 
       - Parameters [0] {
+      }
+    }
+
+    Method [ <internal:redis> public method waitaof ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $numlocal ]
+        Parameter #1 [ <required> $numreplicas ]
+        Parameter #2 [ <required> $timeout ]
       }
     }
 
@@ -11256,10 +11301,9 @@ return array (
 
     Method [ <internal:redis> public method hSet ] {
 
-      - Parameters [3] {
+      - Parameters [2] {
         Parameter #0 [ <required> $key ]
-        Parameter #1 [ <required> $member ]
-        Parameter #2 [ <required> $value ]
+        Parameter #1 [ <optional> ...$fields_and_vals ]
       }
     }
 

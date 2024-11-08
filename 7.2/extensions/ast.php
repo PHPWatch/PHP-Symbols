@@ -17,7 +17,7 @@ return array (
        'name' => 'ast',
     )),
     'removed' => NULL,
-    'version' => '1.1.1',
+    'version' => '1.1.2',
     'resources' => 
     array (
       0 => 
@@ -73,6 +73,7 @@ return array (
     'ast\\AST_METHOD' => 68,
     'ast\\AST_ARROW_FUNC' => 1535,
     'ast\\AST_CLASS' => 69,
+    'ast\\AST_PROPERTY_HOOK' => 127,
     'ast\\AST_MAGIC_CONST' => 0,
     'ast\\AST_TYPE' => 1,
     'ast\\AST_CALLABLE_CONVERT' => 3,
@@ -105,6 +106,7 @@ return array (
     'ast\\AST_BREAK' => 285,
     'ast\\AST_CONTINUE' => 286,
     'ast\\AST_CLASS_NAME' => 511,
+    'ast\\AST_PROPERTY_HOOK_SHORT_BODY' => 510,
     'ast\\AST_CLASS_CONST_GROUP' => 766,
     'ast\\AST_DIM' => 512,
     'ast\\AST_PROP' => 513,

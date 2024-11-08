@@ -32,8 +32,10 @@ return array (
     'AEAD_AES_256_CBC_HMAC_SHA_512_RANDOM' => 'AEAD_AES_256_CBC_HMAC_SHA_512-Random',
     'ALGORITHM_INDEXED' => 'Indexed',
     'ALGORITHM_UNINDEXED' => 'Unindexed',
+    'ALGORITHM_RANGE' => 'Range',
     'ALGORITHM_RANGE_PREVIEW' => 'RangePreview',
     'QUERY_TYPE_EQUALITY' => 'equality',
+    'QUERY_TYPE_RANGE' => 'range',
     'QUERY_TYPE_RANGE_PREVIEW' => 'rangePreview',
   ),
   'properties' => 
@@ -407,13 +409,15 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:mongodb> final class MongoDB\\Driver\\ClientEncryption ] {
 
-  - Constants [7] {
+  - Constants [9] {
     Constant [ public string AEAD_AES_256_CBC_HMAC_SHA_512_DETERMINISTIC ] { AEAD_AES_256_CBC_HMAC_SHA_512-Deterministic }
     Constant [ public string AEAD_AES_256_CBC_HMAC_SHA_512_RANDOM ] { AEAD_AES_256_CBC_HMAC_SHA_512-Random }
     Constant [ public string ALGORITHM_INDEXED ] { Indexed }
     Constant [ public string ALGORITHM_UNINDEXED ] { Unindexed }
+    Constant [ public string ALGORITHM_RANGE ] { Range }
     Constant [ public string ALGORITHM_RANGE_PREVIEW ] { RangePreview }
     Constant [ public string QUERY_TYPE_EQUALITY ] { equality }
+    Constant [ public string QUERY_TYPE_RANGE ] { range }
     Constant [ public string QUERY_TYPE_RANGE_PREVIEW ] { rangePreview }
   }
 

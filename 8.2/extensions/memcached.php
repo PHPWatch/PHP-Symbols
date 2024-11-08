@@ -17,7 +17,7 @@ return array (
        'name' => 'memcached',
     )),
     'removed' => NULL,
-    'version' => '3.2.1-dev',
+    'version' => '3.3.1dev',
     'resources' => 
     array (
       0 => 

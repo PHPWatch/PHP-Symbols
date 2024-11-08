@@ -47,7 +47,7 @@ amqp.write_timeout => 0 => 0
 apcu
 
 APCu Support => Disabled
-Version => 5.1.23
+Version => 5.1.24
 APCu Debugging => Disabled
 MMAP Support => Enabled
 MMAP File Mask =>  
@@ -361,7 +361,7 @@ iconv.output_encoding => no value => no value
 igbinary
 
 igbinary support => enabled
-igbinary version => 3.2.15
+igbinary version => 3.2.16
 igbinary APCu serializer ABI => 0
 igbinary session support => yes
 
@@ -491,21 +491,24 @@ memcache.session_save_path => no value => no value
 memcached
 
 memcached support => enabled
-Version => 3.2.0
+Version => 3.3.0
 libmemcached-awesome version => 1.1.4
 SASL support => yes
 Session support => yes
 igbinary support => no
 json support => no
 msgpack support => no
+zstd support => no
 
 Directive => Local Value => Master Value
 memcached.compression_factor => 1.3 => 1.3
+memcached.compression_level => 3 => 3
 memcached.compression_threshold => 2000 => 2000
 memcached.compression_type => fastlz => fastlz
 memcached.default_binary_protocol => Off => Off
 memcached.default_connect_timeout => 0 => 0
 memcached.default_consistent_hash => Off => Off
+memcached.item_size_limit => 0 => 0
 memcached.serializer => php => php
 memcached.sess_binary_protocol => On => On
 memcached.sess_connect_timeout => 0 => 0
@@ -557,10 +560,12 @@ msgpack
 
 MessagePack Support => enabled
 Session Support => enabled
-extension Version => 2.2.0
+MessagePack APCu Serializer ABI => 0
+extension Version => 3.0.0
 header Version => 3.2.0
 
 Directive => Local Value => Master Value
+msgpack.assoc => On => On
 msgpack.error_display => On => On
 msgpack.illegal_key_insert => Off => Off
 msgpack.php_only => On => On
@@ -845,7 +850,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 16.2 (Ubuntu 16.2-1ubuntu4)
+PostgreSQL(libpq) Version => 16.4 (Ubuntu 16.4-0ubuntu0.24.04.2)
 Module version => 7.0.33
 Revision =>  $Id: cffaf82eabbf77d05dd06589b673fe0e69bc87ab $ 
 
@@ -868,8 +873,8 @@ pdo_sqlsrv.set_locale_info => 2 => 2
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL(libpq) Version => 16.2 (Ubuntu 16.2-1ubuntu4)
-PostgreSQL(libpq)  => PostgreSQL 16.2 (Ubuntu 16.2-1ubuntu4) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu3) 13.2.0, 64-bit
+PostgreSQL(libpq) Version => 16.4 (Ubuntu 16.4-0ubuntu0.24.04.2)
+PostgreSQL(libpq)  => PostgreSQL 16.4 (Ubuntu 16.4-0ubuntu0.24.04.2) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu4) 13.2.0, 64-bit
 Multibyte character support => enabled
 SSL support => enabled
 Active Persistent Links => 0
@@ -970,7 +975,7 @@ Version => $Id: e5303663dcb329e17818853ff223e5ee01481f2c $
 session
 
 Session Support => enabled
-Registered save handlers => files user memcache redis rediscluster memcached 
+Registered save handlers => files user memcache memcached redis rediscluster 
 Registered serializer handlers => php_serialize php php_binary igbinary msgpack 
 
 Directive => Local Value => Master Value

@@ -29,6 +29,7 @@ return array (
   'constants' => 
   array (
     'OPT_PHPONLY' => -1001,
+    'OPT_ASSOC' => -1002,
   ),
   'properties' => 
   array (
@@ -182,8 +183,9 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:msgpack> class MessagePack ] {
 
-  - Constants [1] {
+  - Constants [2] {
     Constant [ integer OPT_PHPONLY ] { -1001 }
+    Constant [ integer OPT_ASSOC ] { -1002 }
   }
 
   - Static properties [0] {

@@ -17,7 +17,7 @@ return array (
        'name' => 'igbinary',
     )),
     'removed' => NULL,
-    'version' => '3.2.15',
+    'version' => '3.2.16',
     'resources' => 
     array (
       0 => 

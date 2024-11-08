@@ -17,7 +17,7 @@ return array (
        'name' => 'pspell',
     )),
     'removed' => NULL,
-    'version' => '8.2.24',
+    'version' => '8.2.25',
     'resources' => 
     array (
       0 => 

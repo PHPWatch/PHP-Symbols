@@ -415,6 +415,53 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'waitaof' => 
+    array (
+      'name' => 'waitaof',
+      'class' => 'Redis',
+      'parameters' => 
+      array (
+        'numlocal' => 
+        array (
+          'position' => 0,
+          'name' => 'numlocal',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'numreplicas' => 
+        array (
+          'position' => 1,
+          'name' => 'numreplicas',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'timeout' => 
+        array (
+          'position' => 2,
+          'name' => 'timeout',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'Redis|array|false',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'bitcount' => 
     array (
       'name' => 'bitcount',
@@ -1545,7 +1592,7 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => 'Redis|string',
+      'return_type' => 'Redis|string|false',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -3704,7 +3751,7 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => 'Redis|array|string',
+      'return_type' => 'Redis|array|string|false',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -3728,23 +3775,12 @@ return array (
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
-        'member' => 
+        'fields_and_vals' => 
         array (
           'position' => 1,
-          'name' => 'member',
-          'type' => 'string',
-          'is_optional' => false,
-          'has_default_value' => false,
-          'default_value' => NULL,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-        'value' => 
-        array (
-          'position' => 2,
-          'name' => 'value',
+          'name' => 'fields_and_vals',
           'type' => 'mixed',
-          'is_optional' => false,
+          'is_optional' => true,
           'has_default_value' => false,
           'default_value' => NULL,
           'has_default_value_constant' => false,
@@ -3790,7 +3826,7 @@ return array (
         array (
           'position' => 2,
           'name' => 'value',
-          'type' => 'string',
+          'type' => 'mixed',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -3887,7 +3923,7 @@ return array (
         array (
           'position' => 1,
           'name' => 'iterator',
-          'type' => '?int',
+          'type' => 'string|int|null',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -4789,7 +4825,7 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => 'Redis|array',
+      'return_type' => 'Redis|array|false',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -6516,7 +6552,7 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => 'Redis|array|string|false',
+      'return_type' => 'mixed',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -6630,7 +6666,7 @@ return array (
         array (
           'position' => 0,
           'name' => 'iterator',
-          'type' => '?int',
+          'type' => 'string|int|null',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -7664,7 +7700,7 @@ return array (
         array (
           'position' => 1,
           'name' => 'iterator',
-          'type' => '?int',
+          'type' => 'string|int|null',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -9041,7 +9077,7 @@ return array (
         array (
           'position' => 1,
           'name' => 'start',
-          'type' => 'string',
+          'type' => 'string|int',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -9052,7 +9088,7 @@ return array (
         array (
           'position' => 2,
           'name' => 'end',
-          'type' => 'string',
+          'type' => 'string|int',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -10289,7 +10325,7 @@ return array (
         array (
           'position' => 1,
           'name' => 'iterator',
-          'type' => '?int',
+          'type' => 'string|int|null',
           'is_optional' => false,
           'has_default_value' => false,
           'default_value' => NULL,
@@ -10496,7 +10532,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [254] {
+  - Methods [255] {
     Method [ <internal:redis, ctor> public method __construct ] {
 
       - Parameters [1] {
@@ -10604,6 +10640,16 @@ return array (
       - Parameters [0] {
       }
       - Return [ Redis|bool ]
+    }
+
+    Method [ <internal:redis> public method waitaof ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> int $numlocal ]
+        Parameter #1 [ <required> int $numreplicas ]
+        Parameter #2 [ <required> int $timeout ]
+      }
+      - Return [ Redis|array|false ]
     }
 
     Method [ <internal:redis> public method bitcount ] {
@@ -10861,7 +10907,7 @@ return array (
       - Parameters [1] {
         Parameter #0 [ <required> string $key ]
       }
-      - Return [ Redis|string ]
+      - Return [ Redis|string|false ]
     }
 
     Method [ <internal:redis> public method echo ] {
@@ -11381,15 +11427,14 @@ return array (
         Parameter #0 [ <required> string $key ]
         Parameter #1 [ <optional> ?array $options = null ]
       }
-      - Return [ Redis|array|string ]
+      - Return [ Redis|array|string|false ]
     }
 
     Method [ <internal:redis> public method hSet ] {
 
-      - Parameters [3] {
+      - Parameters [2] {
         Parameter #0 [ <required> string $key ]
-        Parameter #1 [ <required> string $member ]
-        Parameter #2 [ <required> mixed $value ]
+        Parameter #1 [ <optional> mixed ...$fields_and_vals ]
       }
       - Return [ Redis|int|false ]
     }
@@ -11399,7 +11444,7 @@ return array (
       - Parameters [3] {
         Parameter #0 [ <required> string $key ]
         Parameter #1 [ <required> string $field ]
-        Parameter #2 [ <required> string $value ]
+        Parameter #2 [ <required> mixed $value ]
       }
       - Return [ Redis|bool ]
     }
@@ -11425,7 +11470,7 @@ return array (
 
       - Parameters [4] {
         Parameter #0 [ <required> string $key ]
-        Parameter #1 [ <required> ?int &$iterator ]
+        Parameter #1 [ <required> string|int|null &$iterator ]
         Parameter #2 [ <optional> ?string $pattern = null ]
         Parameter #3 [ <optional> int $count = 0 ]
       }
@@ -11638,7 +11683,7 @@ return array (
       - Parameters [1] {
         Parameter #0 [ <required> array $keys ]
       }
-      - Return [ Redis|array ]
+      - Return [ Redis|array|false ]
     }
 
     Method [ <internal:redis> public method migrate ] {
@@ -12047,7 +12092,7 @@ return array (
         Parameter #0 [ <required> string $key ]
         Parameter #1 [ <optional> int $count = 0 ]
       }
-      - Return [ Redis|array|string|false ]
+      - Return [ mixed ]
     }
 
     Method [ <internal:redis> public method sUnion ] {
@@ -12079,7 +12124,7 @@ return array (
     Method [ <internal:redis> public method scan ] {
 
       - Parameters [4] {
-        Parameter #0 [ <required> ?int &$iterator ]
+        Parameter #0 [ <required> string|int|null &$iterator ]
         Parameter #1 [ <optional> ?string $pattern = null ]
         Parameter #2 [ <optional> int $count = 0 ]
         Parameter #3 [ <optional> ?string $type = null ]
@@ -12298,7 +12343,7 @@ return array (
 
       - Parameters [4] {
         Parameter #0 [ <required> string $key ]
-        Parameter #1 [ <required> ?int &$iterator ]
+        Parameter #1 [ <required> string|int|null &$iterator ]
         Parameter #2 [ <optional> ?string $pattern = null ]
         Parameter #3 [ <optional> int $count = 0 ]
       }
@@ -12595,8 +12640,8 @@ return array (
 
       - Parameters [3] {
         Parameter #0 [ <required> string $key ]
-        Parameter #1 [ <required> string $start ]
-        Parameter #2 [ <required> string $end ]
+        Parameter #1 [ <required> string|int $start ]
+        Parameter #2 [ <required> string|int $end ]
       }
       - Return [ Redis|int|false ]
     }
@@ -12857,7 +12902,7 @@ return array (
 
       - Parameters [4] {
         Parameter #0 [ <required> string $key ]
-        Parameter #1 [ <required> ?int &$iterator ]
+        Parameter #1 [ <required> string|int|null &$iterator ]
         Parameter #2 [ <optional> ?string $pattern = null ]
         Parameter #3 [ <optional> int $count = 0 ]
       }
