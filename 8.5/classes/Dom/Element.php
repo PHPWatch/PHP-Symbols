@@ -1031,6 +1031,42 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'insertAdjacentHTML' => 
+    array (
+      'name' => 'insertAdjacentHTML',
+      'class' => 'Dom\\Element',
+      'parameters' => 
+      array (
+        'where' => 
+        array (
+          'position' => 0,
+          'name' => 'where',
+          'type' => 'Dom\\AdjacentPosition',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'string' => 
+        array (
+          'position' => 1,
+          'name' => 'string',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'setIdAttribute' => 
     array (
       'name' => 'setIdAttribute',
@@ -2097,7 +2133,7 @@ return array (
     Property [ public string $substitutedNodeValue ]
   }
 
-  - Methods [58] {
+  - Methods [59] {
     Method [ <internal:dom> public method hasAttributes ] {
 
       - Parameters [0] {
@@ -2263,6 +2299,15 @@ return array (
       - Parameters [2] {
         Parameter #0 [ <required> Dom\\AdjacentPosition $where ]
         Parameter #1 [ <required> string $data ]
+      }
+      - Return [ void ]
+    }
+
+    Method [ <internal:dom> public method insertAdjacentHTML ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> Dom\\AdjacentPosition $where ]
+        Parameter #1 [ <required> string $string ]
       }
       - Return [ void ]
     }

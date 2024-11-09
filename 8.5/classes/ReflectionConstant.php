@@ -158,6 +158,34 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getExtension' => 
+    array (
+      'name' => 'getExtension',
+      'class' => 'ReflectionConstant',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => '?ReflectionExtension',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getExtensionName' => 
+    array (
+      'name' => 'getExtensionName',
+      'class' => 'ReflectionConstant',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string|false',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     '__toString' => 
     array (
       'name' => '__toString',
@@ -196,7 +224,7 @@ return array (
     Property [ public string $name ]
   }
 
-  - Methods [8] {
+  - Methods [10] {
     Method [ <internal:Reflection, ctor> public method __construct ] {
 
       - Parameters [1] {
@@ -240,6 +268,20 @@ return array (
     }
 
     Method [ <internal:Reflection> public method getFileName ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string|false ]
+    }
+
+    Method [ <internal:Reflection> public method getExtension ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?ReflectionExtension ]
+    }
+
+    Method [ <internal:Reflection> public method getExtensionName ] {
 
       - Parameters [0] {
       }
