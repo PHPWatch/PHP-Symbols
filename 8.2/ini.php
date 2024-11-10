@@ -908,6 +908,7 @@ return array (
       'global_value' => '0',
       'local_value' => '0',
       'access' => 7,
+      'deprecated' => 'auto_detect_line_endings is deprecated',
     ),
     'default_socket_timeout' => 
     array (

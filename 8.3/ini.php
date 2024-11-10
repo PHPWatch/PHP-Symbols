@@ -890,36 +890,42 @@ return array (
       'global_value' => '1',
       'local_value' => '1',
       'access' => 7,
+      'deprecated' => 'ini_set(): assert.active INI setting is deprecated',
     ),
     'assert.bail' => 
     array (
       'global_value' => '0',
       'local_value' => '0',
       'access' => 7,
+      'deprecated' => 'ini_set(): assert.bail INI setting is deprecated',
     ),
     'assert.callback' => 
     array (
       'global_value' => NULL,
       'local_value' => NULL,
       'access' => 7,
+      'deprecated' => 'ini_set(): assert.callback INI setting is deprecated',
     ),
     'assert.exception' => 
     array (
       'global_value' => '1',
       'local_value' => '1',
       'access' => 7,
+      'deprecated' => 'ini_set(): assert.exception INI setting is deprecated',
     ),
     'assert.warning' => 
     array (
       'global_value' => '1',
       'local_value' => '1',
       'access' => 7,
+      'deprecated' => 'ini_set(): assert.warning INI setting is deprecated',
     ),
     'auto_detect_line_endings' => 
     array (
       'global_value' => '0',
       'local_value' => '0',
       'access' => 7,
+      'deprecated' => 'auto_detect_line_endings is deprecated',
     ),
     'default_socket_timeout' => 
     array (
