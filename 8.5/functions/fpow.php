@@ -34,8 +34,8 @@ return array (
   'toString' => 'Function [ <internal:standard> function fpow ] {
 
   - Parameters [2] {
-    Parameter #0 [ <required> float $num1 ]
-    Parameter #1 [ <required> float $num2 ]
+    Parameter #0 [ <required> float $num ]
+    Parameter #1 [ <required> float $exponent ]
   }
   - Return [ float ]
 }
