@@ -1025,7 +1025,7 @@ return array (
       'global_value' => '32',
       'local_value' => '32',
       'access' => 7,
-      'deprecated' => 'ini_set(): session.sid_length INI setting is deprecated',
+      'deprecated' => 'session.sid_length INI setting is deprecated',
     ),
     'session.upload_progress.cleanup' => 
     array (
@@ -1074,7 +1074,7 @@ return array (
       'global_value' => '1',
       'local_value' => '1',
       'access' => 7,
-      'deprecated' => 'ini_set(): Disabling session.use_only_cookies INI setting is deprecated',
+      'deprecated' => 'Disabling session.use_only_cookies INI setting is deprecated',
     ),
     'session.use_strict_mode' => 
     array (
@@ -1087,7 +1087,7 @@ return array (
       'global_value' => '0',
       'local_value' => '0',
       'access' => 7,
-      'deprecated' => 'ini_set(): Enabling session.use_trans_sid INI setting is deprecated',
+      'deprecated' => 'Enabling session.use_trans_sid INI setting is deprecated',
     ),
   ),
   'standard' => 
@@ -1097,35 +1097,35 @@ return array (
       'global_value' => '1',
       'local_value' => '1',
       'access' => 7,
-      'deprecated' => 'ini_set(): assert.active INI setting is deprecated',
+      'deprecated' => 'assert.active INI setting is deprecated',
     ),
     'assert.bail' => 
     array (
       'global_value' => '0',
       'local_value' => '0',
       'access' => 7,
-      'deprecated' => 'ini_set(): assert.bail INI setting is deprecated',
+      'deprecated' => 'assert.bail INI setting is deprecated',
     ),
     'assert.callback' => 
     array (
       'global_value' => NULL,
       'local_value' => NULL,
       'access' => 7,
-      'deprecated' => 'ini_set(): assert.callback INI setting is deprecated',
+      'deprecated' => 'assert.callback INI setting is deprecated',
     ),
     'assert.exception' => 
     array (
       'global_value' => '1',
       'local_value' => '1',
       'access' => 7,
-      'deprecated' => 'ini_set(): assert.exception INI setting is deprecated',
+      'deprecated' => 'assert.exception INI setting is deprecated',
     ),
     'assert.warning' => 
     array (
       'global_value' => '1',
       'local_value' => '1',
       'access' => 7,
-      'deprecated' => 'ini_set(): assert.warning INI setting is deprecated',
+      'deprecated' => 'assert.warning INI setting is deprecated',
     ),
     'auto_detect_line_endings' => 
     array (
