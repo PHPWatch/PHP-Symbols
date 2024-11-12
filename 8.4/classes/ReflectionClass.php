@@ -885,10 +885,10 @@ return array (
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
-        'factory' => 
+        'initializer' => 
         array (
           'position' => 1,
-          'name' => 'factory',
+          'name' => 'initializer',
           'type' => 'callable',
           'is_optional' => false,
           'has_default_value' => false,
@@ -1714,7 +1714,7 @@ return array (
 
       - Parameters [3] {
         Parameter #0 [ <required> object $object ]
-        Parameter #1 [ <required> callable $factory ]
+        Parameter #1 [ <required> callable $initializer ]
         Parameter #2 [ <optional> int $options = 0 ]
       }
       - Return [ void ]

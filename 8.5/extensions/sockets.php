@@ -274,6 +274,8 @@ return array (
     'SOL_TCP' => 6,
     'SOL_UDP' => 17,
     'SOL_UDPLITE' => 136,
+    'IPPROTO_ICMP' => 1,
+    'IPPROTO_ICMPV6' => 58,
     'IPV6_UNICAST_HOPS' => 16,
     'AI_PASSIVE' => 1,
     'AI_CANONNAME' => 2,
