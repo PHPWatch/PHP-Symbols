@@ -17,7 +17,7 @@ return array (
        'name' => 'PDO_Firebird',
     )),
     'removed' => NULL,
-    'version' => '7.2.34',
+    'version' => '7.2.34-52+ubuntu24.04.1+deb.sury.org+1',
     'resources' => 
     array (
       0 => 

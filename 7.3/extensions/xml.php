@@ -17,7 +17,7 @@ return array (
        'name' => 'xml',
     )),
     'removed' => NULL,
-    'version' => '7.3.33',
+    'version' => '7.3.33-21+ubuntu24.04.1+deb.sury.org+1',
     'resources' => 
     array (
       0 => 

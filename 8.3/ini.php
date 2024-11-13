@@ -1288,9 +1288,6 @@ return array (
       'access' => 7,
     ),
   ),
-  'ast' => 
-  array (
-  ),
   'bcmath' => 
   array (
     'bcmath.scale' => 
@@ -1819,6 +1816,69 @@ return array (
       'access' => 4,
     ),
   ),
+  'oci8' => 
+  array (
+    'oci8.connection_class' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'oci8.default_prefetch' => 
+    array (
+      'global_value' => '100',
+      'local_value' => '100',
+      'access' => 4,
+    ),
+    'oci8.events' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'oci8.max_persistent' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+    'oci8.old_oci_close_semantics' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'oci8.persistent_timeout' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+    'oci8.ping_interval' => 
+    array (
+      'global_value' => '60',
+      'local_value' => '60',
+      'access' => 4,
+    ),
+    'oci8.prefetch_lob_size' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'oci8.privileged_connect' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'oci8.statement_cache_size' => 
+    array (
+      'global_value' => '20',
+      'local_value' => '20',
+      'access' => 4,
+    ),
+  ),
   'odbc' => 
   array (
     'odbc.allow_persistent' => 
@@ -1897,6 +1957,9 @@ return array (
       'access' => 4,
     ),
   ),
+  'PDO_OCI' => 
+  array (
+  ),
   'PDO_ODBC' => 
   array (
   ),
@@ -1905,33 +1968,6 @@ return array (
   ),
   'pdo_sqlite' => 
   array (
-  ),
-  'pdo_sqlsrv' => 
-  array (
-    'pdo_sqlsrv.client_buffer_max_kb_size' => 
-    array (
-      'global_value' => '10240',
-      'local_value' => '10240',
-      'access' => 7,
-    ),
-    'pdo_sqlsrv.log_severity' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'pdo_sqlsrv.report_additional_errors' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'pdo_sqlsrv.set_locale_info' => 
-    array (
-      'global_value' => '2',
-      'local_value' => '2',
-      'access' => 7,
-    ),
   ),
   'pgsql' => 
   array (
@@ -2074,39 +2110,6 @@ return array (
       'access' => 4,
     ),
   ),
-  'sqlsrv' => 
-  array (
-    'sqlsrv.ClientBufferMaxKBSize' => 
-    array (
-      'global_value' => '10240',
-      'local_value' => '10240',
-      'access' => 7,
-    ),
-    'sqlsrv.LogSeverity' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'sqlsrv.LogSubsystems' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'sqlsrv.SetLocaleInfo' => 
-    array (
-      'global_value' => '2',
-      'local_value' => '2',
-      'access' => 7,
-    ),
-    'sqlsrv.WarningsReturnAsErrors' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-  ),
   'sysvmsg' => 
   array (
   ),
@@ -2135,6 +2138,9 @@ return array (
   array (
   ),
   'xmlreader' => 
+  array (
+  ),
+  'xmlrpc' => 
   array (
   ),
   'xmlwriter' => 
@@ -2571,9 +2577,6 @@ return array (
       'local_value' => '0',
       'access' => 7,
     ),
-  ),
-  'ds' => 
-  array (
   ),
   'Zend OPcache' => 
   array (

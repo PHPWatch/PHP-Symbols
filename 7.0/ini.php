@@ -973,237 +973,6 @@ return array (
   'xml' => 
   array (
   ),
-  'amqp' => 
-  array (
-    'amqp.auto_ack' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'amqp.cacert' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'amqp.cert' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'amqp.channel_max' => 
-    array (
-      'global_value' => '256',
-      'local_value' => '256',
-      'access' => 7,
-    ),
-    'amqp.connect_timeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'amqp.frame_max' => 
-    array (
-      'global_value' => '131072',
-      'local_value' => '131072',
-      'access' => 7,
-    ),
-    'amqp.global_prefetch_count' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'amqp.global_prefetch_size' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'amqp.heartbeat' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'amqp.host' => 
-    array (
-      'global_value' => 'localhost',
-      'local_value' => 'localhost',
-      'access' => 7,
-    ),
-    'amqp.key' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'amqp.login' => 
-    array (
-      'global_value' => 'guest',
-      'local_value' => 'guest',
-      'access' => 7,
-    ),
-    'amqp.password' => 
-    array (
-      'global_value' => 'guest',
-      'local_value' => 'guest',
-      'access' => 7,
-    ),
-    'amqp.port' => 
-    array (
-      'global_value' => '5672',
-      'local_value' => '5672',
-      'access' => 7,
-    ),
-    'amqp.prefetch_count' => 
-    array (
-      'global_value' => '3',
-      'local_value' => '3',
-      'access' => 7,
-    ),
-    'amqp.prefetch_size' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'amqp.read_timeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'amqp.rpc_timeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'amqp.sasl_method' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'amqp.timeout' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'amqp.verify' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'amqp.vhost' => 
-    array (
-      'global_value' => '/',
-      'local_value' => '/',
-      'access' => 7,
-    ),
-    'amqp.write_timeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-  ),
-  'apcu' => 
-  array (
-    'apc.coredump_unmap' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 4,
-    ),
-    'apc.enable_cli' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 4,
-    ),
-    'apc.enabled' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'apc.entries_hint' => 
-    array (
-      'global_value' => '4096',
-      'local_value' => '4096',
-      'access' => 4,
-    ),
-    'apc.gc_ttl' => 
-    array (
-      'global_value' => '3600',
-      'local_value' => '3600',
-      'access' => 4,
-    ),
-    'apc.mmap_file_mask' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 4,
-    ),
-    'apc.preload_path' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 4,
-    ),
-    'apc.serializer' => 
-    array (
-      'global_value' => 'php',
-      'local_value' => 'php',
-      'access' => 4,
-    ),
-    'apc.shm_segments' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'apc.shm_size' => 
-    array (
-      'global_value' => '32M',
-      'local_value' => '32M',
-      'access' => 4,
-    ),
-    'apc.slam_defense' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 4,
-    ),
-    'apc.smart' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 4,
-    ),
-    'apc.ttl' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 4,
-    ),
-    'apc.use_request_time' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-  ),
-  'ast' => 
-  array (
-  ),
   'bcmath' => 
   array (
     'bcmath.scale' => 
@@ -1351,54 +1120,6 @@ return array (
       'access' => 7,
     ),
   ),
-  'igbinary' => 
-  array (
-    'igbinary.compact_strings' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-  ),
-  'imagick' => 
-  array (
-    'imagick.allow_zero_dimension_images' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'imagick.locale_fix' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'imagick.progress_monitor' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 4,
-    ),
-    'imagick.set_single_thread' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'imagick.shutdown_sleep_count' => 
-    array (
-      'global_value' => '10',
-      'local_value' => '10',
-      'access' => 7,
-    ),
-    'imagick.skip_version_check' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-  ),
   'imap' => 
   array (
     'imap.enable_insecure_rsh' => 
@@ -1406,6 +1127,69 @@ return array (
       'global_value' => '0',
       'local_value' => '0',
       'access' => 4,
+    ),
+  ),
+  'interbase' => 
+  array (
+    'ibase.allow_persistent' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 4,
+    ),
+    'ibase.dateformat' => 
+    array (
+      'global_value' => '%Y-%m-%d',
+      'local_value' => '%Y-%m-%d',
+      'access' => 7,
+    ),
+    'ibase.default_charset' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'ibase.default_db' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 4,
+    ),
+    'ibase.default_password' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'ibase.default_user' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'ibase.max_links' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+    'ibase.max_persistent' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+    'ibase.timeformat' => 
+    array (
+      'global_value' => '%H:%M:%S',
+      'local_value' => '%H:%M:%S',
+      'access' => 7,
+    ),
+    'ibase.timestampformat' => 
+    array (
+      'global_value' => '%Y-%m-%d %H:%M:%S',
+      'local_value' => '%Y-%m-%d %H:%M:%S',
+      'access' => 7,
     ),
   ),
   'intl' => 
@@ -1480,168 +1264,18 @@ return array (
       'access' => 7,
     ),
   ),
-  'memcache' => 
+  'mcrypt' => 
   array (
-    'memcache.allow_failover' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'memcache.chunk_size' => 
-    array (
-      'global_value' => '32768',
-      'local_value' => '32768',
-      'access' => 7,
-    ),
-    'memcache.compress_threshold' => 
-    array (
-      'global_value' => '20000',
-      'local_value' => '20000',
-      'access' => 7,
-    ),
-    'memcache.default_port' => 
-    array (
-      'global_value' => '11211',
-      'local_value' => '11211',
-      'access' => 7,
-    ),
-    'memcache.hash_function' => 
-    array (
-      'global_value' => 'crc32',
-      'local_value' => 'crc32',
-      'access' => 7,
-    ),
-    'memcache.hash_strategy' => 
-    array (
-      'global_value' => 'consistent',
-      'local_value' => 'consistent',
-      'access' => 7,
-    ),
-    'memcache.lock_timeout' => 
-    array (
-      'global_value' => '15',
-      'local_value' => '15',
-      'access' => 7,
-    ),
-    'memcache.max_failover_attempts' => 
-    array (
-      'global_value' => '20',
-      'local_value' => '20',
-      'access' => 7,
-    ),
-    'memcache.prefix_host_key' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcache.prefix_host_key_remove_subdomain' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcache.prefix_host_key_remove_www' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'memcache.prefix_static_key' => 
+    'mcrypt.algorithms_dir' => 
     array (
       'global_value' => NULL,
       'local_value' => NULL,
       'access' => 7,
     ),
-    'memcache.protocol' => 
-    array (
-      'global_value' => 'ascii',
-      'local_value' => 'ascii',
-      'access' => 7,
-    ),
-    'memcache.redundancy' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'memcache.session_prefix_host_key' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcache.session_prefix_host_key_remove_subdomain' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcache.session_prefix_host_key_remove_www' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'memcache.session_prefix_static_key' => 
+    'mcrypt.modes_dir' => 
     array (
       'global_value' => NULL,
       'local_value' => NULL,
-      'access' => 7,
-    ),
-    'memcache.session_redundancy' => 
-    array (
-      'global_value' => '2',
-      'local_value' => '2',
-      'access' => 7,
-    ),
-    'memcache.session_save_path' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-  ),
-  'mongodb' => 
-  array (
-    'mongodb.debug' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-  ),
-  'msgpack' => 
-  array (
-    'msgpack.assoc' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'msgpack.error_display' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'msgpack.illegal_key_insert' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'msgpack.php_only' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'msgpack.use_str8_serialization' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
       'access' => 7,
     ),
   ),
@@ -1711,6 +1345,63 @@ return array (
     array (
       'global_value' => '0',
       'local_value' => '0',
+      'access' => 4,
+    ),
+  ),
+  'oci8' => 
+  array (
+    'oci8.connection_class' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'oci8.default_prefetch' => 
+    array (
+      'global_value' => '100',
+      'local_value' => '100',
+      'access' => 4,
+    ),
+    'oci8.events' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'oci8.max_persistent' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+    'oci8.old_oci_close_semantics' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'oci8.persistent_timeout' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+    'oci8.ping_interval' => 
+    array (
+      'global_value' => '60',
+      'local_value' => '60',
+      'access' => 4,
+    ),
+    'oci8.privileged_connect' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'oci8.statement_cache_size' => 
+    array (
+      'global_value' => '20',
+      'local_value' => '20',
       'access' => 4,
     ),
   ),
@@ -1792,6 +1483,9 @@ return array (
       'access' => 4,
     ),
   ),
+  'PDO_OCI' => 
+  array (
+  ),
   'PDO_ODBC' => 
   array (
   ),
@@ -1800,33 +1494,6 @@ return array (
   ),
   'pdo_sqlite' => 
   array (
-  ),
-  'pdo_sqlsrv' => 
-  array (
-    'pdo_sqlsrv.client_buffer_max_kb_size' => 
-    array (
-      'global_value' => '10240',
-      'local_value' => '10240',
-      'access' => 7,
-    ),
-    'pdo_sqlsrv.log_severity' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'pdo_sqlsrv.report_additional_errors' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'pdo_sqlsrv.set_locale_info' => 
-    array (
-      'global_value' => '2',
-      'local_value' => '2',
-      'access' => 7,
-    ),
   ),
   'pgsql' => 
   array (
@@ -1909,6 +1576,9 @@ return array (
       'access' => 7,
     ),
   ),
+  'recode' => 
+  array (
+  ),
   'shmop' => 
   array (
   ),
@@ -1969,39 +1639,6 @@ return array (
       'access' => 4,
     ),
   ),
-  'sqlsrv' => 
-  array (
-    'sqlsrv.ClientBufferMaxKBSize' => 
-    array (
-      'global_value' => '10240',
-      'local_value' => '10240',
-      'access' => 7,
-    ),
-    'sqlsrv.LogSeverity' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'sqlsrv.LogSubsystems' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'sqlsrv.SetLocaleInfo' => 
-    array (
-      'global_value' => '2',
-      'local_value' => '2',
-      'access' => 7,
-    ),
-    'sqlsrv.WarningsReturnAsErrors' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-  ),
   'sysvmsg' => 
   array (
   ),
@@ -2029,6 +1666,9 @@ return array (
   'tokenizer' => 
   array (
   ),
+  'wddx' => 
+  array (
+  ),
   'xmlreader' => 
   array (
   ),
@@ -2041,418 +1681,7 @@ return array (
   'xsl' => 
   array (
   ),
-  'yaml' => 
-  array (
-    'yaml.decode_binary' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'yaml.decode_php' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'yaml.decode_timestamp' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'yaml.output_canonical' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'yaml.output_indent' => 
-    array (
-      'global_value' => '2',
-      'local_value' => '2',
-      'access' => 7,
-    ),
-    'yaml.output_width' => 
-    array (
-      'global_value' => '80',
-      'local_value' => '80',
-      'access' => 7,
-    ),
-  ),
   'zip' => 
-  array (
-  ),
-  'zmq' => 
-  array (
-  ),
-  'memcached' => 
-  array (
-    'memcached.compression_factor' => 
-    array (
-      'global_value' => '1.3',
-      'local_value' => '1.3',
-      'access' => 7,
-    ),
-    'memcached.compression_level' => 
-    array (
-      'global_value' => '3',
-      'local_value' => '3',
-      'access' => 7,
-    ),
-    'memcached.compression_threshold' => 
-    array (
-      'global_value' => '2000',
-      'local_value' => '2000',
-      'access' => 7,
-    ),
-    'memcached.compression_type' => 
-    array (
-      'global_value' => 'fastlz',
-      'local_value' => 'fastlz',
-      'access' => 7,
-    ),
-    'memcached.default_binary_protocol' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.default_connect_timeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.default_consistent_hash' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.item_size_limit' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.serializer' => 
-    array (
-      'global_value' => 'php',
-      'local_value' => 'php',
-      'access' => 7,
-    ),
-    'memcached.sess_binary_protocol' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'memcached.sess_connect_timeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.sess_consistent_hash' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'memcached.sess_consistent_hash_type' => 
-    array (
-      'global_value' => 'ketama',
-      'local_value' => 'ketama',
-      'access' => 7,
-    ),
-    'memcached.sess_lock_expire' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.sess_lock_max_wait' => 
-    array (
-      'global_value' => 'not set',
-      'local_value' => 'not set',
-      'access' => 7,
-    ),
-    'memcached.sess_lock_retries' => 
-    array (
-      'global_value' => '5',
-      'local_value' => '5',
-      'access' => 7,
-    ),
-    'memcached.sess_lock_wait' => 
-    array (
-      'global_value' => 'not set',
-      'local_value' => 'not set',
-      'access' => 7,
-    ),
-    'memcached.sess_lock_wait_max' => 
-    array (
-      'global_value' => '150',
-      'local_value' => '150',
-      'access' => 7,
-    ),
-    'memcached.sess_lock_wait_min' => 
-    array (
-      'global_value' => '150',
-      'local_value' => '150',
-      'access' => 7,
-    ),
-    'memcached.sess_locking' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'memcached.sess_number_of_replicas' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.sess_persistent' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.sess_prefix' => 
-    array (
-      'global_value' => 'memc.sess.key.',
-      'local_value' => 'memc.sess.key.',
-      'access' => 7,
-    ),
-    'memcached.sess_randomize_replica_read' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.sess_remove_failed_servers' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.sess_sasl_password' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'memcached.sess_sasl_username' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'memcached.sess_server_failure_limit' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'memcached.store_retry_count' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-  ),
-  'redis' => 
-  array (
-    'redis.arrays.algorithm' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.arrays.auth' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.arrays.autorehash' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.arrays.connecttimeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.arrays.consistent' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.arrays.distributor' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.arrays.functions' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.arrays.hosts' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.arrays.index' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.arrays.lazyconnect' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.arrays.names' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.arrays.pconnect' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.arrays.previous' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.arrays.readtimeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.arrays.retryinterval' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.clusters.auth' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.clusters.cache_slots' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.clusters.persistent' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.clusters.read_timeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.clusters.seeds' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.clusters.timeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.pconnect.connection_limit' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.pconnect.echo_check_liveness' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'redis.pconnect.pool_detect_dirty' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.pconnect.pool_pattern' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'redis.pconnect.pool_poll_timeout' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.pconnect.pooling_enabled' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'redis.session.lock_expire' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'redis.session.lock_retries' => 
-    array (
-      'global_value' => '10',
-      'local_value' => '10',
-      'access' => 7,
-    ),
-    'redis.session.lock_wait_time' => 
-    array (
-      'global_value' => '2000',
-      'local_value' => '2000',
-      'access' => 7,
-    ),
-    'redis.session.locking_enabled' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-  ),
-  'ds' => 
   array (
   ),
   'Zend OPcache' => 
@@ -2653,387 +1882,6 @@ return array (
     array (
       'global_value' => '1',
       'local_value' => '1',
-      'access' => 7,
-    ),
-  ),
-  'xdebug' => 
-  array (
-    'xdebug.auto_trace' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.cli_color' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.collect_assignments' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.collect_includes' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'xdebug.collect_params' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.collect_return' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.collect_vars' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.coverage_enable' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'xdebug.default_enable' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'xdebug.dump.COOKIE' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'xdebug.dump.ENV' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'xdebug.dump.FILES' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'xdebug.dump.GET' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'xdebug.dump.POST' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'xdebug.dump.REQUEST' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'xdebug.dump.SERVER' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'xdebug.dump.SESSION' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'xdebug.dump_globals' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'xdebug.dump_once' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'xdebug.dump_undefined' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.file_link_format' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'xdebug.filename_format' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'xdebug.force_display_errors' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 4,
-    ),
-    'xdebug.force_error_reporting' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 4,
-    ),
-    'xdebug.gc_stats_enable' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 6,
-    ),
-    'xdebug.gc_stats_output_dir' => 
-    array (
-      'global_value' => '/tmp',
-      'local_value' => '/tmp',
-      'access' => 6,
-    ),
-    'xdebug.gc_stats_output_name' => 
-    array (
-      'global_value' => 'gcstats.%p',
-      'local_value' => 'gcstats.%p',
-      'access' => 6,
-    ),
-    'xdebug.halt_level' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.idekey' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'xdebug.max_nesting_level' => 
-    array (
-      'global_value' => '256',
-      'local_value' => '256',
-      'access' => 7,
-    ),
-    'xdebug.max_stack_frames' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 7,
-    ),
-    'xdebug.overload_var_dump' => 
-    array (
-      'global_value' => '2',
-      'local_value' => '2',
-      'access' => 7,
-    ),
-    'xdebug.profiler_append' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 6,
-    ),
-    'xdebug.profiler_enable' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 6,
-    ),
-    'xdebug.profiler_enable_trigger' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 6,
-    ),
-    'xdebug.profiler_enable_trigger_value' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 6,
-    ),
-    'xdebug.profiler_output_dir' => 
-    array (
-      'global_value' => '/tmp',
-      'local_value' => '/tmp',
-      'access' => 6,
-    ),
-    'xdebug.profiler_output_name' => 
-    array (
-      'global_value' => 'cachegrind.out.%p',
-      'local_value' => 'cachegrind.out.%p',
-      'access' => 6,
-    ),
-    'xdebug.remote_addr_header' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'xdebug.remote_autostart' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.remote_connect_back' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.remote_cookie_expire_time' => 
-    array (
-      'global_value' => '3600',
-      'local_value' => '3600',
-      'access' => 7,
-    ),
-    'xdebug.remote_enable' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 6,
-    ),
-    'xdebug.remote_host' => 
-    array (
-      'global_value' => 'localhost',
-      'local_value' => 'localhost',
-      'access' => 7,
-    ),
-    'xdebug.remote_log' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'xdebug.remote_log_level' => 
-    array (
-      'global_value' => '7',
-      'local_value' => '7',
-      'access' => 7,
-    ),
-    'xdebug.remote_mode' => 
-    array (
-      'global_value' => 'req',
-      'local_value' => 'req',
-      'access' => 7,
-    ),
-    'xdebug.remote_port' => 
-    array (
-      'global_value' => '9000',
-      'local_value' => '9000',
-      'access' => 7,
-    ),
-    'xdebug.remote_timeout' => 
-    array (
-      'global_value' => '200',
-      'local_value' => '200',
-      'access' => 7,
-    ),
-    'xdebug.scream' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.show_error_trace' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.show_exception_trace' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.show_local_vars' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.show_mem_delta' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.trace_enable_trigger' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 6,
-    ),
-    'xdebug.trace_enable_trigger_value' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 6,
-    ),
-    'xdebug.trace_format' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.trace_options' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'xdebug.trace_output_dir' => 
-    array (
-      'global_value' => '/tmp',
-      'local_value' => '/tmp',
-      'access' => 7,
-    ),
-    'xdebug.trace_output_name' => 
-    array (
-      'global_value' => 'trace.%c',
-      'local_value' => 'trace.%c',
-      'access' => 7,
-    ),
-    'xdebug.var_display_max_children' => 
-    array (
-      'global_value' => '128',
-      'local_value' => '128',
-      'access' => 7,
-    ),
-    'xdebug.var_display_max_data' => 
-    array (
-      'global_value' => '512',
-      'local_value' => '512',
-      'access' => 7,
-    ),
-    'xdebug.var_display_max_depth' => 
-    array (
-      'global_value' => '3',
-      'local_value' => '3',
       'access' => 7,
     ),
   ),

@@ -17,7 +17,7 @@ return array (
        'name' => 'exif',
     )),
     'removed' => NULL,
-    'version' => '7.1.33',
+    'version' => '7.1.33-65+ubuntu24.04.1+deb.sury.org+1',
     'resources' => 
     array (
       0 => 

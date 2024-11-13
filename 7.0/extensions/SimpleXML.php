@@ -17,7 +17,7 @@ return array (
        'name' => 'SimpleXML',
     )),
     'removed' => NULL,
-    'version' => '7.0.33',
+    'version' => '7.0.33-77+ubuntu24.04.1+deb.sury.org+1',
     'resources' => 
     array (
       0 => 

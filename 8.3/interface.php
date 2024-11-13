@@ -46,7 +46,4 @@ return array (
   'MongoDB\\Driver\\Monitoring\\CommandSubscriber',
   'MongoDB\\Driver\\Monitoring\\LogSubscriber',
   'MongoDB\\Driver\\Monitoring\\SDAMSubscriber',
-  'Ds\\Hashable',
-  'Ds\\Collection',
-  'Ds\\Sequence',
 );

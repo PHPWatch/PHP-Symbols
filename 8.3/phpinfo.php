@@ -71,12 +71,6 @@ apc.smart => 0 => 0
 apc.ttl => 0 => 0
 apc.use_request_time => Off => Off
 
-ast
-
-ast support => enabled
-extension version => 1.1.2
-AST version => Current version is 110. All versions (including experimental): {50, 60, 70, 80, 85, 90, 100, 110}
-
 bcmath
 
 BCMath support => enabled
@@ -279,11 +273,6 @@ XPath Support => enabled
 XPointer Support => enabled
 Schema Support => enabled
 RelaxNG Support => enabled
-
-ds
-
-ds support => enabled
-ds version => 1.5.0
 
 enchant
 
@@ -634,6 +623,30 @@ Tracing => n/a
 Loaded plugins => mysqlnd,debug_trace,auth_plugin_mysql_native_password,auth_plugin_mysql_clear_password,auth_plugin_caching_sha2_password,auth_plugin_sha256_password
 API Extensions => mysqli,pdo_mysql
 
+oci8
+
+OCI8 Support => enabled
+OCI8 DTrace Support => disabled
+OCI8 Version => 3.3.0
+Oracle Run-time Client Library Version => 23.6.0.24.10
+Oracle Compile-time Instant Client Version => 23.6
+
+Directive => Local Value => Master Value
+oci8.connection_class => no value => no value
+oci8.default_prefetch => 100 => 100
+oci8.events => Off => Off
+oci8.max_persistent => -1 => -1
+oci8.old_oci_close_semantics => Off => Off
+oci8.persistent_timeout => -1 => -1
+oci8.ping_interval => 60 => 60
+oci8.prefetch_lob_size => 0 => 0
+oci8.privileged_connect => Off => Off
+oci8.statement_cache_size => 20 => 20
+
+Statistics =>  
+Active Persistent Connections => 0
+Active Connections => 0
+
 odbc
 
 ODBC Support => enabled
@@ -642,7 +655,7 @@ Active Links => 0
 ODBC library => unixODBC
 ODBCVER => 0x0380
 ODBC_CFLAGS => -I/usr/include
-ODBC_LFLAGS => -L/usr/lib/x86_64-linux-gnu
+ODBC_LFLAGS => -L/usr/lib
 ODBC_LIBS => -lodbc
 
 Directive => Local Value => Master Value
@@ -688,7 +701,7 @@ pcre.recursion_limit => 100000 => 100000
 PDO
 
 PDO support => enabled
-PDO drivers => dblib, firebird, mysql, odbc, pgsql, sqlite, sqlsrv
+PDO drivers => dblib, firebird, mysql, oci, odbc, pgsql, sqlite
 
 pdo_dblib
 
@@ -708,6 +721,10 @@ Client API version => mysqlnd 8.3.13
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
 
+PDO_OCI
+
+PDO Driver for OCI 8 and later => enabled
+
 PDO_ODBC
 
 PDO Driver for ODBC (unixODBC) => enabled
@@ -722,17 +739,6 @@ pdo_sqlite
 
 PDO Driver for SQLite 3.x => enabled
 SQLite Library => 3.45.1
-
-pdo_sqlsrv
-
-pdo_sqlsrv support => enabled
-ExtensionVer => 5.12.0
-
-Directive => Local Value => Master Value
-pdo_sqlsrv.client_buffer_max_kb_size => 10240 => 10240
-pdo_sqlsrv.log_severity => 0 => 0
-pdo_sqlsrv.report_additional_errors => 1 => 1
-pdo_sqlsrv.set_locale_info => 2 => 2
 
 pgsql
 
@@ -927,18 +933,6 @@ Directive => Local Value => Master Value
 sqlite3.defensive => On => On
 sqlite3.extension_dir => no value => no value
 
-sqlsrv
-
-sqlsrv support => enabled
-ExtensionVer => 5.12.0
-
-Directive => Local Value => Master Value
-sqlsrv.ClientBufferMaxKBSize => 10240 => 10240
-sqlsrv.LogSeverity => 0 => 0
-sqlsrv.LogSubsystems => 0 => 0
-sqlsrv.SetLocaleInfo => 2 => 2
-sqlsrv.WarningsReturnAsErrors => On => On
-
 standard
 
 Dynamic Library Support => enabled
@@ -1103,6 +1097,14 @@ libxml2 Version => 2.9.14
 xmlreader
 
 XMLReader => enabled
+
+xmlrpc
+
+XMLRPC extension version => 1.0.0RC3
+core library version => xmlrpc-epi v. 0.54
+author => Dan Libby
+homepage => http://xmlrpc-epi.sourceforge.net
+open sourced by => Epinions.com
 
 xmlwriter
 
@@ -1348,6 +1350,9 @@ PHP Websites Team => Rasmus Lerdorf, Hannes Magnusson, Philip Olson, Lukas Kahwe
 Event Maintainers => Damien Seguy, Daniel P. Brown
 Network Infrastructure => Daniel P. Brown
 Windows Infrastructure => Alex Schoenmaker
+
+                             Debian Packaging                             
+Ondřej Surý
 
 PHP License
 This program is free software; you can redistribute it and/or modify

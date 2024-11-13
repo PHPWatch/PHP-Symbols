@@ -8,74 +8,6 @@ return 'phpinfo()
 
 Configuration
 
-amqp
-
-Version => 1.9.3
-Revision => release
-Compiled => __DYNAMIC__
-AMQP protocol version => 0-9-1
-librabbitmq version => 0.8.0
-Default max channels per connection => 256
-Default max frame size => 131072
-Default heartbeats interval => 0
-
-Directive => Local Value => Master Value
-amqp.auto_ack => 0 => 0
-amqp.cacert => no value => no value
-amqp.cert => no value => no value
-amqp.channel_max => 256 => 256
-amqp.connect_timeout => 0 => 0
-amqp.frame_max => 131072 => 131072
-amqp.heartbeat => 0 => 0
-amqp.host => localhost => localhost
-amqp.key => no value => no value
-amqp.login => guest => guest
-amqp.password => guest => guest
-amqp.port => 5672 => 5672
-amqp.prefetch_count => 3 => 3
-amqp.read_timeout => 0 => 0
-amqp.timeout => no value => no value
-amqp.verify => 1 => 1
-amqp.vhost => / => /
-amqp.write_timeout => 0 => 0
-
-apc
-
-APC support => Emulated
-
-apcu
-
-APCu Support => Disabled
-Version => 4.0.11
-APCu Debugging => Disabled
-MMAP Support => Enabled
-MMAP File Mask =>  
-Serialization Support => Disabled
-Revision => $Revision: 328290 $
-Build Date => __DYNAMIC__
-
-Directive => Local Value => Master Value
-apc.coredump_unmap => Off => Off
-apc.enable_cli => Off => Off
-apc.enabled => On => On
-apc.entries_hint => 4096 => 4096
-apc.gc_ttl => 3600 => 3600
-apc.mmap_file_mask => no value => no value
-apc.preload_path => no value => no value
-apc.rfc1867 => Off => Off
-apc.rfc1867_freq => 0 => 0
-apc.rfc1867_name => APC_UPLOAD_PROGRESS => APC_UPLOAD_PROGRESS
-apc.rfc1867_prefix => upload_ => upload_
-apc.rfc1867_ttl => 3600 => 3600
-apc.serializer => php => php
-apc.shm_segments => 1 => 1
-apc.shm_size => 32M => 32M
-apc.slam_defense => On => On
-apc.smart => 0 => 0
-apc.ttl => 0 => 0
-apc.use_request_time => On => On
-apc.writable => /tmp => /tmp
-
 bcmath
 
 BCMath support => enabled
@@ -315,14 +247,6 @@ XBM Support => enabled
 Directive => Local Value => Master Value
 gd.jpeg_ignore_warning => 0 => 0
 
-gearman
-
-gearman support => enabled
-extension version => 1.1.0
-libgearman version => 1.0.6
-Default TCP Host => localhost
-Default TCP Port => 4730
-
 gettext
 
 GetText Support => enabled
@@ -337,20 +261,6 @@ hash
 hash support => enabled
 Hashing Engines => md2 md4 md5 sha1 sha224 sha256 sha384 sha512 ripemd128 ripemd160 ripemd256 ripemd320 whirlpool tiger128,3 tiger160,3 tiger192,3 tiger128,4 tiger160,4 tiger192,4 snefru snefru256 gost adler32 crc32 crc32b fnv132 fnv164 joaat haval128,3 haval160,3 haval192,3 haval224,3 haval256,3 haval128,4 haval160,4 haval192,4 haval224,4 haval256,4 haval128,5 haval160,5 haval192,5 haval224,5 haval256,5 
 
-http
-
-HTTP Support => enabled
-Extension Version => 2.6.0
-
-Used Library => Compiled => Linked
-libz => 1.2.8 => 1.3
-libcurl => 7.35.0 => 8.5.0
-libevent => 2.0.21-stable => 2.0.21-stable
-libidn (IDNA2003) => 0.26 => unknown
-
-Directive => Local Value => Master Value
-http.etag.mode => crc32b => crc32b
-
 iconv
 
 iconv support => enabled
@@ -361,33 +271,6 @@ Directive => Local Value => Master Value
 iconv.input_encoding => ISO-8859-1 => ISO-8859-1
 iconv.internal_encoding => ISO-8859-1 => ISO-8859-1
 iconv.output_encoding => ISO-8859-1 => ISO-8859-1
-
-igbinary
-
-igbinary support => enabled
-igbinary version => 2.0.8
-igbinary APC serializer ABI => 0
-igbinary session support => yes
-
-Directive => Local Value => Master Value
-igbinary.compact_strings => On => On
-
-imagick
-
-imagick module => enabled
-imagick module version => 3.4.4
-imagick classes => Imagick, ImagickDraw, ImagickPixel, ImagickPixelIterator
-Imagick compiled with ImageMagick version => ImageMagick 6.7.7-10 2018-09-28 Q16 http://www.imagemagick.org
-Imagick using ImageMagick library version => ImageMagick 6.7.7-10 2018-09-28 Q16 http://www.imagemagick.org
-ImageMagick copyright => Copyright (C) 1999-2012 ImageMagick Studio LLC
-ImageMagick release date => 2018-09-28
-ImageMagick number of supported formats:  => 204
-ImageMagick supported formats => 3FR, A, AAI, AI, ART, ARW, AVI, AVS, B, BGR, BGRA, BIE, BMP, BMP2, BMP3, BRF, C, CAL, CALS, CANVAS, CAPTION, CIN, CIP, CLIP, CMYK, CMYKA, CR2, CRW, CUR, CUT, DCM, DCR, DCX, DDS, DFONT, DNG, DPX, EPDF, EPI, EPS, EPS2, EPS3, EPSF, EPSI, EPT, EPT2, EPT3, ERF, FAX, FITS, FRACTAL, FTS, G, G3, GIF, GIF87, GRADIENT, GRAY, GROUP4, HALD, HDR, HISTOGRAM, HRZ, HTM, HTML, ICB, ICO, ICON, INFO, INLINE, IPL, ISOBRL, J2C, J2K, JBG, JBIG, JNG, JP2, JPC, JPEG, JPG, JPX, K, K25, KDC, LABEL, M, M2V, M4V, MAC, MAP, MAT, MATTE, MEF, MIFF, MNG, MONO, MOV, MP4, MPC, MPEG, MPG, MRW, MSL, MTV, MVG, NEF, NRW, NULL, O, ORF, OTB, OTF, PAL, PALM, PAM, PATTERN, PBM, PCD, PCDS, PCL, PCT, PCX, PDB, PDF, PDFA, PEF, PES, PFA, PFB, PFM, PGM, PGX, PICON, PICT, PIX, PJPEG, PLASMA, PNG, PNG24, PNG32, PNG8, PNM, PPM, PREVIEW, PS, PS2, PS3, PSB, PSD, PTIF, PWP, R, RADIAL-GRADIENT, RAF, RAS, RGB, RGBA, RGBO, RLA, RLE, SCR, SCT, SFW, SGI, SHTML, SR2, SRF, STEGANO, SUN, TEXT, TGA, THUMBNAIL, TIFF, TIFF64, TILE, TIM, TTC, TTF, TXT, UBRL, UIL, UYVY, VDA, VICAR, VID, VIFF, VST, WBMP, WMV, WPG, X, X3F, XBM, XC, XCF, XPM, XPS, XV, XWD, Y, YCbCr, YCbCrA, YUV
-
-Directive => Local Value => Master Value
-imagick.locale_fix => 0 => 0
-imagick.progress_monitor => 0 => 0
-imagick.skip_version_check => 0 => 0
 
 imap
 
@@ -469,109 +352,10 @@ Directive => Local Value => Master Value
 mcrypt.algorithms_dir => no value => no value
 mcrypt.modes_dir => no value => no value
 
-memcache
-
-memcache support => enabled
-Version => 3.0.8
-Revision => $Revision: 329835 $
-
-Directive => Local Value => Master Value
-memcache.allow_failover => 1 => 1
-memcache.chunk_size => 32768 => 32768
-memcache.compress_threshold => 20000 => 20000
-memcache.default_port => 11211 => 11211
-memcache.hash_function => crc32 => crc32
-memcache.hash_strategy => consistent => consistent
-memcache.lock_timeout => 15 => 15
-memcache.max_failover_attempts => 20 => 20
-memcache.protocol => ascii => ascii
-memcache.redundancy => 1 => 1
-memcache.session_redundancy => 2 => 2
-
-memcached
-
-memcached support => enabled
-Version => 2.2.0
-libmemcached version => 1.0.18
-SASL support => yes
-Session support => yes
-igbinary support => no
-json support => no
-msgpack support => no
-
-Directive => Local Value => Master Value
-memcached.compression_factor => 1.3 => 1.3
-memcached.compression_threshold => 2000 => 2000
-memcached.compression_type => fastlz => fastlz
-memcached.serializer => php => php
-memcached.sess_binary => 0 => 0
-memcached.sess_connect_timeout => 1000 => 1000
-memcached.sess_consistent_hash => 0 => 0
-memcached.sess_lock_expire => 0 => 0
-memcached.sess_lock_max_wait => 0 => 0
-memcached.sess_lock_wait => 150000 => 150000
-memcached.sess_locking => 1 => 1
-memcached.sess_number_of_replicas => 0 => 0
-memcached.sess_prefix => memc.sess.key. => memc.sess.key.
-memcached.sess_randomize_replica_read => 0 => 0
-memcached.sess_remove_failed => 0 => 0
-memcached.sess_sasl_password => no value => no value
-memcached.sess_sasl_username => no value => no value
-memcached.store_retry_count => 2 => 2
-memcached.use_sasl => 0 => 0
-
 mhash
 
 MHASH support => Enabled
 MHASH API Version => Emulated Support
-
-mongo
-
-MongoDB Support => enabled
-Version => 1.6.16
-Streams Support => enabled
-SSL Support => enabled
-                   Supported Authentication Mechanisms                   
-MONGODB-CR => enabled
-SCRAM-SHA-1 => enabled
-MONGODB-X509 => enabled
-GSSAPI (Kerberos) => disabled
-PLAIN => disabled
-
-Directive => Local Value => Master Value
-mongo.allow_empty_keys => 0 => 0
-mongo.chunk_size => 261120 => 261120
-mongo.cmd => $ => $
-mongo.default_host => localhost => localhost
-mongo.default_port => 27017 => 27017
-mongo.is_master_interval => 15 => 15
-mongo.long_as_object => 0 => 0
-mongo.native_long => 1 => 1
-mongo.ping_interval => 5 => 5
-
-mongodb
-
-mongodb support => enabled
-mongodb version => 1.1.0
-mongodb stability => stable
-libmongoc version => 1.3.1-dev
-libbson version => 1.3.0
-
-Directive => Local Value => Master Value
-mongodb.debug => no value => no value
-
-msgpack
-
-MessagePack Support => enabled
-Session Support => enabled
-extension Version => 0.5.7
-header Version => 0.5.4
-
-Directive => Local Value => Master Value
-msgpack.error_display => On => On
-msgpack.illegal_key_insert => Off => Off
-msgpack.php_only => On => On
-msgpack.use_str8_serialization => On => On
 
 mysql
 
@@ -794,6 +578,29 @@ example statistics =>
 stat1 => 0
 stat2 => 0
 
+oci8
+
+OCI8 Support => enabled
+Version => 1.4.9
+Revision => $Id: cdb1302d3784cf3ece95ed7e5f70998212164e52 $
+Active Persistent Connections => 0
+Active Connections => 0
+Oracle Run-time Client Library Version => 23.6.0.24.10
+Oracle Instant Client Version => 23.6
+Temporary Lob support => enabled
+Collections support => enabled
+
+Directive => Local Value => Master Value
+oci8.connection_class => no value => no value
+oci8.default_prefetch => 100 => 100
+oci8.events => Off => Off
+oci8.max_persistent => -1 => -1
+oci8.old_oci_close_semantics => Off => Off
+oci8.persistent_timeout => -1 => -1
+oci8.ping_interval => 60 => 60
+oci8.privileged_connect => Off => Off
+oci8.statement_cache_size => 20 => 20
+
 odbc
 
 ODBC Support => enabled
@@ -838,7 +645,7 @@ pcre.recursion_limit => 100000 => 100000
 PDO
 
 PDO support => enabled
-PDO drivers => mysql, odbc, pgsql, sqlite
+PDO drivers => mysql, oci, odbc, pgsql, sqlite
 
 pdo_mysql
 
@@ -847,6 +654,10 @@ Client API version => mysqlnd 5.0.10 - 20111026 - $Id: c85105d7c6f7d70d609bb4c00
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
+
+PDO_OCI
+
+PDO Driver for OCI 8 and later => enabled
 
 PDO_ODBC
 
@@ -909,25 +720,9 @@ posix
 
 Revision => $Id: 1dfa9997ed76804e53c91e0ce862f3707617b6ed $
 
-propro
-
-Property proxy support => enabled
-Extension version => 1.0.2
-
 pspell
 
 PSpell Support => enabled
-
-raphf
-
-Resource and persistent handle factory support => enabled
-Extension version => 1.1.2
-
-                    Persistent handles in this process                    
-Provider => Ident => Used => Free
-
-Directive => Local Value => Master Value
-raphf.persistent_handle.limit => -1 => -1
 
 readline
 
@@ -938,11 +733,6 @@ Directive => Local Value => Master Value
 cli.pager => no value => no value
 cli.prompt => \\b \\>  => \\b \\> 
 
-redis
-
-Redis Support => enabled
-Redis Version => 2.2.8
-
 Reflection
 
 Reflection => enabled
@@ -951,8 +741,8 @@ Version => $Id: f6367cdb4e3f392af4a6d441a6641de87c2e50c4 $
 session
 
 Session Support => enabled
-Registered save handlers => files user memcache redis rediscluster redis rediscluster memcached 
-Registered serializer handlers => php php_binary igbinary msgpack wddx 
+Registered save handlers => files user 
+Registered serializer handlers => php php_binary wddx 
 
 Directive => Local Value => Master Value
 session.auto_start => Off => Off
@@ -1067,75 +857,6 @@ wddx
 WDDX Support => enabled
 WDDX Session Serializer => enabled
 
-xdebug
-
-xdebug support => enabled
-Version => 2.3.3
-IDE Key => runner
-
-Supported protocols => Revision
-DBGp - Common DeBuGger Protocol => $Revision: 1.145 $
-
-Directive => Local Value => Master Value
-xdebug.auto_trace => Off => Off
-xdebug.cli_color => 0 => 0
-xdebug.collect_assignments => Off => Off
-xdebug.collect_includes => On => On
-xdebug.collect_params => 0 => 0
-xdebug.collect_return => Off => Off
-xdebug.collect_vars => Off => Off
-xdebug.coverage_enable => On => On
-xdebug.default_enable => On => On
-xdebug.dump.COOKIE => no value => no value
-xdebug.dump.ENV => no value => no value
-xdebug.dump.FILES => no value => no value
-xdebug.dump.GET => no value => no value
-xdebug.dump.POST => no value => no value
-xdebug.dump.REQUEST => no value => no value
-xdebug.dump.SERVER => no value => no value
-xdebug.dump.SESSION => no value => no value
-xdebug.dump_globals => On => On
-xdebug.dump_once => On => On
-xdebug.dump_undefined => Off => Off
-xdebug.extended_info => On => On
-xdebug.file_link_format => no value => no value
-xdebug.force_display_errors => Off => Off
-xdebug.force_error_reporting => 0 => 0
-xdebug.halt_level => 0 => 0
-xdebug.idekey => no value => no value
-xdebug.max_nesting_level => 256 => 256
-xdebug.max_stack_frames => -1 => -1
-xdebug.overload_var_dump => On => On
-xdebug.profiler_aggregate => Off => Off
-xdebug.profiler_append => Off => Off
-xdebug.profiler_enable => Off => Off
-xdebug.profiler_enable_trigger => Off => Off
-xdebug.profiler_enable_trigger_value => no value => no value
-xdebug.profiler_output_dir => /tmp => /tmp
-xdebug.profiler_output_name => cachegrind.out.%p => cachegrind.out.%p
-xdebug.remote_autostart => Off => Off
-xdebug.remote_connect_back => Off => Off
-xdebug.remote_cookie_expire_time => 3600 => 3600
-xdebug.remote_enable => Off => Off
-xdebug.remote_handler => dbgp => dbgp
-xdebug.remote_host => localhost => localhost
-xdebug.remote_log => no value => no value
-xdebug.remote_mode => req => req
-xdebug.remote_port => 9000 => 9000
-xdebug.scream => Off => Off
-xdebug.show_exception_trace => Off => Off
-xdebug.show_local_vars => Off => Off
-xdebug.show_mem_delta => Off => Off
-xdebug.trace_enable_trigger => Off => Off
-xdebug.trace_enable_trigger_value => no value => no value
-xdebug.trace_format => 0 => 0
-xdebug.trace_options => 0 => 0
-xdebug.trace_output_dir => /tmp => /tmp
-xdebug.trace_output_name => trace.%c => trace.%c
-xdebug.var_display_max_children => 128 => 128
-xdebug.var_display_max_data => 512 => 512
-xdebug.var_display_max_depth => 3 => 3
-
 xml
 
 XML Support => active
@@ -1165,41 +886,6 @@ libxslt Version => 1.1.39
 libxslt compiled against libxml Version => 2.9.14
 EXSLT => enabled
 libexslt Version => 1.1.28
-
-Zend OPcache
-
-Opcode Caching => Disabled
-Optimization => Disabled
-Startup Failed => Opcode Caching is disabled for CLI
-
-Directive => Local Value => Master Value
-opcache.blacklist_filename => no value => no value
-opcache.consistency_checks => 0 => 0
-opcache.dups_fix => Off => Off
-opcache.enable => On => On
-opcache.enable_cli => Off => Off
-opcache.enable_file_override => Off => Off
-opcache.error_log => no value => no value
-opcache.fast_shutdown => 0 => 0
-opcache.file_update_protection => 2 => 2
-opcache.force_restart_timeout => 180 => 180
-opcache.inherited_hack => On => On
-opcache.interned_strings_buffer => 4 => 4
-opcache.load_comments => 1 => 1
-opcache.log_verbosity_level => 1 => 1
-opcache.max_accelerated_files => 2000 => 2000
-opcache.max_file_size => 0 => 0
-opcache.max_wasted_percentage => 5 => 5
-opcache.memory_consumption => 64 => 64
-opcache.optimization_level => 0xFFFFFFFF => 0xFFFFFFFF
-opcache.preferred_memory_model => no value => no value
-opcache.protect_memory => 0 => 0
-opcache.restrict_api => no value => no value
-opcache.revalidate_freq => 2 => 2
-opcache.revalidate_path => Off => Off
-opcache.save_comments => 1 => 1
-opcache.use_cwd => On => On
-opcache.validate_timestamps => On => On
 
 zip
 

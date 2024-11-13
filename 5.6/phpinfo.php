@@ -8,79 +8,6 @@ return 'phpinfo()
 
 Configuration
 
-amqp
-
-Version => 1.11.0
-Revision => release
-Compiled => __DYNAMIC__
-AMQP protocol version => 0-9-1
-librabbitmq version => 0.11.0
-Default max channels per connection => 256
-Default max frame size => 131072
-Default heartbeats interval => 0
-
-Directive => Local Value => Master Value
-amqp.auto_ack => 0 => 0
-amqp.cacert => no value => no value
-amqp.cert => no value => no value
-amqp.channel_max => 256 => 256
-amqp.connect_timeout => 0 => 0
-amqp.frame_max => 131072 => 131072
-amqp.global_prefetch_count => 0 => 0
-amqp.global_prefetch_size => 0 => 0
-amqp.heartbeat => 0 => 0
-amqp.host => localhost => localhost
-amqp.key => no value => no value
-amqp.login => guest => guest
-amqp.password => guest => guest
-amqp.port => 5672 => 5672
-amqp.prefetch_count => 3 => 3
-amqp.prefetch_size => 0 => 0
-amqp.read_timeout => 0 => 0
-amqp.rpc_timeout => 0 => 0
-amqp.sasl_method => 0 => 0
-amqp.timeout => no value => no value
-amqp.verify => 1 => 1
-amqp.vhost => / => /
-amqp.write_timeout => 0 => 0
-
-apc
-
-APC support => Emulated
-
-apcu
-
-APCu Support => Disabled
-Version => 4.0.11
-APCu Debugging => Disabled
-MMAP Support => Enabled
-MMAP File Mask =>  
-Serialization Support => Disabled
-Revision => $Revision: 328290 $
-Build Date => __DYNAMIC__
-
-Directive => Local Value => Master Value
-apc.coredump_unmap => Off => Off
-apc.enable_cli => Off => Off
-apc.enabled => On => On
-apc.entries_hint => 4096 => 4096
-apc.gc_ttl => 3600 => 3600
-apc.mmap_file_mask => no value => no value
-apc.preload_path => no value => no value
-apc.rfc1867 => Off => Off
-apc.rfc1867_freq => 0 => 0
-apc.rfc1867_name => APC_UPLOAD_PROGRESS => APC_UPLOAD_PROGRESS
-apc.rfc1867_prefix => upload_ => upload_
-apc.rfc1867_ttl => 3600 => 3600
-apc.serializer => php => php
-apc.shm_segments => 1 => 1
-apc.shm_size => 32M => 32M
-apc.slam_defense => On => On
-apc.smart => 0 => 0
-apc.ttl => 0 => 0
-apc.use_request_time => On => On
-apc.writable => /tmp => /tmp
-
 bcmath
 
 BCMath support => enabled
@@ -354,36 +281,6 @@ iconv.input_encoding => no value => no value
 iconv.internal_encoding => no value => no value
 iconv.output_encoding => no value => no value
 
-igbinary
-
-igbinary support => enabled
-igbinary version => 2.0.8
-igbinary APCU serializer ABI => 0
-igbinary session support => yes
-
-Directive => Local Value => Master Value
-igbinary.compact_strings => On => On
-
-imagick
-
-imagick module => enabled
-imagick module version => 3.7.0
-imagick classes => Imagick, ImagickDraw, ImagickPixel, ImagickPixelIterator, ImagickKernel
-Imagick compiled with ImageMagick version => ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org
-Imagick using ImageMagick library version => ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org
-ImageMagick copyright => (C) 1999 ImageMagick Studio LLC
-ImageMagick release date => 2024-03-31
-ImageMagick number of supported formats:  => 240
-ImageMagick supported formats => 3FR, 3G2, 3GP, AAI, AI, APNG, ART, ARW, AVI, AVIF, AVS, BGR, BGRA, BGRO, BIE, BMP, BMP2, BMP3, BRF, CAL, CALS, CANVAS, CAPTION, CIN, CIP, CLIP, CMYK, CMYKA, CR2, CR3, CRW, CUR, CUT, DATA, DCM, DCR, DCX, DDS, DFONT, DNG, DPX, DXT1, DXT5, EPDF, EPI, EPS, EPS2, EPS3, EPSF, EPSI, EPT, EPT2, EPT3, ERF, FAX, FILE, FITS, FLV, FRACTAL, FTP, FTS, G3, G4, GIF, GIF87, GRADIENT, GRAY, GRAYA, GROUP4, H, HALD, HDR, HEIC, HEIF, HISTOGRAM, HRZ, HTM, HTML, HTTP, HTTPS, ICB, ICO, ICON, IIQ, INFO, INLINE, IPL, ISOBRL, ISOBRL6, J2C, J2K, JBG, JBIG, JNG, JNX, JP2, JPC, JPE, JPEG, JPG, JPM, JPS, JPT, JSON, K25, KDC, LABEL, M2V, M4V, MAC, MAGICK, MAP, MASK, MAT, MATTE, MEF, MIFF, MKV, MNG, MONO, MOV, MP4, MPC, MPEG, MPG, MRW, MSL, MTV, MVG, NEF, NRW, NULL, ORF, OTB, OTF, PAL, PALM, PAM, PATTERN, PBM, PCD, PCDS, PCL, PCT, PCX, PDB, PDF, PDFA, PEF, PES, PFA, PFB, PFM, PGM, PGX, PICON, PICT, PIX, PJPEG, PLASMA, PNG, PNG00, PNG24, PNG32, PNG48, PNG64, PNG8, PNM, POCKETMOD, PPM, PREVIEW, PS, PS2, PS3, PSB, PSD, PTIF, PWP, RADIAL-GRADIENT, RAF, RAS, RAW, RGB, RGBA, RGBO, RGF, RLA, RLE, RMF, RW2, SCR, SCT, SFW, SGI, SHTML, SIX, SIXEL, SPARSE-COLOR, SR2, SRF, STEGANO, SUN, TEXT, TGA, THUMBNAIL, TIFF, TIFF64, TILE, TIM, TTC, TTF, TXT, UBRL, UBRL6, UIL, UYVY, VDA, VICAR, VID, VIDEO, VIFF, VIPS, VST, WBMP, WEBM, WEBP, WMV, WPG, X, X3F, XBM, XC, XCF, XPM, XPS, XV, XWD, YCbCr, YCbCrA, YUV
-
-Directive => Local Value => Master Value
-imagick.allow_zero_dimension_images => 0 => 0
-imagick.locale_fix => 0 => 0
-imagick.progress_monitor => 0 => 0
-imagick.set_single_thread => 1 => 1
-imagick.shutdown_sleep_count => 10 => 10
-imagick.skip_version_check => 0 => 0
-
 imap
 
 IMAP c-Client Version => 2007f
@@ -392,6 +289,24 @@ Kerberos Support => enabled
 
 Directive => Local Value => Master Value
 imap.enable_insecure_rsh => Off => Off
+
+interbase
+
+Firebird/InterBase Support => dynamic
+Compile-time Client Library Version => Firebird API version 30
+Run-time Client Library Version => LI-V6.3.11.33703 Firebird 3.0
+
+Directive => Local Value => Master Value
+ibase.allow_persistent => On => On
+ibase.dateformat => %Y-%m-%d => %Y-%m-%d
+ibase.default_charset => no value => no value
+ibase.default_db => no value => no value
+ibase.default_password => no value => no value
+ibase.default_user => no value => no value
+ibase.max_links => Unlimited => Unlimited
+ibase.max_persistent => Unlimited => Unlimited
+ibase.timeformat => %H:%M:%S => %H:%M:%S
+ibase.timestampformat => %Y-%m-%d %H:%M:%S => %Y-%m-%d %H:%M:%S
 
 intl
 
@@ -455,122 +370,68 @@ mbstring.language => neutral => neutral
 mbstring.strict_detection => Off => Off
 mbstring.substitute_character => no value => no value
 
-memcache
+mcrypt
 
-memcache support => enabled
-Version => 3.0.9-dev
-Revision => $Revision$
-
-Directive => Local Value => Master Value
-memcache.allow_failover => 1 => 1
-memcache.chunk_size => 32768 => 32768
-memcache.compress_threshold => 20000 => 20000
-memcache.default_port => 11211 => 11211
-memcache.hash_function => crc32 => crc32
-memcache.hash_strategy => consistent => consistent
-memcache.lock_timeout => 15 => 15
-memcache.max_failover_attempts => 20 => 20
-memcache.protocol => ascii => ascii
-memcache.redundancy => 1 => 1
-memcache.session_redundancy => 2 => 2
-
-memcached
-
-memcached support => enabled
-Version => 2.2.0
-libmemcached version => 1.1.4
-SASL support => yes
-Session support => yes
-igbinary support => no
-json support => no
-msgpack support => no
+mcrypt support => enabled
+mcrypt_filter support => enabled
+Version => 2.5.8
+Api No => 20021217
+Supported ciphers => cast-128 gost rijndael-128 twofish arcfour cast-256 loki97 rijndael-192 saferplus wake blowfish-compat des rijndael-256 serpent xtea blowfish enigma rc2 tripledes 
+Supported modes => cbc cfb ctr ecb ncfb nofb ofb stream 
 
 Directive => Local Value => Master Value
-memcached.compression_factor => 1.3 => 1.3
-memcached.compression_threshold => 2000 => 2000
-memcached.compression_type => fastlz => fastlz
-memcached.serializer => php => php
-memcached.sess_binary => 0 => 0
-memcached.sess_connect_timeout => 1000 => 1000
-memcached.sess_consistent_hash => 0 => 0
-memcached.sess_lock_expire => 0 => 0
-memcached.sess_lock_max_wait => 0 => 0
-memcached.sess_lock_wait => 150000 => 150000
-memcached.sess_locking => 1 => 1
-memcached.sess_number_of_replicas => 0 => 0
-memcached.sess_prefix => memc.sess.key. => memc.sess.key.
-memcached.sess_randomize_replica_read => 0 => 0
-memcached.sess_remove_failed => 0 => 0
-memcached.sess_sasl_password => no value => no value
-memcached.sess_sasl_username => no value => no value
-memcached.store_retry_count => 2 => 2
-memcached.use_sasl => 0 => 0
+mcrypt.algorithms_dir => no value => no value
+mcrypt.modes_dir => no value => no value
 
 mhash
 
 MHASH support => Enabled
 MHASH API Version => Emulated Support
 
-mongo
+mssql
 
-MongoDB Support => enabled
-Version => 1.6.16
-Streams Support => enabled
-SSL Support => enabled
-                   Supported Authentication Mechanisms                   
-MONGODB-CR => enabled
-SCRAM-SHA-1 => enabled
-MONGODB-X509 => enabled
-GSSAPI (Kerberos) => disabled
-PLAIN => disabled
+MSSQL Support => enabled
+Active Persistent Links => 0
+Active Links => 0
+Library version => FreeTDS
 
 Directive => Local Value => Master Value
-mongo.allow_empty_keys => 0 => 0
-mongo.chunk_size => 261120 => 261120
-mongo.cmd => $ => $
-mongo.default_host => localhost => localhost
-mongo.default_port => 27017 => 27017
-mongo.is_master_interval => 15 => 15
-mongo.long_as_object => 0 => 0
-mongo.native_long => 1 => 1
-mongo.ping_interval => 5 => 5
+mssql.allow_persistent => On => On
+mssql.batchsize => 0 => 0
+mssql.charset => no value => no value
+mssql.compatability_mode => Off => Off
+mssql.compatibility_mode => Off => Off
+mssql.connect_timeout => 5 => 5
+mssql.datetimeconvert => On => On
+mssql.max_links => Unlimited => Unlimited
+mssql.max_persistent => Unlimited => Unlimited
+mssql.max_procs => Unlimited => Unlimited
+mssql.min_error_severity => 10 => 10
+mssql.min_message_severity => 10 => 10
+mssql.secure_connection => Off => Off
+mssql.textlimit => Server default => Server default
+mssql.textsize => Server default => Server default
+mssql.timeout => 60 => 60
 
-mongodb
+mysql
 
-MongoDB support => enabled
-MongoDB extension version => 1.7.5
-MongoDB extension stability => stable
-libbson bundled version => 1.16.2
-libmongoc bundled version => 1.16.2
-libmongoc SSL => enabled
-libmongoc SSL library => OpenSSL
-libmongoc crypto => enabled
-libmongoc crypto library => libcrypto
-libmongoc crypto system profile => disabled
-libmongoc SASL => enabled
-libmongoc ICU => enabled
-libmongoc compression => enabled
-libmongoc compression snappy => disabled
-libmongoc compression zlib => enabled
-libmongocrypt bundled version => 1.0.3
-libmongocrypt crypto => enabled
-libmongocrypt crypto library => libcrypto
+MySQL Support => enabled
+Active Persistent Links => 0
+Active Links => 0
+Client API version => mysqlnd 5.0.11-dev - 20120503 - $Id: 76b08b24596e12d4553bd41fc93cccd5bac2fe7a $
 
 Directive => Local Value => Master Value
-mongodb.debug => no value => no value
-
-msgpack
-
-MessagePack Support => enabled
-Session Support => enabled
-extension Version => 0.5.7
-header Version => 0.5.4
-
-Directive => Local Value => Master Value
-msgpack.error_display => On => On
-msgpack.illegal_key_insert => Off => Off
-msgpack.php_only => On => On
-msgpack.use_str8_serialization => On => On
+mysql.allow_local_infile => On => On
+mysql.allow_persistent => On => On
+mysql.connect_timeout => 60 => 60
+mysql.default_host => no value => no value
+mysql.default_password => no value => no value
+mysql.default_port => no value => no value
+mysql.default_socket => no value => no value
+mysql.default_user => no value => no value
+mysql.max_links => Unlimited => Unlimited
+mysql.max_persistent => Unlimited => Unlimited
+mysql.trace_mode => Off => Off
 
 mysqli
 
@@ -607,7 +468,7 @@ Collecting statistics => Yes
 Collecting memory statistics => No
 Tracing => n/a
 Loaded plugins => mysqlnd,debug_trace,auth_plugin_mysql_native_password,auth_plugin_mysql_clear_password,auth_plugin_sha256_password
-API Extensions => mysqli,pdo_mysql
+API Extensions => mysql,mysqli,pdo_mysql
 
 mysqlnd statistics =>  
 bytes_sent => 0
@@ -772,6 +633,30 @@ com_deamon => 0
 bytes_received_real_data_normal => 0
 bytes_received_real_data_ps => 0
 
+oci8
+
+OCI8 Support => enabled
+OCI8 DTrace Support => disabled
+OCI8 Version => 2.0.12
+Revision => $Id: 020312b6429ebb9d6272ac9bc28f6dce529434b6 $
+Oracle Run-time Client Library Version => 23.6.0.24.10
+Oracle Compile-time Instant Client Version => 23.6
+
+Directive => Local Value => Master Value
+oci8.connection_class => no value => no value
+oci8.default_prefetch => 100 => 100
+oci8.events => Off => Off
+oci8.max_persistent => -1 => -1
+oci8.old_oci_close_semantics => Off => Off
+oci8.persistent_timeout => -1 => -1
+oci8.ping_interval => 60 => 60
+oci8.privileged_connect => Off => Off
+oci8.statement_cache_size => 20 => 20
+
+Statistics =>  
+Active Persistent Connections => 0
+Active Connections => 0
+
 odbc
 
 ODBC Support => enabled
@@ -821,7 +706,7 @@ pcre.recursion_limit => 100000 => 100000
 PDO
 
 PDO support => enabled
-PDO drivers => dblib, firebird, mysql, odbc, pgsql, sqlite
+PDO drivers => dblib, firebird, mysql, oci, odbc, pgsql, sqlite
 
 pdo_dblib
 
@@ -839,6 +724,10 @@ Client API version => mysqlnd 5.0.11-dev - 20120503 - $Id: 76b08b24596e12d4553bd
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
+
+PDO_OCI
+
+PDO Driver for OCI 8 and later => enabled
 
 PDO_ODBC
 
@@ -914,39 +803,10 @@ Directive => Local Value => Master Value
 cli.pager => no value => no value
 cli.prompt => \\b \\>  => \\b \\> 
 
-redis
+recode
 
-Redis Support => enabled
-Redis Version => 4.3.0
-Available serializers => php
-
-Directive => Local Value => Master Value
-redis.arrays.algorithm => no value => no value
-redis.arrays.auth => no value => no value
-redis.arrays.autorehash => 0 => 0
-redis.arrays.connecttimeout => 0 => 0
-redis.arrays.consistent => 0 => 0
-redis.arrays.distributor => no value => no value
-redis.arrays.functions => no value => no value
-redis.arrays.hosts => no value => no value
-redis.arrays.index => 0 => 0
-redis.arrays.lazyconnect => 0 => 0
-redis.arrays.names => no value => no value
-redis.arrays.pconnect => 0 => 0
-redis.arrays.previous => no value => no value
-redis.arrays.readtimeout => 0 => 0
-redis.arrays.retryinterval => 0 => 0
-redis.clusters.auth => no value => no value
-redis.clusters.persistent => 0 => 0
-redis.clusters.read_timeout => 0 => 0
-redis.clusters.seeds => no value => no value
-redis.clusters.timeout => 0 => 0
-redis.pconnect.connection_limit => 0 => 0
-redis.pconnect.pooling_enabled => 0 => 0
-redis.session.lock_expire => 0 => 0
-redis.session.lock_retries => 10 => 10
-redis.session.lock_wait_time => 2000 => 2000
-redis.session.locking_enabled => 0 => 0
+Recode Support => enabled
+Revision => $Id: cde03aacd1a1218dcad9dabc2f284594a0a4aa16 $
 
 Reflection
 
@@ -956,8 +816,8 @@ Version => $Id: 5f15287237d5f78d75b19c26915aa7bd83dee8b8 $
 session
 
 Session Support => enabled
-Registered save handlers => files user memcache memcached redis rediscluster 
-Registered serializer handlers => php_serialize php php_binary igbinary msgpack 
+Registered save handlers => files user 
+Registered serializer handlers => php_serialize php php_binary wddx 
 
 Directive => Local Value => Master Value
 session.auto_start => Off => Off
@@ -1075,76 +935,10 @@ tokenizer
 
 Tokenizer Support => enabled
 
-xdebug
+wddx
 
-xdebug support => enabled
-Version => 2.5.5
-IDE Key => runner
-
-Supported protocols => Revision
-DBGp - Common DeBuGger Protocol => $Revision: 1.145 $
-
-Directive => Local Value => Master Value
-xdebug.auto_trace => Off => Off
-xdebug.cli_color => 0 => 0
-xdebug.collect_assignments => Off => Off
-xdebug.collect_includes => On => On
-xdebug.collect_params => 0 => 0
-xdebug.collect_return => Off => Off
-xdebug.collect_vars => Off => Off
-xdebug.coverage_enable => On => On
-xdebug.default_enable => On => On
-xdebug.dump.COOKIE => no value => no value
-xdebug.dump.ENV => no value => no value
-xdebug.dump.FILES => no value => no value
-xdebug.dump.GET => no value => no value
-xdebug.dump.POST => no value => no value
-xdebug.dump.REQUEST => no value => no value
-xdebug.dump.SERVER => no value => no value
-xdebug.dump.SESSION => no value => no value
-xdebug.dump_globals => On => On
-xdebug.dump_once => On => On
-xdebug.dump_undefined => Off => Off
-xdebug.extended_info => On => On
-xdebug.file_link_format => no value => no value
-xdebug.force_display_errors => Off => Off
-xdebug.force_error_reporting => 0 => 0
-xdebug.halt_level => 0 => 0
-xdebug.idekey => no value => no value
-xdebug.max_nesting_level => 256 => 256
-xdebug.max_stack_frames => -1 => -1
-xdebug.overload_var_dump => 2 => 2
-xdebug.profiler_aggregate => Off => Off
-xdebug.profiler_append => Off => Off
-xdebug.profiler_enable => Off => Off
-xdebug.profiler_enable_trigger => Off => Off
-xdebug.profiler_enable_trigger_value => no value => no value
-xdebug.profiler_output_dir => /tmp => /tmp
-xdebug.profiler_output_name => cachegrind.out.%p => cachegrind.out.%p
-xdebug.remote_addr_header => no value => no value
-xdebug.remote_autostart => Off => Off
-xdebug.remote_connect_back => Off => Off
-xdebug.remote_cookie_expire_time => 3600 => 3600
-xdebug.remote_enable => Off => Off
-xdebug.remote_handler => dbgp => dbgp
-xdebug.remote_host => localhost => localhost
-xdebug.remote_log => no value => no value
-xdebug.remote_mode => req => req
-xdebug.remote_port => 9000 => 9000
-xdebug.scream => Off => Off
-xdebug.show_error_trace => Off => Off
-xdebug.show_exception_trace => Off => Off
-xdebug.show_local_vars => Off => Off
-xdebug.show_mem_delta => Off => Off
-xdebug.trace_enable_trigger => Off => Off
-xdebug.trace_enable_trigger_value => no value => no value
-xdebug.trace_format => 0 => 0
-xdebug.trace_options => 0 => 0
-xdebug.trace_output_dir => /tmp => /tmp
-xdebug.trace_output_name => trace.%c => trace.%c
-xdebug.var_display_max_children => 128 => 128
-xdebug.var_display_max_data => 512 => 512
-xdebug.var_display_max_depth => 3 => 3
+WDDX Support => enabled
+WDDX Session Serializer => enabled
 
 xml
 
@@ -1175,20 +969,6 @@ libxslt Version => 1.1.39
 libxslt compiled against libxml Version => 2.9.14
 EXSLT => enabled
 libexslt Version => 0.8.21
-
-yaml
-
-LibYAML Support => enabled
-Module Version => 1.3.1
-LibYAML Version => 0.2.5
-
-Directive => Local Value => Master Value
-yaml.decode_binary => 0 => 0
-yaml.decode_php => 1 => 1
-yaml.decode_timestamp => 0 => 0
-yaml.output_canonical => 0 => 0
-yaml.output_indent => 2 => 2
-yaml.output_width => 80 => 80
 
 Zend OPcache
 
@@ -1246,12 +1026,6 @@ Directive => Local Value => Master Value
 zlib.output_compression => Off => Off
 zlib.output_compression_level => -1 => -1
 zlib.output_handler => no value => no value
-
-zmq
-
-ZMQ extension => enabled
-ZMQ extension version => @PACKAGE_VERSION@
-libzmq version => 4.3.5
 
 Additional Modules
 

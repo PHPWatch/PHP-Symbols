@@ -98,6 +98,9 @@ return array (
     'FETCH_ORI_REL' => 5,
     'CURSOR_FWDONLY' => 0,
     'CURSOR_SCROLL' => 1,
+    'FB_ATTR_DATE_FORMAT' => 1000,
+    'FB_ATTR_TIME_FORMAT' => 1001,
+    'FB_ATTR_TIMESTAMP_FORMAT' => 1002,
     'MYSQL_ATTR_USE_BUFFERED_QUERY' => 1000,
     'MYSQL_ATTR_LOCAL_INFILE' => 1001,
     'MYSQL_ATTR_INIT_COMMAND' => 1002,
@@ -517,7 +520,7 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:PDO> class PDO ] {
 
-  - Constants [93] {
+  - Constants [96] {
     Constant [ integer PARAM_BOOL ] { 5 }
     Constant [ integer PARAM_NULL ] { 0 }
     Constant [ integer PARAM_INT ] { 1 }
@@ -588,6 +591,9 @@ return array (
     Constant [ integer FETCH_ORI_REL ] { 5 }
     Constant [ integer CURSOR_FWDONLY ] { 0 }
     Constant [ integer CURSOR_SCROLL ] { 1 }
+    Constant [ integer FB_ATTR_DATE_FORMAT ] { 1000 }
+    Constant [ integer FB_ATTR_TIME_FORMAT ] { 1001 }
+    Constant [ integer FB_ATTR_TIMESTAMP_FORMAT ] { 1002 }
     Constant [ integer MYSQL_ATTR_USE_BUFFERED_QUERY ] { 1000 }
     Constant [ integer MYSQL_ATTR_LOCAL_INFILE ] { 1001 }
     Constant [ integer MYSQL_ATTR_INIT_COMMAND ] { 1002 }
