@@ -132,8 +132,8 @@ ctype functions => enabled
 curl
 
 cURL support => enabled
-cURL Information => 8.5.0
-Age => 10
+cURL Information => 8.11.0-DEV
+Age => 11
 Features
 AsynchDNS => Yes
 CharConv => No
@@ -163,12 +163,12 @@ HTTP3 => No
 UNICODE => No
 ZSTD => Yes
 HSTS => Yes
-GSASL => No
-Protocols => dict, file, ftp, ftps, gopher, gophers, http, https, imap, imaps, ldap, ldaps, mqtt, pop3, pop3s, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp
+GSASL => Yes
+Protocols => dict, file, ftp, ftps, gopher, gophers, http, https, imap, imaps, ldap, ldaps, mqtt, pop3, pop3s, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp, ws, wss
 Host => x86_64-pc-linux-gnu
 SSL Version => OpenSSL/3.0.13
 ZLib Version => 1.3
-libSSH Version => libssh/0.10.6/openssl/zlib
+libSSH Version => libssh2/1.11.0
 
 Directive => Local Value => Master Value
 curl.cainfo => no value => no value
