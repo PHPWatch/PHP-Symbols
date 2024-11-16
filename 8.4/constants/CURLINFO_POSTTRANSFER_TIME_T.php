@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'CURLINFO_LASTONE',
+  'name' => 'CURLINFO_POSTTRANSFER_TIME_T',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'CURLINFO_LASTONE',
+    'name' => 'CURLINFO_POSTTRANSFER_TIME_T',
     'description' => '',
     'keywords' => 
     array (
@@ -19,11 +19,11 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'CURLINFO_LASTONE constant (php.net)',
-        'url' => 'https://www.php.net/manual/curl.constants.php#constant.curlinfo-lastone',
+        'name' => 'CURLINFO_POSTTRANSFER_TIME_T constant (php.net)',
+        'url' => 'https://www.php.net/manual/curl.constants.php#constant.curlinfo-posttransfer-time-t',
       ),
     ),
   ),
-  'value' => 68,
+  'value' => 6291523,
   'extension' => 'curl',
 );

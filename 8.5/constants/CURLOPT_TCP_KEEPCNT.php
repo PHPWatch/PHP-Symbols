@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'CURLINFO_LASTONE',
+  'name' => 'CURLOPT_TCP_KEEPCNT',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'CURLINFO_LASTONE',
+    'name' => 'CURLOPT_TCP_KEEPCNT',
     'description' => '',
     'keywords' => 
     array (
@@ -19,11 +19,11 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'CURLINFO_LASTONE constant (php.net)',
-        'url' => 'https://www.php.net/manual/curl.constants.php#constant.curlinfo-lastone',
+        'name' => 'CURLOPT_TCP_KEEPCNT constant (php.net)',
+        'url' => 'https://www.php.net/manual/curl.constants.php#constant.curlopt-tcp-keepcnt',
       ),
     ),
   ),
-  'value' => 68,
+  'value' => 326,
   'extension' => 'curl',
 );
