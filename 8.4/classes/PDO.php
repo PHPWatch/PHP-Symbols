@@ -136,7 +136,6 @@ return array (
     'PGSQL_TRANSACTION_INTRANS' => 2,
     'PGSQL_TRANSACTION_INERROR' => 3,
     'PGSQL_TRANSACTION_UNKNOWN' => 4,
-    'PGSQL_ATTR_RESULT_MEMORY_SIZE' => 1001,
     'SQLITE_DETERMINISTIC' => 2048,
     'SQLITE_ATTR_OPEN_FLAGS' => 1000,
     'SQLITE_OPEN_READONLY' => 1,
@@ -607,7 +606,7 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:PDO> class PDO ] {
 
-  - Constants [116] {
+  - Constants [115] {
     Constant [ public int PARAM_NULL ] { 0 }
     Constant [ public int PARAM_BOOL ] { 5 }
     Constant [ public int PARAM_INT ] { 1 }
@@ -716,7 +715,6 @@ return array (
     Constant [ public int PGSQL_TRANSACTION_INTRANS ] { 2 }
     Constant [ public int PGSQL_TRANSACTION_INERROR ] { 3 }
     Constant [ public int PGSQL_TRANSACTION_UNKNOWN ] { 4 }
-    Constant [ public int PGSQL_ATTR_RESULT_MEMORY_SIZE ] { 1001 }
     Constant [ public int SQLITE_DETERMINISTIC ] { 2048 }
     Constant [ public int SQLITE_ATTR_OPEN_FLAGS ] { 1000 }
     Constant [ public int SQLITE_OPEN_READONLY ] { 1 }

@@ -136,7 +136,6 @@ return array (
     'PGSQL_TRANSACTION_INTRANS' => 2,
     'PGSQL_TRANSACTION_INERROR' => 3,
     'PGSQL_TRANSACTION_UNKNOWN' => 4,
-    'PGSQL_ATTR_RESULT_MEMORY_SIZE' => 1001,
     'ATTR_DISABLE_PREPARES' => 1000,
     'ATTR_RESULT_MEMORY_SIZE' => 1001,
     'TRANSACTION_IDLE' => 0,
@@ -1047,7 +1046,7 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:pdo_pgsql> class Pdo\\Pgsql extends PDO ] {
 
-  - Constants [116] {
+  - Constants [115] {
     Constant [ public int PARAM_NULL ] { 0 }
     Constant [ public int PARAM_BOOL ] { 5 }
     Constant [ public int PARAM_INT ] { 1 }
@@ -1156,7 +1155,6 @@ return array (
     Constant [ public int PGSQL_TRANSACTION_INTRANS ] { 2 }
     Constant [ public int PGSQL_TRANSACTION_INERROR ] { 3 }
     Constant [ public int PGSQL_TRANSACTION_UNKNOWN ] { 4 }
-    Constant [ public int PGSQL_ATTR_RESULT_MEMORY_SIZE ] { 1001 }
     Constant [ public int ATTR_DISABLE_PREPARES ] { 1000 }
     Constant [ public int ATTR_RESULT_MEMORY_SIZE ] { 1001 }
     Constant [ public int TRANSACTION_IDLE ] { 0 }
