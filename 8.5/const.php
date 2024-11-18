@@ -32,6 +32,7 @@ return array (
     'PHP_RELEASE_VERSION' => 0,
     'PHP_EXTRA_VERSION' => '-dev',
     'PHP_VERSION_ID' => 80500,
+    'PHP_BUILD_DATE' => 'Nov 18 2024 20:39:50',
     'PHP_ZTS' => false,
     'PHP_DEBUG' => false,
     'PHP_OS' => 'Linux',
