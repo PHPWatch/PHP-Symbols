@@ -24,6 +24,6 @@ return array (
       ),
     ),
   ),
-  'value' => 'Nov 19 2024 02:09:22',
+  'value' => '__DYNAMIC__',
   'extension' => 'Core',
 );
