@@ -32,7 +32,7 @@ return array (
     'PHP_RELEASE_VERSION' => 0,
     'PHP_EXTRA_VERSION' => '-dev',
     'PHP_VERSION_ID' => 80500,
-    'PHP_BUILD_DATE' => 'Nov 19 2024 05:39:24',
+    'PHP_BUILD_DATE' => 'Nov 19 2024 05:42:38',
     'PHP_ZTS' => false,
     'PHP_DEBUG' => false,
     'PHP_OS' => 'Linux',
