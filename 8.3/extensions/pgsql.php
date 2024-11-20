@@ -153,8 +153,8 @@ return array (
   ),
   'constants' => 
   array (
-    'PGSQL_LIBPQ_VERSION' => '17.0',
-    'PGSQL_LIBPQ_VERSION_STR' => '17.0',
+    'PGSQL_LIBPQ_VERSION' => '17.1',
+    'PGSQL_LIBPQ_VERSION_STR' => '17.1',
     'PGSQL_CONNECT_FORCE_NEW' => 2,
     'PGSQL_CONNECT_ASYNC' => 4,
     'PGSQL_ASSOC' => 1,
