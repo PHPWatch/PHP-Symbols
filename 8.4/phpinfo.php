@@ -28,7 +28,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.4.0-dev
+PHP Version => 8.4.1-dev
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -377,7 +377,7 @@ mbstring.substitute_character => no value => no value
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.4.0-dev
+Client API library version => mysqlnd 8.4.1-dev
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -398,7 +398,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.4.0-dev
+Version => mysqlnd 8.4.1-dev
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -472,7 +472,7 @@ Flavour => freetds
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.4.0-dev
+Client API version => mysqlnd 8.4.1-dev
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /tmp/mysql.sock => /tmp/mysql.sock
@@ -485,7 +485,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 17.1
+PostgreSQL(libpq) Version => 17.0
 
 pdo_sqlite
 
@@ -495,7 +495,7 @@ SQLite Library => 3.45.1
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL (libpq) Version => 17.1
+PostgreSQL (libpq) Version => 17.0
 Multibyte character support => enabled
 Active Persistent Links => 0
 Active Links => 0
@@ -534,7 +534,7 @@ POSIX support => enabled
 
 random
 
-Version => 8.4.0-dev
+Version => 8.4.1-dev
 
 readline
 

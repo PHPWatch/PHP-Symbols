@@ -24,6 +24,6 @@ return array (
       ),
     ),
   ),
-  'value' => '8.4.0-dev',
+  'value' => '8.4.1-dev',
   'extension' => 'Core',
 );

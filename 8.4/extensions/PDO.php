@@ -17,7 +17,7 @@ return array (
        'name' => 'PDO',
     )),
     'removed' => NULL,
-    'version' => '8.4.0-dev',
+    'version' => '8.4.1-dev',
     'resources' => 
     array (
       0 => 
