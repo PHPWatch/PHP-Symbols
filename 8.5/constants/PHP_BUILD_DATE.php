@@ -24,6 +24,6 @@ return array (
       ),
     ),
   ),
-  'value' => '__DYNAMIC__',
+  'value' => '__DYNAMIC__PHP Build Date',
   'extension' => 'Core',
 );

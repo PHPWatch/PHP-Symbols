@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '__DYNAMIC__',
+  'value' => '__DYNAMIC__PgSQL LibPQ Version',
   'extension' => 'pgsql',
 );

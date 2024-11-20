@@ -32,7 +32,7 @@ return array (
     'PHP_RELEASE_VERSION' => 0,
     'PHP_EXTRA_VERSION' => '-dev',
     'PHP_VERSION_ID' => 80500,
-    'PHP_BUILD_DATE' => '__DYNAMIC__',
+    'PHP_BUILD_DATE' => '__DYNAMIC__PHP Build Date',
     'PHP_ZTS' => false,
     'PHP_DEBUG' => false,
     'PHP_OS' => 'Linux',
@@ -2333,8 +2333,8 @@ return array (
   ),
   'pgsql' => 
   array (
-    'PGSQL_LIBPQ_VERSION' => '__DYNAMIC__',
-    'PGSQL_LIBPQ_VERSION_STR' => '__DYNAMIC__',
+    'PGSQL_LIBPQ_VERSION' => '__DYNAMIC__PgSQL LibPQ Version',
+    'PGSQL_LIBPQ_VERSION_STR' => '__DYNAMIC__PgSQL LibPQ Version',
     'PGSQL_CONNECT_FORCE_NEW' => 2,
     'PGSQL_CONNECT_ASYNC' => 4,
     'PGSQL_ASSOC' => 1,
