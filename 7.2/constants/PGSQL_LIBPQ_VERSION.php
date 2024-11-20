@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '16.4 (Ubuntu 16.4-0ubuntu0.24.04.2)',
+  'value' => '__DYNAMIC__',
   'extension' => 'pgsql',
 );

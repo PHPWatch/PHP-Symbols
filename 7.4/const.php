@@ -2391,8 +2391,8 @@ return array (
   ),
   'pgsql' => 
   array (
-    'PGSQL_LIBPQ_VERSION' => '16.4 (Ubuntu 16.4-0ubuntu0.24.04.2)',
-    'PGSQL_LIBPQ_VERSION_STR' => 'PostgreSQL 16.4 (Ubuntu 16.4-0ubuntu0.24.04.2) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu4) 13.2.0, 64-bit',
+    'PGSQL_LIBPQ_VERSION' => '__DYNAMIC__',
+    'PGSQL_LIBPQ_VERSION_STR' => '__DYNAMIC__',
     'PGSQL_CONNECT_FORCE_NEW' => 2,
     'PGSQL_CONNECT_ASYNC' => 4,
     'PGSQL_ASSOC' => 1,

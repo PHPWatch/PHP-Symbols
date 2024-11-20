@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '9.3.24',
+  'value' => '__DYNAMIC__',
   'extension' => 'pgsql',
 );

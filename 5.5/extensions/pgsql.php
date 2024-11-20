@@ -144,8 +144,8 @@ return array (
   ),
   'constants' => 
   array (
-    'PGSQL_LIBPQ_VERSION' => '9.3.24',
-    'PGSQL_LIBPQ_VERSION_STR' => 'PostgreSQL 9.3.24 on x86_64-unknown-linux-gnu, compiled by gcc (Ubuntu 4.8.4-2ubuntu1~14.04.4) 4.8.4, 64-bit',
+    'PGSQL_LIBPQ_VERSION' => '__DYNAMIC__',
+    'PGSQL_LIBPQ_VERSION_STR' => '__DYNAMIC__',
     'PGSQL_CONNECT_FORCE_NEW' => 2,
     'PGSQL_ASSOC' => 1,
     'PGSQL_NUM' => 2,
