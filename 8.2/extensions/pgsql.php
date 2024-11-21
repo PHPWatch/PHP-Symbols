@@ -17,7 +17,7 @@ return array (
        'name' => 'pgsql',
     )),
     'removed' => NULL,
-    'version' => '8.2.25',
+    'version' => '8.2.26',
     'resources' => 
     array (
       0 => 

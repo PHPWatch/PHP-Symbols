@@ -24,6 +24,6 @@ return array (
       ),
     ),
   ),
-  'value' => 30,
+  'value' => 31,
   'extension' => 'Core',
 );

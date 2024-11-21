@@ -17,7 +17,7 @@ return array (
        'name' => 'mysqlnd',
     )),
     'removed' => NULL,
-    'version' => 'mysqlnd 8.2.25',
+    'version' => 'mysqlnd 8.2.26',
     'resources' => 
     array (
       0 => 
