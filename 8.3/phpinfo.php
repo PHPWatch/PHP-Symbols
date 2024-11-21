@@ -91,7 +91,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.3.13
+PHP Version => 8.3.14
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -589,7 +589,7 @@ msgpack.use_str8_serialization => On => On
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.3.13
+Client API library version => mysqlnd 8.3.14
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -610,7 +610,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.3.13
+Version => mysqlnd 8.3.14
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -716,7 +716,7 @@ Client Library Version => LI-V6.3.11.33703 Firebird 3.0
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.3.13
+Client API version => mysqlnd 8.3.14
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -733,7 +733,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 17.0
+PostgreSQL(libpq) Version => 17.1
 
 pdo_sqlite
 
@@ -743,7 +743,7 @@ SQLite Library => 3.45.1
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL (libpq) Version => 17.0
+PostgreSQL (libpq) Version => 17.1
 Multibyte character support => enabled
 Active Persistent Links => 0
 Active Links => 0
@@ -786,7 +786,7 @@ PSpell Support => enabled
 
 random
 
-Version => 8.3.13
+Version => 8.3.14
 
 readline
 
