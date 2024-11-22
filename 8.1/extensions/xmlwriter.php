@@ -17,7 +17,7 @@ return array (
        'name' => 'xmlwriter',
     )),
     'removed' => NULL,
-    'version' => '__DYNAMIC__PHP Version',
+    'version' => '8.1.31',
     'resources' => 
     array (
       0 => 
