@@ -1336,6 +1336,63 @@ return array (
       'access' => 4,
     ),
   ),
+  'oci8' => 
+  array (
+    'oci8.connection_class' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'oci8.default_prefetch' => 
+    array (
+      'global_value' => '100',
+      'local_value' => '100',
+      'access' => 4,
+    ),
+    'oci8.events' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'oci8.max_persistent' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+    'oci8.old_oci_close_semantics' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'oci8.persistent_timeout' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+    'oci8.ping_interval' => 
+    array (
+      'global_value' => '60',
+      'local_value' => '60',
+      'access' => 4,
+    ),
+    'oci8.privileged_connect' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'oci8.statement_cache_size' => 
+    array (
+      'global_value' => '20',
+      'local_value' => '20',
+      'access' => 4,
+    ),
+  ),
   'odbc' => 
   array (
     'odbc.allow_persistent' => 

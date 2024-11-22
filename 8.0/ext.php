@@ -40,6 +40,7 @@ return array (
   'ldap',
   'exif',
   'mysqli',
+  'oci8',
   'odbc',
   'pdo_dblib',
   'PDO_Firebird',
