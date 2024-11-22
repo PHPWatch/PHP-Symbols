@@ -17,7 +17,7 @@ return array (
        'name' => 'mysqlnd',
     )),
     'removed' => NULL,
-    'version' => 'mysqlnd 5.0.8-dev - 20102224 - $Id: 731e5b87ba42146a687c29995d2dfd8b4e40b325 $',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

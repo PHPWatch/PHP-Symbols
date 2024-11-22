@@ -24,6 +24,6 @@ return array (
       ),
     ),
   ),
-  'value' => 40,
+  'value' => '__DYNAMIC__PHP Release ID',
   'extension' => 'Core',
 );

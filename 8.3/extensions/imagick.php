@@ -17,7 +17,7 @@ return array (
        'name' => 'imagick',
     )),
     'removed' => NULL,
-    'version' => '3.7.0',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

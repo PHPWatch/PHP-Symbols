@@ -17,7 +17,7 @@ return array (
        'name' => 'yaml',
     )),
     'removed' => NULL,
-    'version' => '2.2.4',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

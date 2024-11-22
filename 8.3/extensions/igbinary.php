@@ -17,7 +17,7 @@ return array (
        'name' => 'igbinary',
     )),
     'removed' => NULL,
-    'version' => '3.2.16',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

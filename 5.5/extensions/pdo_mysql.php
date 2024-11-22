@@ -17,7 +17,7 @@ return array (
        'name' => 'pdo_mysql',
     )),
     'removed' => NULL,
-    'version' => '1.0.2',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

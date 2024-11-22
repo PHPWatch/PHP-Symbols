@@ -17,7 +17,7 @@ return array (
        'name' => 'recode',
     )),
     'removed' => NULL,
-    'version' => '7.2.34-52+ubuntu24.04.1+deb.sury.org+1',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

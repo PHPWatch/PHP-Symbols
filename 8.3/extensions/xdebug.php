@@ -17,7 +17,7 @@ return array (
        'name' => 'xdebug',
     )),
     'removed' => NULL,
-    'version' => '3.3.2',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

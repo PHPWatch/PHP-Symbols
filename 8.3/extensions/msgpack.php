@@ -17,7 +17,7 @@ return array (
        'name' => 'msgpack',
     )),
     'removed' => NULL,
-    'version' => '3.0.0',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

@@ -17,7 +17,7 @@ return array (
        'name' => 'zip',
     )),
     'removed' => NULL,
-    'version' => '1.13.5',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

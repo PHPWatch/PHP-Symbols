@@ -17,7 +17,7 @@ return array (
        'name' => 'ftp',
     )),
     'removed' => NULL,
-    'version' => '7.1.33-65+ubuntu24.04.1+deb.sury.org+1',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

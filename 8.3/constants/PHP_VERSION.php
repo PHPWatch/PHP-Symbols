@@ -24,6 +24,6 @@ return array (
       ),
     ),
   ),
-  'value' => '8.3.14',
+  'value' => '__DYNAMIC__PHP Version',
   'extension' => 'Core',
 );

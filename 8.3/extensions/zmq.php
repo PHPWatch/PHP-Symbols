@@ -17,7 +17,7 @@ return array (
        'name' => 'zmq',
     )),
     'removed' => NULL,
-    'version' => '@PACKAGE_VERSION@',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

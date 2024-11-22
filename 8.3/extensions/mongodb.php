@@ -17,7 +17,7 @@ return array (
        'name' => 'mongodb',
     )),
     'removed' => NULL,
-    'version' => '1.20.0',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

@@ -17,7 +17,7 @@ return array (
        'name' => 'amqp',
     )),
     'removed' => NULL,
-    'version' => '2.1.2',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

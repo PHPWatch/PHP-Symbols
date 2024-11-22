@@ -17,7 +17,7 @@ return array (
        'name' => 'redis',
     )),
     'removed' => NULL,
-    'version' => '6.1.0',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

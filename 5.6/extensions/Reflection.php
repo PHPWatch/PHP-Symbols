@@ -17,7 +17,7 @@ return array (
        'name' => 'Reflection',
     )),
     'removed' => NULL,
-    'version' => '$Id: 5f15287237d5f78d75b19c26915aa7bd83dee8b8 $',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

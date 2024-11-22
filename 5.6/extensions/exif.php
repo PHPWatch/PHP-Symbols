@@ -17,7 +17,7 @@ return array (
        'name' => 'exif',
     )),
     'removed' => NULL,
-    'version' => '1.4 $Id: cad29b729548e4206f0697710cc9e177f26fdff3 $',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

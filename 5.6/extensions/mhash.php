@@ -17,7 +17,7 @@ return array (
        'name' => 'mhash',
     )),
     'removed' => NULL,
-    'version' => NULL,
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

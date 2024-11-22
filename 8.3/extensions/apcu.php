@@ -17,7 +17,7 @@ return array (
        'name' => 'apcu',
     )),
     'removed' => NULL,
-    'version' => '5.1.24',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

@@ -17,7 +17,7 @@ return array (
        'name' => 'memcached',
     )),
     'removed' => NULL,
-    'version' => '3.3.1dev',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

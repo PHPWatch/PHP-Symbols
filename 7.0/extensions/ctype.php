@@ -17,7 +17,7 @@ return array (
        'name' => 'ctype',
     )),
     'removed' => NULL,
-    'version' => '7.0.33-77+ubuntu24.04.1+deb.sury.org+1',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

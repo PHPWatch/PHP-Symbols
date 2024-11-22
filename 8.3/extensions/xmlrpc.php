@@ -17,7 +17,7 @@ return array (
        'name' => 'xmlrpc',
     )),
     'removed' => NULL,
-    'version' => '1.0.0RC3',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

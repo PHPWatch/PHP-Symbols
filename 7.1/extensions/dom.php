@@ -17,7 +17,7 @@ return array (
        'name' => 'dom',
     )),
     'removed' => NULL,
-    'version' => '20031129',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

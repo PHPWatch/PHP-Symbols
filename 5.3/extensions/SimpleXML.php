@@ -17,7 +17,7 @@ return array (
        'name' => 'SimpleXML',
     )),
     'removed' => NULL,
-    'version' => '0.1',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

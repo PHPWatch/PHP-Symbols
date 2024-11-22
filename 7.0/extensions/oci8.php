@@ -17,7 +17,7 @@ return array (
        'name' => 'oci8',
     )),
     'removed' => NULL,
-    'version' => '2.1.8',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

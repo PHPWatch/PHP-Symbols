@@ -17,7 +17,7 @@ return array (
        'name' => 'recode',
     )),
     'removed' => NULL,
-    'version' => NULL,
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

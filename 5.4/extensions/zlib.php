@@ -17,7 +17,7 @@ return array (
        'name' => 'zlib',
     )),
     'removed' => NULL,
-    'version' => '2.0',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

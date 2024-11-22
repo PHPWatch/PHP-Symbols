@@ -17,7 +17,7 @@ return array (
        'name' => 'Zend OPcache',
     )),
     'removed' => NULL,
-    'version' => '7.0.6-devFE',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 
