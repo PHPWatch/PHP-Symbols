@@ -407,29 +407,6 @@ Tracing => n/a
 Loaded plugins => mysqlnd,debug_trace,auth_plugin_mysql_native_password,auth_plugin_mysql_clear_password,auth_plugin_caching_sha2_password,auth_plugin_sha256_password
 API Extensions => mysqli,pdo_mysql
 
-oci8
-
-OCI8 Support => enabled
-OCI8 DTrace Support => disabled
-OCI8 Version => 3.0.1
-Oracle Run-time Client Library Version => 23.6.0.24.10
-Oracle Compile-time Instant Client Version => 23.6
-
-Directive => Local Value => Master Value
-oci8.connection_class => no value => no value
-oci8.default_prefetch => 100 => 100
-oci8.events => Off => Off
-oci8.max_persistent => -1 => -1
-oci8.old_oci_close_semantics => Off => Off
-oci8.persistent_timeout => -1 => -1
-oci8.ping_interval => 60 => 60
-oci8.privileged_connect => Off => Off
-oci8.statement_cache_size => 20 => 20
-
-Statistics =>  
-Active Persistent Connections => 0
-Active Connections => 0
-
 odbc
 
 ODBC Support => enabled
