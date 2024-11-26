@@ -57,6 +57,7 @@ return array (
     'opcache.file_cache' => NULL,
     'opcache.file_cache_consistency_checks' => '1',
     'opcache.file_cache_only' => '0',
+    'opcache.file_cache_read_only' => '0',
     'opcache.file_update_protection' => '2',
     'opcache.force_restart_timeout' => '180',
     'opcache.huge_code_pages' => '0',

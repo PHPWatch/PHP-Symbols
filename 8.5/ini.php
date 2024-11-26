@@ -1656,6 +1656,12 @@ return array (
       'local_value' => '0',
       'access' => 4,
     ),
+    'opcache.file_cache_read_only' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
     'opcache.file_update_protection' => 
     array (
       'global_value' => '2',

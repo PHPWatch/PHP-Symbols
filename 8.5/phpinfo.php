@@ -721,8 +721,8 @@ Cache misses => 1
 Used memory => 9177064
 Free memory => 125040664
 Wasted memory => 0
-Interned Strings Used memory => 2600272
-Interned Strings Free memory => 5788336
+Interned Strings Used memory => 2600336
+Interned Strings Free memory => 5788272
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229
@@ -743,6 +743,7 @@ opcache.error_log => no value => no value
 opcache.file_cache => no value => no value
 opcache.file_cache_consistency_checks => On => On
 opcache.file_cache_only => Off => Off
+opcache.file_cache_read_only => Off => Off
 opcache.file_update_protection => 2 => 2
 opcache.force_restart_timeout => 180 => 180
 opcache.huge_code_pages => Off => Off
