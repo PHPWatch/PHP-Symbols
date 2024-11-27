@@ -34,7 +34,7 @@ return array (
   'toString' => 'Function [ <internal:pgsql> function pg_set_chunked_rows_size ] {
 
   - Parameters [2] {
-    Parameter #0 [ <required> Pgsql\\Connection $connection ]
+    Parameter #0 [ <required> PgSql\\Connection $connection ]
     Parameter #1 [ <required> int $size ]
   }
   - Return [ bool ]
