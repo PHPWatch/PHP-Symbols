@@ -17,7 +17,7 @@ return array (
        'name' => 'hash',
     )),
     'removed' => NULL,
-    'version' => '8.4.1-dev',
+    'version' => '8.4.2-dev',
     'resources' => 
     array (
       0 => 
