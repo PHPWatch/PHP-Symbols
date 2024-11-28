@@ -34,7 +34,7 @@ return array (
   'toString' => 'Function [ <internal:odbc> function odbc_fetch_into ] {
 
   - Parameters [3] {
-    Parameter #0 [ <required> $statement ]
+    Parameter #0 [ <required> Odbc\\Result $statement ]
     Parameter #1 [ <required> &$array ]
     Parameter #2 [ <optional> ?int $row = null ]
   }
