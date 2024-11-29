@@ -127,11 +127,6 @@ return array (
     'MYSQL_ATTR_SERVER_PUBLIC_KEY' => 1012,
     'MYSQL_ATTR_MULTI_STATEMENTS' => 1013,
     'MYSQL_ATTR_SSL_VERIFY_SERVER_CERT' => 1014,
-    'OCI_ATTR_ACTION' => 1000,
-    'OCI_ATTR_CLIENT_INFO' => 1001,
-    'OCI_ATTR_CLIENT_IDENTIFIER' => 1002,
-    'OCI_ATTR_MODULE' => 1003,
-    'OCI_ATTR_CALL_TIMEOUT' => 1004,
     'ODBC_ATTR_USE_CURSOR_LIBRARY' => 1000,
     'ODBC_ATTR_ASSUME_UTF8' => 1001,
     'ODBC_SQL_USE_IF_NEEDED' => 0,
@@ -555,7 +550,7 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:PDO> class PDO ] {
 
-  - Constants [122] {
+  - Constants [117] {
     Constant [ public int PARAM_BOOL ] { 5 }
     Constant [ public int PARAM_NULL ] { 0 }
     Constant [ public int PARAM_INT ] { 1 }
@@ -655,11 +650,6 @@ return array (
     Constant [ public int MYSQL_ATTR_SERVER_PUBLIC_KEY ] { 1012 }
     Constant [ public int MYSQL_ATTR_MULTI_STATEMENTS ] { 1013 }
     Constant [ public int MYSQL_ATTR_SSL_VERIFY_SERVER_CERT ] { 1014 }
-    Constant [ public int OCI_ATTR_ACTION ] { 1000 }
-    Constant [ public int OCI_ATTR_CLIENT_INFO ] { 1001 }
-    Constant [ public int OCI_ATTR_CLIENT_IDENTIFIER ] { 1002 }
-    Constant [ public int OCI_ATTR_MODULE ] { 1003 }
-    Constant [ public int OCI_ATTR_CALL_TIMEOUT ] { 1004 }
     Constant [ public int ODBC_ATTR_USE_CURSOR_LIBRARY ] { 1000 }
     Constant [ public int ODBC_ATTR_ASSUME_UTF8 ] { 1001 }
     Constant [ public int ODBC_SQL_USE_IF_NEEDED ] { 0 }
