@@ -17,7 +17,7 @@ return array (
        'name' => 'gmp',
     )),
     'removed' => NULL,
-    'version' => '8.4.2-dev',
+    'version' => '8.4.3-dev',
     'resources' => 
     array (
       0 => 
