@@ -38,7 +38,7 @@ return array (
     Parameter #1 [ <optional> array $args = [] ]
     Parameter #2 [ <optional> array $env_vars = [] ]
   }
-  - Return [ bool ]
+  - Return [ false ]
 }
 ',
 );
