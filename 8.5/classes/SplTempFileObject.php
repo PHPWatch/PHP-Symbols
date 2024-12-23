@@ -512,10 +512,10 @@ return array (
         array (
           'position' => 1,
           'name' => 'length',
-          'type' => 'int',
+          'type' => '?int',
           'is_optional' => true,
           'has_default_value' => true,
-          'default_value' => 0,
+          'default_value' => NULL,
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
@@ -1430,7 +1430,7 @@ return array (
 
       - Parameters [2] {
         Parameter #0 [ <required> string $data ]
-        Parameter #1 [ <optional> int $length = 0 ]
+        Parameter #1 [ <optional> ?int $length = null ]
       }
       - Tentative return [ int|false ]
     }
