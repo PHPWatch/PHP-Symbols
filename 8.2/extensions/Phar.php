@@ -17,7 +17,7 @@ return array (
        'name' => 'Phar',
     )),
     'removed' => NULL,
-    'version' => '8.2.26',
+    'version' => '8.2.27',
     'resources' => 
     array (
       0 => 

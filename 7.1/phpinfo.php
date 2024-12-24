@@ -203,7 +203,7 @@ hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.
 exif
 
 EXIF Support => enabled
-EXIF Version => 7.1.33-65+ubuntu24.04.1+deb.sury.org+1
+EXIF Version => 7.1.33-67+ubuntu24.04.1+deb.sury.org+1
 Supported EXIF Version => 0220
 Supported filetypes => JPEG,TIFF
 
@@ -886,11 +886,11 @@ Revision => $Id: 483c70b5c54718693a4b95633a097e33d1120ba9 $
 
 sysvsem
 
-Version => 7.1.33-65+ubuntu24.04.1+deb.sury.org+1
+Version => 7.1.33-67+ubuntu24.04.1+deb.sury.org+1
 
 sysvshm
 
-Version => 7.1.33-65+ubuntu24.04.1+deb.sury.org+1
+Version => 7.1.33-67+ubuntu24.04.1+deb.sury.org+1
 
 tidy
 

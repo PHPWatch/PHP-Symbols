@@ -28,7 +28,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.2.26
+PHP Version => 8.2.27
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -580,7 +580,7 @@ PSpell Support => enabled
 
 random
 
-Version => 8.2.26
+Version => 8.2.27
 
 readline
 

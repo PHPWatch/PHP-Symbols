@@ -17,7 +17,7 @@ return array (
        'name' => 'imap',
     )),
     'removed' => NULL,
-    'version' => '8.2.26',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 
