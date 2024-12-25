@@ -548,10 +548,10 @@ memcached.store_retry_count => 0 => 0
 mongodb
 
 MongoDB support => enabled
-MongoDB extension version => 1.20.0
+MongoDB extension version => 1.20.1
 MongoDB extension stability => stable
-libbson bundled version => 1.28.0
-libmongoc bundled version => 1.28.0
+libbson bundled version => 1.28.1
+libmongoc bundled version => 1.28.1
 libmongoc SSL => enabled
 libmongoc SSL library => OpenSSL
 libmongoc crypto => enabled
@@ -991,7 +991,7 @@ xdebug
 [1m                              __/ |
 [1m                             |___/ 
 
-[0mVersion => 3.3.2
+[0mVersion => 3.4.0
 Support Xdebug on Patreon, GitHub, or as a business: https://xdebug.org/support
 
              Enabled Features (through \'xdebug.mode\' setting)             
@@ -1006,6 +1006,7 @@ Tracing => ✘ disabled
                             Optional Features                            
 Compressed File Support => yes (gzip)
 Clock Source => clock_gettime
+TSC Clock Source => available
 \'xdebug://gateway\' pseudo-host support => yes
 \'xdebug://nameserver\' pseudo-host support => yes
 Systemd Private Temp Directory => not enabled

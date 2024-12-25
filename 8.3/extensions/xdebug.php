@@ -111,7 +111,7 @@ return array (
     'xdebug.collect_return' => '0',
     'xdebug.collect_vars' => 'This setting has been removed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#removed-xdebug.collect_vars',
     'xdebug.connect_timeout_ms' => '200',
-    'xdebug.control_socket' => 'time',
+    'xdebug.control_socket' => 'default',
     'xdebug.coverage_enable' => 'This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.coverage_enable',
     'xdebug.default_enable' => 'This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.default_enable',
     'xdebug.discover_client_host' => '0',
