@@ -113,34 +113,34 @@ return array (
     'MYSQL_ATTR_LOCAL_INFILE' => 1001,
     'MYSQL_ATTR_INIT_COMMAND' => 1002,
     'MYSQL_ATTR_COMPRESS' => 1003,
-    'MYSQL_ATTR_DIRECT_QUERY' => 1004,
-    'MYSQL_ATTR_FOUND_ROWS' => 1005,
-    'MYSQL_ATTR_IGNORE_SPACE' => 1006,
-    'MYSQL_ATTR_SSL_KEY' => 1007,
-    'MYSQL_ATTR_SSL_CERT' => 1008,
-    'MYSQL_ATTR_SSL_CA' => 1009,
-    'MYSQL_ATTR_SSL_CAPATH' => 1010,
-    'MYSQL_ATTR_SSL_CIPHER' => 1011,
-    'MYSQL_ATTR_SERVER_PUBLIC_KEY' => 1012,
-    'MYSQL_ATTR_MULTI_STATEMENTS' => 1013,
-    'MYSQL_ATTR_SSL_VERIFY_SERVER_CERT' => 1014,
-    'MYSQL_ATTR_LOCAL_INFILE_DIRECTORY' => 1015,
+    'MYSQL_ATTR_DIRECT_QUERY' => 20,
+    'MYSQL_ATTR_FOUND_ROWS' => 1004,
+    'MYSQL_ATTR_IGNORE_SPACE' => 1005,
+    'MYSQL_ATTR_SSL_KEY' => 1006,
+    'MYSQL_ATTR_SSL_CERT' => 1007,
+    'MYSQL_ATTR_SSL_CA' => 1008,
+    'MYSQL_ATTR_SSL_CAPATH' => 1009,
+    'MYSQL_ATTR_SSL_CIPHER' => 1010,
+    'MYSQL_ATTR_SERVER_PUBLIC_KEY' => 1011,
+    'MYSQL_ATTR_MULTI_STATEMENTS' => 1012,
+    'MYSQL_ATTR_SSL_VERIFY_SERVER_CERT' => 1013,
+    'MYSQL_ATTR_LOCAL_INFILE_DIRECTORY' => 1014,
     'ATTR_USE_BUFFERED_QUERY' => 1000,
     'ATTR_LOCAL_INFILE' => 1001,
     'ATTR_INIT_COMMAND' => 1002,
     'ATTR_COMPRESS' => 1003,
-    'ATTR_DIRECT_QUERY' => 1004,
-    'ATTR_FOUND_ROWS' => 1005,
-    'ATTR_IGNORE_SPACE' => 1006,
-    'ATTR_SSL_KEY' => 1007,
-    'ATTR_SSL_CERT' => 1008,
-    'ATTR_SSL_CA' => 1009,
-    'ATTR_SSL_CAPATH' => 1010,
-    'ATTR_SSL_CIPHER' => 1011,
-    'ATTR_SERVER_PUBLIC_KEY' => 1012,
-    'ATTR_MULTI_STATEMENTS' => 1013,
-    'ATTR_SSL_VERIFY_SERVER_CERT' => 1014,
-    'ATTR_LOCAL_INFILE_DIRECTORY' => 1015,
+    'ATTR_DIRECT_QUERY' => 20,
+    'ATTR_FOUND_ROWS' => 1004,
+    'ATTR_IGNORE_SPACE' => 1005,
+    'ATTR_SSL_KEY' => 1006,
+    'ATTR_SSL_CERT' => 1007,
+    'ATTR_SSL_CA' => 1008,
+    'ATTR_SSL_CAPATH' => 1009,
+    'ATTR_SSL_CIPHER' => 1010,
+    'ATTR_SERVER_PUBLIC_KEY' => 1011,
+    'ATTR_MULTI_STATEMENTS' => 1012,
+    'ATTR_SSL_VERIFY_SERVER_CERT' => 1013,
+    'ATTR_LOCAL_INFILE_DIRECTORY' => 1014,
   ),
   'properties' => 
   array (
@@ -704,34 +704,34 @@ return array (
     Constant [ public int MYSQL_ATTR_LOCAL_INFILE ] { 1001 }
     Constant [ public int MYSQL_ATTR_INIT_COMMAND ] { 1002 }
     Constant [ public int MYSQL_ATTR_COMPRESS ] { 1003 }
-    Constant [ public int MYSQL_ATTR_DIRECT_QUERY ] { 1004 }
-    Constant [ public int MYSQL_ATTR_FOUND_ROWS ] { 1005 }
-    Constant [ public int MYSQL_ATTR_IGNORE_SPACE ] { 1006 }
-    Constant [ public int MYSQL_ATTR_SSL_KEY ] { 1007 }
-    Constant [ public int MYSQL_ATTR_SSL_CERT ] { 1008 }
-    Constant [ public int MYSQL_ATTR_SSL_CA ] { 1009 }
-    Constant [ public int MYSQL_ATTR_SSL_CAPATH ] { 1010 }
-    Constant [ public int MYSQL_ATTR_SSL_CIPHER ] { 1011 }
-    Constant [ public int MYSQL_ATTR_SERVER_PUBLIC_KEY ] { 1012 }
-    Constant [ public int MYSQL_ATTR_MULTI_STATEMENTS ] { 1013 }
-    Constant [ public int MYSQL_ATTR_SSL_VERIFY_SERVER_CERT ] { 1014 }
-    Constant [ public int MYSQL_ATTR_LOCAL_INFILE_DIRECTORY ] { 1015 }
+    Constant [ public int MYSQL_ATTR_DIRECT_QUERY ] { 20 }
+    Constant [ public int MYSQL_ATTR_FOUND_ROWS ] { 1004 }
+    Constant [ public int MYSQL_ATTR_IGNORE_SPACE ] { 1005 }
+    Constant [ public int MYSQL_ATTR_SSL_KEY ] { 1006 }
+    Constant [ public int MYSQL_ATTR_SSL_CERT ] { 1007 }
+    Constant [ public int MYSQL_ATTR_SSL_CA ] { 1008 }
+    Constant [ public int MYSQL_ATTR_SSL_CAPATH ] { 1009 }
+    Constant [ public int MYSQL_ATTR_SSL_CIPHER ] { 1010 }
+    Constant [ public int MYSQL_ATTR_SERVER_PUBLIC_KEY ] { 1011 }
+    Constant [ public int MYSQL_ATTR_MULTI_STATEMENTS ] { 1012 }
+    Constant [ public int MYSQL_ATTR_SSL_VERIFY_SERVER_CERT ] { 1013 }
+    Constant [ public int MYSQL_ATTR_LOCAL_INFILE_DIRECTORY ] { 1014 }
     Constant [ public int ATTR_USE_BUFFERED_QUERY ] { 1000 }
     Constant [ public int ATTR_LOCAL_INFILE ] { 1001 }
     Constant [ public int ATTR_INIT_COMMAND ] { 1002 }
     Constant [ public int ATTR_COMPRESS ] { 1003 }
-    Constant [ public int ATTR_DIRECT_QUERY ] { 1004 }
-    Constant [ public int ATTR_FOUND_ROWS ] { 1005 }
-    Constant [ public int ATTR_IGNORE_SPACE ] { 1006 }
-    Constant [ public int ATTR_SSL_KEY ] { 1007 }
-    Constant [ public int ATTR_SSL_CERT ] { 1008 }
-    Constant [ public int ATTR_SSL_CA ] { 1009 }
-    Constant [ public int ATTR_SSL_CAPATH ] { 1010 }
-    Constant [ public int ATTR_SSL_CIPHER ] { 1011 }
-    Constant [ public int ATTR_SERVER_PUBLIC_KEY ] { 1012 }
-    Constant [ public int ATTR_MULTI_STATEMENTS ] { 1013 }
-    Constant [ public int ATTR_SSL_VERIFY_SERVER_CERT ] { 1014 }
-    Constant [ public int ATTR_LOCAL_INFILE_DIRECTORY ] { 1015 }
+    Constant [ public int ATTR_DIRECT_QUERY ] { 20 }
+    Constant [ public int ATTR_FOUND_ROWS ] { 1004 }
+    Constant [ public int ATTR_IGNORE_SPACE ] { 1005 }
+    Constant [ public int ATTR_SSL_KEY ] { 1006 }
+    Constant [ public int ATTR_SSL_CERT ] { 1007 }
+    Constant [ public int ATTR_SSL_CA ] { 1008 }
+    Constant [ public int ATTR_SSL_CAPATH ] { 1009 }
+    Constant [ public int ATTR_SSL_CIPHER ] { 1010 }
+    Constant [ public int ATTR_SERVER_PUBLIC_KEY ] { 1011 }
+    Constant [ public int ATTR_MULTI_STATEMENTS ] { 1012 }
+    Constant [ public int ATTR_SSL_VERIFY_SERVER_CERT ] { 1013 }
+    Constant [ public int ATTR_LOCAL_INFILE_DIRECTORY ] { 1014 }
   }
 
   - Static properties [0] {
