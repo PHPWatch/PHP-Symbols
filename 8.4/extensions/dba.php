@@ -17,7 +17,7 @@ return array (
        'name' => 'dba',
     )),
     'removed' => NULL,
-    'version' => '8.4.3-dev',
+    'version' => '8.4.4-dev',
     'resources' => 
     array (
       0 => 
