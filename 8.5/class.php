@@ -57,6 +57,7 @@ return array (
   'CurlHandle',
   'CurlMultiHandle',
   'CurlShareHandle',
+  'CurlSharePersistentHandle',
   'CURLFile',
   'CURLStringFile',
   'Dba\\Connection',

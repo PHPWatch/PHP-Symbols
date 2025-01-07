@@ -32,8 +32,9 @@ return array (
     0 => 'CurlHandle',
     1 => 'CurlMultiHandle',
     2 => 'CurlShareHandle',
-    3 => 'CURLFile',
-    4 => 'CURLStringFile',
+    3 => 'CurlSharePersistentHandle',
+    4 => 'CURLFile',
+    5 => 'CURLStringFile',
   ),
   'functions' => 
   array (
@@ -69,6 +70,7 @@ return array (
     'curl_share_init' => 'curl_share_init',
     'curl_share_setopt' => 'curl_share_setopt',
     'curl_share_strerror' => 'curl_share_strerror',
+    'curl_share_init_persistent' => 'curl_share_init_persistent',
     'curl_strerror' => 'curl_strerror',
     'curl_version' => 'curl_version',
   ),

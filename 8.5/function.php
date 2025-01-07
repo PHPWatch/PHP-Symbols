@@ -306,6 +306,7 @@ return array (
   'curl_share_init',
   'curl_share_setopt',
   'curl_share_strerror',
+  'curl_share_init_persistent',
   'curl_strerror',
   'curl_version',
   'dba_popen',
