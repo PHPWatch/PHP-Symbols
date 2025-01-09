@@ -52,6 +52,7 @@ return array (
     'enchant_dict_add' => 'enchant_dict_add',
     'enchant_dict_add_to_personal' => 'enchant_dict_add_to_personal',
     'enchant_dict_add_to_session' => 'enchant_dict_add_to_session',
+    'enchant_dict_remove_from_session' => 'enchant_dict_remove_from_session',
     'enchant_dict_is_added' => 'enchant_dict_is_added',
     'enchant_dict_is_in_session' => 'enchant_dict_is_in_session',
     'enchant_dict_store_replacement' => 'enchant_dict_store_replacement',
