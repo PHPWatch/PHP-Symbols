@@ -179,7 +179,7 @@ date
 
 date/time support => enabled
 timelib version => 2022.12
-"Olson" Timezone Database Version => 2024.2
+"Olson" Timezone Database Version => 2025.1
 Timezone Database => internal
 Default timezone => UTC
 
