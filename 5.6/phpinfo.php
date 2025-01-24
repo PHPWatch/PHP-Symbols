@@ -639,8 +639,8 @@ OCI8 Support => enabled
 OCI8 DTrace Support => disabled
 OCI8 Version => 2.0.12
 Revision => $Id: 020312b6429ebb9d6272ac9bc28f6dce529434b6 $
-Oracle Run-time Client Library Version => 23.6.0.24.10
-Oracle Compile-time Instant Client Version => 23.6
+Oracle Run-time Client Library Version => 23.7.0.25.1
+Oracle Compile-time Instant Client Version => 23.7
 
 Directive => Local Value => Master Value
 oci8.connection_class => no value => no value

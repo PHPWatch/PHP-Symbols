@@ -586,8 +586,8 @@ Version => 1.4.10
 Revision => $Id: b0984d94e17f7c099470cd0a9404259f2a59da04 $
 Active Persistent Connections => 0
 Active Connections => 0
-Oracle Run-time Client Library Version => 23.6.0.24.10
-Oracle Instant Client Version => 23.6
+Oracle Run-time Client Library Version => 23.7.0.25.1
+Oracle Instant Client Version => 23.7
 Temporary Lob support => enabled
 Collections support => enabled
 
