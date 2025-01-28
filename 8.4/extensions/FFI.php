@@ -17,7 +17,7 @@ return array (
        'name' => 'FFI',
     )),
     'removed' => NULL,
-    'version' => '8.4.4-dev',
+    'version' => '8.4.5-dev',
     'resources' => 
     array (
       0 => 
