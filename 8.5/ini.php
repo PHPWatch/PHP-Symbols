@@ -159,6 +159,12 @@ return array (
       'local_value' => '/usr/lib/php/extensions/no-debug-non-zts-20240925',
       'access' => 4,
     ),
+    'fatal_error_backtraces' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
     'fiber.stack_size' => 
     array (
       'global_value' => NULL,

@@ -57,6 +57,7 @@ error_prepend_string => no value => no value
 error_reporting => no value => no value
 expose_php => On => On
 extension_dir => /usr/lib/php/extensions/no-debug-non-zts-20240925 => /usr/lib/php/extensions/no-debug-non-zts-20240925
+fatal_error_backtraces => On => On
 fiber.stack_size => no value => no value
 file_uploads => On => On
 hard_timeout => 2 => 2
@@ -721,8 +722,8 @@ Cache misses => 1
 Used memory => 9177064
 Free memory => 125040664
 Wasted memory => 0
-Interned Strings Used memory => 2600568
-Interned Strings Free memory => 5788040
+Interned Strings Used memory => 2600624
+Interned Strings Free memory => 5787984
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229

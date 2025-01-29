@@ -247,6 +247,7 @@ return array (
     'error_reporting' => NULL,
     'expose_php' => '1',
     'extension_dir' => '/usr/lib/php/extensions/no-debug-non-zts-20240925',
+    'fatal_error_backtraces' => '1',
     'fiber.stack_size' => NULL,
     'file_uploads' => '1',
     'hard_timeout' => '2',
