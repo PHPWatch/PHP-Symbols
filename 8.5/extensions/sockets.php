@@ -77,6 +77,7 @@ return array (
     'AF_UNIX' => 1,
     'AF_INET' => 2,
     'AF_INET6' => 10,
+    'AF_PACKET' => 17,
     'SOCK_STREAM' => 1,
     'SOCK_DGRAM' => 2,
     'SOCK_RAW' => 3,
@@ -307,6 +308,10 @@ return array (
     'IP_PMTUDISC_PROBE' => 3,
     'IP_PMTUDISC_INTERFACE' => 4,
     'IP_PMTUDISC_OMIT' => 5,
+    'ETH_P_IP' => 2048,
+    'ETH_P_IPV6' => 34525,
+    'ETH_P_LOOP' => 96,
+    'ETH_P_ALL' => 3,
   ),
   'dependencies' => 
   array (
