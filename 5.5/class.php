@@ -143,8 +143,6 @@ return array (
   'mysqli_warning',
   'mysqli_result',
   'mysqli_stmt',
-  'OCI-Lob',
-  'OCI-Collection',
   'SQLite3',
   'SQLite3Stmt',
   'SQLite3Result',
