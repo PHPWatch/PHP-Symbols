@@ -342,6 +342,7 @@ return array (
   'enchant_dict_check',
   'enchant_dict_suggest',
   'enchant_dict_add',
+  'enchant_dict_remove',
   'enchant_dict_add_to_personal',
   'enchant_dict_add_to_session',
   'enchant_dict_remove_from_session',
