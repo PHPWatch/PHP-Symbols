@@ -55,12 +55,12 @@ return array (
     'FETCH_CLASS' => 8,
     'FETCH_INTO' => 9,
     'FETCH_FUNC' => 10,
-    'FETCH_GROUP' => 65536,
-    'FETCH_UNIQUE' => 196608,
+    'FETCH_GROUP' => 32,
+    'FETCH_UNIQUE' => 64,
     'FETCH_KEY_PAIR' => 12,
-    'FETCH_CLASSTYPE' => 262144,
-    'FETCH_SERIALIZE' => 524288,
-    'FETCH_PROPS_LATE' => 1048576,
+    'FETCH_CLASSTYPE' => 128,
+    'FETCH_SERIALIZE' => 512,
+    'FETCH_PROPS_LATE' => 256,
     'FETCH_NAMED' => 11,
     'ATTR_AUTOCOMMIT' => 0,
     'ATTR_PREFETCH' => 1,
@@ -1074,12 +1074,12 @@ return array (
     Constant [ public int FETCH_CLASS ] { 8 }
     Constant [ public int FETCH_INTO ] { 9 }
     Constant [ public int FETCH_FUNC ] { 10 }
-    Constant [ public int FETCH_GROUP ] { 65536 }
-    Constant [ public int FETCH_UNIQUE ] { 196608 }
+    Constant [ public int FETCH_GROUP ] { 32 }
+    Constant [ public int FETCH_UNIQUE ] { 64 }
     Constant [ public int FETCH_KEY_PAIR ] { 12 }
-    Constant [ public int FETCH_CLASSTYPE ] { 262144 }
-    Constant [ public int FETCH_SERIALIZE ] { 524288 }
-    Constant [ public int FETCH_PROPS_LATE ] { 1048576 }
+    Constant [ public int FETCH_CLASSTYPE ] { 128 }
+    Constant [ public int FETCH_SERIALIZE ] { 512 }
+    Constant [ public int FETCH_PROPS_LATE ] { 256 }
     Constant [ public int FETCH_NAMED ] { 11 }
     Constant [ public int ATTR_AUTOCOMMIT ] { 0 }
     Constant [ public int ATTR_PREFETCH ] { 1 }
