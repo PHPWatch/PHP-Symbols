@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'T_FN',
+  'name' => 'CURLINFO_USED_PROXY',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'T_FN',
+    'name' => 'CURLINFO_USED_PROXY',
     'description' => '',
     'keywords' => 
     array (
@@ -17,8 +17,13 @@ return array (
     'removed' => NULL,
     'resources' => 
     array (
+      0 => 
+      array (
+        'name' => 'CURLINFO_USED_PROXY constant (php.net)',
+        'url' => 'https://www.php.net/manual/curl.constants.php#constant.curlinfo-used-proxy',
+      ),
     ),
   ),
-  'value' => 348,
-  'extension' => 'tokenizer',
+  'value' => 2097218,
+  'extension' => 'curl',
 );

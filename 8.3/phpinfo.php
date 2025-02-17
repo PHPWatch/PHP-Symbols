@@ -91,7 +91,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.3.16
+PHP Version => 8.3.17
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -279,8 +279,8 @@ enchant
 enchant support => enabled
 Libenchant Version => 2.3.3
 
-aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
 hspell => Hspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hspell.so
+aspell => Aspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_aspell.so
 hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hunspell.so
 
 exif
@@ -589,7 +589,7 @@ msgpack.use_str8_serialization => On => On
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.3.16
+Client API library version => mysqlnd 8.3.17
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -610,7 +610,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.3.16
+Version => mysqlnd 8.3.17
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -716,7 +716,7 @@ Client Library Version => LI-V6.3.11.33703 Firebird 3.0
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.3.16
+Client API version => mysqlnd 8.3.17
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -786,7 +786,7 @@ PSpell Support => enabled
 
 random
 
-Version => 8.3.16
+Version => 8.3.17
 
 readline
 

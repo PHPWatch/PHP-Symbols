@@ -135,7 +135,7 @@ ctype functions => enabled
 curl
 
 cURL support => enabled
-cURL Information => 8.12.0-DEV
+cURL Information => 8.12.1-DEV
 Age => 11
 Features
 AsynchDNS => Yes
@@ -246,7 +246,7 @@ ffi.preload => no value => no value
 fileinfo
 
 fileinfo support => enabled
-libmagic => 545
+libmagic => 546
 
 filter
 
@@ -450,8 +450,8 @@ pcntl support => enabled
 pcre
 
 PCRE (Perl Compatible Regular Expressions) Support => enabled
-PCRE Library Version => 10.44 2024-06-07
-PCRE Unicode Version => 15.0.0
+PCRE Library Version => 10.45 2025-02-05
+PCRE Unicode Version => 16.0.0
 PCRE JIT Support => enabled
 PCRE JIT Target => x86 64bit (little endian + unaligned)
 
@@ -722,8 +722,8 @@ Cache misses => 1
 Used memory => 9177064
 Free memory => 125040664
 Wasted memory => 0
-Interned Strings Used memory => 2600952
-Interned Strings Free memory => 5787656
+Interned Strings Used memory => 2601112
+Interned Strings Free memory => 5787496
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229

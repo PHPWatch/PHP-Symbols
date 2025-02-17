@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '10.44 2024-06-07',
+  'value' => '10.45 2025-02-05',
   'extension' => 'pcre',
 );
