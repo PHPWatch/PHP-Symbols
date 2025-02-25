@@ -17,7 +17,7 @@ return array (
        'name' => 'calendar',
     )),
     'removed' => NULL,
-    'version' => '8.4.5-dev',
+    'version' => '8.4.6-dev',
     'resources' => 
     array (
       0 => 
