@@ -2819,6 +2819,7 @@ return array (
     'ETH_P_IPV6' => 34525,
     'ETH_P_LOOP' => 96,
     'ETH_P_ALL' => 3,
+    'ETH_FRAME_LEN' => 1514,
   ),
   'sodium' => 
   array (
