@@ -276,7 +276,6 @@ return array (
   'Soap\\Url',
   'Soap\\Sdl',
   'Socket',
-  'SocketEthernetInfo',
   'AddressInfo',
   'SodiumException',
   'SysvMessageQueue',
