@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '1.20.1',
+  'value' => '1.21.0',
   'extension' => 'mongodb',
 );
