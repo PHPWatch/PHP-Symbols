@@ -30,6 +30,8 @@ return array (
   array (
     'PATTERN_DECIMAL' => 0,
     'DECIMAL' => 1,
+    'DECIMAL_COMPACT_SHORT' => 14,
+    'DECIMAL_COMPACT_LONG' => 15,
     'CURRENCY' => 2,
     'PERCENT' => 3,
     'SCIENTIFIC' => 4,
@@ -657,9 +659,11 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:intl> class NumberFormatter ] {
 
-  - Constants [77] {
+  - Constants [79] {
     Constant [ public int PATTERN_DECIMAL ] { 0 }
     Constant [ public int DECIMAL ] { 1 }
+    Constant [ public int DECIMAL_COMPACT_SHORT ] { 14 }
+    Constant [ public int DECIMAL_COMPACT_LONG ] { 15 }
     Constant [ public int CURRENCY ] { 2 }
     Constant [ public int PERCENT ] { 3 }
     Constant [ public int SCIENTIFIC ] { 4 }
