@@ -126,6 +126,7 @@ return array (
     'SO_INCOMING_CPU' => 49,
     'SO_MEMINFO' => 55,
     'SO_BPF_EXTENSIONS' => 48,
+    'SO_BUSY_POLL' => 46,
     'SKF_AD_OFF' => -4096,
     'SKF_AD_PROTOCOL' => 0,
     'SKF_AD_PKTTYPE' => 4,
