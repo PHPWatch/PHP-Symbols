@@ -803,6 +803,11 @@ Directive => Local Value => Master Value
 cli.pager => no value => no value
 cli.prompt => \\b \\>  => \\b \\> 
 
+recode
+
+Recode Support => enabled
+Revision => $Id: cde03aacd1a1218dcad9dabc2f284594a0a4aa16 $
+
 Reflection
 
 Reflection => enabled
