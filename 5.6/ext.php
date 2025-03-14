@@ -57,7 +57,6 @@ return array (
   'posix',
   'pspell',
   'readline',
-  'recode',
   'shmop',
   'SimpleXML',
   'snmp',

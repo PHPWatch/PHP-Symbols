@@ -17,7 +17,7 @@ return array (
        'name' => 'enchant',
     )),
     'removed' => NULL,
-    'version' => '8.2.27',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

@@ -17,7 +17,7 @@ return array (
        'name' => 'Core',
     )),
     'removed' => NULL,
-    'version' => '8.2.27',
+    'version' => '8.2.28',
     'resources' => 
     array (
     ),

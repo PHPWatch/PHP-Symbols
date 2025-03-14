@@ -17,7 +17,7 @@ return array (
        'name' => 'pdo_sqlite',
     )),
     'removed' => NULL,
-    'version' => '8.1.31',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 
