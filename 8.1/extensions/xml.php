@@ -17,7 +17,7 @@ return array (
        'name' => 'xml',
     )),
     'removed' => NULL,
-    'version' => '__DYNAMIC__PHP Version',
+    'version' => '8.1.32',
     'resources' => 
     array (
       0 => 

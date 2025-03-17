@@ -17,7 +17,7 @@ return array (
        'name' => 'pgsql',
     )),
     'removed' => NULL,
-    'version' => '__DYNAMIC__PHP Version',
+    'version' => '8.2.28',
     'resources' => 
     array (
       0 => 
