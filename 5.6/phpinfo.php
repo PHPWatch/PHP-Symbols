@@ -633,30 +633,6 @@ com_deamon => 0
 bytes_received_real_data_normal => 0
 bytes_received_real_data_ps => 0
 
-oci8
-
-OCI8 Support => enabled
-OCI8 DTrace Support => disabled
-OCI8 Version => 2.0.12
-Revision => $Id: 020312b6429ebb9d6272ac9bc28f6dce529434b6 $
-Oracle Run-time Client Library Version => 23.7.0.25.1
-Oracle Compile-time Instant Client Version => 23.7
-
-Directive => Local Value => Master Value
-oci8.connection_class => no value => no value
-oci8.default_prefetch => 100 => 100
-oci8.events => Off => Off
-oci8.max_persistent => -1 => -1
-oci8.old_oci_close_semantics => Off => Off
-oci8.persistent_timeout => -1 => -1
-oci8.ping_interval => 60 => 60
-oci8.privileged_connect => Off => Off
-oci8.statement_cache_size => 20 => 20
-
-Statistics =>  
-Active Persistent Connections => 0
-Active Connections => 0
-
 odbc
 
 ODBC Support => enabled
@@ -706,7 +682,7 @@ pcre.recursion_limit => 100000 => 100000
 PDO
 
 PDO support => enabled
-PDO drivers => dblib, firebird, mysql, oci, odbc, pgsql, sqlite
+PDO drivers => dblib, firebird, mysql, odbc, pgsql, sqlite
 
 pdo_dblib
 
@@ -724,10 +700,6 @@ Client API version => mysqlnd 5.0.11-dev - 20120503 - $Id: 76b08b24596e12d4553bd
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
-
-PDO_OCI
-
-PDO Driver for OCI 8 and later => enabled
 
 PDO_ODBC
 
