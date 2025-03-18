@@ -35,7 +35,7 @@ return array (
 
   - Parameters [2] {
     Parameter #0 [ <required> int $encoding ]
-    Parameter #1 [ <optional> array $options = [] ]
+    Parameter #1 [ <optional> object|array $options = [] ]
   }
   - Return [ DeflateContext|false ]
 }
