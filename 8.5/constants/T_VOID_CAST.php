@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'T_START_HEREDOC',
+  'name' => 'T_VOID_CAST',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'T_START_HEREDOC',
+    'name' => 'T_VOID_CAST',
     'description' => '',
     'keywords' => 
     array (
@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => 398,
+  'value' => 388,
   'extension' => 'tokenizer',
 );
