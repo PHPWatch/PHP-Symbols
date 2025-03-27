@@ -81,14 +81,17 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
-  'toString' => 'Class [ <internal:pcntl> class Pcntl\\QosClass implements UnitEnum ] {
+  'toString' => 'Enum [ <internal:pcntl> enum Pcntl\\QosClass implements UnitEnum ] {
 
-  - Constants [5] {
-    Constant [ public Pcntl\\QosClass UserInteractive ] { Object }
-    Constant [ public Pcntl\\QosClass UserInitiated ] { Object }
-    Constant [ public Pcntl\\QosClass Default ] { Object }
-    Constant [ public Pcntl\\QosClass Utility ] { Object }
-    Constant [ public Pcntl\\QosClass Background ] { Object }
+  - Enum cases [5] {
+    Case UserInteractive
+    Case UserInitiated
+    Case Default
+    Case Utility
+    Case Background
+  }
+
+  - Constants [0] {
   }
 
   - Static properties [0] {

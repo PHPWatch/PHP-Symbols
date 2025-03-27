@@ -143,13 +143,16 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
-  'toString' => 'Class [ <internal:dom> class Dom\\AdjacentPosition implements BackedEnum, UnitEnum ] {
+  'toString' => 'Enum [ <internal:dom> enum Dom\\AdjacentPosition: string implements BackedEnum, UnitEnum ] {
 
-  - Constants [4] {
-    Constant [ public Dom\\AdjacentPosition BeforeBegin ] { Object }
-    Constant [ public Dom\\AdjacentPosition AfterBegin ] { Object }
-    Constant [ public Dom\\AdjacentPosition BeforeEnd ] { Object }
-    Constant [ public Dom\\AdjacentPosition AfterEnd ] { Object }
+  - Enum cases [4] {
+    Case BeforeBegin = beforebegin
+    Case AfterBegin = afterbegin
+    Case BeforeEnd = beforeend
+    Case AfterEnd = afterend
+  }
+
+  - Constants [0] {
   }
 
   - Static properties [0] {

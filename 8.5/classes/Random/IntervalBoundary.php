@@ -79,13 +79,16 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
-  'toString' => 'Class [ <internal:random> class Random\\IntervalBoundary implements UnitEnum ] {
+  'toString' => 'Enum [ <internal:random> enum Random\\IntervalBoundary implements UnitEnum ] {
 
-  - Constants [4] {
-    Constant [ public Random\\IntervalBoundary ClosedOpen ] { Object }
-    Constant [ public Random\\IntervalBoundary ClosedClosed ] { Object }
-    Constant [ public Random\\IntervalBoundary OpenClosed ] { Object }
-    Constant [ public Random\\IntervalBoundary OpenOpen ] { Object }
+  - Enum cases [4] {
+    Case ClosedOpen
+    Case ClosedClosed
+    Case OpenClosed
+    Case OpenOpen
+  }
+
+  - Constants [0] {
   }
 
   - Static properties [0] {

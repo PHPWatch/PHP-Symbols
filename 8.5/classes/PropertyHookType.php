@@ -139,11 +139,14 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
-  'toString' => 'Class [ <internal:Reflection> class PropertyHookType implements BackedEnum, UnitEnum ] {
+  'toString' => 'Enum [ <internal:Reflection> enum PropertyHookType: string implements BackedEnum, UnitEnum ] {
 
-  - Constants [2] {
-    Constant [ public PropertyHookType Get ] { Object }
-    Constant [ public PropertyHookType Set ] { Object }
+  - Enum cases [2] {
+    Case Get = get
+    Case Set = set
+  }
+
+  - Constants [0] {
   }
 
   - Static properties [0] {

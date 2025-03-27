@@ -87,17 +87,20 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
-  'toString' => 'Class [ <internal:standard> class RoundingMode implements UnitEnum ] {
+  'toString' => 'Enum [ <internal:standard> enum RoundingMode implements UnitEnum ] {
 
-  - Constants [8] {
-    Constant [ public RoundingMode HalfAwayFromZero ] { Object }
-    Constant [ public RoundingMode HalfTowardsZero ] { Object }
-    Constant [ public RoundingMode HalfEven ] { Object }
-    Constant [ public RoundingMode HalfOdd ] { Object }
-    Constant [ public RoundingMode TowardsZero ] { Object }
-    Constant [ public RoundingMode AwayFromZero ] { Object }
-    Constant [ public RoundingMode NegativeInfinity ] { Object }
-    Constant [ public RoundingMode PositiveInfinity ] { Object }
+  - Enum cases [8] {
+    Case HalfAwayFromZero
+    Case HalfTowardsZero
+    Case HalfEven
+    Case HalfOdd
+    Case TowardsZero
+    Case AwayFromZero
+    Case NegativeInfinity
+    Case PositiveInfinity
+  }
+
+  - Constants [0] {
   }
 
   - Static properties [0] {
