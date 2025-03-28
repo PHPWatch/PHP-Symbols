@@ -17,7 +17,7 @@ return array (
        'name' => 'fileinfo',
     )),
     'removed' => NULL,
-    'version' => '8.3.19',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

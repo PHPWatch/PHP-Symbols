@@ -17,7 +17,7 @@ return array (
        'name' => 'pcntl',
     )),
     'removed' => NULL,
-    'version' => '7.1.33',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

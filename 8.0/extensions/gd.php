@@ -17,7 +17,7 @@ return array (
        'name' => 'gd',
     )),
     'removed' => NULL,
-    'version' => '8.0.30',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

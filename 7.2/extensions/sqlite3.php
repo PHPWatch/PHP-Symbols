@@ -17,7 +17,7 @@ return array (
        'name' => 'sqlite3',
     )),
     'removed' => NULL,
-    'version' => '7.2.34',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

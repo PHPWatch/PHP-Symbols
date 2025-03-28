@@ -17,7 +17,7 @@ return array (
        'name' => 'sockets',
     )),
     'removed' => NULL,
-    'version' => '7.4.33',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 

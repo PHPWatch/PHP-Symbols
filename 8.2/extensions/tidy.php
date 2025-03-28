@@ -17,7 +17,7 @@ return array (
        'name' => 'tidy',
     )),
     'removed' => NULL,
-    'version' => '8.2.28',
+    'version' => '__DYNAMIC__PHP Version',
     'resources' => 
     array (
       0 => 
