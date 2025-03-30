@@ -37,7 +37,7 @@ return array (
     Parameter #0 [ <required> Pgsql\\Connection $connection ]
     Parameter #1 [ <required> string $statement_name ]
   }
-  - Return [ Pgsql\\Result|false ]
+  - Return [ PgSql\\Result|false ]
 }
 ',
 );
