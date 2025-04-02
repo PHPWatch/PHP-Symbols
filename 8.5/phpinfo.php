@@ -135,7 +135,7 @@ ctype functions => enabled
 curl
 
 cURL support => enabled
-cURL Information => 8.12.1-DEV
+cURL Information => 8.13.0-DEV
 Age => 11
 Features
 AsynchDNS => Yes
@@ -722,8 +722,8 @@ Cache misses => 1
 Used memory => 9177072
 Free memory => 125040656
 Wasted memory => 0
-Interned Strings Used memory => 2601368
-Interned Strings Free memory => 5787240
+Interned Strings Used memory => 2601448
+Interned Strings Free memory => 5787160
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229

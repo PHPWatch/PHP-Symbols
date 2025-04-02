@@ -7,4 +7,5 @@ return array (
   'SensitiveParameter',
   'Override',
   'Deprecated',
+  'NoDiscard',
 );

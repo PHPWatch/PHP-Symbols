@@ -26,6 +26,7 @@ return array (
   'SensitiveParameterValue',
   'Override',
   'Deprecated',
+  'NoDiscard',
   'Fiber',
   'FiberError',
   'stdClass',
