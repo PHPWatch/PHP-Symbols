@@ -38,7 +38,7 @@ return array (
     Parameter #1 [ <required> int $option ]
     Parameter #2 [ <required> $value ]
   }
-  - Return [ bool ]
+  - Return [ true ]
 }
 ',
 );
