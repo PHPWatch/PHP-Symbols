@@ -40,7 +40,7 @@ return array (
     Parameter #3 [ <required> int $x2 ]
     Parameter #4 [ <required> int $y2 ]
   }
-  - Return [ bool ]
+  - Return [ true ]
 }
 ',
 );

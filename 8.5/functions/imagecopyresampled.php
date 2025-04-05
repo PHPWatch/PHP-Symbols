@@ -45,7 +45,7 @@ return array (
     Parameter #8 [ <required> int $src_width ]
     Parameter #9 [ <required> int $src_height ]
   }
-  - Return [ bool ]
+  - Return [ true ]
 }
 ',
 );

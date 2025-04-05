@@ -37,7 +37,7 @@ return array (
     Parameter #0 [ <required> GdImage $image ]
     Parameter #1 [ <required> int $mode ]
   }
-  - Return [ bool ]
+  - Return [ true ]
 }
 ',
 );

@@ -41,7 +41,7 @@ return array (
     Parameter #4 [ <required> int $height ]
     Parameter #5 [ <required> int $color ]
   }
-  - Return [ bool ]
+  - Return [ true ]
 }
 ',
 );

@@ -39,7 +39,7 @@ return array (
     Parameter #2 [ <required> int $y ]
     Parameter #3 [ <required> int $color ]
   }
-  - Return [ bool ]
+  - Return [ true ]
 }
 ',
 );

@@ -44,7 +44,7 @@ return array (
     Parameter #7 [ <required> int $src_height ]
     Parameter #8 [ <required> int $pct ]
   }
-  - Return [ bool ]
+  - Return [ true ]
 }
 ',
 );

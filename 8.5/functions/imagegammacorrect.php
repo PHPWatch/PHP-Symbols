@@ -38,7 +38,7 @@ return array (
     Parameter #1 [ <required> float $input_gamma ]
     Parameter #2 [ <required> float $output_gamma ]
   }
-  - Return [ bool ]
+  - Return [ true ]
 }
 ',
 );

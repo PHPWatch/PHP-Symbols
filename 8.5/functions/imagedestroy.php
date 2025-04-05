@@ -36,7 +36,7 @@ return array (
   - Parameters [1] {
     Parameter #0 [ <required> GdImage $image ]
   }
-  - Return [ bool ]
+  - Return [ true ]
 }
 ',
 );

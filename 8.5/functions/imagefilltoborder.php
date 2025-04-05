@@ -40,7 +40,7 @@ return array (
     Parameter #3 [ <required> int $border_color ]
     Parameter #4 [ <required> int $color ]
   }
-  - Return [ bool ]
+  - Return [ true ]
 }
 ',
 );

@@ -44,7 +44,7 @@ return array (
     Parameter #7 [ <required> int $color ]
     Parameter #8 [ <required> int $style ]
   }
-  - Return [ bool ]
+  - Return [ true ]
 }
 ',
 );

@@ -43,7 +43,7 @@ return array (
     Parameter #6 [ <required> int $end_angle ]
     Parameter #7 [ <required> int $color ]
   }
-  - Return [ bool ]
+  - Return [ true ]
 }
 ',
 );

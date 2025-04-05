@@ -38,7 +38,7 @@ return array (
     Parameter #1 [ <optional> ?int $resolution_x = null ]
     Parameter #2 [ <optional> ?int $resolution_y = null ]
   }
-  - Return [ array|bool ]
+  - Return [ array|true ]
 }
 ',
 );
