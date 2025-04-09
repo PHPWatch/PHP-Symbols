@@ -40,7 +40,11 @@ return array (
     'DURATION' => 7,
     'PATTERN_RULEBASED' => 9,
     'IGNORE' => 0,
+    'CURRENCY_ISO' => 10,
+    'CURRENCY_PLURAL' => 11,
     'CURRENCY_ACCOUNTING' => 12,
+    'CASH_CURRENCY' => 13,
+    'CURRENCY_STANDARD' => 16,
     'DEFAULT_STYLE' => 1,
     'ROUND_CEILING' => 0,
     'ROUND_FLOOR' => 1,
@@ -659,7 +663,7 @@ return array (
   'is_read_only' => false,
   'toString' => 'Class [ <internal:intl> class NumberFormatter ] {
 
-  - Constants [79] {
+  - Constants [83] {
     Constant [ public int PATTERN_DECIMAL ] { 0 }
     Constant [ public int DECIMAL ] { 1 }
     Constant [ public int DECIMAL_COMPACT_SHORT ] { 14 }
@@ -672,7 +676,11 @@ return array (
     Constant [ public int DURATION ] { 7 }
     Constant [ public int PATTERN_RULEBASED ] { 9 }
     Constant [ public int IGNORE ] { 0 }
+    Constant [ public int CURRENCY_ISO ] { 10 }
+    Constant [ public int CURRENCY_PLURAL ] { 11 }
     Constant [ public int CURRENCY_ACCOUNTING ] { 12 }
+    Constant [ public int CASH_CURRENCY ] { 13 }
+    Constant [ public int CURRENCY_STANDARD ] { 16 }
     Constant [ public int DEFAULT_STYLE ] { 1 }
     Constant [ public int ROUND_CEILING ] { 0 }
     Constant [ public int ROUND_FLOOR ] { 1 }
