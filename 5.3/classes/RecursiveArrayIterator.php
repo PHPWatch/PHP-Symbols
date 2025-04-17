@@ -545,6 +545,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class RecursiveArrayIterator extends ArrayIterator implements Countable, Serializable, SeekableIterator, ArrayAccess, Traversable, Iterator, RecursiveIterator ] {
 
   - Constants [1] {

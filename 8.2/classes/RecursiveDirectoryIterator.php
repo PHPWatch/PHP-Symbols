@@ -819,6 +819,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class RecursiveDirectoryIterator extends FilesystemIterator implements Stringable, SeekableIterator, Traversable, Iterator, RecursiveIterator ] {
 
   - Constants [12] {

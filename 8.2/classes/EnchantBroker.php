@@ -43,6 +43,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'enchant',
   'toString' => 'Class [ <internal:enchant> final class EnchantBroker ] {
 
   - Constants [0] {

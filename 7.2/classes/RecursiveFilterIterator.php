@@ -198,6 +198,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> abstract class RecursiveFilterIterator extends FilterIterator implements Iterator, Traversable, OuterIterator, RecursiveIterator ] {
 
   - Constants [0] {

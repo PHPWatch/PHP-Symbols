@@ -43,6 +43,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'sysvshm',
   'toString' => 'Class [ <internal:sysvshm> final class SysvSharedMemory ] {
 
   - Constants [0] {

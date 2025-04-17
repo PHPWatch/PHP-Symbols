@@ -43,6 +43,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'xml',
   'toString' => 'Class [ <internal:xml> final class XMLParser ] {
 
   - Constants [0] {

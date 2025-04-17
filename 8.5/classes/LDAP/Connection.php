@@ -43,6 +43,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'ldap',
   'toString' => 'Class [ <internal:ldap> final class LDAP\\Connection ] {
 
   - Constants [0] {

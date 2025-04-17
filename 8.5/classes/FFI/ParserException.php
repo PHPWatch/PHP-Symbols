@@ -270,6 +270,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'FFI',
   'toString' => 'Class [ <internal:FFI> final class FFI\\ParserException extends FFI\\Exception implements Stringable, Throwable ] {
 
   - Constants [0] {

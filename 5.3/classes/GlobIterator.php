@@ -748,6 +748,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class GlobIterator extends FilesystemIterator implements Iterator, Traversable, SeekableIterator, Countable ] {
 
   - Constants [11] {

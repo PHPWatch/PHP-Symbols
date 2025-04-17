@@ -818,6 +818,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> class DOMComment extends DOMCharacterData implements DOMChildNode ] {
 
   - Constants [0] {

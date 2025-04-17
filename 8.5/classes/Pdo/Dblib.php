@@ -577,6 +577,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'pdo_dblib',
   'toString' => 'Class [ <internal:pdo_dblib> class Pdo\\Dblib extends PDO ] {
 
   - Constants [88] {

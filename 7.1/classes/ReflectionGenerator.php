@@ -163,6 +163,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'Reflection',
   'toString' => 'Class [ <internal:Reflection> class ReflectionGenerator ] {
 
   - Constants [0] {

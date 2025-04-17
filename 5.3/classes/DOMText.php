@@ -962,6 +962,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> class DOMText extends DOMCharacterData ] {
 
   - Constants [0] {

@@ -221,6 +221,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'oci8',
   'toString' => 'Class [ <internal:oci8> class OCICollection ] {
 
   - Constants [0] {

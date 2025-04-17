@@ -198,6 +198,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'fileinfo',
   'toString' => 'Class [ <internal:fileinfo> class finfo ] {
 
   - Constants [0] {

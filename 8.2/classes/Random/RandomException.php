@@ -270,6 +270,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'random',
   'toString' => 'Class [ <internal:random> class Random\\RandomException extends Exception implements Throwable, Stringable ] {
 
   - Constants [0] {

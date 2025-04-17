@@ -118,6 +118,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'gmp',
   'toString' => 'Class [ <internal:gmp> final class GMP ] {
 
   - Constants [0] {

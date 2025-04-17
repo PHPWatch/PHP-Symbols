@@ -577,6 +577,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> class SplFileInfo implements Stringable ] {
 
   - Constants [0] {

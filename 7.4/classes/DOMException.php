@@ -283,6 +283,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> final class DOMException extends Exception implements Throwable ] {
 
   - Constants [0] {

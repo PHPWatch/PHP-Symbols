@@ -41,6 +41,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'PDO',
   'toString' => 'Class [ <internal:PDO> final class PDORow ] {
 
   - Constants [0] {

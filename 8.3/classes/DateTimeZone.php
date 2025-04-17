@@ -299,6 +299,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'date',
   'toString' => 'Class [ <internal:date> class DateTimeZone ] {
 
   - Constants [14] {

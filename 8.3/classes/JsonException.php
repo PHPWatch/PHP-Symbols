@@ -270,6 +270,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'json',
   'toString' => 'Class [ <internal:json> class JsonException extends Exception implements Throwable, Stringable ] {
 
   - Constants [0] {

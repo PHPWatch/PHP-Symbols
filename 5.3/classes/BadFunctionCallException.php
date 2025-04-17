@@ -266,6 +266,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> class BadFunctionCallException extends LogicException ] {
 
   - Constants [0] {

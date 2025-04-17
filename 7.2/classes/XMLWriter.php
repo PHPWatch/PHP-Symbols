@@ -1203,6 +1203,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'xmlwriter',
   'toString' => 'Class [ <internal:xmlwriter> class XMLWriter ] {
 
   - Constants [0] {

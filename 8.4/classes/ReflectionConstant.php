@@ -167,6 +167,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'Reflection',
   'toString' => 'Class [ <internal:Reflection> final class ReflectionConstant implements Stringable, Reflector ] {
 
   - Constants [0] {

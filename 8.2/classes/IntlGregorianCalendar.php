@@ -1329,6 +1329,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'intl',
   'toString' => 'Class [ <internal:intl> class IntlGregorianCalendar extends IntlCalendar ] {
 
   - Constants [39] {

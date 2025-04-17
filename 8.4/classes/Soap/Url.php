@@ -43,6 +43,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'soap',
   'toString' => 'Class [ <internal:soap> final class Soap\\Url ] {
 
   - Constants [0] {

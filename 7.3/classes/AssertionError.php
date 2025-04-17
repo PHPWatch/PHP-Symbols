@@ -283,6 +283,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'standard',
   'toString' => 'Class [ <internal:standard> class AssertionError extends Error implements Throwable ] {
 
   - Constants [0] {

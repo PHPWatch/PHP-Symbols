@@ -689,6 +689,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class DirectoryIterator extends SplFileInfo implements Stringable, SeekableIterator, Traversable, Iterator ] {
 
   - Constants [0] {

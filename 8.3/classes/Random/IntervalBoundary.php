@@ -79,6 +79,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'random',
   'toString' => 'Class [ <internal:random> class Random\\IntervalBoundary implements UnitEnum ] {
 
   - Constants [4] {

@@ -857,6 +857,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'pdo_sqlite',
   'toString' => 'Class [ <internal:pdo_sqlite> class Pdo\\Sqlite extends PDO ] {
 
   - Constants [122] {

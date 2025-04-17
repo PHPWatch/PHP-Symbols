@@ -43,6 +43,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'pspell',
   'toString' => 'Class [ <internal:pspell> final class PSpell\\Dictionary ] {
 
   - Constants [0] {

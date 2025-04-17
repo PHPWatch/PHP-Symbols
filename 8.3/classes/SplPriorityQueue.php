@@ -328,6 +328,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class SplPriorityQueue implements Iterator, Traversable, Countable ] {
 
   - Constants [3] {

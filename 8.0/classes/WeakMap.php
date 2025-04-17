@@ -186,6 +186,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'Core',
   'toString' => 'Class [ <internal:Core> <iterateable> final class WeakMap implements ArrayAccess, Countable, IteratorAggregate, Traversable ] {
 
   - Constants [0] {

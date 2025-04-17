@@ -43,6 +43,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'sysvsem',
   'toString' => 'Class [ <internal:sysvsem> final class SysvSemaphore ] {
 
   - Constants [0] {

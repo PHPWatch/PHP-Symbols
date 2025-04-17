@@ -105,6 +105,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'Core',
   'toString' => 'Class [ <internal:Core> final class Deprecated ] {
 
   - Constants [0] {

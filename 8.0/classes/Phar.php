@@ -2252,6 +2252,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'Phar',
   'toString' => 'Class [ <internal:Phar> <iterateable> class Phar extends RecursiveDirectoryIterator implements RecursiveIterator, SeekableIterator, Traversable, Iterator, Stringable, Countable, ArrayAccess ] {
 
   - Constants [26] {

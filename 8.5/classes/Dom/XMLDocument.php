@@ -2005,6 +2005,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> final class Dom\\XMLDocument extends Dom\\Document implements Dom\\ParentNode ] {
 
   - Constants [6] {

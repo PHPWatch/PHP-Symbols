@@ -119,6 +119,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'mysqli',
   'toString' => 'Class [ <internal:mysqli> final class mysqli_driver ] {
 
   - Constants [0] {

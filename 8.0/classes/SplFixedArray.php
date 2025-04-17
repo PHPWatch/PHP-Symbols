@@ -314,6 +314,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class SplFixedArray implements IteratorAggregate, Traversable, ArrayAccess, Countable ] {
 
   - Constants [0] {

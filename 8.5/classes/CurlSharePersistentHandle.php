@@ -56,6 +56,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'curl',
   'toString' => 'Class [ <internal:curl> final class CurlSharePersistentHandle ] {
 
   - Constants [0] {

@@ -328,6 +328,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'tidy',
   'toString' => 'Class [ <internal:tidy> final class tidyNode ] {
 
   - Constants [0] {

@@ -257,6 +257,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'tokenizer',
   'toString' => 'Class [ <internal:tokenizer> class PhpToken implements Stringable ] {
 
   - Constants [0] {

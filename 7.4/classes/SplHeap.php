@@ -253,6 +253,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> abstract class SplHeap implements Iterator, Traversable, Countable ] {
 
   - Constants [0] {

@@ -43,6 +43,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'imap',
   'toString' => 'Class [ <internal:imap> final class IMAP\\Connection ] {
 
   - Constants [0] {

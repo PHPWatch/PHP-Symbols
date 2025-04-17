@@ -800,6 +800,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'Phar',
   'toString' => 'Class [ <internal:Phar> class PharFileInfo extends SplFileInfo ] {
 
   - Constants [0] {

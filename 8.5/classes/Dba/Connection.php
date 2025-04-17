@@ -43,6 +43,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'dba',
   'toString' => 'Class [ <internal:dba> final class Dba\\Connection ] {
 
   - Constants [0] {

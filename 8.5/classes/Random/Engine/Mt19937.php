@@ -147,6 +147,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'random',
   'toString' => 'Class [ <internal:random> final class Random\\Engine\\Mt19937 implements Random\\Engine ] {
 
   - Constants [0] {

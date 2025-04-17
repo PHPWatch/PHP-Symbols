@@ -43,6 +43,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'gd',
   'toString' => 'Class [ <internal:gd> final class GdFont ] {
 
   - Constants [0] {

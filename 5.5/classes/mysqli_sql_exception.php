@@ -295,6 +295,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'mysqli',
   'toString' => 'Class [ <internal:mysqli> class mysqli_sql_exception extends RuntimeException ] {
 
   - Constants [0] {

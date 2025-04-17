@@ -349,6 +349,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'Reflection',
   'toString' => 'Class [ <internal:Reflection> abstract class ReflectionFunctionAbstract implements Reflector ] {
 
   - Constants [0] {

@@ -43,6 +43,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'ftp',
   'toString' => 'Class [ <internal:ftp> final class FTP\\Connection ] {
 
   - Constants [0] {

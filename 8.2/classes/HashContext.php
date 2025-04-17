@@ -96,6 +96,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'hash',
   'toString' => 'Class [ <internal:hash> final class HashContext ] {
 
   - Constants [0] {

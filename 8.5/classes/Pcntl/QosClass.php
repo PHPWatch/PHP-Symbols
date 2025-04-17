@@ -81,6 +81,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'pcntl',
   'toString' => 'Enum [ <internal:pcntl> enum Pcntl\\QosClass implements UnitEnum ] {
 
   - Enum cases [5] {

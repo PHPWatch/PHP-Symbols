@@ -363,6 +363,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'soap',
   'toString' => 'Class [ <internal:soap> class SoapFault extends Exception implements Throwable ] {
 
   - Constants [0] {

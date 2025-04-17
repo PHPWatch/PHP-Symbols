@@ -1126,6 +1126,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> class Dom\\ProcessingInstruction extends Dom\\CharacterData implements Dom\\ChildNode ] {
 
   - Constants [6] {

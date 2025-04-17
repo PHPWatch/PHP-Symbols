@@ -210,6 +210,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> class DOMXPath ] {
 
   - Constants [0] {

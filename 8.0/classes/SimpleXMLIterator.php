@@ -595,6 +595,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'SimpleXML',
   'toString' => 'Class [ <internal:SimpleXML> <iterateable> class SimpleXMLIterator extends SimpleXMLElement implements Iterator, Traversable, RecursiveIterator, Countable, Stringable ] {
 
   - Constants [0] {

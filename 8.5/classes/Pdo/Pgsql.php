@@ -1044,6 +1044,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'pdo_pgsql',
   'toString' => 'Class [ <internal:pdo_pgsql> class Pdo\\Pgsql extends PDO ] {
 
   - Constants [115] {

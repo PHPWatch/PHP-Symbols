@@ -393,6 +393,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class RecursiveRegexIterator extends RegexIterator implements Iterator, Traversable, OuterIterator, RecursiveIterator ] {
 
   - Constants [7] {

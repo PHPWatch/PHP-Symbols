@@ -146,6 +146,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'intl',
   'toString' => 'Class [ <internal:intl> <iterateable> class IntlPartsIterator extends IntlIterator implements Traversable, Iterator ] {
 
   - Constants [3] {

@@ -311,6 +311,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> <iterateable> final class Dom\\TokenList implements IteratorAggregate, Traversable, Countable ] {
 
   - Constants [0] {

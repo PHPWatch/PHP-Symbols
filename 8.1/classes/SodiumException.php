@@ -270,6 +270,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'sodium',
   'toString' => 'Class [ <internal:sodium> class SodiumException extends Exception implements Throwable, Stringable ] {
 
   - Constants [0] {

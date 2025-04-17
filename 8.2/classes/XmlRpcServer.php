@@ -43,6 +43,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'xmlrpc',
   'toString' => 'Class [ <internal:xmlrpc> final class XmlRpcServer ] {
 
   - Constants [0] {

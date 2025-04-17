@@ -220,6 +220,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'session',
   'toString' => 'Class [ <internal:session> class SessionHandler implements SessionHandlerInterface, SessionIdInterface ] {
 
   - Constants [0] {

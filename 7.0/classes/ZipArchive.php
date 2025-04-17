@@ -1439,6 +1439,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'zip',
   'toString' => 'Class [ <internal:zip> class ZipArchive ] {
 
   - Constants [75] {

@@ -489,6 +489,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'intl',
   'toString' => 'Class [ <internal:intl> <iterateable> class IntlBreakIterator implements Traversable ] {
 
   - Constants [19] {

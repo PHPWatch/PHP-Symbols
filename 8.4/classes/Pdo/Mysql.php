@@ -616,6 +616,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'pdo_mysql',
   'toString' => 'Class [ <internal:pdo_mysql> class Pdo\\Mysql extends PDO ] {
 
   - Constants [113] {

@@ -325,6 +325,7 @@ return array (
   'is_cloneable' => false,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'Core',
   'toString' => 'Class [ <internal:Core> class Error implements Stringable, Throwable ] {
 
   - Constants [0] {

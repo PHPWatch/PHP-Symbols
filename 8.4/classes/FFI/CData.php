@@ -43,6 +43,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'FFI',
   'toString' => 'Class [ <internal:FFI> <iterateable> final class FFI\\CData ] {
 
   - Constants [0] {

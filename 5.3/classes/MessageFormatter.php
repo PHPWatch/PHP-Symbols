@@ -338,6 +338,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'intl',
   'toString' => 'Class [ <internal:intl> class MessageFormatter ] {
 
   - Constants [0] {

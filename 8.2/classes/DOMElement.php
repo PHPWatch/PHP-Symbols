@@ -1620,6 +1620,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> class DOMElement extends DOMNode implements DOMParentNode, DOMChildNode ] {
 
   - Constants [0] {

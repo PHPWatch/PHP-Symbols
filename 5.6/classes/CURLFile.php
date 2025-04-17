@@ -235,6 +235,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'curl',
   'toString' => 'Class [ <internal:curl> class CURLFile ] {
 
   - Constants [0] {

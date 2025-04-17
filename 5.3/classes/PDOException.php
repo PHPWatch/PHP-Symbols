@@ -279,6 +279,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'PDO',
   'toString' => 'Class [ <internal:PDO> class PDOException extends RuntimeException ] {
 
   - Constants [0] {

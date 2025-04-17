@@ -118,6 +118,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'date',
   'toString' => 'Class [ <internal:date> <iterateable> class DatePeriod implements Traversable ] {
 
   - Constants [1] {

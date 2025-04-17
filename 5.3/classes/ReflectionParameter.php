@@ -320,6 +320,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'Reflection',
   'toString' => 'Class [ <internal:Reflection> class ReflectionParameter implements Reflector ] {
 
   - Constants [0] {

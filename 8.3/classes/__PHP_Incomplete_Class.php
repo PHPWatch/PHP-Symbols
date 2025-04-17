@@ -38,6 +38,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => true,
   'is_read_only' => false,
+  'extension' => 'standard',
   'toString' => 'Class [ <internal:standard> final class __PHP_Incomplete_Class ] {
 
   - Constants [0] {

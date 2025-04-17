@@ -517,6 +517,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class ArrayIterator implements Iterator, Traversable, ArrayAccess, SeekableIterator, Serializable, Countable ] {
 
   - Constants [2] {

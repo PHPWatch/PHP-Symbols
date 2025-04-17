@@ -981,6 +981,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> class Dom\\DocumentFragment extends Dom\\Node implements Dom\\ParentNode ] {
 
   - Constants [6] {

@@ -172,6 +172,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'sqlite3',
   'toString' => 'Class [ <internal:sqlite3> class SQLite3Result ] {
 
   - Constants [0] {

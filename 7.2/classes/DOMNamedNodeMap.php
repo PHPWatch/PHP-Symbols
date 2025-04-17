@@ -256,6 +256,7 @@ return array (
   'is_cloneable' => true,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> <iterateable> class DOMNamedNodeMap implements Traversable, Countable ] {
 
   - Constants [0] {

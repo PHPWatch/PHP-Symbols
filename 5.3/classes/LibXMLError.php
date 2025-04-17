@@ -41,6 +41,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'libxml',
   'toString' => 'Class [ <internal:libxml> class LibXMLError ] {
 
   - Constants [0] {

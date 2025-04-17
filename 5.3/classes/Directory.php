@@ -116,6 +116,7 @@ return array (
   'is_cloneable' => NULL,
   'is_final' => false,
   'is_read_only' => false,
+  'extension' => 'standard',
   'toString' => 'Class [ <internal:standard> class Directory ] {
 
   - Constants [0] {
