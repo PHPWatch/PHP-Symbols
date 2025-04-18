@@ -150,6 +150,9 @@ return array (
     'ATTR_OPEN_FLAGS' => 1000,
     'ATTR_READONLY_STATEMENT' => 1001,
     'ATTR_EXTENDED_RESULT_CODES' => 1002,
+    'OK' => 0,
+    'DENY' => 1,
+    'IGNORE' => 2,
   ),
   'properties' => 
   array (
@@ -397,6 +400,31 @@ return array (
       ),
       'return_type' => NULL,
       'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setAuthorizer' => 
+    array (
+      'name' => 'setAuthorizer',
+      'class' => 'Pdo\\Sqlite',
+      'parameters' => 
+      array (
+        'callback' => 
+        array (
+          'position' => 0,
+          'name' => 'callback',
+          'type' => '?callable',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'default_value' => NULL,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -860,7 +888,7 @@ return array (
   'extension' => 'pdo_sqlite',
   'toString' => 'Class [ <internal:pdo_sqlite> class Pdo\\Sqlite extends PDO ] {
 
-  - Constants [122] {
+  - Constants [125] {
     Constant [ public int PARAM_NULL ] { 0 }
     Constant [ public int PARAM_BOOL ] { 5 }
     Constant [ public int PARAM_INT ] { 1 }
@@ -983,6 +1011,9 @@ return array (
     Constant [ public int ATTR_OPEN_FLAGS ] { 1000 }
     Constant [ public int ATTR_READONLY_STATEMENT ] { 1001 }
     Constant [ public int ATTR_EXTENDED_RESULT_CODES ] { 1002 }
+    Constant [ public int OK ] { 0 }
+    Constant [ public int DENY ] { 1 }
+    Constant [ public int IGNORE ] { 2 }
   }
 
   - Static properties [0] {
@@ -1011,7 +1042,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [19] {
+  - Methods [20] {
     Method [ <internal:pdo_sqlite> public method createAggregate ] {
 
       - Parameters [4] {
@@ -1060,6 +1091,14 @@ return array (
         Parameter #3 [ <optional> ?string $dbname = "main" ]
         Parameter #4 [ <optional> int $flags = Pdo\\Sqlite::OPEN_READONLY ]
       }
+    }
+
+    Method [ <internal:pdo_sqlite> public method setAuthorizer ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?callable $callback ]
+      }
+      - Return [ void ]
     }
 
     Method [ <internal:PDO, inherits PDO, ctor> public method __construct ] {
