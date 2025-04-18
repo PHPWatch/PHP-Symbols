@@ -23,19 +23,21 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'ArrayAccess',
     1 => 'Countable',
     2 => 'Traversable',
     3 => 'Iterator',
-  ),
-  'constants' => 
-  array (
-    'IT_MODE_LIFO' => 2,
-    'IT_MODE_FIFO' => 0,
-    'IT_MODE_DELETE' => 1,
-    'IT_MODE_KEEP' => 0,
   ),
   'properties' => 
   array (

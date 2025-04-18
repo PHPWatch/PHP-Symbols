@@ -23,26 +23,21 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Iterator',
     1 => 'Traversable',
     2 => 'SeekableIterator',
     3 => 'Countable',
-  ),
-  'constants' => 
-  array (
-    'CURRENT_MODE_MASK' => 240,
-    'CURRENT_AS_PATHNAME' => 32,
-    'CURRENT_AS_FILEINFO' => 0,
-    'CURRENT_AS_SELF' => 16,
-    'KEY_MODE_MASK' => 3840,
-    'KEY_AS_PATHNAME' => 0,
-    'FOLLOW_SYMLINKS' => 512,
-    'KEY_AS_FILENAME' => 256,
-    'NEW_CURRENT_AND_KEY' => 256,
-    'SKIP_DOTS' => 4096,
-    'UNIX_PATHS' => 8192,
   ),
   'properties' => 
   array (

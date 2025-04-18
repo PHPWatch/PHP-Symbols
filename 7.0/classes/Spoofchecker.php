@@ -23,18 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
   array (
-    'SINGLE_SCRIPT_CONFUSABLE' => 1,
-    'MIXED_SCRIPT_CONFUSABLE' => 2,
-    'WHOLE_SCRIPT_CONFUSABLE' => 4,
-    'ANY_CASE' => 8,
-    'SINGLE_SCRIPT' => 16,
-    'INVISIBLE' => 32,
-    'CHAR_LIMIT' => 64,
+  ),
+  'interfaces' => 
+  array (
   ),
   'properties' => 
   array (

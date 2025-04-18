@@ -23,10 +23,16 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 32,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => 'IMAP',
+  'staticProperties' => 
+  array (
+  ),
+  'interfaces' => 
   array (
   ),
   'properties' => 

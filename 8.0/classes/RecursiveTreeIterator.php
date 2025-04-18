@@ -23,26 +23,20 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'OuterIterator',
     1 => 'Traversable',
     2 => 'Iterator',
-  ),
-  'constants' => 
-  array (
-    'LEAVES_ONLY' => 0,
-    'SELF_FIRST' => 1,
-    'CHILD_FIRST' => 2,
-    'CATCH_GET_CHILD' => 16,
-    'BYPASS_CURRENT' => 4,
-    'BYPASS_KEY' => 8,
-    'PREFIX_LEFT' => 0,
-    'PREFIX_MID_HAS_NEXT' => 1,
-    'PREFIX_MID_LAST' => 2,
-    'PREFIX_END_HAS_NEXT' => 3,
-    'PREFIX_END_LAST' => 4,
-    'PREFIX_RIGHT' => 5,
   ),
   'properties' => 
   array (

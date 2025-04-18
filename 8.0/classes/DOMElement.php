@@ -23,13 +23,19 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'DOMParentNode',
     1 => 'DOMChildNode',
-  ),
-  'constants' => 
-  array (
   ),
   'properties' => 
   array (

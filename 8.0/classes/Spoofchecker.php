@@ -23,24 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
   array (
-    'SINGLE_SCRIPT_CONFUSABLE' => 1,
-    'MIXED_SCRIPT_CONFUSABLE' => 2,
-    'WHOLE_SCRIPT_CONFUSABLE' => 4,
-    'ANY_CASE' => 8,
-    'SINGLE_SCRIPT' => 16,
-    'INVISIBLE' => 32,
-    'CHAR_LIMIT' => 64,
-    'ASCII' => 268435456,
-    'HIGHLY_RESTRICTIVE' => 805306368,
-    'MODERATELY_RESTRICTIVE' => 1073741824,
-    'MINIMALLY_RESTRICTIVE' => 1342177280,
-    'UNRESTRICTIVE' => 1610612736,
-    'SINGLE_SCRIPT_RESTRICTIVE' => 536870912,
+  ),
+  'interfaces' => 
+  array (
   ),
   'properties' => 
   array (

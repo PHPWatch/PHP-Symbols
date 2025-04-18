@@ -23,12 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
   array (
-    'IS_INSTANCEOF' => 2,
+  ),
+  'interfaces' => 
+  array (
   ),
   'properties' => 
   array (

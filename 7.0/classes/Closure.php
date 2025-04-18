@@ -23,10 +23,16 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 4,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
+  'interfaces' => 
   array (
   ),
   'properties' => 

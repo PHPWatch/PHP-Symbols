@@ -23,10 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 32,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'bucket' => NULL,
+  ),
+  'namespace' => '',
+  'staticProperties' => 
   array (
   ),
-  'constants' => 
+  'interfaces' => 
   array (
   ),
   'properties' => 

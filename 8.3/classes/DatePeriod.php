@@ -23,15 +23,19 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'IteratorAggregate',
     1 => 'Traversable',
-  ),
-  'constants' => 
-  array (
-    'EXCLUDE_START_DATE' => 1,
-    'INCLUDE_END_DATE' => 2,
   ),
   'properties' => 
   array (

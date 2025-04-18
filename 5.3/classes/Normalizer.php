@@ -23,20 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
   array (
-    'NONE' => 1,
-    'FORM_D' => 2,
-    'NFD' => 2,
-    'FORM_KD' => 3,
-    'NFKD' => 3,
-    'FORM_C' => 4,
-    'NFC' => 4,
-    'FORM_KC' => 5,
-    'NFKC' => 5,
+  ),
+  'interfaces' => 
+  array (
   ),
   'properties' => 
   array (

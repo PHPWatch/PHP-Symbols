@@ -23,10 +23,26 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'affected_rows' => NULL,
+    'insert_id' => NULL,
+    'num_rows' => NULL,
+    'param_count' => NULL,
+    'field_count' => NULL,
+    'errno' => NULL,
+    'error' => NULL,
+    'error_list' => NULL,
+    'sqlstate' => NULL,
+    'id' => NULL,
+  ),
+  'namespace' => '',
+  'staticProperties' => 
   array (
   ),
-  'constants' => 
+  'interfaces' => 
   array (
   ),
   'properties' => 

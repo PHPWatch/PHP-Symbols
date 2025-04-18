@@ -23,13 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
   array (
-    'FORWARD' => 0,
-    'REVERSE' => 1,
+  ),
+  'interfaces' => 
+  array (
   ),
   'properties' => 
   array (

@@ -23,14 +23,20 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 64,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Iterator',
     1 => 'Traversable',
     2 => 'Countable',
-  ),
-  'constants' => 
-  array (
   ),
   'properties' => 
   array (

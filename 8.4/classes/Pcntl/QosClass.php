@@ -23,22 +23,18 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => 'Pcntl',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'UnitEnum',
-  ),
-  'constants' => 
-  array (
-    'UserInteractive' => 
-    \Pcntl\QosClass::UserInteractive,
-    'UserInitiated' => 
-    \Pcntl\QosClass::UserInitiated,
-    'Default' => 
-    \Pcntl\QosClass::Default,
-    'Utility' => 
-    \Pcntl\QosClass::Utility,
-    'Background' => 
-    \Pcntl\QosClass::Background,
   ),
   'properties' => 
   array (

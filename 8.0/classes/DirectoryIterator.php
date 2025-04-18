@@ -23,15 +23,21 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Stringable',
     1 => 'Iterator',
     2 => 'Traversable',
     3 => 'SeekableIterator',
-  ),
-  'constants' => 
-  array (
   ),
   'properties' => 
   array (

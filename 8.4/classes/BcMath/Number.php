@@ -23,12 +23,18 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 65568,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => 'BcMath',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Stringable',
-  ),
-  'constants' => 
-  array (
   ),
   'properties' => 
   array (

@@ -23,17 +23,19 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Iterator',
     1 => 'Traversable',
-  ),
-  'constants' => 
-  array (
-    'MIT_NEED_ANY' => 0,
-    'MIT_NEED_ALL' => 1,
-    'MIT_KEYS_NUMERIC' => 0,
-    'MIT_KEYS_ASSOC' => 2,
   ),
   'properties' => 
   array (

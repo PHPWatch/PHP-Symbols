@@ -23,10 +23,18 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'doXInclude' => false,
+    'cloneDocument' => false,
+  ),
+  'namespace' => '',
+  'staticProperties' => 
   array (
   ),
-  'constants' => 
+  'interfaces' => 
   array (
   ),
   'properties' => 

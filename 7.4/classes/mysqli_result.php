@@ -23,12 +23,23 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'current_field' => NULL,
+    'field_count' => NULL,
+    'lengths' => NULL,
+    'num_rows' => NULL,
+    'type' => NULL,
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Traversable',
-  ),
-  'constants' => 
-  array (
   ),
   'properties' => 
   array (

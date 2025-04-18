@@ -23,10 +23,16 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => 'Odbc',
+  'staticProperties' => 
+  array (
+  ),
+  'interfaces' => 
   array (
   ),
   'properties' => 

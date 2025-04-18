@@ -23,12 +23,19 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 1048576,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'name' => '',
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Reflector',
-  ),
-  'constants' => 
-  array (
   ),
   'properties' => 
   array (

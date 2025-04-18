@@ -23,33 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
   array (
-    'NONE' => 0,
-    'ELEMENT' => 1,
-    'ATTRIBUTE' => 2,
-    'TEXT' => 3,
-    'CDATA' => 4,
-    'ENTITY_REF' => 5,
-    'ENTITY' => 6,
-    'PI' => 7,
-    'COMMENT' => 8,
-    'DOC' => 9,
-    'DOC_TYPE' => 10,
-    'DOC_FRAGMENT' => 11,
-    'NOTATION' => 12,
-    'WHITESPACE' => 13,
-    'SIGNIFICANT_WHITESPACE' => 14,
-    'END_ELEMENT' => 15,
-    'END_ENTITY' => 16,
-    'XML_DECLARATION' => 17,
-    'LOADDTD' => 1,
-    'DEFAULTATTRS' => 2,
-    'VALIDATE' => 3,
-    'SUBST_ENTITIES' => 4,
+  ),
+  'interfaces' => 
+  array (
   ),
   'properties' => 
   array (

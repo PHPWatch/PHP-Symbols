@@ -23,6 +23,15 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Countable',
@@ -32,10 +41,6 @@ return array (
     4 => 'Traversable',
     5 => 'Iterator',
     6 => 'RecursiveIterator',
-  ),
-  'constants' => 
-  array (
-    'CHILD_ARRAYS_ONLY' => 4,
   ),
   'properties' => 
   array (

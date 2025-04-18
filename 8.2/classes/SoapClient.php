@@ -23,10 +23,53 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'uri' => NULL,
+    'style' => NULL,
+    'use' => NULL,
+    'location' => NULL,
+    'trace' => false,
+    'compression' => NULL,
+    'sdl' => NULL,
+    'typemap' => NULL,
+    'httpsocket' => NULL,
+    'httpurl' => NULL,
+    '_login' => NULL,
+    '_password' => NULL,
+    '_use_digest' => false,
+    '_digest' => NULL,
+    '_proxy_host' => NULL,
+    '_proxy_port' => NULL,
+    '_proxy_login' => NULL,
+    '_proxy_password' => NULL,
+    '_exceptions' => true,
+    '_encoding' => NULL,
+    '_classmap' => NULL,
+    '_features' => NULL,
+    '_connection_timeout' => 0,
+    '_stream_context' => NULL,
+    '_user_agent' => NULL,
+    '_keep_alive' => true,
+    '_ssl_method' => NULL,
+    '_use_proxy' => NULL,
+    '_cookies' => 
+    array (
+    ),
+    '__default_headers' => NULL,
+    '__soap_fault' => NULL,
+    '__last_request' => NULL,
+    '__last_response' => NULL,
+    '__last_request_headers' => NULL,
+    '__last_response_headers' => NULL,
+  ),
+  'namespace' => '',
+  'staticProperties' => 
   array (
   ),
-  'constants' => 
+  'interfaces' => 
   array (
   ),
   'properties' => 

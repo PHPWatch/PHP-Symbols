@@ -23,20 +23,21 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'replacement' => NULL,
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Iterator',
     1 => 'Traversable',
     2 => 'OuterIterator',
-  ),
-  'constants' => 
-  array (
-    'USE_KEY' => 1,
-    'MATCH' => 0,
-    'GET_MATCH' => 1,
-    'ALL_MATCHES' => 2,
-    'SPLIT' => 3,
-    'REPLACE' => 4,
   ),
   'properties' => 
   array (

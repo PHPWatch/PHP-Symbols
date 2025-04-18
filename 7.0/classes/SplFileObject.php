@@ -23,19 +23,21 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'RecursiveIterator',
     1 => 'Traversable',
     2 => 'Iterator',
     3 => 'SeekableIterator',
-  ),
-  'constants' => 
-  array (
-    'DROP_NEW_LINE' => 1,
-    'READ_AHEAD' => 2,
-    'SKIP_EMPTY' => 4,
-    'READ_CSV' => 8,
   ),
   'properties' => 
   array (

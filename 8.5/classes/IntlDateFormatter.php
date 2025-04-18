@@ -23,23 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
   array (
-    'FULL' => 0,
-    'LONG' => 1,
-    'MEDIUM' => 2,
-    'SHORT' => 3,
-    'NONE' => -1,
-    'RELATIVE_FULL' => 128,
-    'RELATIVE_LONG' => 129,
-    'RELATIVE_MEDIUM' => 130,
-    'RELATIVE_SHORT' => 131,
-    'PATTERN' => -2,
-    'GREGORIAN' => 1,
-    'TRADITIONAL' => 0,
+  ),
+  'interfaces' => 
+  array (
   ),
   'properties' => 
   array (

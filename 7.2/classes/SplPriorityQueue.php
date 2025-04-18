@@ -23,17 +23,20 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Iterator',
     1 => 'Traversable',
     2 => 'Countable',
-  ),
-  'constants' => 
-  array (
-    'EXTR_BOTH' => 3,
-    'EXTR_PRIORITY' => 2,
-    'EXTR_DATA' => 1,
   ),
   'properties' => 
   array (

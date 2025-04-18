@@ -23,6 +23,15 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'OuterIterator',
@@ -30,15 +39,6 @@ return array (
     2 => 'Iterator',
     3 => 'ArrayAccess',
     4 => 'Countable',
-  ),
-  'constants' => 
-  array (
-    'CALL_TOSTRING' => 1,
-    'CATCH_GET_CHILD' => 16,
-    'TOSTRING_USE_KEY' => 2,
-    'TOSTRING_USE_CURRENT' => 4,
-    'TOSTRING_USE_INNER' => 8,
-    'FULL_CACHE' => 256,
   ),
   'properties' => 
   array (

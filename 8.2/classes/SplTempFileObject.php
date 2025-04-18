@@ -23,6 +23,15 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'SeekableIterator',
@@ -30,13 +39,6 @@ return array (
     2 => 'Traversable',
     3 => 'RecursiveIterator',
     4 => 'Stringable',
-  ),
-  'constants' => 
-  array (
-    'DROP_NEW_LINE' => 1,
-    'READ_AHEAD' => 2,
-    'SKIP_EMPTY' => 4,
-    'READ_CSV' => 8,
   ),
   'properties' => 
   array (

@@ -23,12 +23,23 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 32,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'message' => '',
+    'file' => NULL,
+    'line' => NULL,
+    'code' => 0,
+    'sqlstate' => '00000',
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Throwable',
-  ),
-  'constants' => 
-  array (
   ),
   'properties' => 
   array (

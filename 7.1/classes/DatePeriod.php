@@ -23,13 +23,18 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Traversable',
-  ),
-  'constants' => 
-  array (
-    'EXCLUDE_START_DATE' => 1,
   ),
   'properties' => 
   array (

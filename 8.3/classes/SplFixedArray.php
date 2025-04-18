@@ -23,6 +23,15 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'IteratorAggregate',
@@ -30,9 +39,6 @@ return array (
     2 => 'ArrayAccess',
     3 => 'Countable',
     4 => 'JsonSerializable',
-  ),
-  'constants' => 
-  array (
   ),
   'properties' => 
   array (

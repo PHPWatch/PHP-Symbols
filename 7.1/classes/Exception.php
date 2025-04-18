@@ -23,12 +23,25 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'message' => '',
+    'string' => '',
+    'code' => 0,
+    'file' => NULL,
+    'line' => NULL,
+    'trace' => NULL,
+    'previous' => NULL,
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Throwable',
-  ),
-  'constants' => 
-  array (
   ),
   'properties' => 
   array (

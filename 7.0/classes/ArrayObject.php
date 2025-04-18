@@ -23,6 +23,15 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'IteratorAggregate',
@@ -30,11 +39,6 @@ return array (
     2 => 'ArrayAccess',
     3 => 'Serializable',
     4 => 'Countable',
-  ),
-  'constants' => 
-  array (
-    'STD_PROP_LIST' => 1,
-    'ARRAY_AS_PROPS' => 2,
   ),
   'properties' => 
   array (

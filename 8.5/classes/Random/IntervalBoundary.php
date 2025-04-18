@@ -23,20 +23,18 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => 'Random',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'UnitEnum',
-  ),
-  'constants' => 
-  array (
-    'ClosedOpen' => 
-    \Random\IntervalBoundary::ClosedOpen,
-    'ClosedClosed' => 
-    \Random\IntervalBoundary::ClosedClosed,
-    'OpenClosed' => 
-    \Random\IntervalBoundary::OpenClosed,
-    'OpenOpen' => 
-    \Random\IntervalBoundary::OpenOpen,
   ),
   'properties' => 
   array (

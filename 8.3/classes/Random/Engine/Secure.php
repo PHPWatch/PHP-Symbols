@@ -23,13 +23,19 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 32,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => 'Random\\Engine',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Random\\CryptoSafeEngine',
     1 => 'Random\\Engine',
-  ),
-  'constants' => 
-  array (
   ),
   'properties' => 
   array (

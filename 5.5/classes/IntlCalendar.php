@@ -23,50 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
   array (
-    'FIELD_ERA' => 0,
-    'FIELD_YEAR' => 1,
-    'FIELD_MONTH' => 2,
-    'FIELD_WEEK_OF_YEAR' => 3,
-    'FIELD_WEEK_OF_MONTH' => 4,
-    'FIELD_DATE' => 5,
-    'FIELD_DAY_OF_YEAR' => 6,
-    'FIELD_DAY_OF_WEEK' => 7,
-    'FIELD_DAY_OF_WEEK_IN_MONTH' => 8,
-    'FIELD_AM_PM' => 9,
-    'FIELD_HOUR' => 10,
-    'FIELD_HOUR_OF_DAY' => 11,
-    'FIELD_MINUTE' => 12,
-    'FIELD_SECOND' => 13,
-    'FIELD_MILLISECOND' => 14,
-    'FIELD_ZONE_OFFSET' => 15,
-    'FIELD_DST_OFFSET' => 16,
-    'FIELD_YEAR_WOY' => 17,
-    'FIELD_DOW_LOCAL' => 18,
-    'FIELD_EXTENDED_YEAR' => 19,
-    'FIELD_JULIAN_DAY' => 20,
-    'FIELD_MILLISECONDS_IN_DAY' => 21,
-    'FIELD_IS_LEAP_MONTH' => 22,
-    'FIELD_FIELD_COUNT' => 23,
-    'FIELD_DAY_OF_MONTH' => 5,
-    'DOW_SUNDAY' => 1,
-    'DOW_MONDAY' => 2,
-    'DOW_TUESDAY' => 3,
-    'DOW_WEDNESDAY' => 4,
-    'DOW_THURSDAY' => 5,
-    'DOW_FRIDAY' => 6,
-    'DOW_SATURDAY' => 7,
-    'DOW_TYPE_WEEKDAY' => 0,
-    'DOW_TYPE_WEEKEND' => 1,
-    'DOW_TYPE_WEEKEND_OFFSET' => 2,
-    'DOW_TYPE_WEEKEND_CEASE' => 3,
-    'WALLTIME_FIRST' => 1,
-    'WALLTIME_LAST' => 0,
-    'WALLTIME_NEXT_VALID' => 2,
+  ),
+  'interfaces' => 
+  array (
   ),
   'properties' => 
   array (

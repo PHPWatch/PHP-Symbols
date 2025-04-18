@@ -23,10 +23,21 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 4,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'message' => '',
+    'file' => NULL,
+    'line' => NULL,
+    'code' => 0,
+    'sqlstate' => '00000',
+  ),
+  'namespace' => '',
+  'staticProperties' => 
   array (
   ),
-  'constants' => 
+  'interfaces' => 
   array (
   ),
   'properties' => 

@@ -23,22 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
   array (
-    'DISPLAY_SHORT' => 1,
-    'DISPLAY_LONG' => 2,
-    'DISPLAY_SHORT_GENERIC' => 3,
-    'DISPLAY_LONG_GENERIC' => 4,
-    'DISPLAY_SHORT_GMT' => 5,
-    'DISPLAY_LONG_GMT' => 6,
-    'DISPLAY_SHORT_COMMONLY_USED' => 7,
-    'DISPLAY_GENERIC_LOCATION' => 8,
-    'TYPE_ANY' => 0,
-    'TYPE_CANONICAL' => 1,
-    'TYPE_CANONICAL_LOCATION' => 2,
+  ),
+  'interfaces' => 
+  array (
   ),
   'properties' => 
   array (

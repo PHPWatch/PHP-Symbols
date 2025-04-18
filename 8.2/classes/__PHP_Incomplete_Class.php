@@ -18,10 +18,16 @@ return array (
     array (
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 32,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
+  'interfaces' => 
   array (
   ),
   'properties' => 

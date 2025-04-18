@@ -23,28 +23,18 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'UnitEnum',
-  ),
-  'constants' => 
-  array (
-    'HalfAwayFromZero' => 
-    \RoundingMode::HalfAwayFromZero,
-    'HalfTowardsZero' => 
-    \RoundingMode::HalfTowardsZero,
-    'HalfEven' => 
-    \RoundingMode::HalfEven,
-    'HalfOdd' => 
-    \RoundingMode::HalfOdd,
-    'TowardsZero' => 
-    \RoundingMode::TowardsZero,
-    'AwayFromZero' => 
-    \RoundingMode::AwayFromZero,
-    'NegativeInfinity' => 
-    \RoundingMode::NegativeInfinity,
-    'PositiveInfinity' => 
-    \RoundingMode::PositiveInfinity,
   ),
   'properties' => 
   array (

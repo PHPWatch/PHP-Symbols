@@ -23,10 +23,23 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'message' => '',
+    'string' => '',
+    'code' => 0,
+    'file' => NULL,
+    'line' => NULL,
+    'trace' => NULL,
+    'previous' => NULL,
+  ),
+  'namespace' => '',
+  'staticProperties' => 
   array (
   ),
-  'constants' => 
+  'interfaces' => 
   array (
   ),
   'properties' => 

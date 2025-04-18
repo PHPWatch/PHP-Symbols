@@ -23,35 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
   array (
-    'DEFAULT_VALUE' => -1,
-    'PRIMARY' => 0,
-    'SECONDARY' => 1,
-    'TERTIARY' => 2,
-    'DEFAULT_STRENGTH' => 2,
-    'QUATERNARY' => 3,
-    'IDENTICAL' => 15,
-    'OFF' => 16,
-    'ON' => 17,
-    'SHIFTED' => 20,
-    'NON_IGNORABLE' => 21,
-    'LOWER_FIRST' => 24,
-    'UPPER_FIRST' => 25,
-    'FRENCH_COLLATION' => 0,
-    'ALTERNATE_HANDLING' => 1,
-    'CASE_FIRST' => 2,
-    'CASE_LEVEL' => 3,
-    'NORMALIZATION_MODE' => 4,
-    'STRENGTH' => 5,
-    'HIRAGANA_QUATERNARY_MODE' => 6,
-    'NUMERIC_COLLATION' => 7,
-    'SORT_REGULAR' => 0,
-    'SORT_STRING' => 1,
-    'SORT_NUMERIC' => 2,
+  ),
+  'interfaces' => 
+  array (
   ),
   'properties' => 
   array (

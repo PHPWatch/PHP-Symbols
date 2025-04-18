@@ -23,19 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 32,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
   array (
-    'TARGET_CLASS' => 1,
-    'TARGET_FUNCTION' => 2,
-    'TARGET_METHOD' => 4,
-    'TARGET_PROPERTY' => 8,
-    'TARGET_CLASS_CONSTANT' => 16,
-    'TARGET_PARAMETER' => 32,
-    'TARGET_ALL' => 63,
-    'IS_REPEATABLE' => 64,
+  ),
+  'interfaces' => 
+  array (
   ),
   'properties' => 
   array (

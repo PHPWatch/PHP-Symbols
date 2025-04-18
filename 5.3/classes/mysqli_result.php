@@ -23,10 +23,21 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'current_field' => NULL,
+    'field_count' => NULL,
+    'lengths' => NULL,
+    'num_rows' => NULL,
+    'type' => NULL,
+  ),
+  'namespace' => '',
+  'staticProperties' => 
   array (
   ),
-  'constants' => 
+  'interfaces' => 
   array (
   ),
   'properties' => 

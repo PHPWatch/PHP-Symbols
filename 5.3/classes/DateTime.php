@@ -23,22 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
   array (
-    'ATOM' => 'Y-m-d\\TH:i:sP',
-    'COOKIE' => 'l, d-M-y H:i:s T',
-    'ISO8601' => 'Y-m-d\\TH:i:sO',
-    'RFC822' => 'D, d M y H:i:s O',
-    'RFC850' => 'l, d-M-y H:i:s T',
-    'RFC1036' => 'D, d M y H:i:s O',
-    'RFC1123' => 'D, d M Y H:i:s O',
-    'RFC2822' => 'D, d M Y H:i:s O',
-    'RFC3339' => 'Y-m-d\\TH:i:sP',
-    'RSS' => 'D, d M Y H:i:s O',
-    'W3C' => 'Y-m-d\\TH:i:sP',
+  ),
+  'interfaces' => 
+  array (
   ),
   'properties' => 
   array (

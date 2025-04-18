@@ -23,18 +23,18 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 32,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => 'Dom',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Dom\\ParentNode',
-  ),
-  'constants' => 
-  array (
-    'DOCUMENT_POSITION_DISCONNECTED' => 1,
-    'DOCUMENT_POSITION_PRECEDING' => 2,
-    'DOCUMENT_POSITION_FOLLOWING' => 4,
-    'DOCUMENT_POSITION_CONTAINS' => 8,
-    'DOCUMENT_POSITION_CONTAINED_BY' => 16,
-    'DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC' => 32,
   ),
   'properties' => 
   array (

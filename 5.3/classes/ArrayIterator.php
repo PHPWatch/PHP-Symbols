@@ -23,6 +23,15 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Iterator',
@@ -31,11 +40,6 @@ return array (
     3 => 'SeekableIterator',
     4 => 'Serializable',
     5 => 'Countable',
-  ),
-  'constants' => 
-  array (
-    'STD_PROP_LIST' => 1,
-    'ARRAY_AS_PROPS' => 2,
   ),
   'properties' => 
   array (

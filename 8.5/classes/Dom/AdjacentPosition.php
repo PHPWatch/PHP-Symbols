@@ -23,21 +23,19 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => 'Dom',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'BackedEnum',
     1 => 'UnitEnum',
-  ),
-  'constants' => 
-  array (
-    'BeforeBegin' => 
-    \Dom\AdjacentPosition::BeforeBegin,
-    'AfterBegin' => 
-    \Dom\AdjacentPosition::AfterBegin,
-    'BeforeEnd' => 
-    \Dom\AdjacentPosition::BeforeEnd,
-    'AfterEnd' => 
-    \Dom\AdjacentPosition::AfterEnd,
   ),
   'properties' => 
   array (

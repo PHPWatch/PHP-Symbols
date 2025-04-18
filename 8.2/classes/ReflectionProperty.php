@@ -23,18 +23,19 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Stringable',
     1 => 'Reflector',
-  ),
-  'constants' => 
-  array (
-    'IS_STATIC' => 16,
-    'IS_READONLY' => 128,
-    'IS_PUBLIC' => 1,
-    'IS_PROTECTED' => 2,
-    'IS_PRIVATE' => 4,
   ),
   'properties' => 
   array (

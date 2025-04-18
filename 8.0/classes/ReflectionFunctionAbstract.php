@@ -23,13 +23,20 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'name' => '',
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Reflector',
     1 => 'Stringable',
-  ),
-  'constants' => 
-  array (
   ),
   'properties' => 
   array (

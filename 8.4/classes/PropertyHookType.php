@@ -23,17 +23,19 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'BackedEnum',
     1 => 'UnitEnum',
-  ),
-  'constants' => 
-  array (
-    'Get' => 
-    \PropertyHookType::Get,
-    'Set' => 
-    \PropertyHookType::Set,
   ),
   'properties' => 
   array (

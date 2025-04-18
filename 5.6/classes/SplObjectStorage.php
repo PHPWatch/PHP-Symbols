@@ -23,6 +23,15 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Countable',
@@ -30,9 +39,6 @@ return array (
     2 => 'Traversable',
     3 => 'Serializable',
     4 => 'ArrayAccess',
-  ),
-  'constants' => 
-  array (
   ),
   'properties' => 
   array (

@@ -23,10 +23,35 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'affected_rows' => NULL,
+    'client_info' => NULL,
+    'client_version' => NULL,
+    'connect_errno' => NULL,
+    'connect_error' => NULL,
+    'errno' => NULL,
+    'error' => NULL,
+    'error_list' => NULL,
+    'field_count' => NULL,
+    'host_info' => NULL,
+    'info' => NULL,
+    'insert_id' => NULL,
+    'server_info' => NULL,
+    'server_version' => NULL,
+    'stat' => NULL,
+    'sqlstate' => NULL,
+    'protocol_version' => NULL,
+    'thread_id' => NULL,
+    'warning_count' => NULL,
+  ),
+  'namespace' => '',
+  'staticProperties' => 
   array (
   ),
-  'constants' => 
+  'interfaces' => 
   array (
   ),
   'properties' => 

@@ -23,12 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 32,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
   array (
-    '__BIGGEST_ALIGNMENT__' => 16,
+  ),
+  'interfaces' => 
+  array (
   ),
   'properties' => 
   array (

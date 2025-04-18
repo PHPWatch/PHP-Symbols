@@ -23,23 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
   array (
-    'VERSION_1' => 0,
-    'VERSION_2c' => 1,
-    'VERSION_2C' => 1,
-    'VERSION_3' => 3,
-    'ERRNO_NOERROR' => 0,
-    'ERRNO_ANY' => 126,
-    'ERRNO_GENERIC' => 2,
-    'ERRNO_TIMEOUT' => 4,
-    'ERRNO_ERROR_IN_REPLY' => 8,
-    'ERRNO_OID_NOT_INCREASING' => 16,
-    'ERRNO_OID_PARSING_ERROR' => 32,
-    'ERRNO_MULTIPLE_SET_QUERIES' => 64,
+  ),
+  'interfaces' => 
+  array (
   ),
   'properties' => 
   array (

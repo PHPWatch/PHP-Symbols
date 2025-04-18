@@ -23,12 +23,19 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'queryString' => NULL,
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Traversable',
-  ),
-  'constants' => 
-  array (
   ),
   'properties' => 
   array (

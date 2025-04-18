@@ -23,21 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
   array (
-    'ACTUAL_LOCALE' => 0,
-    'VALID_LOCALE' => 1,
-    'DEFAULT_LOCALE' => NULL,
-    'LANG_TAG' => 'language',
-    'EXTLANG_TAG' => 'extlang',
-    'SCRIPT_TAG' => 'script',
-    'REGION_TAG' => 'region',
-    'VARIANT_TAG' => 'variant',
-    'GRANDFATHERED_LANG_TAG' => 'grandfathered',
-    'PRIVATE_TAG' => 'private',
+  ),
+  'interfaces' => 
+  array (
   ),
   'properties' => 
   array (

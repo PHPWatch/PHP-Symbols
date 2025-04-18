@@ -23,10 +23,22 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 32,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'client_info' => NULL,
+    'client_version' => NULL,
+    'driver_version' => NULL,
+    'embedded' => NULL,
+    'reconnect' => NULL,
+    'report_mode' => NULL,
+  ),
+  'namespace' => '',
+  'staticProperties' => 
   array (
   ),
-  'constants' => 
+  'interfaces' => 
   array (
   ),
   'properties' => 

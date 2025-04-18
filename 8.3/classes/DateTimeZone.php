@@ -23,25 +23,17 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
   array (
   ),
-  'constants' => 
+  'namespace' => '',
+  'staticProperties' => 
   array (
-    'AFRICA' => 1,
-    'AMERICA' => 2,
-    'ANTARCTICA' => 4,
-    'ARCTIC' => 8,
-    'ASIA' => 16,
-    'ATLANTIC' => 32,
-    'AUSTRALIA' => 64,
-    'EUROPE' => 128,
-    'INDIAN' => 256,
-    'PACIFIC' => 512,
-    'UTC' => 1024,
-    'ALL' => 2047,
-    'ALL_WITH_BC' => 4095,
-    'PER_COUNTRY' => 4096,
+  ),
+  'interfaces' => 
+  array (
   ),
   'properties' => 
   array (

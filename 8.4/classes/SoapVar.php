@@ -23,10 +23,21 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+    'enc_value' => NULL,
+    'enc_stype' => NULL,
+    'enc_ns' => NULL,
+    'enc_name' => NULL,
+    'enc_namens' => NULL,
+  ),
+  'namespace' => '',
+  'staticProperties' => 
   array (
   ),
-  'constants' => 
+  'interfaces' => 
   array (
   ),
   'properties' => 

@@ -23,12 +23,18 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 64,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Stringable',
-  ),
-  'constants' => 
-  array (
   ),
   'properties' => 
   array (

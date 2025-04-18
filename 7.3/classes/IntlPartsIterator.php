@@ -23,16 +23,19 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'Traversable',
     1 => 'Iterator',
-  ),
-  'constants' => 
-  array (
-    'KEY_SEQUENTIAL' => 0,
-    'KEY_LEFT' => 1,
-    'KEY_RIGHT' => 2,
   ),
   'properties' => 
   array (

@@ -23,32 +23,19 @@ return array (
       ),
     ),
   ),
+  'modifiers' => 0,
+  'comment' => false,
+  'defaultProperties' => 
+  array (
+  ),
+  'namespace' => '',
+  'staticProperties' => 
+  array (
+  ),
   'interfaces' => 
   array (
     0 => 'IteratorAggregate',
     1 => 'Traversable',
-  ),
-  'constants' => 
-  array (
-    'DONE' => -1,
-    'WORD_NONE' => 0,
-    'WORD_NONE_LIMIT' => 100,
-    'WORD_NUMBER' => 100,
-    'WORD_NUMBER_LIMIT' => 200,
-    'WORD_LETTER' => 200,
-    'WORD_LETTER_LIMIT' => 300,
-    'WORD_KANA' => 300,
-    'WORD_KANA_LIMIT' => 400,
-    'WORD_IDEO' => 400,
-    'WORD_IDEO_LIMIT' => 500,
-    'LINE_SOFT' => 0,
-    'LINE_SOFT_LIMIT' => 100,
-    'LINE_HARD' => 100,
-    'LINE_HARD_LIMIT' => 200,
-    'SENTENCE_TERM' => 0,
-    'SENTENCE_TERM_LIMIT' => 100,
-    'SENTENCE_SEP' => 100,
-    'SENTENCE_SEP_LIMIT' => 200,
   ),
   'properties' => 
   array (
