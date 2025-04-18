@@ -68,7 +68,6 @@ return array (
           'type' => 'int',
           'is_optional' => true,
           'has_default_value' => true,
-          'default_value' => 63,
           'has_default_value_constant' => true,
           'default_value_constant' => 'Attribute::TARGET_ALL',
         ),

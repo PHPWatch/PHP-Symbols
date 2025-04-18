@@ -66,7 +66,6 @@ return array (
           'type' => '?string',
           'is_optional' => true,
           'has_default_value' => true,
-          'default_value' => NULL,
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),

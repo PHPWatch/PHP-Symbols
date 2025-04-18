@@ -56,7 +56,6 @@ return array (
           'type' => 'Traversable',
           'is_optional' => false,
           'has_default_value' => false,
-          'default_value' => NULL,
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
