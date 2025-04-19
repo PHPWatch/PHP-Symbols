@@ -562,6 +562,30 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'isRightToLeft' => 
+    array (
+      'name' => 'isRightToLeft',
+      'class' => 'Locale',
+      'parameters' => 
+      array (
+        'locale' => 
+        array (
+          'position' => 0,
+          'name' => 'locale',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'traits' => 
   array (
@@ -590,7 +614,7 @@ return array (
   - Static properties [0] {
   }
 
-  - Static methods [18] {
+  - Static methods [19] {
     Method [ <internal:intl> static public method getDefault ] {
 
       - Parameters [0] {
@@ -742,6 +766,14 @@ return array (
         Parameter #0 [ <required> string $header ]
       }
       - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:intl> static public method isRightToLeft ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $locale ]
+      }
+      - Return [ bool ]
     }
   }
 

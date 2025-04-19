@@ -185,6 +185,7 @@ return array (
     'locale_canonicalize' => 'locale_canonicalize',
     'locale_lookup' => 'locale_lookup',
     'locale_accept_from_http' => 'locale_accept_from_http',
+    'locale_is_right_to_left' => 'locale_is_right_to_left',
     'msgfmt_create' => 'msgfmt_create',
     'msgfmt_format' => 'msgfmt_format',
     'msgfmt_format_message' => 'msgfmt_format_message',
