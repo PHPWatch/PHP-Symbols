@@ -35,6 +35,65 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'AFRICA' => 
+    array (
+      'value' => 1,
+    ),
+    'AMERICA' => 
+    array (
+      'value' => 2,
+    ),
+    'ANTARCTICA' => 
+    array (
+      'value' => 4,
+    ),
+    'ARCTIC' => 
+    array (
+      'value' => 8,
+    ),
+    'ASIA' => 
+    array (
+      'value' => 16,
+    ),
+    'ATLANTIC' => 
+    array (
+      'value' => 32,
+    ),
+    'AUSTRALIA' => 
+    array (
+      'value' => 64,
+    ),
+    'EUROPE' => 
+    array (
+      'value' => 128,
+    ),
+    'INDIAN' => 
+    array (
+      'value' => 256,
+    ),
+    'PACIFIC' => 
+    array (
+      'value' => 512,
+    ),
+    'UTC' => 
+    array (
+      'value' => 1024,
+    ),
+    'ALL' => 
+    array (
+      'value' => 2047,
+    ),
+    'ALL_WITH_BC' => 
+    array (
+      'value' => 4095,
+    ),
+    'PER_COUNTRY' => 
+    array (
+      'value' => 4096,
+    ),
+  ),
   'properties' => 
   array (
   ),

@@ -38,6 +38,33 @@ return array (
   array (
     0 => 'Reflector',
   ),
+  'constants' => 
+  array (
+    'IS_STATIC' => 
+    array (
+      'value' => 1,
+    ),
+    'IS_PUBLIC' => 
+    array (
+      'value' => 256,
+    ),
+    'IS_PROTECTED' => 
+    array (
+      'value' => 512,
+    ),
+    'IS_PRIVATE' => 
+    array (
+      'value' => 1024,
+    ),
+    'IS_ABSTRACT' => 
+    array (
+      'value' => 2,
+    ),
+    'IS_FINAL' => 
+    array (
+      'value' => 4,
+    ),
+  ),
   'properties' => 
   array (
     'name' => 

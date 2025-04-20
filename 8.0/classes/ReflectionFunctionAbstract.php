@@ -38,6 +38,9 @@ return array (
     0 => 'Reflector',
     1 => 'Stringable',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
     'name' => 

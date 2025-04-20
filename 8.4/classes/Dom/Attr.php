@@ -35,6 +35,63 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'DOCUMENT_POSITION_DISCONNECTED' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int DOCUMENT_POSITION_DISCONNECTED ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DOCUMENT_POSITION_PRECEDING' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int DOCUMENT_POSITION_PRECEDING ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DOCUMENT_POSITION_FOLLOWING' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int DOCUMENT_POSITION_FOLLOWING ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DOCUMENT_POSITION_CONTAINS' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int DOCUMENT_POSITION_CONTAINS ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DOCUMENT_POSITION_CONTAINED_BY' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int DOCUMENT_POSITION_CONTAINED_BY ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC ] { 32 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
     'nodeType' => 

@@ -41,6 +41,63 @@ return array (
     4 => 'ArrayAccess',
     5 => 'Countable',
   ),
+  'constants' => 
+  array (
+    'CALL_TOSTRING' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int CALL_TOSTRING ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CATCH_GET_CHILD' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int CATCH_GET_CHILD ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TOSTRING_USE_KEY' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int TOSTRING_USE_KEY ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TOSTRING_USE_CURRENT' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int TOSTRING_USE_CURRENT ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TOSTRING_USE_INNER' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int TOSTRING_USE_INNER ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FULL_CACHE' => 
+    array (
+      'value' => 256,
+      'toString' => 'Constant [ public int FULL_CACHE ] { 256 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
   ),

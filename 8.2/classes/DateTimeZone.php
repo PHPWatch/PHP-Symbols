@@ -35,6 +35,121 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'AFRICA' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int AFRICA ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'AMERICA' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int AMERICA ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ANTARCTICA' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int ANTARCTICA ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ARCTIC' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int ARCTIC ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ASIA' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int ASIA ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ATLANTIC' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int ATLANTIC ] { 32 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'AUSTRALIA' => 
+    array (
+      'value' => 64,
+      'toString' => 'Constant [ public int AUSTRALIA ] { 64 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'EUROPE' => 
+    array (
+      'value' => 128,
+      'toString' => 'Constant [ public int EUROPE ] { 128 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'INDIAN' => 
+    array (
+      'value' => 256,
+      'toString' => 'Constant [ public int INDIAN ] { 256 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'PACIFIC' => 
+    array (
+      'value' => 512,
+      'toString' => 'Constant [ public int PACIFIC ] { 512 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'UTC' => 
+    array (
+      'value' => 1024,
+      'toString' => 'Constant [ public int UTC ] { 1024 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ALL' => 
+    array (
+      'value' => 2047,
+      'toString' => 'Constant [ public int ALL ] { 2047 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ALL_WITH_BC' => 
+    array (
+      'value' => 4095,
+      'toString' => 'Constant [ public int ALL_WITH_BC ] { 4095 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'PER_COUNTRY' => 
+    array (
+      'value' => 4096,
+      'toString' => 'Constant [ public int PER_COUNTRY ] { 4096 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+  ),
   'properties' => 
   array (
   ),

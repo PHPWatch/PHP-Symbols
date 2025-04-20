@@ -54,6 +54,9 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
     'affected_rows' => 

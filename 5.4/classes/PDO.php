@@ -35,6 +35,381 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'PARAM_BOOL' => 
+    array (
+      'value' => 5,
+    ),
+    'PARAM_NULL' => 
+    array (
+      'value' => 0,
+    ),
+    'PARAM_INT' => 
+    array (
+      'value' => 1,
+    ),
+    'PARAM_STR' => 
+    array (
+      'value' => 2,
+    ),
+    'PARAM_LOB' => 
+    array (
+      'value' => 3,
+    ),
+    'PARAM_STMT' => 
+    array (
+      'value' => 4,
+    ),
+    'PARAM_INPUT_OUTPUT' => 
+    array (
+      'value' => 2147483648,
+    ),
+    'PARAM_EVT_ALLOC' => 
+    array (
+      'value' => 0,
+    ),
+    'PARAM_EVT_FREE' => 
+    array (
+      'value' => 1,
+    ),
+    'PARAM_EVT_EXEC_PRE' => 
+    array (
+      'value' => 2,
+    ),
+    'PARAM_EVT_EXEC_POST' => 
+    array (
+      'value' => 3,
+    ),
+    'PARAM_EVT_FETCH_PRE' => 
+    array (
+      'value' => 4,
+    ),
+    'PARAM_EVT_FETCH_POST' => 
+    array (
+      'value' => 5,
+    ),
+    'PARAM_EVT_NORMALIZE' => 
+    array (
+      'value' => 6,
+    ),
+    'FETCH_LAZY' => 
+    array (
+      'value' => 1,
+    ),
+    'FETCH_ASSOC' => 
+    array (
+      'value' => 2,
+    ),
+    'FETCH_NUM' => 
+    array (
+      'value' => 3,
+    ),
+    'FETCH_BOTH' => 
+    array (
+      'value' => 4,
+    ),
+    'FETCH_OBJ' => 
+    array (
+      'value' => 5,
+    ),
+    'FETCH_BOUND' => 
+    array (
+      'value' => 6,
+    ),
+    'FETCH_COLUMN' => 
+    array (
+      'value' => 7,
+    ),
+    'FETCH_CLASS' => 
+    array (
+      'value' => 8,
+    ),
+    'FETCH_INTO' => 
+    array (
+      'value' => 9,
+    ),
+    'FETCH_FUNC' => 
+    array (
+      'value' => 10,
+    ),
+    'FETCH_GROUP' => 
+    array (
+      'value' => 65536,
+    ),
+    'FETCH_UNIQUE' => 
+    array (
+      'value' => 196608,
+    ),
+    'FETCH_KEY_PAIR' => 
+    array (
+      'value' => 12,
+    ),
+    'FETCH_CLASSTYPE' => 
+    array (
+      'value' => 262144,
+    ),
+    'FETCH_SERIALIZE' => 
+    array (
+      'value' => 524288,
+    ),
+    'FETCH_PROPS_LATE' => 
+    array (
+      'value' => 1048576,
+    ),
+    'FETCH_NAMED' => 
+    array (
+      'value' => 11,
+    ),
+    'ATTR_AUTOCOMMIT' => 
+    array (
+      'value' => 0,
+    ),
+    'ATTR_PREFETCH' => 
+    array (
+      'value' => 1,
+    ),
+    'ATTR_TIMEOUT' => 
+    array (
+      'value' => 2,
+    ),
+    'ATTR_ERRMODE' => 
+    array (
+      'value' => 3,
+    ),
+    'ATTR_SERVER_VERSION' => 
+    array (
+      'value' => 4,
+    ),
+    'ATTR_CLIENT_VERSION' => 
+    array (
+      'value' => 5,
+    ),
+    'ATTR_SERVER_INFO' => 
+    array (
+      'value' => 6,
+    ),
+    'ATTR_CONNECTION_STATUS' => 
+    array (
+      'value' => 7,
+    ),
+    'ATTR_CASE' => 
+    array (
+      'value' => 8,
+    ),
+    'ATTR_CURSOR_NAME' => 
+    array (
+      'value' => 9,
+    ),
+    'ATTR_CURSOR' => 
+    array (
+      'value' => 10,
+    ),
+    'ATTR_ORACLE_NULLS' => 
+    array (
+      'value' => 11,
+    ),
+    'ATTR_PERSISTENT' => 
+    array (
+      'value' => 12,
+    ),
+    'ATTR_STATEMENT_CLASS' => 
+    array (
+      'value' => 13,
+    ),
+    'ATTR_FETCH_TABLE_NAMES' => 
+    array (
+      'value' => 14,
+    ),
+    'ATTR_FETCH_CATALOG_NAMES' => 
+    array (
+      'value' => 15,
+    ),
+    'ATTR_DRIVER_NAME' => 
+    array (
+      'value' => 16,
+    ),
+    'ATTR_STRINGIFY_FETCHES' => 
+    array (
+      'value' => 17,
+    ),
+    'ATTR_MAX_COLUMN_LEN' => 
+    array (
+      'value' => 18,
+    ),
+    'ATTR_EMULATE_PREPARES' => 
+    array (
+      'value' => 20,
+    ),
+    'ATTR_DEFAULT_FETCH_MODE' => 
+    array (
+      'value' => 19,
+    ),
+    'ERRMODE_SILENT' => 
+    array (
+      'value' => 0,
+    ),
+    'ERRMODE_WARNING' => 
+    array (
+      'value' => 1,
+    ),
+    'ERRMODE_EXCEPTION' => 
+    array (
+      'value' => 2,
+    ),
+    'CASE_NATURAL' => 
+    array (
+      'value' => 0,
+    ),
+    'CASE_LOWER' => 
+    array (
+      'value' => 2,
+    ),
+    'CASE_UPPER' => 
+    array (
+      'value' => 1,
+    ),
+    'NULL_NATURAL' => 
+    array (
+      'value' => 0,
+    ),
+    'NULL_EMPTY_STRING' => 
+    array (
+      'value' => 1,
+    ),
+    'NULL_TO_STRING' => 
+    array (
+      'value' => 2,
+    ),
+    'ERR_NONE' => 
+    array (
+      'value' => '00000',
+    ),
+    'FETCH_ORI_NEXT' => 
+    array (
+      'value' => 0,
+    ),
+    'FETCH_ORI_PRIOR' => 
+    array (
+      'value' => 1,
+    ),
+    'FETCH_ORI_FIRST' => 
+    array (
+      'value' => 2,
+    ),
+    'FETCH_ORI_LAST' => 
+    array (
+      'value' => 3,
+    ),
+    'FETCH_ORI_ABS' => 
+    array (
+      'value' => 4,
+    ),
+    'FETCH_ORI_REL' => 
+    array (
+      'value' => 5,
+    ),
+    'CURSOR_FWDONLY' => 
+    array (
+      'value' => 0,
+    ),
+    'CURSOR_SCROLL' => 
+    array (
+      'value' => 1,
+    ),
+    'MYSQL_ATTR_USE_BUFFERED_QUERY' => 
+    array (
+      'value' => 1000,
+    ),
+    'MYSQL_ATTR_LOCAL_INFILE' => 
+    array (
+      'value' => 1001,
+    ),
+    'MYSQL_ATTR_INIT_COMMAND' => 
+    array (
+      'value' => 1002,
+    ),
+    'MYSQL_ATTR_COMPRESS' => 
+    array (
+      'value' => 1003,
+    ),
+    'MYSQL_ATTR_DIRECT_QUERY' => 
+    array (
+      'value' => 1004,
+    ),
+    'MYSQL_ATTR_FOUND_ROWS' => 
+    array (
+      'value' => 1005,
+    ),
+    'MYSQL_ATTR_IGNORE_SPACE' => 
+    array (
+      'value' => 1006,
+    ),
+    'MYSQL_ATTR_SSL_KEY' => 
+    array (
+      'value' => 1007,
+    ),
+    'MYSQL_ATTR_SSL_CERT' => 
+    array (
+      'value' => 1008,
+    ),
+    'MYSQL_ATTR_SSL_CA' => 
+    array (
+      'value' => 1009,
+    ),
+    'MYSQL_ATTR_SSL_CAPATH' => 
+    array (
+      'value' => 1010,
+    ),
+    'MYSQL_ATTR_SSL_CIPHER' => 
+    array (
+      'value' => 1011,
+    ),
+    'ODBC_ATTR_USE_CURSOR_LIBRARY' => 
+    array (
+      'value' => 1000,
+    ),
+    'ODBC_ATTR_ASSUME_UTF8' => 
+    array (
+      'value' => 1001,
+    ),
+    'ODBC_SQL_USE_IF_NEEDED' => 
+    array (
+      'value' => 0,
+    ),
+    'ODBC_SQL_USE_DRIVER' => 
+    array (
+      'value' => 2,
+    ),
+    'ODBC_SQL_USE_ODBC' => 
+    array (
+      'value' => 1,
+    ),
+    'PGSQL_ATTR_DISABLE_NATIVE_PREPARED_STATEMENT' => 
+    array (
+      'value' => 1000,
+    ),
+    'PGSQL_TRANSACTION_IDLE' => 
+    array (
+      'value' => 0,
+    ),
+    'PGSQL_TRANSACTION_ACTIVE' => 
+    array (
+      'value' => 1,
+    ),
+    'PGSQL_TRANSACTION_INTRANS' => 
+    array (
+      'value' => 2,
+    ),
+    'PGSQL_TRANSACTION_INERROR' => 
+    array (
+      'value' => 3,
+    ),
+    'PGSQL_TRANSACTION_UNKNOWN' => 
+    array (
+      'value' => 4,
+    ),
+  ),
   'properties' => 
   array (
   ),

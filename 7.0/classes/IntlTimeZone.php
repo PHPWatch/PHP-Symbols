@@ -35,6 +35,53 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'DISPLAY_SHORT' => 
+    array (
+      'value' => 1,
+    ),
+    'DISPLAY_LONG' => 
+    array (
+      'value' => 2,
+    ),
+    'DISPLAY_SHORT_GENERIC' => 
+    array (
+      'value' => 3,
+    ),
+    'DISPLAY_LONG_GENERIC' => 
+    array (
+      'value' => 4,
+    ),
+    'DISPLAY_SHORT_GMT' => 
+    array (
+      'value' => 5,
+    ),
+    'DISPLAY_LONG_GMT' => 
+    array (
+      'value' => 6,
+    ),
+    'DISPLAY_SHORT_COMMONLY_USED' => 
+    array (
+      'value' => 7,
+    ),
+    'DISPLAY_GENERIC_LOCATION' => 
+    array (
+      'value' => 8,
+    ),
+    'TYPE_ANY' => 
+    array (
+      'value' => 0,
+    ),
+    'TYPE_CANONICAL' => 
+    array (
+      'value' => 1,
+    ),
+    'TYPE_CANONICAL_LOCATION' => 
+    array (
+      'value' => 2,
+    ),
+  ),
   'properties' => 
   array (
   ),

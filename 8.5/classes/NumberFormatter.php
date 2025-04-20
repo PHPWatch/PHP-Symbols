@@ -35,6 +35,757 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'PATTERN_DECIMAL' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int PATTERN_DECIMAL ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DECIMAL' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int DECIMAL ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DECIMAL_COMPACT_SHORT' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public int DECIMAL_COMPACT_SHORT ] { 14 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DECIMAL_COMPACT_LONG' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public int DECIMAL_COMPACT_LONG ] { 15 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CURRENCY' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int CURRENCY ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PERCENT' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int PERCENT ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SCIENTIFIC' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int SCIENTIFIC ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SPELLOUT' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int SPELLOUT ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ORDINAL' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int ORDINAL ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DURATION' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int DURATION ] { 7 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PATTERN_RULEBASED' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public int PATTERN_RULEBASED ] { 9 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IGNORE' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int IGNORE ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CURRENCY_ISO' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public int CURRENCY_ISO ] { 10 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CURRENCY_PLURAL' => 
+    array (
+      'value' => 11,
+      'toString' => 'Constant [ public int CURRENCY_PLURAL ] { 11 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CURRENCY_ACCOUNTING' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public int CURRENCY_ACCOUNTING ] { 12 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CASH_CURRENCY' => 
+    array (
+      'value' => 13,
+      'toString' => 'Constant [ public int CASH_CURRENCY ] { 13 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CURRENCY_STANDARD' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int CURRENCY_STANDARD ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DEFAULT_STYLE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int DEFAULT_STYLE ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ROUND_CEILING' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int ROUND_CEILING ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ROUND_FLOOR' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int ROUND_FLOOR ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ROUND_DOWN' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int ROUND_DOWN ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ROUND_UP' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int ROUND_UP ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ROUND_TOWARD_ZERO' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int ROUND_TOWARD_ZERO ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ROUND_AWAY_FROM_ZERO' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int ROUND_AWAY_FROM_ZERO ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ROUND_HALFEVEN' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int ROUND_HALFEVEN ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ROUND_HALFODD' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int ROUND_HALFODD ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ROUND_HALFDOWN' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int ROUND_HALFDOWN ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ROUND_HALFUP' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int ROUND_HALFUP ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PAD_BEFORE_PREFIX' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int PAD_BEFORE_PREFIX ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PAD_AFTER_PREFIX' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int PAD_AFTER_PREFIX ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PAD_BEFORE_SUFFIX' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int PAD_BEFORE_SUFFIX ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PAD_AFTER_SUFFIX' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int PAD_AFTER_SUFFIX ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PARSE_INT_ONLY' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int PARSE_INT_ONLY ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'GROUPING_USED' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int GROUPING_USED ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DECIMAL_ALWAYS_SHOWN' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int DECIMAL_ALWAYS_SHOWN ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'MAX_INTEGER_DIGITS' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int MAX_INTEGER_DIGITS ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'MIN_INTEGER_DIGITS' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int MIN_INTEGER_DIGITS ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'INTEGER_DIGITS' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int INTEGER_DIGITS ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'MAX_FRACTION_DIGITS' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int MAX_FRACTION_DIGITS ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'MIN_FRACTION_DIGITS' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int MIN_FRACTION_DIGITS ] { 7 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FRACTION_DIGITS' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int FRACTION_DIGITS ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'MULTIPLIER' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public int MULTIPLIER ] { 9 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'GROUPING_SIZE' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public int GROUPING_SIZE ] { 10 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ROUNDING_MODE' => 
+    array (
+      'value' => 11,
+      'toString' => 'Constant [ public int ROUNDING_MODE ] { 11 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ROUNDING_INCREMENT' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public int ROUNDING_INCREMENT ] { 12 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FORMAT_WIDTH' => 
+    array (
+      'value' => 13,
+      'toString' => 'Constant [ public int FORMAT_WIDTH ] { 13 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PADDING_POSITION' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public int PADDING_POSITION ] { 14 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SECONDARY_GROUPING_SIZE' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public int SECONDARY_GROUPING_SIZE ] { 15 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SIGNIFICANT_DIGITS_USED' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int SIGNIFICANT_DIGITS_USED ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'MIN_SIGNIFICANT_DIGITS' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public int MIN_SIGNIFICANT_DIGITS ] { 17 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'MAX_SIGNIFICANT_DIGITS' => 
+    array (
+      'value' => 18,
+      'toString' => 'Constant [ public int MAX_SIGNIFICANT_DIGITS ] { 18 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LENIENT_PARSE' => 
+    array (
+      'value' => 19,
+      'toString' => 'Constant [ public int LENIENT_PARSE ] { 19 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'POSITIVE_PREFIX' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int POSITIVE_PREFIX ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'POSITIVE_SUFFIX' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int POSITIVE_SUFFIX ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'NEGATIVE_PREFIX' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int NEGATIVE_PREFIX ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'NEGATIVE_SUFFIX' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int NEGATIVE_SUFFIX ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PADDING_CHARACTER' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int PADDING_CHARACTER ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CURRENCY_CODE' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int CURRENCY_CODE ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DEFAULT_RULESET' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int DEFAULT_RULESET ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PUBLIC_RULESETS' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int PUBLIC_RULESETS ] { 7 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DECIMAL_SEPARATOR_SYMBOL' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int DECIMAL_SEPARATOR_SYMBOL ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'GROUPING_SEPARATOR_SYMBOL' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int GROUPING_SEPARATOR_SYMBOL ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PATTERN_SEPARATOR_SYMBOL' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int PATTERN_SEPARATOR_SYMBOL ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PERCENT_SYMBOL' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int PERCENT_SYMBOL ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ZERO_DIGIT_SYMBOL' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int ZERO_DIGIT_SYMBOL ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DIGIT_SYMBOL' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int DIGIT_SYMBOL ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'MINUS_SIGN_SYMBOL' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int MINUS_SIGN_SYMBOL ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PLUS_SIGN_SYMBOL' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int PLUS_SIGN_SYMBOL ] { 7 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CURRENCY_SYMBOL' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int CURRENCY_SYMBOL ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'INTL_CURRENCY_SYMBOL' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public int INTL_CURRENCY_SYMBOL ] { 9 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'MONETARY_SEPARATOR_SYMBOL' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public int MONETARY_SEPARATOR_SYMBOL ] { 10 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'EXPONENTIAL_SYMBOL' => 
+    array (
+      'value' => 11,
+      'toString' => 'Constant [ public int EXPONENTIAL_SYMBOL ] { 11 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PERMILL_SYMBOL' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public int PERMILL_SYMBOL ] { 12 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PAD_ESCAPE_SYMBOL' => 
+    array (
+      'value' => 13,
+      'toString' => 'Constant [ public int PAD_ESCAPE_SYMBOL ] { 13 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'INFINITY_SYMBOL' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public int INFINITY_SYMBOL ] { 14 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'NAN_SYMBOL' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public int NAN_SYMBOL ] { 15 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SIGNIFICANT_DIGIT_SYMBOL' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int SIGNIFICANT_DIGIT_SYMBOL ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'MONETARY_GROUPING_SEPARATOR_SYMBOL' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public int MONETARY_GROUPING_SEPARATOR_SYMBOL ] { 17 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TYPE_DEFAULT' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int TYPE_DEFAULT ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TYPE_INT32' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int TYPE_INT32 ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TYPE_INT64' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int TYPE_INT64 ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TYPE_DOUBLE' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int TYPE_DOUBLE ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TYPE_CURRENCY' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int TYPE_CURRENCY ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+      'isDeprecated' => true,
+    ),
+  ),
   'properties' => 
   array (
   ),

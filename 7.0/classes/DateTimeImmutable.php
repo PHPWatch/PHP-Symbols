@@ -36,6 +36,9 @@ return array (
   array (
     0 => 'DateTimeInterface',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
   ),

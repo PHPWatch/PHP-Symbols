@@ -35,6 +35,65 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'TARGET_CLASS' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int TARGET_CLASS ] { 1 }
+',
+      'visibility' => 1,
+    ),
+    'TARGET_FUNCTION' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int TARGET_FUNCTION ] { 2 }
+',
+      'visibility' => 1,
+    ),
+    'TARGET_METHOD' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int TARGET_METHOD ] { 4 }
+',
+      'visibility' => 1,
+    ),
+    'TARGET_PROPERTY' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int TARGET_PROPERTY ] { 8 }
+',
+      'visibility' => 1,
+    ),
+    'TARGET_CLASS_CONSTANT' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int TARGET_CLASS_CONSTANT ] { 16 }
+',
+      'visibility' => 1,
+    ),
+    'TARGET_PARAMETER' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int TARGET_PARAMETER ] { 32 }
+',
+      'visibility' => 1,
+    ),
+    'TARGET_ALL' => 
+    array (
+      'value' => 63,
+      'toString' => 'Constant [ public int TARGET_ALL ] { 63 }
+',
+      'visibility' => 1,
+    ),
+    'IS_REPEATABLE' => 
+    array (
+      'value' => 64,
+      'toString' => 'Constant [ public int IS_REPEATABLE ] { 64 }
+',
+      'visibility' => 1,
+    ),
+  ),
   'properties' => 
   array (
     'flags' => 

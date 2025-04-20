@@ -36,6 +36,23 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'FORWARD' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public integer FORWARD ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'REVERSE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer REVERSE ] { 1 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
     'id' => 

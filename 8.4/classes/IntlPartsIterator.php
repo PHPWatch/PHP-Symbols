@@ -37,6 +37,36 @@ return array (
     0 => 'Traversable',
     1 => 'Iterator',
   ),
+  'constants' => 
+  array (
+    'KEY_SEQUENTIAL' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int KEY_SEQUENTIAL ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'KEY_LEFT' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int KEY_LEFT ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'KEY_RIGHT' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int KEY_RIGHT ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
   ),

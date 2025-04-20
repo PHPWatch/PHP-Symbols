@@ -37,6 +37,21 @@ return array (
   array (
     0 => 'Reflector',
   ),
+  'constants' => 
+  array (
+    'IS_IMPLICIT_ABSTRACT' => 
+    array (
+      'value' => 16,
+    ),
+    'IS_EXPLICIT_ABSTRACT' => 
+    array (
+      'value' => 32,
+    ),
+    'IS_FINAL' => 
+    array (
+      'value' => 4,
+    ),
+  ),
   'properties' => 
   array (
     'name' => 

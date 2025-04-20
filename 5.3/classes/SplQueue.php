@@ -39,6 +39,25 @@ return array (
     2 => 'Traversable',
     3 => 'Iterator',
   ),
+  'constants' => 
+  array (
+    'IT_MODE_LIFO' => 
+    array (
+      'value' => 2,
+    ),
+    'IT_MODE_FIFO' => 
+    array (
+      'value' => 0,
+    ),
+    'IT_MODE_DELETE' => 
+    array (
+      'value' => 1,
+    ),
+    'IT_MODE_KEEP' => 
+    array (
+      'value' => 0,
+    ),
+  ),
   'properties' => 
   array (
   ),

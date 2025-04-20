@@ -35,6 +35,163 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'NONE' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public integer NONE ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'ELEMENT' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer ELEMENT ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'ATTRIBUTE' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer ATTRIBUTE ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'TEXT' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public integer TEXT ] { 3 }
+',
+      'visibility' => 256,
+    ),
+    'CDATA' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public integer CDATA ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'ENTITY_REF' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public integer ENTITY_REF ] { 5 }
+',
+      'visibility' => 256,
+    ),
+    'ENTITY' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public integer ENTITY ] { 6 }
+',
+      'visibility' => 256,
+    ),
+    'PI' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public integer PI ] { 7 }
+',
+      'visibility' => 256,
+    ),
+    'COMMENT' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public integer COMMENT ] { 8 }
+',
+      'visibility' => 256,
+    ),
+    'DOC' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public integer DOC ] { 9 }
+',
+      'visibility' => 256,
+    ),
+    'DOC_TYPE' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public integer DOC_TYPE ] { 10 }
+',
+      'visibility' => 256,
+    ),
+    'DOC_FRAGMENT' => 
+    array (
+      'value' => 11,
+      'toString' => 'Constant [ public integer DOC_FRAGMENT ] { 11 }
+',
+      'visibility' => 256,
+    ),
+    'NOTATION' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public integer NOTATION ] { 12 }
+',
+      'visibility' => 256,
+    ),
+    'WHITESPACE' => 
+    array (
+      'value' => 13,
+      'toString' => 'Constant [ public integer WHITESPACE ] { 13 }
+',
+      'visibility' => 256,
+    ),
+    'SIGNIFICANT_WHITESPACE' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public integer SIGNIFICANT_WHITESPACE ] { 14 }
+',
+      'visibility' => 256,
+    ),
+    'END_ELEMENT' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public integer END_ELEMENT ] { 15 }
+',
+      'visibility' => 256,
+    ),
+    'END_ENTITY' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public integer END_ENTITY ] { 16 }
+',
+      'visibility' => 256,
+    ),
+    'XML_DECLARATION' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public integer XML_DECLARATION ] { 17 }
+',
+      'visibility' => 256,
+    ),
+    'LOADDTD' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer LOADDTD ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'DEFAULTATTRS' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer DEFAULTATTRS ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'VALIDATE' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public integer VALIDATE ] { 3 }
+',
+      'visibility' => 256,
+    ),
+    'SUBST_ENTITIES' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public integer SUBST_ENTITIES ] { 4 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
   ),

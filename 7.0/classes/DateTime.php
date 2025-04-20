@@ -36,6 +36,61 @@ return array (
   array (
     0 => 'DateTimeInterface',
   ),
+  'constants' => 
+  array (
+    'ATOM' => 
+    array (
+      'value' => 'Y-m-d\\TH:i:sP',
+    ),
+    'COOKIE' => 
+    array (
+      'value' => 'l, d-M-Y H:i:s T',
+    ),
+    'ISO8601' => 
+    array (
+      'value' => 'Y-m-d\\TH:i:sO',
+    ),
+    'RFC822' => 
+    array (
+      'value' => 'D, d M y H:i:s O',
+    ),
+    'RFC850' => 
+    array (
+      'value' => 'l, d-M-y H:i:s T',
+    ),
+    'RFC1036' => 
+    array (
+      'value' => 'D, d M y H:i:s O',
+    ),
+    'RFC1123' => 
+    array (
+      'value' => 'D, d M Y H:i:s O',
+    ),
+    'RFC7231' => 
+    array (
+      'value' => 'D, d M Y H:i:s \\G\\M\\T',
+    ),
+    'RFC2822' => 
+    array (
+      'value' => 'D, d M Y H:i:s O',
+    ),
+    'RFC3339' => 
+    array (
+      'value' => 'Y-m-d\\TH:i:sP',
+    ),
+    'RFC3339_EXTENDED' => 
+    array (
+      'value' => 'Y-m-d\\TH:i:s.vP',
+    ),
+    'RSS' => 
+    array (
+      'value' => 'D, d M Y H:i:s O',
+    ),
+    'W3C' => 
+    array (
+      'value' => 'Y-m-d\\TH:i:sP',
+    ),
+  ),
   'properties' => 
   array (
   ),

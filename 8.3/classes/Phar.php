@@ -42,6 +42,249 @@ return array (
     5 => 'Countable',
     6 => 'ArrayAccess',
   ),
+  'constants' => 
+  array (
+    'CURRENT_MODE_MASK' => 
+    array (
+      'value' => 240,
+      'toString' => 'Constant [ public int CURRENT_MODE_MASK ] { 240 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CURRENT_AS_PATHNAME' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int CURRENT_AS_PATHNAME ] { 32 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CURRENT_AS_FILEINFO' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int CURRENT_AS_FILEINFO ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CURRENT_AS_SELF' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int CURRENT_AS_SELF ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'KEY_MODE_MASK' => 
+    array (
+      'value' => 3840,
+      'toString' => 'Constant [ public int KEY_MODE_MASK ] { 3840 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'KEY_AS_PATHNAME' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int KEY_AS_PATHNAME ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FOLLOW_SYMLINKS' => 
+    array (
+      'value' => 16384,
+      'toString' => 'Constant [ public int FOLLOW_SYMLINKS ] { 16384 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'KEY_AS_FILENAME' => 
+    array (
+      'value' => 256,
+      'toString' => 'Constant [ public int KEY_AS_FILENAME ] { 256 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'NEW_CURRENT_AND_KEY' => 
+    array (
+      'value' => 256,
+      'toString' => 'Constant [ public int NEW_CURRENT_AND_KEY ] { 256 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OTHER_MODE_MASK' => 
+    array (
+      'value' => 28672,
+      'toString' => 'Constant [ public int OTHER_MODE_MASK ] { 28672 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'SKIP_DOTS' => 
+    array (
+      'value' => 4096,
+      'toString' => 'Constant [ public int SKIP_DOTS ] { 4096 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'UNIX_PATHS' => 
+    array (
+      'value' => 8192,
+      'toString' => 'Constant [ public int UNIX_PATHS ] { 8192 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'BZ2' => 
+    array (
+      'value' => 8192,
+      'toString' => 'Constant [ public int BZ2 ] { 8192 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'GZ' => 
+    array (
+      'value' => 4096,
+      'toString' => 'Constant [ public int GZ ] { 4096 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'NONE' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int NONE ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PHAR' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int PHAR ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TAR' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int TAR ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ZIP' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int ZIP ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'COMPRESSED' => 
+    array (
+      'value' => 61440,
+      'toString' => 'Constant [ public int COMPRESSED ] { 61440 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PHP' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int PHP ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PHPS' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int PHPS ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'MD5' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int MD5 ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'OPENSSL' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int OPENSSL ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'OPENSSL_SHA256' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public int OPENSSL_SHA256 ] { 17 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'OPENSSL_SHA512' => 
+    array (
+      'value' => 18,
+      'toString' => 'Constant [ public int OPENSSL_SHA512 ] { 18 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SHA1' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int SHA1 ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SHA256' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int SHA256 ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SHA512' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int SHA512 ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
   ),

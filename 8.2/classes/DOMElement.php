@@ -38,6 +38,9 @@ return array (
     0 => 'DOMParentNode',
     1 => 'DOMChildNode',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
     'nodeName' => 

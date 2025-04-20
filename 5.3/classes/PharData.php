@@ -41,6 +41,53 @@ return array (
     4 => 'Countable',
     5 => 'ArrayAccess',
   ),
+  'constants' => 
+  array (
+    'CURRENT_MODE_MASK' => 
+    array (
+      'value' => 240,
+    ),
+    'CURRENT_AS_PATHNAME' => 
+    array (
+      'value' => 32,
+    ),
+    'CURRENT_AS_FILEINFO' => 
+    array (
+      'value' => 0,
+    ),
+    'CURRENT_AS_SELF' => 
+    array (
+      'value' => 16,
+    ),
+    'KEY_MODE_MASK' => 
+    array (
+      'value' => 3840,
+    ),
+    'KEY_AS_PATHNAME' => 
+    array (
+      'value' => 0,
+    ),
+    'FOLLOW_SYMLINKS' => 
+    array (
+      'value' => 512,
+    ),
+    'KEY_AS_FILENAME' => 
+    array (
+      'value' => 256,
+    ),
+    'NEW_CURRENT_AND_KEY' => 
+    array (
+      'value' => 256,
+    ),
+    'SKIP_DOTS' => 
+    array (
+      'value' => 4096,
+    ),
+    'UNIX_PATHS' => 
+    array (
+      'value' => 8192,
+    ),
+  ),
   'properties' => 
   array (
   ),

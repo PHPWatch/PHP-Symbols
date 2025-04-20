@@ -36,6 +36,9 @@ return array (
   array (
     0 => 'DOMChildNode',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
     'nodeName' => 

@@ -36,6 +36,9 @@ return array (
   array (
     0 => 'DOMParentNode',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
   ),

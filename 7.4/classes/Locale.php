@@ -35,6 +35,79 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'ACTUAL_LOCALE' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int ACTUAL_LOCALE ] { 0 }
+',
+      'visibility' => 1,
+    ),
+    'VALID_LOCALE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int VALID_LOCALE ] { 1 }
+',
+      'visibility' => 1,
+    ),
+    'DEFAULT_LOCALE' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public null DEFAULT_LOCALE ] {  }
+',
+      'visibility' => 1,
+    ),
+    'LANG_TAG' => 
+    array (
+      'value' => 'language',
+      'toString' => 'Constant [ public string LANG_TAG ] { language }
+',
+      'visibility' => 1,
+    ),
+    'EXTLANG_TAG' => 
+    array (
+      'value' => 'extlang',
+      'toString' => 'Constant [ public string EXTLANG_TAG ] { extlang }
+',
+      'visibility' => 1,
+    ),
+    'SCRIPT_TAG' => 
+    array (
+      'value' => 'script',
+      'toString' => 'Constant [ public string SCRIPT_TAG ] { script }
+',
+      'visibility' => 1,
+    ),
+    'REGION_TAG' => 
+    array (
+      'value' => 'region',
+      'toString' => 'Constant [ public string REGION_TAG ] { region }
+',
+      'visibility' => 1,
+    ),
+    'VARIANT_TAG' => 
+    array (
+      'value' => 'variant',
+      'toString' => 'Constant [ public string VARIANT_TAG ] { variant }
+',
+      'visibility' => 1,
+    ),
+    'GRANDFATHERED_LANG_TAG' => 
+    array (
+      'value' => 'grandfathered',
+      'toString' => 'Constant [ public string GRANDFATHERED_LANG_TAG ] { grandfathered }
+',
+      'visibility' => 1,
+    ),
+    'PRIVATE_TAG' => 
+    array (
+      'value' => 'private',
+      'toString' => 'Constant [ public string PRIVATE_TAG ] { private }
+',
+      'visibility' => 1,
+    ),
+  ),
   'properties' => 
   array (
   ),

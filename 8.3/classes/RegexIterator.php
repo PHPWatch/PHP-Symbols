@@ -39,6 +39,65 @@ return array (
     1 => 'Traversable',
     2 => 'Iterator',
   ),
+  'constants' => 
+  array (
+    'USE_KEY' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int USE_KEY ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'INVERT_MATCH' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int INVERT_MATCH ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MATCH' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int MATCH ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'GET_MATCH' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int GET_MATCH ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ALL_MATCHES' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int ALL_MATCHES ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'SPLIT' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int SPLIT ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'REPLACE' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int REPLACE ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+  ),
   'properties' => 
   array (
     'replacement' => 

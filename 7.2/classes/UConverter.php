@@ -35,6 +35,296 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'REASON_UNASSIGNED' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public integer REASON_UNASSIGNED ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'REASON_ILLEGAL' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer REASON_ILLEGAL ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'REASON_IRREGULAR' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer REASON_IRREGULAR ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'REASON_RESET' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public integer REASON_RESET ] { 3 }
+',
+      'visibility' => 256,
+    ),
+    'REASON_CLOSE' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public integer REASON_CLOSE ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'REASON_CLONE' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public integer REASON_CLONE ] { 5 }
+',
+      'visibility' => 256,
+    ),
+    'UNSUPPORTED_CONVERTER' => 
+    array (
+      'value' => -1,
+      'toString' => 'Constant [ public integer UNSUPPORTED_CONVERTER ] { -1 }
+',
+      'visibility' => 256,
+    ),
+    'SBCS' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public integer SBCS ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'DBCS' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer DBCS ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'MBCS' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer MBCS ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'LATIN_1' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public integer LATIN_1 ] { 3 }
+',
+      'visibility' => 256,
+    ),
+    'UTF8' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public integer UTF8 ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'UTF16_BigEndian' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public integer UTF16_BigEndian ] { 5 }
+',
+      'visibility' => 256,
+    ),
+    'UTF16_LittleEndian' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public integer UTF16_LittleEndian ] { 6 }
+',
+      'visibility' => 256,
+    ),
+    'UTF32_BigEndian' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public integer UTF32_BigEndian ] { 7 }
+',
+      'visibility' => 256,
+    ),
+    'UTF32_LittleEndian' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public integer UTF32_LittleEndian ] { 8 }
+',
+      'visibility' => 256,
+    ),
+    'EBCDIC_STATEFUL' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public integer EBCDIC_STATEFUL ] { 9 }
+',
+      'visibility' => 256,
+    ),
+    'ISO_2022' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public integer ISO_2022 ] { 10 }
+',
+      'visibility' => 256,
+    ),
+    'LMBCS_1' => 
+    array (
+      'value' => 11,
+      'toString' => 'Constant [ public integer LMBCS_1 ] { 11 }
+',
+      'visibility' => 256,
+    ),
+    'LMBCS_2' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public integer LMBCS_2 ] { 12 }
+',
+      'visibility' => 256,
+    ),
+    'LMBCS_3' => 
+    array (
+      'value' => 13,
+      'toString' => 'Constant [ public integer LMBCS_3 ] { 13 }
+',
+      'visibility' => 256,
+    ),
+    'LMBCS_4' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public integer LMBCS_4 ] { 14 }
+',
+      'visibility' => 256,
+    ),
+    'LMBCS_5' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public integer LMBCS_5 ] { 15 }
+',
+      'visibility' => 256,
+    ),
+    'LMBCS_6' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public integer LMBCS_6 ] { 16 }
+',
+      'visibility' => 256,
+    ),
+    'LMBCS_8' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public integer LMBCS_8 ] { 17 }
+',
+      'visibility' => 256,
+    ),
+    'LMBCS_11' => 
+    array (
+      'value' => 18,
+      'toString' => 'Constant [ public integer LMBCS_11 ] { 18 }
+',
+      'visibility' => 256,
+    ),
+    'LMBCS_16' => 
+    array (
+      'value' => 19,
+      'toString' => 'Constant [ public integer LMBCS_16 ] { 19 }
+',
+      'visibility' => 256,
+    ),
+    'LMBCS_17' => 
+    array (
+      'value' => 20,
+      'toString' => 'Constant [ public integer LMBCS_17 ] { 20 }
+',
+      'visibility' => 256,
+    ),
+    'LMBCS_18' => 
+    array (
+      'value' => 21,
+      'toString' => 'Constant [ public integer LMBCS_18 ] { 21 }
+',
+      'visibility' => 256,
+    ),
+    'LMBCS_19' => 
+    array (
+      'value' => 22,
+      'toString' => 'Constant [ public integer LMBCS_19 ] { 22 }
+',
+      'visibility' => 256,
+    ),
+    'LMBCS_LAST' => 
+    array (
+      'value' => 22,
+      'toString' => 'Constant [ public integer LMBCS_LAST ] { 22 }
+',
+      'visibility' => 256,
+    ),
+    'HZ' => 
+    array (
+      'value' => 23,
+      'toString' => 'Constant [ public integer HZ ] { 23 }
+',
+      'visibility' => 256,
+    ),
+    'SCSU' => 
+    array (
+      'value' => 24,
+      'toString' => 'Constant [ public integer SCSU ] { 24 }
+',
+      'visibility' => 256,
+    ),
+    'ISCII' => 
+    array (
+      'value' => 25,
+      'toString' => 'Constant [ public integer ISCII ] { 25 }
+',
+      'visibility' => 256,
+    ),
+    'US_ASCII' => 
+    array (
+      'value' => 26,
+      'toString' => 'Constant [ public integer US_ASCII ] { 26 }
+',
+      'visibility' => 256,
+    ),
+    'UTF7' => 
+    array (
+      'value' => 27,
+      'toString' => 'Constant [ public integer UTF7 ] { 27 }
+',
+      'visibility' => 256,
+    ),
+    'BOCU1' => 
+    array (
+      'value' => 28,
+      'toString' => 'Constant [ public integer BOCU1 ] { 28 }
+',
+      'visibility' => 256,
+    ),
+    'UTF16' => 
+    array (
+      'value' => 29,
+      'toString' => 'Constant [ public integer UTF16 ] { 29 }
+',
+      'visibility' => 256,
+    ),
+    'UTF32' => 
+    array (
+      'value' => 30,
+      'toString' => 'Constant [ public integer UTF32 ] { 30 }
+',
+      'visibility' => 256,
+    ),
+    'CESU8' => 
+    array (
+      'value' => 31,
+      'toString' => 'Constant [ public integer CESU8 ] { 31 }
+',
+      'visibility' => 256,
+    ),
+    'IMAP_MAILBOX' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public integer IMAP_MAILBOX ] { 32 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
   ),

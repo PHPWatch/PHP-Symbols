@@ -39,6 +39,93 @@ return array (
     2 => 'Iterator',
     3 => 'Stringable',
   ),
+  'constants' => 
+  array (
+    'CURRENT_MODE_MASK' => 
+    array (
+      'value' => 240,
+      'toString' => 'Constant [ public int CURRENT_MODE_MASK ] { 240 }
+',
+      'visibility' => 1,
+    ),
+    'CURRENT_AS_PATHNAME' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int CURRENT_AS_PATHNAME ] { 32 }
+',
+      'visibility' => 1,
+    ),
+    'CURRENT_AS_FILEINFO' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int CURRENT_AS_FILEINFO ] { 0 }
+',
+      'visibility' => 1,
+    ),
+    'CURRENT_AS_SELF' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int CURRENT_AS_SELF ] { 16 }
+',
+      'visibility' => 1,
+    ),
+    'KEY_MODE_MASK' => 
+    array (
+      'value' => 3840,
+      'toString' => 'Constant [ public int KEY_MODE_MASK ] { 3840 }
+',
+      'visibility' => 1,
+    ),
+    'KEY_AS_PATHNAME' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int KEY_AS_PATHNAME ] { 0 }
+',
+      'visibility' => 1,
+    ),
+    'FOLLOW_SYMLINKS' => 
+    array (
+      'value' => 512,
+      'toString' => 'Constant [ public int FOLLOW_SYMLINKS ] { 512 }
+',
+      'visibility' => 1,
+    ),
+    'KEY_AS_FILENAME' => 
+    array (
+      'value' => 256,
+      'toString' => 'Constant [ public int KEY_AS_FILENAME ] { 256 }
+',
+      'visibility' => 1,
+    ),
+    'NEW_CURRENT_AND_KEY' => 
+    array (
+      'value' => 256,
+      'toString' => 'Constant [ public int NEW_CURRENT_AND_KEY ] { 256 }
+',
+      'visibility' => 1,
+    ),
+    'OTHER_MODE_MASK' => 
+    array (
+      'value' => 12288,
+      'toString' => 'Constant [ public int OTHER_MODE_MASK ] { 12288 }
+',
+      'visibility' => 1,
+    ),
+    'SKIP_DOTS' => 
+    array (
+      'value' => 4096,
+      'toString' => 'Constant [ public int SKIP_DOTS ] { 4096 }
+',
+      'visibility' => 1,
+    ),
+    'UNIX_PATHS' => 
+    array (
+      'value' => 8192,
+      'toString' => 'Constant [ public int UNIX_PATHS ] { 8192 }
+',
+      'visibility' => 1,
+    ),
+  ),
   'properties' => 
   array (
   ),

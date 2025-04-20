@@ -38,6 +38,36 @@ return array (
     1 => 'Traversable',
     2 => 'Countable',
   ),
+  'constants' => 
+  array (
+    'EXTR_BOTH' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int EXTR_BOTH ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'EXTR_PRIORITY' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int EXTR_PRIORITY ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'EXTR_DATA' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int EXTR_DATA ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
   ),

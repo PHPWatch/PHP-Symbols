@@ -39,6 +39,25 @@ return array (
     2 => 'Iterator',
     3 => 'SeekableIterator',
   ),
+  'constants' => 
+  array (
+    'DROP_NEW_LINE' => 
+    array (
+      'value' => 1,
+    ),
+    'READ_AHEAD' => 
+    array (
+      'value' => 2,
+    ),
+    'SKIP_EMPTY' => 
+    array (
+      'value' => 4,
+    ),
+    'READ_CSV' => 
+    array (
+      'value' => 8,
+    ),
+  ),
   'properties' => 
   array (
   ),

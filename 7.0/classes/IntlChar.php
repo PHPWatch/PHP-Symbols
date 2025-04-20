@@ -35,6 +35,2661 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'UNICODE_VERSION' => 
+    array (
+      'value' => '15.1',
+    ),
+    'CODEPOINT_MIN' => 
+    array (
+      'value' => 0,
+    ),
+    'CODEPOINT_MAX' => 
+    array (
+      'value' => 1114111,
+    ),
+    'FOLD_CASE_DEFAULT' => 
+    array (
+      'value' => 0,
+    ),
+    'FOLD_CASE_EXCLUDE_SPECIAL_I' => 
+    array (
+      'value' => 1,
+    ),
+    'NO_NUMERIC_VALUE' => 
+    array (
+      'value' => -123456789.0,
+    ),
+    'PROPERTY_ALPHABETIC' => 
+    array (
+      'value' => 0,
+    ),
+    'PROPERTY_BINARY_START' => 
+    array (
+      'value' => 0,
+    ),
+    'PROPERTY_ASCII_HEX_DIGIT' => 
+    array (
+      'value' => 1,
+    ),
+    'PROPERTY_BIDI_CONTROL' => 
+    array (
+      'value' => 2,
+    ),
+    'PROPERTY_BIDI_MIRRORED' => 
+    array (
+      'value' => 3,
+    ),
+    'PROPERTY_DASH' => 
+    array (
+      'value' => 4,
+    ),
+    'PROPERTY_DEFAULT_IGNORABLE_CODE_POINT' => 
+    array (
+      'value' => 5,
+    ),
+    'PROPERTY_DEPRECATED' => 
+    array (
+      'value' => 6,
+    ),
+    'PROPERTY_DIACRITIC' => 
+    array (
+      'value' => 7,
+    ),
+    'PROPERTY_EXTENDER' => 
+    array (
+      'value' => 8,
+    ),
+    'PROPERTY_FULL_COMPOSITION_EXCLUSION' => 
+    array (
+      'value' => 9,
+    ),
+    'PROPERTY_GRAPHEME_BASE' => 
+    array (
+      'value' => 10,
+    ),
+    'PROPERTY_GRAPHEME_EXTEND' => 
+    array (
+      'value' => 11,
+    ),
+    'PROPERTY_GRAPHEME_LINK' => 
+    array (
+      'value' => 12,
+    ),
+    'PROPERTY_HEX_DIGIT' => 
+    array (
+      'value' => 13,
+    ),
+    'PROPERTY_HYPHEN' => 
+    array (
+      'value' => 14,
+    ),
+    'PROPERTY_ID_CONTINUE' => 
+    array (
+      'value' => 15,
+    ),
+    'PROPERTY_ID_START' => 
+    array (
+      'value' => 16,
+    ),
+    'PROPERTY_IDEOGRAPHIC' => 
+    array (
+      'value' => 17,
+    ),
+    'PROPERTY_IDS_BINARY_OPERATOR' => 
+    array (
+      'value' => 18,
+    ),
+    'PROPERTY_IDS_TRINARY_OPERATOR' => 
+    array (
+      'value' => 19,
+    ),
+    'PROPERTY_JOIN_CONTROL' => 
+    array (
+      'value' => 20,
+    ),
+    'PROPERTY_LOGICAL_ORDER_EXCEPTION' => 
+    array (
+      'value' => 21,
+    ),
+    'PROPERTY_LOWERCASE' => 
+    array (
+      'value' => 22,
+    ),
+    'PROPERTY_MATH' => 
+    array (
+      'value' => 23,
+    ),
+    'PROPERTY_NONCHARACTER_CODE_POINT' => 
+    array (
+      'value' => 24,
+    ),
+    'PROPERTY_QUOTATION_MARK' => 
+    array (
+      'value' => 25,
+    ),
+    'PROPERTY_RADICAL' => 
+    array (
+      'value' => 26,
+    ),
+    'PROPERTY_SOFT_DOTTED' => 
+    array (
+      'value' => 27,
+    ),
+    'PROPERTY_TERMINAL_PUNCTUATION' => 
+    array (
+      'value' => 28,
+    ),
+    'PROPERTY_UNIFIED_IDEOGRAPH' => 
+    array (
+      'value' => 29,
+    ),
+    'PROPERTY_UPPERCASE' => 
+    array (
+      'value' => 30,
+    ),
+    'PROPERTY_WHITE_SPACE' => 
+    array (
+      'value' => 31,
+    ),
+    'PROPERTY_XID_CONTINUE' => 
+    array (
+      'value' => 32,
+    ),
+    'PROPERTY_XID_START' => 
+    array (
+      'value' => 33,
+    ),
+    'PROPERTY_CASE_SENSITIVE' => 
+    array (
+      'value' => 34,
+    ),
+    'PROPERTY_S_TERM' => 
+    array (
+      'value' => 35,
+    ),
+    'PROPERTY_VARIATION_SELECTOR' => 
+    array (
+      'value' => 36,
+    ),
+    'PROPERTY_NFD_INERT' => 
+    array (
+      'value' => 37,
+    ),
+    'PROPERTY_NFKD_INERT' => 
+    array (
+      'value' => 38,
+    ),
+    'PROPERTY_NFC_INERT' => 
+    array (
+      'value' => 39,
+    ),
+    'PROPERTY_NFKC_INERT' => 
+    array (
+      'value' => 40,
+    ),
+    'PROPERTY_SEGMENT_STARTER' => 
+    array (
+      'value' => 41,
+    ),
+    'PROPERTY_PATTERN_SYNTAX' => 
+    array (
+      'value' => 42,
+    ),
+    'PROPERTY_PATTERN_WHITE_SPACE' => 
+    array (
+      'value' => 43,
+    ),
+    'PROPERTY_POSIX_ALNUM' => 
+    array (
+      'value' => 44,
+    ),
+    'PROPERTY_POSIX_BLANK' => 
+    array (
+      'value' => 45,
+    ),
+    'PROPERTY_POSIX_GRAPH' => 
+    array (
+      'value' => 46,
+    ),
+    'PROPERTY_POSIX_PRINT' => 
+    array (
+      'value' => 47,
+    ),
+    'PROPERTY_POSIX_XDIGIT' => 
+    array (
+      'value' => 48,
+    ),
+    'PROPERTY_CASED' => 
+    array (
+      'value' => 49,
+    ),
+    'PROPERTY_CASE_IGNORABLE' => 
+    array (
+      'value' => 50,
+    ),
+    'PROPERTY_CHANGES_WHEN_LOWERCASED' => 
+    array (
+      'value' => 51,
+    ),
+    'PROPERTY_CHANGES_WHEN_UPPERCASED' => 
+    array (
+      'value' => 52,
+    ),
+    'PROPERTY_CHANGES_WHEN_TITLECASED' => 
+    array (
+      'value' => 53,
+    ),
+    'PROPERTY_CHANGES_WHEN_CASEFOLDED' => 
+    array (
+      'value' => 54,
+    ),
+    'PROPERTY_CHANGES_WHEN_CASEMAPPED' => 
+    array (
+      'value' => 55,
+    ),
+    'PROPERTY_CHANGES_WHEN_NFKC_CASEFOLDED' => 
+    array (
+      'value' => 56,
+    ),
+    'PROPERTY_BINARY_LIMIT' => 
+    array (
+      'value' => 75,
+    ),
+    'PROPERTY_BIDI_CLASS' => 
+    array (
+      'value' => 4096,
+    ),
+    'PROPERTY_INT_START' => 
+    array (
+      'value' => 4096,
+    ),
+    'PROPERTY_BLOCK' => 
+    array (
+      'value' => 4097,
+    ),
+    'PROPERTY_CANONICAL_COMBINING_CLASS' => 
+    array (
+      'value' => 4098,
+    ),
+    'PROPERTY_DECOMPOSITION_TYPE' => 
+    array (
+      'value' => 4099,
+    ),
+    'PROPERTY_EAST_ASIAN_WIDTH' => 
+    array (
+      'value' => 4100,
+    ),
+    'PROPERTY_GENERAL_CATEGORY' => 
+    array (
+      'value' => 4101,
+    ),
+    'PROPERTY_JOINING_GROUP' => 
+    array (
+      'value' => 4102,
+    ),
+    'PROPERTY_JOINING_TYPE' => 
+    array (
+      'value' => 4103,
+    ),
+    'PROPERTY_LINE_BREAK' => 
+    array (
+      'value' => 4104,
+    ),
+    'PROPERTY_NUMERIC_TYPE' => 
+    array (
+      'value' => 4105,
+    ),
+    'PROPERTY_SCRIPT' => 
+    array (
+      'value' => 4106,
+    ),
+    'PROPERTY_HANGUL_SYLLABLE_TYPE' => 
+    array (
+      'value' => 4107,
+    ),
+    'PROPERTY_NFD_QUICK_CHECK' => 
+    array (
+      'value' => 4108,
+    ),
+    'PROPERTY_NFKD_QUICK_CHECK' => 
+    array (
+      'value' => 4109,
+    ),
+    'PROPERTY_NFC_QUICK_CHECK' => 
+    array (
+      'value' => 4110,
+    ),
+    'PROPERTY_NFKC_QUICK_CHECK' => 
+    array (
+      'value' => 4111,
+    ),
+    'PROPERTY_LEAD_CANONICAL_COMBINING_CLASS' => 
+    array (
+      'value' => 4112,
+    ),
+    'PROPERTY_TRAIL_CANONICAL_COMBINING_CLASS' => 
+    array (
+      'value' => 4113,
+    ),
+    'PROPERTY_GRAPHEME_CLUSTER_BREAK' => 
+    array (
+      'value' => 4114,
+    ),
+    'PROPERTY_SENTENCE_BREAK' => 
+    array (
+      'value' => 4115,
+    ),
+    'PROPERTY_WORD_BREAK' => 
+    array (
+      'value' => 4116,
+    ),
+    'PROPERTY_BIDI_PAIRED_BRACKET_TYPE' => 
+    array (
+      'value' => 4117,
+    ),
+    'PROPERTY_INT_LIMIT' => 
+    array (
+      'value' => 4121,
+    ),
+    'PROPERTY_GENERAL_CATEGORY_MASK' => 
+    array (
+      'value' => 8192,
+    ),
+    'PROPERTY_MASK_START' => 
+    array (
+      'value' => 8192,
+    ),
+    'PROPERTY_MASK_LIMIT' => 
+    array (
+      'value' => 8193,
+    ),
+    'PROPERTY_NUMERIC_VALUE' => 
+    array (
+      'value' => 12288,
+    ),
+    'PROPERTY_DOUBLE_START' => 
+    array (
+      'value' => 12288,
+    ),
+    'PROPERTY_DOUBLE_LIMIT' => 
+    array (
+      'value' => 12289,
+    ),
+    'PROPERTY_AGE' => 
+    array (
+      'value' => 16384,
+    ),
+    'PROPERTY_STRING_START' => 
+    array (
+      'value' => 16384,
+    ),
+    'PROPERTY_BIDI_MIRRORING_GLYPH' => 
+    array (
+      'value' => 16385,
+    ),
+    'PROPERTY_CASE_FOLDING' => 
+    array (
+      'value' => 16386,
+    ),
+    'PROPERTY_ISO_COMMENT' => 
+    array (
+      'value' => 16387,
+    ),
+    'PROPERTY_LOWERCASE_MAPPING' => 
+    array (
+      'value' => 16388,
+    ),
+    'PROPERTY_NAME' => 
+    array (
+      'value' => 16389,
+    ),
+    'PROPERTY_SIMPLE_CASE_FOLDING' => 
+    array (
+      'value' => 16390,
+    ),
+    'PROPERTY_SIMPLE_LOWERCASE_MAPPING' => 
+    array (
+      'value' => 16391,
+    ),
+    'PROPERTY_SIMPLE_TITLECASE_MAPPING' => 
+    array (
+      'value' => 16392,
+    ),
+    'PROPERTY_SIMPLE_UPPERCASE_MAPPING' => 
+    array (
+      'value' => 16393,
+    ),
+    'PROPERTY_TITLECASE_MAPPING' => 
+    array (
+      'value' => 16394,
+    ),
+    'PROPERTY_UNICODE_1_NAME' => 
+    array (
+      'value' => 16395,
+    ),
+    'PROPERTY_UPPERCASE_MAPPING' => 
+    array (
+      'value' => 16396,
+    ),
+    'PROPERTY_BIDI_PAIRED_BRACKET' => 
+    array (
+      'value' => 16397,
+    ),
+    'PROPERTY_STRING_LIMIT' => 
+    array (
+      'value' => 16398,
+    ),
+    'PROPERTY_SCRIPT_EXTENSIONS' => 
+    array (
+      'value' => 28672,
+    ),
+    'PROPERTY_OTHER_PROPERTY_START' => 
+    array (
+      'value' => 28672,
+    ),
+    'PROPERTY_OTHER_PROPERTY_LIMIT' => 
+    array (
+      'value' => 28673,
+    ),
+    'PROPERTY_INVALID_CODE' => 
+    array (
+      'value' => -1,
+    ),
+    'CHAR_CATEGORY_UNASSIGNED' => 
+    array (
+      'value' => 0,
+    ),
+    'CHAR_CATEGORY_GENERAL_OTHER_TYPES' => 
+    array (
+      'value' => 0,
+    ),
+    'CHAR_CATEGORY_UPPERCASE_LETTER' => 
+    array (
+      'value' => 1,
+    ),
+    'CHAR_CATEGORY_LOWERCASE_LETTER' => 
+    array (
+      'value' => 2,
+    ),
+    'CHAR_CATEGORY_TITLECASE_LETTER' => 
+    array (
+      'value' => 3,
+    ),
+    'CHAR_CATEGORY_MODIFIER_LETTER' => 
+    array (
+      'value' => 4,
+    ),
+    'CHAR_CATEGORY_OTHER_LETTER' => 
+    array (
+      'value' => 5,
+    ),
+    'CHAR_CATEGORY_NON_SPACING_MARK' => 
+    array (
+      'value' => 6,
+    ),
+    'CHAR_CATEGORY_ENCLOSING_MARK' => 
+    array (
+      'value' => 7,
+    ),
+    'CHAR_CATEGORY_COMBINING_SPACING_MARK' => 
+    array (
+      'value' => 8,
+    ),
+    'CHAR_CATEGORY_DECIMAL_DIGIT_NUMBER' => 
+    array (
+      'value' => 9,
+    ),
+    'CHAR_CATEGORY_LETTER_NUMBER' => 
+    array (
+      'value' => 10,
+    ),
+    'CHAR_CATEGORY_OTHER_NUMBER' => 
+    array (
+      'value' => 11,
+    ),
+    'CHAR_CATEGORY_SPACE_SEPARATOR' => 
+    array (
+      'value' => 12,
+    ),
+    'CHAR_CATEGORY_LINE_SEPARATOR' => 
+    array (
+      'value' => 13,
+    ),
+    'CHAR_CATEGORY_PARAGRAPH_SEPARATOR' => 
+    array (
+      'value' => 14,
+    ),
+    'CHAR_CATEGORY_CONTROL_CHAR' => 
+    array (
+      'value' => 15,
+    ),
+    'CHAR_CATEGORY_FORMAT_CHAR' => 
+    array (
+      'value' => 16,
+    ),
+    'CHAR_CATEGORY_PRIVATE_USE_CHAR' => 
+    array (
+      'value' => 17,
+    ),
+    'CHAR_CATEGORY_SURROGATE' => 
+    array (
+      'value' => 18,
+    ),
+    'CHAR_CATEGORY_DASH_PUNCTUATION' => 
+    array (
+      'value' => 19,
+    ),
+    'CHAR_CATEGORY_START_PUNCTUATION' => 
+    array (
+      'value' => 20,
+    ),
+    'CHAR_CATEGORY_END_PUNCTUATION' => 
+    array (
+      'value' => 21,
+    ),
+    'CHAR_CATEGORY_CONNECTOR_PUNCTUATION' => 
+    array (
+      'value' => 22,
+    ),
+    'CHAR_CATEGORY_OTHER_PUNCTUATION' => 
+    array (
+      'value' => 23,
+    ),
+    'CHAR_CATEGORY_MATH_SYMBOL' => 
+    array (
+      'value' => 24,
+    ),
+    'CHAR_CATEGORY_CURRENCY_SYMBOL' => 
+    array (
+      'value' => 25,
+    ),
+    'CHAR_CATEGORY_MODIFIER_SYMBOL' => 
+    array (
+      'value' => 26,
+    ),
+    'CHAR_CATEGORY_OTHER_SYMBOL' => 
+    array (
+      'value' => 27,
+    ),
+    'CHAR_CATEGORY_INITIAL_PUNCTUATION' => 
+    array (
+      'value' => 28,
+    ),
+    'CHAR_CATEGORY_FINAL_PUNCTUATION' => 
+    array (
+      'value' => 29,
+    ),
+    'CHAR_CATEGORY_CHAR_CATEGORY_COUNT' => 
+    array (
+      'value' => 30,
+    ),
+    'CHAR_DIRECTION_LEFT_TO_RIGHT' => 
+    array (
+      'value' => 0,
+    ),
+    'CHAR_DIRECTION_RIGHT_TO_LEFT' => 
+    array (
+      'value' => 1,
+    ),
+    'CHAR_DIRECTION_EUROPEAN_NUMBER' => 
+    array (
+      'value' => 2,
+    ),
+    'CHAR_DIRECTION_EUROPEAN_NUMBER_SEPARATOR' => 
+    array (
+      'value' => 3,
+    ),
+    'CHAR_DIRECTION_EUROPEAN_NUMBER_TERMINATOR' => 
+    array (
+      'value' => 4,
+    ),
+    'CHAR_DIRECTION_ARABIC_NUMBER' => 
+    array (
+      'value' => 5,
+    ),
+    'CHAR_DIRECTION_COMMON_NUMBER_SEPARATOR' => 
+    array (
+      'value' => 6,
+    ),
+    'CHAR_DIRECTION_BLOCK_SEPARATOR' => 
+    array (
+      'value' => 7,
+    ),
+    'CHAR_DIRECTION_SEGMENT_SEPARATOR' => 
+    array (
+      'value' => 8,
+    ),
+    'CHAR_DIRECTION_WHITE_SPACE_NEUTRAL' => 
+    array (
+      'value' => 9,
+    ),
+    'CHAR_DIRECTION_OTHER_NEUTRAL' => 
+    array (
+      'value' => 10,
+    ),
+    'CHAR_DIRECTION_LEFT_TO_RIGHT_EMBEDDING' => 
+    array (
+      'value' => 11,
+    ),
+    'CHAR_DIRECTION_LEFT_TO_RIGHT_OVERRIDE' => 
+    array (
+      'value' => 12,
+    ),
+    'CHAR_DIRECTION_RIGHT_TO_LEFT_ARABIC' => 
+    array (
+      'value' => 13,
+    ),
+    'CHAR_DIRECTION_RIGHT_TO_LEFT_EMBEDDING' => 
+    array (
+      'value' => 14,
+    ),
+    'CHAR_DIRECTION_RIGHT_TO_LEFT_OVERRIDE' => 
+    array (
+      'value' => 15,
+    ),
+    'CHAR_DIRECTION_POP_DIRECTIONAL_FORMAT' => 
+    array (
+      'value' => 16,
+    ),
+    'CHAR_DIRECTION_DIR_NON_SPACING_MARK' => 
+    array (
+      'value' => 17,
+    ),
+    'CHAR_DIRECTION_BOUNDARY_NEUTRAL' => 
+    array (
+      'value' => 18,
+    ),
+    'CHAR_DIRECTION_FIRST_STRONG_ISOLATE' => 
+    array (
+      'value' => 19,
+    ),
+    'CHAR_DIRECTION_LEFT_TO_RIGHT_ISOLATE' => 
+    array (
+      'value' => 20,
+    ),
+    'CHAR_DIRECTION_RIGHT_TO_LEFT_ISOLATE' => 
+    array (
+      'value' => 21,
+    ),
+    'CHAR_DIRECTION_POP_DIRECTIONAL_ISOLATE' => 
+    array (
+      'value' => 22,
+    ),
+    'CHAR_DIRECTION_CHAR_DIRECTION_COUNT' => 
+    array (
+      'value' => 23,
+    ),
+    'BLOCK_CODE_NO_BLOCK' => 
+    array (
+      'value' => 0,
+    ),
+    'BLOCK_CODE_BASIC_LATIN' => 
+    array (
+      'value' => 1,
+    ),
+    'BLOCK_CODE_LATIN_1_SUPPLEMENT' => 
+    array (
+      'value' => 2,
+    ),
+    'BLOCK_CODE_LATIN_EXTENDED_A' => 
+    array (
+      'value' => 3,
+    ),
+    'BLOCK_CODE_LATIN_EXTENDED_B' => 
+    array (
+      'value' => 4,
+    ),
+    'BLOCK_CODE_IPA_EXTENSIONS' => 
+    array (
+      'value' => 5,
+    ),
+    'BLOCK_CODE_SPACING_MODIFIER_LETTERS' => 
+    array (
+      'value' => 6,
+    ),
+    'BLOCK_CODE_COMBINING_DIACRITICAL_MARKS' => 
+    array (
+      'value' => 7,
+    ),
+    'BLOCK_CODE_GREEK' => 
+    array (
+      'value' => 8,
+    ),
+    'BLOCK_CODE_CYRILLIC' => 
+    array (
+      'value' => 9,
+    ),
+    'BLOCK_CODE_ARMENIAN' => 
+    array (
+      'value' => 10,
+    ),
+    'BLOCK_CODE_HEBREW' => 
+    array (
+      'value' => 11,
+    ),
+    'BLOCK_CODE_ARABIC' => 
+    array (
+      'value' => 12,
+    ),
+    'BLOCK_CODE_SYRIAC' => 
+    array (
+      'value' => 13,
+    ),
+    'BLOCK_CODE_THAANA' => 
+    array (
+      'value' => 14,
+    ),
+    'BLOCK_CODE_DEVANAGARI' => 
+    array (
+      'value' => 15,
+    ),
+    'BLOCK_CODE_BENGALI' => 
+    array (
+      'value' => 16,
+    ),
+    'BLOCK_CODE_GURMUKHI' => 
+    array (
+      'value' => 17,
+    ),
+    'BLOCK_CODE_GUJARATI' => 
+    array (
+      'value' => 18,
+    ),
+    'BLOCK_CODE_ORIYA' => 
+    array (
+      'value' => 19,
+    ),
+    'BLOCK_CODE_TAMIL' => 
+    array (
+      'value' => 20,
+    ),
+    'BLOCK_CODE_TELUGU' => 
+    array (
+      'value' => 21,
+    ),
+    'BLOCK_CODE_KANNADA' => 
+    array (
+      'value' => 22,
+    ),
+    'BLOCK_CODE_MALAYALAM' => 
+    array (
+      'value' => 23,
+    ),
+    'BLOCK_CODE_SINHALA' => 
+    array (
+      'value' => 24,
+    ),
+    'BLOCK_CODE_THAI' => 
+    array (
+      'value' => 25,
+    ),
+    'BLOCK_CODE_LAO' => 
+    array (
+      'value' => 26,
+    ),
+    'BLOCK_CODE_TIBETAN' => 
+    array (
+      'value' => 27,
+    ),
+    'BLOCK_CODE_MYANMAR' => 
+    array (
+      'value' => 28,
+    ),
+    'BLOCK_CODE_GEORGIAN' => 
+    array (
+      'value' => 29,
+    ),
+    'BLOCK_CODE_HANGUL_JAMO' => 
+    array (
+      'value' => 30,
+    ),
+    'BLOCK_CODE_ETHIOPIC' => 
+    array (
+      'value' => 31,
+    ),
+    'BLOCK_CODE_CHEROKEE' => 
+    array (
+      'value' => 32,
+    ),
+    'BLOCK_CODE_UNIFIED_CANADIAN_ABORIGINAL_SYLLABICS' => 
+    array (
+      'value' => 33,
+    ),
+    'BLOCK_CODE_OGHAM' => 
+    array (
+      'value' => 34,
+    ),
+    'BLOCK_CODE_RUNIC' => 
+    array (
+      'value' => 35,
+    ),
+    'BLOCK_CODE_KHMER' => 
+    array (
+      'value' => 36,
+    ),
+    'BLOCK_CODE_MONGOLIAN' => 
+    array (
+      'value' => 37,
+    ),
+    'BLOCK_CODE_LATIN_EXTENDED_ADDITIONAL' => 
+    array (
+      'value' => 38,
+    ),
+    'BLOCK_CODE_GREEK_EXTENDED' => 
+    array (
+      'value' => 39,
+    ),
+    'BLOCK_CODE_GENERAL_PUNCTUATION' => 
+    array (
+      'value' => 40,
+    ),
+    'BLOCK_CODE_SUPERSCRIPTS_AND_SUBSCRIPTS' => 
+    array (
+      'value' => 41,
+    ),
+    'BLOCK_CODE_CURRENCY_SYMBOLS' => 
+    array (
+      'value' => 42,
+    ),
+    'BLOCK_CODE_COMBINING_MARKS_FOR_SYMBOLS' => 
+    array (
+      'value' => 43,
+    ),
+    'BLOCK_CODE_LETTERLIKE_SYMBOLS' => 
+    array (
+      'value' => 44,
+    ),
+    'BLOCK_CODE_NUMBER_FORMS' => 
+    array (
+      'value' => 45,
+    ),
+    'BLOCK_CODE_ARROWS' => 
+    array (
+      'value' => 46,
+    ),
+    'BLOCK_CODE_MATHEMATICAL_OPERATORS' => 
+    array (
+      'value' => 47,
+    ),
+    'BLOCK_CODE_MISCELLANEOUS_TECHNICAL' => 
+    array (
+      'value' => 48,
+    ),
+    'BLOCK_CODE_CONTROL_PICTURES' => 
+    array (
+      'value' => 49,
+    ),
+    'BLOCK_CODE_OPTICAL_CHARACTER_RECOGNITION' => 
+    array (
+      'value' => 50,
+    ),
+    'BLOCK_CODE_ENCLOSED_ALPHANUMERICS' => 
+    array (
+      'value' => 51,
+    ),
+    'BLOCK_CODE_BOX_DRAWING' => 
+    array (
+      'value' => 52,
+    ),
+    'BLOCK_CODE_BLOCK_ELEMENTS' => 
+    array (
+      'value' => 53,
+    ),
+    'BLOCK_CODE_GEOMETRIC_SHAPES' => 
+    array (
+      'value' => 54,
+    ),
+    'BLOCK_CODE_MISCELLANEOUS_SYMBOLS' => 
+    array (
+      'value' => 55,
+    ),
+    'BLOCK_CODE_DINGBATS' => 
+    array (
+      'value' => 56,
+    ),
+    'BLOCK_CODE_BRAILLE_PATTERNS' => 
+    array (
+      'value' => 57,
+    ),
+    'BLOCK_CODE_CJK_RADICALS_SUPPLEMENT' => 
+    array (
+      'value' => 58,
+    ),
+    'BLOCK_CODE_KANGXI_RADICALS' => 
+    array (
+      'value' => 59,
+    ),
+    'BLOCK_CODE_IDEOGRAPHIC_DESCRIPTION_CHARACTERS' => 
+    array (
+      'value' => 60,
+    ),
+    'BLOCK_CODE_CJK_SYMBOLS_AND_PUNCTUATION' => 
+    array (
+      'value' => 61,
+    ),
+    'BLOCK_CODE_HIRAGANA' => 
+    array (
+      'value' => 62,
+    ),
+    'BLOCK_CODE_KATAKANA' => 
+    array (
+      'value' => 63,
+    ),
+    'BLOCK_CODE_BOPOMOFO' => 
+    array (
+      'value' => 64,
+    ),
+    'BLOCK_CODE_HANGUL_COMPATIBILITY_JAMO' => 
+    array (
+      'value' => 65,
+    ),
+    'BLOCK_CODE_KANBUN' => 
+    array (
+      'value' => 66,
+    ),
+    'BLOCK_CODE_BOPOMOFO_EXTENDED' => 
+    array (
+      'value' => 67,
+    ),
+    'BLOCK_CODE_ENCLOSED_CJK_LETTERS_AND_MONTHS' => 
+    array (
+      'value' => 68,
+    ),
+    'BLOCK_CODE_CJK_COMPATIBILITY' => 
+    array (
+      'value' => 69,
+    ),
+    'BLOCK_CODE_CJK_UNIFIED_IDEOGRAPHS_EXTENSION_A' => 
+    array (
+      'value' => 70,
+    ),
+    'BLOCK_CODE_CJK_UNIFIED_IDEOGRAPHS' => 
+    array (
+      'value' => 71,
+    ),
+    'BLOCK_CODE_YI_SYLLABLES' => 
+    array (
+      'value' => 72,
+    ),
+    'BLOCK_CODE_YI_RADICALS' => 
+    array (
+      'value' => 73,
+    ),
+    'BLOCK_CODE_HANGUL_SYLLABLES' => 
+    array (
+      'value' => 74,
+    ),
+    'BLOCK_CODE_HIGH_SURROGATES' => 
+    array (
+      'value' => 75,
+    ),
+    'BLOCK_CODE_HIGH_PRIVATE_USE_SURROGATES' => 
+    array (
+      'value' => 76,
+    ),
+    'BLOCK_CODE_LOW_SURROGATES' => 
+    array (
+      'value' => 77,
+    ),
+    'BLOCK_CODE_PRIVATE_USE_AREA' => 
+    array (
+      'value' => 78,
+    ),
+    'BLOCK_CODE_PRIVATE_USE' => 
+    array (
+      'value' => 78,
+    ),
+    'BLOCK_CODE_CJK_COMPATIBILITY_IDEOGRAPHS' => 
+    array (
+      'value' => 79,
+    ),
+    'BLOCK_CODE_ALPHABETIC_PRESENTATION_FORMS' => 
+    array (
+      'value' => 80,
+    ),
+    'BLOCK_CODE_ARABIC_PRESENTATION_FORMS_A' => 
+    array (
+      'value' => 81,
+    ),
+    'BLOCK_CODE_COMBINING_HALF_MARKS' => 
+    array (
+      'value' => 82,
+    ),
+    'BLOCK_CODE_CJK_COMPATIBILITY_FORMS' => 
+    array (
+      'value' => 83,
+    ),
+    'BLOCK_CODE_SMALL_FORM_VARIANTS' => 
+    array (
+      'value' => 84,
+    ),
+    'BLOCK_CODE_ARABIC_PRESENTATION_FORMS_B' => 
+    array (
+      'value' => 85,
+    ),
+    'BLOCK_CODE_SPECIALS' => 
+    array (
+      'value' => 86,
+    ),
+    'BLOCK_CODE_HALFWIDTH_AND_FULLWIDTH_FORMS' => 
+    array (
+      'value' => 87,
+    ),
+    'BLOCK_CODE_OLD_ITALIC' => 
+    array (
+      'value' => 88,
+    ),
+    'BLOCK_CODE_GOTHIC' => 
+    array (
+      'value' => 89,
+    ),
+    'BLOCK_CODE_DESERET' => 
+    array (
+      'value' => 90,
+    ),
+    'BLOCK_CODE_BYZANTINE_MUSICAL_SYMBOLS' => 
+    array (
+      'value' => 91,
+    ),
+    'BLOCK_CODE_MUSICAL_SYMBOLS' => 
+    array (
+      'value' => 92,
+    ),
+    'BLOCK_CODE_MATHEMATICAL_ALPHANUMERIC_SYMBOLS' => 
+    array (
+      'value' => 93,
+    ),
+    'BLOCK_CODE_CJK_UNIFIED_IDEOGRAPHS_EXTENSION_B' => 
+    array (
+      'value' => 94,
+    ),
+    'BLOCK_CODE_CJK_COMPATIBILITY_IDEOGRAPHS_SUPPLEMENT' => 
+    array (
+      'value' => 95,
+    ),
+    'BLOCK_CODE_TAGS' => 
+    array (
+      'value' => 96,
+    ),
+    'BLOCK_CODE_CYRILLIC_SUPPLEMENT' => 
+    array (
+      'value' => 97,
+    ),
+    'BLOCK_CODE_CYRILLIC_SUPPLEMENTARY' => 
+    array (
+      'value' => 97,
+    ),
+    'BLOCK_CODE_TAGALOG' => 
+    array (
+      'value' => 98,
+    ),
+    'BLOCK_CODE_HANUNOO' => 
+    array (
+      'value' => 99,
+    ),
+    'BLOCK_CODE_BUHID' => 
+    array (
+      'value' => 100,
+    ),
+    'BLOCK_CODE_TAGBANWA' => 
+    array (
+      'value' => 101,
+    ),
+    'BLOCK_CODE_MISCELLANEOUS_MATHEMATICAL_SYMBOLS_A' => 
+    array (
+      'value' => 102,
+    ),
+    'BLOCK_CODE_SUPPLEMENTAL_ARROWS_A' => 
+    array (
+      'value' => 103,
+    ),
+    'BLOCK_CODE_SUPPLEMENTAL_ARROWS_B' => 
+    array (
+      'value' => 104,
+    ),
+    'BLOCK_CODE_MISCELLANEOUS_MATHEMATICAL_SYMBOLS_B' => 
+    array (
+      'value' => 105,
+    ),
+    'BLOCK_CODE_SUPPLEMENTAL_MATHEMATICAL_OPERATORS' => 
+    array (
+      'value' => 106,
+    ),
+    'BLOCK_CODE_KATAKANA_PHONETIC_EXTENSIONS' => 
+    array (
+      'value' => 107,
+    ),
+    'BLOCK_CODE_VARIATION_SELECTORS' => 
+    array (
+      'value' => 108,
+    ),
+    'BLOCK_CODE_SUPPLEMENTARY_PRIVATE_USE_AREA_A' => 
+    array (
+      'value' => 109,
+    ),
+    'BLOCK_CODE_SUPPLEMENTARY_PRIVATE_USE_AREA_B' => 
+    array (
+      'value' => 110,
+    ),
+    'BLOCK_CODE_LIMBU' => 
+    array (
+      'value' => 111,
+    ),
+    'BLOCK_CODE_TAI_LE' => 
+    array (
+      'value' => 112,
+    ),
+    'BLOCK_CODE_KHMER_SYMBOLS' => 
+    array (
+      'value' => 113,
+    ),
+    'BLOCK_CODE_PHONETIC_EXTENSIONS' => 
+    array (
+      'value' => 114,
+    ),
+    'BLOCK_CODE_MISCELLANEOUS_SYMBOLS_AND_ARROWS' => 
+    array (
+      'value' => 115,
+    ),
+    'BLOCK_CODE_YIJING_HEXAGRAM_SYMBOLS' => 
+    array (
+      'value' => 116,
+    ),
+    'BLOCK_CODE_LINEAR_B_SYLLABARY' => 
+    array (
+      'value' => 117,
+    ),
+    'BLOCK_CODE_LINEAR_B_IDEOGRAMS' => 
+    array (
+      'value' => 118,
+    ),
+    'BLOCK_CODE_AEGEAN_NUMBERS' => 
+    array (
+      'value' => 119,
+    ),
+    'BLOCK_CODE_UGARITIC' => 
+    array (
+      'value' => 120,
+    ),
+    'BLOCK_CODE_SHAVIAN' => 
+    array (
+      'value' => 121,
+    ),
+    'BLOCK_CODE_OSMANYA' => 
+    array (
+      'value' => 122,
+    ),
+    'BLOCK_CODE_CYPRIOT_SYLLABARY' => 
+    array (
+      'value' => 123,
+    ),
+    'BLOCK_CODE_TAI_XUAN_JING_SYMBOLS' => 
+    array (
+      'value' => 124,
+    ),
+    'BLOCK_CODE_VARIATION_SELECTORS_SUPPLEMENT' => 
+    array (
+      'value' => 125,
+    ),
+    'BLOCK_CODE_ANCIENT_GREEK_MUSICAL_NOTATION' => 
+    array (
+      'value' => 126,
+    ),
+    'BLOCK_CODE_ANCIENT_GREEK_NUMBERS' => 
+    array (
+      'value' => 127,
+    ),
+    'BLOCK_CODE_ARABIC_SUPPLEMENT' => 
+    array (
+      'value' => 128,
+    ),
+    'BLOCK_CODE_BUGINESE' => 
+    array (
+      'value' => 129,
+    ),
+    'BLOCK_CODE_CJK_STROKES' => 
+    array (
+      'value' => 130,
+    ),
+    'BLOCK_CODE_COMBINING_DIACRITICAL_MARKS_SUPPLEMENT' => 
+    array (
+      'value' => 131,
+    ),
+    'BLOCK_CODE_COPTIC' => 
+    array (
+      'value' => 132,
+    ),
+    'BLOCK_CODE_ETHIOPIC_EXTENDED' => 
+    array (
+      'value' => 133,
+    ),
+    'BLOCK_CODE_ETHIOPIC_SUPPLEMENT' => 
+    array (
+      'value' => 134,
+    ),
+    'BLOCK_CODE_GEORGIAN_SUPPLEMENT' => 
+    array (
+      'value' => 135,
+    ),
+    'BLOCK_CODE_GLAGOLITIC' => 
+    array (
+      'value' => 136,
+    ),
+    'BLOCK_CODE_KHAROSHTHI' => 
+    array (
+      'value' => 137,
+    ),
+    'BLOCK_CODE_MODIFIER_TONE_LETTERS' => 
+    array (
+      'value' => 138,
+    ),
+    'BLOCK_CODE_NEW_TAI_LUE' => 
+    array (
+      'value' => 139,
+    ),
+    'BLOCK_CODE_OLD_PERSIAN' => 
+    array (
+      'value' => 140,
+    ),
+    'BLOCK_CODE_PHONETIC_EXTENSIONS_SUPPLEMENT' => 
+    array (
+      'value' => 141,
+    ),
+    'BLOCK_CODE_SUPPLEMENTAL_PUNCTUATION' => 
+    array (
+      'value' => 142,
+    ),
+    'BLOCK_CODE_SYLOTI_NAGRI' => 
+    array (
+      'value' => 143,
+    ),
+    'BLOCK_CODE_TIFINAGH' => 
+    array (
+      'value' => 144,
+    ),
+    'BLOCK_CODE_VERTICAL_FORMS' => 
+    array (
+      'value' => 145,
+    ),
+    'BLOCK_CODE_NKO' => 
+    array (
+      'value' => 146,
+    ),
+    'BLOCK_CODE_BALINESE' => 
+    array (
+      'value' => 147,
+    ),
+    'BLOCK_CODE_LATIN_EXTENDED_C' => 
+    array (
+      'value' => 148,
+    ),
+    'BLOCK_CODE_LATIN_EXTENDED_D' => 
+    array (
+      'value' => 149,
+    ),
+    'BLOCK_CODE_PHAGS_PA' => 
+    array (
+      'value' => 150,
+    ),
+    'BLOCK_CODE_PHOENICIAN' => 
+    array (
+      'value' => 151,
+    ),
+    'BLOCK_CODE_CUNEIFORM' => 
+    array (
+      'value' => 152,
+    ),
+    'BLOCK_CODE_CUNEIFORM_NUMBERS_AND_PUNCTUATION' => 
+    array (
+      'value' => 153,
+    ),
+    'BLOCK_CODE_COUNTING_ROD_NUMERALS' => 
+    array (
+      'value' => 154,
+    ),
+    'BLOCK_CODE_SUNDANESE' => 
+    array (
+      'value' => 155,
+    ),
+    'BLOCK_CODE_LEPCHA' => 
+    array (
+      'value' => 156,
+    ),
+    'BLOCK_CODE_OL_CHIKI' => 
+    array (
+      'value' => 157,
+    ),
+    'BLOCK_CODE_CYRILLIC_EXTENDED_A' => 
+    array (
+      'value' => 158,
+    ),
+    'BLOCK_CODE_VAI' => 
+    array (
+      'value' => 159,
+    ),
+    'BLOCK_CODE_CYRILLIC_EXTENDED_B' => 
+    array (
+      'value' => 160,
+    ),
+    'BLOCK_CODE_SAURASHTRA' => 
+    array (
+      'value' => 161,
+    ),
+    'BLOCK_CODE_KAYAH_LI' => 
+    array (
+      'value' => 162,
+    ),
+    'BLOCK_CODE_REJANG' => 
+    array (
+      'value' => 163,
+    ),
+    'BLOCK_CODE_CHAM' => 
+    array (
+      'value' => 164,
+    ),
+    'BLOCK_CODE_ANCIENT_SYMBOLS' => 
+    array (
+      'value' => 165,
+    ),
+    'BLOCK_CODE_PHAISTOS_DISC' => 
+    array (
+      'value' => 166,
+    ),
+    'BLOCK_CODE_LYCIAN' => 
+    array (
+      'value' => 167,
+    ),
+    'BLOCK_CODE_CARIAN' => 
+    array (
+      'value' => 168,
+    ),
+    'BLOCK_CODE_LYDIAN' => 
+    array (
+      'value' => 169,
+    ),
+    'BLOCK_CODE_MAHJONG_TILES' => 
+    array (
+      'value' => 170,
+    ),
+    'BLOCK_CODE_DOMINO_TILES' => 
+    array (
+      'value' => 171,
+    ),
+    'BLOCK_CODE_SAMARITAN' => 
+    array (
+      'value' => 172,
+    ),
+    'BLOCK_CODE_UNIFIED_CANADIAN_ABORIGINAL_SYLLABICS_EXTENDED' => 
+    array (
+      'value' => 173,
+    ),
+    'BLOCK_CODE_TAI_THAM' => 
+    array (
+      'value' => 174,
+    ),
+    'BLOCK_CODE_VEDIC_EXTENSIONS' => 
+    array (
+      'value' => 175,
+    ),
+    'BLOCK_CODE_LISU' => 
+    array (
+      'value' => 176,
+    ),
+    'BLOCK_CODE_BAMUM' => 
+    array (
+      'value' => 177,
+    ),
+    'BLOCK_CODE_COMMON_INDIC_NUMBER_FORMS' => 
+    array (
+      'value' => 178,
+    ),
+    'BLOCK_CODE_DEVANAGARI_EXTENDED' => 
+    array (
+      'value' => 179,
+    ),
+    'BLOCK_CODE_HANGUL_JAMO_EXTENDED_A' => 
+    array (
+      'value' => 180,
+    ),
+    'BLOCK_CODE_JAVANESE' => 
+    array (
+      'value' => 181,
+    ),
+    'BLOCK_CODE_MYANMAR_EXTENDED_A' => 
+    array (
+      'value' => 182,
+    ),
+    'BLOCK_CODE_TAI_VIET' => 
+    array (
+      'value' => 183,
+    ),
+    'BLOCK_CODE_MEETEI_MAYEK' => 
+    array (
+      'value' => 184,
+    ),
+    'BLOCK_CODE_HANGUL_JAMO_EXTENDED_B' => 
+    array (
+      'value' => 185,
+    ),
+    'BLOCK_CODE_IMPERIAL_ARAMAIC' => 
+    array (
+      'value' => 186,
+    ),
+    'BLOCK_CODE_OLD_SOUTH_ARABIAN' => 
+    array (
+      'value' => 187,
+    ),
+    'BLOCK_CODE_AVESTAN' => 
+    array (
+      'value' => 188,
+    ),
+    'BLOCK_CODE_INSCRIPTIONAL_PARTHIAN' => 
+    array (
+      'value' => 189,
+    ),
+    'BLOCK_CODE_INSCRIPTIONAL_PAHLAVI' => 
+    array (
+      'value' => 190,
+    ),
+    'BLOCK_CODE_OLD_TURKIC' => 
+    array (
+      'value' => 191,
+    ),
+    'BLOCK_CODE_RUMI_NUMERAL_SYMBOLS' => 
+    array (
+      'value' => 192,
+    ),
+    'BLOCK_CODE_KAITHI' => 
+    array (
+      'value' => 193,
+    ),
+    'BLOCK_CODE_EGYPTIAN_HIEROGLYPHS' => 
+    array (
+      'value' => 194,
+    ),
+    'BLOCK_CODE_ENCLOSED_ALPHANUMERIC_SUPPLEMENT' => 
+    array (
+      'value' => 195,
+    ),
+    'BLOCK_CODE_ENCLOSED_IDEOGRAPHIC_SUPPLEMENT' => 
+    array (
+      'value' => 196,
+    ),
+    'BLOCK_CODE_CJK_UNIFIED_IDEOGRAPHS_EXTENSION_C' => 
+    array (
+      'value' => 197,
+    ),
+    'BLOCK_CODE_MANDAIC' => 
+    array (
+      'value' => 198,
+    ),
+    'BLOCK_CODE_BATAK' => 
+    array (
+      'value' => 199,
+    ),
+    'BLOCK_CODE_ETHIOPIC_EXTENDED_A' => 
+    array (
+      'value' => 200,
+    ),
+    'BLOCK_CODE_BRAHMI' => 
+    array (
+      'value' => 201,
+    ),
+    'BLOCK_CODE_BAMUM_SUPPLEMENT' => 
+    array (
+      'value' => 202,
+    ),
+    'BLOCK_CODE_KANA_SUPPLEMENT' => 
+    array (
+      'value' => 203,
+    ),
+    'BLOCK_CODE_PLAYING_CARDS' => 
+    array (
+      'value' => 204,
+    ),
+    'BLOCK_CODE_MISCELLANEOUS_SYMBOLS_AND_PICTOGRAPHS' => 
+    array (
+      'value' => 205,
+    ),
+    'BLOCK_CODE_EMOTICONS' => 
+    array (
+      'value' => 206,
+    ),
+    'BLOCK_CODE_TRANSPORT_AND_MAP_SYMBOLS' => 
+    array (
+      'value' => 207,
+    ),
+    'BLOCK_CODE_ALCHEMICAL_SYMBOLS' => 
+    array (
+      'value' => 208,
+    ),
+    'BLOCK_CODE_CJK_UNIFIED_IDEOGRAPHS_EXTENSION_D' => 
+    array (
+      'value' => 209,
+    ),
+    'BLOCK_CODE_ARABIC_EXTENDED_A' => 
+    array (
+      'value' => 210,
+    ),
+    'BLOCK_CODE_ARABIC_MATHEMATICAL_ALPHABETIC_SYMBOLS' => 
+    array (
+      'value' => 211,
+    ),
+    'BLOCK_CODE_CHAKMA' => 
+    array (
+      'value' => 212,
+    ),
+    'BLOCK_CODE_MEETEI_MAYEK_EXTENSIONS' => 
+    array (
+      'value' => 213,
+    ),
+    'BLOCK_CODE_MEROITIC_CURSIVE' => 
+    array (
+      'value' => 214,
+    ),
+    'BLOCK_CODE_MEROITIC_HIEROGLYPHS' => 
+    array (
+      'value' => 215,
+    ),
+    'BLOCK_CODE_MIAO' => 
+    array (
+      'value' => 216,
+    ),
+    'BLOCK_CODE_SHARADA' => 
+    array (
+      'value' => 217,
+    ),
+    'BLOCK_CODE_SORA_SOMPENG' => 
+    array (
+      'value' => 218,
+    ),
+    'BLOCK_CODE_SUNDANESE_SUPPLEMENT' => 
+    array (
+      'value' => 219,
+    ),
+    'BLOCK_CODE_TAKRI' => 
+    array (
+      'value' => 220,
+    ),
+    'BLOCK_CODE_BASSA_VAH' => 
+    array (
+      'value' => 221,
+    ),
+    'BLOCK_CODE_CAUCASIAN_ALBANIAN' => 
+    array (
+      'value' => 222,
+    ),
+    'BLOCK_CODE_COPTIC_EPACT_NUMBERS' => 
+    array (
+      'value' => 223,
+    ),
+    'BLOCK_CODE_COMBINING_DIACRITICAL_MARKS_EXTENDED' => 
+    array (
+      'value' => 224,
+    ),
+    'BLOCK_CODE_DUPLOYAN' => 
+    array (
+      'value' => 225,
+    ),
+    'BLOCK_CODE_ELBASAN' => 
+    array (
+      'value' => 226,
+    ),
+    'BLOCK_CODE_GEOMETRIC_SHAPES_EXTENDED' => 
+    array (
+      'value' => 227,
+    ),
+    'BLOCK_CODE_GRANTHA' => 
+    array (
+      'value' => 228,
+    ),
+    'BLOCK_CODE_KHOJKI' => 
+    array (
+      'value' => 229,
+    ),
+    'BLOCK_CODE_KHUDAWADI' => 
+    array (
+      'value' => 230,
+    ),
+    'BLOCK_CODE_LATIN_EXTENDED_E' => 
+    array (
+      'value' => 231,
+    ),
+    'BLOCK_CODE_LINEAR_A' => 
+    array (
+      'value' => 232,
+    ),
+    'BLOCK_CODE_MAHAJANI' => 
+    array (
+      'value' => 233,
+    ),
+    'BLOCK_CODE_MANICHAEAN' => 
+    array (
+      'value' => 234,
+    ),
+    'BLOCK_CODE_MENDE_KIKAKUI' => 
+    array (
+      'value' => 235,
+    ),
+    'BLOCK_CODE_MODI' => 
+    array (
+      'value' => 236,
+    ),
+    'BLOCK_CODE_MRO' => 
+    array (
+      'value' => 237,
+    ),
+    'BLOCK_CODE_MYANMAR_EXTENDED_B' => 
+    array (
+      'value' => 238,
+    ),
+    'BLOCK_CODE_NABATAEAN' => 
+    array (
+      'value' => 239,
+    ),
+    'BLOCK_CODE_OLD_NORTH_ARABIAN' => 
+    array (
+      'value' => 240,
+    ),
+    'BLOCK_CODE_OLD_PERMIC' => 
+    array (
+      'value' => 241,
+    ),
+    'BLOCK_CODE_ORNAMENTAL_DINGBATS' => 
+    array (
+      'value' => 242,
+    ),
+    'BLOCK_CODE_PAHAWH_HMONG' => 
+    array (
+      'value' => 243,
+    ),
+    'BLOCK_CODE_PALMYRENE' => 
+    array (
+      'value' => 244,
+    ),
+    'BLOCK_CODE_PAU_CIN_HAU' => 
+    array (
+      'value' => 245,
+    ),
+    'BLOCK_CODE_PSALTER_PAHLAVI' => 
+    array (
+      'value' => 246,
+    ),
+    'BLOCK_CODE_SHORTHAND_FORMAT_CONTROLS' => 
+    array (
+      'value' => 247,
+    ),
+    'BLOCK_CODE_SIDDHAM' => 
+    array (
+      'value' => 248,
+    ),
+    'BLOCK_CODE_SINHALA_ARCHAIC_NUMBERS' => 
+    array (
+      'value' => 249,
+    ),
+    'BLOCK_CODE_SUPPLEMENTAL_ARROWS_C' => 
+    array (
+      'value' => 250,
+    ),
+    'BLOCK_CODE_TIRHUTA' => 
+    array (
+      'value' => 251,
+    ),
+    'BLOCK_CODE_WARANG_CITI' => 
+    array (
+      'value' => 252,
+    ),
+    'BLOCK_CODE_COUNT' => 
+    array (
+      'value' => 329,
+    ),
+    'BLOCK_CODE_INVALID_CODE' => 
+    array (
+      'value' => -1,
+    ),
+    'BPT_NONE' => 
+    array (
+      'value' => 0,
+    ),
+    'BPT_OPEN' => 
+    array (
+      'value' => 1,
+    ),
+    'BPT_CLOSE' => 
+    array (
+      'value' => 2,
+    ),
+    'BPT_COUNT' => 
+    array (
+      'value' => 3,
+    ),
+    'EA_NEUTRAL' => 
+    array (
+      'value' => 0,
+    ),
+    'EA_AMBIGUOUS' => 
+    array (
+      'value' => 1,
+    ),
+    'EA_HALFWIDTH' => 
+    array (
+      'value' => 2,
+    ),
+    'EA_FULLWIDTH' => 
+    array (
+      'value' => 3,
+    ),
+    'EA_NARROW' => 
+    array (
+      'value' => 4,
+    ),
+    'EA_WIDE' => 
+    array (
+      'value' => 5,
+    ),
+    'EA_COUNT' => 
+    array (
+      'value' => 6,
+    ),
+    'UNICODE_CHAR_NAME' => 
+    array (
+      'value' => 0,
+    ),
+    'UNICODE_10_CHAR_NAME' => 
+    array (
+      'value' => 1,
+    ),
+    'EXTENDED_CHAR_NAME' => 
+    array (
+      'value' => 2,
+    ),
+    'CHAR_NAME_ALIAS' => 
+    array (
+      'value' => 3,
+    ),
+    'CHAR_NAME_CHOICE_COUNT' => 
+    array (
+      'value' => 4,
+    ),
+    'SHORT_PROPERTY_NAME' => 
+    array (
+      'value' => 0,
+    ),
+    'LONG_PROPERTY_NAME' => 
+    array (
+      'value' => 1,
+    ),
+    'PROPERTY_NAME_CHOICE_COUNT' => 
+    array (
+      'value' => 2,
+    ),
+    'DT_NONE' => 
+    array (
+      'value' => 0,
+    ),
+    'DT_CANONICAL' => 
+    array (
+      'value' => 1,
+    ),
+    'DT_COMPAT' => 
+    array (
+      'value' => 2,
+    ),
+    'DT_CIRCLE' => 
+    array (
+      'value' => 3,
+    ),
+    'DT_FINAL' => 
+    array (
+      'value' => 4,
+    ),
+    'DT_FONT' => 
+    array (
+      'value' => 5,
+    ),
+    'DT_FRACTION' => 
+    array (
+      'value' => 6,
+    ),
+    'DT_INITIAL' => 
+    array (
+      'value' => 7,
+    ),
+    'DT_ISOLATED' => 
+    array (
+      'value' => 8,
+    ),
+    'DT_MEDIAL' => 
+    array (
+      'value' => 9,
+    ),
+    'DT_NARROW' => 
+    array (
+      'value' => 10,
+    ),
+    'DT_NOBREAK' => 
+    array (
+      'value' => 11,
+    ),
+    'DT_SMALL' => 
+    array (
+      'value' => 12,
+    ),
+    'DT_SQUARE' => 
+    array (
+      'value' => 13,
+    ),
+    'DT_SUB' => 
+    array (
+      'value' => 14,
+    ),
+    'DT_SUPER' => 
+    array (
+      'value' => 15,
+    ),
+    'DT_VERTICAL' => 
+    array (
+      'value' => 16,
+    ),
+    'DT_WIDE' => 
+    array (
+      'value' => 17,
+    ),
+    'DT_COUNT' => 
+    array (
+      'value' => 18,
+    ),
+    'JT_NON_JOINING' => 
+    array (
+      'value' => 0,
+    ),
+    'JT_JOIN_CAUSING' => 
+    array (
+      'value' => 1,
+    ),
+    'JT_DUAL_JOINING' => 
+    array (
+      'value' => 2,
+    ),
+    'JT_LEFT_JOINING' => 
+    array (
+      'value' => 3,
+    ),
+    'JT_RIGHT_JOINING' => 
+    array (
+      'value' => 4,
+    ),
+    'JT_TRANSPARENT' => 
+    array (
+      'value' => 5,
+    ),
+    'JT_COUNT' => 
+    array (
+      'value' => 6,
+    ),
+    'JG_NO_JOINING_GROUP' => 
+    array (
+      'value' => 0,
+    ),
+    'JG_AIN' => 
+    array (
+      'value' => 1,
+    ),
+    'JG_ALAPH' => 
+    array (
+      'value' => 2,
+    ),
+    'JG_ALEF' => 
+    array (
+      'value' => 3,
+    ),
+    'JG_BEH' => 
+    array (
+      'value' => 4,
+    ),
+    'JG_BETH' => 
+    array (
+      'value' => 5,
+    ),
+    'JG_DAL' => 
+    array (
+      'value' => 6,
+    ),
+    'JG_DALATH_RISH' => 
+    array (
+      'value' => 7,
+    ),
+    'JG_E' => 
+    array (
+      'value' => 8,
+    ),
+    'JG_FEH' => 
+    array (
+      'value' => 9,
+    ),
+    'JG_FINAL_SEMKATH' => 
+    array (
+      'value' => 10,
+    ),
+    'JG_GAF' => 
+    array (
+      'value' => 11,
+    ),
+    'JG_GAMAL' => 
+    array (
+      'value' => 12,
+    ),
+    'JG_HAH' => 
+    array (
+      'value' => 13,
+    ),
+    'JG_TEH_MARBUTA_GOAL' => 
+    array (
+      'value' => 14,
+    ),
+    'JG_HAMZA_ON_HEH_GOAL' => 
+    array (
+      'value' => 14,
+    ),
+    'JG_HE' => 
+    array (
+      'value' => 15,
+    ),
+    'JG_HEH' => 
+    array (
+      'value' => 16,
+    ),
+    'JG_HEH_GOAL' => 
+    array (
+      'value' => 17,
+    ),
+    'JG_HETH' => 
+    array (
+      'value' => 18,
+    ),
+    'JG_KAF' => 
+    array (
+      'value' => 19,
+    ),
+    'JG_KAPH' => 
+    array (
+      'value' => 20,
+    ),
+    'JG_KNOTTED_HEH' => 
+    array (
+      'value' => 21,
+    ),
+    'JG_LAM' => 
+    array (
+      'value' => 22,
+    ),
+    'JG_LAMADH' => 
+    array (
+      'value' => 23,
+    ),
+    'JG_MEEM' => 
+    array (
+      'value' => 24,
+    ),
+    'JG_MIM' => 
+    array (
+      'value' => 25,
+    ),
+    'JG_NOON' => 
+    array (
+      'value' => 26,
+    ),
+    'JG_NUN' => 
+    array (
+      'value' => 27,
+    ),
+    'JG_PE' => 
+    array (
+      'value' => 28,
+    ),
+    'JG_QAF' => 
+    array (
+      'value' => 29,
+    ),
+    'JG_QAPH' => 
+    array (
+      'value' => 30,
+    ),
+    'JG_REH' => 
+    array (
+      'value' => 31,
+    ),
+    'JG_REVERSED_PE' => 
+    array (
+      'value' => 32,
+    ),
+    'JG_SAD' => 
+    array (
+      'value' => 33,
+    ),
+    'JG_SADHE' => 
+    array (
+      'value' => 34,
+    ),
+    'JG_SEEN' => 
+    array (
+      'value' => 35,
+    ),
+    'JG_SEMKATH' => 
+    array (
+      'value' => 36,
+    ),
+    'JG_SHIN' => 
+    array (
+      'value' => 37,
+    ),
+    'JG_SWASH_KAF' => 
+    array (
+      'value' => 38,
+    ),
+    'JG_SYRIAC_WAW' => 
+    array (
+      'value' => 39,
+    ),
+    'JG_TAH' => 
+    array (
+      'value' => 40,
+    ),
+    'JG_TAW' => 
+    array (
+      'value' => 41,
+    ),
+    'JG_TEH_MARBUTA' => 
+    array (
+      'value' => 42,
+    ),
+    'JG_TETH' => 
+    array (
+      'value' => 43,
+    ),
+    'JG_WAW' => 
+    array (
+      'value' => 44,
+    ),
+    'JG_YEH' => 
+    array (
+      'value' => 45,
+    ),
+    'JG_YEH_BARREE' => 
+    array (
+      'value' => 46,
+    ),
+    'JG_YEH_WITH_TAIL' => 
+    array (
+      'value' => 47,
+    ),
+    'JG_YUDH' => 
+    array (
+      'value' => 48,
+    ),
+    'JG_YUDH_HE' => 
+    array (
+      'value' => 49,
+    ),
+    'JG_ZAIN' => 
+    array (
+      'value' => 50,
+    ),
+    'JG_FE' => 
+    array (
+      'value' => 51,
+    ),
+    'JG_KHAPH' => 
+    array (
+      'value' => 52,
+    ),
+    'JG_ZHAIN' => 
+    array (
+      'value' => 53,
+    ),
+    'JG_BURUSHASKI_YEH_BARREE' => 
+    array (
+      'value' => 54,
+    ),
+    'JG_FARSI_YEH' => 
+    array (
+      'value' => 55,
+    ),
+    'JG_NYA' => 
+    array (
+      'value' => 56,
+    ),
+    'JG_ROHINGYA_YEH' => 
+    array (
+      'value' => 57,
+    ),
+    'JG_MANICHAEAN_ALEPH' => 
+    array (
+      'value' => 58,
+    ),
+    'JG_MANICHAEAN_AYIN' => 
+    array (
+      'value' => 59,
+    ),
+    'JG_MANICHAEAN_BETH' => 
+    array (
+      'value' => 60,
+    ),
+    'JG_MANICHAEAN_DALETH' => 
+    array (
+      'value' => 61,
+    ),
+    'JG_MANICHAEAN_DHAMEDH' => 
+    array (
+      'value' => 62,
+    ),
+    'JG_MANICHAEAN_FIVE' => 
+    array (
+      'value' => 63,
+    ),
+    'JG_MANICHAEAN_GIMEL' => 
+    array (
+      'value' => 64,
+    ),
+    'JG_MANICHAEAN_HETH' => 
+    array (
+      'value' => 65,
+    ),
+    'JG_MANICHAEAN_HUNDRED' => 
+    array (
+      'value' => 66,
+    ),
+    'JG_MANICHAEAN_KAPH' => 
+    array (
+      'value' => 67,
+    ),
+    'JG_MANICHAEAN_LAMEDH' => 
+    array (
+      'value' => 68,
+    ),
+    'JG_MANICHAEAN_MEM' => 
+    array (
+      'value' => 69,
+    ),
+    'JG_MANICHAEAN_NUN' => 
+    array (
+      'value' => 70,
+    ),
+    'JG_MANICHAEAN_ONE' => 
+    array (
+      'value' => 71,
+    ),
+    'JG_MANICHAEAN_PE' => 
+    array (
+      'value' => 72,
+    ),
+    'JG_MANICHAEAN_QOPH' => 
+    array (
+      'value' => 73,
+    ),
+    'JG_MANICHAEAN_RESH' => 
+    array (
+      'value' => 74,
+    ),
+    'JG_MANICHAEAN_SADHE' => 
+    array (
+      'value' => 75,
+    ),
+    'JG_MANICHAEAN_SAMEKH' => 
+    array (
+      'value' => 76,
+    ),
+    'JG_MANICHAEAN_TAW' => 
+    array (
+      'value' => 77,
+    ),
+    'JG_MANICHAEAN_TEN' => 
+    array (
+      'value' => 78,
+    ),
+    'JG_MANICHAEAN_TETH' => 
+    array (
+      'value' => 79,
+    ),
+    'JG_MANICHAEAN_THAMEDH' => 
+    array (
+      'value' => 80,
+    ),
+    'JG_MANICHAEAN_TWENTY' => 
+    array (
+      'value' => 81,
+    ),
+    'JG_MANICHAEAN_WAW' => 
+    array (
+      'value' => 82,
+    ),
+    'JG_MANICHAEAN_YODH' => 
+    array (
+      'value' => 83,
+    ),
+    'JG_MANICHAEAN_ZAYIN' => 
+    array (
+      'value' => 84,
+    ),
+    'JG_STRAIGHT_WAW' => 
+    array (
+      'value' => 85,
+    ),
+    'JG_COUNT' => 
+    array (
+      'value' => 104,
+    ),
+    'GCB_OTHER' => 
+    array (
+      'value' => 0,
+    ),
+    'GCB_CONTROL' => 
+    array (
+      'value' => 1,
+    ),
+    'GCB_CR' => 
+    array (
+      'value' => 2,
+    ),
+    'GCB_EXTEND' => 
+    array (
+      'value' => 3,
+    ),
+    'GCB_L' => 
+    array (
+      'value' => 4,
+    ),
+    'GCB_LF' => 
+    array (
+      'value' => 5,
+    ),
+    'GCB_LV' => 
+    array (
+      'value' => 6,
+    ),
+    'GCB_LVT' => 
+    array (
+      'value' => 7,
+    ),
+    'GCB_T' => 
+    array (
+      'value' => 8,
+    ),
+    'GCB_V' => 
+    array (
+      'value' => 9,
+    ),
+    'GCB_SPACING_MARK' => 
+    array (
+      'value' => 10,
+    ),
+    'GCB_PREPEND' => 
+    array (
+      'value' => 11,
+    ),
+    'GCB_REGIONAL_INDICATOR' => 
+    array (
+      'value' => 12,
+    ),
+    'GCB_COUNT' => 
+    array (
+      'value' => 18,
+    ),
+    'WB_OTHER' => 
+    array (
+      'value' => 0,
+    ),
+    'WB_ALETTER' => 
+    array (
+      'value' => 1,
+    ),
+    'WB_FORMAT' => 
+    array (
+      'value' => 2,
+    ),
+    'WB_KATAKANA' => 
+    array (
+      'value' => 3,
+    ),
+    'WB_MIDLETTER' => 
+    array (
+      'value' => 4,
+    ),
+    'WB_MIDNUM' => 
+    array (
+      'value' => 5,
+    ),
+    'WB_NUMERIC' => 
+    array (
+      'value' => 6,
+    ),
+    'WB_EXTENDNUMLET' => 
+    array (
+      'value' => 7,
+    ),
+    'WB_CR' => 
+    array (
+      'value' => 8,
+    ),
+    'WB_EXTEND' => 
+    array (
+      'value' => 9,
+    ),
+    'WB_LF' => 
+    array (
+      'value' => 10,
+    ),
+    'WB_MIDNUMLET' => 
+    array (
+      'value' => 11,
+    ),
+    'WB_NEWLINE' => 
+    array (
+      'value' => 12,
+    ),
+    'WB_REGIONAL_INDICATOR' => 
+    array (
+      'value' => 13,
+    ),
+    'WB_HEBREW_LETTER' => 
+    array (
+      'value' => 14,
+    ),
+    'WB_SINGLE_QUOTE' => 
+    array (
+      'value' => 15,
+    ),
+    'WB_DOUBLE_QUOTE' => 
+    array (
+      'value' => 16,
+    ),
+    'WB_COUNT' => 
+    array (
+      'value' => 23,
+    ),
+    'SB_OTHER' => 
+    array (
+      'value' => 0,
+    ),
+    'SB_ATERM' => 
+    array (
+      'value' => 1,
+    ),
+    'SB_CLOSE' => 
+    array (
+      'value' => 2,
+    ),
+    'SB_FORMAT' => 
+    array (
+      'value' => 3,
+    ),
+    'SB_LOWER' => 
+    array (
+      'value' => 4,
+    ),
+    'SB_NUMERIC' => 
+    array (
+      'value' => 5,
+    ),
+    'SB_OLETTER' => 
+    array (
+      'value' => 6,
+    ),
+    'SB_SEP' => 
+    array (
+      'value' => 7,
+    ),
+    'SB_SP' => 
+    array (
+      'value' => 8,
+    ),
+    'SB_STERM' => 
+    array (
+      'value' => 9,
+    ),
+    'SB_UPPER' => 
+    array (
+      'value' => 10,
+    ),
+    'SB_CR' => 
+    array (
+      'value' => 11,
+    ),
+    'SB_EXTEND' => 
+    array (
+      'value' => 12,
+    ),
+    'SB_LF' => 
+    array (
+      'value' => 13,
+    ),
+    'SB_SCONTINUE' => 
+    array (
+      'value' => 14,
+    ),
+    'SB_COUNT' => 
+    array (
+      'value' => 15,
+    ),
+    'LB_UNKNOWN' => 
+    array (
+      'value' => 0,
+    ),
+    'LB_AMBIGUOUS' => 
+    array (
+      'value' => 1,
+    ),
+    'LB_ALPHABETIC' => 
+    array (
+      'value' => 2,
+    ),
+    'LB_BREAK_BOTH' => 
+    array (
+      'value' => 3,
+    ),
+    'LB_BREAK_AFTER' => 
+    array (
+      'value' => 4,
+    ),
+    'LB_BREAK_BEFORE' => 
+    array (
+      'value' => 5,
+    ),
+    'LB_MANDATORY_BREAK' => 
+    array (
+      'value' => 6,
+    ),
+    'LB_CONTINGENT_BREAK' => 
+    array (
+      'value' => 7,
+    ),
+    'LB_CLOSE_PUNCTUATION' => 
+    array (
+      'value' => 8,
+    ),
+    'LB_COMBINING_MARK' => 
+    array (
+      'value' => 9,
+    ),
+    'LB_CARRIAGE_RETURN' => 
+    array (
+      'value' => 10,
+    ),
+    'LB_EXCLAMATION' => 
+    array (
+      'value' => 11,
+    ),
+    'LB_GLUE' => 
+    array (
+      'value' => 12,
+    ),
+    'LB_HYPHEN' => 
+    array (
+      'value' => 13,
+    ),
+    'LB_IDEOGRAPHIC' => 
+    array (
+      'value' => 14,
+    ),
+    'LB_INSEPARABLE' => 
+    array (
+      'value' => 15,
+    ),
+    'LB_INSEPERABLE' => 
+    array (
+      'value' => 15,
+    ),
+    'LB_INFIX_NUMERIC' => 
+    array (
+      'value' => 16,
+    ),
+    'LB_LINE_FEED' => 
+    array (
+      'value' => 17,
+    ),
+    'LB_NONSTARTER' => 
+    array (
+      'value' => 18,
+    ),
+    'LB_NUMERIC' => 
+    array (
+      'value' => 19,
+    ),
+    'LB_OPEN_PUNCTUATION' => 
+    array (
+      'value' => 20,
+    ),
+    'LB_POSTFIX_NUMERIC' => 
+    array (
+      'value' => 21,
+    ),
+    'LB_PREFIX_NUMERIC' => 
+    array (
+      'value' => 22,
+    ),
+    'LB_QUOTATION' => 
+    array (
+      'value' => 23,
+    ),
+    'LB_COMPLEX_CONTEXT' => 
+    array (
+      'value' => 24,
+    ),
+    'LB_SURROGATE' => 
+    array (
+      'value' => 25,
+    ),
+    'LB_SPACE' => 
+    array (
+      'value' => 26,
+    ),
+    'LB_BREAK_SYMBOLS' => 
+    array (
+      'value' => 27,
+    ),
+    'LB_ZWSPACE' => 
+    array (
+      'value' => 28,
+    ),
+    'LB_NEXT_LINE' => 
+    array (
+      'value' => 29,
+    ),
+    'LB_WORD_JOINER' => 
+    array (
+      'value' => 30,
+    ),
+    'LB_H2' => 
+    array (
+      'value' => 31,
+    ),
+    'LB_H3' => 
+    array (
+      'value' => 32,
+    ),
+    'LB_JL' => 
+    array (
+      'value' => 33,
+    ),
+    'LB_JT' => 
+    array (
+      'value' => 34,
+    ),
+    'LB_JV' => 
+    array (
+      'value' => 35,
+    ),
+    'LB_CLOSE_PARENTHESIS' => 
+    array (
+      'value' => 36,
+    ),
+    'LB_CONDITIONAL_JAPANESE_STARTER' => 
+    array (
+      'value' => 37,
+    ),
+    'LB_HEBREW_LETTER' => 
+    array (
+      'value' => 38,
+    ),
+    'LB_REGIONAL_INDICATOR' => 
+    array (
+      'value' => 39,
+    ),
+    'LB_COUNT' => 
+    array (
+      'value' => 48,
+    ),
+    'NT_NONE' => 
+    array (
+      'value' => 0,
+    ),
+    'NT_DECIMAL' => 
+    array (
+      'value' => 1,
+    ),
+    'NT_DIGIT' => 
+    array (
+      'value' => 2,
+    ),
+    'NT_NUMERIC' => 
+    array (
+      'value' => 3,
+    ),
+    'NT_COUNT' => 
+    array (
+      'value' => 4,
+    ),
+    'HST_NOT_APPLICABLE' => 
+    array (
+      'value' => 0,
+    ),
+    'HST_LEADING_JAMO' => 
+    array (
+      'value' => 1,
+    ),
+    'HST_VOWEL_JAMO' => 
+    array (
+      'value' => 2,
+    ),
+    'HST_TRAILING_JAMO' => 
+    array (
+      'value' => 3,
+    ),
+    'HST_LV_SYLLABLE' => 
+    array (
+      'value' => 4,
+    ),
+    'HST_LVT_SYLLABLE' => 
+    array (
+      'value' => 5,
+    ),
+    'HST_COUNT' => 
+    array (
+      'value' => 6,
+    ),
+  ),
   'properties' => 
   array (
   ),

@@ -35,6 +35,313 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'TYPE_VOID' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int TYPE_VOID ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_FLOAT' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int TYPE_FLOAT ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_DOUBLE' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int TYPE_DOUBLE ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_LONGDOUBLE' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int TYPE_LONGDOUBLE ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_UINT8' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int TYPE_UINT8 ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_SINT8' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int TYPE_SINT8 ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_UINT16' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int TYPE_UINT16 ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_SINT16' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int TYPE_SINT16 ] { 7 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_UINT32' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int TYPE_UINT32 ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_SINT32' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public int TYPE_SINT32 ] { 9 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_UINT64' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public int TYPE_UINT64 ] { 10 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_SINT64' => 
+    array (
+      'value' => 11,
+      'toString' => 'Constant [ public int TYPE_SINT64 ] { 11 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_ENUM' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public int TYPE_ENUM ] { 12 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_BOOL' => 
+    array (
+      'value' => 13,
+      'toString' => 'Constant [ public int TYPE_BOOL ] { 13 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_CHAR' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public int TYPE_CHAR ] { 14 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_POINTER' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public int TYPE_POINTER ] { 15 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_FUNC' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int TYPE_FUNC ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_ARRAY' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public int TYPE_ARRAY ] { 17 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TYPE_STRUCT' => 
+    array (
+      'value' => 18,
+      'toString' => 'Constant [ public int TYPE_STRUCT ] { 18 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ATTR_CONST' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int ATTR_CONST ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ATTR_INCOMPLETE_TAG' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int ATTR_INCOMPLETE_TAG ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ATTR_VARIADIC' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int ATTR_VARIADIC ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ATTR_INCOMPLETE_ARRAY' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int ATTR_INCOMPLETE_ARRAY ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ATTR_VLA' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int ATTR_VLA ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ATTR_UNION' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int ATTR_UNION ] { 32 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ATTR_PACKED' => 
+    array (
+      'value' => 64,
+      'toString' => 'Constant [ public int ATTR_PACKED ] { 64 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ATTR_MS_STRUCT' => 
+    array (
+      'value' => 128,
+      'toString' => 'Constant [ public int ATTR_MS_STRUCT ] { 128 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ATTR_GCC_STRUCT' => 
+    array (
+      'value' => 256,
+      'toString' => 'Constant [ public int ATTR_GCC_STRUCT ] { 256 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ABI_DEFAULT' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int ABI_DEFAULT ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ABI_CDECL' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int ABI_CDECL ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ABI_FASTCALL' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int ABI_FASTCALL ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ABI_THISCALL' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int ABI_THISCALL ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ABI_STDCALL' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int ABI_STDCALL ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ABI_PASCAL' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int ABI_PASCAL ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ABI_REGISTER' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int ABI_REGISTER ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ABI_MS' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int ABI_MS ] { 7 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ABI_SYSV' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int ABI_SYSV ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ABI_VECTORCALL' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public int ABI_VECTORCALL ] { 9 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+  ),
   'properties' => 
   array (
   ),

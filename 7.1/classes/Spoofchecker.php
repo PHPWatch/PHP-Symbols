@@ -35,6 +35,58 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'SINGLE_SCRIPT_CONFUSABLE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer SINGLE_SCRIPT_CONFUSABLE ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'MIXED_SCRIPT_CONFUSABLE' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer MIXED_SCRIPT_CONFUSABLE ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'WHOLE_SCRIPT_CONFUSABLE' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public integer WHOLE_SCRIPT_CONFUSABLE ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'ANY_CASE' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public integer ANY_CASE ] { 8 }
+',
+      'visibility' => 256,
+    ),
+    'SINGLE_SCRIPT' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public integer SINGLE_SCRIPT ] { 16 }
+',
+      'visibility' => 256,
+    ),
+    'INVISIBLE' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public integer INVISIBLE ] { 32 }
+',
+      'visibility' => 256,
+    ),
+    'CHAR_LIMIT' => 
+    array (
+      'value' => 64,
+      'toString' => 'Constant [ public integer CHAR_LIMIT ] { 64 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
   ),

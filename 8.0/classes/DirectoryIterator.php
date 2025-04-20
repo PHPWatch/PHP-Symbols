@@ -39,6 +39,9 @@ return array (
     2 => 'Traversable',
     3 => 'SeekableIterator',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
   ),

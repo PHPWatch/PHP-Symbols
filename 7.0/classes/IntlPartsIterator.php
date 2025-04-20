@@ -37,6 +37,21 @@ return array (
     0 => 'Traversable',
     1 => 'Iterator',
   ),
+  'constants' => 
+  array (
+    'KEY_SEQUENTIAL' => 
+    array (
+      'value' => 0,
+    ),
+    'KEY_LEFT' => 
+    array (
+      'value' => 1,
+    ),
+    'KEY_RIGHT' => 
+    array (
+      'value' => 2,
+    ),
+  ),
   'properties' => 
   array (
   ),

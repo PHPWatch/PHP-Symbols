@@ -35,6 +35,378 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'REASON_UNASSIGNED' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int REASON_UNASSIGNED ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'REASON_ILLEGAL' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int REASON_ILLEGAL ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'REASON_IRREGULAR' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int REASON_IRREGULAR ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'REASON_RESET' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int REASON_RESET ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'REASON_CLOSE' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int REASON_CLOSE ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'REASON_CLONE' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int REASON_CLONE ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'UNSUPPORTED_CONVERTER' => 
+    array (
+      'value' => -1,
+      'toString' => 'Constant [ public int UNSUPPORTED_CONVERTER ] { -1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SBCS' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int SBCS ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DBCS' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int DBCS ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'MBCS' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int MBCS ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LATIN_1' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int LATIN_1 ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'UTF8' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int UTF8 ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'UTF16_BigEndian' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int UTF16_BigEndian ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'UTF16_LittleEndian' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int UTF16_LittleEndian ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'UTF32_BigEndian' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int UTF32_BigEndian ] { 7 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'UTF32_LittleEndian' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int UTF32_LittleEndian ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'EBCDIC_STATEFUL' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public int EBCDIC_STATEFUL ] { 9 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ISO_2022' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public int ISO_2022 ] { 10 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LMBCS_1' => 
+    array (
+      'value' => 11,
+      'toString' => 'Constant [ public int LMBCS_1 ] { 11 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LMBCS_2' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public int LMBCS_2 ] { 12 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LMBCS_3' => 
+    array (
+      'value' => 13,
+      'toString' => 'Constant [ public int LMBCS_3 ] { 13 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LMBCS_4' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public int LMBCS_4 ] { 14 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LMBCS_5' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public int LMBCS_5 ] { 15 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LMBCS_6' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int LMBCS_6 ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LMBCS_8' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public int LMBCS_8 ] { 17 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LMBCS_11' => 
+    array (
+      'value' => 18,
+      'toString' => 'Constant [ public int LMBCS_11 ] { 18 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LMBCS_16' => 
+    array (
+      'value' => 19,
+      'toString' => 'Constant [ public int LMBCS_16 ] { 19 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LMBCS_17' => 
+    array (
+      'value' => 20,
+      'toString' => 'Constant [ public int LMBCS_17 ] { 20 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LMBCS_18' => 
+    array (
+      'value' => 21,
+      'toString' => 'Constant [ public int LMBCS_18 ] { 21 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LMBCS_19' => 
+    array (
+      'value' => 22,
+      'toString' => 'Constant [ public int LMBCS_19 ] { 22 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LMBCS_LAST' => 
+    array (
+      'value' => 22,
+      'toString' => 'Constant [ public int LMBCS_LAST ] { 22 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'HZ' => 
+    array (
+      'value' => 23,
+      'toString' => 'Constant [ public int HZ ] { 23 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SCSU' => 
+    array (
+      'value' => 24,
+      'toString' => 'Constant [ public int SCSU ] { 24 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ISCII' => 
+    array (
+      'value' => 25,
+      'toString' => 'Constant [ public int ISCII ] { 25 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'US_ASCII' => 
+    array (
+      'value' => 26,
+      'toString' => 'Constant [ public int US_ASCII ] { 26 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'UTF7' => 
+    array (
+      'value' => 27,
+      'toString' => 'Constant [ public int UTF7 ] { 27 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'BOCU1' => 
+    array (
+      'value' => 28,
+      'toString' => 'Constant [ public int BOCU1 ] { 28 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'UTF16' => 
+    array (
+      'value' => 29,
+      'toString' => 'Constant [ public int UTF16 ] { 29 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'UTF32' => 
+    array (
+      'value' => 30,
+      'toString' => 'Constant [ public int UTF32 ] { 30 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CESU8' => 
+    array (
+      'value' => 31,
+      'toString' => 'Constant [ public int CESU8 ] { 31 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IMAP_MAILBOX' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int IMAP_MAILBOX ] { 32 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
   ),

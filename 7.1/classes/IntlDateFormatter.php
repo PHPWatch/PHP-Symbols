@@ -35,6 +35,58 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'FULL' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public integer FULL ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'LONG' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer LONG ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'MEDIUM' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer MEDIUM ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'SHORT' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public integer SHORT ] { 3 }
+',
+      'visibility' => 256,
+    ),
+    'NONE' => 
+    array (
+      'value' => -1,
+      'toString' => 'Constant [ public integer NONE ] { -1 }
+',
+      'visibility' => 256,
+    ),
+    'GREGORIAN' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer GREGORIAN ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'TRADITIONAL' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public integer TRADITIONAL ] { 0 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
   ),

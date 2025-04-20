@@ -40,6 +40,9 @@ return array (
     3 => 'Serializable',
     4 => 'ArrayAccess',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
   ),

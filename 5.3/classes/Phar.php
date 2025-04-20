@@ -41,6 +41,109 @@ return array (
     4 => 'Countable',
     5 => 'ArrayAccess',
   ),
+  'constants' => 
+  array (
+    'CURRENT_MODE_MASK' => 
+    array (
+      'value' => 240,
+    ),
+    'CURRENT_AS_PATHNAME' => 
+    array (
+      'value' => 32,
+    ),
+    'CURRENT_AS_FILEINFO' => 
+    array (
+      'value' => 0,
+    ),
+    'CURRENT_AS_SELF' => 
+    array (
+      'value' => 16,
+    ),
+    'KEY_MODE_MASK' => 
+    array (
+      'value' => 3840,
+    ),
+    'KEY_AS_PATHNAME' => 
+    array (
+      'value' => 0,
+    ),
+    'FOLLOW_SYMLINKS' => 
+    array (
+      'value' => 512,
+    ),
+    'KEY_AS_FILENAME' => 
+    array (
+      'value' => 256,
+    ),
+    'NEW_CURRENT_AND_KEY' => 
+    array (
+      'value' => 256,
+    ),
+    'SKIP_DOTS' => 
+    array (
+      'value' => 4096,
+    ),
+    'UNIX_PATHS' => 
+    array (
+      'value' => 8192,
+    ),
+    'BZ2' => 
+    array (
+      'value' => 8192,
+    ),
+    'GZ' => 
+    array (
+      'value' => 4096,
+    ),
+    'NONE' => 
+    array (
+      'value' => 0,
+    ),
+    'PHAR' => 
+    array (
+      'value' => 1,
+    ),
+    'TAR' => 
+    array (
+      'value' => 2,
+    ),
+    'ZIP' => 
+    array (
+      'value' => 3,
+    ),
+    'COMPRESSED' => 
+    array (
+      'value' => 61440,
+    ),
+    'PHP' => 
+    array (
+      'value' => 0,
+    ),
+    'PHPS' => 
+    array (
+      'value' => 1,
+    ),
+    'MD5' => 
+    array (
+      'value' => 1,
+    ),
+    'OPENSSL' => 
+    array (
+      'value' => 16,
+    ),
+    'SHA1' => 
+    array (
+      'value' => 2,
+    ),
+    'SHA256' => 
+    array (
+      'value' => 3,
+    ),
+    'SHA512' => 
+    array (
+      'value' => 4,
+    ),
+  ),
   'properties' => 
   array (
   ),

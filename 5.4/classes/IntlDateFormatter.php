@@ -35,6 +35,37 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'FULL' => 
+    array (
+      'value' => 0,
+    ),
+    'LONG' => 
+    array (
+      'value' => 1,
+    ),
+    'MEDIUM' => 
+    array (
+      'value' => 2,
+    ),
+    'SHORT' => 
+    array (
+      'value' => 3,
+    ),
+    'NONE' => 
+    array (
+      'value' => -1,
+    ),
+    'GREGORIAN' => 
+    array (
+      'value' => 1,
+    ),
+    'TRADITIONAL' => 
+    array (
+      'value' => 0,
+    ),
+  ),
   'properties' => 
   array (
   ),

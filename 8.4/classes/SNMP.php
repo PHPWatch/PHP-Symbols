@@ -35,6 +35,117 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'VERSION_1' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int VERSION_1 ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'VERSION_2c' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int VERSION_2c ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'VERSION_2C' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int VERSION_2C ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'VERSION_3' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int VERSION_3 ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ERRNO_NOERROR' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int ERRNO_NOERROR ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ERRNO_ANY' => 
+    array (
+      'value' => 126,
+      'toString' => 'Constant [ public int ERRNO_ANY ] { 126 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ERRNO_GENERIC' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int ERRNO_GENERIC ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ERRNO_TIMEOUT' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int ERRNO_TIMEOUT ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ERRNO_ERROR_IN_REPLY' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int ERRNO_ERROR_IN_REPLY ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ERRNO_OID_NOT_INCREASING' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int ERRNO_OID_NOT_INCREASING ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ERRNO_OID_PARSING_ERROR' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int ERRNO_OID_PARSING_ERROR ] { 32 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ERRNO_MULTIPLE_SET_QUERIES' => 
+    array (
+      'value' => 64,
+      'toString' => 'Constant [ public int ERRNO_MULTIPLE_SET_QUERIES ] { 64 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
     'info' => 

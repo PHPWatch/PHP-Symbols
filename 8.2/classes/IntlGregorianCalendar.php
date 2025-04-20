@@ -35,6 +35,321 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'FIELD_ERA' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int FIELD_ERA ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_YEAR' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int FIELD_YEAR ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_MONTH' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int FIELD_MONTH ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_WEEK_OF_YEAR' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int FIELD_WEEK_OF_YEAR ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_WEEK_OF_MONTH' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int FIELD_WEEK_OF_MONTH ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_DATE' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int FIELD_DATE ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_DAY_OF_YEAR' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int FIELD_DAY_OF_YEAR ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_DAY_OF_WEEK' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int FIELD_DAY_OF_WEEK ] { 7 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_DAY_OF_WEEK_IN_MONTH' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int FIELD_DAY_OF_WEEK_IN_MONTH ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_AM_PM' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public int FIELD_AM_PM ] { 9 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_HOUR' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public int FIELD_HOUR ] { 10 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_HOUR_OF_DAY' => 
+    array (
+      'value' => 11,
+      'toString' => 'Constant [ public int FIELD_HOUR_OF_DAY ] { 11 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_MINUTE' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public int FIELD_MINUTE ] { 12 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_SECOND' => 
+    array (
+      'value' => 13,
+      'toString' => 'Constant [ public int FIELD_SECOND ] { 13 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_MILLISECOND' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public int FIELD_MILLISECOND ] { 14 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_ZONE_OFFSET' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public int FIELD_ZONE_OFFSET ] { 15 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_DST_OFFSET' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int FIELD_DST_OFFSET ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_YEAR_WOY' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public int FIELD_YEAR_WOY ] { 17 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_DOW_LOCAL' => 
+    array (
+      'value' => 18,
+      'toString' => 'Constant [ public int FIELD_DOW_LOCAL ] { 18 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_EXTENDED_YEAR' => 
+    array (
+      'value' => 19,
+      'toString' => 'Constant [ public int FIELD_EXTENDED_YEAR ] { 19 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_JULIAN_DAY' => 
+    array (
+      'value' => 20,
+      'toString' => 'Constant [ public int FIELD_JULIAN_DAY ] { 20 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_MILLISECONDS_IN_DAY' => 
+    array (
+      'value' => 21,
+      'toString' => 'Constant [ public int FIELD_MILLISECONDS_IN_DAY ] { 21 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_IS_LEAP_MONTH' => 
+    array (
+      'value' => 22,
+      'toString' => 'Constant [ public int FIELD_IS_LEAP_MONTH ] { 22 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_FIELD_COUNT' => 
+    array (
+      'value' => 24,
+      'toString' => 'Constant [ public int FIELD_FIELD_COUNT ] { 24 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FIELD_DAY_OF_MONTH' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int FIELD_DAY_OF_MONTH ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DOW_SUNDAY' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int DOW_SUNDAY ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DOW_MONDAY' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int DOW_MONDAY ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DOW_TUESDAY' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int DOW_TUESDAY ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DOW_WEDNESDAY' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int DOW_WEDNESDAY ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DOW_THURSDAY' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int DOW_THURSDAY ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DOW_FRIDAY' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int DOW_FRIDAY ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DOW_SATURDAY' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int DOW_SATURDAY ] { 7 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DOW_TYPE_WEEKDAY' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int DOW_TYPE_WEEKDAY ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DOW_TYPE_WEEKEND' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int DOW_TYPE_WEEKEND ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DOW_TYPE_WEEKEND_OFFSET' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int DOW_TYPE_WEEKEND_OFFSET ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DOW_TYPE_WEEKEND_CEASE' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int DOW_TYPE_WEEKEND_CEASE ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'WALLTIME_FIRST' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int WALLTIME_FIRST ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'WALLTIME_LAST' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int WALLTIME_LAST ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'WALLTIME_NEXT_VALID' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int WALLTIME_NEXT_VALID ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+  ),
   'properties' => 
   array (
   ),

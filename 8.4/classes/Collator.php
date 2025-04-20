@@ -35,6 +35,225 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'DEFAULT_VALUE' => 
+    array (
+      'value' => -1,
+      'toString' => 'Constant [ public int DEFAULT_VALUE ] { -1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PRIMARY' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int PRIMARY ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SECONDARY' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int SECONDARY ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TERTIARY' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int TERTIARY ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DEFAULT_STRENGTH' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int DEFAULT_STRENGTH ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'QUATERNARY' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int QUATERNARY ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IDENTICAL' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public int IDENTICAL ] { 15 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'OFF' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int OFF ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ON' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public int ON ] { 17 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SHIFTED' => 
+    array (
+      'value' => 20,
+      'toString' => 'Constant [ public int SHIFTED ] { 20 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'NON_IGNORABLE' => 
+    array (
+      'value' => 21,
+      'toString' => 'Constant [ public int NON_IGNORABLE ] { 21 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LOWER_FIRST' => 
+    array (
+      'value' => 24,
+      'toString' => 'Constant [ public int LOWER_FIRST ] { 24 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'UPPER_FIRST' => 
+    array (
+      'value' => 25,
+      'toString' => 'Constant [ public int UPPER_FIRST ] { 25 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FRENCH_COLLATION' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int FRENCH_COLLATION ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ALTERNATE_HANDLING' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int ALTERNATE_HANDLING ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CASE_FIRST' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int CASE_FIRST ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CASE_LEVEL' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int CASE_LEVEL ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'NORMALIZATION_MODE' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int NORMALIZATION_MODE ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'STRENGTH' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int STRENGTH ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'HIRAGANA_QUATERNARY_MODE' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int HIRAGANA_QUATERNARY_MODE ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'NUMERIC_COLLATION' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int NUMERIC_COLLATION ] { 7 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SORT_REGULAR' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int SORT_REGULAR ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SORT_STRING' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int SORT_STRING ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SORT_NUMERIC' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int SORT_NUMERIC ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
   ),

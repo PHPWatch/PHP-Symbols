@@ -35,6 +35,100 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'SINGLE_SCRIPT_CONFUSABLE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int SINGLE_SCRIPT_CONFUSABLE ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'MIXED_SCRIPT_CONFUSABLE' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int MIXED_SCRIPT_CONFUSABLE ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'WHOLE_SCRIPT_CONFUSABLE' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int WHOLE_SCRIPT_CONFUSABLE ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'ANY_CASE' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int ANY_CASE ] { 8 }
+',
+      'visibility' => 256,
+    ),
+    'SINGLE_SCRIPT' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int SINGLE_SCRIPT ] { 16 }
+',
+      'visibility' => 256,
+    ),
+    'INVISIBLE' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int INVISIBLE ] { 32 }
+',
+      'visibility' => 256,
+    ),
+    'CHAR_LIMIT' => 
+    array (
+      'value' => 64,
+      'toString' => 'Constant [ public int CHAR_LIMIT ] { 64 }
+',
+      'visibility' => 256,
+    ),
+    'ASCII' => 
+    array (
+      'value' => 268435456,
+      'toString' => 'Constant [ public int ASCII ] { 268435456 }
+',
+      'visibility' => 256,
+    ),
+    'HIGHLY_RESTRICTIVE' => 
+    array (
+      'value' => 805306368,
+      'toString' => 'Constant [ public int HIGHLY_RESTRICTIVE ] { 805306368 }
+',
+      'visibility' => 256,
+    ),
+    'MODERATELY_RESTRICTIVE' => 
+    array (
+      'value' => 1073741824,
+      'toString' => 'Constant [ public int MODERATELY_RESTRICTIVE ] { 1073741824 }
+',
+      'visibility' => 256,
+    ),
+    'MINIMALLY_RESTRICTIVE' => 
+    array (
+      'value' => 1342177280,
+      'toString' => 'Constant [ public int MINIMALLY_RESTRICTIVE ] { 1342177280 }
+',
+      'visibility' => 256,
+    ),
+    'UNRESTRICTIVE' => 
+    array (
+      'value' => 1610612736,
+      'toString' => 'Constant [ public int UNRESTRICTIVE ] { 1610612736 }
+',
+      'visibility' => 256,
+    ),
+    'SINGLE_SCRIPT_RESTRICTIVE' => 
+    array (
+      'value' => 536870912,
+      'toString' => 'Constant [ public int SINGLE_SCRIPT_RESTRICTIVE ] { 536870912 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
   ),

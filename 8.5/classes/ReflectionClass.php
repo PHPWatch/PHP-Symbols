@@ -37,6 +37,63 @@ return array (
     0 => 'Stringable',
     1 => 'Reflector',
   ),
+  'constants' => 
+  array (
+    'IS_IMPLICIT_ABSTRACT' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int IS_IMPLICIT_ABSTRACT ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IS_EXPLICIT_ABSTRACT' => 
+    array (
+      'value' => 64,
+      'toString' => 'Constant [ public int IS_EXPLICIT_ABSTRACT ] { 64 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IS_FINAL' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int IS_FINAL ] { 32 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IS_READONLY' => 
+    array (
+      'value' => 65536,
+      'toString' => 'Constant [ public int IS_READONLY ] { 65536 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SKIP_INITIALIZATION_ON_SERIALIZE' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int SKIP_INITIALIZATION_ON_SERIALIZE ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SKIP_DESTRUCTOR' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int SKIP_DESTRUCTOR ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
     'name' => 

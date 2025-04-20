@@ -40,6 +40,17 @@ return array (
     3 => 'Serializable',
     4 => 'Countable',
   ),
+  'constants' => 
+  array (
+    'STD_PROP_LIST' => 
+    array (
+      'value' => 1,
+    ),
+    'ARRAY_AS_PROPS' => 
+    array (
+      'value' => 2,
+    ),
+  ),
   'properties' => 
   array (
   ),

@@ -35,6 +35,207 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'NONE' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int NONE ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ELEMENT' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int ELEMENT ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTRIBUTE' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int ATTRIBUTE ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TEXT' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int TEXT ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CDATA' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int CDATA ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ENTITY_REF' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int ENTITY_REF ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ENTITY' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int ENTITY ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PI' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int PI ] { 7 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'COMMENT' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int COMMENT ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DOC' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public int DOC ] { 9 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DOC_TYPE' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public int DOC_TYPE ] { 10 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DOC_FRAGMENT' => 
+    array (
+      'value' => 11,
+      'toString' => 'Constant [ public int DOC_FRAGMENT ] { 11 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'NOTATION' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public int NOTATION ] { 12 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'WHITESPACE' => 
+    array (
+      'value' => 13,
+      'toString' => 'Constant [ public int WHITESPACE ] { 13 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SIGNIFICANT_WHITESPACE' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public int SIGNIFICANT_WHITESPACE ] { 14 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'END_ELEMENT' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public int END_ELEMENT ] { 15 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'END_ENTITY' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int END_ENTITY ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'XML_DECLARATION' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public int XML_DECLARATION ] { 17 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LOADDTD' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int LOADDTD ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DEFAULTATTRS' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int DEFAULTATTRS ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'VALIDATE' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int VALIDATE ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SUBST_ENTITIES' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int SUBST_ENTITIES ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
     'attributeCount' => 

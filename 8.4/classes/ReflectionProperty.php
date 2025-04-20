@@ -37,6 +37,99 @@ return array (
     0 => 'Stringable',
     1 => 'Reflector',
   ),
+  'constants' => 
+  array (
+    'IS_STATIC' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int IS_STATIC ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IS_READONLY' => 
+    array (
+      'value' => 128,
+      'toString' => 'Constant [ public int IS_READONLY ] { 128 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IS_PUBLIC' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int IS_PUBLIC ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IS_PROTECTED' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int IS_PROTECTED ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IS_PRIVATE' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int IS_PRIVATE ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IS_ABSTRACT' => 
+    array (
+      'value' => 64,
+      'toString' => 'Constant [ public int IS_ABSTRACT ] { 64 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IS_PROTECTED_SET' => 
+    array (
+      'value' => 2048,
+      'toString' => 'Constant [ public int IS_PROTECTED_SET ] { 2048 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IS_PRIVATE_SET' => 
+    array (
+      'value' => 4096,
+      'toString' => 'Constant [ public int IS_PRIVATE_SET ] { 4096 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IS_VIRTUAL' => 
+    array (
+      'value' => 512,
+      'toString' => 'Constant [ public int IS_VIRTUAL ] { 512 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IS_FINAL' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int IS_FINAL ] { 32 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
     'name' => 

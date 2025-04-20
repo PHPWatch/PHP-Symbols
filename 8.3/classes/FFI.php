@@ -35,6 +35,18 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    '__BIGGEST_ALIGNMENT__' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int __BIGGEST_ALIGNMENT__ ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
   ),

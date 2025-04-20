@@ -39,6 +39,9 @@ return array (
     2 => 'OuterIterator',
     3 => 'RecursiveIterator',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
   ),

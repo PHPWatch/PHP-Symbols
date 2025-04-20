@@ -36,6 +36,45 @@ return array (
   array (
     0 => 'UnitEnum',
   ),
+  'constants' => 
+  array (
+    'ClosedOpen' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public Random\\IntervalBoundary ClosedOpen ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'ClosedClosed' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public Random\\IntervalBoundary ClosedClosed ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'OpenClosed' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public Random\\IntervalBoundary OpenClosed ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'OpenOpen' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public Random\\IntervalBoundary OpenOpen ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+  ),
   'properties' => 
   array (
     'name' => 

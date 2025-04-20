@@ -40,6 +40,9 @@ return array (
     3 => 'Countable',
     4 => 'Stringable',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
   ),

@@ -35,6 +35,57 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'VERSION_1' => 
+    array (
+      'value' => 0,
+    ),
+    'VERSION_2c' => 
+    array (
+      'value' => 1,
+    ),
+    'VERSION_2C' => 
+    array (
+      'value' => 1,
+    ),
+    'VERSION_3' => 
+    array (
+      'value' => 3,
+    ),
+    'ERRNO_NOERROR' => 
+    array (
+      'value' => 0,
+    ),
+    'ERRNO_ANY' => 
+    array (
+      'value' => 126,
+    ),
+    'ERRNO_GENERIC' => 
+    array (
+      'value' => 2,
+    ),
+    'ERRNO_TIMEOUT' => 
+    array (
+      'value' => 4,
+    ),
+    'ERRNO_ERROR_IN_REPLY' => 
+    array (
+      'value' => 8,
+    ),
+    'ERRNO_OID_NOT_INCREASING' => 
+    array (
+      'value' => 16,
+    ),
+    'ERRNO_OID_PARSING_ERROR' => 
+    array (
+      'value' => 32,
+    ),
+    'ERRNO_MULTIPLE_SET_QUERIES' => 
+    array (
+      'value' => 64,
+    ),
+  ),
   'properties' => 
   array (
   ),

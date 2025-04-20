@@ -35,6 +35,177 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'DEFAULT_VALUE' => 
+    array (
+      'value' => -1,
+      'toString' => 'Constant [ public integer DEFAULT_VALUE ] { -1 }
+',
+      'visibility' => 256,
+    ),
+    'PRIMARY' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public integer PRIMARY ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'SECONDARY' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer SECONDARY ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'TERTIARY' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer TERTIARY ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'DEFAULT_STRENGTH' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer DEFAULT_STRENGTH ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'QUATERNARY' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public integer QUATERNARY ] { 3 }
+',
+      'visibility' => 256,
+    ),
+    'IDENTICAL' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public integer IDENTICAL ] { 15 }
+',
+      'visibility' => 256,
+    ),
+    'OFF' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public integer OFF ] { 16 }
+',
+      'visibility' => 256,
+    ),
+    'ON' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public integer ON ] { 17 }
+',
+      'visibility' => 256,
+    ),
+    'SHIFTED' => 
+    array (
+      'value' => 20,
+      'toString' => 'Constant [ public integer SHIFTED ] { 20 }
+',
+      'visibility' => 256,
+    ),
+    'NON_IGNORABLE' => 
+    array (
+      'value' => 21,
+      'toString' => 'Constant [ public integer NON_IGNORABLE ] { 21 }
+',
+      'visibility' => 256,
+    ),
+    'LOWER_FIRST' => 
+    array (
+      'value' => 24,
+      'toString' => 'Constant [ public integer LOWER_FIRST ] { 24 }
+',
+      'visibility' => 256,
+    ),
+    'UPPER_FIRST' => 
+    array (
+      'value' => 25,
+      'toString' => 'Constant [ public integer UPPER_FIRST ] { 25 }
+',
+      'visibility' => 256,
+    ),
+    'FRENCH_COLLATION' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public integer FRENCH_COLLATION ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'ALTERNATE_HANDLING' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer ALTERNATE_HANDLING ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'CASE_FIRST' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer CASE_FIRST ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'CASE_LEVEL' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public integer CASE_LEVEL ] { 3 }
+',
+      'visibility' => 256,
+    ),
+    'NORMALIZATION_MODE' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public integer NORMALIZATION_MODE ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'STRENGTH' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public integer STRENGTH ] { 5 }
+',
+      'visibility' => 256,
+    ),
+    'HIRAGANA_QUATERNARY_MODE' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public integer HIRAGANA_QUATERNARY_MODE ] { 6 }
+',
+      'visibility' => 256,
+    ),
+    'NUMERIC_COLLATION' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public integer NUMERIC_COLLATION ] { 7 }
+',
+      'visibility' => 256,
+    ),
+    'SORT_REGULAR' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public integer SORT_REGULAR ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'SORT_STRING' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer SORT_STRING ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'SORT_NUMERIC' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer SORT_NUMERIC ] { 2 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
   ),

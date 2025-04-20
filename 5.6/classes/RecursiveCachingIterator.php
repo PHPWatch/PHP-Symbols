@@ -41,6 +41,33 @@ return array (
     4 => 'OuterIterator',
     5 => 'RecursiveIterator',
   ),
+  'constants' => 
+  array (
+    'CALL_TOSTRING' => 
+    array (
+      'value' => 1,
+    ),
+    'CATCH_GET_CHILD' => 
+    array (
+      'value' => 16,
+    ),
+    'TOSTRING_USE_KEY' => 
+    array (
+      'value' => 2,
+    ),
+    'TOSTRING_USE_CURRENT' => 
+    array (
+      'value' => 4,
+    ),
+    'TOSTRING_USE_INNER' => 
+    array (
+      'value' => 8,
+    ),
+    'FULL_CACHE' => 
+    array (
+      'value' => 256,
+    ),
+  ),
   'properties' => 
   array (
   ),

@@ -39,6 +39,9 @@ return array (
     2 => 'Iterator',
     3 => 'Countable',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
   ),

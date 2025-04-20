@@ -35,6 +35,86 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'DISPLAY_SHORT' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int DISPLAY_SHORT ] { 1 }
+',
+      'visibility' => 1,
+    ),
+    'DISPLAY_LONG' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int DISPLAY_LONG ] { 2 }
+',
+      'visibility' => 1,
+    ),
+    'DISPLAY_SHORT_GENERIC' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int DISPLAY_SHORT_GENERIC ] { 3 }
+',
+      'visibility' => 1,
+    ),
+    'DISPLAY_LONG_GENERIC' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int DISPLAY_LONG_GENERIC ] { 4 }
+',
+      'visibility' => 1,
+    ),
+    'DISPLAY_SHORT_GMT' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int DISPLAY_SHORT_GMT ] { 5 }
+',
+      'visibility' => 1,
+    ),
+    'DISPLAY_LONG_GMT' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int DISPLAY_LONG_GMT ] { 6 }
+',
+      'visibility' => 1,
+    ),
+    'DISPLAY_SHORT_COMMONLY_USED' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int DISPLAY_SHORT_COMMONLY_USED ] { 7 }
+',
+      'visibility' => 1,
+    ),
+    'DISPLAY_GENERIC_LOCATION' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int DISPLAY_GENERIC_LOCATION ] { 8 }
+',
+      'visibility' => 1,
+    ),
+    'TYPE_ANY' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int TYPE_ANY ] { 0 }
+',
+      'visibility' => 1,
+    ),
+    'TYPE_CANONICAL' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int TYPE_CANONICAL ] { 1 }
+',
+      'visibility' => 1,
+    ),
+    'TYPE_CANONICAL_LOCATION' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int TYPE_CANONICAL_LOCATION ] { 2 }
+',
+      'visibility' => 1,
+    ),
+  ),
   'properties' => 
   array (
   ),

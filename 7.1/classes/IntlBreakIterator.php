@@ -36,6 +36,142 @@ return array (
   array (
     0 => 'Traversable',
   ),
+  'constants' => 
+  array (
+    'DONE' => 
+    array (
+      'value' => -1,
+      'toString' => 'Constant [ public integer DONE ] { -1 }
+',
+      'visibility' => 256,
+    ),
+    'WORD_NONE' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public integer WORD_NONE ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'WORD_NONE_LIMIT' => 
+    array (
+      'value' => 100,
+      'toString' => 'Constant [ public integer WORD_NONE_LIMIT ] { 100 }
+',
+      'visibility' => 256,
+    ),
+    'WORD_NUMBER' => 
+    array (
+      'value' => 100,
+      'toString' => 'Constant [ public integer WORD_NUMBER ] { 100 }
+',
+      'visibility' => 256,
+    ),
+    'WORD_NUMBER_LIMIT' => 
+    array (
+      'value' => 200,
+      'toString' => 'Constant [ public integer WORD_NUMBER_LIMIT ] { 200 }
+',
+      'visibility' => 256,
+    ),
+    'WORD_LETTER' => 
+    array (
+      'value' => 200,
+      'toString' => 'Constant [ public integer WORD_LETTER ] { 200 }
+',
+      'visibility' => 256,
+    ),
+    'WORD_LETTER_LIMIT' => 
+    array (
+      'value' => 300,
+      'toString' => 'Constant [ public integer WORD_LETTER_LIMIT ] { 300 }
+',
+      'visibility' => 256,
+    ),
+    'WORD_KANA' => 
+    array (
+      'value' => 300,
+      'toString' => 'Constant [ public integer WORD_KANA ] { 300 }
+',
+      'visibility' => 256,
+    ),
+    'WORD_KANA_LIMIT' => 
+    array (
+      'value' => 400,
+      'toString' => 'Constant [ public integer WORD_KANA_LIMIT ] { 400 }
+',
+      'visibility' => 256,
+    ),
+    'WORD_IDEO' => 
+    array (
+      'value' => 400,
+      'toString' => 'Constant [ public integer WORD_IDEO ] { 400 }
+',
+      'visibility' => 256,
+    ),
+    'WORD_IDEO_LIMIT' => 
+    array (
+      'value' => 500,
+      'toString' => 'Constant [ public integer WORD_IDEO_LIMIT ] { 500 }
+',
+      'visibility' => 256,
+    ),
+    'LINE_SOFT' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public integer LINE_SOFT ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'LINE_SOFT_LIMIT' => 
+    array (
+      'value' => 100,
+      'toString' => 'Constant [ public integer LINE_SOFT_LIMIT ] { 100 }
+',
+      'visibility' => 256,
+    ),
+    'LINE_HARD' => 
+    array (
+      'value' => 100,
+      'toString' => 'Constant [ public integer LINE_HARD ] { 100 }
+',
+      'visibility' => 256,
+    ),
+    'LINE_HARD_LIMIT' => 
+    array (
+      'value' => 200,
+      'toString' => 'Constant [ public integer LINE_HARD_LIMIT ] { 200 }
+',
+      'visibility' => 256,
+    ),
+    'SENTENCE_TERM' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public integer SENTENCE_TERM ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'SENTENCE_TERM_LIMIT' => 
+    array (
+      'value' => 100,
+      'toString' => 'Constant [ public integer SENTENCE_TERM_LIMIT ] { 100 }
+',
+      'visibility' => 256,
+    ),
+    'SENTENCE_SEP' => 
+    array (
+      'value' => 100,
+      'toString' => 'Constant [ public integer SENTENCE_SEP ] { 100 }
+',
+      'visibility' => 256,
+    ),
+    'SENTENCE_SEP_LIMIT' => 
+    array (
+      'value' => 200,
+      'toString' => 'Constant [ public integer SENTENCE_SEP_LIMIT ] { 200 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
   ),

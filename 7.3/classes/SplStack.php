@@ -40,6 +40,37 @@ return array (
     3 => 'Traversable',
     4 => 'Iterator',
   ),
+  'constants' => 
+  array (
+    'IT_MODE_LIFO' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int IT_MODE_LIFO ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'IT_MODE_FIFO' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int IT_MODE_FIFO ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'IT_MODE_DELETE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int IT_MODE_DELETE ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'IT_MODE_KEEP' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int IT_MODE_KEEP ] { 0 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
   ),

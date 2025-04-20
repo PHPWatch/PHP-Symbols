@@ -38,6 +38,37 @@ return array (
   array (
     0 => 'Reflector',
   ),
+  'constants' => 
+  array (
+    'IS_STATIC' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int IS_STATIC ] { 16 }
+',
+      'visibility' => 1,
+    ),
+    'IS_PUBLIC' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int IS_PUBLIC ] { 1 }
+',
+      'visibility' => 1,
+    ),
+    'IS_PROTECTED' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int IS_PROTECTED ] { 2 }
+',
+      'visibility' => 1,
+    ),
+    'IS_PRIVATE' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int IS_PRIVATE ] { 4 }
+',
+      'visibility' => 1,
+    ),
+  ),
   'properties' => 
   array (
     'name' => 

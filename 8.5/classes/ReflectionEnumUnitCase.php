@@ -37,6 +37,45 @@ return array (
     0 => 'Reflector',
     1 => 'Stringable',
   ),
+  'constants' => 
+  array (
+    'IS_PUBLIC' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int IS_PUBLIC ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IS_PROTECTED' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int IS_PROTECTED ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IS_PRIVATE' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int IS_PRIVATE ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IS_FINAL' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int IS_FINAL ] { 32 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
     'name' => 

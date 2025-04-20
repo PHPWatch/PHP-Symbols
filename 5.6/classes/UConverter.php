@@ -35,6 +35,173 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'REASON_UNASSIGNED' => 
+    array (
+      'value' => 0,
+    ),
+    'REASON_ILLEGAL' => 
+    array (
+      'value' => 1,
+    ),
+    'REASON_IRREGULAR' => 
+    array (
+      'value' => 2,
+    ),
+    'REASON_RESET' => 
+    array (
+      'value' => 3,
+    ),
+    'REASON_CLOSE' => 
+    array (
+      'value' => 4,
+    ),
+    'REASON_CLONE' => 
+    array (
+      'value' => 5,
+    ),
+    'UNSUPPORTED_CONVERTER' => 
+    array (
+      'value' => -1,
+    ),
+    'SBCS' => 
+    array (
+      'value' => 0,
+    ),
+    'DBCS' => 
+    array (
+      'value' => 1,
+    ),
+    'MBCS' => 
+    array (
+      'value' => 2,
+    ),
+    'LATIN_1' => 
+    array (
+      'value' => 3,
+    ),
+    'UTF8' => 
+    array (
+      'value' => 4,
+    ),
+    'UTF16_BigEndian' => 
+    array (
+      'value' => 5,
+    ),
+    'UTF16_LittleEndian' => 
+    array (
+      'value' => 6,
+    ),
+    'UTF32_BigEndian' => 
+    array (
+      'value' => 7,
+    ),
+    'UTF32_LittleEndian' => 
+    array (
+      'value' => 8,
+    ),
+    'EBCDIC_STATEFUL' => 
+    array (
+      'value' => 9,
+    ),
+    'ISO_2022' => 
+    array (
+      'value' => 10,
+    ),
+    'LMBCS_1' => 
+    array (
+      'value' => 11,
+    ),
+    'LMBCS_2' => 
+    array (
+      'value' => 12,
+    ),
+    'LMBCS_3' => 
+    array (
+      'value' => 13,
+    ),
+    'LMBCS_4' => 
+    array (
+      'value' => 14,
+    ),
+    'LMBCS_5' => 
+    array (
+      'value' => 15,
+    ),
+    'LMBCS_6' => 
+    array (
+      'value' => 16,
+    ),
+    'LMBCS_8' => 
+    array (
+      'value' => 17,
+    ),
+    'LMBCS_11' => 
+    array (
+      'value' => 18,
+    ),
+    'LMBCS_16' => 
+    array (
+      'value' => 19,
+    ),
+    'LMBCS_17' => 
+    array (
+      'value' => 20,
+    ),
+    'LMBCS_18' => 
+    array (
+      'value' => 21,
+    ),
+    'LMBCS_19' => 
+    array (
+      'value' => 22,
+    ),
+    'LMBCS_LAST' => 
+    array (
+      'value' => 22,
+    ),
+    'HZ' => 
+    array (
+      'value' => 23,
+    ),
+    'SCSU' => 
+    array (
+      'value' => 24,
+    ),
+    'ISCII' => 
+    array (
+      'value' => 25,
+    ),
+    'US_ASCII' => 
+    array (
+      'value' => 26,
+    ),
+    'UTF7' => 
+    array (
+      'value' => 27,
+    ),
+    'BOCU1' => 
+    array (
+      'value' => 28,
+    ),
+    'UTF16' => 
+    array (
+      'value' => 29,
+    ),
+    'UTF32' => 
+    array (
+      'value' => 30,
+    ),
+    'CESU8' => 
+    array (
+      'value' => 31,
+    ),
+    'IMAP_MAILBOX' => 
+    array (
+      'value' => 32,
+    ),
+  ),
   'properties' => 
   array (
   ),

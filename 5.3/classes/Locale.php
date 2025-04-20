@@ -35,6 +35,49 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'ACTUAL_LOCALE' => 
+    array (
+      'value' => 0,
+    ),
+    'VALID_LOCALE' => 
+    array (
+      'value' => 1,
+    ),
+    'DEFAULT_LOCALE' => 
+    array (
+      'value' => NULL,
+    ),
+    'LANG_TAG' => 
+    array (
+      'value' => 'language',
+    ),
+    'EXTLANG_TAG' => 
+    array (
+      'value' => 'extlang',
+    ),
+    'SCRIPT_TAG' => 
+    array (
+      'value' => 'script',
+    ),
+    'REGION_TAG' => 
+    array (
+      'value' => 'region',
+    ),
+    'VARIANT_TAG' => 
+    array (
+      'value' => 'variant',
+    ),
+    'GRANDFATHERED_LANG_TAG' => 
+    array (
+      'value' => 'grandfathered',
+    ),
+    'PRIVATE_TAG' => 
+    array (
+      'value' => 'private',
+    ),
+  ),
   'properties' => 
   array (
   ),

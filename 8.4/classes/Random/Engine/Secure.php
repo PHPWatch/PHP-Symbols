@@ -37,6 +37,9 @@ return array (
     0 => 'Random\\CryptoSafeEngine',
     1 => 'Random\\Engine',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
   ),

@@ -35,6 +35,16 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'IS_INSTANCEOF' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int IS_INSTANCEOF ] { 2 }
+',
+      'visibility' => 1,
+    ),
+  ),
   'properties' => 
   array (
   ),

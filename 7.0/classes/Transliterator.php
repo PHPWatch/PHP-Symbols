@@ -36,6 +36,17 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'FORWARD' => 
+    array (
+      'value' => 0,
+    ),
+    'REVERSE' => 
+    array (
+      'value' => 1,
+    ),
+  ),
   'properties' => 
   array (
     'id' => 

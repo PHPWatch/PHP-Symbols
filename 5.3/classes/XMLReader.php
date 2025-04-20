@@ -35,6 +35,97 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'NONE' => 
+    array (
+      'value' => 0,
+    ),
+    'ELEMENT' => 
+    array (
+      'value' => 1,
+    ),
+    'ATTRIBUTE' => 
+    array (
+      'value' => 2,
+    ),
+    'TEXT' => 
+    array (
+      'value' => 3,
+    ),
+    'CDATA' => 
+    array (
+      'value' => 4,
+    ),
+    'ENTITY_REF' => 
+    array (
+      'value' => 5,
+    ),
+    'ENTITY' => 
+    array (
+      'value' => 6,
+    ),
+    'PI' => 
+    array (
+      'value' => 7,
+    ),
+    'COMMENT' => 
+    array (
+      'value' => 8,
+    ),
+    'DOC' => 
+    array (
+      'value' => 9,
+    ),
+    'DOC_TYPE' => 
+    array (
+      'value' => 10,
+    ),
+    'DOC_FRAGMENT' => 
+    array (
+      'value' => 11,
+    ),
+    'NOTATION' => 
+    array (
+      'value' => 12,
+    ),
+    'WHITESPACE' => 
+    array (
+      'value' => 13,
+    ),
+    'SIGNIFICANT_WHITESPACE' => 
+    array (
+      'value' => 14,
+    ),
+    'END_ELEMENT' => 
+    array (
+      'value' => 15,
+    ),
+    'END_ENTITY' => 
+    array (
+      'value' => 16,
+    ),
+    'XML_DECLARATION' => 
+    array (
+      'value' => 17,
+    ),
+    'LOADDTD' => 
+    array (
+      'value' => 1,
+    ),
+    'DEFAULTATTRS' => 
+    array (
+      'value' => 2,
+    ),
+    'VALIDATE' => 
+    array (
+      'value' => 3,
+    ),
+    'SUBST_ENTITIES' => 
+    array (
+      'value' => 4,
+    ),
+  ),
   'properties' => 
   array (
   ),

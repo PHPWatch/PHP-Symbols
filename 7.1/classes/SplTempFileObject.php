@@ -39,6 +39,37 @@ return array (
     2 => 'Traversable',
     3 => 'RecursiveIterator',
   ),
+  'constants' => 
+  array (
+    'DROP_NEW_LINE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer DROP_NEW_LINE ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'READ_AHEAD' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer READ_AHEAD ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'SKIP_EMPTY' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public integer SKIP_EMPTY ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'READ_CSV' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public integer READ_CSV ] { 8 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
   ),

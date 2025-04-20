@@ -35,6 +35,107 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'AFRICA' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer AFRICA ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'AMERICA' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer AMERICA ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'ANTARCTICA' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public integer ANTARCTICA ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'ARCTIC' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public integer ARCTIC ] { 8 }
+',
+      'visibility' => 256,
+    ),
+    'ASIA' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public integer ASIA ] { 16 }
+',
+      'visibility' => 256,
+    ),
+    'ATLANTIC' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public integer ATLANTIC ] { 32 }
+',
+      'visibility' => 256,
+    ),
+    'AUSTRALIA' => 
+    array (
+      'value' => 64,
+      'toString' => 'Constant [ public integer AUSTRALIA ] { 64 }
+',
+      'visibility' => 256,
+    ),
+    'EUROPE' => 
+    array (
+      'value' => 128,
+      'toString' => 'Constant [ public integer EUROPE ] { 128 }
+',
+      'visibility' => 256,
+    ),
+    'INDIAN' => 
+    array (
+      'value' => 256,
+      'toString' => 'Constant [ public integer INDIAN ] { 256 }
+',
+      'visibility' => 256,
+    ),
+    'PACIFIC' => 
+    array (
+      'value' => 512,
+      'toString' => 'Constant [ public integer PACIFIC ] { 512 }
+',
+      'visibility' => 256,
+    ),
+    'UTC' => 
+    array (
+      'value' => 1024,
+      'toString' => 'Constant [ public integer UTC ] { 1024 }
+',
+      'visibility' => 256,
+    ),
+    'ALL' => 
+    array (
+      'value' => 2047,
+      'toString' => 'Constant [ public integer ALL ] { 2047 }
+',
+      'visibility' => 256,
+    ),
+    'ALL_WITH_BC' => 
+    array (
+      'value' => 4095,
+      'toString' => 'Constant [ public integer ALL_WITH_BC ] { 4095 }
+',
+      'visibility' => 256,
+    ),
+    'PER_COUNTRY' => 
+    array (
+      'value' => 4096,
+      'toString' => 'Constant [ public integer PER_COUNTRY ] { 4096 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
   ),

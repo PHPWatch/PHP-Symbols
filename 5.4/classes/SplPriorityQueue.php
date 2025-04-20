@@ -38,6 +38,21 @@ return array (
     1 => 'Traversable',
     2 => 'Countable',
   ),
+  'constants' => 
+  array (
+    'EXTR_BOTH' => 
+    array (
+      'value' => 3,
+    ),
+    'EXTR_PRIORITY' => 
+    array (
+      'value' => 2,
+    ),
+    'EXTR_DATA' => 
+    array (
+      'value' => 1,
+    ),
+  ),
   'properties' => 
   array (
   ),

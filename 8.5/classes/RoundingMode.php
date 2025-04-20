@@ -36,6 +36,81 @@ return array (
   array (
     0 => 'UnitEnum',
   ),
+  'constants' => 
+  array (
+    'HalfAwayFromZero' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public RoundingMode HalfAwayFromZero ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'HalfTowardsZero' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public RoundingMode HalfTowardsZero ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'HalfEven' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public RoundingMode HalfEven ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'HalfOdd' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public RoundingMode HalfOdd ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'TowardsZero' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public RoundingMode TowardsZero ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'AwayFromZero' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public RoundingMode AwayFromZero ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'NegativeInfinity' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public RoundingMode NegativeInfinity ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'PositiveInfinity' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public RoundingMode PositiveInfinity ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+  ),
   'properties' => 
   array (
     'name' => 

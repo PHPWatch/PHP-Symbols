@@ -35,6 +35,37 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'SINGLE_SCRIPT_CONFUSABLE' => 
+    array (
+      'value' => 1,
+    ),
+    'MIXED_SCRIPT_CONFUSABLE' => 
+    array (
+      'value' => 2,
+    ),
+    'WHOLE_SCRIPT_CONFUSABLE' => 
+    array (
+      'value' => 4,
+    ),
+    'ANY_CASE' => 
+    array (
+      'value' => 8,
+    ),
+    'SINGLE_SCRIPT' => 
+    array (
+      'value' => 16,
+    ),
+    'INVISIBLE' => 
+    array (
+      'value' => 32,
+    ),
+    'CHAR_LIMIT' => 
+    array (
+      'value' => 64,
+    ),
+  ),
   'properties' => 
   array (
   ),

@@ -41,6 +41,9 @@ return array (
   array (
     0 => 'Throwable',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
     'message' => 

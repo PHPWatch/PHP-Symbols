@@ -35,6 +35,97 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'FULL' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int FULL ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'LONG' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int LONG ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MEDIUM' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int MEDIUM ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'SHORT' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int SHORT ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'NONE' => 
+    array (
+      'value' => -1,
+      'toString' => 'Constant [ public int NONE ] { -1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'RELATIVE_FULL' => 
+    array (
+      'value' => 128,
+      'toString' => 'Constant [ public int RELATIVE_FULL ] { 128 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'RELATIVE_LONG' => 
+    array (
+      'value' => 129,
+      'toString' => 'Constant [ public int RELATIVE_LONG ] { 129 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'RELATIVE_MEDIUM' => 
+    array (
+      'value' => 130,
+      'toString' => 'Constant [ public int RELATIVE_MEDIUM ] { 130 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'RELATIVE_SHORT' => 
+    array (
+      'value' => 131,
+      'toString' => 'Constant [ public int RELATIVE_SHORT ] { 131 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'GREGORIAN' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int GREGORIAN ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'TRADITIONAL' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int TRADITIONAL ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+  ),
   'properties' => 
   array (
   ),

@@ -35,6 +35,342 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'OK' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int OK ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DENY' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int DENY ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IGNORE' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int IGNORE ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CREATE_INDEX' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int CREATE_INDEX ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CREATE_TABLE' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int CREATE_TABLE ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CREATE_TEMP_INDEX' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int CREATE_TEMP_INDEX ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CREATE_TEMP_TABLE' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int CREATE_TEMP_TABLE ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CREATE_TEMP_TRIGGER' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int CREATE_TEMP_TRIGGER ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CREATE_TEMP_VIEW' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int CREATE_TEMP_VIEW ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CREATE_TRIGGER' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int CREATE_TRIGGER ] { 7 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CREATE_VIEW' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int CREATE_VIEW ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DELETE' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public int DELETE ] { 9 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DROP_INDEX' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public int DROP_INDEX ] { 10 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DROP_TABLE' => 
+    array (
+      'value' => 11,
+      'toString' => 'Constant [ public int DROP_TABLE ] { 11 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DROP_TEMP_INDEX' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public int DROP_TEMP_INDEX ] { 12 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DROP_TEMP_TABLE' => 
+    array (
+      'value' => 13,
+      'toString' => 'Constant [ public int DROP_TEMP_TABLE ] { 13 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DROP_TEMP_TRIGGER' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public int DROP_TEMP_TRIGGER ] { 14 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DROP_TEMP_VIEW' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public int DROP_TEMP_VIEW ] { 15 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DROP_TRIGGER' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int DROP_TRIGGER ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DROP_VIEW' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public int DROP_VIEW ] { 17 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'INSERT' => 
+    array (
+      'value' => 18,
+      'toString' => 'Constant [ public int INSERT ] { 18 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PRAGMA' => 
+    array (
+      'value' => 19,
+      'toString' => 'Constant [ public int PRAGMA ] { 19 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'READ' => 
+    array (
+      'value' => 20,
+      'toString' => 'Constant [ public int READ ] { 20 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SELECT' => 
+    array (
+      'value' => 21,
+      'toString' => 'Constant [ public int SELECT ] { 21 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TRANSACTION' => 
+    array (
+      'value' => 22,
+      'toString' => 'Constant [ public int TRANSACTION ] { 22 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'UPDATE' => 
+    array (
+      'value' => 23,
+      'toString' => 'Constant [ public int UPDATE ] { 23 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTACH' => 
+    array (
+      'value' => 24,
+      'toString' => 'Constant [ public int ATTACH ] { 24 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DETACH' => 
+    array (
+      'value' => 25,
+      'toString' => 'Constant [ public int DETACH ] { 25 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ALTER_TABLE' => 
+    array (
+      'value' => 26,
+      'toString' => 'Constant [ public int ALTER_TABLE ] { 26 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'REINDEX' => 
+    array (
+      'value' => 27,
+      'toString' => 'Constant [ public int REINDEX ] { 27 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ANALYZE' => 
+    array (
+      'value' => 28,
+      'toString' => 'Constant [ public int ANALYZE ] { 28 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CREATE_VTABLE' => 
+    array (
+      'value' => 29,
+      'toString' => 'Constant [ public int CREATE_VTABLE ] { 29 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DROP_VTABLE' => 
+    array (
+      'value' => 30,
+      'toString' => 'Constant [ public int DROP_VTABLE ] { 30 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FUNCTION' => 
+    array (
+      'value' => 31,
+      'toString' => 'Constant [ public int FUNCTION ] { 31 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SAVEPOINT' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int SAVEPOINT ] { 32 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'COPY' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int COPY ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'RECURSIVE' => 
+    array (
+      'value' => 33,
+      'toString' => 'Constant [ public int RECURSIVE ] { 33 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
   ),

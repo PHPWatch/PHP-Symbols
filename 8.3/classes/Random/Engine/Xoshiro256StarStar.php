@@ -36,6 +36,9 @@ return array (
   array (
     0 => 'Random\\Engine',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
   ),

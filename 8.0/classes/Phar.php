@@ -42,6 +42,191 @@ return array (
     5 => 'Countable',
     6 => 'ArrayAccess',
   ),
+  'constants' => 
+  array (
+    'CURRENT_MODE_MASK' => 
+    array (
+      'value' => 240,
+      'toString' => 'Constant [ public int CURRENT_MODE_MASK ] { 240 }
+',
+      'visibility' => 1,
+    ),
+    'CURRENT_AS_PATHNAME' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int CURRENT_AS_PATHNAME ] { 32 }
+',
+      'visibility' => 1,
+    ),
+    'CURRENT_AS_FILEINFO' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int CURRENT_AS_FILEINFO ] { 0 }
+',
+      'visibility' => 1,
+    ),
+    'CURRENT_AS_SELF' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int CURRENT_AS_SELF ] { 16 }
+',
+      'visibility' => 1,
+    ),
+    'KEY_MODE_MASK' => 
+    array (
+      'value' => 3840,
+      'toString' => 'Constant [ public int KEY_MODE_MASK ] { 3840 }
+',
+      'visibility' => 1,
+    ),
+    'KEY_AS_PATHNAME' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int KEY_AS_PATHNAME ] { 0 }
+',
+      'visibility' => 1,
+    ),
+    'FOLLOW_SYMLINKS' => 
+    array (
+      'value' => 512,
+      'toString' => 'Constant [ public int FOLLOW_SYMLINKS ] { 512 }
+',
+      'visibility' => 1,
+    ),
+    'KEY_AS_FILENAME' => 
+    array (
+      'value' => 256,
+      'toString' => 'Constant [ public int KEY_AS_FILENAME ] { 256 }
+',
+      'visibility' => 1,
+    ),
+    'NEW_CURRENT_AND_KEY' => 
+    array (
+      'value' => 256,
+      'toString' => 'Constant [ public int NEW_CURRENT_AND_KEY ] { 256 }
+',
+      'visibility' => 1,
+    ),
+    'OTHER_MODE_MASK' => 
+    array (
+      'value' => 12288,
+      'toString' => 'Constant [ public int OTHER_MODE_MASK ] { 12288 }
+',
+      'visibility' => 1,
+    ),
+    'SKIP_DOTS' => 
+    array (
+      'value' => 4096,
+      'toString' => 'Constant [ public int SKIP_DOTS ] { 4096 }
+',
+      'visibility' => 1,
+    ),
+    'UNIX_PATHS' => 
+    array (
+      'value' => 8192,
+      'toString' => 'Constant [ public int UNIX_PATHS ] { 8192 }
+',
+      'visibility' => 1,
+    ),
+    'BZ2' => 
+    array (
+      'value' => 8192,
+      'toString' => 'Constant [ public int BZ2 ] { 8192 }
+',
+      'visibility' => 1,
+    ),
+    'GZ' => 
+    array (
+      'value' => 4096,
+      'toString' => 'Constant [ public int GZ ] { 4096 }
+',
+      'visibility' => 1,
+    ),
+    'NONE' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int NONE ] { 0 }
+',
+      'visibility' => 1,
+    ),
+    'PHAR' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int PHAR ] { 1 }
+',
+      'visibility' => 1,
+    ),
+    'TAR' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int TAR ] { 2 }
+',
+      'visibility' => 1,
+    ),
+    'ZIP' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int ZIP ] { 3 }
+',
+      'visibility' => 1,
+    ),
+    'COMPRESSED' => 
+    array (
+      'value' => 61440,
+      'toString' => 'Constant [ public int COMPRESSED ] { 61440 }
+',
+      'visibility' => 1,
+    ),
+    'PHP' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int PHP ] { 0 }
+',
+      'visibility' => 1,
+    ),
+    'PHPS' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int PHPS ] { 1 }
+',
+      'visibility' => 1,
+    ),
+    'MD5' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int MD5 ] { 1 }
+',
+      'visibility' => 1,
+    ),
+    'OPENSSL' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int OPENSSL ] { 16 }
+',
+      'visibility' => 1,
+    ),
+    'SHA1' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int SHA1 ] { 2 }
+',
+      'visibility' => 1,
+    ),
+    'SHA256' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int SHA256 ] { 3 }
+',
+      'visibility' => 1,
+    ),
+    'SHA512' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int SHA512 ] { 4 }
+',
+      'visibility' => 1,
+    ),
+  ),
   'properties' => 
   array (
   ),

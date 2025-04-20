@@ -36,6 +36,16 @@ return array (
   array (
     0 => 'Traversable',
   ),
+  'constants' => 
+  array (
+    'EXCLUDE_START_DATE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer EXCLUDE_START_DATE ] { 1 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
   ),

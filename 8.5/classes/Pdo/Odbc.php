@@ -35,6 +35,944 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'PARAM_NULL' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int PARAM_NULL ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PARAM_BOOL' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int PARAM_BOOL ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PARAM_INT' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int PARAM_INT ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PARAM_STR' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int PARAM_STR ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PARAM_LOB' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int PARAM_LOB ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PARAM_STMT' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int PARAM_STMT ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PARAM_INPUT_OUTPUT' => 
+    array (
+      'value' => 2147483648,
+      'toString' => 'Constant [ public int PARAM_INPUT_OUTPUT ] { 2147483648 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PARAM_STR_NATL' => 
+    array (
+      'value' => 1073741824,
+      'toString' => 'Constant [ public int PARAM_STR_NATL ] { 1073741824 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PARAM_STR_CHAR' => 
+    array (
+      'value' => 536870912,
+      'toString' => 'Constant [ public int PARAM_STR_CHAR ] { 536870912 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PARAM_EVT_ALLOC' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int PARAM_EVT_ALLOC ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PARAM_EVT_FREE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int PARAM_EVT_FREE ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PARAM_EVT_EXEC_PRE' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int PARAM_EVT_EXEC_PRE ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PARAM_EVT_EXEC_POST' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int PARAM_EVT_EXEC_POST ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PARAM_EVT_FETCH_PRE' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int PARAM_EVT_FETCH_PRE ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PARAM_EVT_FETCH_POST' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int PARAM_EVT_FETCH_POST ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PARAM_EVT_NORMALIZE' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int PARAM_EVT_NORMALIZE ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_DEFAULT' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int FETCH_DEFAULT ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_LAZY' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int FETCH_LAZY ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_ASSOC' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int FETCH_ASSOC ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_NUM' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int FETCH_NUM ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_BOTH' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int FETCH_BOTH ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_OBJ' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int FETCH_OBJ ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_BOUND' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int FETCH_BOUND ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_COLUMN' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int FETCH_COLUMN ] { 7 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_CLASS' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int FETCH_CLASS ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_INTO' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public int FETCH_INTO ] { 9 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_FUNC' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public int FETCH_FUNC ] { 10 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_GROUP' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int FETCH_GROUP ] { 32 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_UNIQUE' => 
+    array (
+      'value' => 64,
+      'toString' => 'Constant [ public int FETCH_UNIQUE ] { 64 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_KEY_PAIR' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public int FETCH_KEY_PAIR ] { 12 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_CLASSTYPE' => 
+    array (
+      'value' => 128,
+      'toString' => 'Constant [ public int FETCH_CLASSTYPE ] { 128 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_SERIALIZE' => 
+    array (
+      'value' => 512,
+      'toString' => 'Constant [ public int FETCH_SERIALIZE ] { 512 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_PROPS_LATE' => 
+    array (
+      'value' => 256,
+      'toString' => 'Constant [ public int FETCH_PROPS_LATE ] { 256 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_NAMED' => 
+    array (
+      'value' => 11,
+      'toString' => 'Constant [ public int FETCH_NAMED ] { 11 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_AUTOCOMMIT' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int ATTR_AUTOCOMMIT ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_PREFETCH' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int ATTR_PREFETCH ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_TIMEOUT' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int ATTR_TIMEOUT ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_ERRMODE' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int ATTR_ERRMODE ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_SERVER_VERSION' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int ATTR_SERVER_VERSION ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_CLIENT_VERSION' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int ATTR_CLIENT_VERSION ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_SERVER_INFO' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int ATTR_SERVER_INFO ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_CONNECTION_STATUS' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int ATTR_CONNECTION_STATUS ] { 7 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_CASE' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int ATTR_CASE ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_CURSOR_NAME' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public int ATTR_CURSOR_NAME ] { 9 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_CURSOR' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public int ATTR_CURSOR ] { 10 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_ORACLE_NULLS' => 
+    array (
+      'value' => 11,
+      'toString' => 'Constant [ public int ATTR_ORACLE_NULLS ] { 11 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_PERSISTENT' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public int ATTR_PERSISTENT ] { 12 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_STATEMENT_CLASS' => 
+    array (
+      'value' => 13,
+      'toString' => 'Constant [ public int ATTR_STATEMENT_CLASS ] { 13 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_FETCH_TABLE_NAMES' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public int ATTR_FETCH_TABLE_NAMES ] { 14 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_FETCH_CATALOG_NAMES' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public int ATTR_FETCH_CATALOG_NAMES ] { 15 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_DRIVER_NAME' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int ATTR_DRIVER_NAME ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_STRINGIFY_FETCHES' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public int ATTR_STRINGIFY_FETCHES ] { 17 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_MAX_COLUMN_LEN' => 
+    array (
+      'value' => 18,
+      'toString' => 'Constant [ public int ATTR_MAX_COLUMN_LEN ] { 18 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_EMULATE_PREPARES' => 
+    array (
+      'value' => 20,
+      'toString' => 'Constant [ public int ATTR_EMULATE_PREPARES ] { 20 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_DEFAULT_FETCH_MODE' => 
+    array (
+      'value' => 19,
+      'toString' => 'Constant [ public int ATTR_DEFAULT_FETCH_MODE ] { 19 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_DEFAULT_STR_PARAM' => 
+    array (
+      'value' => 21,
+      'toString' => 'Constant [ public int ATTR_DEFAULT_STR_PARAM ] { 21 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ERRMODE_SILENT' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int ERRMODE_SILENT ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ERRMODE_WARNING' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int ERRMODE_WARNING ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ERRMODE_EXCEPTION' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int ERRMODE_EXCEPTION ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CASE_NATURAL' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int CASE_NATURAL ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CASE_LOWER' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int CASE_LOWER ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CASE_UPPER' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int CASE_UPPER ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'NULL_NATURAL' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int NULL_NATURAL ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'NULL_EMPTY_STRING' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int NULL_EMPTY_STRING ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'NULL_TO_STRING' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int NULL_TO_STRING ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ERR_NONE' => 
+    array (
+      'value' => '00000',
+      'toString' => 'Constant [ public string ERR_NONE ] { 00000 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'string',
+    ),
+    'FETCH_ORI_NEXT' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int FETCH_ORI_NEXT ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_ORI_PRIOR' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int FETCH_ORI_PRIOR ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_ORI_FIRST' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int FETCH_ORI_FIRST ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_ORI_LAST' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int FETCH_ORI_LAST ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_ORI_ABS' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int FETCH_ORI_ABS ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'FETCH_ORI_REL' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int FETCH_ORI_REL ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CURSOR_FWDONLY' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int CURSOR_FWDONLY ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'CURSOR_SCROLL' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int CURSOR_SCROLL ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'DBLIB_ATTR_CONNECTION_TIMEOUT' => 
+    array (
+      'value' => 1000,
+      'toString' => 'Constant [ public int DBLIB_ATTR_CONNECTION_TIMEOUT ] { 1000 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DBLIB_ATTR_QUERY_TIMEOUT' => 
+    array (
+      'value' => 1001,
+      'toString' => 'Constant [ public int DBLIB_ATTR_QUERY_TIMEOUT ] { 1001 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DBLIB_ATTR_STRINGIFY_UNIQUEIDENTIFIER' => 
+    array (
+      'value' => 1002,
+      'toString' => 'Constant [ public int DBLIB_ATTR_STRINGIFY_UNIQUEIDENTIFIER ] { 1002 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DBLIB_ATTR_VERSION' => 
+    array (
+      'value' => 1003,
+      'toString' => 'Constant [ public int DBLIB_ATTR_VERSION ] { 1003 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DBLIB_ATTR_TDS_VERSION' => 
+    array (
+      'value' => 1004,
+      'toString' => 'Constant [ public int DBLIB_ATTR_TDS_VERSION ] { 1004 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DBLIB_ATTR_SKIP_EMPTY_ROWSETS' => 
+    array (
+      'value' => 1005,
+      'toString' => 'Constant [ public int DBLIB_ATTR_SKIP_EMPTY_ROWSETS ] { 1005 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'DBLIB_ATTR_DATETIME_CONVERT' => 
+    array (
+      'value' => 1006,
+      'toString' => 'Constant [ public int DBLIB_ATTR_DATETIME_CONVERT ] { 1006 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MYSQL_ATTR_USE_BUFFERED_QUERY' => 
+    array (
+      'value' => 1000,
+      'toString' => 'Constant [ public int MYSQL_ATTR_USE_BUFFERED_QUERY ] { 1000 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MYSQL_ATTR_LOCAL_INFILE' => 
+    array (
+      'value' => 1001,
+      'toString' => 'Constant [ public int MYSQL_ATTR_LOCAL_INFILE ] { 1001 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MYSQL_ATTR_INIT_COMMAND' => 
+    array (
+      'value' => 1002,
+      'toString' => 'Constant [ public int MYSQL_ATTR_INIT_COMMAND ] { 1002 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MYSQL_ATTR_COMPRESS' => 
+    array (
+      'value' => 1003,
+      'toString' => 'Constant [ public int MYSQL_ATTR_COMPRESS ] { 1003 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MYSQL_ATTR_DIRECT_QUERY' => 
+    array (
+      'value' => 20,
+      'toString' => 'Constant [ public int MYSQL_ATTR_DIRECT_QUERY ] { 20 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MYSQL_ATTR_FOUND_ROWS' => 
+    array (
+      'value' => 1004,
+      'toString' => 'Constant [ public int MYSQL_ATTR_FOUND_ROWS ] { 1004 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MYSQL_ATTR_IGNORE_SPACE' => 
+    array (
+      'value' => 1005,
+      'toString' => 'Constant [ public int MYSQL_ATTR_IGNORE_SPACE ] { 1005 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MYSQL_ATTR_SSL_KEY' => 
+    array (
+      'value' => 1006,
+      'toString' => 'Constant [ public int MYSQL_ATTR_SSL_KEY ] { 1006 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MYSQL_ATTR_SSL_CERT' => 
+    array (
+      'value' => 1007,
+      'toString' => 'Constant [ public int MYSQL_ATTR_SSL_CERT ] { 1007 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MYSQL_ATTR_SSL_CA' => 
+    array (
+      'value' => 1008,
+      'toString' => 'Constant [ public int MYSQL_ATTR_SSL_CA ] { 1008 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MYSQL_ATTR_SSL_CAPATH' => 
+    array (
+      'value' => 1009,
+      'toString' => 'Constant [ public int MYSQL_ATTR_SSL_CAPATH ] { 1009 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MYSQL_ATTR_SSL_CIPHER' => 
+    array (
+      'value' => 1010,
+      'toString' => 'Constant [ public int MYSQL_ATTR_SSL_CIPHER ] { 1010 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MYSQL_ATTR_SERVER_PUBLIC_KEY' => 
+    array (
+      'value' => 1011,
+      'toString' => 'Constant [ public int MYSQL_ATTR_SERVER_PUBLIC_KEY ] { 1011 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MYSQL_ATTR_MULTI_STATEMENTS' => 
+    array (
+      'value' => 1012,
+      'toString' => 'Constant [ public int MYSQL_ATTR_MULTI_STATEMENTS ] { 1012 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MYSQL_ATTR_SSL_VERIFY_SERVER_CERT' => 
+    array (
+      'value' => 1013,
+      'toString' => 'Constant [ public int MYSQL_ATTR_SSL_VERIFY_SERVER_CERT ] { 1013 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'MYSQL_ATTR_LOCAL_INFILE_DIRECTORY' => 
+    array (
+      'value' => 1014,
+      'toString' => 'Constant [ public int MYSQL_ATTR_LOCAL_INFILE_DIRECTORY ] { 1014 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ODBC_ATTR_USE_CURSOR_LIBRARY' => 
+    array (
+      'value' => 1000,
+      'toString' => 'Constant [ public int ODBC_ATTR_USE_CURSOR_LIBRARY ] { 1000 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ODBC_ATTR_ASSUME_UTF8' => 
+    array (
+      'value' => 1001,
+      'toString' => 'Constant [ public int ODBC_ATTR_ASSUME_UTF8 ] { 1001 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ODBC_SQL_USE_IF_NEEDED' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int ODBC_SQL_USE_IF_NEEDED ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ODBC_SQL_USE_DRIVER' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int ODBC_SQL_USE_DRIVER ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ODBC_SQL_USE_ODBC' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int ODBC_SQL_USE_ODBC ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ATTR_USE_CURSOR_LIBRARY' => 
+    array (
+      'value' => 1000,
+      'toString' => 'Constant [ public int ATTR_USE_CURSOR_LIBRARY ] { 1000 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ATTR_ASSUME_UTF8' => 
+    array (
+      'value' => 1001,
+      'toString' => 'Constant [ public int ATTR_ASSUME_UTF8 ] { 1001 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SQL_USE_IF_NEEDED' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int SQL_USE_IF_NEEDED ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SQL_USE_DRIVER' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int SQL_USE_DRIVER ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SQL_USE_ODBC' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int SQL_USE_ODBC ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
   ),

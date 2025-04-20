@@ -37,6 +37,45 @@ return array (
     0 => 'Iterator',
     1 => 'Traversable',
   ),
+  'constants' => 
+  array (
+    'MIT_NEED_ANY' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int MIT_NEED_ANY ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'MIT_NEED_ALL' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int MIT_NEED_ALL ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'MIT_KEYS_NUMERIC' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int MIT_KEYS_NUMERIC ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'MIT_KEYS_ASSOC' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int MIT_KEYS_ASSOC ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
   ),

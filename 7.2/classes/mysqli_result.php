@@ -41,6 +41,9 @@ return array (
   array (
     0 => 'Traversable',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
     'current_field' => 

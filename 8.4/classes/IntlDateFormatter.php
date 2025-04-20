@@ -35,6 +35,117 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'FULL' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int FULL ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'LONG' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int LONG ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'MEDIUM' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int MEDIUM ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'SHORT' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int SHORT ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'NONE' => 
+    array (
+      'value' => -1,
+      'toString' => 'Constant [ public int NONE ] { -1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'RELATIVE_FULL' => 
+    array (
+      'value' => 128,
+      'toString' => 'Constant [ public int RELATIVE_FULL ] { 128 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'RELATIVE_LONG' => 
+    array (
+      'value' => 129,
+      'toString' => 'Constant [ public int RELATIVE_LONG ] { 129 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'RELATIVE_MEDIUM' => 
+    array (
+      'value' => 130,
+      'toString' => 'Constant [ public int RELATIVE_MEDIUM ] { 130 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'RELATIVE_SHORT' => 
+    array (
+      'value' => 131,
+      'toString' => 'Constant [ public int RELATIVE_SHORT ] { 131 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'PATTERN' => 
+    array (
+      'value' => -2,
+      'toString' => 'Constant [ public int PATTERN ] { -2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'GREGORIAN' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int GREGORIAN ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TRADITIONAL' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int TRADITIONAL ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
   ),

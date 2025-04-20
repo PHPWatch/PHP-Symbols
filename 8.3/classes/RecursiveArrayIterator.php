@@ -42,6 +42,33 @@ return array (
     5 => 'SeekableIterator',
     6 => 'RecursiveIterator',
   ),
+  'constants' => 
+  array (
+    'STD_PROP_LIST' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int STD_PROP_LIST ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ARRAY_AS_PROPS' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int ARRAY_AS_PROPS ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CHILD_ARRAYS_ONLY' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int CHILD_ARRAYS_ONLY ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+  ),
   'properties' => 
   array (
   ),

@@ -37,6 +37,16 @@ return array (
   array (
     0 => 'Reflector',
   ),
+  'constants' => 
+  array (
+    'IS_DEPRECATED' => 
+    array (
+      'value' => 262144,
+      'toString' => 'Constant [ public integer IS_DEPRECATED ] { 262144 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
     'name' => 

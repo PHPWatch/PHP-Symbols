@@ -37,6 +37,9 @@ return array (
     0 => 'IteratorAggregate',
     1 => 'Traversable',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
     'current_field' => 

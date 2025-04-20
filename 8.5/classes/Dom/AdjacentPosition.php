@@ -37,6 +37,45 @@ return array (
     0 => 'BackedEnum',
     1 => 'UnitEnum',
   ),
+  'constants' => 
+  array (
+    'BeforeBegin' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public Dom\\AdjacentPosition BeforeBegin ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'AfterBegin' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public Dom\\AdjacentPosition AfterBegin ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'BeforeEnd' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public Dom\\AdjacentPosition BeforeEnd ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'AfterEnd' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public Dom\\AdjacentPosition AfterEnd ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+  ),
   'properties' => 
   array (
     'name' => 

@@ -35,6 +35,45 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'NONE' => 
+    array (
+      'value' => 1,
+    ),
+    'FORM_D' => 
+    array (
+      'value' => 2,
+    ),
+    'NFD' => 
+    array (
+      'value' => 2,
+    ),
+    'FORM_KD' => 
+    array (
+      'value' => 3,
+    ),
+    'NFKD' => 
+    array (
+      'value' => 3,
+    ),
+    'FORM_C' => 
+    array (
+      'value' => 4,
+    ),
+    'NFC' => 
+    array (
+      'value' => 4,
+    ),
+    'FORM_KC' => 
+    array (
+      'value' => 5,
+    ),
+    'NFKC' => 
+    array (
+      'value' => 5,
+    ),
+  ),
   'properties' => 
   array (
   ),

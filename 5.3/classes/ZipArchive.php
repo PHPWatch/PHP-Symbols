@@ -35,6 +35,205 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'CREATE' => 
+    array (
+      'value' => 1,
+    ),
+    'EXCL' => 
+    array (
+      'value' => 2,
+    ),
+    'CHECKCONS' => 
+    array (
+      'value' => 4,
+    ),
+    'OVERWRITE' => 
+    array (
+      'value' => 8,
+    ),
+    'FL_NOCASE' => 
+    array (
+      'value' => 1,
+    ),
+    'FL_NODIR' => 
+    array (
+      'value' => 2,
+    ),
+    'FL_COMPRESSED' => 
+    array (
+      'value' => 4,
+    ),
+    'FL_UNCHANGED' => 
+    array (
+      'value' => 8,
+    ),
+    'CM_DEFAULT' => 
+    array (
+      'value' => -1,
+    ),
+    'CM_STORE' => 
+    array (
+      'value' => 0,
+    ),
+    'CM_SHRINK' => 
+    array (
+      'value' => 1,
+    ),
+    'CM_REDUCE_1' => 
+    array (
+      'value' => 2,
+    ),
+    'CM_REDUCE_2' => 
+    array (
+      'value' => 3,
+    ),
+    'CM_REDUCE_3' => 
+    array (
+      'value' => 4,
+    ),
+    'CM_REDUCE_4' => 
+    array (
+      'value' => 5,
+    ),
+    'CM_IMPLODE' => 
+    array (
+      'value' => 6,
+    ),
+    'CM_DEFLATE' => 
+    array (
+      'value' => 8,
+    ),
+    'CM_DEFLATE64' => 
+    array (
+      'value' => 9,
+    ),
+    'CM_PKWARE_IMPLODE' => 
+    array (
+      'value' => 10,
+    ),
+    'CM_BZIP2' => 
+    array (
+      'value' => 12,
+    ),
+    'CM_LZMA' => 
+    array (
+      'value' => 14,
+    ),
+    'CM_TERSE' => 
+    array (
+      'value' => 18,
+    ),
+    'CM_LZ77' => 
+    array (
+      'value' => 19,
+    ),
+    'CM_WAVPACK' => 
+    array (
+      'value' => 97,
+    ),
+    'CM_PPMD' => 
+    array (
+      'value' => 98,
+    ),
+    'ER_OK' => 
+    array (
+      'value' => 0,
+    ),
+    'ER_MULTIDISK' => 
+    array (
+      'value' => 1,
+    ),
+    'ER_RENAME' => 
+    array (
+      'value' => 2,
+    ),
+    'ER_CLOSE' => 
+    array (
+      'value' => 3,
+    ),
+    'ER_SEEK' => 
+    array (
+      'value' => 4,
+    ),
+    'ER_READ' => 
+    array (
+      'value' => 5,
+    ),
+    'ER_WRITE' => 
+    array (
+      'value' => 6,
+    ),
+    'ER_CRC' => 
+    array (
+      'value' => 7,
+    ),
+    'ER_ZIPCLOSED' => 
+    array (
+      'value' => 8,
+    ),
+    'ER_NOENT' => 
+    array (
+      'value' => 9,
+    ),
+    'ER_EXISTS' => 
+    array (
+      'value' => 10,
+    ),
+    'ER_OPEN' => 
+    array (
+      'value' => 11,
+    ),
+    'ER_TMPOPEN' => 
+    array (
+      'value' => 12,
+    ),
+    'ER_ZLIB' => 
+    array (
+      'value' => 13,
+    ),
+    'ER_MEMORY' => 
+    array (
+      'value' => 14,
+    ),
+    'ER_CHANGED' => 
+    array (
+      'value' => 15,
+    ),
+    'ER_COMPNOTSUPP' => 
+    array (
+      'value' => 16,
+    ),
+    'ER_EOF' => 
+    array (
+      'value' => 17,
+    ),
+    'ER_INVAL' => 
+    array (
+      'value' => 18,
+    ),
+    'ER_NOZIP' => 
+    array (
+      'value' => 19,
+    ),
+    'ER_INTERNAL' => 
+    array (
+      'value' => 20,
+    ),
+    'ER_INCONS' => 
+    array (
+      'value' => 21,
+    ),
+    'ER_REMOVE' => 
+    array (
+      'value' => 22,
+    ),
+    'ER_DELETED' => 
+    array (
+      'value' => 23,
+    ),
+  ),
   'properties' => 
   array (
   ),

@@ -35,6 +35,165 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'FIELD_ERA' => 
+    array (
+      'value' => 0,
+    ),
+    'FIELD_YEAR' => 
+    array (
+      'value' => 1,
+    ),
+    'FIELD_MONTH' => 
+    array (
+      'value' => 2,
+    ),
+    'FIELD_WEEK_OF_YEAR' => 
+    array (
+      'value' => 3,
+    ),
+    'FIELD_WEEK_OF_MONTH' => 
+    array (
+      'value' => 4,
+    ),
+    'FIELD_DATE' => 
+    array (
+      'value' => 5,
+    ),
+    'FIELD_DAY_OF_YEAR' => 
+    array (
+      'value' => 6,
+    ),
+    'FIELD_DAY_OF_WEEK' => 
+    array (
+      'value' => 7,
+    ),
+    'FIELD_DAY_OF_WEEK_IN_MONTH' => 
+    array (
+      'value' => 8,
+    ),
+    'FIELD_AM_PM' => 
+    array (
+      'value' => 9,
+    ),
+    'FIELD_HOUR' => 
+    array (
+      'value' => 10,
+    ),
+    'FIELD_HOUR_OF_DAY' => 
+    array (
+      'value' => 11,
+    ),
+    'FIELD_MINUTE' => 
+    array (
+      'value' => 12,
+    ),
+    'FIELD_SECOND' => 
+    array (
+      'value' => 13,
+    ),
+    'FIELD_MILLISECOND' => 
+    array (
+      'value' => 14,
+    ),
+    'FIELD_ZONE_OFFSET' => 
+    array (
+      'value' => 15,
+    ),
+    'FIELD_DST_OFFSET' => 
+    array (
+      'value' => 16,
+    ),
+    'FIELD_YEAR_WOY' => 
+    array (
+      'value' => 17,
+    ),
+    'FIELD_DOW_LOCAL' => 
+    array (
+      'value' => 18,
+    ),
+    'FIELD_EXTENDED_YEAR' => 
+    array (
+      'value' => 19,
+    ),
+    'FIELD_JULIAN_DAY' => 
+    array (
+      'value' => 20,
+    ),
+    'FIELD_MILLISECONDS_IN_DAY' => 
+    array (
+      'value' => 21,
+    ),
+    'FIELD_IS_LEAP_MONTH' => 
+    array (
+      'value' => 22,
+    ),
+    'FIELD_FIELD_COUNT' => 
+    array (
+      'value' => 24,
+    ),
+    'FIELD_DAY_OF_MONTH' => 
+    array (
+      'value' => 5,
+    ),
+    'DOW_SUNDAY' => 
+    array (
+      'value' => 1,
+    ),
+    'DOW_MONDAY' => 
+    array (
+      'value' => 2,
+    ),
+    'DOW_TUESDAY' => 
+    array (
+      'value' => 3,
+    ),
+    'DOW_WEDNESDAY' => 
+    array (
+      'value' => 4,
+    ),
+    'DOW_THURSDAY' => 
+    array (
+      'value' => 5,
+    ),
+    'DOW_FRIDAY' => 
+    array (
+      'value' => 6,
+    ),
+    'DOW_SATURDAY' => 
+    array (
+      'value' => 7,
+    ),
+    'DOW_TYPE_WEEKDAY' => 
+    array (
+      'value' => 0,
+    ),
+    'DOW_TYPE_WEEKEND' => 
+    array (
+      'value' => 1,
+    ),
+    'DOW_TYPE_WEEKEND_OFFSET' => 
+    array (
+      'value' => 2,
+    ),
+    'DOW_TYPE_WEEKEND_CEASE' => 
+    array (
+      'value' => 3,
+    ),
+    'WALLTIME_FIRST' => 
+    array (
+      'value' => 1,
+    ),
+    'WALLTIME_LAST' => 
+    array (
+      'value' => 0,
+    ),
+    'WALLTIME_NEXT_VALID' => 
+    array (
+      'value' => 2,
+    ),
+  ),
   'properties' => 
   array (
   ),

@@ -36,6 +36,54 @@ return array (
   array (
     0 => 'UnitEnum',
   ),
+  'constants' => 
+  array (
+    'UserInteractive' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public Pcntl\\QosClass UserInteractive ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'UserInitiated' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public Pcntl\\QosClass UserInitiated ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'Default' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public Pcntl\\QosClass Default ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'Utility' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public Pcntl\\QosClass Utility ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'Background' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public Pcntl\\QosClass Background ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+  ),
   'properties' => 
   array (
     'name' => 

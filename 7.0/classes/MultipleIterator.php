@@ -37,6 +37,25 @@ return array (
     0 => 'Iterator',
     1 => 'Traversable',
   ),
+  'constants' => 
+  array (
+    'MIT_NEED_ANY' => 
+    array (
+      'value' => 0,
+    ),
+    'MIT_NEED_ALL' => 
+    array (
+      'value' => 1,
+    ),
+    'MIT_KEYS_NUMERIC' => 
+    array (
+      'value' => 0,
+    ),
+    'MIT_KEYS_ASSOC' => 
+    array (
+      'value' => 2,
+    ),
+  ),
   'properties' => 
   array (
   ),

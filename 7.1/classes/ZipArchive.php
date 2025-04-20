@@ -35,6 +35,534 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'CREATE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer CREATE ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'EXCL' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer EXCL ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'CHECKCONS' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public integer CHECKCONS ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'OVERWRITE' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public integer OVERWRITE ] { 8 }
+',
+      'visibility' => 256,
+    ),
+    'FL_NOCASE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer FL_NOCASE ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'FL_NODIR' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer FL_NODIR ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'FL_COMPRESSED' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public integer FL_COMPRESSED ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'FL_UNCHANGED' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public integer FL_UNCHANGED ] { 8 }
+',
+      'visibility' => 256,
+    ),
+    'FL_ENC_GUESS' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public integer FL_ENC_GUESS ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'FL_ENC_RAW' => 
+    array (
+      'value' => 64,
+      'toString' => 'Constant [ public integer FL_ENC_RAW ] { 64 }
+',
+      'visibility' => 256,
+    ),
+    'FL_ENC_STRICT' => 
+    array (
+      'value' => 128,
+      'toString' => 'Constant [ public integer FL_ENC_STRICT ] { 128 }
+',
+      'visibility' => 256,
+    ),
+    'FL_ENC_UTF_8' => 
+    array (
+      'value' => 2048,
+      'toString' => 'Constant [ public integer FL_ENC_UTF_8 ] { 2048 }
+',
+      'visibility' => 256,
+    ),
+    'FL_ENC_CP437' => 
+    array (
+      'value' => 4096,
+      'toString' => 'Constant [ public integer FL_ENC_CP437 ] { 4096 }
+',
+      'visibility' => 256,
+    ),
+    'CM_DEFAULT' => 
+    array (
+      'value' => -1,
+      'toString' => 'Constant [ public integer CM_DEFAULT ] { -1 }
+',
+      'visibility' => 256,
+    ),
+    'CM_STORE' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public integer CM_STORE ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'CM_SHRINK' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer CM_SHRINK ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'CM_REDUCE_1' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer CM_REDUCE_1 ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'CM_REDUCE_2' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public integer CM_REDUCE_2 ] { 3 }
+',
+      'visibility' => 256,
+    ),
+    'CM_REDUCE_3' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public integer CM_REDUCE_3 ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'CM_REDUCE_4' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public integer CM_REDUCE_4 ] { 5 }
+',
+      'visibility' => 256,
+    ),
+    'CM_IMPLODE' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public integer CM_IMPLODE ] { 6 }
+',
+      'visibility' => 256,
+    ),
+    'CM_DEFLATE' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public integer CM_DEFLATE ] { 8 }
+',
+      'visibility' => 256,
+    ),
+    'CM_DEFLATE64' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public integer CM_DEFLATE64 ] { 9 }
+',
+      'visibility' => 256,
+    ),
+    'CM_PKWARE_IMPLODE' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public integer CM_PKWARE_IMPLODE ] { 10 }
+',
+      'visibility' => 256,
+    ),
+    'CM_BZIP2' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public integer CM_BZIP2 ] { 12 }
+',
+      'visibility' => 256,
+    ),
+    'CM_LZMA' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public integer CM_LZMA ] { 14 }
+',
+      'visibility' => 256,
+    ),
+    'CM_TERSE' => 
+    array (
+      'value' => 18,
+      'toString' => 'Constant [ public integer CM_TERSE ] { 18 }
+',
+      'visibility' => 256,
+    ),
+    'CM_LZ77' => 
+    array (
+      'value' => 19,
+      'toString' => 'Constant [ public integer CM_LZ77 ] { 19 }
+',
+      'visibility' => 256,
+    ),
+    'CM_WAVPACK' => 
+    array (
+      'value' => 97,
+      'toString' => 'Constant [ public integer CM_WAVPACK ] { 97 }
+',
+      'visibility' => 256,
+    ),
+    'CM_PPMD' => 
+    array (
+      'value' => 98,
+      'toString' => 'Constant [ public integer CM_PPMD ] { 98 }
+',
+      'visibility' => 256,
+    ),
+    'ER_OK' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public integer ER_OK ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'ER_MULTIDISK' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer ER_MULTIDISK ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'ER_RENAME' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer ER_RENAME ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'ER_CLOSE' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public integer ER_CLOSE ] { 3 }
+',
+      'visibility' => 256,
+    ),
+    'ER_SEEK' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public integer ER_SEEK ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'ER_READ' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public integer ER_READ ] { 5 }
+',
+      'visibility' => 256,
+    ),
+    'ER_WRITE' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public integer ER_WRITE ] { 6 }
+',
+      'visibility' => 256,
+    ),
+    'ER_CRC' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public integer ER_CRC ] { 7 }
+',
+      'visibility' => 256,
+    ),
+    'ER_ZIPCLOSED' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public integer ER_ZIPCLOSED ] { 8 }
+',
+      'visibility' => 256,
+    ),
+    'ER_NOENT' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public integer ER_NOENT ] { 9 }
+',
+      'visibility' => 256,
+    ),
+    'ER_EXISTS' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public integer ER_EXISTS ] { 10 }
+',
+      'visibility' => 256,
+    ),
+    'ER_OPEN' => 
+    array (
+      'value' => 11,
+      'toString' => 'Constant [ public integer ER_OPEN ] { 11 }
+',
+      'visibility' => 256,
+    ),
+    'ER_TMPOPEN' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public integer ER_TMPOPEN ] { 12 }
+',
+      'visibility' => 256,
+    ),
+    'ER_ZLIB' => 
+    array (
+      'value' => 13,
+      'toString' => 'Constant [ public integer ER_ZLIB ] { 13 }
+',
+      'visibility' => 256,
+    ),
+    'ER_MEMORY' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public integer ER_MEMORY ] { 14 }
+',
+      'visibility' => 256,
+    ),
+    'ER_CHANGED' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public integer ER_CHANGED ] { 15 }
+',
+      'visibility' => 256,
+    ),
+    'ER_COMPNOTSUPP' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public integer ER_COMPNOTSUPP ] { 16 }
+',
+      'visibility' => 256,
+    ),
+    'ER_EOF' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public integer ER_EOF ] { 17 }
+',
+      'visibility' => 256,
+    ),
+    'ER_INVAL' => 
+    array (
+      'value' => 18,
+      'toString' => 'Constant [ public integer ER_INVAL ] { 18 }
+',
+      'visibility' => 256,
+    ),
+    'ER_NOZIP' => 
+    array (
+      'value' => 19,
+      'toString' => 'Constant [ public integer ER_NOZIP ] { 19 }
+',
+      'visibility' => 256,
+    ),
+    'ER_INTERNAL' => 
+    array (
+      'value' => 20,
+      'toString' => 'Constant [ public integer ER_INTERNAL ] { 20 }
+',
+      'visibility' => 256,
+    ),
+    'ER_INCONS' => 
+    array (
+      'value' => 21,
+      'toString' => 'Constant [ public integer ER_INCONS ] { 21 }
+',
+      'visibility' => 256,
+    ),
+    'ER_REMOVE' => 
+    array (
+      'value' => 22,
+      'toString' => 'Constant [ public integer ER_REMOVE ] { 22 }
+',
+      'visibility' => 256,
+    ),
+    'ER_DELETED' => 
+    array (
+      'value' => 23,
+      'toString' => 'Constant [ public integer ER_DELETED ] { 23 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_DOS' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public integer OPSYS_DOS ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_AMIGA' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer OPSYS_AMIGA ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_OPENVMS' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer OPSYS_OPENVMS ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_UNIX' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public integer OPSYS_UNIX ] { 3 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_VM_CMS' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public integer OPSYS_VM_CMS ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_ATARI_ST' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public integer OPSYS_ATARI_ST ] { 5 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_OS_2' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public integer OPSYS_OS_2 ] { 6 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_MACINTOSH' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public integer OPSYS_MACINTOSH ] { 7 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_Z_SYSTEM' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public integer OPSYS_Z_SYSTEM ] { 8 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_Z_CPM' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public integer OPSYS_Z_CPM ] { 9 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_WINDOWS_NTFS' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public integer OPSYS_WINDOWS_NTFS ] { 10 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_MVS' => 
+    array (
+      'value' => 11,
+      'toString' => 'Constant [ public integer OPSYS_MVS ] { 11 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_VSE' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public integer OPSYS_VSE ] { 12 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_ACORN_RISC' => 
+    array (
+      'value' => 13,
+      'toString' => 'Constant [ public integer OPSYS_ACORN_RISC ] { 13 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_VFAT' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public integer OPSYS_VFAT ] { 14 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_ALTERNATE_MVS' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public integer OPSYS_ALTERNATE_MVS ] { 15 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_BEOS' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public integer OPSYS_BEOS ] { 16 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_TANDEM' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public integer OPSYS_TANDEM ] { 17 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_OS_400' => 
+    array (
+      'value' => 18,
+      'toString' => 'Constant [ public integer OPSYS_OS_400 ] { 18 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_OS_X' => 
+    array (
+      'value' => 19,
+      'toString' => 'Constant [ public integer OPSYS_OS_X ] { 19 }
+',
+      'visibility' => 256,
+    ),
+    'OPSYS_DEFAULT' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public integer OPSYS_DEFAULT ] { 3 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
   ),

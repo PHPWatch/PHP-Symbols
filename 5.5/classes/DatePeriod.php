@@ -36,6 +36,13 @@ return array (
   array (
     0 => 'Traversable',
   ),
+  'constants' => 
+  array (
+    'EXCLUDE_START_DATE' => 
+    array (
+      'value' => 1,
+    ),
+  ),
   'properties' => 
   array (
   ),

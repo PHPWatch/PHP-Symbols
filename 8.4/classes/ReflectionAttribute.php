@@ -37,6 +37,18 @@ return array (
     0 => 'Stringable',
     1 => 'Reflector',
   ),
+  'constants' => 
+  array (
+    'IS_INSTANCEOF' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int IS_INSTANCEOF ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
     'name' => 

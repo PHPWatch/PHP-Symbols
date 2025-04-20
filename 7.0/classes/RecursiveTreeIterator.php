@@ -38,6 +38,57 @@ return array (
     1 => 'Traversable',
     2 => 'Iterator',
   ),
+  'constants' => 
+  array (
+    'LEAVES_ONLY' => 
+    array (
+      'value' => 0,
+    ),
+    'SELF_FIRST' => 
+    array (
+      'value' => 1,
+    ),
+    'CHILD_FIRST' => 
+    array (
+      'value' => 2,
+    ),
+    'CATCH_GET_CHILD' => 
+    array (
+      'value' => 16,
+    ),
+    'BYPASS_CURRENT' => 
+    array (
+      'value' => 4,
+    ),
+    'BYPASS_KEY' => 
+    array (
+      'value' => 8,
+    ),
+    'PREFIX_LEFT' => 
+    array (
+      'value' => 0,
+    ),
+    'PREFIX_MID_HAS_NEXT' => 
+    array (
+      'value' => 1,
+    ),
+    'PREFIX_MID_LAST' => 
+    array (
+      'value' => 2,
+    ),
+    'PREFIX_END_HAS_NEXT' => 
+    array (
+      'value' => 3,
+    ),
+    'PREFIX_END_LAST' => 
+    array (
+      'value' => 4,
+    ),
+    'PREFIX_RIGHT' => 
+    array (
+      'value' => 5,
+    ),
+  ),
   'properties' => 
   array (
   ),

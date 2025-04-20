@@ -40,6 +40,27 @@ return array (
     3 => 'Serializable',
     4 => 'Countable',
   ),
+  'constants' => 
+  array (
+    'STD_PROP_LIST' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int STD_PROP_LIST ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'ARRAY_AS_PROPS' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int ARRAY_AS_PROPS ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+  ),
   'properties' => 
   array (
   ),

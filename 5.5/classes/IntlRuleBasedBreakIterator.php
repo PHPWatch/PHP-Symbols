@@ -36,6 +36,85 @@ return array (
   array (
     0 => 'Traversable',
   ),
+  'constants' => 
+  array (
+    'DONE' => 
+    array (
+      'value' => -1,
+    ),
+    'WORD_NONE' => 
+    array (
+      'value' => 0,
+    ),
+    'WORD_NONE_LIMIT' => 
+    array (
+      'value' => 100,
+    ),
+    'WORD_NUMBER' => 
+    array (
+      'value' => 100,
+    ),
+    'WORD_NUMBER_LIMIT' => 
+    array (
+      'value' => 200,
+    ),
+    'WORD_LETTER' => 
+    array (
+      'value' => 200,
+    ),
+    'WORD_LETTER_LIMIT' => 
+    array (
+      'value' => 300,
+    ),
+    'WORD_KANA' => 
+    array (
+      'value' => 300,
+    ),
+    'WORD_KANA_LIMIT' => 
+    array (
+      'value' => 400,
+    ),
+    'WORD_IDEO' => 
+    array (
+      'value' => 400,
+    ),
+    'WORD_IDEO_LIMIT' => 
+    array (
+      'value' => 500,
+    ),
+    'LINE_SOFT' => 
+    array (
+      'value' => 0,
+    ),
+    'LINE_SOFT_LIMIT' => 
+    array (
+      'value' => 100,
+    ),
+    'LINE_HARD' => 
+    array (
+      'value' => 100,
+    ),
+    'LINE_HARD_LIMIT' => 
+    array (
+      'value' => 200,
+    ),
+    'SENTENCE_TERM' => 
+    array (
+      'value' => 0,
+    ),
+    'SENTENCE_TERM_LIMIT' => 
+    array (
+      'value' => 100,
+    ),
+    'SENTENCE_SEP' => 
+    array (
+      'value' => 100,
+    ),
+    'SENTENCE_SEP_LIMIT' => 
+    array (
+      'value' => 200,
+    ),
+  ),
   'properties' => 
   array (
   ),

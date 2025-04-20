@@ -37,6 +37,9 @@ return array (
     0 => 'Stringable',
     1 => 'Reflector',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
     'name' => 

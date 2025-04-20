@@ -37,6 +37,9 @@ return array (
     0 => 'Traversable',
     1 => 'Countable',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
   ),

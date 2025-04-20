@@ -39,6 +39,9 @@ return array (
     2 => 'IteratorAggregate',
     3 => 'Traversable',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
   ),

@@ -36,6 +36,9 @@ return array (
   array (
     0 => 'Stringable',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
   ),

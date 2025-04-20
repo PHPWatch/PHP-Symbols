@@ -40,6 +40,9 @@ return array (
     3 => 'Countable',
     4 => 'JsonSerializable',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
   ),

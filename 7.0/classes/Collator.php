@@ -35,6 +35,105 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'DEFAULT_VALUE' => 
+    array (
+      'value' => -1,
+    ),
+    'PRIMARY' => 
+    array (
+      'value' => 0,
+    ),
+    'SECONDARY' => 
+    array (
+      'value' => 1,
+    ),
+    'TERTIARY' => 
+    array (
+      'value' => 2,
+    ),
+    'DEFAULT_STRENGTH' => 
+    array (
+      'value' => 2,
+    ),
+    'QUATERNARY' => 
+    array (
+      'value' => 3,
+    ),
+    'IDENTICAL' => 
+    array (
+      'value' => 15,
+    ),
+    'OFF' => 
+    array (
+      'value' => 16,
+    ),
+    'ON' => 
+    array (
+      'value' => 17,
+    ),
+    'SHIFTED' => 
+    array (
+      'value' => 20,
+    ),
+    'NON_IGNORABLE' => 
+    array (
+      'value' => 21,
+    ),
+    'LOWER_FIRST' => 
+    array (
+      'value' => 24,
+    ),
+    'UPPER_FIRST' => 
+    array (
+      'value' => 25,
+    ),
+    'FRENCH_COLLATION' => 
+    array (
+      'value' => 0,
+    ),
+    'ALTERNATE_HANDLING' => 
+    array (
+      'value' => 1,
+    ),
+    'CASE_FIRST' => 
+    array (
+      'value' => 2,
+    ),
+    'CASE_LEVEL' => 
+    array (
+      'value' => 3,
+    ),
+    'NORMALIZATION_MODE' => 
+    array (
+      'value' => 4,
+    ),
+    'STRENGTH' => 
+    array (
+      'value' => 5,
+    ),
+    'HIRAGANA_QUATERNARY_MODE' => 
+    array (
+      'value' => 6,
+    ),
+    'NUMERIC_COLLATION' => 
+    array (
+      'value' => 7,
+    ),
+    'SORT_REGULAR' => 
+    array (
+      'value' => 0,
+    ),
+    'SORT_STRING' => 
+    array (
+      'value' => 1,
+    ),
+    'SORT_NUMERIC' => 
+    array (
+      'value' => 2,
+    ),
+  ),
   'properties' => 
   array (
   ),

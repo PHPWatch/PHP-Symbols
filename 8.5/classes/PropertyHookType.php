@@ -37,6 +37,27 @@ return array (
     0 => 'BackedEnum',
     1 => 'UnitEnum',
   ),
+  'constants' => 
+  array (
+    'Get' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public PropertyHookType Get ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+    'Set' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public PropertyHookType Set ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
+  ),
   'properties' => 
   array (
     'name' => 

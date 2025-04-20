@@ -35,6 +35,72 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'NONE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public integer NONE ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'FORM_D' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer FORM_D ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'NFD' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public integer NFD ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'FORM_KD' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public integer FORM_KD ] { 3 }
+',
+      'visibility' => 256,
+    ),
+    'NFKD' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public integer NFKD ] { 3 }
+',
+      'visibility' => 256,
+    ),
+    'FORM_C' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public integer FORM_C ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'NFC' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public integer NFC ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'FORM_KC' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public integer FORM_KC ] { 5 }
+',
+      'visibility' => 256,
+    ),
+    'NFKC' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public integer NFKC ] { 5 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
   ),

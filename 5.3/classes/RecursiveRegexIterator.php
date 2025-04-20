@@ -40,6 +40,33 @@ return array (
     2 => 'Iterator',
     3 => 'RecursiveIterator',
   ),
+  'constants' => 
+  array (
+    'USE_KEY' => 
+    array (
+      'value' => 1,
+    ),
+    'MATCH' => 
+    array (
+      'value' => 0,
+    ),
+    'GET_MATCH' => 
+    array (
+      'value' => 1,
+    ),
+    'ALL_MATCHES' => 
+    array (
+      'value' => 2,
+    ),
+    'SPLIT' => 
+    array (
+      'value' => 3,
+    ),
+    'REPLACE' => 
+    array (
+      'value' => 4,
+    ),
+  ),
   'properties' => 
   array (
     'replacement' => 

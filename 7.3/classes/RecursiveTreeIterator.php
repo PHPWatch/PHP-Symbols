@@ -38,6 +38,93 @@ return array (
     1 => 'Traversable',
     2 => 'Iterator',
   ),
+  'constants' => 
+  array (
+    'LEAVES_ONLY' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int LEAVES_ONLY ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'SELF_FIRST' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int SELF_FIRST ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'CHILD_FIRST' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int CHILD_FIRST ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'CATCH_GET_CHILD' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int CATCH_GET_CHILD ] { 16 }
+',
+      'visibility' => 256,
+    ),
+    'BYPASS_CURRENT' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int BYPASS_CURRENT ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'BYPASS_KEY' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int BYPASS_KEY ] { 8 }
+',
+      'visibility' => 256,
+    ),
+    'PREFIX_LEFT' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int PREFIX_LEFT ] { 0 }
+',
+      'visibility' => 256,
+    ),
+    'PREFIX_MID_HAS_NEXT' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int PREFIX_MID_HAS_NEXT ] { 1 }
+',
+      'visibility' => 256,
+    ),
+    'PREFIX_MID_LAST' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int PREFIX_MID_LAST ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'PREFIX_END_HAS_NEXT' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int PREFIX_END_HAS_NEXT ] { 3 }
+',
+      'visibility' => 256,
+    ),
+    'PREFIX_END_LAST' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int PREFIX_END_LAST ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'PREFIX_RIGHT' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int PREFIX_RIGHT ] { 5 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
   ),

@@ -37,6 +37,13 @@ return array (
   array (
     0 => 'Reflector',
   ),
+  'constants' => 
+  array (
+    'IS_DEPRECATED' => 
+    array (
+      'value' => 262144,
+    ),
+  ),
   'properties' => 
   array (
     'name' => 

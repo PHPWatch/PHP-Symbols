@@ -37,6 +37,30 @@ return array (
   array (
     0 => 'Reflector',
   ),
+  'constants' => 
+  array (
+    'IS_IMPLICIT_ABSTRACT' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public integer IS_IMPLICIT_ABSTRACT ] { 16 }
+',
+      'visibility' => 256,
+    ),
+    'IS_EXPLICIT_ABSTRACT' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public integer IS_EXPLICIT_ABSTRACT ] { 32 }
+',
+      'visibility' => 256,
+    ),
+    'IS_FINAL' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public integer IS_FINAL ] { 4 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
     'name' => 

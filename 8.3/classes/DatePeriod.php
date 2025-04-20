@@ -37,6 +37,25 @@ return array (
     0 => 'IteratorAggregate',
     1 => 'Traversable',
   ),
+  'constants' => 
+  array (
+    'EXCLUDE_START_DATE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int EXCLUDE_START_DATE ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'INCLUDE_END_DATE' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int INCLUDE_END_DATE ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+  ),
   'properties' => 
   array (
     'start' => 

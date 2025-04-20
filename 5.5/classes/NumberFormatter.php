@@ -35,6 +35,301 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'PATTERN_DECIMAL' => 
+    array (
+      'value' => 0,
+    ),
+    'DECIMAL' => 
+    array (
+      'value' => 1,
+    ),
+    'CURRENCY' => 
+    array (
+      'value' => 2,
+    ),
+    'PERCENT' => 
+    array (
+      'value' => 3,
+    ),
+    'SCIENTIFIC' => 
+    array (
+      'value' => 4,
+    ),
+    'SPELLOUT' => 
+    array (
+      'value' => 5,
+    ),
+    'ORDINAL' => 
+    array (
+      'value' => 6,
+    ),
+    'DURATION' => 
+    array (
+      'value' => 7,
+    ),
+    'PATTERN_RULEBASED' => 
+    array (
+      'value' => 9,
+    ),
+    'IGNORE' => 
+    array (
+      'value' => 0,
+    ),
+    'DEFAULT_STYLE' => 
+    array (
+      'value' => 1,
+    ),
+    'ROUND_CEILING' => 
+    array (
+      'value' => 0,
+    ),
+    'ROUND_FLOOR' => 
+    array (
+      'value' => 1,
+    ),
+    'ROUND_DOWN' => 
+    array (
+      'value' => 2,
+    ),
+    'ROUND_UP' => 
+    array (
+      'value' => 3,
+    ),
+    'ROUND_HALFEVEN' => 
+    array (
+      'value' => 4,
+    ),
+    'ROUND_HALFDOWN' => 
+    array (
+      'value' => 5,
+    ),
+    'ROUND_HALFUP' => 
+    array (
+      'value' => 6,
+    ),
+    'PAD_BEFORE_PREFIX' => 
+    array (
+      'value' => 0,
+    ),
+    'PAD_AFTER_PREFIX' => 
+    array (
+      'value' => 1,
+    ),
+    'PAD_BEFORE_SUFFIX' => 
+    array (
+      'value' => 2,
+    ),
+    'PAD_AFTER_SUFFIX' => 
+    array (
+      'value' => 3,
+    ),
+    'PARSE_INT_ONLY' => 
+    array (
+      'value' => 0,
+    ),
+    'GROUPING_USED' => 
+    array (
+      'value' => 1,
+    ),
+    'DECIMAL_ALWAYS_SHOWN' => 
+    array (
+      'value' => 2,
+    ),
+    'MAX_INTEGER_DIGITS' => 
+    array (
+      'value' => 3,
+    ),
+    'MIN_INTEGER_DIGITS' => 
+    array (
+      'value' => 4,
+    ),
+    'INTEGER_DIGITS' => 
+    array (
+      'value' => 5,
+    ),
+    'MAX_FRACTION_DIGITS' => 
+    array (
+      'value' => 6,
+    ),
+    'MIN_FRACTION_DIGITS' => 
+    array (
+      'value' => 7,
+    ),
+    'FRACTION_DIGITS' => 
+    array (
+      'value' => 8,
+    ),
+    'MULTIPLIER' => 
+    array (
+      'value' => 9,
+    ),
+    'GROUPING_SIZE' => 
+    array (
+      'value' => 10,
+    ),
+    'ROUNDING_MODE' => 
+    array (
+      'value' => 11,
+    ),
+    'ROUNDING_INCREMENT' => 
+    array (
+      'value' => 12,
+    ),
+    'FORMAT_WIDTH' => 
+    array (
+      'value' => 13,
+    ),
+    'PADDING_POSITION' => 
+    array (
+      'value' => 14,
+    ),
+    'SECONDARY_GROUPING_SIZE' => 
+    array (
+      'value' => 15,
+    ),
+    'SIGNIFICANT_DIGITS_USED' => 
+    array (
+      'value' => 16,
+    ),
+    'MIN_SIGNIFICANT_DIGITS' => 
+    array (
+      'value' => 17,
+    ),
+    'MAX_SIGNIFICANT_DIGITS' => 
+    array (
+      'value' => 18,
+    ),
+    'LENIENT_PARSE' => 
+    array (
+      'value' => 19,
+    ),
+    'POSITIVE_PREFIX' => 
+    array (
+      'value' => 0,
+    ),
+    'POSITIVE_SUFFIX' => 
+    array (
+      'value' => 1,
+    ),
+    'NEGATIVE_PREFIX' => 
+    array (
+      'value' => 2,
+    ),
+    'NEGATIVE_SUFFIX' => 
+    array (
+      'value' => 3,
+    ),
+    'PADDING_CHARACTER' => 
+    array (
+      'value' => 4,
+    ),
+    'CURRENCY_CODE' => 
+    array (
+      'value' => 5,
+    ),
+    'DEFAULT_RULESET' => 
+    array (
+      'value' => 6,
+    ),
+    'PUBLIC_RULESETS' => 
+    array (
+      'value' => 7,
+    ),
+    'DECIMAL_SEPARATOR_SYMBOL' => 
+    array (
+      'value' => 0,
+    ),
+    'GROUPING_SEPARATOR_SYMBOL' => 
+    array (
+      'value' => 1,
+    ),
+    'PATTERN_SEPARATOR_SYMBOL' => 
+    array (
+      'value' => 2,
+    ),
+    'PERCENT_SYMBOL' => 
+    array (
+      'value' => 3,
+    ),
+    'ZERO_DIGIT_SYMBOL' => 
+    array (
+      'value' => 4,
+    ),
+    'DIGIT_SYMBOL' => 
+    array (
+      'value' => 5,
+    ),
+    'MINUS_SIGN_SYMBOL' => 
+    array (
+      'value' => 6,
+    ),
+    'PLUS_SIGN_SYMBOL' => 
+    array (
+      'value' => 7,
+    ),
+    'CURRENCY_SYMBOL' => 
+    array (
+      'value' => 8,
+    ),
+    'INTL_CURRENCY_SYMBOL' => 
+    array (
+      'value' => 9,
+    ),
+    'MONETARY_SEPARATOR_SYMBOL' => 
+    array (
+      'value' => 10,
+    ),
+    'EXPONENTIAL_SYMBOL' => 
+    array (
+      'value' => 11,
+    ),
+    'PERMILL_SYMBOL' => 
+    array (
+      'value' => 12,
+    ),
+    'PAD_ESCAPE_SYMBOL' => 
+    array (
+      'value' => 13,
+    ),
+    'INFINITY_SYMBOL' => 
+    array (
+      'value' => 14,
+    ),
+    'NAN_SYMBOL' => 
+    array (
+      'value' => 15,
+    ),
+    'SIGNIFICANT_DIGIT_SYMBOL' => 
+    array (
+      'value' => 16,
+    ),
+    'MONETARY_GROUPING_SEPARATOR_SYMBOL' => 
+    array (
+      'value' => 17,
+    ),
+    'TYPE_DEFAULT' => 
+    array (
+      'value' => 0,
+    ),
+    'TYPE_INT32' => 
+    array (
+      'value' => 1,
+    ),
+    'TYPE_INT64' => 
+    array (
+      'value' => 2,
+    ),
+    'TYPE_DOUBLE' => 
+    array (
+      'value' => 3,
+    ),
+    'TYPE_CURRENCY' => 
+    array (
+      'value' => 4,
+    ),
+  ),
   'properties' => 
   array (
   ),

@@ -36,6 +36,9 @@ return array (
   array (
     0 => 'SessionHandlerInterface',
   ),
+  'constants' => 
+  array (
+  ),
   'properties' => 
   array (
   ),

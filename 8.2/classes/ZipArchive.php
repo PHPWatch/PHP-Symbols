@@ -36,6 +36,801 @@ return array (
   array (
     0 => 'Countable',
   ),
+  'constants' => 
+  array (
+    'CREATE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int CREATE ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'EXCL' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int EXCL ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CHECKCONS' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int CHECKCONS ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OVERWRITE' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int OVERWRITE ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'RDONLY' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int RDONLY ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FL_NOCASE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int FL_NOCASE ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FL_NODIR' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int FL_NODIR ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FL_COMPRESSED' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int FL_COMPRESSED ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FL_UNCHANGED' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int FL_UNCHANGED ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FL_RECOMPRESS' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int FL_RECOMPRESS ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FL_ENCRYPTED' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int FL_ENCRYPTED ] { 32 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FL_OVERWRITE' => 
+    array (
+      'value' => 8192,
+      'toString' => 'Constant [ public int FL_OVERWRITE ] { 8192 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FL_LOCAL' => 
+    array (
+      'value' => 256,
+      'toString' => 'Constant [ public int FL_LOCAL ] { 256 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FL_CENTRAL' => 
+    array (
+      'value' => 512,
+      'toString' => 'Constant [ public int FL_CENTRAL ] { 512 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FL_ENC_GUESS' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int FL_ENC_GUESS ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FL_ENC_RAW' => 
+    array (
+      'value' => 64,
+      'toString' => 'Constant [ public int FL_ENC_RAW ] { 64 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FL_ENC_STRICT' => 
+    array (
+      'value' => 128,
+      'toString' => 'Constant [ public int FL_ENC_STRICT ] { 128 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FL_ENC_UTF_8' => 
+    array (
+      'value' => 2048,
+      'toString' => 'Constant [ public int FL_ENC_UTF_8 ] { 2048 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'FL_ENC_CP437' => 
+    array (
+      'value' => 4096,
+      'toString' => 'Constant [ public int FL_ENC_CP437 ] { 4096 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_DEFAULT' => 
+    array (
+      'value' => -1,
+      'toString' => 'Constant [ public int CM_DEFAULT ] { -1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_STORE' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int CM_STORE ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_SHRINK' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int CM_SHRINK ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_REDUCE_1' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int CM_REDUCE_1 ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_REDUCE_2' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int CM_REDUCE_2 ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_REDUCE_3' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int CM_REDUCE_3 ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_REDUCE_4' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int CM_REDUCE_4 ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_IMPLODE' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int CM_IMPLODE ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_DEFLATE' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int CM_DEFLATE ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_DEFLATE64' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public int CM_DEFLATE64 ] { 9 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_PKWARE_IMPLODE' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public int CM_PKWARE_IMPLODE ] { 10 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_BZIP2' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public int CM_BZIP2 ] { 12 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_LZMA' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public int CM_LZMA ] { 14 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_LZMA2' => 
+    array (
+      'value' => 33,
+      'toString' => 'Constant [ public int CM_LZMA2 ] { 33 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_XZ' => 
+    array (
+      'value' => 95,
+      'toString' => 'Constant [ public int CM_XZ ] { 95 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_TERSE' => 
+    array (
+      'value' => 18,
+      'toString' => 'Constant [ public int CM_TERSE ] { 18 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_LZ77' => 
+    array (
+      'value' => 19,
+      'toString' => 'Constant [ public int CM_LZ77 ] { 19 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_WAVPACK' => 
+    array (
+      'value' => 97,
+      'toString' => 'Constant [ public int CM_WAVPACK ] { 97 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'CM_PPMD' => 
+    array (
+      'value' => 98,
+      'toString' => 'Constant [ public int CM_PPMD ] { 98 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_OK' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int ER_OK ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_MULTIDISK' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int ER_MULTIDISK ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_RENAME' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int ER_RENAME ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_CLOSE' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int ER_CLOSE ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_SEEK' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int ER_SEEK ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_READ' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int ER_READ ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_WRITE' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int ER_WRITE ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_CRC' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int ER_CRC ] { 7 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_ZIPCLOSED' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int ER_ZIPCLOSED ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_NOENT' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public int ER_NOENT ] { 9 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_EXISTS' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public int ER_EXISTS ] { 10 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_OPEN' => 
+    array (
+      'value' => 11,
+      'toString' => 'Constant [ public int ER_OPEN ] { 11 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_TMPOPEN' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public int ER_TMPOPEN ] { 12 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_ZLIB' => 
+    array (
+      'value' => 13,
+      'toString' => 'Constant [ public int ER_ZLIB ] { 13 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_MEMORY' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public int ER_MEMORY ] { 14 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_CHANGED' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public int ER_CHANGED ] { 15 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_COMPNOTSUPP' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int ER_COMPNOTSUPP ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_EOF' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public int ER_EOF ] { 17 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_INVAL' => 
+    array (
+      'value' => 18,
+      'toString' => 'Constant [ public int ER_INVAL ] { 18 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_NOZIP' => 
+    array (
+      'value' => 19,
+      'toString' => 'Constant [ public int ER_NOZIP ] { 19 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_INTERNAL' => 
+    array (
+      'value' => 20,
+      'toString' => 'Constant [ public int ER_INTERNAL ] { 20 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_INCONS' => 
+    array (
+      'value' => 21,
+      'toString' => 'Constant [ public int ER_INCONS ] { 21 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_REMOVE' => 
+    array (
+      'value' => 22,
+      'toString' => 'Constant [ public int ER_REMOVE ] { 22 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_DELETED' => 
+    array (
+      'value' => 23,
+      'toString' => 'Constant [ public int ER_DELETED ] { 23 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_ENCRNOTSUPP' => 
+    array (
+      'value' => 24,
+      'toString' => 'Constant [ public int ER_ENCRNOTSUPP ] { 24 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_RDONLY' => 
+    array (
+      'value' => 25,
+      'toString' => 'Constant [ public int ER_RDONLY ] { 25 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_NOPASSWD' => 
+    array (
+      'value' => 26,
+      'toString' => 'Constant [ public int ER_NOPASSWD ] { 26 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_WRONGPASSWD' => 
+    array (
+      'value' => 27,
+      'toString' => 'Constant [ public int ER_WRONGPASSWD ] { 27 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_OPNOTSUPP' => 
+    array (
+      'value' => 28,
+      'toString' => 'Constant [ public int ER_OPNOTSUPP ] { 28 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_INUSE' => 
+    array (
+      'value' => 29,
+      'toString' => 'Constant [ public int ER_INUSE ] { 29 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_TELL' => 
+    array (
+      'value' => 30,
+      'toString' => 'Constant [ public int ER_TELL ] { 30 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_COMPRESSED_DATA' => 
+    array (
+      'value' => 31,
+      'toString' => 'Constant [ public int ER_COMPRESSED_DATA ] { 31 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'ER_CANCELLED' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int ER_CANCELLED ] { 32 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_DOS' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int OPSYS_DOS ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_AMIGA' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int OPSYS_AMIGA ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_OPENVMS' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int OPSYS_OPENVMS ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_UNIX' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int OPSYS_UNIX ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_VM_CMS' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int OPSYS_VM_CMS ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_ATARI_ST' => 
+    array (
+      'value' => 5,
+      'toString' => 'Constant [ public int OPSYS_ATARI_ST ] { 5 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_OS_2' => 
+    array (
+      'value' => 6,
+      'toString' => 'Constant [ public int OPSYS_OS_2 ] { 6 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_MACINTOSH' => 
+    array (
+      'value' => 7,
+      'toString' => 'Constant [ public int OPSYS_MACINTOSH ] { 7 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_Z_SYSTEM' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int OPSYS_Z_SYSTEM ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_CPM' => 
+    array (
+      'value' => 9,
+      'toString' => 'Constant [ public int OPSYS_CPM ] { 9 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_WINDOWS_NTFS' => 
+    array (
+      'value' => 10,
+      'toString' => 'Constant [ public int OPSYS_WINDOWS_NTFS ] { 10 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_MVS' => 
+    array (
+      'value' => 11,
+      'toString' => 'Constant [ public int OPSYS_MVS ] { 11 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_VSE' => 
+    array (
+      'value' => 12,
+      'toString' => 'Constant [ public int OPSYS_VSE ] { 12 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_ACORN_RISC' => 
+    array (
+      'value' => 13,
+      'toString' => 'Constant [ public int OPSYS_ACORN_RISC ] { 13 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_VFAT' => 
+    array (
+      'value' => 14,
+      'toString' => 'Constant [ public int OPSYS_VFAT ] { 14 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_ALTERNATE_MVS' => 
+    array (
+      'value' => 15,
+      'toString' => 'Constant [ public int OPSYS_ALTERNATE_MVS ] { 15 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_BEOS' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int OPSYS_BEOS ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_TANDEM' => 
+    array (
+      'value' => 17,
+      'toString' => 'Constant [ public int OPSYS_TANDEM ] { 17 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_OS_400' => 
+    array (
+      'value' => 18,
+      'toString' => 'Constant [ public int OPSYS_OS_400 ] { 18 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_OS_X' => 
+    array (
+      'value' => 19,
+      'toString' => 'Constant [ public int OPSYS_OS_X ] { 19 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'OPSYS_DEFAULT' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int OPSYS_DEFAULT ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'EM_NONE' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int EM_NONE ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'EM_TRAD_PKWARE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int EM_TRAD_PKWARE ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'EM_AES_128' => 
+    array (
+      'value' => 257,
+      'toString' => 'Constant [ public int EM_AES_128 ] { 257 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'EM_AES_192' => 
+    array (
+      'value' => 258,
+      'toString' => 'Constant [ public int EM_AES_192 ] { 258 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'EM_AES_256' => 
+    array (
+      'value' => 259,
+      'toString' => 'Constant [ public int EM_AES_256 ] { 259 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'EM_UNKNOWN' => 
+    array (
+      'value' => 65535,
+      'toString' => 'Constant [ public int EM_UNKNOWN ] { 65535 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'LIBZIP_VERSION' => 
+    array (
+      'value' => '1.7.3',
+      'toString' => 'Constant [ public string LIBZIP_VERSION ] { 1.7.3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+  ),
   'properties' => 
   array (
     'lastId' => 

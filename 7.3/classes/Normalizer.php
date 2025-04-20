@@ -35,6 +35,86 @@ return array (
   'interfaces' => 
   array (
   ),
+  'constants' => 
+  array (
+    'NONE' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int NONE ] { 2 }
+',
+      'visibility' => 256,
+    ),
+    'FORM_D' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int FORM_D ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'NFD' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int NFD ] { 4 }
+',
+      'visibility' => 256,
+    ),
+    'FORM_KD' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int FORM_KD ] { 8 }
+',
+      'visibility' => 256,
+    ),
+    'NFKD' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int NFKD ] { 8 }
+',
+      'visibility' => 256,
+    ),
+    'FORM_C' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int FORM_C ] { 16 }
+',
+      'visibility' => 256,
+    ),
+    'NFC' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int NFC ] { 16 }
+',
+      'visibility' => 256,
+    ),
+    'FORM_KC' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int FORM_KC ] { 32 }
+',
+      'visibility' => 256,
+    ),
+    'NFKC' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int NFKC ] { 32 }
+',
+      'visibility' => 256,
+    ),
+    'FORM_KC_CF' => 
+    array (
+      'value' => 48,
+      'toString' => 'Constant [ public int FORM_KC_CF ] { 48 }
+',
+      'visibility' => 256,
+    ),
+    'NFKC_CF' => 
+    array (
+      'value' => 48,
+      'toString' => 'Constant [ public int NFKC_CF ] { 48 }
+',
+      'visibility' => 256,
+    ),
+  ),
   'properties' => 
   array (
   ),

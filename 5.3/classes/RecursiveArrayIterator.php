@@ -42,6 +42,13 @@ return array (
     5 => 'Iterator',
     6 => 'RecursiveIterator',
   ),
+  'constants' => 
+  array (
+    'CHILD_ARRAYS_ONLY' => 
+    array (
+      'value' => 4,
+    ),
+  ),
   'properties' => 
   array (
   ),
