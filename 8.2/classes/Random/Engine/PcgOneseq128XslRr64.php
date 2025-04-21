@@ -166,6 +166,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => true,
   'is_final' => true,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'random',
   'toString' => 'Class [ <internal:random> final class Random\\Engine\\PcgOneseq128XslRr64 implements Random\\Engine ] {

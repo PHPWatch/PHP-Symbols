@@ -76,6 +76,7 @@ return array (
   'is_anonymous' => NULL,
   'is_cloneable' => true,
   'is_final' => false,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> <iterateable> class DOMNodeList implements Traversable ] {

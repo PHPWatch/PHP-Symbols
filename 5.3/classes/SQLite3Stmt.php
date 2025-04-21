@@ -245,6 +245,7 @@ return array (
   'is_anonymous' => NULL,
   'is_cloneable' => NULL,
   'is_final' => false,
+  'is_instantiable' => false,
   'is_read_only' => false,
   'extension' => 'sqlite3',
   'toString' => 'Class [ <internal:sqlite3> class SQLite3Stmt ] {

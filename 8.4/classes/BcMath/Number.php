@@ -556,6 +556,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => true,
   'is_final' => true,
+  'is_instantiable' => true,
   'is_read_only' => true,
   'extension' => 'bcmath',
   'toString' => 'Class [ <internal:bcmath> final readonly class BcMath\\Number implements Stringable ] {

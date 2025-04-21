@@ -292,6 +292,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => false,
   'is_final' => false,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'json',
   'toString' => 'Class [ <internal:json> class JsonException extends Exception implements Throwable ] {

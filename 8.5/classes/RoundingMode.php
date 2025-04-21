@@ -151,6 +151,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => false,
   'is_final' => false,
+  'is_instantiable' => false,
   'is_read_only' => false,
   'extension' => 'standard',
   'toString' => 'Enum [ <internal:standard> enum RoundingMode implements UnitEnum ] {

@@ -260,6 +260,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => false,
   'is_final' => false,
+  'is_instantiable' => false,
   'is_read_only' => false,
   'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> abstract class SplHeap implements Iterator, Traversable, Countable ] {

@@ -2250,6 +2250,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => true,
   'is_final' => false,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'Phar',
   'toString' => 'Class [ <internal:Phar> <iterateable> class PharData extends RecursiveDirectoryIterator implements RecursiveIterator, SeekableIterator, Traversable, Iterator, Stringable, Countable, ArrayAccess ] {

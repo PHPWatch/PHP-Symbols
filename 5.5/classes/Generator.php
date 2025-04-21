@@ -185,6 +185,7 @@ return array (
   'is_anonymous' => NULL,
   'is_cloneable' => false,
   'is_final' => true,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'Core',
   'toString' => 'Class [ <internal:Core> <iterateable> final class Generator implements Iterator, Traversable ] {

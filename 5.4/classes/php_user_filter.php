@@ -161,6 +161,7 @@ return array (
   'is_anonymous' => NULL,
   'is_cloneable' => true,
   'is_final' => false,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'standard',
   'toString' => 'Class [ <internal:standard> class php_user_filter ] {

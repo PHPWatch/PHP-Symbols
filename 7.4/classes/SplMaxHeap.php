@@ -280,6 +280,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => true,
   'is_final' => false,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class SplMaxHeap extends SplHeap implements Countable, Traversable, Iterator ] {

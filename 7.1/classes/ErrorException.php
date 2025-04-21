@@ -350,6 +350,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => false,
   'is_final' => false,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'Core',
   'toString' => 'Class [ <internal:Core> class ErrorException extends Exception implements Throwable ] {

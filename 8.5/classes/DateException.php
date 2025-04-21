@@ -279,6 +279,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => false,
   'is_final' => false,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'date',
   'toString' => 'Class [ <internal:date> class DateException extends Exception implements Throwable, Stringable ] {

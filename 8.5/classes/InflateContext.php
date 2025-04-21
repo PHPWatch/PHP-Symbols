@@ -51,6 +51,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => false,
   'is_final' => true,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'zlib',
   'toString' => 'Class [ <internal:zlib> final class InflateContext ] {

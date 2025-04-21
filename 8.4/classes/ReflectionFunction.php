@@ -657,6 +657,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => false,
   'is_final' => false,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'Reflection',
   'toString' => 'Class [ <internal:Reflection> class ReflectionFunction extends ReflectionFunctionAbstract implements Stringable, Reflector ] {

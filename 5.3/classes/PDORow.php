@@ -49,6 +49,7 @@ return array (
   'is_anonymous' => NULL,
   'is_cloneable' => NULL,
   'is_final' => true,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'PDO',
   'toString' => 'Class [ <internal:PDO> final class PDORow ] {

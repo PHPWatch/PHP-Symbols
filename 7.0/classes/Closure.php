@@ -177,6 +177,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => true,
   'is_final' => true,
+  'is_instantiable' => false,
   'is_read_only' => false,
   'extension' => 'Core',
   'toString' => 'Class [ <internal:Core> final class Closure ] {

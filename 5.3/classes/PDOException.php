@@ -289,6 +289,7 @@ return array (
   'is_anonymous' => NULL,
   'is_cloneable' => NULL,
   'is_final' => false,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'PDO',
   'toString' => 'Class [ <internal:PDO> class PDOException extends RuntimeException ] {

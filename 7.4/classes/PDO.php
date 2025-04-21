@@ -1231,6 +1231,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => false,
   'is_final' => false,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'PDO',
   'toString' => 'Class [ <internal:PDO> class PDO ] {

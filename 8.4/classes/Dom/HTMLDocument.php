@@ -1912,6 +1912,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => true,
   'is_final' => true,
+  'is_instantiable' => false,
   'is_read_only' => false,
   'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> final class Dom\\HTMLDocument extends Dom\\Document implements Dom\\ParentNode ] {

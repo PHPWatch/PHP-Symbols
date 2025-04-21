@@ -1410,6 +1410,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => false,
   'is_final' => false,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'PDO_ODBC',
   'toString' => 'Class [ <internal:PDO_ODBC> class Pdo\\Odbc extends PDO ] {

@@ -886,6 +886,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => true,
   'is_final' => false,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class RecursiveDirectoryIterator extends FilesystemIterator implements Stringable, Iterator, Traversable, SeekableIterator, RecursiveIterator ] {

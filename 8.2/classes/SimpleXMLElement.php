@@ -580,6 +580,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => true,
   'is_final' => false,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'SimpleXML',
   'toString' => 'Class [ <internal:SimpleXML> <iterateable> class SimpleXMLElement implements Stringable, Countable, RecursiveIterator, Traversable, Iterator ] {

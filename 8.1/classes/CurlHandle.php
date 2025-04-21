@@ -51,6 +51,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => true,
   'is_final' => true,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'curl',
   'toString' => 'Class [ <internal:curl> final class CurlHandle ] {

@@ -44,6 +44,7 @@ return array (
   'is_anonymous' => NULL,
   'is_cloneable' => NULL,
   'is_final' => false,
+  'is_instantiable' => true,
   'is_read_only' => false,
   'extension' => 'standard',
   'toString' => 'Class [ <internal:standard> class __PHP_Incomplete_Class ] {

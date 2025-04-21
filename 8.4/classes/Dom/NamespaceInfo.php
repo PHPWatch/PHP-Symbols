@@ -104,6 +104,7 @@ return array (
   'is_anonymous' => false,
   'is_cloneable' => true,
   'is_final' => true,
+  'is_instantiable' => false,
   'is_read_only' => true,
   'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> final readonly class Dom\\NamespaceInfo ] {
