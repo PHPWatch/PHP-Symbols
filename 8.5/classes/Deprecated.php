@@ -141,4 +141,5 @@ return array (
   }
 }
 ',
+  'attributes' => 'Attribute',
 );

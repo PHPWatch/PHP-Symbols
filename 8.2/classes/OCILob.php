@@ -786,4 +786,5 @@ return array (
   }
 }
 ',
+  'attributes' => 'AllowDynamicProperties',
 );

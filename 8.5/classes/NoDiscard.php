@@ -116,4 +116,5 @@ return array (
   }
 }
 ',
+  'attributes' => 'Attribute',
 );

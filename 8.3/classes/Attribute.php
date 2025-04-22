@@ -196,4 +196,5 @@ return array (
   }
 }
 ',
+  'attributes' => 'Attribute',
 );

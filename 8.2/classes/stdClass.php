@@ -72,4 +72,5 @@ return array (
   }
 }
 ',
+  'attributes' => 'AllowDynamicProperties',
 );

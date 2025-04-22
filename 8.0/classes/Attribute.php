@@ -180,4 +180,5 @@ return array (
   }
 }
 ',
+  'attributes' => 'Attribute',
 );

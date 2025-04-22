@@ -91,4 +91,5 @@ return array (
   }
 }
 ',
+  'attributes' => 'Attribute',
 );
