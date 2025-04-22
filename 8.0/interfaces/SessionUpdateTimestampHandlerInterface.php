@@ -93,6 +93,7 @@ return array (
       'is_private' => false,
     ),
   ),
+  'extension' => 'session',
   'toString' => 'Interface [ <internal:session> interface SessionUpdateTimestampHandlerInterface ] {
 
   - Constants [0] {

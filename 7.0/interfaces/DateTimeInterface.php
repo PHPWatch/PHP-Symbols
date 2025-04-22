@@ -149,6 +149,7 @@ return array (
       'is_private' => false,
     ),
   ),
+  'extension' => 'date',
   'toString' => 'Interface [ <internal:date> interface DateTimeInterface ] {
 
   - Constants [0] {

@@ -50,6 +50,7 @@ return array (
       'is_private' => false,
     ),
   ),
+  'extension' => 'random',
   'toString' => 'Interface [ <internal:random> interface Random\\CryptoSafeEngine extends Random\\Engine ] {
 
   - Constants [0] {

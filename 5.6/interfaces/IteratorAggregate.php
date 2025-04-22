@@ -50,6 +50,7 @@ return array (
       'is_private' => false,
     ),
   ),
+  'extension' => 'Core',
   'toString' => 'Interface [ <internal:Core> interface IteratorAggregate extends Traversable ] {
 
   - Constants [0] {

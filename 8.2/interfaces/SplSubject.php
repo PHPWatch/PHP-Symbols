@@ -97,6 +97,7 @@ return array (
       'is_private' => false,
     ),
   ),
+  'extension' => 'SPL',
   'toString' => 'Interface [ <internal:SPL> interface SplSubject ] {
 
   - Constants [0] {

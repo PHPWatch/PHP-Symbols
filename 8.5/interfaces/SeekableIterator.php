@@ -131,6 +131,7 @@ return array (
       'is_private' => false,
     ),
   ),
+  'extension' => 'SPL',
   'toString' => 'Interface [ <internal:SPL> interface SeekableIterator extends Iterator, Traversable ] {
 
   - Constants [0] {

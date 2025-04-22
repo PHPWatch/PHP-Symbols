@@ -35,6 +35,7 @@ return array (
   'methods' => 
   array (
   ),
+  'extension' => 'Core',
   'toString' => 'Interface [ <internal:Core> interface Traversable ] {
 
   - Constants [0] {

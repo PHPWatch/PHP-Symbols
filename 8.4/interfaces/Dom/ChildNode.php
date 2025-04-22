@@ -121,6 +121,7 @@ return array (
       'is_private' => false,
     ),
   ),
+  'extension' => 'dom',
   'toString' => 'Interface [ <internal:dom> interface Dom\\ChildNode ] {
 
   - Constants [0] {

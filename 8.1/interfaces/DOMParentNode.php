@@ -83,6 +83,7 @@ return array (
       'is_private' => false,
     ),
   ),
+  'extension' => 'dom',
   'toString' => 'Interface [ <internal:dom> interface DOMParentNode ] {
 
   - Constants [0] {

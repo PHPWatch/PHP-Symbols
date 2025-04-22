@@ -49,6 +49,7 @@ return array (
       'is_private' => false,
     ),
   ),
+  'extension' => 'json',
   'toString' => 'Interface [ <internal:json> interface JsonSerializable ] {
 
   - Constants [0] {

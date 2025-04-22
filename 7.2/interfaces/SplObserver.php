@@ -59,6 +59,7 @@ return array (
       'is_private' => false,
     ),
   ),
+  'extension' => 'SPL',
   'toString' => 'Interface [ <internal:SPL> interface SplObserver ] {
 
   - Constants [0] {

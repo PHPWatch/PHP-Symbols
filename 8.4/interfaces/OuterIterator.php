@@ -121,6 +121,7 @@ return array (
       'is_private' => false,
     ),
   ),
+  'extension' => 'SPL',
   'toString' => 'Interface [ <internal:SPL> interface OuterIterator extends Iterator, Traversable ] {
 
   - Constants [0] {

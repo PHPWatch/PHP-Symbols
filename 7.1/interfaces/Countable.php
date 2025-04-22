@@ -49,6 +49,7 @@ return array (
       'is_private' => false,
     ),
   ),
+  'extension' => 'SPL',
   'toString' => 'Interface [ <internal:SPL> interface Countable ] {
 
   - Constants [0] {

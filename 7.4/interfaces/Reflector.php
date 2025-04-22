@@ -49,6 +49,7 @@ return array (
       'is_private' => false,
     ),
   ),
+  'extension' => 'Reflection',
   'toString' => 'Interface [ <internal:Reflection> interface Reflector ] {
 
   - Constants [0] {

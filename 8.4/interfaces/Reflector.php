@@ -50,6 +50,7 @@ return array (
       'is_private' => false,
     ),
   ),
+  'extension' => 'Reflection',
   'toString' => 'Interface [ <internal:Reflection> interface Reflector extends Stringable ] {
 
   - Constants [0] {

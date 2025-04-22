@@ -148,6 +148,7 @@ return array (
       'is_private' => false,
     ),
   ),
+  'extension' => 'Core',
   'toString' => 'Interface [ <internal:Core> interface Throwable extends Stringable ] {
 
   - Constants [0] {

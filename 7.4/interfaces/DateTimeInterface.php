@@ -28,19 +28,97 @@ return array (
   ),
   'constants' => 
   array (
-    'ATOM' => 'Y-m-d\\TH:i:sP',
-    'COOKIE' => 'l, d-M-Y H:i:s T',
-    'ISO8601' => 'Y-m-d\\TH:i:sO',
-    'RFC822' => 'D, d M y H:i:s O',
-    'RFC850' => 'l, d-M-y H:i:s T',
-    'RFC1036' => 'D, d M y H:i:s O',
-    'RFC1123' => 'D, d M Y H:i:s O',
-    'RFC7231' => 'D, d M Y H:i:s \\G\\M\\T',
-    'RFC2822' => 'D, d M Y H:i:s O',
-    'RFC3339' => 'Y-m-d\\TH:i:sP',
-    'RFC3339_EXTENDED' => 'Y-m-d\\TH:i:s.vP',
-    'RSS' => 'D, d M Y H:i:s O',
-    'W3C' => 'Y-m-d\\TH:i:sP',
+    'ATOM' => 
+    array (
+      'value' => 'Y-m-d\\TH:i:sP',
+      'toString' => 'Constant [ public string ATOM ] { Y-m-d\\TH:i:sP }
+',
+      'visibility' => 1,
+    ),
+    'COOKIE' => 
+    array (
+      'value' => 'l, d-M-Y H:i:s T',
+      'toString' => 'Constant [ public string COOKIE ] { l, d-M-Y H:i:s T }
+',
+      'visibility' => 1,
+    ),
+    'ISO8601' => 
+    array (
+      'value' => 'Y-m-d\\TH:i:sO',
+      'toString' => 'Constant [ public string ISO8601 ] { Y-m-d\\TH:i:sO }
+',
+      'visibility' => 1,
+    ),
+    'RFC822' => 
+    array (
+      'value' => 'D, d M y H:i:s O',
+      'toString' => 'Constant [ public string RFC822 ] { D, d M y H:i:s O }
+',
+      'visibility' => 1,
+    ),
+    'RFC850' => 
+    array (
+      'value' => 'l, d-M-y H:i:s T',
+      'toString' => 'Constant [ public string RFC850 ] { l, d-M-y H:i:s T }
+',
+      'visibility' => 1,
+    ),
+    'RFC1036' => 
+    array (
+      'value' => 'D, d M y H:i:s O',
+      'toString' => 'Constant [ public string RFC1036 ] { D, d M y H:i:s O }
+',
+      'visibility' => 1,
+    ),
+    'RFC1123' => 
+    array (
+      'value' => 'D, d M Y H:i:s O',
+      'toString' => 'Constant [ public string RFC1123 ] { D, d M Y H:i:s O }
+',
+      'visibility' => 1,
+    ),
+    'RFC7231' => 
+    array (
+      'value' => 'D, d M Y H:i:s \\G\\M\\T',
+      'toString' => 'Constant [ public string RFC7231 ] { D, d M Y H:i:s \\G\\M\\T }
+',
+      'visibility' => 1,
+    ),
+    'RFC2822' => 
+    array (
+      'value' => 'D, d M Y H:i:s O',
+      'toString' => 'Constant [ public string RFC2822 ] { D, d M Y H:i:s O }
+',
+      'visibility' => 1,
+    ),
+    'RFC3339' => 
+    array (
+      'value' => 'Y-m-d\\TH:i:sP',
+      'toString' => 'Constant [ public string RFC3339 ] { Y-m-d\\TH:i:sP }
+',
+      'visibility' => 1,
+    ),
+    'RFC3339_EXTENDED' => 
+    array (
+      'value' => 'Y-m-d\\TH:i:s.vP',
+      'toString' => 'Constant [ public string RFC3339_EXTENDED ] { Y-m-d\\TH:i:s.vP }
+',
+      'visibility' => 1,
+    ),
+    'RSS' => 
+    array (
+      'value' => 'D, d M Y H:i:s O',
+      'toString' => 'Constant [ public string RSS ] { D, d M Y H:i:s O }
+',
+      'visibility' => 1,
+    ),
+    'W3C' => 
+    array (
+      'value' => 'Y-m-d\\TH:i:sP',
+      'toString' => 'Constant [ public string W3C ] { Y-m-d\\TH:i:sP }
+',
+      'visibility' => 1,
+    ),
   ),
   'properties' => 
   array (
@@ -162,6 +240,7 @@ return array (
       'is_private' => false,
     ),
   ),
+  'extension' => 'date',
   'toString' => 'Interface [ <internal:date> interface DateTimeInterface ] {
 
   - Constants [13] {
