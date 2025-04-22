@@ -18,23 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'FFI class (php.net)',
+        'name' => 'FFI interface (php.net)',
         'url' => 'https://www.php.net/manual/class.ffi.php',
       ),
     ),
   ),
-  'modifiers' => 32,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
     '__BIGGEST_ALIGNMENT__' => 
@@ -45,9 +35,6 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -580,15 +567,12 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => true,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+  ),
   'extension' => 'FFI',
   'toString' => 'Class [ <internal:FFI> final class FFI ] {
 
@@ -756,4 +740,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

@@ -18,25 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'IntlBreakIterator class (php.net)',
+        'name' => 'IntlBreakIterator interface (php.net)',
         'url' => 'https://www.php.net/manual/class.intlbreakiterator.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'IteratorAggregate',
-    1 => 'Traversable',
-  ),
   'constants' => 
   array (
     'DONE' => 
@@ -210,9 +198,6 @@ return array (
       'isFinal' => false,
       'type' => 'int',
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -645,15 +630,14 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
+  array (
+    0 => 'IteratorAggregate',
+    1 => 'Traversable',
+  ),
+  'properties' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => false,
-  'is_read_only' => false,
   'extension' => 'intl',
   'toString' => 'Class [ <internal:intl> <iterateable> class IntlBreakIterator implements IteratorAggregate, Traversable ] {
 
@@ -855,4 +839,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => false,
+  'is_read_only' => false,
 );

@@ -18,86 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'BadMethodCallException class (php.net)',
+        'name' => 'BadMethodCallException interface (php.net)',
         'url' => 'https://www.php.net/manual/class.badmethodcallexception.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'message' => '',
-    'code' => 0,
-    'file' => NULL,
-    'line' => NULL,
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Throwable',
-    1 => 'Stringable',
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'message' => 
-    array (
-      'name' => 'message',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => '',
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'code' => 
-    array (
-      'name' => 'code',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => 0,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'file' => 
-    array (
-      'name' => 'file',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'line' => 
-    array (
-      'name' => 'line',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -272,15 +201,66 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
+    0 => 'Throwable',
+    1 => 'Stringable',
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'message' => 
+    array (
+      'name' => 'message',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => '',
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'code' => 
+    array (
+      'name' => 'code',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => 0,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'file' => 
+    array (
+      'name' => 'file',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'line' => 
+    array (
+      'name' => 'line',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> class BadMethodCallException extends BadFunctionCallException implements Throwable, Stringable ] {
 
@@ -373,4 +353,24 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+    'message' => '',
+    'code' => 0,
+    'file' => NULL,
+    'line' => NULL,
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

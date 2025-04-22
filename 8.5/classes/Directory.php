@@ -18,54 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'Directory class (php.net)',
+        'name' => 'Directory interface (php.net)',
         'url' => 'https://www.php.net/manual/class.directory.php',
       ),
     ),
   ),
-  'modifiers' => 32,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'path' => 
-    array (
-      'name' => 'path',
-      'class' => 'Directory',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'handle' => 
-    array (
-      'name' => 'handle',
-      'class' => 'Directory',
-      'type' => 'mixed',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -112,15 +73,38 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => true,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'path' => 
+    array (
+      'name' => 'path',
+      'class' => 'Directory',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'handle' => 
+    array (
+      'name' => 'handle',
+      'class' => 'Directory',
+      'type' => 'mixed',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'standard',
   'toString' => 'Class [ <internal:standard> final class Directory ] {
 
@@ -162,4 +146,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

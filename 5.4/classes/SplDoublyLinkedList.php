@@ -18,28 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'SplDoublyLinkedList class (php.net)',
+        'name' => 'SplDoublyLinkedList interface (php.net)',
         'url' => 'https://www.php.net/manual/class.spldoublylinkedlist.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Iterator',
-    1 => 'Traversable',
-    2 => 'Countable',
-    3 => 'ArrayAccess',
-    4 => 'Serializable',
-  ),
   'constants' => 
   array (
     'IT_MODE_LIFO' => 
@@ -58,9 +43,6 @@ return array (
     array (
       'value' => 0,
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -463,15 +445,17 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
+  array (
+    0 => 'Iterator',
+    1 => 'Traversable',
+    2 => 'Countable',
+    3 => 'ArrayAccess',
+    4 => 'Serializable',
+  ),
+  'properties' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAccess, Serializable ] {
 
@@ -635,4 +619,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

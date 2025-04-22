@@ -18,32 +18,14 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'SplFixedArray class (php.net)',
+        'name' => 'SplFixedArray interface (php.net)',
         'url' => 'https://www.php.net/manual/class.splfixedarray.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'IteratorAggregate',
-    1 => 'Traversable',
-    2 => 'ArrayAccess',
-    3 => 'Countable',
-    4 => 'JsonSerializable',
-  ),
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -359,15 +341,17 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
+  array (
+    0 => 'IteratorAggregate',
+    1 => 'Traversable',
+    2 => 'ArrayAccess',
+    3 => 'Countable',
+    4 => 'JsonSerializable',
+  ),
+  'properties' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class SplFixedArray implements IteratorAggregate, Traversable, ArrayAccess, Countable, JsonSerializable ] {
 
@@ -499,4 +483,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

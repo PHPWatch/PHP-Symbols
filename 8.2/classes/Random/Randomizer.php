@@ -18,41 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'Random\\Randomizer class (php.net)',
+        'name' => 'Random\\Randomizer interface (php.net)',
         'url' => 'https://www.php.net/manual/class.random-randomizer.php',
       ),
     ),
   ),
-  'modifiers' => 32,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => 'Random',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'engine' => 
-    array (
-      'name' => 'engine',
-      'class' => 'Random\\Randomizer',
-      'type' => 'Random\\Engine',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -273,15 +247,25 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => true,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'engine' => 
+    array (
+      'name' => 'engine',
+      'class' => 'Random\\Randomizer',
+      'type' => 'Random\\Engine',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'random',
   'toString' => 'Class [ <internal:random> final class Random\\Randomizer ] {
 
@@ -372,4 +356,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

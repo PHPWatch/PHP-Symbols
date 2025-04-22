@@ -18,31 +18,14 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'ParentIterator class (php.net)',
+        'name' => 'ParentIterator interface (php.net)',
         'url' => 'https://www.php.net/manual/class.parentiterator.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'RecursiveIterator',
-    1 => 'OuterIterator',
-    2 => 'Traversable',
-    3 => 'Iterator',
-  ),
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -198,13 +181,16 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => NULL,
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => NULL,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'interfaces' => 
+  array (
+    0 => 'RecursiveIterator',
+    1 => 'OuterIterator',
+    2 => 'Traversable',
+    3 => 'Iterator',
+  ),
+  'properties' => 
+  array (
+  ),
   'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class ParentIterator extends RecursiveFilterIterator implements RecursiveIterator, OuterIterator, Traversable, Iterator ] {
 
@@ -284,4 +270,18 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => NULL,
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => NULL,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

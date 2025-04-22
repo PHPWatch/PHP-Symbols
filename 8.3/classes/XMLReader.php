@@ -18,23 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'XMLReader class (php.net)',
+        'name' => 'XMLReader interface (php.net)',
         'url' => 'https://www.php.net/manual/class.xmlreader.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
     'NONE' => 
@@ -212,191 +202,6 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
-    ),
-  ),
-  'properties' => 
-  array (
-    'attributeCount' => 
-    array (
-      'name' => 'attributeCount',
-      'class' => 'XMLReader',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'baseURI' => 
-    array (
-      'name' => 'baseURI',
-      'class' => 'XMLReader',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'depth' => 
-    array (
-      'name' => 'depth',
-      'class' => 'XMLReader',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'hasAttributes' => 
-    array (
-      'name' => 'hasAttributes',
-      'class' => 'XMLReader',
-      'type' => 'bool',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'hasValue' => 
-    array (
-      'name' => 'hasValue',
-      'class' => 'XMLReader',
-      'type' => 'bool',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'isDefault' => 
-    array (
-      'name' => 'isDefault',
-      'class' => 'XMLReader',
-      'type' => 'bool',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'isEmptyElement' => 
-    array (
-      'name' => 'isEmptyElement',
-      'class' => 'XMLReader',
-      'type' => 'bool',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'localName' => 
-    array (
-      'name' => 'localName',
-      'class' => 'XMLReader',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'name' => 
-    array (
-      'name' => 'name',
-      'class' => 'XMLReader',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'namespaceURI' => 
-    array (
-      'name' => 'namespaceURI',
-      'class' => 'XMLReader',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'nodeType' => 
-    array (
-      'name' => 'nodeType',
-      'class' => 'XMLReader',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'prefix' => 
-    array (
-      'name' => 'prefix',
-      'class' => 'XMLReader',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'value' => 
-    array (
-      'name' => 'value',
-      'class' => 'XMLReader',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'xmlLang' => 
-    array (
-      'name' => 'xmlLang',
-      'class' => 'XMLReader',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
     ),
   ),
   'methods' => 
@@ -982,15 +787,194 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'attributeCount' => 
+    array (
+      'name' => 'attributeCount',
+      'class' => 'XMLReader',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'baseURI' => 
+    array (
+      'name' => 'baseURI',
+      'class' => 'XMLReader',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'depth' => 
+    array (
+      'name' => 'depth',
+      'class' => 'XMLReader',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'hasAttributes' => 
+    array (
+      'name' => 'hasAttributes',
+      'class' => 'XMLReader',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'hasValue' => 
+    array (
+      'name' => 'hasValue',
+      'class' => 'XMLReader',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'isDefault' => 
+    array (
+      'name' => 'isDefault',
+      'class' => 'XMLReader',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'isEmptyElement' => 
+    array (
+      'name' => 'isEmptyElement',
+      'class' => 'XMLReader',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'localName' => 
+    array (
+      'name' => 'localName',
+      'class' => 'XMLReader',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'name' => 
+    array (
+      'name' => 'name',
+      'class' => 'XMLReader',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'namespaceURI' => 
+    array (
+      'name' => 'namespaceURI',
+      'class' => 'XMLReader',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'nodeType' => 
+    array (
+      'name' => 'nodeType',
+      'class' => 'XMLReader',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'prefix' => 
+    array (
+      'name' => 'prefix',
+      'class' => 'XMLReader',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'value' => 
+    array (
+      'name' => 'value',
+      'class' => 'XMLReader',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'xmlLang' => 
+    array (
+      'name' => 'xmlLang',
+      'class' => 'XMLReader',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'xmlreader',
   'toString' => 'Class [ <internal:xmlreader> class XMLReader ] {
 
@@ -1239,4 +1223,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

@@ -18,98 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'mysqli_result class (php.net)',
+        'name' => 'mysqli_result interface (php.net)',
         'url' => 'https://www.php.net/manual/class.mysqli_result.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'current_field' => NULL,
-    'field_count' => NULL,
-    'lengths' => NULL,
-    'num_rows' => NULL,
-    'type' => NULL,
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'current_field' => 
-    array (
-      'name' => 'current_field',
-      'class' => 'mysqli_result',
-      'type' => NULL,
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'field_count' => 
-    array (
-      'name' => 'field_count',
-      'class' => 'mysqli_result',
-      'type' => NULL,
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'lengths' => 
-    array (
-      'name' => 'lengths',
-      'class' => 'mysqli_result',
-      'type' => NULL,
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'num_rows' => 
-    array (
-      'name' => 'num_rows',
-      'class' => 'mysqli_result',
-      'type' => NULL,
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'type' => 
-    array (
-      'name' => 'type',
-      'class' => 'mysqli_result',
-      'type' => NULL,
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -350,13 +267,77 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => NULL,
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => NULL,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'interfaces' => 
+  array (
+  ),
+  'properties' => 
+  array (
+    'current_field' => 
+    array (
+      'name' => 'current_field',
+      'class' => 'mysqli_result',
+      'type' => NULL,
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'field_count' => 
+    array (
+      'name' => 'field_count',
+      'class' => 'mysqli_result',
+      'type' => NULL,
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'lengths' => 
+    array (
+      'name' => 'lengths',
+      'class' => 'mysqli_result',
+      'type' => NULL,
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'num_rows' => 
+    array (
+      'name' => 'num_rows',
+      'class' => 'mysqli_result',
+      'type' => NULL,
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'type' => 
+    array (
+      'name' => 'type',
+      'class' => 'mysqli_result',
+      'type' => NULL,
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'mysqli',
   'toString' => 'Class [ <internal:mysqli> class mysqli_result ] {
 
@@ -465,4 +446,23 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+    'current_field' => NULL,
+    'field_count' => NULL,
+    'lengths' => NULL,
+    'num_rows' => NULL,
+    'type' => NULL,
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => NULL,
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => NULL,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

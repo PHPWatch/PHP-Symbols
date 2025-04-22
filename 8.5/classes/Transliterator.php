@@ -18,23 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'Transliterator class (php.net)',
+        'name' => 'Transliterator interface (php.net)',
         'url' => 'https://www.php.net/manual/class.transliterator.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
     'FORWARD' => 
@@ -54,22 +44,6 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
       'type' => 'int',
-    ),
-  ),
-  'properties' => 
-  array (
-    'id' => 
-    array (
-      'name' => 'id',
-      'class' => 'Transliterator',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
     ),
   ),
   'methods' => 
@@ -257,15 +231,25 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => false,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'id' => 
+    array (
+      'name' => 'id',
+      'class' => 'Transliterator',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'intl',
   'toString' => 'Class [ <internal:intl> class Transliterator ] {
 
@@ -348,4 +332,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => false,
+  'is_read_only' => false,
 );

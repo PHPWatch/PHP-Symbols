@@ -18,30 +18,20 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'mysqli_driver class (php.net)',
+        'name' => 'mysqli_driver interface (php.net)',
         'url' => 'https://www.php.net/manual/class.mysqli_driver.php',
       ),
     ),
   ),
-  'modifiers' => 64,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'client_info' => NULL,
-    'client_version' => NULL,
-    'driver_version' => NULL,
-    'embedded' => NULL,
-    'reconnect' => NULL,
-    'report_mode' => NULL,
-  ),
   'namespace' => '',
-  'staticProperties' => 
+  'constants' => 
+  array (
+  ),
+  'methods' => 
   array (
   ),
   'interfaces' => 
-  array (
-  ),
-  'constants' => 
   array (
   ),
   'properties' => 
@@ -125,16 +115,6 @@ return array (
       'is_promoted' => false,
     ),
   ),
-  'methods' => 
-  array (
-  ),
-  'traits' => NULL,
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => NULL,
-  'is_final' => true,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'mysqli',
   'toString' => 'Class [ <internal:mysqli> final class mysqli_driver ] {
 
@@ -160,4 +140,24 @@ return array (
   }
 }
 ',
+  'modifiers' => 64,
+  'defaultProperties' => 
+  array (
+    'client_info' => NULL,
+    'client_version' => NULL,
+    'driver_version' => NULL,
+    'embedded' => NULL,
+    'reconnect' => NULL,
+    'report_mode' => NULL,
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => NULL,
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => NULL,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

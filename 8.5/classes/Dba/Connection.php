@@ -18,41 +18,25 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'Dba\\Connection class (php.net)',
+        'name' => 'Dba\\Connection interface (php.net)',
         'url' => 'https://www.php.net/manual/class.dba-connection.php',
       ),
     ),
   ),
-  'modifiers' => 32,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => 'Dba',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
   array (
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => true,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+  ),
   'extension' => 'dba',
   'toString' => 'Class [ <internal:dba> final class Dba\\Connection ] {
 
@@ -72,4 +56,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

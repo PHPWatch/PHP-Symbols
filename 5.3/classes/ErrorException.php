@@ -18,98 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'ErrorException class (php.net)',
+        'name' => 'ErrorException interface (php.net)',
         'url' => 'https://www.php.net/manual/class.errorexception.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'message' => '',
-    'code' => 0,
-    'file' => NULL,
-    'line' => NULL,
-    'severity' => 1,
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'message' => 
-    array (
-      'name' => 'message',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'code' => 
-    array (
-      'name' => 'code',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'file' => 
-    array (
-      'name' => 'file',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'line' => 
-    array (
-      'name' => 'line',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'severity' => 
-    array (
-      'name' => 'severity',
-      'class' => 'ErrorException',
-      'type' => NULL,
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -328,13 +245,77 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => NULL,
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => NULL,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'interfaces' => 
+  array (
+  ),
+  'properties' => 
+  array (
+    'message' => 
+    array (
+      'name' => 'message',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'code' => 
+    array (
+      'name' => 'code',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'file' => 
+    array (
+      'name' => 'file',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'line' => 
+    array (
+      'name' => 'line',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'severity' => 
+    array (
+      'name' => 'severity',
+      'class' => 'ErrorException',
+      'type' => NULL,
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'Core',
   'toString' => 'Class [ <internal:Core> class ErrorException extends Exception ] {
 
@@ -397,4 +378,23 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+    'message' => '',
+    'code' => 0,
+    'file' => NULL,
+    'line' => NULL,
+    'severity' => 1,
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => NULL,
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => NULL,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

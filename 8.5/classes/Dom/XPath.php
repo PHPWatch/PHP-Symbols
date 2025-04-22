@@ -18,54 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'Dom\\XPath class (php.net)',
+        'name' => 'Dom\\XPath interface (php.net)',
         'url' => 'https://www.php.net/manual/class.dom-xpath.php',
       ),
     ),
   ),
-  'modifiers' => 32,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => 'Dom',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'document' => 
-    array (
-      'name' => 'document',
-      'class' => 'Dom\\XPath',
-      'type' => 'Dom\\Document',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'registerNodeNamespaces' => 
-    array (
-      'name' => 'registerNodeNamespaces',
-      'class' => 'Dom\\XPath',
-      'type' => 'bool',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -318,15 +279,38 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => true,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'document' => 
+    array (
+      'name' => 'document',
+      'class' => 'Dom\\XPath',
+      'type' => 'Dom\\Document',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'registerNodeNamespaces' => 
+    array (
+      'name' => 'registerNodeNamespaces',
+      'class' => 'Dom\\XPath',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> final class Dom\\XPath ] {
 
@@ -409,4 +393,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

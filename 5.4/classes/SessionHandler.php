@@ -18,28 +18,14 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'SessionHandler class (php.net)',
+        'name' => 'SessionHandler interface (php.net)',
         'url' => 'https://www.php.net/manual/class.sessionhandler.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'SessionHandlerInterface',
-  ),
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -199,15 +185,13 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
+  array (
+    0 => 'SessionHandlerInterface',
+  ),
+  'properties' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'session',
   'toString' => 'Class [ <internal:session> class SessionHandler implements SessionHandlerInterface ] {
 
@@ -269,4 +253,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

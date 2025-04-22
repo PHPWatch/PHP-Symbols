@@ -18,81 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'PhpToken class (php.net)',
+        'name' => 'PhpToken interface (php.net)',
         'url' => 'https://www.php.net/manual/class.phptoken.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Stringable',
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'id' => 
-    array (
-      'name' => 'id',
-      'class' => 'PhpToken',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'text' => 
-    array (
-      'name' => 'text',
-      'class' => 'PhpToken',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'line' => 
-    array (
-      'name' => 'line',
-      'class' => 'PhpToken',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'pos' => 
-    array (
-      'name' => 'pos',
-      'class' => 'PhpToken',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -251,15 +185,65 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
+    0 => 'Stringable',
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'id' => 
+    array (
+      'name' => 'id',
+      'class' => 'PhpToken',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'text' => 
+    array (
+      'name' => 'text',
+      'class' => 'PhpToken',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'line' => 
+    array (
+      'name' => 'line',
+      'class' => 'PhpToken',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'pos' => 
+    array (
+      'name' => 'pos',
+      'class' => 'PhpToken',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'tokenizer',
   'toString' => 'Class [ <internal:tokenizer> class PhpToken implements Stringable ] {
 
@@ -329,4 +313,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

@@ -18,24 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'ZipArchive class (php.net)',
+        'name' => 'ZipArchive interface (php.net)',
         'url' => 'https://www.php.net/manual/class.ziparchive.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Countable',
-  ),
   'constants' => 
   array (
     'CREATE' => 
@@ -829,87 +818,6 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
-    ),
-  ),
-  'properties' => 
-  array (
-    'lastId' => 
-    array (
-      'name' => 'lastId',
-      'class' => 'ZipArchive',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'status' => 
-    array (
-      'name' => 'status',
-      'class' => 'ZipArchive',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'statusSys' => 
-    array (
-      'name' => 'statusSys',
-      'class' => 'ZipArchive',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'numFiles' => 
-    array (
-      'name' => 'numFiles',
-      'class' => 'ZipArchive',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'filename' => 
-    array (
-      'name' => 'filename',
-      'class' => 'ZipArchive',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'comment' => 
-    array (
-      'name' => 'comment',
-      'class' => 'ZipArchive',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
     ),
   ),
   'methods' => 
@@ -2655,15 +2563,91 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
+    0 => 'Countable',
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'lastId' => 
+    array (
+      'name' => 'lastId',
+      'class' => 'ZipArchive',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'status' => 
+    array (
+      'name' => 'status',
+      'class' => 'ZipArchive',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'statusSys' => 
+    array (
+      'name' => 'statusSys',
+      'class' => 'ZipArchive',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'numFiles' => 
+    array (
+      'name' => 'numFiles',
+      'class' => 'ZipArchive',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'filename' => 
+    array (
+      'name' => 'filename',
+      'class' => 'ZipArchive',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'comment' => 
+    array (
+      'name' => 'comment',
+      'class' => 'ZipArchive',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'zip',
   'toString' => 'Class [ <internal:zip> class ZipArchive implements Countable ] {
 
@@ -3237,4 +3221,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

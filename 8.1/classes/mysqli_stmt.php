@@ -18,158 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'mysqli_stmt class (php.net)',
+        'name' => 'mysqli_stmt interface (php.net)',
         'url' => 'https://www.php.net/manual/class.mysqli_stmt.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'affected_rows' => 
-    array (
-      'name' => 'affected_rows',
-      'class' => 'mysqli_stmt',
-      'type' => 'string|int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'insert_id' => 
-    array (
-      'name' => 'insert_id',
-      'class' => 'mysqli_stmt',
-      'type' => 'string|int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'num_rows' => 
-    array (
-      'name' => 'num_rows',
-      'class' => 'mysqli_stmt',
-      'type' => 'string|int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'param_count' => 
-    array (
-      'name' => 'param_count',
-      'class' => 'mysqli_stmt',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'field_count' => 
-    array (
-      'name' => 'field_count',
-      'class' => 'mysqli_stmt',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'errno' => 
-    array (
-      'name' => 'errno',
-      'class' => 'mysqli_stmt',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'error' => 
-    array (
-      'name' => 'error',
-      'class' => 'mysqli_stmt',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'error_list' => 
-    array (
-      'name' => 'error_list',
-      'class' => 'mysqli_stmt',
-      'type' => 'array',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'sqlstate' => 
-    array (
-      'name' => 'sqlstate',
-      'class' => 'mysqli_stmt',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'id' => 
-    array (
-      'name' => 'id',
-      'class' => 'mysqli_stmt',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -584,15 +441,142 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'affected_rows' => 
+    array (
+      'name' => 'affected_rows',
+      'class' => 'mysqli_stmt',
+      'type' => 'string|int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'insert_id' => 
+    array (
+      'name' => 'insert_id',
+      'class' => 'mysqli_stmt',
+      'type' => 'string|int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'num_rows' => 
+    array (
+      'name' => 'num_rows',
+      'class' => 'mysqli_stmt',
+      'type' => 'string|int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'param_count' => 
+    array (
+      'name' => 'param_count',
+      'class' => 'mysqli_stmt',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'field_count' => 
+    array (
+      'name' => 'field_count',
+      'class' => 'mysqli_stmt',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'errno' => 
+    array (
+      'name' => 'errno',
+      'class' => 'mysqli_stmt',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'error' => 
+    array (
+      'name' => 'error',
+      'class' => 'mysqli_stmt',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'error_list' => 
+    array (
+      'name' => 'error_list',
+      'class' => 'mysqli_stmt',
+      'type' => 'array',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'sqlstate' => 
+    array (
+      'name' => 'sqlstate',
+      'class' => 'mysqli_stmt',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'id' => 
+    array (
+      'name' => 'id',
+      'class' => 'mysqli_stmt',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'mysqli',
   'toString' => 'Class [ <internal:mysqli> class mysqli_stmt ] {
 
@@ -772,4 +756,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

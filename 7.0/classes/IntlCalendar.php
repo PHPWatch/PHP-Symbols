@@ -18,23 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'IntlCalendar class (php.net)',
+        'name' => 'IntlCalendar interface (php.net)',
         'url' => 'https://www.php.net/manual/class.intlcalendar.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
     'FIELD_ERA' => 
@@ -193,9 +183,6 @@ return array (
     array (
       'value' => 2,
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -1264,15 +1251,12 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => false,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+  ),
   'extension' => 'intl',
   'toString' => 'Class [ <internal:intl> class IntlCalendar ] {
 
@@ -1647,4 +1631,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => false,
+  'is_read_only' => false,
 );

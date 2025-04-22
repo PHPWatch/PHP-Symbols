@@ -18,41 +18,25 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'PgSql\\Result class (php.net)',
+        'name' => 'PgSql\\Result interface (php.net)',
         'url' => 'https://www.php.net/manual/class.pgsql-result.php',
       ),
     ),
   ),
-  'modifiers' => 32,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => 'PgSql',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
   array (
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => true,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+  ),
   'extension' => 'pgsql',
   'toString' => 'Class [ <internal:pgsql> final class PgSql\\Result ] {
 
@@ -72,4 +56,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

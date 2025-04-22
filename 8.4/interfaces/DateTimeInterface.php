@@ -23,9 +23,8 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
-  array (
-  ),
+  'comment' => false,
+  'namespace' => '',
   'constants' => 
   array (
     'ATOM' => 
@@ -154,9 +153,6 @@ return array (
       'isFinal' => false,
       'type' => 'string',
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -326,6 +322,12 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+  ),
+  'interfaces' => 
+  array (
+  ),
+  'properties' => 
+  array (
   ),
   'extension' => 'date',
   'toString' => 'Interface [ <internal:date> interface DateTimeInterface ] {

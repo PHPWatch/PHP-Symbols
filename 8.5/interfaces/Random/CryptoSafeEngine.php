@@ -23,14 +23,9 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
-  array (
-    0 => 'Random\\Engine',
-  ),
+  'comment' => false,
+  'namespace' => 'Random',
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -49,6 +44,13 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+  ),
+  'interfaces' => 
+  array (
+    0 => 'Random\\Engine',
+  ),
+  'properties' => 
+  array (
   ),
   'extension' => 'random',
   'toString' => 'Interface [ <internal:random> interface Random\\CryptoSafeEngine extends Random\\Engine ] {

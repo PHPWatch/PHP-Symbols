@@ -18,44 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'Dom\\NodeList class (php.net)',
+        'name' => 'Dom\\NodeList interface (php.net)',
         'url' => 'https://www.php.net/manual/class.dom-nodelist.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => 'Dom',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'IteratorAggregate',
-    1 => 'Traversable',
-    2 => 'Countable',
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'length' => 
-    array (
-      'name' => 'length',
-      'class' => 'Dom\\NodeList',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -112,15 +83,28 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
+    0 => 'IteratorAggregate',
+    1 => 'Traversable',
+    2 => 'Countable',
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'length' => 
+    array (
+      'name' => 'length',
+      'class' => 'Dom\\NodeList',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> <iterateable> class Dom\\NodeList implements IteratorAggregate, Traversable, Countable ] {
 
@@ -162,4 +146,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

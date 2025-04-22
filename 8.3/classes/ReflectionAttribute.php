@@ -18,25 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'ReflectionAttribute class (php.net)',
+        'name' => 'ReflectionAttribute interface (php.net)',
         'url' => 'https://www.php.net/manual/class.reflectionattribute.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Stringable',
-    1 => 'Reflector',
-  ),
   'constants' => 
   array (
     'IS_INSTANCEOF' => 
@@ -47,9 +35,6 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -166,15 +151,14 @@ return array (
       'is_private' => true,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
+  array (
+    0 => 'Stringable',
+    1 => 'Reflector',
+  ),
+  'properties' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => false,
-  'is_read_only' => false,
   'extension' => 'Reflection',
   'toString' => 'Class [ <internal:Reflection> class ReflectionAttribute implements Stringable, Reflector ] {
 
@@ -249,4 +233,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => false,
+  'is_read_only' => false,
 );

@@ -18,57 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'Dom\\TokenList class (php.net)',
+        'name' => 'Dom\\TokenList interface (php.net)',
         'url' => 'https://www.php.net/manual/class.dom-tokenlist.php',
       ),
     ),
   ),
-  'modifiers' => 32,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => 'Dom',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'IteratorAggregate',
-    1 => 'Traversable',
-    2 => 'Countable',
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'length' => 
-    array (
-      'name' => 'length',
-      'class' => 'Dom\\TokenList',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'value' => 
-    array (
-      'name' => 'value',
-      'class' => 'Dom\\TokenList',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -303,15 +261,41 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
+    0 => 'IteratorAggregate',
+    1 => 'Traversable',
+    2 => 'Countable',
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => true,
-  'is_instantiable' => false,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'length' => 
+    array (
+      'name' => 'length',
+      'class' => 'Dom\\TokenList',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'value' => 
+    array (
+      'name' => 'value',
+      'class' => 'Dom\\TokenList',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> <iterateable> final class Dom\\TokenList implements IteratorAggregate, Traversable, Countable ] {
 
@@ -410,4 +394,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => true,
+  'is_instantiable' => false,
+  'is_read_only' => false,
 );

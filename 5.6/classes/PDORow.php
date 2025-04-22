@@ -18,41 +18,25 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'PDORow class (php.net)',
+        'name' => 'PDORow interface (php.net)',
         'url' => 'https://www.php.net/manual/class.pdorow.php',
       ),
     ),
   ),
-  'modifiers' => 64,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
   array (
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => false,
-  'is_final' => true,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+  ),
   'extension' => 'PDO',
   'toString' => 'Class [ <internal:PDO> final class PDORow ] {
 
@@ -72,4 +56,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 64,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => false,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

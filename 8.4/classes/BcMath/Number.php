@@ -18,55 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'BcMath\\Number class (php.net)',
+        'name' => 'BcMath\\Number interface (php.net)',
         'url' => 'https://www.php.net/manual/class.bcmath-number.php',
       ),
     ),
   ),
-  'modifiers' => 65568,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => 'BcMath',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Stringable',
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'value' => 
-    array (
-      'name' => 'value',
-      'class' => 'BcMath\\Number',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'scale' => 
-    array (
-      'name' => 'scale',
-      'class' => 'BcMath\\Number',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -549,15 +509,39 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
+    0 => 'Stringable',
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => true,
-  'is_instantiable' => true,
-  'is_read_only' => true,
+  'properties' => 
+  array (
+    'value' => 
+    array (
+      'name' => 'value',
+      'class' => 'BcMath\\Number',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'scale' => 
+    array (
+      'name' => 'scale',
+      'class' => 'BcMath\\Number',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'bcmath',
   'toString' => 'Class [ <internal:bcmath> final readonly class BcMath\\Number implements Stringable ] {
 
@@ -720,4 +704,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 65568,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => true,
 );

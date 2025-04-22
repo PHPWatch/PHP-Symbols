@@ -18,45 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'Deprecated attribute (php.net)',
+        'name' => 'Deprecated interface (php.net)',
         'url' => 'https://www.php.net/manual/class.deprecated.php',
       ),
     ),
   ),
-  'interfaces' => 
-  array (
-  ),
+  'comment' => false,
+  'namespace' => '',
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'message' => 
-    array (
-      'name' => 'message',
-      'class' => 'Deprecated',
-      'type' => '?string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'since' => 
-    array (
-      'name' => 'since',
-      'class' => 'Deprecated',
-      'type' => '?string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -95,7 +65,84 @@ return array (
       'is_private' => false,
     ),
   ),
+  'interfaces' => 
+  array (
+  ),
+  'properties' => 
+  array (
+    'message' => 
+    array (
+      'name' => 'message',
+      'class' => 'Deprecated',
+      'type' => '?string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'since' => 
+    array (
+      'name' => 'since',
+      'class' => 'Deprecated',
+      'type' => '?string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
+  'extension' => 'Core',
+  'toString' => 'Class [ <internal:Core> final class Deprecated ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [2] {
+    Property [ public protected(set) readonly ?string $message ]
+    Property [ public protected(set) readonly ?string $since ]
+  }
+
+  - Methods [1] {
+    Method [ <internal:Core, ctor> public method __construct ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> ?string $message = null ]
+        Parameter #1 [ <optional> ?string $since = null ]
+      }
+    }
+  }
+}
+',
+  'attributes' => 
+  array (
+    0 => 'Attribute',
+  ),
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
   'traits' => 
   array (
   ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

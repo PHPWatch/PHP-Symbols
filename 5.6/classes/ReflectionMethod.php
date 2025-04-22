@@ -18,26 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'ReflectionMethod class (php.net)',
+        'name' => 'ReflectionMethod interface (php.net)',
         'url' => 'https://www.php.net/manual/class.reflectionmethod.php',
       ),
     ),
   ),
-  'modifiers' => 1048576,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'name' => '',
-    'class' => '',
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Reflector',
-  ),
   'constants' => 
   array (
     'IS_STATIC' => 
@@ -63,35 +50,6 @@ return array (
     'IS_FINAL' => 
     array (
       'value' => 4,
-    ),
-  ),
-  'properties' => 
-  array (
-    'name' => 
-    array (
-      'name' => 'name',
-      'class' => 'ReflectionMethod',
-      'type' => NULL,
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'class' => 
-    array (
-      'name' => 'class',
-      'class' => 'ReflectionMethod',
-      'type' => NULL,
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
     ),
   ),
   'methods' => 
@@ -795,15 +753,39 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
+    0 => 'Reflector',
   ),
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'name' => 
+    array (
+      'name' => 'name',
+      'class' => 'ReflectionMethod',
+      'type' => NULL,
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'class' => 
+    array (
+      'name' => 'class',
+      'class' => 'ReflectionMethod',
+      'type' => NULL,
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'Reflection',
   'toString' => 'Class [ <internal:Reflection> class ReflectionMethod extends ReflectionFunctionAbstract implements Reflector ] {
 
@@ -1086,4 +1068,22 @@ return array (
   }
 }
 ',
+  'modifiers' => 1048576,
+  'defaultProperties' => 
+  array (
+    'name' => '',
+    'class' => '',
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

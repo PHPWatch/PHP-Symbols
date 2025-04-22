@@ -16,38 +16,27 @@ return array (
     'removed' => NULL,
     'resources' => 
     array (
+      0 => 
+      array (
+        'name' => '__PHP_Incomplete_Class interface (php.net)',
+        'url' => 'https://www.php.net/manual/class.__php_incomplete_class.php',
+      ),
     ),
   ),
-  'modifiers' => 32,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
   array (
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => true,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+  ),
   'extension' => 'standard',
   'toString' => 'Class [ <internal:standard> final class __PHP_Incomplete_Class ] {
 
@@ -71,4 +60,20 @@ return array (
   array (
     0 => 'AllowDynamicProperties',
   ),
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

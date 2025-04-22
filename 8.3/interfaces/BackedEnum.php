@@ -23,14 +23,9 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
-  array (
-    0 => 'UnitEnum',
-  ),
+  'comment' => false,
+  'namespace' => '',
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -97,6 +92,13 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+  ),
+  'interfaces' => 
+  array (
+    0 => 'UnitEnum',
+  ),
+  'properties' => 
+  array (
   ),
   'extension' => 'Core',
   'toString' => 'Interface [ <internal:Core> interface BackedEnum extends UnitEnum ] {

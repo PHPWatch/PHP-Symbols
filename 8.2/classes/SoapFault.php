@@ -18,183 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'SoapFault class (php.net)',
+        'name' => 'SoapFault interface (php.net)',
         'url' => 'https://www.php.net/manual/class.soapfault.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'message' => '',
-    'code' => 0,
-    'file' => '',
-    'line' => 0,
-    'faultcode' => NULL,
-    'faultcodens' => NULL,
-    'faultactor' => NULL,
-    'detail' => NULL,
-    '_name' => NULL,
-    'headerfault' => NULL,
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Stringable',
-    1 => 'Throwable',
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'message' => 
-    array (
-      'name' => 'message',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => '',
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'code' => 
-    array (
-      'name' => 'code',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => 0,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'file' => 
-    array (
-      'name' => 'file',
-      'class' => 'Exception',
-      'type' => 'string',
-      'has_default_value' => true,
-      'default_value' => '',
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'line' => 
-    array (
-      'name' => 'line',
-      'class' => 'Exception',
-      'type' => 'int',
-      'has_default_value' => true,
-      'default_value' => 0,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'faultstring' => 
-    array (
-      'name' => 'faultstring',
-      'class' => 'SoapFault',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'faultcode' => 
-    array (
-      'name' => 'faultcode',
-      'class' => 'SoapFault',
-      'type' => '?string',
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'faultcodens' => 
-    array (
-      'name' => 'faultcodens',
-      'class' => 'SoapFault',
-      'type' => '?string',
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'faultactor' => 
-    array (
-      'name' => 'faultactor',
-      'class' => 'SoapFault',
-      'type' => '?string',
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'detail' => 
-    array (
-      'name' => 'detail',
-      'class' => 'SoapFault',
-      'type' => 'mixed',
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    '_name' => 
-    array (
-      'name' => '_name',
-      'class' => 'SoapFault',
-      'type' => '?string',
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'headerfault' => 
-    array (
-      'name' => 'headerfault',
-      'class' => 'SoapFault',
-      'type' => 'mixed',
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -399,15 +231,157 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
+    0 => 'Stringable',
+    1 => 'Throwable',
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'message' => 
+    array (
+      'name' => 'message',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => '',
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'code' => 
+    array (
+      'name' => 'code',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => 0,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'file' => 
+    array (
+      'name' => 'file',
+      'class' => 'Exception',
+      'type' => 'string',
+      'has_default_value' => true,
+      'default_value' => '',
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'line' => 
+    array (
+      'name' => 'line',
+      'class' => 'Exception',
+      'type' => 'int',
+      'has_default_value' => true,
+      'default_value' => 0,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'faultstring' => 
+    array (
+      'name' => 'faultstring',
+      'class' => 'SoapFault',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'faultcode' => 
+    array (
+      'name' => 'faultcode',
+      'class' => 'SoapFault',
+      'type' => '?string',
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'faultcodens' => 
+    array (
+      'name' => 'faultcodens',
+      'class' => 'SoapFault',
+      'type' => '?string',
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'faultactor' => 
+    array (
+      'name' => 'faultactor',
+      'class' => 'SoapFault',
+      'type' => '?string',
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'detail' => 
+    array (
+      'name' => 'detail',
+      'class' => 'SoapFault',
+      'type' => 'mixed',
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    '_name' => 
+    array (
+      'name' => '_name',
+      'class' => 'SoapFault',
+      'type' => '?string',
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'headerfault' => 
+    array (
+      'name' => 'headerfault',
+      'class' => 'SoapFault',
+      'type' => 'mixed',
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'soap',
   'toString' => 'Class [ <internal:soap> class SoapFault extends Exception implements Stringable, Throwable ] {
 
@@ -511,4 +485,30 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+    'message' => '',
+    'code' => 0,
+    'file' => '',
+    'line' => 0,
+    'faultcode' => NULL,
+    'faultcodens' => NULL,
+    'faultactor' => NULL,
+    'detail' => NULL,
+    '_name' => NULL,
+    'headerfault' => NULL,
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

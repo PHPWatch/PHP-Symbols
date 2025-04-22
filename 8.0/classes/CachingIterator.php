@@ -18,29 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'CachingIterator class (php.net)',
+        'name' => 'CachingIterator interface (php.net)',
         'url' => 'https://www.php.net/manual/class.cachingiterator.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Stringable',
-    1 => 'OuterIterator',
-    2 => 'Traversable',
-    3 => 'Iterator',
-    4 => 'ArrayAccess',
-    5 => 'Countable',
-  ),
   'constants' => 
   array (
     'CALL_TOSTRING' => 
@@ -85,9 +69,6 @@ return array (
 ',
       'visibility' => 1,
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -410,15 +391,18 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
+  array (
+    0 => 'Stringable',
+    1 => 'OuterIterator',
+    2 => 'Traversable',
+    3 => 'Iterator',
+    4 => 'ArrayAccess',
+    5 => 'Countable',
+  ),
+  'properties' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class CachingIterator extends IteratorIterator implements Stringable, OuterIterator, Traversable, Iterator, ArrayAccess, Countable ] {
 
@@ -554,4 +538,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

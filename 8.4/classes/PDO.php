@@ -18,23 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'PDO class (php.net)',
+        'name' => 'PDO interface (php.net)',
         'url' => 'https://www.php.net/manual/class.pdo.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
     'PARAM_NULL' => 
@@ -1032,9 +1022,6 @@ return array (
       'isFinal' => false,
     ),
   ),
-  'properties' => 
-  array (
-  ),
   'methods' => 
   array (
     '__construct' => 
@@ -1462,15 +1449,12 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+  ),
   'extension' => 'PDO',
   'toString' => 'Class [ <internal:PDO> class PDO ] {
 
@@ -1734,4 +1718,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

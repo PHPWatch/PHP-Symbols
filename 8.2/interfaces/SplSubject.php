@@ -23,13 +23,9 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
-  array (
-  ),
+  'comment' => false,
+  'namespace' => '',
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -96,6 +92,12 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+  ),
+  'interfaces' => 
+  array (
+  ),
+  'properties' => 
+  array (
   ),
   'extension' => 'SPL',
   'toString' => 'Interface [ <internal:SPL> interface SplSubject ] {

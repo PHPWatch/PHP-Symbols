@@ -23,13 +23,9 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
-  array (
-  ),
+  'comment' => false,
+  'namespace' => '',
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -49,7 +45,54 @@ return array (
       'is_private' => false,
     ),
   ),
+  'interfaces' => 
+  array (
+  ),
+  'properties' => 
+  array (
+  ),
+  'extension' => 'Core',
+  'toString' => 'Class [ <internal:Core> final class ReturnTypeWillChange ] {
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [1] {
+    Method [ <internal:Core, ctor> public method __construct ] {
+
+      - Parameters [0] {
+      }
+    }
+  }
+}
+',
+  'attributes' => 
+  array (
+    0 => 'Attribute',
+  ),
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
   'traits' => 
   array (
   ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

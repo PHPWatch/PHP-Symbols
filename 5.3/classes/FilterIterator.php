@@ -18,30 +18,14 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'FilterIterator class (php.net)',
+        'name' => 'FilterIterator interface (php.net)',
         'url' => 'https://www.php.net/manual/class.filteriterator.php',
       ),
     ),
   ),
-  'modifiers' => 48,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'OuterIterator',
-    1 => 'Traversable',
-    2 => 'Iterator',
-  ),
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -169,13 +153,15 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => NULL,
-  'is_abstract' => true,
-  'is_anonymous' => NULL,
-  'is_cloneable' => NULL,
-  'is_final' => false,
-  'is_instantiable' => false,
-  'is_read_only' => false,
+  'interfaces' => 
+  array (
+    0 => 'OuterIterator',
+    1 => 'Traversable',
+    2 => 'Iterator',
+  ),
+  'properties' => 
+  array (
+  ),
   'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> abstract class FilterIterator extends IteratorIterator implements OuterIterator, Traversable, Iterator ] {
 
@@ -243,4 +229,18 @@ return array (
   }
 }
 ',
+  'modifiers' => 48,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => NULL,
+  'is_abstract' => true,
+  'is_anonymous' => NULL,
+  'is_cloneable' => NULL,
+  'is_final' => false,
+  'is_instantiable' => false,
+  'is_read_only' => false,
 );

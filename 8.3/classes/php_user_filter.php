@@ -18,70 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'php_user_filter class (php.net)',
+        'name' => 'php_user_filter interface (php.net)',
         'url' => 'https://www.php.net/manual/class.php_user_filter.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'filtername' => '',
-    'params' => '',
-    'stream' => NULL,
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'filtername' => 
-    array (
-      'name' => 'filtername',
-      'class' => 'php_user_filter',
-      'type' => 'string',
-      'has_default_value' => true,
-      'default_value' => '',
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'params' => 
-    array (
-      'name' => 'params',
-      'class' => 'php_user_filter',
-      'type' => 'mixed',
-      'has_default_value' => true,
-      'default_value' => '',
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'stream' => 
-    array (
-      'name' => 'stream',
-      'class' => 'php_user_filter',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -168,15 +113,51 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'filtername' => 
+    array (
+      'name' => 'filtername',
+      'class' => 'php_user_filter',
+      'type' => 'string',
+      'has_default_value' => true,
+      'default_value' => '',
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'params' => 
+    array (
+      'name' => 'params',
+      'class' => 'php_user_filter',
+      'type' => 'mixed',
+      'has_default_value' => true,
+      'default_value' => '',
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'stream' => 
+    array (
+      'name' => 'stream',
+      'class' => 'php_user_filter',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'standard',
   'toString' => 'Class [ <internal:standard> class php_user_filter ] {
 
@@ -223,4 +204,23 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+    'filtername' => '',
+    'params' => '',
+    'stream' => NULL,
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

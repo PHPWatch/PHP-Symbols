@@ -18,23 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'Spoofchecker class (php.net)',
+        'name' => 'Spoofchecker interface (php.net)',
         'url' => 'https://www.php.net/manual/class.spoofchecker.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
     'SINGLE_SCRIPT_CONFUSABLE' => 
@@ -65,9 +55,6 @@ return array (
     array (
       'value' => 64,
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -212,15 +199,12 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+  ),
   'extension' => 'intl',
   'toString' => 'Class [ <internal:intl> class Spoofchecker ] {
 
@@ -283,4 +267,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

@@ -18,29 +18,14 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'Random\\Engine\\Secure class (php.net)',
+        'name' => 'Random\\Engine\\Secure interface (php.net)',
         'url' => 'https://www.php.net/manual/class.random-engine-secure.php',
       ),
     ),
   ),
-  'modifiers' => 32,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => 'Random\\Engine',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Random\\CryptoSafeEngine',
-    1 => 'Random\\Engine',
-  ),
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -60,15 +45,14 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
+  array (
+    0 => 'Random\\CryptoSafeEngine',
+    1 => 'Random\\Engine',
+  ),
+  'properties' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => true,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'random',
   'toString' => 'Class [ <internal:random> final class Random\\Engine\\Secure implements Random\\CryptoSafeEngine, Random\\Engine ] {
 
@@ -94,4 +78,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

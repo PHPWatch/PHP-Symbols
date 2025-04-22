@@ -18,31 +18,14 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'WeakMap class (php.net)',
+        'name' => 'WeakMap interface (php.net)',
         'url' => 'https://www.php.net/manual/class.weakmap.php',
       ),
     ),
   ),
-  'modifiers' => 32,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'ArrayAccess',
-    1 => 'Countable',
-    2 => 'IteratorAggregate',
-    3 => 'Traversable',
-  ),
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -182,15 +165,16 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
+  array (
+    0 => 'ArrayAccess',
+    1 => 'Countable',
+    2 => 'IteratorAggregate',
+    3 => 'Traversable',
+  ),
+  'properties' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => true,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'Core',
   'toString' => 'Class [ <internal:Core> <iterateable> final class WeakMap implements ArrayAccess, Countable, IteratorAggregate, Traversable ] {
 
@@ -256,4 +240,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

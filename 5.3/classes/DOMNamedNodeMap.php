@@ -18,28 +18,14 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'DOMNamedNodeMap class (php.net)',
+        'name' => 'DOMNamedNodeMap interface (php.net)',
         'url' => 'https://www.php.net/manual/class.domnamednodemap.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Traversable',
-  ),
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -233,13 +219,13 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => NULL,
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => NULL,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'interfaces' => 
+  array (
+    0 => 'Traversable',
+  ),
+  'properties' => 
+  array (
+  ),
   'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> <iterateable> class DOMNamedNodeMap implements Traversable ] {
 
@@ -309,4 +295,18 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => NULL,
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => NULL,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

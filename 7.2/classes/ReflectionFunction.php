@@ -18,25 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'ReflectionFunction class (php.net)',
+        'name' => 'ReflectionFunction interface (php.net)',
         'url' => 'https://www.php.net/manual/class.reflectionfunction.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'name' => '',
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Reflector',
-  ),
   'constants' => 
   array (
     'IS_DEPRECATED' => 
@@ -45,22 +33,6 @@ return array (
       'toString' => 'Constant [ public integer IS_DEPRECATED ] { 262144 }
 ',
       'visibility' => 256,
-    ),
-  ),
-  'properties' => 
-  array (
-    'name' => 
-    array (
-      'name' => 'name',
-      'class' => 'ReflectionFunction',
-      'type' => NULL,
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
     ),
   ),
   'methods' => 
@@ -578,15 +550,26 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
+    0 => 'Reflector',
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'name' => 
+    array (
+      'name' => 'name',
+      'class' => 'ReflectionFunction',
+      'type' => NULL,
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'Reflection',
   'toString' => 'Class [ <internal:Reflection> class ReflectionFunction extends ReflectionFunctionAbstract implements Reflector ] {
 
@@ -803,4 +786,21 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+    'name' => '',
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

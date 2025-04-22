@@ -18,42 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'SoapServer class (php.net)',
+        'name' => 'SoapServer interface (php.net)',
         'url' => 'https://www.php.net/manual/class.soapserver.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    '__soap_fault' => NULL,
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    '__soap_fault' => 
-    array (
-      'name' => '__soap_fault',
-      'class' => 'SoapServer',
-      'type' => '?SoapFault',
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => false,
-      'is_private' => true,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -324,15 +297,25 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    '__soap_fault' => 
+    array (
+      'name' => '__soap_fault',
+      'class' => 'SoapServer',
+      'type' => '?SoapFault',
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => false,
+      'is_private' => true,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'soap',
   'toString' => 'Class [ <internal:soap> class SoapServer ] {
 
@@ -428,4 +411,21 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+    '__soap_fault' => NULL,
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

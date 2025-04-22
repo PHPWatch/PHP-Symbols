@@ -18,30 +18,14 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'SplMaxHeap class (php.net)',
+        'name' => 'SplMaxHeap interface (php.net)',
         'url' => 'https://www.php.net/manual/class.splmaxheap.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Countable',
-    1 => 'Traversable',
-    2 => 'Iterator',
-  ),
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -245,13 +229,15 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => NULL,
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => NULL,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'interfaces' => 
+  array (
+    0 => 'Countable',
+    1 => 'Traversable',
+    2 => 'Iterator',
+  ),
+  'properties' => 
+  array (
+  ),
   'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class SplMaxHeap extends SplHeap implements Countable, Traversable, Iterator ] {
 
@@ -345,4 +331,18 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => NULL,
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => NULL,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

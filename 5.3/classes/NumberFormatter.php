@@ -18,23 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'NumberFormatter class (php.net)',
+        'name' => 'NumberFormatter interface (php.net)',
         'url' => 'https://www.php.net/manual/class.numberformatter.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
     'PATTERN_DECIMAL' => 
@@ -329,9 +319,6 @@ return array (
     array (
       'value' => 4,
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -844,13 +831,12 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => NULL,
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => NULL,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'interfaces' => 
+  array (
+  ),
+  'properties' => 
+  array (
+  ),
   'extension' => 'intl',
   'toString' => 'Class [ <internal:intl> class NumberFormatter ] {
 
@@ -1070,4 +1056,18 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => NULL,
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => NULL,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

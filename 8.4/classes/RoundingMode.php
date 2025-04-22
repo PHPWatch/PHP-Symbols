@@ -18,24 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'RoundingMode class (php.net)',
+        'name' => 'RoundingMode interface (php.net)',
         'url' => 'https://www.php.net/manual/class.roundingmode.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'UnitEnum',
-  ),
   'constants' => 
   array (
     'HalfAwayFromZero' => 
@@ -111,22 +100,6 @@ return array (
       'isEnumCase' => true,
     ),
   ),
-  'properties' => 
-  array (
-    'name' => 
-    array (
-      'name' => 'name',
-      'class' => 'RoundingMode',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-  ),
   'methods' => 
   array (
     'cases' => 
@@ -144,15 +117,26 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
+    0 => 'UnitEnum',
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => false,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'name' => 
+    array (
+      'name' => 'name',
+      'class' => 'RoundingMode',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'standard',
   'toString' => 'Class [ <internal:standard> class RoundingMode implements UnitEnum ] {
 
@@ -187,4 +171,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => false,
+  'is_read_only' => false,
 );

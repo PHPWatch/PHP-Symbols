@@ -23,14 +23,9 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
-  array (
-    0 => 'Stringable',
-  ),
+  'comment' => false,
+  'namespace' => '',
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -49,6 +44,13 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+  ),
+  'interfaces' => 
+  array (
+    0 => 'Stringable',
+  ),
+  'properties' => 
+  array (
   ),
   'extension' => 'Reflection',
   'toString' => 'Interface [ <internal:Reflection> interface Reflector extends Stringable ] {

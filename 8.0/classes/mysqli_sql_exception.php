@@ -18,100 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'mysqli_sql_exception class (php.net)',
+        'name' => 'mysqli_sql_exception interface (php.net)',
         'url' => 'https://www.php.net/manual/class.mysqli_sql_exception.php',
       ),
     ),
   ),
-  'modifiers' => 32,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'message' => '',
-    'file' => NULL,
-    'line' => NULL,
-    'code' => 0,
-    'sqlstate' => '00000',
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Stringable',
-    1 => 'Throwable',
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'message' => 
-    array (
-      'name' => 'message',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => '',
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'file' => 
-    array (
-      'name' => 'file',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'line' => 
-    array (
-      'name' => 'line',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'code' => 
-    array (
-      'name' => 'code',
-      'class' => 'mysqli_sql_exception',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => 0,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'sqlstate' => 
-    array (
-      'name' => 'sqlstate',
-      'class' => 'mysqli_sql_exception',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => '00000',
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -286,15 +201,79 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
+    0 => 'Stringable',
+    1 => 'Throwable',
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => true,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'message' => 
+    array (
+      'name' => 'message',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => '',
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'file' => 
+    array (
+      'name' => 'file',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'line' => 
+    array (
+      'name' => 'line',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'code' => 
+    array (
+      'name' => 'code',
+      'class' => 'mysqli_sql_exception',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => 0,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'sqlstate' => 
+    array (
+      'name' => 'sqlstate',
+      'class' => 'mysqli_sql_exception',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => '00000',
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'mysqli',
   'toString' => 'Class [ <internal:mysqli> final class mysqli_sql_exception extends RuntimeException implements Stringable, Throwable ] {
 
@@ -388,4 +367,25 @@ return array (
   }
 }
 ',
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+    'message' => '',
+    'file' => NULL,
+    'line' => NULL,
+    'code' => 0,
+    'sqlstate' => '00000',
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

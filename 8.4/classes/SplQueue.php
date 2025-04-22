@@ -18,28 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'SplQueue class (php.net)',
+        'name' => 'SplQueue interface (php.net)',
         'url' => 'https://www.php.net/manual/class.splqueue.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Serializable',
-    1 => 'ArrayAccess',
-    2 => 'Countable',
-    3 => 'Traversable',
-    4 => 'Iterator',
-  ),
   'constants' => 
   array (
     'IT_MODE_LIFO' => 
@@ -78,9 +63,6 @@ return array (
       'isFinal' => false,
       'type' => 'int',
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -607,15 +589,17 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
+  array (
+    0 => 'Serializable',
+    1 => 'ArrayAccess',
+    2 => 'Countable',
+    3 => 'Traversable',
+    4 => 'Iterator',
+  ),
+  'properties' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class SplQueue extends SplDoublyLinkedList implements Serializable, ArrayAccess, Countable, Traversable, Iterator ] {
 
@@ -847,4 +831,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

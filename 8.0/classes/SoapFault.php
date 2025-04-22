@@ -18,86 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'SoapFault class (php.net)',
+        'name' => 'SoapFault interface (php.net)',
         'url' => 'https://www.php.net/manual/class.soapfault.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'message' => '',
-    'code' => 0,
-    'file' => NULL,
-    'line' => NULL,
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Stringable',
-    1 => 'Throwable',
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'message' => 
-    array (
-      'name' => 'message',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => '',
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'code' => 
-    array (
-      'name' => 'code',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => 0,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'file' => 
-    array (
-      'name' => 'file',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'line' => 
-    array (
-      'name' => 'line',
-      'class' => 'Exception',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => true,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -302,15 +231,66 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
+    0 => 'Stringable',
+    1 => 'Throwable',
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'message' => 
+    array (
+      'name' => 'message',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => '',
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'code' => 
+    array (
+      'name' => 'code',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => 0,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'file' => 
+    array (
+      'name' => 'file',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'line' => 
+    array (
+      'name' => 'line',
+      'class' => 'Exception',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => true,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'soap',
   'toString' => 'Class [ <internal:soap> class SoapFault extends Exception implements Stringable, Throwable ] {
 
@@ -406,4 +386,24 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+    'message' => '',
+    'code' => 0,
+    'file' => NULL,
+    'line' => NULL,
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

@@ -18,24 +18,48 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'DOMNameSpaceNode class (php.net)',
+        'name' => 'DOMNameSpaceNode interface (php.net)',
         'url' => 'https://www.php.net/manual/class.domnamespacenode.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
+  'namespace' => '',
+  'constants' => 
   array (
   ),
-  'namespace' => '',
-  'staticProperties' => 
+  'methods' => 
   array (
+    '__sleep' => 
+    array (
+      'name' => '__sleep',
+      'class' => 'DOMNameSpaceNode',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'array',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    '__wakeup' => 
+    array (
+      'name' => '__wakeup',
+      'class' => 'DOMNameSpaceNode',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'interfaces' => 
-  array (
-  ),
-  'constants' => 
   array (
   ),
   'properties' => 
@@ -171,46 +195,6 @@ return array (
       'is_promoted' => false,
     ),
   ),
-  'methods' => 
-  array (
-    '__sleep' => 
-    array (
-      'name' => '__sleep',
-      'class' => 'DOMNameSpaceNode',
-      'parameters' => 
-      array (
-      ),
-      'return_type' => 'array',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-    '__wakeup' => 
-    array (
-      'name' => '__wakeup',
-      'class' => 'DOMNameSpaceNode',
-      'parameters' => 
-      array (
-      ),
-      'return_type' => 'void',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-  ),
-  'traits' => 
-  array (
-  ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> class DOMNameSpaceNode ] {
 
@@ -253,4 +237,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

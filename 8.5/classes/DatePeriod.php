@@ -18,25 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'DatePeriod class (php.net)',
+        'name' => 'DatePeriod interface (php.net)',
         'url' => 'https://www.php.net/manual/class.dateperiod.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'IteratorAggregate',
-    1 => 'Traversable',
-  ),
   'constants' => 
   array (
     'EXCLUDE_START_DATE' => 
@@ -56,100 +44,6 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
       'type' => 'int',
-    ),
-  ),
-  'properties' => 
-  array (
-    'start' => 
-    array (
-      'name' => 'start',
-      'class' => 'DatePeriod',
-      'type' => '?DateTimeInterface',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'current' => 
-    array (
-      'name' => 'current',
-      'class' => 'DatePeriod',
-      'type' => '?DateTimeInterface',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'end' => 
-    array (
-      'name' => 'end',
-      'class' => 'DatePeriod',
-      'type' => '?DateTimeInterface',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'interval' => 
-    array (
-      'name' => 'interval',
-      'class' => 'DatePeriod',
-      'type' => '?DateInterval',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'recurrences' => 
-    array (
-      'name' => 'recurrences',
-      'class' => 'DatePeriod',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'include_start_date' => 
-    array (
-      'name' => 'include_start_date',
-      'class' => 'DatePeriod',
-      'type' => 'bool',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'include_end_date' => 
-    array (
-      'name' => 'include_end_date',
-      'class' => 'DatePeriod',
-      'type' => 'bool',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
     ),
   ),
   'methods' => 
@@ -389,15 +283,105 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
+    0 => 'IteratorAggregate',
+    1 => 'Traversable',
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'start' => 
+    array (
+      'name' => 'start',
+      'class' => 'DatePeriod',
+      'type' => '?DateTimeInterface',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'current' => 
+    array (
+      'name' => 'current',
+      'class' => 'DatePeriod',
+      'type' => '?DateTimeInterface',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'end' => 
+    array (
+      'name' => 'end',
+      'class' => 'DatePeriod',
+      'type' => '?DateTimeInterface',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'interval' => 
+    array (
+      'name' => 'interval',
+      'class' => 'DatePeriod',
+      'type' => '?DateInterval',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'recurrences' => 
+    array (
+      'name' => 'recurrences',
+      'class' => 'DatePeriod',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'include_start_date' => 
+    array (
+      'name' => 'include_start_date',
+      'class' => 'DatePeriod',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'include_end_date' => 
+    array (
+      'name' => 'include_end_date',
+      'class' => 'DatePeriod',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'date',
   'toString' => 'Class [ <internal:date> <iterateable> class DatePeriod implements IteratorAggregate, Traversable ] {
 
@@ -508,4 +492,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

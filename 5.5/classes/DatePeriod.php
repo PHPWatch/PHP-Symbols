@@ -18,33 +18,19 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'DatePeriod class (php.net)',
+        'name' => 'DatePeriod interface (php.net)',
         'url' => 'https://www.php.net/manual/class.dateperiod.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Traversable',
-  ),
   'constants' => 
   array (
     'EXCLUDE_START_DATE' => 
     array (
       'value' => 1,
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -121,15 +107,13 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
+  array (
+    0 => 'Traversable',
+  ),
+  'properties' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'date',
   'toString' => 'Class [ <internal:date> <iterateable> class DatePeriod implements Traversable ] {
 
@@ -163,4 +147,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

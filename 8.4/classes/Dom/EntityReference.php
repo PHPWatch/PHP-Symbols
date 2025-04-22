@@ -18,23 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'Dom\\EntityReference class (php.net)',
+        'name' => 'Dom\\EntityReference interface (php.net)',
         'url' => 'https://www.php.net/manual/class.dom-entityreference.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => 'Dom',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
     'DOCUMENT_POSITION_DISCONNECTED' => 
@@ -90,191 +80,6 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
       'type' => 'int',
-    ),
-  ),
-  'properties' => 
-  array (
-    'nodeType' => 
-    array (
-      'name' => 'nodeType',
-      'class' => 'Dom\\Node',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'nodeName' => 
-    array (
-      'name' => 'nodeName',
-      'class' => 'Dom\\Node',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'baseURI' => 
-    array (
-      'name' => 'baseURI',
-      'class' => 'Dom\\Node',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'isConnected' => 
-    array (
-      'name' => 'isConnected',
-      'class' => 'Dom\\Node',
-      'type' => 'bool',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'ownerDocument' => 
-    array (
-      'name' => 'ownerDocument',
-      'class' => 'Dom\\Node',
-      'type' => '?Dom\\Document',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'parentNode' => 
-    array (
-      'name' => 'parentNode',
-      'class' => 'Dom\\Node',
-      'type' => '?Dom\\Node',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'parentElement' => 
-    array (
-      'name' => 'parentElement',
-      'class' => 'Dom\\Node',
-      'type' => '?Dom\\Element',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'childNodes' => 
-    array (
-      'name' => 'childNodes',
-      'class' => 'Dom\\Node',
-      'type' => 'Dom\\NodeList',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'firstChild' => 
-    array (
-      'name' => 'firstChild',
-      'class' => 'Dom\\Node',
-      'type' => '?Dom\\Node',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'lastChild' => 
-    array (
-      'name' => 'lastChild',
-      'class' => 'Dom\\Node',
-      'type' => '?Dom\\Node',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'previousSibling' => 
-    array (
-      'name' => 'previousSibling',
-      'class' => 'Dom\\Node',
-      'type' => '?Dom\\Node',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'nextSibling' => 
-    array (
-      'name' => 'nextSibling',
-      'class' => 'Dom\\Node',
-      'type' => '?Dom\\Node',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'nodeValue' => 
-    array (
-      'name' => 'nodeValue',
-      'class' => 'Dom\\Node',
-      'type' => '?string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'textContent' => 
-    array (
-      'name' => 'textContent',
-      'class' => 'Dom\\Node',
-      'type' => '?string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
     ),
   ),
   'methods' => 
@@ -814,15 +619,194 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => false,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'nodeType' => 
+    array (
+      'name' => 'nodeType',
+      'class' => 'Dom\\Node',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'nodeName' => 
+    array (
+      'name' => 'nodeName',
+      'class' => 'Dom\\Node',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'baseURI' => 
+    array (
+      'name' => 'baseURI',
+      'class' => 'Dom\\Node',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'isConnected' => 
+    array (
+      'name' => 'isConnected',
+      'class' => 'Dom\\Node',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'ownerDocument' => 
+    array (
+      'name' => 'ownerDocument',
+      'class' => 'Dom\\Node',
+      'type' => '?Dom\\Document',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'parentNode' => 
+    array (
+      'name' => 'parentNode',
+      'class' => 'Dom\\Node',
+      'type' => '?Dom\\Node',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'parentElement' => 
+    array (
+      'name' => 'parentElement',
+      'class' => 'Dom\\Node',
+      'type' => '?Dom\\Element',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'childNodes' => 
+    array (
+      'name' => 'childNodes',
+      'class' => 'Dom\\Node',
+      'type' => 'Dom\\NodeList',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'firstChild' => 
+    array (
+      'name' => 'firstChild',
+      'class' => 'Dom\\Node',
+      'type' => '?Dom\\Node',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'lastChild' => 
+    array (
+      'name' => 'lastChild',
+      'class' => 'Dom\\Node',
+      'type' => '?Dom\\Node',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'previousSibling' => 
+    array (
+      'name' => 'previousSibling',
+      'class' => 'Dom\\Node',
+      'type' => '?Dom\\Node',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'nextSibling' => 
+    array (
+      'name' => 'nextSibling',
+      'class' => 'Dom\\Node',
+      'type' => '?Dom\\Node',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'nodeValue' => 
+    array (
+      'name' => 'nodeValue',
+      'class' => 'Dom\\Node',
+      'type' => '?string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'textContent' => 
+    array (
+      'name' => 'textContent',
+      'class' => 'Dom\\Node',
+      'type' => '?string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> class Dom\\EntityReference extends Dom\\Node ] {
 
@@ -1032,4 +1016,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => false,
+  'is_read_only' => false,
 );

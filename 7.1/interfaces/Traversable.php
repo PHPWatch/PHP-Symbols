@@ -23,16 +23,18 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
-  array (
-  ),
+  'comment' => false,
+  'namespace' => '',
   'constants' => 
   array (
   ),
-  'properties' => 
+  'methods' => 
   array (
   ),
-  'methods' => 
+  'interfaces' => 
+  array (
+  ),
+  'properties' => 
   array (
   ),
   'extension' => 'Core',

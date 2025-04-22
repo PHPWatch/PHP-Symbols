@@ -18,39 +18,86 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'Attribute attribute (php.net)',
+        'name' => 'Attribute interface (php.net)',
         'url' => 'https://www.php.net/manual/class.attribute.php',
       ),
     ),
   ),
-  'interfaces' => 
-  array (
-  ),
+  'comment' => false,
+  'namespace' => '',
   'constants' => 
   array (
-    'TARGET_CLASS' => 1,
-    'TARGET_FUNCTION' => 2,
-    'TARGET_METHOD' => 4,
-    'TARGET_PROPERTY' => 8,
-    'TARGET_CLASS_CONSTANT' => 16,
-    'TARGET_PARAMETER' => 32,
-    'TARGET_ALL' => 63,
-    'IS_REPEATABLE' => 64,
-  ),
-  'properties' => 
-  array (
-    'flags' => 
+    'TARGET_CLASS' => 
     array (
-      'name' => 'flags',
-      'class' => 'Attribute',
+      'value' => 1,
+      'toString' => 'Constant [ public int TARGET_CLASS ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
       'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
+    ),
+    'TARGET_FUNCTION' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int TARGET_FUNCTION ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TARGET_METHOD' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int TARGET_METHOD ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TARGET_PROPERTY' => 
+    array (
+      'value' => 8,
+      'toString' => 'Constant [ public int TARGET_PROPERTY ] { 8 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TARGET_CLASS_CONSTANT' => 
+    array (
+      'value' => 16,
+      'toString' => 'Constant [ public int TARGET_CLASS_CONSTANT ] { 16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TARGET_PARAMETER' => 
+    array (
+      'value' => 32,
+      'toString' => 'Constant [ public int TARGET_PARAMETER ] { 32 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TARGET_ALL' => 
+    array (
+      'value' => 63,
+      'toString' => 'Constant [ public int TARGET_ALL ] { 63 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'IS_REPEATABLE' => 
+    array (
+      'value' => 64,
+      'toString' => 'Constant [ public int IS_REPEATABLE ] { 64 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
     ),
   ),
   'methods' => 
@@ -80,7 +127,77 @@ return array (
       'is_private' => false,
     ),
   ),
+  'interfaces' => 
+  array (
+  ),
+  'properties' => 
+  array (
+    'flags' => 
+    array (
+      'name' => 'flags',
+      'class' => 'Attribute',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
+  'extension' => 'Core',
+  'toString' => 'Class [ <internal:Core> final class Attribute ] {
+
+  - Constants [8] {
+    Constant [ public int TARGET_CLASS ] { 1 }
+    Constant [ public int TARGET_FUNCTION ] { 2 }
+    Constant [ public int TARGET_METHOD ] { 4 }
+    Constant [ public int TARGET_PROPERTY ] { 8 }
+    Constant [ public int TARGET_CLASS_CONSTANT ] { 16 }
+    Constant [ public int TARGET_PARAMETER ] { 32 }
+    Constant [ public int TARGET_ALL ] { 63 }
+    Constant [ public int IS_REPEATABLE ] { 64 }
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [1] {
+    Property [ public int $flags ]
+  }
+
+  - Methods [1] {
+    Method [ <internal:Core, ctor> public method __construct ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $flags = Attribute::TARGET_ALL ]
+      }
+    }
+  }
+}
+',
+  'attributes' => 
+  array (
+    0 => 'Attribute',
+  ),
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
   'traits' => 
   array (
   ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

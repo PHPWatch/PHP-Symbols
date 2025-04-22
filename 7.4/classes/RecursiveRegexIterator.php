@@ -18,28 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'RecursiveRegexIterator class (php.net)',
+        'name' => 'RecursiveRegexIterator interface (php.net)',
         'url' => 'https://www.php.net/manual/class.recursiveregexiterator.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'replacement' => NULL,
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'OuterIterator',
-    1 => 'Traversable',
-    2 => 'Iterator',
-    3 => 'RecursiveIterator',
-  ),
   'constants' => 
   array (
     'USE_KEY' => 
@@ -90,22 +75,6 @@ return array (
       'toString' => 'Constant [ public int REPLACE ] { 4 }
 ',
       'visibility' => 1,
-    ),
-  ),
-  'properties' => 
-  array (
-    'replacement' => 
-    array (
-      'name' => 'replacement',
-      'class' => 'RegexIterator',
-      'type' => NULL,
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
     ),
   ),
   'methods' => 
@@ -429,15 +398,29 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
+    0 => 'OuterIterator',
+    1 => 'Traversable',
+    2 => 'Iterator',
+    3 => 'RecursiveIterator',
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'replacement' => 
+    array (
+      'name' => 'replacement',
+      'class' => 'RegexIterator',
+      'type' => NULL,
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class RecursiveRegexIterator extends RegexIterator implements OuterIterator, Traversable, Iterator, RecursiveIterator ] {
 
@@ -574,4 +557,21 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+    'replacement' => NULL,
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

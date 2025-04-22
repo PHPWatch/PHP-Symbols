@@ -18,82 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'XSLTProcessor class (php.net)',
+        'name' => 'XSLTProcessor interface (php.net)',
         'url' => 'https://www.php.net/manual/class.xsltprocessor.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'doXInclude' => false,
-    'cloneDocument' => false,
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'doXInclude' => 
-    array (
-      'name' => 'doXInclude',
-      'class' => 'XSLTProcessor',
-      'type' => 'bool',
-      'has_default_value' => true,
-      'default_value' => false,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'cloneDocument' => 
-    array (
-      'name' => 'cloneDocument',
-      'class' => 'XSLTProcessor',
-      'type' => 'bool',
-      'has_default_value' => true,
-      'default_value' => false,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'maxTemplateDepth' => 
-    array (
-      'name' => 'maxTemplateDepth',
-      'class' => 'XSLTProcessor',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'maxTemplateVars' => 
-    array (
-      'name' => 'maxTemplateVars',
-      'class' => 'XSLTProcessor',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -470,15 +403,64 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'doXInclude' => 
+    array (
+      'name' => 'doXInclude',
+      'class' => 'XSLTProcessor',
+      'type' => 'bool',
+      'has_default_value' => true,
+      'default_value' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'cloneDocument' => 
+    array (
+      'name' => 'cloneDocument',
+      'class' => 'XSLTProcessor',
+      'type' => 'bool',
+      'has_default_value' => true,
+      'default_value' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'maxTemplateDepth' => 
+    array (
+      'name' => 'maxTemplateDepth',
+      'class' => 'XSLTProcessor',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'maxTemplateVars' => 
+    array (
+      'name' => 'maxTemplateVars',
+      'class' => 'XSLTProcessor',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'xsl',
   'toString' => 'Class [ <internal:xsl> class XSLTProcessor ] {
 
@@ -611,4 +593,22 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+    'doXInclude' => false,
+    'cloneDocument' => false,
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

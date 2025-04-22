@@ -23,15 +23,9 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
-  array (
-    0 => 'Iterator',
-    1 => 'Traversable',
-  ),
+  'comment' => false,
+  'namespace' => '',
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -120,6 +114,14 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+  ),
+  'interfaces' => 
+  array (
+    0 => 'Iterator',
+    1 => 'Traversable',
+  ),
+  'properties' => 
+  array (
   ),
   'extension' => 'SPL',
   'toString' => 'Interface [ <internal:SPL> interface OuterIterator extends Iterator, Traversable ] {

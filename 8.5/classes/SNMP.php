@@ -18,23 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'SNMP class (php.net)',
+        'name' => 'SNMP interface (php.net)',
         'url' => 'https://www.php.net/manual/class.snmp.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
     'VERSION_1' => 
@@ -144,113 +134,6 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
       'type' => 'int',
-    ),
-  ),
-  'properties' => 
-  array (
-    'info' => 
-    array (
-      'name' => 'info',
-      'class' => 'SNMP',
-      'type' => 'array',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'max_oids' => 
-    array (
-      'name' => 'max_oids',
-      'class' => 'SNMP',
-      'type' => '?int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'valueretrieval' => 
-    array (
-      'name' => 'valueretrieval',
-      'class' => 'SNMP',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'quick_print' => 
-    array (
-      'name' => 'quick_print',
-      'class' => 'SNMP',
-      'type' => 'bool',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'enum_print' => 
-    array (
-      'name' => 'enum_print',
-      'class' => 'SNMP',
-      'type' => 'bool',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'oid_output_format' => 
-    array (
-      'name' => 'oid_output_format',
-      'class' => 'SNMP',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'oid_increasing_check' => 
-    array (
-      'name' => 'oid_increasing_check',
-      'class' => 'SNMP',
-      'type' => 'bool',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'exceptions_enabled' => 
-    array (
-      'name' => 'exceptions_enabled',
-      'class' => 'SNMP',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
     ),
   ),
   'methods' => 
@@ -602,15 +485,116 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'info' => 
+    array (
+      'name' => 'info',
+      'class' => 'SNMP',
+      'type' => 'array',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'max_oids' => 
+    array (
+      'name' => 'max_oids',
+      'class' => 'SNMP',
+      'type' => '?int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'valueretrieval' => 
+    array (
+      'name' => 'valueretrieval',
+      'class' => 'SNMP',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'quick_print' => 
+    array (
+      'name' => 'quick_print',
+      'class' => 'SNMP',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'enum_print' => 
+    array (
+      'name' => 'enum_print',
+      'class' => 'SNMP',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'oid_output_format' => 
+    array (
+      'name' => 'oid_output_format',
+      'class' => 'SNMP',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'oid_increasing_check' => 
+    array (
+      'name' => 'oid_increasing_check',
+      'class' => 'SNMP',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'exceptions_enabled' => 
+    array (
+      'name' => 'exceptions_enabled',
+      'class' => 'SNMP',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'snmp',
   'toString' => 'Class [ <internal:snmp> class SNMP ] {
 
@@ -733,4 +717,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

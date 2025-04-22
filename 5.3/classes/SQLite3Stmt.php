@@ -18,27 +18,14 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'SQLite3Stmt class (php.net)',
+        'name' => 'SQLite3Stmt interface (php.net)',
         'url' => 'https://www.php.net/manual/class.sqlite3stmt.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -240,13 +227,12 @@ return array (
       'is_private' => true,
     ),
   ),
-  'traits' => NULL,
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => NULL,
-  'is_final' => false,
-  'is_instantiable' => false,
-  'is_read_only' => false,
+  'interfaces' => 
+  array (
+  ),
+  'properties' => 
+  array (
+  ),
   'extension' => 'sqlite3',
   'toString' => 'Class [ <internal:sqlite3> class SQLite3Stmt ] {
 
@@ -326,4 +312,18 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => NULL,
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => NULL,
+  'is_final' => false,
+  'is_instantiable' => false,
+  'is_read_only' => false,
 );

@@ -18,25 +18,20 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'StreamBucket class (php.net)',
+        'name' => 'StreamBucket interface (php.net)',
         'url' => 'https://www.php.net/manual/class.streambucket.php',
       ),
     ),
   ),
-  'modifiers' => 32,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'bucket' => NULL,
-  ),
   'namespace' => '',
-  'staticProperties' => 
+  'constants' => 
+  array (
+  ),
+  'methods' => 
   array (
   ),
   'interfaces' => 
-  array (
-  ),
-  'constants' => 
   array (
   ),
   'properties' => 
@@ -94,18 +89,6 @@ return array (
       'is_promoted' => false,
     ),
   ),
-  'methods' => 
-  array (
-  ),
-  'traits' => 
-  array (
-  ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => true,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'standard',
   'toString' => 'Class [ <internal:standard> final class StreamBucket ] {
 
@@ -129,4 +112,21 @@ return array (
   }
 }
 ',
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+    'bucket' => NULL,
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

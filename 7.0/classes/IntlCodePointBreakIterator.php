@@ -18,24 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'IntlCodePointBreakIterator class (php.net)',
+        'name' => 'IntlCodePointBreakIterator interface (php.net)',
         'url' => 'https://www.php.net/manual/class.intlcodepointbreakiterator.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Traversable',
-  ),
   'constants' => 
   array (
     'DONE' => 
@@ -114,9 +103,6 @@ return array (
     array (
       'value' => 200,
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -549,15 +535,13 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
+  array (
+    0 => 'Traversable',
+  ),
+  'properties' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => false,
-  'is_read_only' => false,
   'extension' => 'intl',
   'toString' => 'Class [ <internal:intl> <iterateable> class IntlCodePointBreakIterator extends IntlBreakIterator implements Traversable ] {
 
@@ -732,4 +716,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => false,
+  'is_read_only' => false,
 );

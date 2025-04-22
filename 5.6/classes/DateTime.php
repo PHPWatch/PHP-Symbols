@@ -18,24 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'DateTime class (php.net)',
+        'name' => 'DateTime interface (php.net)',
         'url' => 'https://www.php.net/manual/class.datetime.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'DateTimeInterface',
-  ),
   'constants' => 
   array (
     'ATOM' => 
@@ -82,9 +71,6 @@ return array (
     array (
       'value' => 'Y-m-d\\TH:i:sP',
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -561,15 +547,13 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
+  array (
+    0 => 'DateTimeInterface',
+  ),
+  'properties' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'date',
   'toString' => 'Class [ <internal:date> class DateTime implements DateTimeInterface ] {
 
@@ -722,4 +706,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

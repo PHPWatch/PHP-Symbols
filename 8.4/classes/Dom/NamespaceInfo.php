@@ -18,24 +18,34 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'Dom\\NamespaceInfo class (php.net)',
+        'name' => 'Dom\\NamespaceInfo interface (php.net)',
         'url' => 'https://www.php.net/manual/class.dom-namespaceinfo.php',
       ),
     ),
   ),
-  'modifiers' => 65568,
   'comment' => false,
-  'defaultProperties' => 
+  'namespace' => 'Dom',
+  'constants' => 
   array (
   ),
-  'namespace' => 'Dom',
-  'staticProperties' => 
+  'methods' => 
   array (
+    '__construct' => 
+    array (
+      'name' => '__construct',
+      'class' => 'Dom\\NamespaceInfo',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => false,
+      'is_private' => true,
+    ),
   ),
   'interfaces' => 
-  array (
-  ),
-  'constants' => 
   array (
   ),
   'properties' => 
@@ -80,32 +90,6 @@ return array (
       'is_promoted' => false,
     ),
   ),
-  'methods' => 
-  array (
-    '__construct' => 
-    array (
-      'name' => '__construct',
-      'class' => 'Dom\\NamespaceInfo',
-      'parameters' => 
-      array (
-      ),
-      'return_type' => NULL,
-      'has_return_type' => false,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => false,
-      'is_private' => true,
-    ),
-  ),
-  'traits' => 
-  array (
-  ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => true,
-  'is_instantiable' => false,
-  'is_read_only' => true,
   'extension' => 'dom',
   'toString' => 'Class [ <internal:dom> final readonly class Dom\\NamespaceInfo ] {
 
@@ -133,4 +117,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 65568,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => true,
+  'is_instantiable' => false,
+  'is_read_only' => true,
 );

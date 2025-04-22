@@ -18,27 +18,48 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'mysqli_warning class (php.net)',
+        'name' => 'mysqli_warning interface (php.net)',
         'url' => 'https://www.php.net/manual/class.mysqli_warning.php',
       ),
     ),
   ),
-  'modifiers' => 32,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'message' => NULL,
-    'sqlstate' => NULL,
-    'errno' => NULL,
-  ),
   'namespace' => '',
-  'staticProperties' => 
+  'constants' => 
   array (
+  ),
+  'methods' => 
+  array (
+    '__construct' => 
+    array (
+      'name' => '__construct',
+      'class' => 'mysqli_warning',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => false,
+      'is_private' => true,
+    ),
+    'next' => 
+    array (
+      'name' => 'next',
+      'class' => 'mysqli_warning',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'interfaces' => 
-  array (
-  ),
-  'constants' => 
   array (
   ),
   'properties' => 
@@ -83,46 +104,6 @@ return array (
       'is_promoted' => false,
     ),
   ),
-  'methods' => 
-  array (
-    '__construct' => 
-    array (
-      'name' => '__construct',
-      'class' => 'mysqli_warning',
-      'parameters' => 
-      array (
-      ),
-      'return_type' => NULL,
-      'has_return_type' => false,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => false,
-      'is_private' => true,
-    ),
-    'next' => 
-    array (
-      'name' => 'next',
-      'class' => 'mysqli_warning',
-      'parameters' => 
-      array (
-      ),
-      'return_type' => 'bool',
-      'has_return_type' => true,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-    ),
-  ),
-  'traits' => 
-  array (
-  ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => true,
-  'is_instantiable' => false,
-  'is_read_only' => false,
   'extension' => 'mysqli',
   'toString' => 'Class [ <internal:mysqli> final class mysqli_warning ] {
 
@@ -157,4 +138,23 @@ return array (
   }
 }
 ',
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+    'message' => NULL,
+    'sqlstate' => NULL,
+    'errno' => NULL,
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => true,
+  'is_instantiable' => false,
+  'is_read_only' => false,
 );

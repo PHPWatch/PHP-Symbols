@@ -18,30 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'RecursiveArrayIterator class (php.net)',
+        'name' => 'RecursiveArrayIterator interface (php.net)',
         'url' => 'https://www.php.net/manual/class.recursivearrayiterator.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Countable',
-    1 => 'Serializable',
-    2 => 'ArrayAccess',
-    3 => 'Iterator',
-    4 => 'Traversable',
-    5 => 'SeekableIterator',
-    6 => 'RecursiveIterator',
-  ),
   'constants' => 
   array (
     'STD_PROP_LIST' => 
@@ -68,9 +51,6 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -641,15 +621,19 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
+  array (
+    0 => 'Countable',
+    1 => 'Serializable',
+    2 => 'ArrayAccess',
+    3 => 'Iterator',
+    4 => 'Traversable',
+    5 => 'SeekableIterator',
+    6 => 'RecursiveIterator',
+  ),
+  'properties' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class RecursiveArrayIterator extends ArrayIterator implements Countable, Serializable, ArrayAccess, Iterator, Traversable, SeekableIterator, RecursiveIterator ] {
 
@@ -889,4 +873,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

@@ -18,29 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'ArrayIterator class (php.net)',
+        'name' => 'ArrayIterator interface (php.net)',
         'url' => 'https://www.php.net/manual/class.arrayiterator.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Iterator',
-    1 => 'Traversable',
-    2 => 'ArrayAccess',
-    3 => 'SeekableIterator',
-    4 => 'Serializable',
-    5 => 'Countable',
-  ),
   'constants' => 
   array (
     'STD_PROP_LIST' => 
@@ -51,9 +35,6 @@ return array (
     array (
       'value' => 2,
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -514,13 +495,18 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => NULL,
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => NULL,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'interfaces' => 
+  array (
+    0 => 'Iterator',
+    1 => 'Traversable',
+    2 => 'ArrayAccess',
+    3 => 'SeekableIterator',
+    4 => 'Serializable',
+    5 => 'Countable',
+  ),
+  'properties' => 
+  array (
+  ),
   'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class ArrayIterator implements Iterator, Traversable, ArrayAccess, SeekableIterator, Serializable, Countable ] {
 
@@ -697,4 +683,18 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => NULL,
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => NULL,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

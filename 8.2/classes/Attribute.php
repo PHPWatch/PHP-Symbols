@@ -18,23 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'Attribute class (php.net)',
+        'name' => 'Attribute interface (php.net)',
         'url' => 'https://www.php.net/manual/class.attribute.php',
       ),
     ),
   ),
-  'modifiers' => 32,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
     'TARGET_CLASS' => 
@@ -102,22 +92,6 @@ return array (
       'isFinal' => false,
     ),
   ),
-  'properties' => 
-  array (
-    'flags' => 
-    array (
-      'name' => 'flags',
-      'class' => 'Attribute',
-      'type' => 'int',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-  ),
   'methods' => 
   array (
     '__construct' => 
@@ -145,15 +119,25 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => true,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'flags' => 
+    array (
+      'name' => 'flags',
+      'class' => 'Attribute',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'Core',
   'toString' => 'Class [ <internal:Core> final class Attribute ] {
 
@@ -192,4 +176,20 @@ return array (
   array (
     0 => 'Attribute',
   ),
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

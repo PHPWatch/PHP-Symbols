@@ -18,24 +18,20 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'CurlSharePersistentHandle class (php.net)',
+        'name' => 'CurlSharePersistentHandle interface (php.net)',
         'url' => 'https://www.php.net/manual/class.curlsharepersistenthandle.php',
       ),
     ),
   ),
-  'modifiers' => 32,
   'comment' => false,
-  'defaultProperties' => 
+  'namespace' => '',
+  'constants' => 
   array (
   ),
-  'namespace' => '',
-  'staticProperties' => 
+  'methods' => 
   array (
   ),
   'interfaces' => 
-  array (
-  ),
-  'constants' => 
   array (
   ),
   'properties' => 
@@ -54,18 +50,6 @@ return array (
       'is_promoted' => false,
     ),
   ),
-  'methods' => 
-  array (
-  ),
-  'traits' => 
-  array (
-  ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => true,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'curl',
   'toString' => 'Class [ <internal:curl> final class CurlSharePersistentHandle ] {
 
@@ -86,4 +70,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 32,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => true,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

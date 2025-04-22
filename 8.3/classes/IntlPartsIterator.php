@@ -18,25 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'IntlPartsIterator class (php.net)',
+        'name' => 'IntlPartsIterator interface (php.net)',
         'url' => 'https://www.php.net/manual/class.intlpartsiterator.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Traversable',
-    1 => 'Iterator',
-  ),
   'constants' => 
   array (
     'KEY_SEQUENTIAL' => 
@@ -63,9 +51,6 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -168,15 +153,14 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
+  array (
+    0 => 'Traversable',
+    1 => 'Iterator',
+  ),
+  'properties' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'intl',
   'toString' => 'Class [ <internal:intl> <iterateable> class IntlPartsIterator extends IntlIterator implements Traversable, Iterator ] {
 
@@ -247,4 +231,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

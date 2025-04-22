@@ -18,28 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'GlobIterator class (php.net)',
+        'name' => 'GlobIterator interface (php.net)',
         'url' => 'https://www.php.net/manual/class.globiterator.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Stringable',
-    1 => 'Iterator',
-    2 => 'Traversable',
-    3 => 'SeekableIterator',
-    4 => 'Countable',
-  ),
   'constants' => 
   array (
     'CURRENT_MODE_MASK' => 
@@ -126,9 +111,6 @@ return array (
 ',
       'visibility' => 1,
     ),
-  ),
-  'properties' => 
-  array (
   ),
   'methods' => 
   array (
@@ -827,15 +809,17 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
+  array (
+    0 => 'Stringable',
+    1 => 'Iterator',
+    2 => 'Traversable',
+    3 => 'SeekableIterator',
+    4 => 'Countable',
+  ),
+  'properties' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class GlobIterator extends FilesystemIterator implements Stringable, Iterator, Traversable, SeekableIterator, Countable ] {
 
@@ -1125,4 +1109,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

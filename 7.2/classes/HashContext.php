@@ -18,27 +18,14 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'HashContext class (php.net)',
+        'name' => 'HashContext interface (php.net)',
         'url' => 'https://www.php.net/manual/class.hashcontext.php',
       ),
     ),
   ),
-  'modifiers' => 4,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -58,15 +45,12 @@ return array (
       'is_private' => true,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => true,
-  'is_instantiable' => false,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+  ),
   'extension' => 'hash',
   'toString' => 'Class [ <internal:hash> final class HashContext ] {
 
@@ -88,4 +72,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 4,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => true,
+  'is_instantiable' => false,
+  'is_read_only' => false,
 );

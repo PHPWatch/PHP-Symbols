@@ -18,31 +18,14 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'SimpleXMLIterator class (php.net)',
+        'name' => 'SimpleXMLIterator interface (php.net)',
         'url' => 'https://www.php.net/manual/class.simplexmliterator.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Traversable',
-    1 => 'RecursiveIterator',
-    2 => 'Iterator',
-    3 => 'Countable',
-  ),
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -562,13 +545,16 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => NULL,
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => NULL,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'interfaces' => 
+  array (
+    0 => 'Traversable',
+    1 => 'RecursiveIterator',
+    2 => 'Iterator',
+    3 => 'Countable',
+  ),
+  'properties' => 
+  array (
+  ),
   'extension' => 'SimpleXML',
   'toString' => 'Class [ <internal:SimpleXML> <iterateable> class SimpleXMLIterator extends SimpleXMLElement implements Traversable, RecursiveIterator, Iterator, Countable ] {
 
@@ -735,4 +721,18 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => NULL,
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => NULL,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

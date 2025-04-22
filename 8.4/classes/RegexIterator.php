@@ -18,27 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'RegexIterator class (php.net)',
+        'name' => 'RegexIterator interface (php.net)',
         'url' => 'https://www.php.net/manual/class.regexiterator.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'replacement' => NULL,
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'OuterIterator',
-    1 => 'Traversable',
-    2 => 'Iterator',
-  ),
   'constants' => 
   array (
     'USE_KEY' => 
@@ -103,22 +89,6 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
       'type' => 'int',
-    ),
-  ),
-  'properties' => 
-  array (
-    'replacement' => 
-    array (
-      'name' => 'replacement',
-      'class' => 'RegexIterator',
-      'type' => '?string',
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
     ),
   ),
   'methods' => 
@@ -414,15 +384,28 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
+    0 => 'OuterIterator',
+    1 => 'Traversable',
+    2 => 'Iterator',
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'replacement' => 
+    array (
+      'name' => 'replacement',
+      'class' => 'RegexIterator',
+      'type' => '?string',
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'SPL',
   'toString' => 'Class [ <internal:SPL> <iterateable> class RegexIterator extends FilterIterator implements OuterIterator, Traversable, Iterator ] {
 
@@ -561,4 +544,21 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+    'replacement' => NULL,
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

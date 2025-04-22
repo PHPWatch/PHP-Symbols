@@ -23,13 +23,9 @@ return array (
       ),
     ),
   ),
-  'interfaces' => 
-  array (
-  ),
+  'comment' => false,
+  'namespace' => 'Random',
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -48,6 +44,12 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+  ),
+  'interfaces' => 
+  array (
+  ),
+  'properties' => 
+  array (
   ),
   'extension' => 'random',
   'toString' => 'Interface [ <internal:random> interface Random\\Engine ] {

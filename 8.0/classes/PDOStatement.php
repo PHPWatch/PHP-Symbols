@@ -18,44 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'PDOStatement class (php.net)',
+        'name' => 'PDOStatement interface (php.net)',
         'url' => 'https://www.php.net/manual/class.pdostatement.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'queryString' => NULL,
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'IteratorAggregate',
-    1 => 'Traversable',
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'queryString' => 
-    array (
-      'name' => 'queryString',
-      'class' => 'PDOStatement',
-      'type' => NULL,
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -620,15 +591,27 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
+    0 => 'IteratorAggregate',
+    1 => 'Traversable',
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+    'queryString' => 
+    array (
+      'name' => 'queryString',
+      'class' => 'PDOStatement',
+      'type' => NULL,
+      'has_default_value' => true,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'PDO',
   'toString' => 'Class [ <internal:PDO> <iterateable> class PDOStatement implements IteratorAggregate, Traversable ] {
 
@@ -797,4 +780,21 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+    'queryString' => NULL,
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

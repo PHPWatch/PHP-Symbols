@@ -18,27 +18,14 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'tidyNode class (php.net)',
+        'name' => 'tidyNode interface (php.net)',
         'url' => 'https://www.php.net/manual/class.tidynode.php',
       ),
     ),
   ),
-  'modifiers' => 64,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
-  array (
-  ),
-  'properties' => 
   array (
   ),
   'methods' => 
@@ -184,13 +171,12 @@ return array (
       'is_private' => true,
     ),
   ),
-  'traits' => NULL,
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => NULL,
-  'is_final' => true,
-  'is_instantiable' => false,
-  'is_read_only' => false,
+  'interfaces' => 
+  array (
+  ),
+  'properties' => 
+  array (
+  ),
   'extension' => 'tidy',
   'toString' => 'Class [ <internal:tidy> final class tidyNode ] {
 
@@ -239,4 +225,18 @@ return array (
   }
 }
 ',
+  'modifiers' => 64,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => NULL,
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => NULL,
+  'is_final' => true,
+  'is_instantiable' => false,
+  'is_read_only' => false,
 );

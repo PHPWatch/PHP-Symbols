@@ -18,23 +18,13 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'Pdo\\Mysql class (php.net)',
+        'name' => 'Pdo\\Mysql interface (php.net)',
         'url' => 'https://www.php.net/manual/class.pdo-mysql.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-  ),
   'namespace' => 'Pdo',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-  ),
   'constants' => 
   array (
     'PARAM_NULL' => 
@@ -1032,9 +1022,6 @@ return array (
       'type' => 'int',
     ),
   ),
-  'properties' => 
-  array (
-  ),
   'methods' => 
   array (
     'getWarningCount' => 
@@ -1476,15 +1463,12 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => 
+  'interfaces' => 
   array (
   ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => false,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'properties' => 
+  array (
+  ),
   'extension' => 'pdo_mysql',
   'toString' => 'Class [ <internal:pdo_mysql> class Pdo\\Mysql extends PDO ] {
 
@@ -1753,4 +1737,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => false,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

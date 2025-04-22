@@ -18,24 +18,20 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'LibXMLError class (php.net)',
+        'name' => 'LibXMLError interface (php.net)',
         'url' => 'https://www.php.net/manual/class.libxmlerror.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
+  'namespace' => '',
+  'constants' => 
   array (
   ),
-  'namespace' => '',
-  'staticProperties' => 
+  'methods' => 
   array (
   ),
   'interfaces' => 
-  array (
-  ),
-  'constants' => 
   array (
   ),
   'properties' => 
@@ -119,18 +115,6 @@ return array (
       'is_promoted' => false,
     ),
   ),
-  'methods' => 
-  array (
-  ),
-  'traits' => 
-  array (
-  ),
-  'is_abstract' => false,
-  'is_anonymous' => false,
-  'is_cloneable' => true,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
   'extension' => 'libxml',
   'toString' => 'Class [ <internal:libxml> class LibXMLError ] {
 
@@ -156,4 +140,20 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => 
+  array (
+  ),
+  'is_abstract' => false,
+  'is_anonymous' => false,
+  'is_cloneable' => true,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );

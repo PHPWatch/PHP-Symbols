@@ -18,43 +18,15 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'PDOStatement class (php.net)',
+        'name' => 'PDOStatement interface (php.net)',
         'url' => 'https://www.php.net/manual/class.pdostatement.php',
       ),
     ),
   ),
-  'modifiers' => 0,
   'comment' => false,
-  'defaultProperties' => 
-  array (
-    'queryString' => NULL,
-  ),
   'namespace' => '',
-  'staticProperties' => 
-  array (
-  ),
-  'interfaces' => 
-  array (
-    0 => 'Traversable',
-  ),
   'constants' => 
   array (
-  ),
-  'properties' => 
-  array (
-    'queryString' => 
-    array (
-      'name' => 'queryString',
-      'class' => 'PDOStatement',
-      'type' => NULL,
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'methods' => 
   array (
@@ -643,13 +615,26 @@ return array (
       'is_private' => false,
     ),
   ),
-  'traits' => NULL,
-  'is_abstract' => false,
-  'is_anonymous' => NULL,
-  'is_cloneable' => NULL,
-  'is_final' => false,
-  'is_instantiable' => true,
-  'is_read_only' => false,
+  'interfaces' => 
+  array (
+    0 => 'Traversable',
+  ),
+  'properties' => 
+  array (
+    'queryString' => 
+    array (
+      'name' => 'queryString',
+      'class' => 'PDOStatement',
+      'type' => NULL,
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+  ),
   'extension' => 'PDO',
   'toString' => 'Class [ <internal:PDO> <iterateable> class PDOStatement implements Traversable ] {
 
@@ -824,4 +809,19 @@ return array (
   }
 }
 ',
+  'modifiers' => 0,
+  'defaultProperties' => 
+  array (
+    'queryString' => NULL,
+  ),
+  'staticProperties' => 
+  array (
+  ),
+  'traits' => NULL,
+  'is_abstract' => false,
+  'is_anonymous' => NULL,
+  'is_cloneable' => NULL,
+  'is_final' => false,
+  'is_instantiable' => true,
+  'is_read_only' => false,
 );
