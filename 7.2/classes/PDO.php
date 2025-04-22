@@ -702,34 +702,6 @@ return array (
 ',
       'visibility' => 256,
     ),
-    'OCI_ATTR_ACTION' => 
-    array (
-      'value' => 1000,
-      'toString' => 'Constant [ public integer OCI_ATTR_ACTION ] { 1000 }
-',
-      'visibility' => 256,
-    ),
-    'OCI_ATTR_CLIENT_INFO' => 
-    array (
-      'value' => 1001,
-      'toString' => 'Constant [ public integer OCI_ATTR_CLIENT_INFO ] { 1001 }
-',
-      'visibility' => 256,
-    ),
-    'OCI_ATTR_CLIENT_IDENTIFIER' => 
-    array (
-      'value' => 1002,
-      'toString' => 'Constant [ public integer OCI_ATTR_CLIENT_IDENTIFIER ] { 1002 }
-',
-      'visibility' => 256,
-    ),
-    'OCI_ATTR_MODULE' => 
-    array (
-      'value' => 1003,
-      'toString' => 'Constant [ public integer OCI_ATTR_MODULE ] { 1003 }
-',
-      'visibility' => 256,
-    ),
     'ODBC_ATTR_USE_CURSOR_LIBRARY' => 
     array (
       'value' => 1000,
@@ -1201,7 +1173,7 @@ return array (
   'extension' => 'PDO',
   'toString' => 'Class [ <internal:PDO> class PDO ] {
 
-  - Constants [111] {
+  - Constants [107] {
     Constant [ public integer PARAM_BOOL ] { 5 }
     Constant [ public integer PARAM_NULL ] { 0 }
     Constant [ public integer PARAM_INT ] { 1 }
@@ -1297,10 +1269,6 @@ return array (
     Constant [ public integer MYSQL_ATTR_SERVER_PUBLIC_KEY ] { 1012 }
     Constant [ public integer MYSQL_ATTR_MULTI_STATEMENTS ] { 1013 }
     Constant [ public integer MYSQL_ATTR_SSL_VERIFY_SERVER_CERT ] { 1014 }
-    Constant [ public integer OCI_ATTR_ACTION ] { 1000 }
-    Constant [ public integer OCI_ATTR_CLIENT_INFO ] { 1001 }
-    Constant [ public integer OCI_ATTR_CLIENT_IDENTIFIER ] { 1002 }
-    Constant [ public integer OCI_ATTR_MODULE ] { 1003 }
     Constant [ public integer ODBC_ATTR_USE_CURSOR_LIBRARY ] { 1000 }
     Constant [ public integer ODBC_ATTR_ASSUME_UTF8 ] { 1001 }
     Constant [ public integer ODBC_SQL_USE_IF_NEEDED ] { 0 }
