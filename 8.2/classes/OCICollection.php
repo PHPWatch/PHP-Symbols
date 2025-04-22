@@ -305,5 +305,8 @@ return array (
   }
 }
 ',
-  'attributes' => 'AllowDynamicProperties',
+  'attributes' => 
+  array (
+    0 => 'AllowDynamicProperties',
+  ),
 );
