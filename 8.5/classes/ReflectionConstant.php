@@ -180,6 +180,40 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getAttributes' => 
+    array (
+      'name' => 'getAttributes',
+      'class' => 'ReflectionConstant',
+      'parameters' => 
+      array (
+        'name' => 
+        array (
+          'position' => 0,
+          'name' => 'name',
+          'type' => '?string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'flags' => 
+        array (
+          'position' => 1,
+          'name' => 'flags',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'array',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'interfaces' => 
   array (
@@ -218,7 +252,7 @@ return array (
     Property [ public string $name ]
   }
 
-  - Methods [10] {
+  - Methods [11] {
     Method [ <internal:Reflection, ctor> public method __construct ] {
 
       - Parameters [1] {
@@ -287,6 +321,15 @@ return array (
       - Parameters [0] {
       }
       - Return [ string ]
+    }
+
+    Method [ <internal:Reflection> public method getAttributes ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> ?string $name = null ]
+        Parameter #1 [ <optional> int $flags = 0 ]
+      }
+      - Return [ array ]
     }
   }
 }

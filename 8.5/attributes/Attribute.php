@@ -81,10 +81,19 @@ return array (
       'isFinal' => false,
       'type' => 'int',
     ),
+    'TARGET_CONSTANT' => 
+    array (
+      'value' => 64,
+      'toString' => 'Constant [ public int TARGET_CONSTANT ] { 64 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
     'TARGET_ALL' => 
     array (
-      'value' => 63,
-      'toString' => 'Constant [ public int TARGET_ALL ] { 63 }
+      'value' => 127,
+      'toString' => 'Constant [ public int TARGET_ALL ] { 127 }
 ',
       'visibility' => 1,
       'isFinal' => false,
@@ -92,8 +101,8 @@ return array (
     ),
     'IS_REPEATABLE' => 
     array (
-      'value' => 64,
-      'toString' => 'Constant [ public int IS_REPEATABLE ] { 64 }
+      'value' => 128,
+      'toString' => 'Constant [ public int IS_REPEATABLE ] { 128 }
 ',
       'visibility' => 1,
       'isFinal' => false,
@@ -149,15 +158,16 @@ return array (
   'extension' => 'Core',
   'toString' => 'Class [ <internal:Core> final class Attribute ] {
 
-  - Constants [8] {
+  - Constants [9] {
     Constant [ public int TARGET_CLASS ] { 1 }
     Constant [ public int TARGET_FUNCTION ] { 2 }
     Constant [ public int TARGET_METHOD ] { 4 }
     Constant [ public int TARGET_PROPERTY ] { 8 }
     Constant [ public int TARGET_CLASS_CONSTANT ] { 16 }
     Constant [ public int TARGET_PARAMETER ] { 32 }
-    Constant [ public int TARGET_ALL ] { 63 }
-    Constant [ public int IS_REPEATABLE ] { 64 }
+    Constant [ public int TARGET_CONSTANT ] { 64 }
+    Constant [ public int TARGET_ALL ] { 127 }
+    Constant [ public int IS_REPEATABLE ] { 128 }
   }
 
   - Static properties [0] {
