@@ -320,14 +320,14 @@ return array (
 
       - Parameters [0] {
       }
-      - Tentative return [ int|false ]
+      - Tentative return [ int ]
     }
 
     Method [ <internal:intl> public method getErrorMessage ] {
 
       - Parameters [0] {
       }
-      - Tentative return [ string|false ]
+      - Tentative return [ string ]
     }
   }
 }

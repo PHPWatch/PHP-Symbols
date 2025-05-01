@@ -27,7 +27,7 @@ return array (
   ),
   'return' => 
   array (
-    'type' => 'ReflectionUnionType',
+    'type' => 'ReflectionNamedType',
     'nullable' => false,
   ),
   'extension' => 'intl',
@@ -36,7 +36,7 @@ return array (
   - Parameters [1] {
     Parameter #0 [ <required> Transliterator $transliterator ]
   }
-  - Return [ string|false ]
+  - Return [ string ]
 }
 ',
 );
