@@ -802,6 +802,8 @@ return array (
   'locale_lookup',
   'locale_accept_from_http',
   'locale_is_right_to_left',
+  'locale_add_likely_subtags',
+  'locale_minimize_subtags',
   'msgfmt_create',
   'msgfmt_format',
   'msgfmt_format_message',

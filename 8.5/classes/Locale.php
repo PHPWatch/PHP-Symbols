@@ -666,6 +666,54 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'addLikelySubtags' => 
+    array (
+      'name' => 'addLikelySubtags',
+      'class' => 'Locale',
+      'parameters' => 
+      array (
+        'locale' => 
+        array (
+          'position' => 0,
+          'name' => 'locale',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'string|false',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'minimizeSubtags' => 
+    array (
+      'name' => 'minimizeSubtags',
+      'class' => 'Locale',
+      'parameters' => 
+      array (
+        'locale' => 
+        array (
+          'position' => 0,
+          'name' => 'locale',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'string|false',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'interfaces' => 
   array (
@@ -692,7 +740,7 @@ return array (
   - Static properties [0] {
   }
 
-  - Static methods [19] {
+  - Static methods [21] {
     Method [ <internal:intl> static public method getDefault ] {
 
       - Parameters [0] {
@@ -852,6 +900,22 @@ return array (
         Parameter #0 [ <required> string $locale ]
       }
       - Return [ bool ]
+    }
+
+    Method [ <internal:intl> static public method addLikelySubtags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $locale ]
+      }
+      - Return [ string|false ]
+    }
+
+    Method [ <internal:intl> static public method minimizeSubtags ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $locale ]
+      }
+      - Return [ string|false ]
     }
   }
 
