@@ -187,9 +187,9 @@ Version => 1.1.0
 Libenchant Version => 1.5.x
 Revision => $Id: d7c115e366f245f6234c5d1b1f3e93cf5500ab14 $
 
+ispell => Ispell Provider => /usr/lib/enchant/libenchant_ispell.so
 aspell => Aspell Provider => /usr/lib/enchant/libenchant_aspell.so
 hspell => Hspell Provider => /usr/lib/enchant/libenchant_hspell.so
-ispell => Ispell Provider => /usr/lib/enchant/libenchant_ispell.so
 myspell => Myspell Provider => /usr/lib/enchant/libenchant_myspell.so
 
 ereg
@@ -586,8 +586,8 @@ Version => 1.4.10
 Revision => $Id: b0984d94e17f7c099470cd0a9404259f2a59da04 $
 Active Persistent Connections => 0
 Active Connections => 0
-Oracle Run-time Client Library Version => 23.7.0.25.1
-Oracle Instant Client Version => 23.7
+Oracle Run-time Client Library Version => 23.8.0.25.4
+Oracle Instant Client Version => 23.8
 Temporary Lob support => enabled
 Collections support => enabled
 
