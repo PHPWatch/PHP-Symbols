@@ -982,6 +982,8 @@ return array (
   'array_keys',
   'array_key_first',
   'array_key_last',
+  'array_first',
+  'array_last',
   'array_values',
   'array_count_values',
   'array_column',
