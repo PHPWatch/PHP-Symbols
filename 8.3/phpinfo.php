@@ -529,7 +529,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 17.4
+PostgreSQL(libpq) Version => 17.5
 
 pdo_sqlite
 
@@ -539,7 +539,7 @@ SQLite Library => 3.45.1
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL (libpq) Version => 17.4
+PostgreSQL (libpq) Version => 17.5
 Multibyte character support => enabled
 Active Persistent Links => 0
 Active Links => 0
