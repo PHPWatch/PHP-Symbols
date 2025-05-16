@@ -45,7 +45,6 @@ return array (
   'pdo_dblib',
   'PDO_Firebird',
   'pdo_mysql',
-  'PDO_OCI',
   'PDO_ODBC',
   'pdo_pgsql',
   'pdo_sqlite',
