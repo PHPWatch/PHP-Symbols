@@ -486,7 +486,7 @@ pcre.recursion_limit => 100000 => 100000
 PDO
 
 PDO support => enabled
-PDO drivers => dblib, firebird, mysql, odbc, pgsql, sqlite
+PDO drivers => dblib, firebird, mysql, oci, odbc, pgsql, sqlite
 
 pdo_dblib
 
@@ -505,6 +505,10 @@ Client API version => mysqlnd 7.4.33
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
+
+PDO_OCI
+
+PDO Driver for OCI 8 and later => enabled
 
 PDO_ODBC
 
