@@ -125,6 +125,7 @@ return array (
   'HashContext',
   'Collator',
   'NumberFormatter',
+  'IntlListFormatter',
   'Normalizer',
   'Locale',
   'MessageFormatter',
