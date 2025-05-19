@@ -69,7 +69,7 @@ return array (
     'opcache.jit_buffer_size' => '64M',
     'opcache.jit_debug' => '0',
     'opcache.jit_hot_func' => '127',
-    'opcache.jit_hot_loop' => '64',
+    'opcache.jit_hot_loop' => '61',
     'opcache.jit_hot_return' => '8',
     'opcache.jit_hot_side_exit' => '8',
     'opcache.jit_max_exit_counters' => '8192',

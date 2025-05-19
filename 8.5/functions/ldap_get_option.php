@@ -34,7 +34,7 @@ return array (
   'toString' => 'Function [ <internal:ldap> function ldap_get_option ] {
 
   - Parameters [3] {
-    Parameter #0 [ <required> LDAP\\Connection $ldap ]
+    Parameter #0 [ <required> ?LDAP\\Connection $ldap ]
     Parameter #1 [ <required> int $option ]
     Parameter #2 [ <optional> &$value = null ]
   }

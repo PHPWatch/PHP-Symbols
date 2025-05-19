@@ -1736,8 +1736,8 @@ return array (
     ),
     'opcache.jit_hot_loop' => 
     array (
-      'global_value' => '64',
-      'local_value' => '64',
+      'global_value' => '61',
+      'local_value' => '61',
       'access' => 4,
     ),
     'opcache.jit_hot_return' => 

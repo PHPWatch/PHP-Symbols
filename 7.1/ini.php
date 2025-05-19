@@ -1495,9 +1495,6 @@ return array (
       'access' => 4,
     ),
   ),
-  'PDO_OCI' => 
-  array (
-  ),
   'PDO_ODBC' => 
   array (
   ),

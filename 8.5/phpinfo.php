@@ -722,8 +722,8 @@ Cache misses => 1
 Used memory => 9179840
 Free memory => 125037888
 Wasted memory => 0
-Interned Strings Used memory => 2603208
-Interned Strings Free memory => 5785400
+Interned Strings Used memory => 2603240
+Interned Strings Free memory => 5785368
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229
@@ -756,7 +756,7 @@ opcache.jit_blacklist_side_trace => 8 => 8
 opcache.jit_buffer_size => 64M => 64M
 opcache.jit_debug => 0 => 0
 opcache.jit_hot_func => 127 => 127
-opcache.jit_hot_loop => 64 => 64
+opcache.jit_hot_loop => 61 => 61
 opcache.jit_hot_return => 8 => 8
 opcache.jit_hot_side_exit => 8 => 8
 opcache.jit_max_exit_counters => 8192 => 8192
