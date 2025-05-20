@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => 64,
+  'value' => 4096,
   'extension' => 'standard',
 );

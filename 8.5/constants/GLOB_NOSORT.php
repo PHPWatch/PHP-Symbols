@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => 4,
+  'value' => 32,
   'extension' => 'standard',
 );
