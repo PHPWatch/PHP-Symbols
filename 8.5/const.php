@@ -2824,6 +2824,7 @@ return array (
     'ETH_P_IPV6' => 34525,
     'ETH_P_LOOP' => 96,
     'ETH_P_ALL' => 3,
+    'UDP_SEGMENT' => 103,
   ),
   'sodium' => 
   array (
