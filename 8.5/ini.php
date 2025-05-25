@@ -724,6 +724,9 @@ return array (
       'access' => 7,
     ),
   ),
+  'lexbor' => 
+  array (
+  ),
   'dom' => 
   array (
   ),

@@ -343,6 +343,11 @@ SASL Support => Enabled
 Directive => Local Value => Master Value
 ldap.max_links => Unlimited => Unlimited
 
+lexbor
+
+Lexbor support => active
+Lexbor version => 2.5.0
+
 libxml
 
 libXML support => active
@@ -722,8 +727,8 @@ Cache misses => 1
 Used memory => 9179840
 Free memory => 125037888
 Wasted memory => 0
-Interned Strings Used memory => 2603280
-Interned Strings Free memory => 5785328
+Interned Strings Used memory => 2603320
+Interned Strings Free memory => 5785288
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229

@@ -14,6 +14,7 @@ return array (
   'ctype',
   'curl',
   'dba',
+  'lexbor',
   'dom',
   'enchant',
   'mbstring',
