@@ -314,6 +314,9 @@ return array (
     'ETH_P_LOOP' => 96,
     'ETH_P_ALL' => 3,
     'UDP_SEGMENT' => 103,
+    'SHUT_RD' => 0,
+    'SHUT_WR' => 1,
+    'SHUT_RDWR' => 2,
   ),
   'dependencies' => 
   array (
