@@ -61,6 +61,7 @@ return array (
   'sysvshm',
   'tidy',
   'tokenizer',
+  'uri',
   'xml',
   'xmlreader',
   'xmlwriter',

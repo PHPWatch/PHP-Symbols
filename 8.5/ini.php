@@ -1594,6 +1594,9 @@ return array (
   'tokenizer' => 
   array (
   ),
+  'uri' => 
+  array (
+  ),
   'xml' => 
   array (
   ),

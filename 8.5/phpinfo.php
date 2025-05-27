@@ -691,6 +691,11 @@ tokenizer
 
 Tokenizer Support => enabled
 
+uri
+
+uri support => active
+uriparser library version => 0.9.8
+
 xml
 
 XML Support => active
@@ -727,8 +732,8 @@ Cache misses => 1
 Used memory => 9179840
 Free memory => 125037888
 Wasted memory => 0
-Interned Strings Used memory => 2603440
-Interned Strings Free memory => 5785168
+Interned Strings Used memory => 2603816
+Interned Strings Free memory => 5784792
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229
@@ -918,6 +923,7 @@ System V Semaphores => Tom May
 System V Shared Memory => Christian Cartus
 tidy => John Coggeshall, Ilia Alshanetsky
 tokenizer => Andrei Zmievski, Johannes Schlueter
+uri => Máté Kocsis, Tim Düsterhus, Ignace Nyamagana Butera, Arnaud Le Blanc, Dennis Snell, Niels Dossche, Nicolas Grekas
 XML => Stig Bakken, Thies C. Arntzen, Sterling Hughes
 XMLReader => Rob Richards
 XMLWriter => Rob Richards, Pierre-Alain Joye
