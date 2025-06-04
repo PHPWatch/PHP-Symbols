@@ -241,8 +241,8 @@ return array (
           'type' => 'int',
           'is_optional' => true,
           'has_default_value' => true,
-          'has_default_value_constant' => true,
-          'default_value_constant' => 'PHP_INT_MAX',
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
         ),
       ),
       'return_type' => NULL,
@@ -476,7 +476,7 @@ return array (
 
       - Parameters [2] {
         Parameter #0 [ <optional> int $timestampBegin = PHP_INT_MIN ]
-        Parameter #1 [ <optional> int $timestampEnd = PHP_INT_MAX ]
+        Parameter #1 [ <optional> int $timestampEnd = 2147483647 ]
       }
       - Tentative return [ array|false ]
     }

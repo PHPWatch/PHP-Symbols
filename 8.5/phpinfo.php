@@ -135,7 +135,7 @@ ctype functions => enabled
 curl
 
 cURL support => enabled
-cURL Information => 8.14.0-DEV
+cURL Information => 8.14.1-DEV
 Age => 11
 Features
 AsynchDNS => Yes

@@ -36,7 +36,7 @@ return array (
   - Parameters [3] {
     Parameter #0 [ <required> DateTimeZone $object ]
     Parameter #1 [ <optional> int $timestampBegin = PHP_INT_MIN ]
-    Parameter #2 [ <optional> int $timestampEnd = PHP_INT_MAX ]
+    Parameter #2 [ <optional> int $timestampEnd = 2147483647 ]
   }
   - Return [ array|false ]
 }
