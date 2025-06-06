@@ -925,6 +925,46 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
     ),
+    'PGSQL_TRANSACTION_IDLE' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int PGSQL_TRANSACTION_IDLE ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'PGSQL_TRANSACTION_ACTIVE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int PGSQL_TRANSACTION_ACTIVE ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'PGSQL_TRANSACTION_INTRANS' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int PGSQL_TRANSACTION_INTRANS ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'PGSQL_TRANSACTION_INERROR' => 
+    array (
+      'value' => 3,
+      'toString' => 'Constant [ public int PGSQL_TRANSACTION_INERROR ] { 3 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
+    'PGSQL_TRANSACTION_UNKNOWN' => 
+    array (
+      'value' => 4,
+      'toString' => 'Constant [ public int PGSQL_TRANSACTION_UNKNOWN ] { 4 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+    ),
     'SQLITE_DETERMINISTIC' => 
     array (
       'value' => 2048,
@@ -1418,7 +1458,7 @@ return array (
   'extension' => 'PDO',
   'toString' => 'Class [ <internal:PDO> class PDO ] {
 
-  - Constants [110] {
+  - Constants [115] {
     Constant [ public int PARAM_NULL ] { 0 }
     Constant [ public int PARAM_BOOL ] { 5 }
     Constant [ public int PARAM_INT ] { 1 }
@@ -1522,6 +1562,11 @@ return array (
     Constant [ public int ODBC_SQL_USE_DRIVER ] { 2 }
     Constant [ public int ODBC_SQL_USE_ODBC ] { 1 }
     Constant [ public int PGSQL_ATTR_DISABLE_PREPARES ] { 1000 }
+    Constant [ public int PGSQL_TRANSACTION_IDLE ] { 0 }
+    Constant [ public int PGSQL_TRANSACTION_ACTIVE ] { 1 }
+    Constant [ public int PGSQL_TRANSACTION_INTRANS ] { 2 }
+    Constant [ public int PGSQL_TRANSACTION_INERROR ] { 3 }
+    Constant [ public int PGSQL_TRANSACTION_UNKNOWN ] { 4 }
     Constant [ public int SQLITE_DETERMINISTIC ] { 2048 }
     Constant [ public int SQLITE_ATTR_OPEN_FLAGS ] { 1000 }
     Constant [ public int SQLITE_OPEN_READONLY ] { 1 }
