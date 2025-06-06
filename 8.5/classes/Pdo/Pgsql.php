@@ -925,46 +925,6 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
     ),
-    'PGSQL_TRANSACTION_IDLE' => 
-    array (
-      'value' => 0,
-      'toString' => 'Constant [ public int PGSQL_TRANSACTION_IDLE ] { 0 }
-',
-      'visibility' => 1,
-      'isFinal' => false,
-    ),
-    'PGSQL_TRANSACTION_ACTIVE' => 
-    array (
-      'value' => 1,
-      'toString' => 'Constant [ public int PGSQL_TRANSACTION_ACTIVE ] { 1 }
-',
-      'visibility' => 1,
-      'isFinal' => false,
-    ),
-    'PGSQL_TRANSACTION_INTRANS' => 
-    array (
-      'value' => 2,
-      'toString' => 'Constant [ public int PGSQL_TRANSACTION_INTRANS ] { 2 }
-',
-      'visibility' => 1,
-      'isFinal' => false,
-    ),
-    'PGSQL_TRANSACTION_INERROR' => 
-    array (
-      'value' => 3,
-      'toString' => 'Constant [ public int PGSQL_TRANSACTION_INERROR ] { 3 }
-',
-      'visibility' => 1,
-      'isFinal' => false,
-    ),
-    'PGSQL_TRANSACTION_UNKNOWN' => 
-    array (
-      'value' => 4,
-      'toString' => 'Constant [ public int PGSQL_TRANSACTION_UNKNOWN ] { 4 }
-',
-      'visibility' => 1,
-      'isFinal' => false,
-    ),
     'ATTR_DISABLE_PREPARES' => 
     array (
       'value' => 1000,
@@ -978,51 +938,6 @@ return array (
     array (
       'value' => 1001,
       'toString' => 'Constant [ public int ATTR_RESULT_MEMORY_SIZE ] { 1001 }
-',
-      'visibility' => 1,
-      'isFinal' => false,
-      'type' => 'int',
-    ),
-    'TRANSACTION_IDLE' => 
-    array (
-      'value' => 0,
-      'toString' => 'Constant [ public int TRANSACTION_IDLE ] { 0 }
-',
-      'visibility' => 1,
-      'isFinal' => false,
-      'type' => 'int',
-    ),
-    'TRANSACTION_ACTIVE' => 
-    array (
-      'value' => 1,
-      'toString' => 'Constant [ public int TRANSACTION_ACTIVE ] { 1 }
-',
-      'visibility' => 1,
-      'isFinal' => false,
-      'type' => 'int',
-    ),
-    'TRANSACTION_INTRANS' => 
-    array (
-      'value' => 2,
-      'toString' => 'Constant [ public int TRANSACTION_INTRANS ] { 2 }
-',
-      'visibility' => 1,
-      'isFinal' => false,
-      'type' => 'int',
-    ),
-    'TRANSACTION_INERROR' => 
-    array (
-      'value' => 3,
-      'toString' => 'Constant [ public int TRANSACTION_INERROR ] { 3 }
-',
-      'visibility' => 1,
-      'isFinal' => false,
-      'type' => 'int',
-    ),
-    'TRANSACTION_UNKNOWN' => 
-    array (
-      'value' => 4,
-      'toString' => 'Constant [ public int TRANSACTION_UNKNOWN ] { 4 }
 ',
       'visibility' => 1,
       'isFinal' => false,
@@ -1879,7 +1794,7 @@ return array (
   'extension' => 'pdo_pgsql',
   'toString' => 'Class [ <internal:pdo_pgsql> class Pdo\\Pgsql extends PDO ] {
 
-  - Constants [115] {
+  - Constants [105] {
     Constant [ public int PARAM_NULL ] { 0 }
     Constant [ public int PARAM_BOOL ] { 5 }
     Constant [ public int PARAM_INT ] { 1 }
@@ -1983,18 +1898,8 @@ return array (
     Constant [ public int ODBC_SQL_USE_DRIVER ] { 2 }
     Constant [ public int ODBC_SQL_USE_ODBC ] { 1 }
     Constant [ public int PGSQL_ATTR_DISABLE_PREPARES ] { 1000 }
-    Constant [ public int PGSQL_TRANSACTION_IDLE ] { 0 }
-    Constant [ public int PGSQL_TRANSACTION_ACTIVE ] { 1 }
-    Constant [ public int PGSQL_TRANSACTION_INTRANS ] { 2 }
-    Constant [ public int PGSQL_TRANSACTION_INERROR ] { 3 }
-    Constant [ public int PGSQL_TRANSACTION_UNKNOWN ] { 4 }
     Constant [ public int ATTR_DISABLE_PREPARES ] { 1000 }
     Constant [ public int ATTR_RESULT_MEMORY_SIZE ] { 1001 }
-    Constant [ public int TRANSACTION_IDLE ] { 0 }
-    Constant [ public int TRANSACTION_ACTIVE ] { 1 }
-    Constant [ public int TRANSACTION_INTRANS ] { 2 }
-    Constant [ public int TRANSACTION_INERROR ] { 3 }
-    Constant [ public int TRANSACTION_UNKNOWN ] { 4 }
   }
 
   - Static properties [0] {
