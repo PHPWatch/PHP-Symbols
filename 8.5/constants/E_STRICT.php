@@ -13,7 +13,7 @@ return array (
     ),
     'added' => '0.0',
     'deprecated' => true,
-    'deprecated_message' => 'Constant E_STRICT is deprecated',
+    'deprecated_message' => 'Constant E_STRICT is deprecated since 8.4, the error level was removed',
     'removed' => NULL,
     'resources' => 
     array (
