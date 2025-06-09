@@ -1084,6 +1084,15 @@ return array (
       'isFinal' => false,
       'type' => 'int',
     ),
+    'ATTR_BUSY_STATEMENT' => 
+    array (
+      'value' => 1003,
+      'toString' => 'Constant [ public int ATTR_BUSY_STATEMENT ] { 1003 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
     'OK' => 
     array (
       'value' => 0,
@@ -1802,7 +1811,7 @@ return array (
   'extension' => 'pdo_sqlite',
   'toString' => 'Class [ <internal:pdo_sqlite> class Pdo\\Sqlite extends PDO ] {
 
-  - Constants [125] {
+  - Constants [126] {
     Constant [ public int PARAM_NULL ] { 0 }
     Constant [ public int PARAM_BOOL ] { 5 }
     Constant [ public int PARAM_INT ] { 1 }
@@ -1925,6 +1934,7 @@ return array (
     Constant [ public int ATTR_OPEN_FLAGS ] { 1000 }
     Constant [ public int ATTR_READONLY_STATEMENT ] { 1001 }
     Constant [ public int ATTR_EXTENDED_RESULT_CODES ] { 1002 }
+    Constant [ public int ATTR_BUSY_STATEMENT ] { 1003 }
     Constant [ public int OK ] { 0 }
     Constant [ public int DENY ] { 1 }
     Constant [ public int IGNORE ] { 2 }
