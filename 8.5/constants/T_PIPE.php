@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'T_BAD_CHARACTER',
+  'name' => 'T_PIPE',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'T_BAD_CHARACTER',
+    'name' => 'T_PIPE',
     'description' => '',
     'keywords' => 
     array (
@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => 411,
+  'value' => 408,
   'extension' => 'tokenizer',
 );

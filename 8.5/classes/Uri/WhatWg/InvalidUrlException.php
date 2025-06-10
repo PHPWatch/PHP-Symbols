@@ -33,7 +33,7 @@ return array (
     '__construct' => 
     array (
       'name' => '__construct',
-      'class' => 'Exception',
+      'class' => 'Uri\\WhatWg\\InvalidUrlException',
       'parameters' => 
       array (
         'message' => 
@@ -46,9 +46,19 @@ return array (
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
-        'code' => 
+        'errors' => 
         array (
           'position' => 1,
+          'name' => 'errors',
+          'type' => 'array',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'code' => 
+        array (
+          'position' => 2,
           'name' => 'code',
           'type' => 'int',
           'is_optional' => true,
@@ -58,7 +68,7 @@ return array (
         ),
         'previous' => 
         array (
-          'position' => 2,
+          'position' => 3,
           'name' => 'previous',
           'type' => '?Throwable',
           'is_optional' => true,
@@ -295,12 +305,13 @@ return array (
   }
 
   - Methods [10] {
-    Method [ <internal:Core, inherits Exception, ctor> public method __construct ] {
+    Method [ <internal:uri, overwrites Exception, ctor> public method __construct ] {
 
-      - Parameters [3] {
+      - Parameters [4] {
         Parameter #0 [ <optional> string $message = "" ]
-        Parameter #1 [ <optional> int $code = 0 ]
-        Parameter #2 [ <optional> ?Throwable $previous = null ]
+        Parameter #1 [ <optional> array $errors = [] ]
+        Parameter #2 [ <optional> int $code = 0 ]
+        Parameter #3 [ <optional> ?Throwable $previous = null ]
       }
     }
 

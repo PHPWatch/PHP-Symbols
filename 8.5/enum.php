@@ -6,4 +6,6 @@ return array (
   'Pcntl\\QosClass',
   'Random\\IntervalBoundary',
   'PropertyHookType',
+  'Uri\\UriComparisonMode',
+  'Uri\\WhatWg\\UrlValidationErrorType',
 );
