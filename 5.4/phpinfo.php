@@ -185,9 +185,9 @@ Libenchant Version => 1.5.x
 Revision => $Id: 0eb8144f76f6744a423c3c05eb51932caa4ca17e $
 
 myspell => Myspell Provider => /usr/lib/enchant/libenchant_myspell.so
+ispell => Ispell Provider => /usr/lib/enchant/libenchant_ispell.so
 aspell => Aspell Provider => /usr/lib/enchant/libenchant_aspell.so
 hspell => Hspell Provider => /usr/lib/enchant/libenchant_hspell.so
-ispell => Ispell Provider => /usr/lib/enchant/libenchant_ispell.so
 
 ereg
 
