@@ -688,7 +688,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 16.4 (Ubuntu 16.4-0ubuntu0.24.04.2)
+PostgreSQL(libpq) Version => 16.9 (Ubuntu 16.9-0ubuntu0.24.04.1)
 Module version => 7.2.34
 Revision =>  $Id: 9c5f356c77143981d2e905e276e439501fe0f419 $ 
 
@@ -700,8 +700,8 @@ SQLite Library => 3.45.1
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL(libpq) Version => 16.4 (Ubuntu 16.4-0ubuntu0.24.04.2)
-PostgreSQL(libpq)  => PostgreSQL 16.4 (Ubuntu 16.4-0ubuntu0.24.04.2) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu4) 13.2.0, 64-bit
+PostgreSQL(libpq) Version => 16.9 (Ubuntu 16.9-0ubuntu0.24.04.1)
+PostgreSQL(libpq)  => PostgreSQL 16.9 (Ubuntu 16.9-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, 64-bit
 Multibyte character support => enabled
 SSL support => enabled
 Active Persistent Links => 0
