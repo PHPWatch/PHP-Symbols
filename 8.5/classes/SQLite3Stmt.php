@@ -260,6 +260,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'busy' => 
+    array (
+      'name' => 'busy',
+      'class' => 'SQLite3Stmt',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'interfaces' => 
   array (
@@ -282,7 +296,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [10] {
+  - Methods [11] {
     Method [ <internal:sqlite3, ctor> private method __construct ] {
 
       - Parameters [2] {
@@ -359,6 +373,13 @@ return array (
       - Parameters [0] {
       }
       - Tentative return [ bool ]
+    }
+
+    Method [ <internal:sqlite3> public method busy ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
     }
   }
 }
