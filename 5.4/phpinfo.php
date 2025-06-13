@@ -578,6 +578,29 @@ example statistics =>
 stat1 => 0
 stat2 => 0
 
+oci8
+
+OCI8 Support => enabled
+Version => 1.4.9
+Revision => $Id: cdb1302d3784cf3ece95ed7e5f70998212164e52 $
+Active Persistent Connections => 0
+Active Connections => 0
+Oracle Run-time Client Library Version => 23.8.0.25.4
+Oracle Instant Client Version => 23.8
+Temporary Lob support => enabled
+Collections support => enabled
+
+Directive => Local Value => Master Value
+oci8.connection_class => no value => no value
+oci8.default_prefetch => 100 => 100
+oci8.events => Off => Off
+oci8.max_persistent => -1 => -1
+oci8.old_oci_close_semantics => Off => Off
+oci8.persistent_timeout => -1 => -1
+oci8.ping_interval => 60 => 60
+oci8.privileged_connect => Off => Off
+oci8.statement_cache_size => 20 => 20
+
 odbc
 
 ODBC Support => enabled
@@ -622,7 +645,7 @@ pcre.recursion_limit => 100000 => 100000
 PDO
 
 PDO support => enabled
-PDO drivers => mysql, odbc, pgsql, sqlite
+PDO drivers => mysql, oci, odbc, pgsql, sqlite
 
 pdo_mysql
 
@@ -631,6 +654,10 @@ Client API version => mysqlnd 5.0.10 - 20111026 - $Id: c85105d7c6f7d70d609bb4c00
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
+
+PDO_OCI
+
+PDO Driver for OCI 8 and later => enabled
 
 PDO_ODBC
 
