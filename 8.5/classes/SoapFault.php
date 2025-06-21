@@ -96,6 +96,16 @@ return array (
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
+        'lang' => 
+        array (
+          'position' => 6,
+          'name' => 'lang',
+          'type' => 'string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
       ),
       'return_type' => NULL,
       'has_return_type' => false,
@@ -381,6 +391,19 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
+    'lang' => 
+    array (
+      'name' => 'lang',
+      'class' => 'SoapFault',
+      'type' => 'string',
+      'has_default_value' => true,
+      'default_value' => '',
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
   ),
   'extension' => 'soap',
   'toString' => 'Class [ <internal:soap> class SoapFault extends Exception implements Stringable, Throwable ] {
@@ -394,7 +417,7 @@ return array (
   - Static methods [0] {
   }
 
-  - Properties [11] {
+  - Properties [12] {
     Property [ protected $message = \'\' ]
     Property [ protected $code = 0 ]
     Property [ protected string $file = \'\' ]
@@ -406,18 +429,20 @@ return array (
     Property [ public mixed $detail = NULL ]
     Property [ public ?string $_name = NULL ]
     Property [ public mixed $headerfault = NULL ]
+    Property [ public string $lang = \'\' ]
   }
 
   - Methods [10] {
     Method [ <internal:soap, overwrites Exception, ctor> public method __construct ] {
 
-      - Parameters [6] {
+      - Parameters [7] {
         Parameter #0 [ <required> array|string|null $code ]
         Parameter #1 [ <required> string $string ]
         Parameter #2 [ <optional> ?string $actor = null ]
         Parameter #3 [ <optional> mixed $details = null ]
         Parameter #4 [ <optional> ?string $name = null ]
         Parameter #5 [ <optional> mixed $headerFault = null ]
+        Parameter #6 [ <optional> string $lang = "" ]
       }
     }
 
@@ -498,6 +523,7 @@ return array (
     'detail' => NULL,
     '_name' => NULL,
     'headerfault' => NULL,
+    'lang' => '',
   ),
   'staticProperties' => 
   array (

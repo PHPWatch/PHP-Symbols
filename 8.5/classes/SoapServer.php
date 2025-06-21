@@ -120,6 +120,16 @@ return array (
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
+        'lang' => 
+        array (
+          'position' => 5,
+          'name' => 'lang',
+          'type' => 'string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
       ),
       'return_type' => NULL,
       'has_return_type' => false,
@@ -357,12 +367,13 @@ return array (
 
     Method [ <internal:soap> public method fault ] {
 
-      - Parameters [5] {
+      - Parameters [6] {
         Parameter #0 [ <required> string $code ]
         Parameter #1 [ <required> string $string ]
         Parameter #2 [ <optional> string $actor = "" ]
         Parameter #3 [ <optional> mixed $details = null ]
         Parameter #4 [ <optional> string $name = "" ]
+        Parameter #5 [ <optional> string $lang = "" ]
       }
       - Tentative return [ void ]
     }
