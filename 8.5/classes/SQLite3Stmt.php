@@ -27,6 +27,33 @@ return array (
   'namespace' => '',
   'constants' => 
   array (
+    'EXPLAIN_MODE_PREPARED' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int EXPLAIN_MODE_PREPARED ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'EXPLAIN_MODE_EXPLAIN' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int EXPLAIN_MODE_EXPLAIN ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'EXPLAIN_MODE_EXPLAIN_QUERY_PLAN' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int EXPLAIN_MODE_EXPLAIN_QUERY_PLAN ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
   ),
   'methods' => 
   array (
@@ -274,6 +301,44 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'explain' => 
+    array (
+      'name' => 'explain',
+      'class' => 'SQLite3Stmt',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'int',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setExplain' => 
+    array (
+      'name' => 'setExplain',
+      'class' => 'SQLite3Stmt',
+      'parameters' => 
+      array (
+        'mode' => 
+        array (
+          'position' => 0,
+          'name' => 'mode',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'interfaces' => 
   array (
@@ -284,7 +349,10 @@ return array (
   'extension' => 'sqlite3',
   'toString' => 'Class [ <internal:sqlite3> class SQLite3Stmt ] {
 
-  - Constants [0] {
+  - Constants [3] {
+    Constant [ public int EXPLAIN_MODE_PREPARED ] { 0 }
+    Constant [ public int EXPLAIN_MODE_EXPLAIN ] { 1 }
+    Constant [ public int EXPLAIN_MODE_EXPLAIN_QUERY_PLAN ] { 2 }
   }
 
   - Static properties [0] {
@@ -296,7 +364,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [11] {
+  - Methods [13] {
     Method [ <internal:sqlite3, ctor> private method __construct ] {
 
       - Parameters [2] {
@@ -378,6 +446,21 @@ return array (
     Method [ <internal:sqlite3> public method busy ] {
 
       - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:sqlite3> public method explain ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
+    }
+
+    Method [ <internal:sqlite3> public method setExplain ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> int $mode ]
       }
       - Return [ bool ]
     }

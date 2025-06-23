@@ -130,6 +130,30 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'fetchAll' => 
+    array (
+      'name' => 'fetchAll',
+      'class' => 'SQLite3Result',
+      'parameters' => 
+      array (
+        'mode' => 
+        array (
+          'position' => 0,
+          'name' => 'mode',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => true,
+          'default_value_constant' => 'SQLITE3_BOTH',
+        ),
+      ),
+      'return_type' => 'array|false',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'reset' => 
     array (
       'name' => 'reset',
@@ -180,7 +204,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [7] {
+  - Methods [8] {
     Method [ <internal:sqlite3, ctor> private method __construct ] {
 
       - Parameters [0] {
@@ -216,6 +240,14 @@ return array (
         Parameter #0 [ <optional> int $mode = SQLITE3_BOTH ]
       }
       - Tentative return [ array|false ]
+    }
+
+    Method [ <internal:sqlite3> public method fetchAll ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> int $mode = SQLITE3_BOTH ]
+      }
+      - Return [ array|false ]
     }
 
     Method [ <internal:sqlite3> public method reset ] {
