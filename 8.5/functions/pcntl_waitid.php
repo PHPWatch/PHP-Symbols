@@ -33,11 +33,12 @@ return array (
   'extension' => 'pcntl',
   'toString' => 'Function [ <internal:pcntl> function pcntl_waitid ] {
 
-  - Parameters [4] {
+  - Parameters [5] {
     Parameter #0 [ <optional> int $idtype = P_ALL ]
     Parameter #1 [ <optional> ?int $id = null ]
     Parameter #2 [ <optional> &$info = [] ]
     Parameter #3 [ <optional> int $flags = WEXITED ]
+    Parameter #4 [ <optional> &$resource_usage = [] ]
   }
   - Return [ bool ]
 }

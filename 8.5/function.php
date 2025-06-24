@@ -1,6 +1,7 @@
 <?php
 
 return array (
+  'clone',
   'exit',
   'die',
   'zend_version',

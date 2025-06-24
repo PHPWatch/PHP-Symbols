@@ -66,6 +66,7 @@ return array (
   ),
   'functions' => 
   array (
+    'clone' => 'clone',
     'exit' => 'exit',
     'die' => 'die',
     'zend_version' => 'zend_version',
