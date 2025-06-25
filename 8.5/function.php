@@ -1653,7 +1653,6 @@ return array (
   'pcntl_strerror',
   'pcntl_async_signals',
   'pcntl_unshare',
-  'pcntl_setns',
   'pcntl_getcpuaffinity',
   'pcntl_setcpuaffinity',
   'pcntl_getcpu',

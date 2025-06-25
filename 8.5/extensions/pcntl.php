@@ -59,7 +59,6 @@ return array (
     'pcntl_strerror' => 'pcntl_strerror',
     'pcntl_async_signals' => 'pcntl_async_signals',
     'pcntl_unshare' => 'pcntl_unshare',
-    'pcntl_setns' => 'pcntl_setns',
     'pcntl_getcpuaffinity' => 'pcntl_getcpuaffinity',
     'pcntl_setcpuaffinity' => 'pcntl_setcpuaffinity',
     'pcntl_getcpu' => 'pcntl_getcpu',
