@@ -13,7 +13,7 @@ return array (
     ),
     'added' => '0.0',
     'deprecated' => true,
-    'deprecated_message' => 'Constant FILE_BINARY is deprecated',
+    'deprecated_message' => 'Constant FILE_BINARY is deprecated since 8.1, as the constant has no effect',
     'removed' => NULL,
     'resources' => 
     array (

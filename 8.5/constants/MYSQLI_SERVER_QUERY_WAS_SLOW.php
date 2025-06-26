@@ -13,7 +13,7 @@ return array (
     ),
     'added' => '0.0',
     'deprecated' => true,
-    'deprecated_message' => 'Constant MYSQLI_SERVER_QUERY_WAS_SLOW is deprecated',
+    'deprecated_message' => 'Constant MYSQLI_SERVER_QUERY_WAS_SLOW is deprecated since 8.1, as it was unused',
     'removed' => NULL,
     'resources' => 
     array (

@@ -13,7 +13,7 @@ return array (
     ),
     'added' => '0.0',
     'deprecated' => true,
-    'deprecated_message' => 'Constant PGSQL_LIBPQ_VERSION_STR is deprecated',
+    'deprecated_message' => 'Constant PGSQL_LIBPQ_VERSION_STR is deprecated since 8.0, as it is the same as PGSQL_LIBPQ_VERSION',
     'removed' => NULL,
     'resources' => 
     array (

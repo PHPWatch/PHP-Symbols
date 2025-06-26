@@ -13,7 +13,7 @@ return array (
     ),
     'added' => '0.0',
     'deprecated' => true,
-    'deprecated_message' => 'Constant FILTER_SANITIZE_STRIPPED is deprecated',
+    'deprecated_message' => 'Constant FILTER_SANITIZE_STRIPPED is deprecated since 8.1, use htmlspecialchars() instead',
     'removed' => NULL,
     'resources' => 
     array (

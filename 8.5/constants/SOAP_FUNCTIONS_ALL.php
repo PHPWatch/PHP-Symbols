@@ -13,7 +13,7 @@ return array (
     ),
     'added' => '0.0',
     'deprecated' => true,
-    'deprecated_message' => 'Constant SOAP_FUNCTIONS_ALL is deprecated',
+    'deprecated_message' => 'Constant SOAP_FUNCTIONS_ALL is deprecated since 8.4, as enabling all functions is a possible security concern',
     'removed' => NULL,
     'resources' => 
     array (

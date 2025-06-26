@@ -13,7 +13,7 @@ return array (
     ),
     'added' => '0.0',
     'deprecated' => true,
-    'deprecated_message' => 'Constant ASSERT_ACTIVE is deprecated',
+    'deprecated_message' => 'Constant ASSERT_ACTIVE is deprecated since 8.3, as assert_options() is deprecated',
     'removed' => NULL,
     'resources' => 
     array (

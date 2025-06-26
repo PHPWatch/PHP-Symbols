@@ -13,7 +13,7 @@ return array (
     ),
     'added' => '0.0',
     'deprecated' => true,
-    'deprecated_message' => 'Constant MYSQLI_SERVER_QUERY_NO_INDEX_USED is deprecated',
+    'deprecated_message' => 'Constant MYSQLI_SERVER_QUERY_NO_INDEX_USED is deprecated since 8.1, as it was unused',
     'removed' => NULL,
     'resources' => 
     array (

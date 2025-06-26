@@ -13,7 +13,7 @@ return array (
     ),
     'added' => '0.0',
     'deprecated' => true,
-    'deprecated_message' => 'Constant MYSQLI_REFRESH_THREADS is deprecated',
+    'deprecated_message' => 'Constant MYSQLI_REFRESH_THREADS is deprecated since 8.4, as mysqli_refresh() is deprecated',
     'removed' => NULL,
     'resources' => 
     array (

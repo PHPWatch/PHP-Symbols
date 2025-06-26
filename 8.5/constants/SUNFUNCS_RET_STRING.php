@@ -13,7 +13,7 @@ return array (
     ),
     'added' => '0.0',
     'deprecated' => true,
-    'deprecated_message' => 'Constant SUNFUNCS_RET_STRING is deprecated',
+    'deprecated_message' => 'Constant SUNFUNCS_RET_STRING is deprecated since 8.4, as date_sunrise() and date_sunset() were deprecated in 8.1',
     'removed' => NULL,
     'resources' => 
     array (

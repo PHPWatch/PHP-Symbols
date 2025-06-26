@@ -13,7 +13,7 @@ return array (
     ),
     'added' => '0.0',
     'deprecated' => true,
-    'deprecated_message' => 'Constant MYSQLI_DATA_TRUNCATED is deprecated',
+    'deprecated_message' => 'Constant MYSQLI_DATA_TRUNCATED is deprecated since 8.1, as it was unused',
     'removed' => NULL,
     'resources' => 
     array (

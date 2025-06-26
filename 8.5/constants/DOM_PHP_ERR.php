@@ -13,7 +13,7 @@ return array (
     ),
     'added' => '0.0',
     'deprecated' => true,
-    'deprecated_message' => 'Constant DOM_PHP_ERR is deprecated',
+    'deprecated_message' => 'Constant DOM_PHP_ERR is deprecated since 8.4, as it is no longer used',
     'removed' => NULL,
     'resources' => 
     array (
