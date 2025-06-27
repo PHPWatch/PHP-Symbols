@@ -1739,6 +1739,58 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
+    'children' => 
+    array (
+      'name' => 'children',
+      'class' => 'Dom\\Document',
+      'type' => 'Dom\\HTMLCollection',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'firstElementChild' => 
+    array (
+      'name' => 'firstElementChild',
+      'class' => 'Dom\\Document',
+      'type' => '?Dom\\Element',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'lastElementChild' => 
+    array (
+      'name' => 'lastElementChild',
+      'class' => 'Dom\\Document',
+      'type' => '?Dom\\Element',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'childElementCount' => 
+    array (
+      'name' => 'childElementCount',
+      'class' => 'Dom\\Document',
+      'type' => 'int',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
     'implementation' => 
     array (
       'name' => 'implementation',
@@ -1835,45 +1887,6 @@ return array (
       'name' => 'documentElement',
       'class' => 'Dom\\Document',
       'type' => '?Dom\\Element',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'firstElementChild' => 
-    array (
-      'name' => 'firstElementChild',
-      'class' => 'Dom\\Document',
-      'type' => '?Dom\\Element',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'lastElementChild' => 
-    array (
-      'name' => 'lastElementChild',
-      'class' => 'Dom\\Document',
-      'type' => '?Dom\\Element',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'childElementCount' => 
-    array (
-      'name' => 'childElementCount',
-      'class' => 'Dom\\Document',
-      'type' => 'int',
       'has_default_value' => false,
       'default_value' => NULL,
       'is_static' => false,
@@ -2020,7 +2033,7 @@ return array (
     }
   }
 
-  - Properties [32] {
+  - Properties [33] {
     Property [ public int $nodeType ]
     Property [ public string $nodeName ]
     Property [ public string $baseURI ]
@@ -2035,6 +2048,10 @@ return array (
     Property [ public ?Dom\\Node $nextSibling ]
     Property [ public ?string $nodeValue ]
     Property [ public ?string $textContent ]
+    Property [ public Dom\\HTMLCollection $children ]
+    Property [ public ?Dom\\Element $firstElementChild ]
+    Property [ public ?Dom\\Element $lastElementChild ]
+    Property [ public int $childElementCount ]
     Property [ public Dom\\Implementation $implementation ]
     Property [ public string $URL ]
     Property [ public string $documentURI ]
@@ -2043,9 +2060,6 @@ return array (
     Property [ public string $inputEncoding ]
     Property [ public ?Dom\\DocumentType $doctype ]
     Property [ public ?Dom\\Element $documentElement ]
-    Property [ public ?Dom\\Element $firstElementChild ]
-    Property [ public ?Dom\\Element $lastElementChild ]
-    Property [ public int $childElementCount ]
     Property [ public ?Dom\\HTMLElement $body ]
     Property [ public ?Dom\\HTMLElement $head ]
     Property [ public string $title ]

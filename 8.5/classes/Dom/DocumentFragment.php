@@ -951,6 +951,19 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
+    'children' => 
+    array (
+      'name' => 'children',
+      'class' => 'Dom\\DocumentFragment',
+      'type' => 'Dom\\HTMLCollection',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
     'firstElementChild' => 
     array (
       'name' => 'firstElementChild',
@@ -1009,7 +1022,7 @@ return array (
   - Static methods [0] {
   }
 
-  - Properties [17] {
+  - Properties [18] {
     Property [ public int $nodeType ]
     Property [ public string $nodeName ]
     Property [ public string $baseURI ]
@@ -1024,6 +1037,7 @@ return array (
     Property [ public ?Dom\\Node $nextSibling ]
     Property [ public ?string $nodeValue ]
     Property [ public ?string $textContent ]
+    Property [ public Dom\\HTMLCollection $children ]
     Property [ public ?Dom\\Element $firstElementChild ]
     Property [ public ?Dom\\Element $lastElementChild ]
     Property [ public int $childElementCount ]

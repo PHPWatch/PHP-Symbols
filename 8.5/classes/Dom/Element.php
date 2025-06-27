@@ -1892,50 +1892,11 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
-    'id' => 
+    'children' => 
     array (
-      'name' => 'id',
+      'name' => 'children',
       'class' => 'Dom\\Element',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'className' => 
-    array (
-      'name' => 'className',
-      'class' => 'Dom\\Element',
-      'type' => 'string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'classList' => 
-    array (
-      'name' => 'classList',
-      'class' => 'Dom\\Element',
-      'type' => 'Dom\\TokenList',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
-    'attributes' => 
-    array (
-      'name' => 'attributes',
-      'class' => 'Dom\\Element',
-      'type' => 'Dom\\NamedNodeMap',
+      'type' => 'Dom\\HTMLCollection',
       'has_default_value' => false,
       'default_value' => NULL,
       'is_static' => false,
@@ -2009,6 +1970,58 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
+    'id' => 
+    array (
+      'name' => 'id',
+      'class' => 'Dom\\Element',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'className' => 
+    array (
+      'name' => 'className',
+      'class' => 'Dom\\Element',
+      'type' => 'string',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'classList' => 
+    array (
+      'name' => 'classList',
+      'class' => 'Dom\\Element',
+      'type' => 'Dom\\TokenList',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'attributes' => 
+    array (
+      'name' => 'attributes',
+      'class' => 'Dom\\Element',
+      'type' => 'Dom\\NamedNodeMap',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
     'innerHTML' => 
     array (
       'name' => 'innerHTML',
@@ -2067,7 +2080,7 @@ return array (
   - Static methods [0] {
   }
 
-  - Properties [30] {
+  - Properties [31] {
     Property [ public int $nodeType ]
     Property [ public string $nodeName ]
     Property [ public string $baseURI ]
@@ -2086,15 +2099,16 @@ return array (
     Property [ public ?string $prefix ]
     Property [ public string $localName ]
     Property [ public string $tagName ]
-    Property [ public string $id ]
-    Property [ public string $className ]
-    Property [ public Dom\\TokenList $classList ]
-    Property [ public Dom\\NamedNodeMap $attributes ]
+    Property [ public Dom\\HTMLCollection $children ]
     Property [ public ?Dom\\Element $firstElementChild ]
     Property [ public ?Dom\\Element $lastElementChild ]
     Property [ public int $childElementCount ]
     Property [ public ?Dom\\Element $previousElementSibling ]
     Property [ public ?Dom\\Element $nextElementSibling ]
+    Property [ public string $id ]
+    Property [ public string $className ]
+    Property [ public Dom\\TokenList $classList ]
+    Property [ public Dom\\NamedNodeMap $attributes ]
     Property [ public string $innerHTML ]
     Property [ public string $outerHTML ]
     Property [ public string $substitutedNodeValue ]
