@@ -118,6 +118,8 @@ return array (
   'MessageFormatter',
   'IntlDateFormatter',
   'ResourceBundle',
+  'OCI-Lob',
+  'OCI-Collection',
   'mysqli_sql_exception',
   'mysqli_driver',
   'mysqli',
