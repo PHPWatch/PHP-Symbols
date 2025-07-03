@@ -28,7 +28,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.1.32
+PHP Version => 8.1.33
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
