@@ -286,6 +286,7 @@ return array (
   'tidy',
   'tidyNode',
   'PhpToken',
+  'Uri\\Rfc3986\\Uri',
   'Uri\\WhatWg\\Url',
   'Uri\\UriComparisonMode',
   'Uri\\UriException',
