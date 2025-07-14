@@ -394,6 +394,30 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getElementsByClassName' => 
+    array (
+      'name' => 'getElementsByClassName',
+      'class' => 'Dom\\Document',
+      'parameters' => 
+      array (
+        'classNames' => 
+        array (
+          'position' => 0,
+          'name' => 'classNames',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'Dom\\HTMLCollection',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'createElement' => 
     array (
       'name' => 'createElement',
@@ -2069,7 +2093,7 @@ return array (
     Property [ public bool $formatOutput ]
   }
 
-  - Methods [51] {
+  - Methods [52] {
     Method [ <internal:dom> public method createEntityReference ] {
 
       - Parameters [1] {
@@ -2124,6 +2148,14 @@ return array (
       - Parameters [2] {
         Parameter #0 [ <required> ?string $namespace ]
         Parameter #1 [ <required> string $localName ]
+      }
+      - Return [ Dom\\HTMLCollection ]
+    }
+
+    Method [ <internal:dom, inherits Dom\\Document> public method getElementsByClassName ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $classNames ]
       }
       - Return [ Dom\\HTMLCollection ]
     }
