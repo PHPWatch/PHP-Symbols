@@ -447,6 +447,7 @@ Openssl default config => /usr/lib/ssl/openssl.cnf
 Directive => Local Value => Master Value
 openssl.cafile => no value => no value
 openssl.capath => no value => no value
+openssl.libctx => custom => custom
 
 pcntl
 
@@ -732,8 +733,8 @@ Cache misses => 1
 Used memory => 9179840
 Free memory => 125037888
 Wasted memory => 0
-Interned Strings Used memory => 2609304
-Interned Strings Free memory => 5779304
+Interned Strings Used memory => 2609392
+Interned Strings Free memory => 5779216
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229

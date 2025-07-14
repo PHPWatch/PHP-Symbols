@@ -630,6 +630,12 @@ return array (
       'local_value' => NULL,
       'access' => 2,
     ),
+    'openssl.libctx' => 
+    array (
+      'global_value' => 'custom',
+      'local_value' => 'custom',
+      'access' => 2,
+    ),
   ),
   'pcre' => 
   array (

@@ -175,5 +175,6 @@ return array (
   array (
     'openssl.cafile' => NULL,
     'openssl.capath' => NULL,
+    'openssl.libctx' => 'custom',
   ),
 );
