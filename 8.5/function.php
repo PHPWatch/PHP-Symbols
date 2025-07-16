@@ -2167,6 +2167,7 @@ return array (
   'opcache_jit_blacklist',
   'opcache_get_configuration',
   'opcache_is_script_cached',
+  'opcache_is_script_cached_in_file_cache',
   'dl',
   'cli_set_process_title',
   'cli_get_process_title',

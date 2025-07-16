@@ -39,6 +39,7 @@ return array (
     'opcache_jit_blacklist' => 'opcache_jit_blacklist',
     'opcache_get_configuration' => 'opcache_get_configuration',
     'opcache_is_script_cached' => 'opcache_is_script_cached',
+    'opcache_is_script_cached_in_file_cache' => 'opcache_is_script_cached_in_file_cache',
   ),
   'constants' => 
   array (
