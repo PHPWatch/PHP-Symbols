@@ -33,8 +33,9 @@ return array (
   'extension' => 'Core',
   'toString' => 'Function [ <internal:Core> function clone ] {
 
-  - Parameters [1] {
+  - Parameters [2] {
     Parameter #0 [ <required> object $object ]
+    Parameter #1 [ <optional> array $withProperties = [] ]
   }
   - Return [ object ]
 }
