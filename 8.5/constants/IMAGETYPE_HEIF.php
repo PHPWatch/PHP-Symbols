@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'IMAGETYPE_COUNT',
+  'name' => 'IMAGETYPE_HEIF',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'IMAGETYPE_COUNT',
+    'name' => 'IMAGETYPE_HEIF',
     'description' => '',
     'keywords' => 
     array (
@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => 21,
+  'value' => 20,
   'extension' => 'standard',
 );
