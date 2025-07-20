@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'IMAGETYPE_COUNT',
+  'name' => 'IMAGETYPE_SVG',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'IMAGETYPE_COUNT',
+    'name' => 'IMAGETYPE_SVG',
     'description' => '',
     'keywords' => 
     array (
@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => 22,
+  'value' => 21,
   'extension' => 'standard',
 );

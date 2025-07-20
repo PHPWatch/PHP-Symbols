@@ -706,7 +706,7 @@ return array (
     'IMAGETYPE_AVIF' => 19,
     'IMAGETYPE_HEIF' => 20,
     'IMAGETYPE_UNKNOWN' => 0,
-    'IMAGETYPE_COUNT' => 21,
+    'IMAGETYPE_COUNT' => 22,
     'INFO_GENERAL' => 1,
     'INFO_CREDITS' => 2,
     'INFO_CONFIGURATION' => 4,
@@ -979,6 +979,7 @@ return array (
     'STREAM_META_GROUP' => 5,
     'STREAM_META_GROUP_NAME' => 4,
     'STREAM_META_ACCESS' => 6,
+    'IMAGETYPE_SVG' => 21,
   ),
   'dependencies' => 
   array (

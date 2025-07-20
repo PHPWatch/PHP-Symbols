@@ -613,7 +613,7 @@ return array (
       'access' => 7,
     ),
   ),
-  'libxml' => 
+  'json' => 
   array (
   ),
   'openssl' => 
@@ -733,7 +733,7 @@ return array (
   'lexbor' => 
   array (
   ),
-  'dom' => 
+  'SPL' => 
   array (
   ),
   'enchant' => 
@@ -806,117 +806,6 @@ return array (
       'global_value' => NULL,
       'local_value' => NULL,
       'access' => 7,
-    ),
-  ),
-  'json' => 
-  array (
-  ),
-  'FFI' => 
-  array (
-    'ffi.enable' => 
-    array (
-      'global_value' => 'preload',
-      'local_value' => 'preload',
-      'access' => 4,
-    ),
-    'ffi.preload' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 4,
-    ),
-  ),
-  'fileinfo' => 
-  array (
-  ),
-  'filter' => 
-  array (
-    'filter.default' => 
-    array (
-      'global_value' => 'unsafe_raw',
-      'local_value' => 'unsafe_raw',
-      'access' => 6,
-    ),
-    'filter.default_flags' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 6,
-    ),
-  ),
-  'ftp' => 
-  array (
-  ),
-  'gd' => 
-  array (
-    'gd.jpeg_ignore_warning' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-  ),
-  'gettext' => 
-  array (
-  ),
-  'gmp' => 
-  array (
-  ),
-  'hash' => 
-  array (
-  ),
-  'iconv' => 
-  array (
-    'iconv.input_encoding' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'iconv.internal_encoding' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'iconv.output_encoding' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-  ),
-  'intl' => 
-  array (
-    'intl.default_locale' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'intl.error_level' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'intl.use_exceptions' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-  ),
-  'SPL' => 
-  array (
-  ),
-  'ldap' => 
-  array (
-    'ldap.max_links' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
     ),
   ),
   'session' => 
@@ -1105,6 +994,102 @@ return array (
       'deprecated' => 'Enabling session.use_trans_sid INI setting is deprecated',
     ),
   ),
+  'FFI' => 
+  array (
+    'ffi.enable' => 
+    array (
+      'global_value' => 'preload',
+      'local_value' => 'preload',
+      'access' => 4,
+    ),
+    'ffi.preload' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 4,
+    ),
+  ),
+  'fileinfo' => 
+  array (
+  ),
+  'filter' => 
+  array (
+    'filter.default' => 
+    array (
+      'global_value' => 'unsafe_raw',
+      'local_value' => 'unsafe_raw',
+      'access' => 6,
+    ),
+    'filter.default_flags' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 6,
+    ),
+  ),
+  'ftp' => 
+  array (
+  ),
+  'gd' => 
+  array (
+    'gd.jpeg_ignore_warning' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+  ),
+  'gettext' => 
+  array (
+  ),
+  'gmp' => 
+  array (
+  ),
+  'hash' => 
+  array (
+  ),
+  'iconv' => 
+  array (
+    'iconv.input_encoding' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'iconv.internal_encoding' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'iconv.output_encoding' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+  ),
+  'intl' => 
+  array (
+    'intl.default_locale' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'intl.error_level' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'intl.use_exceptions' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+  ),
   'standard' => 
   array (
     'assert.active' => 
@@ -1195,6 +1180,57 @@ return array (
     array (
       'global_value' => NULL,
       'local_value' => NULL,
+      'access' => 7,
+    ),
+  ),
+  'ldap' => 
+  array (
+    'ldap.max_links' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+  ),
+  'libxml' => 
+  array (
+  ),
+  'exif' => 
+  array (
+    'exif.decode_jis_intel' => 
+    array (
+      'global_value' => 'JIS',
+      'local_value' => 'JIS',
+      'access' => 7,
+    ),
+    'exif.decode_jis_motorola' => 
+    array (
+      'global_value' => 'JIS',
+      'local_value' => 'JIS',
+      'access' => 7,
+    ),
+    'exif.decode_unicode_intel' => 
+    array (
+      'global_value' => 'UCS-2LE',
+      'local_value' => 'UCS-2LE',
+      'access' => 7,
+    ),
+    'exif.decode_unicode_motorola' => 
+    array (
+      'global_value' => 'UCS-2BE',
+      'local_value' => 'UCS-2BE',
+      'access' => 7,
+    ),
+    'exif.encode_jis' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'exif.encode_unicode' => 
+    array (
+      'global_value' => 'ISO-8859-15',
+      'local_value' => 'ISO-8859-15',
       'access' => 7,
     ),
   ),
@@ -1486,44 +1522,8 @@ return array (
   'Reflection' => 
   array (
   ),
-  'exif' => 
+  'dom' => 
   array (
-    'exif.decode_jis_intel' => 
-    array (
-      'global_value' => 'JIS',
-      'local_value' => 'JIS',
-      'access' => 7,
-    ),
-    'exif.decode_jis_motorola' => 
-    array (
-      'global_value' => 'JIS',
-      'local_value' => 'JIS',
-      'access' => 7,
-    ),
-    'exif.decode_unicode_intel' => 
-    array (
-      'global_value' => 'UCS-2LE',
-      'local_value' => 'UCS-2LE',
-      'access' => 7,
-    ),
-    'exif.decode_unicode_motorola' => 
-    array (
-      'global_value' => 'UCS-2BE',
-      'local_value' => 'UCS-2BE',
-      'access' => 7,
-    ),
-    'exif.encode_jis' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'exif.encode_unicode' => 
-    array (
-      'global_value' => 'ISO-8859-15',
-      'local_value' => 'ISO-8859-15',
-      'access' => 7,
-    ),
   ),
   'shmop' => 
   array (
