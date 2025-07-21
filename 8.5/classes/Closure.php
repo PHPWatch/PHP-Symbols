@@ -180,6 +180,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getCurrent' => 
+    array (
+      'name' => 'getCurrent',
+      'class' => 'Closure',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'Closure',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     '__invoke' => 
     array (
       'name' => '__invoke',
@@ -210,7 +224,7 @@ return array (
   - Static properties [0] {
   }
 
-  - Static methods [2] {
+  - Static methods [3] {
     Method [ <internal:Core> static public method bind ] {
 
       - Parameters [3] {
@@ -225,6 +239,13 @@ return array (
 
       - Parameters [1] {
         Parameter #0 [ <required> callable $callback ]
+      }
+      - Return [ Closure ]
+    }
+
+    Method [ <internal:Core> static public method getCurrent ] {
+
+      - Parameters [0] {
       }
       - Return [ Closure ]
     }
