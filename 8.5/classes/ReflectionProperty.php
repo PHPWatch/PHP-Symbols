@@ -196,6 +196,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getMangledName' => 
+    array (
+      'name' => 'getMangledName',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getValue' => 
     array (
       'name' => 'getValue',
@@ -908,7 +922,7 @@ return array (
     Property [ public string $class ]
   }
 
-  - Methods [39] {
+  - Methods [40] {
     Method [ <internal:Reflection> private method __clone ] {
 
       - Parameters [0] {
@@ -936,6 +950,13 @@ return array (
       - Parameters [0] {
       }
       - Tentative return [ string ]
+    }
+
+    Method [ <internal:Reflection> public method getMangledName ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
     }
 
     Method [ <internal:Reflection> public method getValue ] {
