@@ -33,11 +33,12 @@ return array (
   'extension' => 'openssl',
   'toString' => 'Function [ <internal:openssl> function openssl_public_encrypt ] {
 
-  - Parameters [4] {
+  - Parameters [5] {
     Parameter #0 [ <required> string $data ]
     Parameter #1 [ <required> &$encrypted_data ]
     Parameter #2 [ <required> $public_key ]
     Parameter #3 [ <optional> int $padding = OPENSSL_PKCS1_PADDING ]
+    Parameter #4 [ <optional> ?string $digest_algo = null ]
   }
   - Return [ bool ]
 }
