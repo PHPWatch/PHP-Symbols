@@ -1411,213 +1411,6 @@ return array (
       'access' => 4,
     ),
   ),
-  'pcntl' => 
-  array (
-  ),
-  'PDO' => 
-  array (
-  ),
-  'pdo_dblib' => 
-  array (
-  ),
-  'pdo_mysql' => 
-  array (
-    'pdo_mysql.default_socket' => 
-    array (
-      'global_value' => '/tmp/mysql.sock',
-      'local_value' => '/tmp/mysql.sock',
-      'access' => 4,
-    ),
-  ),
-  'PDO_ODBC' => 
-  array (
-  ),
-  'pdo_pgsql' => 
-  array (
-  ),
-  'pdo_sqlite' => 
-  array (
-  ),
-  'pgsql' => 
-  array (
-    'pgsql.allow_persistent' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'pgsql.auto_reset_persistent' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 4,
-    ),
-    'pgsql.ignore_notice' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'pgsql.log_notice' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'pgsql.max_links' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-    'pgsql.max_persistent' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-  ),
-  'Phar' => 
-  array (
-    'phar.cache_list' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 4,
-    ),
-    'phar.readonly' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'phar.require_hash' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-  ),
-  'posix' => 
-  array (
-  ),
-  'random' => 
-  array (
-  ),
-  'readline' => 
-  array (
-    'cli.pager' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'cli.prompt' => 
-    array (
-      'global_value' => '\\b \\> ',
-      'local_value' => '\\b \\> ',
-      'access' => 7,
-    ),
-  ),
-  'Reflection' => 
-  array (
-  ),
-  'dom' => 
-  array (
-  ),
-  'shmop' => 
-  array (
-  ),
-  'SimpleXML' => 
-  array (
-  ),
-  'snmp' => 
-  array (
-  ),
-  'soap' => 
-  array (
-    'soap.wsdl_cache' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'soap.wsdl_cache_dir' => 
-    array (
-      'global_value' => '/tmp',
-      'local_value' => '/tmp',
-      'access' => 7,
-    ),
-    'soap.wsdl_cache_enabled' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'soap.wsdl_cache_limit' => 
-    array (
-      'global_value' => '5',
-      'local_value' => '5',
-      'access' => 7,
-    ),
-    'soap.wsdl_cache_ttl' => 
-    array (
-      'global_value' => '86400',
-      'local_value' => '86400',
-      'access' => 7,
-    ),
-  ),
-  'sockets' => 
-  array (
-  ),
-  'sodium' => 
-  array (
-  ),
-  'sysvmsg' => 
-  array (
-  ),
-  'sysvsem' => 
-  array (
-  ),
-  'sysvshm' => 
-  array (
-  ),
-  'tidy' => 
-  array (
-    'tidy.clean_output' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 1,
-    ),
-    'tidy.default_config' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 4,
-    ),
-  ),
-  'tokenizer' => 
-  array (
-  ),
-  'uri' => 
-  array (
-  ),
-  'xml' => 
-  array (
-  ),
-  'xmlreader' => 
-  array (
-  ),
-  'xmlwriter' => 
-  array (
-  ),
-  'xsl' => 
-  array (
-  ),
-  'zip' => 
-  array (
-  ),
   'Zend OPcache' => 
   array (
     'opcache.blacklist_filename' => 
@@ -1944,5 +1737,212 @@ return array (
       'local_value' => '1',
       'access' => 7,
     ),
+  ),
+  'pcntl' => 
+  array (
+  ),
+  'PDO' => 
+  array (
+  ),
+  'pdo_dblib' => 
+  array (
+  ),
+  'pdo_mysql' => 
+  array (
+    'pdo_mysql.default_socket' => 
+    array (
+      'global_value' => '/tmp/mysql.sock',
+      'local_value' => '/tmp/mysql.sock',
+      'access' => 4,
+    ),
+  ),
+  'PDO_ODBC' => 
+  array (
+  ),
+  'pdo_pgsql' => 
+  array (
+  ),
+  'pdo_sqlite' => 
+  array (
+  ),
+  'pgsql' => 
+  array (
+    'pgsql.allow_persistent' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 4,
+    ),
+    'pgsql.auto_reset_persistent' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'pgsql.ignore_notice' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'pgsql.log_notice' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'pgsql.max_links' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+    'pgsql.max_persistent' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+  ),
+  'Phar' => 
+  array (
+    'phar.cache_list' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 4,
+    ),
+    'phar.readonly' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+    'phar.require_hash' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+  ),
+  'posix' => 
+  array (
+  ),
+  'random' => 
+  array (
+  ),
+  'readline' => 
+  array (
+    'cli.pager' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'cli.prompt' => 
+    array (
+      'global_value' => '\\b \\> ',
+      'local_value' => '\\b \\> ',
+      'access' => 7,
+    ),
+  ),
+  'Reflection' => 
+  array (
+  ),
+  'dom' => 
+  array (
+  ),
+  'shmop' => 
+  array (
+  ),
+  'SimpleXML' => 
+  array (
+  ),
+  'snmp' => 
+  array (
+  ),
+  'soap' => 
+  array (
+    'soap.wsdl_cache' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+    'soap.wsdl_cache_dir' => 
+    array (
+      'global_value' => '/tmp',
+      'local_value' => '/tmp',
+      'access' => 7,
+    ),
+    'soap.wsdl_cache_enabled' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+    'soap.wsdl_cache_limit' => 
+    array (
+      'global_value' => '5',
+      'local_value' => '5',
+      'access' => 7,
+    ),
+    'soap.wsdl_cache_ttl' => 
+    array (
+      'global_value' => '86400',
+      'local_value' => '86400',
+      'access' => 7,
+    ),
+  ),
+  'sockets' => 
+  array (
+  ),
+  'sodium' => 
+  array (
+  ),
+  'sysvmsg' => 
+  array (
+  ),
+  'sysvsem' => 
+  array (
+  ),
+  'sysvshm' => 
+  array (
+  ),
+  'tidy' => 
+  array (
+    'tidy.clean_output' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 1,
+    ),
+    'tidy.default_config' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 4,
+    ),
+  ),
+  'tokenizer' => 
+  array (
+  ),
+  'uri' => 
+  array (
+  ),
+  'xml' => 
+  array (
+  ),
+  'xmlreader' => 
+  array (
+  ),
+  'xmlwriter' => 
+  array (
+  ),
+  'xsl' => 
+  array (
+  ),
+  'zip' => 
+  array (
   ),
 );

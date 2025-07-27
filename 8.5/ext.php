@@ -36,6 +36,7 @@ return array (
   'mysqlnd',
   'mysqli',
   'odbc',
+  'Zend OPcache',
   'pcntl',
   'PDO',
   'pdo_dblib',
@@ -67,5 +68,4 @@ return array (
   'xmlwriter',
   'xsl',
   'zip',
-  'Zend OPcache',
 );
