@@ -210,6 +210,8 @@ return array (
   'mysqli_warning',
   'mysqli_result',
   'mysqli_stmt',
+  'OCILob',
+  'OCICollection',
   'PgSql\\Connection',
   'PgSql\\Result',
   'PgSql\\Lob',
