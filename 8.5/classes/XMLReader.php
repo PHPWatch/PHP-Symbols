@@ -1222,20 +1222,20 @@ return array (
   }
 
   - Properties [14] {
-    Property [ public int $attributeCount ]
-    Property [ public string $baseURI ]
-    Property [ public int $depth ]
-    Property [ public bool $hasAttributes ]
-    Property [ public bool $hasValue ]
-    Property [ public bool $isDefault ]
-    Property [ public bool $isEmptyElement ]
-    Property [ public string $localName ]
-    Property [ public string $name ]
-    Property [ public string $namespaceURI ]
-    Property [ public int $nodeType ]
-    Property [ public string $prefix ]
-    Property [ public string $value ]
-    Property [ public string $xmlLang ]
+    Property [ public virtual int $attributeCount ]
+    Property [ public virtual string $baseURI ]
+    Property [ public virtual int $depth ]
+    Property [ public virtual bool $hasAttributes ]
+    Property [ public virtual bool $hasValue ]
+    Property [ public virtual bool $isDefault ]
+    Property [ public virtual bool $isEmptyElement ]
+    Property [ public virtual string $localName ]
+    Property [ public virtual string $name ]
+    Property [ public virtual string $namespaceURI ]
+    Property [ public virtual int $nodeType ]
+    Property [ public virtual string $prefix ]
+    Property [ public virtual string $value ]
+    Property [ public virtual string $xmlLang ]
   }
 
   - Methods [23] {

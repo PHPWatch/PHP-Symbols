@@ -413,13 +413,13 @@ return array (
   }
 
   - Properties [7] {
-    Property [ public ?DateTimeInterface $start ]
-    Property [ public ?DateTimeInterface $current ]
-    Property [ public ?DateTimeInterface $end ]
-    Property [ public ?DateInterval $interval ]
-    Property [ public int $recurrences ]
-    Property [ public bool $include_start_date ]
-    Property [ public bool $include_end_date ]
+    Property [ public virtual ?DateTimeInterface $start ]
+    Property [ public virtual ?DateTimeInterface $current ]
+    Property [ public virtual ?DateTimeInterface $end ]
+    Property [ public virtual ?DateInterval $interval ]
+    Property [ public virtual int $recurrences ]
+    Property [ public virtual bool $include_start_date ]
+    Property [ public virtual bool $include_end_date ]
   }
 
   - Methods [9] {

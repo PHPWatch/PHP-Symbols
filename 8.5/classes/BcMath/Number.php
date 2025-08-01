@@ -555,8 +555,8 @@ return array (
   }
 
   - Properties [2] {
-    Property [ public protected(set) readonly string $value ]
-    Property [ public protected(set) readonly int $scale ]
+    Property [ public protected(set) readonly virtual string $value ]
+    Property [ public protected(set) readonly virtual int $scale ]
   }
 
   - Methods [17] {

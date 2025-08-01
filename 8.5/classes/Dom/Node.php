@@ -840,20 +840,20 @@ return array (
   }
 
   - Properties [14] {
-    Property [ public int $nodeType ]
-    Property [ public string $nodeName ]
-    Property [ public string $baseURI ]
-    Property [ public bool $isConnected ]
-    Property [ public ?Dom\\Document $ownerDocument ]
-    Property [ public ?Dom\\Node $parentNode ]
-    Property [ public ?Dom\\Element $parentElement ]
-    Property [ public Dom\\NodeList $childNodes ]
-    Property [ public ?Dom\\Node $firstChild ]
-    Property [ public ?Dom\\Node $lastChild ]
-    Property [ public ?Dom\\Node $previousSibling ]
-    Property [ public ?Dom\\Node $nextSibling ]
-    Property [ public ?string $nodeValue ]
-    Property [ public ?string $textContent ]
+    Property [ public virtual int $nodeType ]
+    Property [ public virtual string $nodeName ]
+    Property [ public virtual string $baseURI ]
+    Property [ public virtual bool $isConnected ]
+    Property [ public virtual ?Dom\\Document $ownerDocument ]
+    Property [ public virtual ?Dom\\Node $parentNode ]
+    Property [ public virtual ?Dom\\Element $parentElement ]
+    Property [ public virtual Dom\\NodeList $childNodes ]
+    Property [ public virtual ?Dom\\Node $firstChild ]
+    Property [ public virtual ?Dom\\Node $lastChild ]
+    Property [ public virtual ?Dom\\Node $previousSibling ]
+    Property [ public virtual ?Dom\\Node $nextSibling ]
+    Property [ public virtual ?string $nodeValue ]
+    Property [ public virtual ?string $textContent ]
   }
 
   - Methods [22] {

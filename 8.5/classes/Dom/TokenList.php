@@ -309,8 +309,8 @@ return array (
   }
 
   - Properties [2] {
-    Property [ public int $length ]
-    Property [ public string $value ]
+    Property [ public virtual int $length ]
+    Property [ public virtual string $value ]
   }
 
   - Methods [10] {

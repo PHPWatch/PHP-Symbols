@@ -208,16 +208,16 @@ return array (
   }
 
   - Properties [10] {
-    Property [ public string $nodeName ]
-    Property [ public ?string $nodeValue ]
-    Property [ public int $nodeType ]
-    Property [ public string $prefix ]
-    Property [ public ?string $localName ]
-    Property [ public ?string $namespaceURI ]
-    Property [ public bool $isConnected ]
-    Property [ public ?DOMDocument $ownerDocument ]
-    Property [ public ?DOMNode $parentNode ]
-    Property [ public ?DOMElement $parentElement ]
+    Property [ public virtual string $nodeName ]
+    Property [ public virtual ?string $nodeValue ]
+    Property [ public virtual int $nodeType ]
+    Property [ public virtual string $prefix ]
+    Property [ public virtual ?string $localName ]
+    Property [ public virtual ?string $namespaceURI ]
+    Property [ public virtual bool $isConnected ]
+    Property [ public virtual ?DOMDocument $ownerDocument ]
+    Property [ public virtual ?DOMNode $parentNode ]
+    Property [ public virtual ?DOMElement $parentElement ]
   }
 
   - Methods [2] {

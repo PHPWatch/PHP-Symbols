@@ -142,7 +142,7 @@ return array (
   }
 
   - Properties [1] {
-    Property [ public int $length ]
+    Property [ public virtual int $length ]
   }
 
   - Methods [4] {
