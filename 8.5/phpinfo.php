@@ -84,6 +84,7 @@ max_file_uploads => 20 => 20
 max_input_nesting_level => 64 => 64
 max_input_time => -1 => -1
 max_input_vars => 1000 => 1000
+max_memory_limit => -1 => -1
 max_multipart_body_parts => -1 => -1
 memory_limit => 128M => 128M
 open_basedir => no value => no value
@@ -733,8 +734,8 @@ Cache misses => 1
 Used memory => 9179840
 Free memory => 125037888
 Wasted memory => 0
-Interned Strings Used memory => 2610128
-Interned Strings Free memory => 5778480
+Interned Strings Used memory => 2610176
+Interned Strings Free memory => 5778432
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229
