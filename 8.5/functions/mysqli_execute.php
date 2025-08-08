@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,7 +31,7 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'mysqli',
-  'toString' => 'Function [ <internal:mysqli> function mysqli_execute ] {
+  'toString' => 'Function [ <internal, deprecated:mysqli> function mysqli_execute ] {
 
   - Parameters [2] {
     Parameter #0 [ <required> mysqli_stmt $statement ]
@@ -40,4 +40,19 @@ return array (
   - Return [ bool ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.5',
+          'message' => 'use mysqli_stmt_execute() instead',
+        ),
+      ),
+    ),
+  ),
 );

@@ -35,7 +35,7 @@ return array (
 
   - Parameters [2] {
     Parameter #0 [ <required> IntlCalendar $calendar ]
-    Parameter #1 [ <required> $timezone ]
+    Parameter #1 [ <required> IntlTimeZone|DateTimeZone|string|null $timezone ]
   }
   - Return [ bool ]
 }

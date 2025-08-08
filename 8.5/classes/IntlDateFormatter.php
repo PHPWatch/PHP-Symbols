@@ -178,7 +178,7 @@ return array (
         array (
           'position' => 3,
           'name' => 'timezone',
-          'type' => NULL,
+          'type' => 'IntlTimeZone|DateTimeZone|string|null',
           'is_optional' => true,
           'has_default_value' => true,
           'has_default_value_constant' => false,
@@ -252,7 +252,7 @@ return array (
         array (
           'position' => 3,
           'name' => 'timezone',
-          'type' => NULL,
+          'type' => 'IntlTimeZone|DateTimeZone|string|null',
           'is_optional' => true,
           'has_default_value' => true,
           'has_default_value_constant' => false,
@@ -404,7 +404,7 @@ return array (
         array (
           'position' => 0,
           'name' => 'timezone',
-          'type' => NULL,
+          'type' => 'IntlTimeZone|DateTimeZone|string|null',
           'is_optional' => false,
           'has_default_value' => false,
           'has_default_value_constant' => false,
@@ -751,7 +751,7 @@ return array (
         Parameter #0 [ <required> ?string $locale ]
         Parameter #1 [ <optional> int $dateType = IntlDateFormatter::FULL ]
         Parameter #2 [ <optional> int $timeType = IntlDateFormatter::FULL ]
-        Parameter #3 [ <optional> $timezone = null ]
+        Parameter #3 [ <optional> IntlTimeZone|DateTimeZone|string|null $timezone = null ]
         Parameter #4 [ <optional> IntlCalendar|int|null $calendar = null ]
         Parameter #5 [ <optional> ?string $pattern = null ]
       }
@@ -779,7 +779,7 @@ return array (
         Parameter #0 [ <required> ?string $locale ]
         Parameter #1 [ <optional> int $dateType = IntlDateFormatter::FULL ]
         Parameter #2 [ <optional> int $timeType = IntlDateFormatter::FULL ]
-        Parameter #3 [ <optional> $timezone = null ]
+        Parameter #3 [ <optional> IntlTimeZone|DateTimeZone|string|null $timezone = null ]
         Parameter #4 [ <optional> $calendar = null ]
         Parameter #5 [ <optional> ?string $pattern = null ]
       }
@@ -838,7 +838,7 @@ return array (
     Method [ <internal:intl> public method setTimeZone ] {
 
       - Parameters [1] {
-        Parameter #0 [ <required> $timezone ]
+        Parameter #0 [ <required> IntlTimeZone|DateTimeZone|string|null $timezone ]
       }
       - Tentative return [ bool ]
     }

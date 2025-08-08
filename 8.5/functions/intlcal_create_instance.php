@@ -34,7 +34,7 @@ return array (
   'toString' => 'Function [ <internal:intl> function intlcal_create_instance ] {
 
   - Parameters [2] {
-    Parameter #0 [ <optional> $timezone = null ]
+    Parameter #0 [ <optional> IntlTimeZone|DateTimeZone|string|null $timezone = null ]
     Parameter #1 [ <optional> ?string $locale = null ]
   }
   - Return [ ?IntlCalendar ]

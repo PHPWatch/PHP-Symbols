@@ -1064,7 +1064,7 @@ return array (
       - Return [ bool ]
     }
 
-    Method [ <internal:Reflection> public method setAccessible ] {
+    Method [ <internal, deprecated:Reflection> public method setAccessible ] {
 
       - Parameters [1] {
         Parameter #0 [ <required> bool $accessible ]

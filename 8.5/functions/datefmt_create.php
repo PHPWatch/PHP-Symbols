@@ -37,7 +37,7 @@ return array (
     Parameter #0 [ <required> ?string $locale ]
     Parameter #1 [ <optional> int $dateType = IntlDateFormatter::FULL ]
     Parameter #2 [ <optional> int $timeType = IntlDateFormatter::FULL ]
-    Parameter #3 [ <optional> $timezone = null ]
+    Parameter #3 [ <optional> IntlTimeZone|DateTimeZone|string|null $timezone = null ]
     Parameter #4 [ <optional> IntlCalendar|int|null $calendar = null ]
     Parameter #5 [ <optional> ?string $pattern = null ]
   }

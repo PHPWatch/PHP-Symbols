@@ -405,7 +405,7 @@ return array (
         array (
           'position' => 0,
           'name' => 'timezone',
-          'type' => NULL,
+          'type' => 'IntlTimeZone|DateTimeZone|string|null',
           'is_optional' => true,
           'has_default_value' => true,
           'has_default_value_constant' => false,
@@ -1545,7 +1545,7 @@ return array (
         array (
           'position' => 0,
           'name' => 'timezone',
-          'type' => NULL,
+          'type' => 'IntlTimeZone|DateTimeZone|string|null',
           'is_optional' => false,
           'has_default_value' => false,
           'has_default_value_constant' => false,
@@ -1632,7 +1632,7 @@ return array (
     Method [ <internal:intl> static public method createInstance ] {
 
       - Parameters [2] {
-        Parameter #0 [ <optional> $timezone = null ]
+        Parameter #0 [ <optional> IntlTimeZone|DateTimeZone|string|null $timezone = null ]
         Parameter #1 [ <optional> ?string $locale = null ]
       }
       - Tentative return [ ?IntlCalendar ]
@@ -2009,7 +2009,7 @@ return array (
     Method [ <internal:intl> public method setTimeZone ] {
 
       - Parameters [1] {
-        Parameter #0 [ <required> $timezone ]
+        Parameter #0 [ <required> IntlTimeZone|DateTimeZone|string|null $timezone ]
       }
       - Tentative return [ bool ]
     }

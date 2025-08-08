@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,7 +31,7 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'standard',
-  'toString' => 'Function [ <internal:standard> function socket_set_timeout ] {
+  'toString' => 'Function [ <internal, deprecated:standard> function socket_set_timeout ] {
 
   - Parameters [3] {
     Parameter #0 [ <required> $stream ]
@@ -41,4 +41,19 @@ return array (
   - Return [ bool ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.5',
+          'message' => 'use stream_set_timeout() instead',
+        ),
+      ),
+    ),
+  ),
 );

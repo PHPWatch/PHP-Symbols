@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,7 +31,7 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'fileinfo',
-  'toString' => 'Function [ <internal:fileinfo> function finfo_close ] {
+  'toString' => 'Function [ <internal, deprecated:fileinfo> function finfo_close ] {
 
   - Parameters [1] {
     Parameter #0 [ <required> finfo $finfo ]
@@ -39,4 +39,19 @@ return array (
   - Return [ true ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.5',
+          'message' => 'as finfo objects are freed automatically',
+        ),
+      ),
+    ),
+  ),
 );

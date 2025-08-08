@@ -1131,7 +1131,7 @@ return array (
       - Tentative return [ string|false ]
     }
 
-    Method [ <internal:Reflection> public method setAccessible ] {
+    Method [ <internal, deprecated:Reflection> public method setAccessible ] {
 
       - Parameters [1] {
         Parameter #0 [ <required> bool $accessible ]
