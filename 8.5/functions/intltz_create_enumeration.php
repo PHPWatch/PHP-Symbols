@@ -34,7 +34,7 @@ return array (
   'toString' => 'Function [ <internal:intl> function intltz_create_enumeration ] {
 
   - Parameters [1] {
-    Parameter #0 [ <optional> $countryOrRawOffset = null ]
+    Parameter #0 [ <optional> string|int|null $countryOrRawOffset = null ]
   }
   - Return [ IntlIterator|false ]
 }

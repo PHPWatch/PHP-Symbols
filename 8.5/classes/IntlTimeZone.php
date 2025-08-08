@@ -191,7 +191,7 @@ return array (
         array (
           'position' => 0,
           'name' => 'countryOrRawOffset',
-          'type' => NULL,
+          'type' => 'string|int|null',
           'is_optional' => true,
           'has_default_value' => true,
           'has_default_value_constant' => false,
@@ -779,7 +779,7 @@ return array (
     Method [ <internal:intl> static public method createEnumeration ] {
 
       - Parameters [1] {
-        Parameter #0 [ <optional> $countryOrRawOffset = null ]
+        Parameter #0 [ <optional> string|int|null $countryOrRawOffset = null ]
       }
       - Tentative return [ IntlIterator|false ]
     }
