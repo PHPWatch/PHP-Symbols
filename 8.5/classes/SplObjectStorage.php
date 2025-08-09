@@ -589,7 +589,7 @@ return array (
   }
 
   - Methods [25] {
-    Method [ <internal:SPL> public method attach ] {
+    Method [ <internal, deprecated:SPL> public method attach ] {
 
       - Parameters [2] {
         Parameter #0 [ <required> object $object ]
@@ -598,7 +598,7 @@ return array (
       - Tentative return [ void ]
     }
 
-    Method [ <internal:SPL> public method detach ] {
+    Method [ <internal, deprecated:SPL> public method detach ] {
 
       - Parameters [1] {
         Parameter #0 [ <required> object $object ]
@@ -606,7 +606,7 @@ return array (
       - Tentative return [ void ]
     }
 
-    Method [ <internal:SPL> public method contains ] {
+    Method [ <internal, deprecated:SPL> public method contains ] {
 
       - Parameters [1] {
         Parameter #0 [ <required> object $object ]
