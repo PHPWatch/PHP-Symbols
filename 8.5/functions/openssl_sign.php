@@ -33,11 +33,12 @@ return array (
   'extension' => 'openssl',
   'toString' => 'Function [ <internal:openssl> function openssl_sign ] {
 
-  - Parameters [4] {
+  - Parameters [5] {
     Parameter #0 [ <required> string $data ]
     Parameter #1 [ <required> &$signature ]
     Parameter #2 [ <required> $private_key ]
     Parameter #3 [ <optional> string|int $algorithm = OPENSSL_ALGO_SHA1 ]
+    Parameter #4 [ <optional> int $padding = 0 ]
   }
   - Return [ bool ]
 }
