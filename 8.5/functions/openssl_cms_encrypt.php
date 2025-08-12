@@ -40,7 +40,7 @@ return array (
     Parameter #3 [ <required> ?array $headers ]
     Parameter #4 [ <optional> int $flags = 0 ]
     Parameter #5 [ <optional> int $encoding = OPENSSL_ENCODING_SMIME ]
-    Parameter #6 [ <optional> int $cipher_algo = OPENSSL_CIPHER_AES_128_CBC ]
+    Parameter #6 [ <optional> string|int $cipher_algo = OPENSSL_CIPHER_AES_128_CBC ]
   }
   - Return [ bool ]
 }

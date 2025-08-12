@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,7 +31,7 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'gd',
-  'toString' => 'Function [ <internal:gd> function imagedestroy ] {
+  'toString' => 'Function [ <internal, deprecated:gd> function imagedestroy ] {
 
   - Parameters [1] {
     Parameter #0 [ <required> GdImage $image ]
@@ -39,4 +39,19 @@ return array (
   - Return [ true ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.5',
+          'message' => 'as it has no effect since PHP 8.0',
+        ),
+      ),
+    ),
+  ),
 );
