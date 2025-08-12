@@ -12,8 +12,8 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => false,
-    'deprecated_message' => NULL,
+    'deprecated' => true,
+    'deprecated_message' => 'Constant DATE_RFC7231 is deprecated since 8.5, as this format ignores the associated timezone and always uses GMT',
     'removed' => NULL,
     'resources' => 
     array (

@@ -107,6 +107,7 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
       'type' => 'string',
+      'isDeprecated' => true,
     ),
     'RFC2822' => 
     array (
