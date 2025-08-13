@@ -424,7 +424,6 @@ ODBC Support => enabled
 Active Persistent Links => 0
 Active Links => 0
 ODBC library => unixODBC
-ODBCVER => 0x0380
 ODBC_CFLAGS =>  
 ODBC_LFLAGS =>  
 ODBC_LIBS => -lodbc 
