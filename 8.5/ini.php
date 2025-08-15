@@ -852,6 +852,12 @@ return array (
       'local_value' => '0',
       'access' => 7,
     ),
+    'session.cookie_partitioned' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
     'session.cookie_path' => 
     array (
       'global_value' => '/',

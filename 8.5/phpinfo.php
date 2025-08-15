@@ -569,6 +569,7 @@ session.cache_limiter => nocache => nocache
 session.cookie_domain => no value => no value
 session.cookie_httponly => Off => Off
 session.cookie_lifetime => 0 => 0
+session.cookie_partitioned => Off => Off
 session.cookie_path => / => /
 session.cookie_samesite => no value => no value
 session.cookie_secure => Off => Off
@@ -733,8 +734,8 @@ Cache misses => 1
 Used memory => 9179840
 Free memory => 125037888
 Wasted memory => 0
-Interned Strings Used memory => 2610424
-Interned Strings Free memory => 5778184
+Interned Strings Used memory => 2610480
+Interned Strings Free memory => 5778128
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229

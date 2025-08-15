@@ -77,6 +77,7 @@ return array (
     'session.cookie_domain' => '',
     'session.cookie_httponly' => '0',
     'session.cookie_lifetime' => '0',
+    'session.cookie_partitioned' => '0',
     'session.cookie_path' => '/',
     'session.cookie_samesite' => '',
     'session.cookie_secure' => '0',
