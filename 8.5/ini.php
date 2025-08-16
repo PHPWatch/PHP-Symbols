@@ -398,6 +398,7 @@ return array (
       'global_value' => '1',
       'local_value' => '1',
       'access' => 7,
+      'deprecated' => 'Directive \'report_memleaks\' is deprecated',
     ),
     'report_zend_debug' => 
     array (
