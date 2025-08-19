@@ -620,7 +620,7 @@ return array (
       'access' => 7,
     ),
   ),
-  'json' => 
+  'lexbor' => 
   array (
   ),
   'openssl' => 
@@ -737,10 +737,10 @@ return array (
       'access' => 7,
     ),
   ),
-  'lexbor' => 
+  'uri' => 
   array (
   ),
-  'SPL' => 
+  'json' => 
   array (
   ),
   'enchant' => 
@@ -812,6 +812,106 @@ return array (
     array (
       'global_value' => NULL,
       'local_value' => NULL,
+      'access' => 7,
+    ),
+  ),
+  'SPL' => 
+  array (
+  ),
+  'FFI' => 
+  array (
+    'ffi.enable' => 
+    array (
+      'global_value' => 'preload',
+      'local_value' => 'preload',
+      'access' => 4,
+    ),
+    'ffi.preload' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 4,
+    ),
+  ),
+  'fileinfo' => 
+  array (
+  ),
+  'filter' => 
+  array (
+    'filter.default' => 
+    array (
+      'global_value' => 'unsafe_raw',
+      'local_value' => 'unsafe_raw',
+      'access' => 6,
+    ),
+    'filter.default_flags' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 6,
+    ),
+  ),
+  'ftp' => 
+  array (
+  ),
+  'gd' => 
+  array (
+    'gd.jpeg_ignore_warning' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+  ),
+  'gettext' => 
+  array (
+  ),
+  'gmp' => 
+  array (
+  ),
+  'hash' => 
+  array (
+  ),
+  'iconv' => 
+  array (
+    'iconv.input_encoding' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'iconv.internal_encoding' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'iconv.output_encoding' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+  ),
+  'intl' => 
+  array (
+    'intl.default_locale' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'intl.error_level' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+      'deprecated' => 'Using a value different than 0 for intl.error_level is deprecated, as the intl.error_level INI setting is deprecated. Instead the intl.use_exceptions INI setting should be enabled to throw exceptions on errors or intl_get_error_code()/intl_get_error_message() should be used to manually deal with errors',
+    ),
+    'intl.use_exceptions' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
       'access' => 7,
     ),
   ),
@@ -1004,101 +1104,13 @@ return array (
       'access' => 7,
     ),
   ),
-  'FFI' => 
+  'ldap' => 
   array (
-    'ffi.enable' => 
+    'ldap.max_links' => 
     array (
-      'global_value' => 'preload',
-      'local_value' => 'preload',
+      'global_value' => '-1',
+      'local_value' => '-1',
       'access' => 4,
-    ),
-    'ffi.preload' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 4,
-    ),
-  ),
-  'fileinfo' => 
-  array (
-  ),
-  'filter' => 
-  array (
-    'filter.default' => 
-    array (
-      'global_value' => 'unsafe_raw',
-      'local_value' => 'unsafe_raw',
-      'access' => 6,
-    ),
-    'filter.default_flags' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 6,
-    ),
-  ),
-  'ftp' => 
-  array (
-  ),
-  'gd' => 
-  array (
-    'gd.jpeg_ignore_warning' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-  ),
-  'gettext' => 
-  array (
-  ),
-  'gmp' => 
-  array (
-  ),
-  'hash' => 
-  array (
-  ),
-  'iconv' => 
-  array (
-    'iconv.input_encoding' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'iconv.internal_encoding' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'iconv.output_encoding' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-  ),
-  'intl' => 
-  array (
-    'intl.default_locale' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'intl.error_level' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-      'deprecated' => 'Using a value different than 0 for intl.error_level is deprecated, as the intl.error_level INI setting is deprecated. Instead the intl.use_exceptions INI setting should be enabled to throw exceptions on errors or intl_get_error_code()/intl_get_error_message() should be used to manually deal with errors',
-    ),
-    'intl.use_exceptions' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
     ),
   ),
   'standard' => 
@@ -1194,56 +1206,8 @@ return array (
       'access' => 7,
     ),
   ),
-  'ldap' => 
-  array (
-    'ldap.max_links' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-  ),
   'libxml' => 
   array (
-  ),
-  'exif' => 
-  array (
-    'exif.decode_jis_intel' => 
-    array (
-      'global_value' => 'JIS',
-      'local_value' => 'JIS',
-      'access' => 7,
-    ),
-    'exif.decode_jis_motorola' => 
-    array (
-      'global_value' => 'JIS',
-      'local_value' => 'JIS',
-      'access' => 7,
-    ),
-    'exif.decode_unicode_intel' => 
-    array (
-      'global_value' => 'UCS-2LE',
-      'local_value' => 'UCS-2LE',
-      'access' => 7,
-    ),
-    'exif.decode_unicode_motorola' => 
-    array (
-      'global_value' => 'UCS-2BE',
-      'local_value' => 'UCS-2BE',
-      'access' => 7,
-    ),
-    'exif.encode_jis' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'exif.encode_unicode' => 
-    array (
-      'global_value' => 'ISO-8859-15',
-      'local_value' => 'ISO-8859-15',
-      'access' => 7,
-    ),
   ),
   'mysqlnd' => 
   array (
@@ -1860,8 +1824,44 @@ return array (
   'Reflection' => 
   array (
   ),
-  'dom' => 
+  'exif' => 
   array (
+    'exif.decode_jis_intel' => 
+    array (
+      'global_value' => 'JIS',
+      'local_value' => 'JIS',
+      'access' => 7,
+    ),
+    'exif.decode_jis_motorola' => 
+    array (
+      'global_value' => 'JIS',
+      'local_value' => 'JIS',
+      'access' => 7,
+    ),
+    'exif.decode_unicode_intel' => 
+    array (
+      'global_value' => 'UCS-2LE',
+      'local_value' => 'UCS-2LE',
+      'access' => 7,
+    ),
+    'exif.decode_unicode_motorola' => 
+    array (
+      'global_value' => 'UCS-2BE',
+      'local_value' => 'UCS-2BE',
+      'access' => 7,
+    ),
+    'exif.encode_jis' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'exif.encode_unicode' => 
+    array (
+      'global_value' => 'ISO-8859-15',
+      'local_value' => 'ISO-8859-15',
+      'access' => 7,
+    ),
   ),
   'shmop' => 
   array (
@@ -1938,7 +1938,7 @@ return array (
   'tokenizer' => 
   array (
   ),
-  'uri' => 
+  'dom' => 
   array (
   ),
   'xml' => 

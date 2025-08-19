@@ -302,6 +302,16 @@ return array (
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
+        'uriParserClass' => 
+        array (
+          'position' => 5,
+          'name' => 'uriParserClass',
+          'type' => '?string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
       ),
       'return_type' => NULL,
       'has_return_type' => false,
@@ -1008,12 +1018,13 @@ return array (
 
     Method [ <internal:soap> public method __doRequest ] {
 
-      - Parameters [5] {
+      - Parameters [6] {
         Parameter #0 [ <required> string $request ]
         Parameter #1 [ <required> string $location ]
         Parameter #2 [ <required> string $action ]
         Parameter #3 [ <required> int $version ]
         Parameter #4 [ <optional> bool $oneWay = false ]
+        Parameter #5 [ <optional> ?string $uriParserClass = null ]
       }
       - Tentative return [ ?string ]
     }
