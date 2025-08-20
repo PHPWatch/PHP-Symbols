@@ -8,4 +8,5 @@ return array (
   'Override',
   'Deprecated',
   'NoDiscard',
+  'DelayedTargetValidation',
 );

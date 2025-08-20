@@ -58,11 +58,12 @@ return array (
     31 => 'Override',
     32 => 'Deprecated',
     33 => 'NoDiscard',
-    34 => 'UnitEnum',
-    35 => 'BackedEnum',
-    36 => 'Fiber',
-    37 => 'FiberError',
-    38 => 'stdClass',
+    34 => 'DelayedTargetValidation',
+    35 => 'UnitEnum',
+    36 => 'BackedEnum',
+    37 => 'Fiber',
+    38 => 'FiberError',
+    39 => 'stdClass',
   ),
   'functions' => 
   array (

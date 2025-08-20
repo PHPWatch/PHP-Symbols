@@ -27,6 +27,7 @@ return array (
   'Override',
   'Deprecated',
   'NoDiscard',
+  'DelayedTargetValidation',
   'Fiber',
   'FiberError',
   'stdClass',
