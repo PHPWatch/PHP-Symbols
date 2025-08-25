@@ -41,7 +41,6 @@ auto_prepend_file => no value => no value
 browscap => no value => no value
 default_charset => UTF-8 => UTF-8
 default_mimetype => text/html => text/html
-disable_classes => no value => no value
 disable_functions => no value => no value
 display_errors => STDOUT => STDOUT
 display_startup_errors => On => On
@@ -734,8 +733,8 @@ Cache misses => 1
 Used memory => 9179840
 Free memory => 125037888
 Wasted memory => 0
-Interned Strings Used memory => 2610592
-Interned Strings Free memory => 5778016
+Interned Strings Used memory => 2610544
+Interned Strings Free memory => 5778064
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229

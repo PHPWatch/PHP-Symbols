@@ -236,7 +236,6 @@ return array (
     'browscap' => NULL,
     'default_charset' => 'UTF-8',
     'default_mimetype' => 'text/html',
-    'disable_classes' => '',
     'disable_functions' => '',
     'display_errors' => '1',
     'display_startup_errors' => '1',

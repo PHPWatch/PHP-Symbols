@@ -63,12 +63,6 @@ return array (
       'local_value' => 'text/html',
       'access' => 7,
     ),
-    'disable_classes' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 4,
-    ),
     'disable_functions' => 
     array (
       'global_value' => '',
