@@ -13,7 +13,7 @@ return array (
     ),
     'added' => '0.0',
     'deprecated' => true,
-    'deprecated_message' => 'Constant U_MULTIPLE_DECIMAL_SEPERATORS is deprecated',
+    'deprecated_message' => 'Constant U_MULTIPLE_DECIMAL_SEPERATORS is deprecated since 8.3, use U_MULTIPLE_DECIMAL_SEPARATORS instead',
     'removed' => NULL,
     'resources' => 
     array (
