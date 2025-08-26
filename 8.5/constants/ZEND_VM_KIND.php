@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'FILTER_FLAG_GLOBAL_RANGE',
+  'name' => 'ZEND_VM_KIND',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'FILTER_FLAG_GLOBAL_RANGE',
+    'name' => 'ZEND_VM_KIND',
     'description' => '',
     'keywords' => 
     array (
@@ -17,8 +17,13 @@ return array (
     'removed' => NULL,
     'resources' => 
     array (
+      0 => 
+      array (
+        'name' => 'ZEND_VM_KIND constant (php.net)',
+        'url' => 'https://www.php.net/manual/reserved.constants.php#constant.zend-vm-kind',
+      ),
     ),
   ),
-  'value' => 536870912,
-  'extension' => 'filter',
+  'value' => 'ZEND_VM_KIND_HYBRID',
+  'extension' => 'Core',
 );

@@ -152,6 +152,7 @@ return array (
     'DEBUG_BACKTRACE_IGNORE_ARGS' => 2,
     'ZEND_THREAD_SAFE' => false,
     'ZEND_DEBUG_BUILD' => false,
+    'ZEND_VM_KIND' => 'ZEND_VM_KIND_HYBRID',
     'TRUE' => true,
     'FALSE' => false,
     'NULL' => NULL,

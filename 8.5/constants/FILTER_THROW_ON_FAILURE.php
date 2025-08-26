@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'constant',
-  'name' => 'FILTER_FLAG_GLOBAL_RANGE',
+  'name' => 'FILTER_THROW_ON_FAILURE',
   'meta' => 
   array (
     'type' => 'constant',
-    'name' => 'FILTER_FLAG_GLOBAL_RANGE',
+    'name' => 'FILTER_THROW_ON_FAILURE',
     'description' => '',
     'keywords' => 
     array (
@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => 536870912,
+  'value' => 268435456,
   'extension' => 'filter',
 );

@@ -129,6 +129,8 @@ return array (
   'FFI\\CData',
   'FFI\\CType',
   'finfo',
+  'Filter\\FilterException',
+  'Filter\\FilterFailedException',
   'FTP\\Connection',
   'GdImage',
   'GdFont',

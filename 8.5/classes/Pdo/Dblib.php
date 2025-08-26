@@ -700,6 +700,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'DBLIB_ATTR_QUERY_TIMEOUT' => 
     array (
@@ -708,6 +709,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'DBLIB_ATTR_STRINGIFY_UNIQUEIDENTIFIER' => 
     array (
@@ -716,6 +718,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'DBLIB_ATTR_VERSION' => 
     array (
@@ -724,6 +727,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'DBLIB_ATTR_TDS_VERSION' => 
     array (
@@ -732,6 +736,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'DBLIB_ATTR_SKIP_EMPTY_ROWSETS' => 
     array (
@@ -740,6 +745,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'DBLIB_ATTR_DATETIME_CONVERT' => 
     array (
@@ -748,6 +754,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'ATTR_CONNECTION_TIMEOUT' => 
     array (

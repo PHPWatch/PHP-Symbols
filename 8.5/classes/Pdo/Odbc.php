@@ -700,6 +700,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'DBLIB_ATTR_QUERY_TIMEOUT' => 
     array (
@@ -708,6 +709,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'DBLIB_ATTR_STRINGIFY_UNIQUEIDENTIFIER' => 
     array (
@@ -716,6 +718,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'DBLIB_ATTR_VERSION' => 
     array (
@@ -724,6 +727,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'DBLIB_ATTR_TDS_VERSION' => 
     array (
@@ -732,6 +736,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'DBLIB_ATTR_SKIP_EMPTY_ROWSETS' => 
     array (
@@ -740,6 +745,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'DBLIB_ATTR_DATETIME_CONVERT' => 
     array (
@@ -748,6 +754,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'MYSQL_ATTR_USE_BUFFERED_QUERY' => 
     array (
@@ -756,6 +763,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'MYSQL_ATTR_LOCAL_INFILE' => 
     array (
@@ -764,6 +772,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'MYSQL_ATTR_INIT_COMMAND' => 
     array (
@@ -772,6 +781,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'MYSQL_ATTR_COMPRESS' => 
     array (
@@ -780,6 +790,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'MYSQL_ATTR_DIRECT_QUERY' => 
     array (
@@ -788,6 +799,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'MYSQL_ATTR_FOUND_ROWS' => 
     array (
@@ -796,6 +808,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'MYSQL_ATTR_IGNORE_SPACE' => 
     array (
@@ -804,6 +817,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'MYSQL_ATTR_SSL_KEY' => 
     array (
@@ -812,6 +826,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'MYSQL_ATTR_SSL_CERT' => 
     array (
@@ -820,6 +835,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'MYSQL_ATTR_SSL_CA' => 
     array (
@@ -828,6 +844,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'MYSQL_ATTR_SSL_CAPATH' => 
     array (
@@ -836,6 +853,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'MYSQL_ATTR_SSL_CIPHER' => 
     array (
@@ -844,6 +862,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'MYSQL_ATTR_SERVER_PUBLIC_KEY' => 
     array (
@@ -852,6 +871,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'MYSQL_ATTR_MULTI_STATEMENTS' => 
     array (
@@ -860,6 +880,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'MYSQL_ATTR_SSL_VERIFY_SERVER_CERT' => 
     array (
@@ -868,6 +889,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'MYSQL_ATTR_LOCAL_INFILE_DIRECTORY' => 
     array (
@@ -876,6 +898,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'ODBC_ATTR_USE_CURSOR_LIBRARY' => 
     array (
@@ -884,6 +907,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'ODBC_ATTR_ASSUME_UTF8' => 
     array (
@@ -892,6 +916,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'ODBC_SQL_USE_IF_NEEDED' => 
     array (
@@ -900,6 +925,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'ODBC_SQL_USE_DRIVER' => 
     array (
@@ -908,6 +934,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'ODBC_SQL_USE_ODBC' => 
     array (
@@ -916,6 +943,7 @@ return array (
 ',
       'visibility' => 1,
       'isFinal' => false,
+      'isDeprecated' => true,
     ),
     'ATTR_USE_CURSOR_LIBRARY' => 
     array (

@@ -29,6 +29,8 @@ return array (
   ),
   'classes' => 
   array (
+    0 => 'Filter\\FilterException',
+    1 => 'Filter\\FilterFailedException',
   ),
   'functions' => 
   array (
@@ -52,6 +54,7 @@ return array (
     'FILTER_REQUIRE_ARRAY' => 16777216,
     'FILTER_FORCE_ARRAY' => 67108864,
     'FILTER_NULL_ON_FAILURE' => 134217728,
+    'FILTER_THROW_ON_FAILURE' => 268435456,
     'FILTER_VALIDATE_INT' => 257,
     'FILTER_VALIDATE_BOOLEAN' => 258,
     'FILTER_VALIDATE_BOOL' => 258,
@@ -94,7 +97,7 @@ return array (
     'FILTER_FLAG_IPV6' => 2097152,
     'FILTER_FLAG_NO_RES_RANGE' => 4194304,
     'FILTER_FLAG_NO_PRIV_RANGE' => 8388608,
-    'FILTER_FLAG_GLOBAL_RANGE' => 268435456,
+    'FILTER_FLAG_GLOBAL_RANGE' => 536870912,
     'FILTER_FLAG_HOSTNAME' => 1048576,
     'FILTER_FLAG_EMAIL_UNICODE' => 1048576,
   ),
