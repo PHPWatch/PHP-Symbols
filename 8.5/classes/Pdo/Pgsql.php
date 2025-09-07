@@ -1025,6 +1025,7 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
       'type' => 'int',
+      'isDeprecated' => true,
     ),
     'TRANSACTION_ACTIVE' => 
     array (
@@ -1034,6 +1035,7 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
       'type' => 'int',
+      'isDeprecated' => true,
     ),
     'TRANSACTION_INTRANS' => 
     array (
@@ -1043,6 +1045,7 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
       'type' => 'int',
+      'isDeprecated' => true,
     ),
     'TRANSACTION_INERROR' => 
     array (
@@ -1052,6 +1055,7 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
       'type' => 'int',
+      'isDeprecated' => true,
     ),
     'TRANSACTION_UNKNOWN' => 
     array (
@@ -1061,6 +1065,7 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
       'type' => 'int',
+      'isDeprecated' => true,
     ),
   ),
   'methods' => 
