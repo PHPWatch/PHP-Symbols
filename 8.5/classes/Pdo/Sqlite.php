@@ -1143,6 +1143,42 @@ return array (
       'isFinal' => false,
       'type' => 'int',
     ),
+    'ATTR_TRANSACTION_MODE' => 
+    array (
+      'value' => 1005,
+      'toString' => 'Constant [ public int ATTR_TRANSACTION_MODE ] { 1005 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TRANSACTION_MODE_DEFERRED' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int TRANSACTION_MODE_DEFERRED ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TRANSACTION_MODE_IMMEDIATE' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int TRANSACTION_MODE_IMMEDIATE ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'TRANSACTION_MODE_EXCLUSIVE' => 
+    array (
+      'value' => 2,
+      'toString' => 'Constant [ public int TRANSACTION_MODE_EXCLUSIVE ] { 2 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
     'EXPLAIN_MODE_PREPARED' => 
     array (
       'value' => 0,
@@ -1888,7 +1924,7 @@ return array (
   'extension' => 'pdo_sqlite',
   'toString' => 'Class [ <internal:pdo_sqlite> class Pdo\\Sqlite extends PDO ] {
 
-  - Constants [130] {
+  - Constants [134] {
     Constant [ public int PARAM_NULL ] { 0 }
     Constant [ public int PARAM_BOOL ] { 5 }
     Constant [ public int PARAM_INT ] { 1 }
@@ -2013,6 +2049,10 @@ return array (
     Constant [ public int ATTR_EXTENDED_RESULT_CODES ] { 1002 }
     Constant [ public int ATTR_BUSY_STATEMENT ] { 1003 }
     Constant [ public int ATTR_EXPLAIN_STATEMENT ] { 1004 }
+    Constant [ public int ATTR_TRANSACTION_MODE ] { 1005 }
+    Constant [ public int TRANSACTION_MODE_DEFERRED ] { 0 }
+    Constant [ public int TRANSACTION_MODE_IMMEDIATE ] { 1 }
+    Constant [ public int TRANSACTION_MODE_EXCLUSIVE ] { 2 }
     Constant [ public int EXPLAIN_MODE_PREPARED ] { 0 }
     Constant [ public int EXPLAIN_MODE_EXPLAIN ] { 1 }
     Constant [ public int EXPLAIN_MODE_EXPLAIN_QUERY_PLAN ] { 2 }
