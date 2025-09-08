@@ -271,6 +271,7 @@ return array (
     'internal_encoding' => NULL,
     'log_errors' => '0',
     'mail.add_x_header' => '0',
+    'mail.cr_lf_mode' => 'crlf',
     'mail.force_extra_parameters' => NULL,
     'mail.log' => NULL,
     'mail.mixed_lf_and_crlf' => '0',

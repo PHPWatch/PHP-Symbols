@@ -267,6 +267,12 @@ return array (
       'local_value' => '0',
       'access' => 6,
     ),
+    'mail.cr_lf_mode' => 
+    array (
+      'global_value' => 'crlf',
+      'local_value' => 'crlf',
+      'access' => 6,
+    ),
     'mail.force_extra_parameters' => 
     array (
       'global_value' => NULL,

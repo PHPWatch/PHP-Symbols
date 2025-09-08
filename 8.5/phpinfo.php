@@ -75,6 +75,7 @@ input_encoding => no value => no value
 internal_encoding => no value => no value
 log_errors => Off => Off
 mail.add_x_header => Off => Off
+mail.cr_lf_mode => crlf => crlf
 mail.force_extra_parameters => no value => no value
 mail.log => no value => no value
 mail.mixed_lf_and_crlf => Off => Off
@@ -733,8 +734,8 @@ Cache misses => 1
 Used memory => 9179840
 Free memory => 125037888
 Wasted memory => 0
-Interned Strings Used memory => 2611256
-Interned Strings Free memory => 5777352
+Interned Strings Used memory => 2611344
+Interned Strings Free memory => 5777264
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229
