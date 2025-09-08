@@ -126,6 +126,30 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'withScheme' => 
+    array (
+      'name' => 'withScheme',
+      'class' => 'Uri\\Rfc3986\\Uri',
+      'parameters' => 
+      array (
+        'scheme' => 
+        array (
+          'position' => 0,
+          'name' => 'scheme',
+          'type' => '?string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'static',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getUserInfo' => 
     array (
       'name' => 'getUserInfo',
@@ -148,6 +172,30 @@ return array (
       array (
       ),
       'return_type' => '?string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'withUserInfo' => 
+    array (
+      'name' => 'withUserInfo',
+      'class' => 'Uri\\Rfc3986\\Uri',
+      'parameters' => 
+      array (
+        'userinfo' => 
+        array (
+          'position' => 0,
+          'name' => 'userinfo',
+          'type' => '?string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'static',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -238,6 +286,30 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'withHost' => 
+    array (
+      'name' => 'withHost',
+      'class' => 'Uri\\Rfc3986\\Uri',
+      'parameters' => 
+      array (
+        'host' => 
+        array (
+          'position' => 0,
+          'name' => 'host',
+          'type' => '?string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'static',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getPort' => 
     array (
       'name' => 'getPort',
@@ -246,6 +318,30 @@ return array (
       array (
       ),
       'return_type' => '?int',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'withPort' => 
+    array (
+      'name' => 'withPort',
+      'class' => 'Uri\\Rfc3986\\Uri',
+      'parameters' => 
+      array (
+        'port' => 
+        array (
+          'position' => 0,
+          'name' => 'port',
+          'type' => '?int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'static',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -280,6 +376,30 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'withPath' => 
+    array (
+      'name' => 'withPath',
+      'class' => 'Uri\\Rfc3986\\Uri',
+      'parameters' => 
+      array (
+        'path' => 
+        array (
+          'position' => 0,
+          'name' => 'path',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'static',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getQuery' => 
     array (
       'name' => 'getQuery',
@@ -308,6 +428,30 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'withQuery' => 
+    array (
+      'name' => 'withQuery',
+      'class' => 'Uri\\Rfc3986\\Uri',
+      'parameters' => 
+      array (
+        'query' => 
+        array (
+          'position' => 0,
+          'name' => 'query',
+          'type' => '?string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'static',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getFragment' => 
     array (
       'name' => 'getFragment',
@@ -330,6 +474,30 @@ return array (
       array (
       ),
       'return_type' => '?string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'withFragment' => 
+    array (
+      'name' => 'withFragment',
+      'class' => 'Uri\\Rfc3986\\Uri',
+      'parameters' => 
+      array (
+        'fragment' => 
+        array (
+          'position' => 0,
+          'name' => 'fragment',
+          'type' => '?string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'static',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -504,7 +672,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [25] {
+  - Methods [32] {
     Method [ <internal:uri, ctor> public method __construct ] {
 
       - Parameters [2] {
@@ -527,6 +695,14 @@ return array (
       - Return [ ?string ]
     }
 
+    Method [ <internal:uri> public method withScheme ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $scheme ]
+      }
+      - Return [ static ]
+    }
+
     Method [ <internal:uri> public method getUserInfo ] {
 
       - Parameters [0] {
@@ -539,6 +715,14 @@ return array (
       - Parameters [0] {
       }
       - Return [ ?string ]
+    }
+
+    Method [ <internal:uri> public method withUserInfo ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $userinfo ]
+      }
+      - Return [ static ]
     }
 
     Method [ <internal:uri> public method getUsername ] {
@@ -583,11 +767,27 @@ return array (
       - Return [ ?string ]
     }
 
+    Method [ <internal:uri> public method withHost ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $host ]
+      }
+      - Return [ static ]
+    }
+
     Method [ <internal:uri> public method getPort ] {
 
       - Parameters [0] {
       }
       - Return [ ?int ]
+    }
+
+    Method [ <internal:uri> public method withPort ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?int $port ]
+      }
+      - Return [ static ]
     }
 
     Method [ <internal:uri> public method getPath ] {
@@ -604,6 +804,14 @@ return array (
       - Return [ string ]
     }
 
+    Method [ <internal:uri> public method withPath ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $path ]
+      }
+      - Return [ static ]
+    }
+
     Method [ <internal:uri> public method getQuery ] {
 
       - Parameters [0] {
@@ -618,6 +826,14 @@ return array (
       - Return [ ?string ]
     }
 
+    Method [ <internal:uri> public method withQuery ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $query ]
+      }
+      - Return [ static ]
+    }
+
     Method [ <internal:uri> public method getFragment ] {
 
       - Parameters [0] {
@@ -630,6 +846,14 @@ return array (
       - Parameters [0] {
       }
       - Return [ ?string ]
+    }
+
+    Method [ <internal:uri> public method withFragment ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> ?string $fragment ]
+      }
+      - Return [ static ]
     }
 
     Method [ <internal:uri> public method equals ] {
