@@ -33,10 +33,11 @@ return array (
   'extension' => 'intl',
   'toString' => 'Function [ <internal:intl> function grapheme_strripos ] {
 
-  - Parameters [3] {
+  - Parameters [4] {
     Parameter #0 [ <required> string $haystack ]
     Parameter #1 [ <required> string $needle ]
     Parameter #2 [ <optional> int $offset = 0 ]
+    Parameter #3 [ <optional> string $locale = "" ]
   }
   - Return [ int|false ]
 }

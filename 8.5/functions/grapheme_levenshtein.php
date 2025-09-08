@@ -33,12 +33,13 @@ return array (
   'extension' => 'intl',
   'toString' => 'Function [ <internal:intl> function grapheme_levenshtein ] {
 
-  - Parameters [5] {
+  - Parameters [6] {
     Parameter #0 [ <required> string $string1 ]
     Parameter #1 [ <required> string $string2 ]
     Parameter #2 [ <optional> int $insertion_cost = 1 ]
     Parameter #3 [ <optional> int $replacement_cost = 1 ]
     Parameter #4 [ <optional> int $deletion_cost = 1 ]
+    Parameter #5 [ <optional> string $locale = "" ]
   }
   - Return [ int|false ]
 }

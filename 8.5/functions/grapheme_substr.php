@@ -33,10 +33,11 @@ return array (
   'extension' => 'intl',
   'toString' => 'Function [ <internal:intl> function grapheme_substr ] {
 
-  - Parameters [3] {
+  - Parameters [4] {
     Parameter #0 [ <required> string $string ]
     Parameter #1 [ <required> int $offset ]
     Parameter #2 [ <optional> ?int $length = null ]
+    Parameter #3 [ <optional> string $locale = "" ]
   }
   - Return [ string|false ]
 }

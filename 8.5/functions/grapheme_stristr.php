@@ -33,10 +33,11 @@ return array (
   'extension' => 'intl',
   'toString' => 'Function [ <internal:intl> function grapheme_stristr ] {
 
-  - Parameters [3] {
+  - Parameters [4] {
     Parameter #0 [ <required> string $haystack ]
     Parameter #1 [ <required> string $needle ]
     Parameter #2 [ <optional> bool $beforeNeedle = false ]
+    Parameter #3 [ <optional> string $locale = "" ]
   }
   - Return [ string|false ]
 }
