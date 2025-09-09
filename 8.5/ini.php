@@ -389,8 +389,8 @@ return array (
     ),
     'register_argc_argv' => 
     array (
-      'global_value' => '1',
-      'local_value' => '1',
+      'global_value' => '0',
+      'local_value' => '0',
       'access' => 6,
     ),
     'report_memleaks' => 

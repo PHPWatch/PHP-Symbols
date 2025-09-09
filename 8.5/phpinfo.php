@@ -95,7 +95,7 @@ post_max_size => 8M => 8M
 precision => 14 => 14
 realpath_cache_size => 4096K => 4096K
 realpath_cache_ttl => 120 => 120
-register_argc_argv => On => On
+register_argc_argv => Off => Off
 report_memleaks => On => On
 report_zend_debug => Off => Off
 request_order => no value => no value
