@@ -180,7 +180,7 @@ curl.cainfo => no value => no value
 date
 
 date/time support => enabled
-timelib version => 2022.12
+timelib version => 2022.14
 "Olson" Timezone Database Version => 2025.2
 Timezone Database => internal
 Default timezone => UTC
