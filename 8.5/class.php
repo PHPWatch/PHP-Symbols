@@ -66,6 +66,7 @@ return array (
   'Uri\\WhatWg\\Url',
   'Uri\\UriComparisonMode',
   'Uri\\UriException',
+  'Uri\\UriError',
   'Uri\\InvalidUriException',
   'Uri\\WhatWg\\InvalidUrlException',
   'Uri\\WhatWg\\UrlValidationError',
