@@ -237,7 +237,7 @@ return array (
     ),
   ),
   'extension' => 'Reflection',
-  'toString' => 'Class [ <internal:Reflection> final class ReflectionConstant implements Stringable, Reflector ] {
+  'toString' => 'Class [ <internal:Reflection> class ReflectionConstant implements Stringable, Reflector ] {
 
   - Constants [0] {
   }
@@ -334,7 +334,7 @@ return array (
   }
 }
 ',
-  'modifiers' => 32,
+  'modifiers' => 0,
   'defaultProperties' => 
   array (
   ),
@@ -347,7 +347,7 @@ return array (
   'is_abstract' => false,
   'is_anonymous' => false,
   'is_cloneable' => false,
-  'is_final' => true,
+  'is_final' => false,
   'is_instantiable' => true,
   'is_read_only' => false,
 );
