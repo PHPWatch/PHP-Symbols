@@ -906,7 +906,7 @@ return array (
       - Return [ void ]
     }
 
-    Method [ <internal:date, prototype DateTimeInterface> public method __wakeup ] {
+    Method [ <internal, deprecated:date, prototype DateTimeInterface> public method __wakeup ] {
 
       - Parameters [0] {
       }

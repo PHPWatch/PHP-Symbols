@@ -405,7 +405,7 @@ return array (
       - Tentative return [ DateInterval ]
     }
 
-    Method [ <internal:date> abstract public method __wakeup ] {
+    Method [ <internal, deprecated:date> abstract public method __wakeup ] {
 
       - Parameters [0] {
       }

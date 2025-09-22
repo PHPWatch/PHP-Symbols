@@ -476,7 +476,7 @@ return array (
       - Return [ void ]
     }
 
-    Method [ <internal:date> public method __wakeup ] {
+    Method [ <internal, deprecated:date> public method __wakeup ] {
 
       - Parameters [0] {
       }
