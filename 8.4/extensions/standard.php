@@ -311,6 +311,7 @@ return array (
     'dir' => 'dir',
     'closedir' => 'closedir',
     'chdir' => 'chdir',
+    'chroot' => 'chroot',
     'getcwd' => 'getcwd',
     'rewinddir' => 'rewinddir',
     'readdir' => 'readdir',

@@ -24,6 +24,6 @@ return array (
       ),
     ),
   ),
-  'value' => '/etc/php.d',
+  'value' => '/etc/php/8.4/cli/conf.d',
   'extension' => 'Core',
 );

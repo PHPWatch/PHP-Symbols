@@ -28,7 +28,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.4.14-dev
+PHP Version => 8.4.12
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -43,20 +43,20 @@ default_charset => UTF-8 => UTF-8
 default_mimetype => text/html => text/html
 disable_classes => no value => no value
 disable_functions => no value => no value
-display_errors => STDOUT => STDOUT
-display_startup_errors => On => On
+display_errors => Off => Off
+display_startup_errors => Off => Off
 doc_root => no value => no value
 docref_ext => no value => no value
 docref_root => no value => no value
-enable_dl => On => On
+enable_dl => Off => Off
 enable_post_data_reading => On => On
 error_append_string => no value => no value
 error_log => no value => no value
 error_log_mode => 0644 => 0644
 error_prepend_string => no value => no value
-error_reporting => no value => no value
+error_reporting => 22527 => 22527
 expose_php => On => On
-extension_dir => /usr/lib/php/extensions/no-debug-non-zts-20240924 => /usr/lib/php/extensions/no-debug-non-zts-20240924
+extension_dir => /usr/lib/php/20240924 => /usr/lib/php/20240924
 fiber.stack_size => no value => no value
 file_uploads => On => On
 hard_timeout => 2 => 2
@@ -70,10 +70,10 @@ ignore_repeated_errors => Off => Off
 ignore_repeated_source => Off => Off
 ignore_user_abort => Off => Off
 implicit_flush => On => On
-include_path => .: => .:
+include_path => .:/usr/share/php => .:/usr/share/php
 input_encoding => no value => no value
 internal_encoding => no value => no value
-log_errors => Off => Off
+log_errors => On => On
 mail.add_x_header => Off => Off
 mail.force_extra_parameters => no value => no value
 mail.log => no value => no value
@@ -84,7 +84,7 @@ max_input_nesting_level => 64 => 64
 max_input_time => -1 => -1
 max_input_vars => 1000 => 1000
 max_multipart_body_parts => -1 => -1
-memory_limit => 128M => 128M
+memory_limit => -1 => -1
 open_basedir => no value => no value
 output_buffering => 0 => 0
 output_encoding => no value => no value
@@ -96,11 +96,11 @@ realpath_cache_ttl => 120 => 120
 register_argc_argv => On => On
 report_memleaks => On => On
 report_zend_debug => Off => Off
-request_order => no value => no value
+request_order => GP => GP
 sendmail_from => no value => no value
 sendmail_path => /usr/sbin/sendmail -t -i => /usr/sbin/sendmail -t -i
 serialize_precision => -1 => -1
-short_open_tag => On => On
+short_open_tag => Off => Off
 SMTP => localhost => localhost
 smtp_port => 25 => 25
 sys_temp_dir => no value => no value
@@ -113,14 +113,14 @@ upload_tmp_dir => no value => no value
 user_dir => no value => no value
 user_ini.cache_ttl => 300 => 300
 user_ini.filename => .user.ini => .user.ini
-variables_order => EGPCS => EGPCS
+variables_order => GPCS => GPCS
 xmlrpc_error_number => 0 => 0
 xmlrpc_errors => Off => Off
-zend.assertions => 1 => 1
+zend.assertions => -1 => -1
 zend.detect_unicode => On => On
 zend.enable_gc => On => On
-zend.exception_ignore_args => Off => Off
-zend.exception_string_param_max_len => 15 => 15
+zend.exception_ignore_args => On => On
+zend.exception_string_param_max_len => 0 => 0
 zend.max_allowed_stack_size => 0 => 0
 zend.multibyte => Off => Off
 zend.reserved_stack_size => 0 => 0
@@ -134,8 +134,8 @@ ctype functions => enabled
 curl
 
 cURL support => enabled
-cURL Information => 8.16.0-DEV
-Age => 11
+cURL Information => 8.5.0
+Age => 10
 Features
 AsynchDNS => Yes
 CharConv => No
@@ -165,12 +165,12 @@ HTTP3 => No
 UNICODE => No
 ZSTD => Yes
 HSTS => Yes
-GSASL => Yes
-Protocols => dict, file, ftp, ftps, gopher, gophers, http, https, imap, imaps, ldap, ldaps, mqtt, pop3, pop3s, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp, ws, wss
+GSASL => No
+Protocols => dict, file, ftp, ftps, gopher, gophers, http, https, imap, imaps, ldap, ldaps, mqtt, pop3, pop3s, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp
 Host => x86_64-pc-linux-gnu
 SSL Version => OpenSSL/3.0.13
 ZLib Version => 1.3
-libSSH Version => libssh2/1.11.0
+libSSH Version => libssh/0.10.6/openssl/zlib
 
 Directive => Local Value => Master Value
 curl.cainfo => no value => no value
@@ -178,8 +178,8 @@ curl.cainfo => no value => no value
 date
 
 date/time support => enabled
-timelib version => 2022.14
-"Olson" Timezone Database Version => 2025.2
+timelib version => 2022.12
+"Olson" Timezone Database Version => 0.system
 Timezone Database => internal
 Default timezone => UTC
 
@@ -193,7 +193,7 @@ date.timezone => UTC => UTC
 dba
 
 DBA support => enabled
-Supported handlers => cdb cdb_make inifile flatfile qdbm tcadb lmdb 
+Supported handlers => cdb cdb_make db4 inifile flatfile qdbm lmdb 
 
 Directive => Local Value => Master Value
 dba.default_handler => flatfile => flatfile
@@ -263,19 +263,16 @@ FTPS support => enabled
 gd
 
 GD Support => enabled
-GD Version => bundled (2.1.0 compatible)
+GD headers Version => 2.3.3
+GD library Version => 2.3.3
 FreeType Support => enabled
 FreeType Linkage => with freetype
-FreeType Version => 2.13.2
 GIF Read Support => enabled
 GIF Create Support => enabled
 JPEG Support => enabled
-libJPEG Version => 8
 PNG Support => enabled
-libPNG Version => 1.6.43
 WBMP Support => enabled
 XPM Support => enabled
-libXpm Version => 30411
 XBM Support => enabled
 WebP Support => enabled
 BMP Support => enabled
@@ -377,7 +374,7 @@ mbstring.substitute_character => no value => no value
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.4.14-dev
+Client API library version => mysqlnd 8.4.12
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -388,7 +385,7 @@ mysqli.allow_persistent => On => On
 mysqli.default_host => no value => no value
 mysqli.default_port => 3306 => 3306
 mysqli.default_pw => no value => no value
-mysqli.default_socket => no value => no value
+mysqli.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
 mysqli.default_user => no value => no value
 mysqli.local_infile_directory => no value => no value
 mysqli.max_links => Unlimited => Unlimited
@@ -398,7 +395,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.4.14-dev
+Version => mysqlnd 8.4.12
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -418,9 +415,9 @@ Active Persistent Links => 0
 Active Links => 0
 ODBC library => unixODBC
 ODBCVER => 0x0380
-ODBC_CFLAGS =>  
-ODBC_LFLAGS =>  
-ODBC_LIBS => -lodbc 
+ODBC_CFLAGS => -I/usr/include
+ODBC_LFLAGS => -L/usr/lib/x86_64-linux-gnu
+ODBC_LIBS => -lodbc
 
 Directive => Local Value => Master Value
 odbc.allow_persistent => On => On
@@ -449,8 +446,8 @@ pcntl support => enabled
 pcre
 
 PCRE (Perl Compatible Regular Expressions) Support => enabled
-PCRE Library Version => 10.44 2024-06-07
-PCRE Unicode Version => 15.0.0
+PCRE Library Version => 10.42 2022-12-11
+PCRE Unicode Version => 14.0.0
 PCRE JIT Support => enabled
 PCRE JIT Target => x86 64bit (little endian + unaligned)
 
@@ -462,20 +459,26 @@ pcre.recursion_limit => 100000 => 100000
 PDO
 
 PDO support => enabled
-PDO drivers => dblib, mysql, odbc, pgsql, sqlite
+PDO drivers => dblib, firebird, mysql, odbc, pgsql, sqlite
 
 pdo_dblib
 
 PDO Driver for FreeTDS/Sybase DB-lib => enabled
 Flavour => freetds
 
+PDO_Firebird
+
+PDO Driver for Firebird => enabled
+Client Library Version => LI-V6.3.11.33703 Firebird 3.0
+Firebird API version => 30
+
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.4.14-dev
+Client API version => mysqlnd 8.4.12
 
 Directive => Local Value => Master Value
-pdo_mysql.default_socket => /tmp/mysql.sock => /tmp/mysql.sock
+pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
 
 PDO_ODBC
 
@@ -534,12 +537,12 @@ POSIX support => enabled
 
 random
 
-Version => 8.4.14-dev
+Version => 8.4.12
 
 readline
 
 Readline Support => enabled
-Readline library => 8.2
+Readline library => EditLine wrapper
 
 Directive => Local Value => Master Value
 cli.pager => no value => no value
@@ -565,14 +568,14 @@ session.cookie_lifetime => 0 => 0
 session.cookie_path => / => /
 session.cookie_samesite => no value => no value
 session.cookie_secure => Off => Off
-session.gc_divisor => 100 => 100
+session.gc_divisor => 1000 => 1000
 session.gc_maxlifetime => 1440 => 1440
-session.gc_probability => 1 => 1
+session.gc_probability => 0 => 0
 session.lazy_write => On => On
 session.name => PHPSESSID => PHPSESSID
 session.referer_check => no value => no value
 session.save_handler => files => files
-session.save_path => no value => no value
+session.save_path => /var/lib/php/sessions => /var/lib/php/sessions
 session.serialize_handler => php => php
 session.sid_bits_per_character => 4 => 4
 session.sid_length => 32 => 32
@@ -695,6 +698,14 @@ xmlreader
 
 XMLReader => enabled
 
+xmlrpc
+
+XMLRPC extension version => 1.0.0RC3
+core library version => xmlrpc-epi v. 0.54
+author => Dan Libby
+homepage => http://xmlrpc-epi.sourceforge.net
+open sourced by => Epinions.com
+
 xmlwriter
 
 XMLWriter => enabled
@@ -709,35 +720,18 @@ libexslt Version => 0.8.21
 
 Zend OPcache
 
-Opcode Caching => Up and Running
-Optimization => Enabled
+Opcode Caching => Disabled
+Optimization => Disabled
 SHM Cache => Enabled
 File Cache => Disabled
-JIT => Disabled
-Startup => OK
-Shared memory model => mmap
-Cache hits => 0
-Cache misses => 1
-Used memory => 9179840
-Free memory => 125037888
-Wasted memory => 0
-Interned Strings Used memory => 2600064
-Interned Strings Free memory => 5788544
-Cached scripts => 1
-Cached keys => 2
-Max keys => 16229
-OOM restarts => 0
-Hash keys restarts => 0
-Manual restarts => 0
-Start time => __DYNAMIC__
-Last restart time => none
-Last force restart time => none
+JIT => On
+Startup Failed => Opcode Caching is disabled for CLI
 
 Directive => Local Value => Master Value
 opcache.blacklist_filename => no value => no value
 opcache.dups_fix => Off => Off
 opcache.enable => On => On
-opcache.enable_cli => On => On
+opcache.enable_cli => Off => Off
 opcache.enable_file_override => Off => Off
 opcache.error_log => no value => no value
 opcache.file_cache => no value => no value
@@ -747,11 +741,11 @@ opcache.file_update_protection => 2 => 2
 opcache.force_restart_timeout => 180 => 180
 opcache.huge_code_pages => Off => Off
 opcache.interned_strings_buffer => 8 => 8
-opcache.jit => disable => disable
+opcache.jit => 1235 => 1235
 opcache.jit_bisect_limit => 0 => 0
 opcache.jit_blacklist_root_trace => 16 => 16
 opcache.jit_blacklist_side_trace => 8 => 8
-opcache.jit_buffer_size => 64M => 64M
+opcache.jit_buffer_size => 256M => 256M
 opcache.jit_debug => 0 => 0
 opcache.jit_hot_func => 127 => 127
 opcache.jit_hot_loop => 64 => 64
@@ -932,6 +926,9 @@ PHP Websites Team => Rasmus Lerdorf, Hannes Magnusson, Philip Olson, Lukas Kahwe
 Event Maintainers => Damien Seguy, Daniel P. Brown
 Network Infrastructure => Daniel P. Brown
 Windows Infrastructure => Alex Schoenmaker
+
+                             Debian Packaging                             
+DEB.SURY.ORG, an Ondřej Surý project
 
 PHP License
 This program is free software; you can redistribute it and/or modify

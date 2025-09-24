@@ -41,7 +41,7 @@ return array (
   ),
   'ini' => 
   array (
-    'mysqlnd.collect_memory_statistics' => '0',
+    'mysqlnd.collect_memory_statistics' => '',
     'mysqlnd.collect_statistics' => '1',
     'mysqlnd.debug' => NULL,
     'mysqlnd.log_mask' => '0',

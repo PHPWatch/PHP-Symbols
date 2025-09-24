@@ -149,8 +149,8 @@ return array (
     ),
     'extension_dir' => 
     array (
-      'global_value' => '/usr/lib/php/extensions/no-debug-non-zts-20240925',
-      'local_value' => '/usr/lib/php/extensions/no-debug-non-zts-20240925',
+      'global_value' => '/usr/lib/php/extensions/no-debug-non-zts-20250925',
+      'local_value' => '/usr/lib/php/extensions/no-debug-non-zts-20250925',
       'access' => 4,
     ),
     'fatal_error_backtraces' => 

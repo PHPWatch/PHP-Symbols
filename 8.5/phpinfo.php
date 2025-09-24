@@ -55,7 +55,7 @@ error_log_mode => 0644 => 0644
 error_prepend_string => no value => no value
 error_reporting => no value => no value
 expose_php => On => On
-extension_dir => /usr/lib/php/extensions/no-debug-non-zts-20240925 => /usr/lib/php/extensions/no-debug-non-zts-20240925
+extension_dir => /usr/lib/php/extensions/no-debug-non-zts-20250925 => /usr/lib/php/extensions/no-debug-non-zts-20250925
 fatal_error_backtraces => On => On
 fiber.stack_size => no value => no value
 file_uploads => On => On

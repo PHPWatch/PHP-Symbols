@@ -24,6 +24,6 @@ return array (
       ),
     ),
   ),
-  'value' => '/usr/php/man',
+  'value' => '/usr/share/man',
   'extension' => 'Core',
 );

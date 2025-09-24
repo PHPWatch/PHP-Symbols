@@ -228,7 +228,7 @@ return array (
   ),
   'ini' => 
   array (
-    'tidy.clean_output' => '0',
+    'tidy.clean_output' => '',
     'tidy.default_config' => '',
   ),
 );
