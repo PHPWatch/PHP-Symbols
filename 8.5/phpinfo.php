@@ -805,7 +805,7 @@ opcache.validate_timestamps => On => On
 zip
 
 Zip => enabled
-Zip version => 1.22.6
+Zip version => 1.22.7
 Libzip version => 1.7.3
 BZIP2 compression => Yes
 XZ compression => No
