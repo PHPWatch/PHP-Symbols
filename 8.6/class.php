@@ -140,6 +140,7 @@ return array (
   'Collator',
   'NumberFormatter',
   'IntlListFormatter',
+  'IntlNumberRangeFormatter',
   'Normalizer',
   'Locale',
   'MessageFormatter',
