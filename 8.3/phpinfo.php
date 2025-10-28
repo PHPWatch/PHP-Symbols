@@ -28,7 +28,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.3.26
+PHP Version => 8.3.27
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -178,7 +178,7 @@ curl.cainfo => no value => no value
 date
 
 date/time support => enabled
-timelib version => 2022.12
+timelib version => 2022.14
 "Olson" Timezone Database Version => 0.system
 Timezone Database => internal
 Default timezone => UTC
@@ -385,7 +385,7 @@ mbstring.substitute_character => no value => no value
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.3.26
+Client API library version => mysqlnd 8.3.27
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -406,7 +406,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.3.26
+Version => mysqlnd 8.3.27
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -512,7 +512,7 @@ Client Library Version => LI-V6.3.11.33703 Firebird 3.0
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.3.26
+Client API version => mysqlnd 8.3.27
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -582,7 +582,7 @@ PSpell Support => enabled
 
 random
 
-Version => 8.3.26
+Version => 8.3.27
 
 readline
 
