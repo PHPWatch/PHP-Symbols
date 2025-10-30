@@ -374,7 +374,7 @@ mbstring.substitute_character => no value => no value
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.4.13
+Client API library version => mysqlnd 8.4.14
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -395,7 +395,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.4.13
+Version => mysqlnd 8.4.14
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -475,7 +475,7 @@ Firebird API version => 30
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.4.13
+Client API version => mysqlnd 8.4.14
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -785,7 +785,7 @@ opcache.validate_timestamps => On => On
 zip
 
 Zip => enabled
-Zip version => 1.22.6
+Zip version => 1.22.7
 Libzip version => 1.7.3
 BZIP2 compression => Yes
 XZ compression => No
