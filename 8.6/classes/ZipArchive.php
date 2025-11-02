@@ -1609,6 +1609,94 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'setMtimeIndex' => 
+    array (
+      'name' => 'setMtimeIndex',
+      'class' => 'ZipArchive',
+      'parameters' => 
+      array (
+        'index' => 
+        array (
+          'position' => 0,
+          'name' => 'index',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'timestamp' => 
+        array (
+          'position' => 1,
+          'name' => 'timestamp',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'flags' => 
+        array (
+          'position' => 2,
+          'name' => 'flags',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setMtimeName' => 
+    array (
+      'name' => 'setMtimeName',
+      'class' => 'ZipArchive',
+      'parameters' => 
+      array (
+        'name' => 
+        array (
+          'position' => 0,
+          'name' => 'name',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'timestamp' => 
+        array (
+          'position' => 1,
+          'name' => 'timestamp',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'flags' => 
+        array (
+          'position' => 2,
+          'name' => 'flags',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getCommentIndex' => 
     array (
       'name' => 'getCommentIndex',
@@ -2895,7 +2983,7 @@ return array (
     Property [ public string $comment ]
   }
 
-  - Methods [48] {
+  - Methods [50] {
     Method [ <internal:zip> public method open ] {
 
       - Parameters [2] {
@@ -3070,6 +3158,26 @@ return array (
       - Parameters [2] {
         Parameter #0 [ <required> string $name ]
         Parameter #1 [ <required> string $comment ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:zip> public method setMtimeIndex ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> int $index ]
+        Parameter #1 [ <required> int $timestamp ]
+        Parameter #2 [ <optional> int $flags = 0 ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:zip> public method setMtimeName ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $name ]
+        Parameter #1 [ <required> int $timestamp ]
+        Parameter #2 [ <optional> int $flags = 0 ]
       }
       - Tentative return [ bool ]
     }
