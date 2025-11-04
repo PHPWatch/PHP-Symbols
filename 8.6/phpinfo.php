@@ -456,8 +456,8 @@ pcntl support => enabled
 pcre
 
 PCRE (Perl Compatible Regular Expressions) Support => enabled
-PCRE Library Version => 10.46 2025-08-27
-PCRE Unicode Version => 16.0.0
+PCRE Library Version => 10.44 2024-06-07
+PCRE Unicode Version => 15.0.0
 PCRE JIT Support => enabled
 PCRE JIT Target => x86 64bit (little endian + unaligned)
 

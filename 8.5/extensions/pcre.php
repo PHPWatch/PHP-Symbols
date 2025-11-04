@@ -61,9 +61,9 @@ return array (
     'PREG_BAD_UTF8_ERROR' => 4,
     'PREG_BAD_UTF8_OFFSET_ERROR' => 5,
     'PREG_JIT_STACKLIMIT_ERROR' => 6,
-    'PCRE_VERSION' => '10.46 2025-08-27',
+    'PCRE_VERSION' => '10.44 2024-06-07',
     'PCRE_VERSION_MAJOR' => 10,
-    'PCRE_VERSION_MINOR' => 46,
+    'PCRE_VERSION_MINOR' => 44,
     'PCRE_JIT_SUPPORT' => true,
   ),
   'dependencies' => 
