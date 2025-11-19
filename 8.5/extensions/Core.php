@@ -163,6 +163,7 @@ return array (
     'PHP_EXTRA_VERSION' => '-dev',
     'PHP_VERSION_ID' => '__DYNAMIC__',
     'PHP_BUILD_DATE' => '__DYNAMIC__',
+    'PHP_BUILD_PROVIDER' => '__DYNAMIC__',
     'PHP_ZTS' => false,
     'PHP_DEBUG' => false,
     'PHP_OS' => 'Linux',

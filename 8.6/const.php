@@ -34,6 +34,7 @@ return array (
     'PHP_EXTRA_VERSION' => '-dev',
     'PHP_VERSION_ID' => '__DYNAMIC__PHP Version ID',
     'PHP_BUILD_DATE' => '__DYNAMIC__PHP Build Date',
+    'PHP_BUILD_PROVIDER' => '__DYNAMIC__PHP Build Provider',
     'PHP_ZTS' => false,
     'PHP_DEBUG' => false,
     'PHP_OS' => 'Linux',
