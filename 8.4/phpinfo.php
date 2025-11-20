@@ -28,7 +28,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.4.14
+PHP Version => 8.4.15
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -537,7 +537,7 @@ POSIX support => enabled
 
 random
 
-Version => 8.4.14
+Version => 8.4.15
 
 readline
 
