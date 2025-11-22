@@ -442,6 +442,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    '__debugInfo' => 
+    array (
+      'name' => '__debugInfo',
+      'class' => 'SimpleXMLElement',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => '?array',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'count' => 
     array (
       'name' => 'count',
@@ -581,7 +595,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [21] {
+  - Methods [22] {
     Method [ <internal:SimpleXML> public method xpath ] {
 
       - Parameters [1] {
@@ -693,6 +707,13 @@ return array (
       - Parameters [0] {
       }
       - Return [ string ]
+    }
+
+    Method [ <internal:SimpleXML> public method __debugInfo ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?array ]
     }
 
     Method [ <internal:SimpleXML, prototype Countable> public method count ] {
