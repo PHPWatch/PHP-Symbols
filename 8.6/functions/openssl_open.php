@@ -33,13 +33,14 @@ return array (
   'extension' => 'openssl',
   'toString' => 'Function [ <internal:openssl> function openssl_open ] {
 
-  - Parameters [6] {
+  - Parameters [7] {
     Parameter #0 [ <required> string $data ]
     Parameter #1 [ <required> &$output ]
     Parameter #2 [ <required> string $encrypted_key ]
     Parameter #3 [ <required> $private_key ]
     Parameter #4 [ <required> string $cipher_algo ]
     Parameter #5 [ <optional> ?string $iv = null ]
+    Parameter #6 [ <optional> ?string $tag = null ]
   }
   - Return [ bool ]
 }

@@ -33,13 +33,14 @@ return array (
   'extension' => 'openssl',
   'toString' => 'Function [ <internal:openssl> function openssl_seal ] {
 
-  - Parameters [6] {
+  - Parameters [7] {
     Parameter #0 [ <required> string $data ]
     Parameter #1 [ <required> &$sealed_data ]
     Parameter #2 [ <required> &$encrypted_keys ]
     Parameter #3 [ <required> array $public_key ]
     Parameter #4 [ <required> string $cipher_algo ]
     Parameter #5 [ <optional> &$iv = null ]
+    Parameter #6 [ <optional> &$tag = null ]
   }
   - Return [ int|false ]
 }
