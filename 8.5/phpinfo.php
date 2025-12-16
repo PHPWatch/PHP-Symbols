@@ -696,7 +696,7 @@ Tokenizer Support => enabled
 uri
 
 URI support => active
-uriparser bundled version => 0.9.9
+uriparser bundled version => 1.0.0
 
 xml
 
