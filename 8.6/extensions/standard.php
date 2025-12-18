@@ -77,6 +77,7 @@ return array (
     'key' => 'key',
     'min' => 'min',
     'max' => 'max',
+    'clamp' => 'clamp',
     'array_walk' => 'array_walk',
     'array_walk_recursive' => 'array_walk_recursive',
     'in_array' => 'in_array',

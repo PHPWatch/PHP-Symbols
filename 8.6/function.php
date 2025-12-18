@@ -961,6 +961,7 @@ return array (
   'key',
   'min',
   'max',
+  'clamp',
   'array_walk',
   'array_walk_recursive',
   'in_array',
