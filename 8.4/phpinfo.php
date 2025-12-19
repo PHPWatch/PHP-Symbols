@@ -28,7 +28,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.4.15
+PHP Version => 8.4.16
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -537,7 +537,7 @@ POSIX support => enabled
 
 random
 
-Version => 8.4.15
+Version => 8.4.16
 
 readline
 
@@ -701,7 +701,7 @@ XMLReader => enabled
 xmlrpc
 
 XMLRPC extension version => 1.0.0RC3
-core library version => xmlrpc-epi v. 0.54
+core library version => xmlrpc-epi v. 0.51
 author => Dan Libby
 homepage => http://xmlrpc-epi.sourceforge.net
 open sourced by => Epinions.com
