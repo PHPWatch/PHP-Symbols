@@ -2607,6 +2607,7 @@ return array (
     'SKF_AD_MAX' => 64,
     'TCP_CONGESTION' => 13,
     'TCP_SYNCNT' => 7,
+    'TCP_USER_TIMEOUT' => 18,
     'SO_ZEROCOPY' => 60,
     'TCP_NODELAY' => 1,
     'TCP_NOTSENT_LOWAT' => 25,
