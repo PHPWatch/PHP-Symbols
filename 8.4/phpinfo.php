@@ -701,7 +701,7 @@ XMLReader => enabled
 xmlrpc
 
 XMLRPC extension version => 1.0.0RC3
-core library version => xmlrpc-epi v. 0.51
+core library version => xmlrpc-epi v. 0.54
 author => Dan Libby
 homepage => http://xmlrpc-epi.sourceforge.net
 open sourced by => Epinions.com
