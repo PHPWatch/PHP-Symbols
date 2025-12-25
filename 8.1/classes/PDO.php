@@ -827,46 +827,6 @@ return array (
       'visibility' => 1,
       'isFinal' => false,
     ),
-    'OCI_ATTR_ACTION' => 
-    array (
-      'value' => 1000,
-      'toString' => 'Constant [ public int OCI_ATTR_ACTION ] { 1000 }
-',
-      'visibility' => 1,
-      'isFinal' => false,
-    ),
-    'OCI_ATTR_CLIENT_INFO' => 
-    array (
-      'value' => 1001,
-      'toString' => 'Constant [ public int OCI_ATTR_CLIENT_INFO ] { 1001 }
-',
-      'visibility' => 1,
-      'isFinal' => false,
-    ),
-    'OCI_ATTR_CLIENT_IDENTIFIER' => 
-    array (
-      'value' => 1002,
-      'toString' => 'Constant [ public int OCI_ATTR_CLIENT_IDENTIFIER ] { 1002 }
-',
-      'visibility' => 1,
-      'isFinal' => false,
-    ),
-    'OCI_ATTR_MODULE' => 
-    array (
-      'value' => 1003,
-      'toString' => 'Constant [ public int OCI_ATTR_MODULE ] { 1003 }
-',
-      'visibility' => 1,
-      'isFinal' => false,
-    ),
-    'OCI_ATTR_CALL_TIMEOUT' => 
-    array (
-      'value' => 1004,
-      'toString' => 'Constant [ public int OCI_ATTR_CALL_TIMEOUT ] { 1004 }
-',
-      'visibility' => 1,
-      'isFinal' => false,
-    ),
     'ODBC_ATTR_USE_CURSOR_LIBRARY' => 
     array (
       'value' => 1000,
@@ -1394,7 +1354,7 @@ return array (
   'extension' => 'PDO',
   'toString' => 'Class [ <internal:PDO> class PDO ] {
 
-  - Constants [123] {
+  - Constants [118] {
     Constant [ public int PARAM_BOOL ] { 5 }
     Constant [ public int PARAM_NULL ] { 0 }
     Constant [ public int PARAM_INT ] { 1 }
@@ -1495,11 +1455,6 @@ return array (
     Constant [ public int MYSQL_ATTR_MULTI_STATEMENTS ] { 1013 }
     Constant [ public int MYSQL_ATTR_SSL_VERIFY_SERVER_CERT ] { 1014 }
     Constant [ public int MYSQL_ATTR_LOCAL_INFILE_DIRECTORY ] { 1015 }
-    Constant [ public int OCI_ATTR_ACTION ] { 1000 }
-    Constant [ public int OCI_ATTR_CLIENT_INFO ] { 1001 }
-    Constant [ public int OCI_ATTR_CLIENT_IDENTIFIER ] { 1002 }
-    Constant [ public int OCI_ATTR_MODULE ] { 1003 }
-    Constant [ public int OCI_ATTR_CALL_TIMEOUT ] { 1004 }
     Constant [ public int ODBC_ATTR_USE_CURSOR_LIBRARY ] { 1000 }
     Constant [ public int ODBC_ATTR_ASSUME_UTF8 ] { 1001 }
     Constant [ public int ODBC_SQL_USE_IF_NEEDED ] { 0 }
