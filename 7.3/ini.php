@@ -1844,8 +1844,8 @@ return array (
     ),
     'opcache.optimization_level' => 
     array (
-      'global_value' => '0x7FFEBFFF',
-      'local_value' => '0x7FFEBFFF',
+      'global_value' => '0x7FFEBF5F',
+      'local_value' => '0x7FFEBF5F',
       'access' => 4,
     ),
     'opcache.preferred_memory_model' => 

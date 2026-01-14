@@ -69,7 +69,7 @@ return array (
     'opcache.max_wasted_percentage' => '5',
     'opcache.memory_consumption' => '128',
     'opcache.opt_debug_level' => '0',
-    'opcache.optimization_level' => '0x7FFFBFFF',
+    'opcache.optimization_level' => '0x7FFEBF5F',
     'opcache.preferred_memory_model' => '',
     'opcache.protect_memory' => '0',
     'opcache.restrict_api' => '',
