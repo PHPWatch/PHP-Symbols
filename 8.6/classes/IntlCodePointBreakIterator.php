@@ -463,7 +463,7 @@ return array (
         array (
           'position' => 0,
           'name' => 'type',
-          'type' => 'string',
+          'type' => 'int',
           'is_optional' => true,
           'has_default_value' => true,
           'has_default_value_constant' => true,
@@ -773,7 +773,7 @@ return array (
     Method [ <internal:intl, inherits IntlBreakIterator> public method getPartsIterator ] {
 
       - Parameters [1] {
-        Parameter #0 [ <optional> string $type = IntlPartsIterator::KEY_SEQUENTIAL ]
+        Parameter #0 [ <optional> int $type = IntlPartsIterator::KEY_SEQUENTIAL ]
       }
       - Tentative return [ IntlPartsIterator ]
     }

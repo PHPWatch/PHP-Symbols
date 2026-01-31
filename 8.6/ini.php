@@ -740,181 +740,6 @@ return array (
   'uri' => 
   array (
   ),
-  'json' => 
-  array (
-  ),
-  'enchant' => 
-  array (
-  ),
-  'mbstring' => 
-  array (
-    'mbstring.detect_order' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mbstring.encoding_translation' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 6,
-    ),
-    'mbstring.http_input' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mbstring.http_output' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mbstring.http_output_conv_mimetypes' => 
-    array (
-      'global_value' => '^(text/|application/xhtml\\+xml)',
-      'local_value' => '^(text/|application/xhtml\\+xml)',
-      'access' => 7,
-    ),
-    'mbstring.internal_encoding' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mbstring.language' => 
-    array (
-      'global_value' => 'neutral',
-      'local_value' => 'neutral',
-      'access' => 7,
-    ),
-    'mbstring.regex_retry_limit' => 
-    array (
-      'global_value' => '1000000',
-      'local_value' => '1000000',
-      'access' => 7,
-    ),
-    'mbstring.regex_stack_limit' => 
-    array (
-      'global_value' => '100000',
-      'local_value' => '100000',
-      'access' => 7,
-    ),
-    'mbstring.strict_detection' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'mbstring.substitute_character' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-  ),
-  'SPL' => 
-  array (
-  ),
-  'FFI' => 
-  array (
-    'ffi.enable' => 
-    array (
-      'global_value' => 'preload',
-      'local_value' => 'preload',
-      'access' => 4,
-    ),
-    'ffi.preload' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 4,
-    ),
-  ),
-  'fileinfo' => 
-  array (
-  ),
-  'filter' => 
-  array (
-    'filter.default' => 
-    array (
-      'global_value' => 'unsafe_raw',
-      'local_value' => 'unsafe_raw',
-      'access' => 6,
-    ),
-    'filter.default_flags' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 6,
-    ),
-  ),
-  'ftp' => 
-  array (
-  ),
-  'gd' => 
-  array (
-    'gd.jpeg_ignore_warning' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-  ),
-  'gettext' => 
-  array (
-  ),
-  'gmp' => 
-  array (
-  ),
-  'hash' => 
-  array (
-  ),
-  'iconv' => 
-  array (
-    'iconv.input_encoding' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'iconv.internal_encoding' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'iconv.output_encoding' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-  ),
-  'intl' => 
-  array (
-    'intl.default_locale' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'intl.error_level' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-      'deprecated' => 'Using a value different than 0 for intl.error_level is deprecated, as the intl.error_level INI setting is deprecated. Instead the intl.use_exceptions INI setting should be enabled to throw exceptions on errors or intl_get_error_code()/intl_get_error_message() should be used to manually deal with errors',
-    ),
-    'intl.use_exceptions' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-  ),
   'session' => 
   array (
     'session.auto_start' => 
@@ -1104,13 +929,76 @@ return array (
       'access' => 7,
     ),
   ),
-  'ldap' => 
+  'enchant' => 
   array (
-    'ldap.max_links' => 
+  ),
+  'mbstring' => 
+  array (
+    'mbstring.detect_order' => 
     array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mbstring.encoding_translation' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 6,
+    ),
+    'mbstring.http_input' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mbstring.http_output' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mbstring.http_output_conv_mimetypes' => 
+    array (
+      'global_value' => '^(text/|application/xhtml\\+xml)',
+      'local_value' => '^(text/|application/xhtml\\+xml)',
+      'access' => 7,
+    ),
+    'mbstring.internal_encoding' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mbstring.language' => 
+    array (
+      'global_value' => 'neutral',
+      'local_value' => 'neutral',
+      'access' => 7,
+    ),
+    'mbstring.regex_retry_limit' => 
+    array (
+      'global_value' => '1000000',
+      'local_value' => '1000000',
+      'access' => 7,
+    ),
+    'mbstring.regex_stack_limit' => 
+    array (
+      'global_value' => '100000',
+      'local_value' => '100000',
+      'access' => 7,
+    ),
+    'mbstring.strict_detection' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'mbstring.substitute_character' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
     ),
   ),
   'standard' => 
@@ -1206,7 +1094,119 @@ return array (
       'access' => 7,
     ),
   ),
+  'FFI' => 
+  array (
+    'ffi.enable' => 
+    array (
+      'global_value' => 'preload',
+      'local_value' => 'preload',
+      'access' => 4,
+    ),
+    'ffi.preload' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 4,
+    ),
+  ),
+  'fileinfo' => 
+  array (
+  ),
+  'filter' => 
+  array (
+    'filter.default' => 
+    array (
+      'global_value' => 'unsafe_raw',
+      'local_value' => 'unsafe_raw',
+      'access' => 6,
+    ),
+    'filter.default_flags' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 6,
+    ),
+  ),
+  'ftp' => 
+  array (
+  ),
+  'gd' => 
+  array (
+    'gd.jpeg_ignore_warning' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+  ),
+  'gettext' => 
+  array (
+  ),
+  'gmp' => 
+  array (
+  ),
+  'hash' => 
+  array (
+  ),
+  'iconv' => 
+  array (
+    'iconv.input_encoding' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'iconv.internal_encoding' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'iconv.output_encoding' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+  ),
+  'intl' => 
+  array (
+    'intl.default_locale' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'intl.error_level' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+      'deprecated' => 'Using a value different than 0 for intl.error_level is deprecated, as the intl.error_level INI setting is deprecated. Instead the intl.use_exceptions INI setting should be enabled to throw exceptions on errors or intl_get_error_code()/intl_get_error_message() should be used to manually deal with errors',
+    ),
+    'intl.use_exceptions' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+  ),
+  'json' => 
+  array (
+  ),
+  'ldap' => 
+  array (
+    'ldap.max_links' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+  ),
   'libxml' => 
+  array (
+  ),
+  'SPL' => 
   array (
   ),
   'mysqlnd' => 

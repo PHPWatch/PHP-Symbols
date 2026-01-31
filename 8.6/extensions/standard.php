@@ -601,6 +601,7 @@ return array (
     'CASE_UPPER' => 1,
     'COUNT_NORMAL' => 0,
     'COUNT_RECURSIVE' => 1,
+    'ARRAY_FILTER_USE_VALUE' => 0,
     'ARRAY_FILTER_USE_BOTH' => 1,
     'ARRAY_FILTER_USE_KEY' => 2,
     'ASSERT_ACTIVE' => 1,

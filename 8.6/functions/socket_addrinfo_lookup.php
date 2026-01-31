@@ -33,10 +33,11 @@ return array (
   'extension' => 'sockets',
   'toString' => 'Function [ <internal:sockets> function socket_addrinfo_lookup ] {
 
-  - Parameters [3] {
+  - Parameters [4] {
     Parameter #0 [ <required> string $host ]
     Parameter #1 [ <optional> ?string $service = null ]
     Parameter #2 [ <optional> array $hints = [] ]
+    Parameter #3 [ <optional> &$error_code = null ]
   }
   - Return [ array|false ]
 }

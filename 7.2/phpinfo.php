@@ -587,7 +587,7 @@ oci8
 OCI8 Support => enabled
 OCI8 DTrace Support => disabled
 OCI8 Version => 2.2.0
-Oracle Run-time Client Library Version => 23.26.0.0.0
+Oracle Run-time Client Library Version => 23.26.1.0.0
 Oracle Compile-time Instant Client Version => 23.26
 
 Directive => Local Value => Master Value
