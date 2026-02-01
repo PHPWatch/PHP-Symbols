@@ -36,7 +36,7 @@ return array (
   - Parameters [3] {
     Parameter #0 [ <required> array $array ]
     Parameter #1 [ <optional> ?callable $callback = null ]
-    Parameter #2 [ <optional> int $mode = 0 ]
+    Parameter #2 [ <optional> int $mode = ARRAY_FILTER_USE_KEY ]
   }
   - Return [ array ]
 }
