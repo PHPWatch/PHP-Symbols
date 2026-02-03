@@ -338,7 +338,7 @@ LDAP Support => enabled
 Total Links => 0/unlimited
 API Version => 3001
 Vendor Name => OpenLDAP
-Vendor Version => 20607
+Vendor Version => 20610
 SASL Support => Enabled
 
 Directive => Local Value => Master Value
