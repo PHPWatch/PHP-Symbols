@@ -66,7 +66,6 @@ return array (
   'sysvshm',
   'tidy',
   'tokenizer',
-  'wddx',
   'xmlreader',
   'xmlrpc',
   'xmlwriter',
