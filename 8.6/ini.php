@@ -620,7 +620,7 @@ return array (
       'access' => 7,
     ),
   ),
-  'lexbor' => 
+  'random' => 
   array (
   ),
   'openssl' => 
@@ -737,8 +737,83 @@ return array (
       'access' => 7,
     ),
   ),
+  'lexbor' => 
+  array (
+  ),
   'uri' => 
   array (
+  ),
+  'enchant' => 
+  array (
+  ),
+  'mbstring' => 
+  array (
+    'mbstring.detect_order' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mbstring.encoding_translation' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 6,
+    ),
+    'mbstring.http_input' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mbstring.http_output' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mbstring.http_output_conv_mimetypes' => 
+    array (
+      'global_value' => '^(text/|application/xhtml\\+xml)',
+      'local_value' => '^(text/|application/xhtml\\+xml)',
+      'access' => 7,
+    ),
+    'mbstring.internal_encoding' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mbstring.language' => 
+    array (
+      'global_value' => 'neutral',
+      'local_value' => 'neutral',
+      'access' => 7,
+    ),
+    'mbstring.regex_retry_limit' => 
+    array (
+      'global_value' => '1000000',
+      'local_value' => '1000000',
+      'access' => 7,
+    ),
+    'mbstring.regex_stack_limit' => 
+    array (
+      'global_value' => '100000',
+      'local_value' => '100000',
+      'access' => 7,
+    ),
+    'mbstring.strict_detection' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'mbstring.substitute_character' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
   ),
   'session' => 
   array (
@@ -929,171 +1004,6 @@ return array (
       'access' => 7,
     ),
   ),
-  'enchant' => 
-  array (
-  ),
-  'mbstring' => 
-  array (
-    'mbstring.detect_order' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mbstring.encoding_translation' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 6,
-    ),
-    'mbstring.http_input' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mbstring.http_output' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mbstring.http_output_conv_mimetypes' => 
-    array (
-      'global_value' => '^(text/|application/xhtml\\+xml)',
-      'local_value' => '^(text/|application/xhtml\\+xml)',
-      'access' => 7,
-    ),
-    'mbstring.internal_encoding' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mbstring.language' => 
-    array (
-      'global_value' => 'neutral',
-      'local_value' => 'neutral',
-      'access' => 7,
-    ),
-    'mbstring.regex_retry_limit' => 
-    array (
-      'global_value' => '1000000',
-      'local_value' => '1000000',
-      'access' => 7,
-    ),
-    'mbstring.regex_stack_limit' => 
-    array (
-      'global_value' => '100000',
-      'local_value' => '100000',
-      'access' => 7,
-    ),
-    'mbstring.strict_detection' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'mbstring.substitute_character' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-  ),
-  'standard' => 
-  array (
-    'assert.active' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-      'deprecated' => 'assert.active INI setting is deprecated',
-    ),
-    'assert.bail' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-      'deprecated' => 'assert.bail INI setting is deprecated',
-    ),
-    'assert.callback' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-      'deprecated' => 'assert.callback INI setting is deprecated',
-    ),
-    'assert.exception' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-      'deprecated' => 'assert.exception INI setting is deprecated',
-    ),
-    'assert.warning' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-      'deprecated' => 'assert.warning INI setting is deprecated',
-    ),
-    'auto_detect_line_endings' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-      'deprecated' => 'auto_detect_line_endings is deprecated',
-    ),
-    'default_socket_timeout' => 
-    array (
-      'global_value' => '60',
-      'local_value' => '60',
-      'access' => 7,
-    ),
-    'from' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'session.trans_sid_hosts' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'session.trans_sid_tags' => 
-    array (
-      'global_value' => 'a=href,area=href,frame=src,form=',
-      'local_value' => 'a=href,area=href,frame=src,form=',
-      'access' => 7,
-    ),
-    'unserialize_max_depth' => 
-    array (
-      'global_value' => '4096',
-      'local_value' => '4096',
-      'access' => 7,
-    ),
-    'url_rewriter.hosts' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'url_rewriter.tags' => 
-    array (
-      'global_value' => 'form=',
-      'local_value' => 'form=',
-      'access' => 7,
-    ),
-    'user_agent' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-  ),
   'FFI' => 
   array (
     'ffi.enable' => 
@@ -1203,8 +1113,98 @@ return array (
       'access' => 4,
     ),
   ),
-  'libxml' => 
+  'standard' => 
   array (
+    'assert.active' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+      'deprecated' => 'assert.active INI setting is deprecated',
+    ),
+    'assert.bail' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+      'deprecated' => 'assert.bail INI setting is deprecated',
+    ),
+    'assert.callback' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+      'deprecated' => 'assert.callback INI setting is deprecated',
+    ),
+    'assert.exception' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+      'deprecated' => 'assert.exception INI setting is deprecated',
+    ),
+    'assert.warning' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+      'deprecated' => 'assert.warning INI setting is deprecated',
+    ),
+    'auto_detect_line_endings' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+      'deprecated' => 'auto_detect_line_endings is deprecated',
+    ),
+    'default_socket_timeout' => 
+    array (
+      'global_value' => '60',
+      'local_value' => '60',
+      'access' => 7,
+    ),
+    'from' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'session.trans_sid_hosts' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'session.trans_sid_tags' => 
+    array (
+      'global_value' => 'a=href,area=href,frame=src,form=',
+      'local_value' => 'a=href,area=href,frame=src,form=',
+      'access' => 7,
+    ),
+    'unserialize_max_depth' => 
+    array (
+      'global_value' => '4096',
+      'local_value' => '4096',
+      'access' => 7,
+    ),
+    'url_rewriter.hosts' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'url_rewriter.tags' => 
+    array (
+      'global_value' => 'form=',
+      'local_value' => 'form=',
+      'access' => 7,
+    ),
+    'user_agent' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
   ),
   'SPL' => 
   array (
@@ -1803,7 +1803,7 @@ return array (
   'posix' => 
   array (
   ),
-  'random' => 
+  'libxml' => 
   array (
   ),
   'readline' => 
@@ -1824,44 +1824,8 @@ return array (
   'Reflection' => 
   array (
   ),
-  'exif' => 
+  'dom' => 
   array (
-    'exif.decode_jis_intel' => 
-    array (
-      'global_value' => 'JIS',
-      'local_value' => 'JIS',
-      'access' => 7,
-    ),
-    'exif.decode_jis_motorola' => 
-    array (
-      'global_value' => 'JIS',
-      'local_value' => 'JIS',
-      'access' => 7,
-    ),
-    'exif.decode_unicode_intel' => 
-    array (
-      'global_value' => 'UCS-2LE',
-      'local_value' => 'UCS-2LE',
-      'access' => 7,
-    ),
-    'exif.decode_unicode_motorola' => 
-    array (
-      'global_value' => 'UCS-2BE',
-      'local_value' => 'UCS-2BE',
-      'access' => 7,
-    ),
-    'exif.encode_jis' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'exif.encode_unicode' => 
-    array (
-      'global_value' => 'ISO-8859-15',
-      'local_value' => 'ISO-8859-15',
-      'access' => 7,
-    ),
   ),
   'shmop' => 
   array (
@@ -1938,8 +1902,44 @@ return array (
   'tokenizer' => 
   array (
   ),
-  'dom' => 
+  'exif' => 
   array (
+    'exif.decode_jis_intel' => 
+    array (
+      'global_value' => 'JIS',
+      'local_value' => 'JIS',
+      'access' => 7,
+    ),
+    'exif.decode_jis_motorola' => 
+    array (
+      'global_value' => 'JIS',
+      'local_value' => 'JIS',
+      'access' => 7,
+    ),
+    'exif.decode_unicode_intel' => 
+    array (
+      'global_value' => 'UCS-2LE',
+      'local_value' => 'UCS-2LE',
+      'access' => 7,
+    ),
+    'exif.decode_unicode_motorola' => 
+    array (
+      'global_value' => 'UCS-2BE',
+      'local_value' => 'UCS-2BE',
+      'access' => 7,
+    ),
+    'exif.encode_jis' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'exif.encode_unicode' => 
+    array (
+      'global_value' => 'ISO-8859-15',
+      'local_value' => 'ISO-8859-15',
+      'access' => 7,
+    ),
   ),
   'xml' => 
   array (
