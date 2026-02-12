@@ -24,6 +24,6 @@ return array (
       ),
     ),
   ),
-  'value' => -1,
+  'value' => 4294967295,
   'extension' => 'curl',
 );
