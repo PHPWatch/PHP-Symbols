@@ -333,7 +333,7 @@ LDAP Support => enabled
 Total Links => 0/unlimited
 API Version => 3001
 Vendor Name => OpenLDAP
-Vendor Version => 20607
+Vendor Version => 20610
 SASL Support => Enabled
 
 Directive => Local Value => Master Value
@@ -374,7 +374,7 @@ mbstring.substitute_character => no value => no value
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.4.17
+Client API library version => mysqlnd 8.4.18
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -395,7 +395,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.4.17
+Version => mysqlnd 8.4.18
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -475,7 +475,7 @@ Firebird API version => 30
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.4.17
+Client API version => mysqlnd 8.4.18
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
