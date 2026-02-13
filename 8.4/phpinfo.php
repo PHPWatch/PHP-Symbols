@@ -28,7 +28,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.4.17
+PHP Version => 8.4.18
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -178,7 +178,7 @@ curl.cainfo => no value => no value
 date
 
 date/time support => enabled
-timelib version => 2022.14
+timelib version => 2022.15
 "Olson" Timezone Database Version => 0.system
 Timezone Database => internal
 Default timezone => UTC
@@ -537,7 +537,7 @@ POSIX support => enabled
 
 random
 
-Version => 8.4.17
+Version => 8.4.18
 
 readline
 
