@@ -203,7 +203,7 @@ hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hun
 exif
 
 EXIF Support => enabled
-EXIF Version => 7.1.33-73+ubuntu24.04.1+deb.sury.org+2
+EXIF Version => 7.1.33-74+ubuntu24.04.1+deb.sury.org+1
 Supported EXIF Version => 0220
 Supported filetypes => JPEG,TIFF
 
@@ -886,11 +886,11 @@ Revision => $Id: 483c70b5c54718693a4b95633a097e33d1120ba9 $
 
 sysvsem
 
-Version => 7.1.33-73+ubuntu24.04.1+deb.sury.org+2
+Version => 7.1.33-74+ubuntu24.04.1+deb.sury.org+1
 
 sysvshm
 
-Version => 7.1.33-73+ubuntu24.04.1+deb.sury.org+2
+Version => 7.1.33-74+ubuntu24.04.1+deb.sury.org+1
 
 tidy
 
