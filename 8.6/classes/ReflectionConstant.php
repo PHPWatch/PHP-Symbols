@@ -68,6 +68,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'inNamespace' => 
+    array (
+      'name' => 'inNamespace',
+      'class' => 'ReflectionConstant',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getNamespaceName' => 
     array (
       'name' => 'getNamespaceName',
@@ -252,7 +266,7 @@ return array (
     Property [ public string $name ]
   }
 
-  - Methods [11] {
+  - Methods [12] {
     Method [ <internal:Reflection, ctor> public method __construct ] {
 
       - Parameters [1] {
@@ -265,6 +279,13 @@ return array (
       - Parameters [0] {
       }
       - Return [ string ]
+    }
+
+    Method [ <internal:Reflection> public method inNamespace ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
     }
 
     Method [ <internal:Reflection> public method getNamespaceName ] {
