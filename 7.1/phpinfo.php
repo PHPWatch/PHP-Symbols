@@ -777,7 +777,7 @@ session
 
 Session Support => enabled
 Registered save handlers => files user 
-Registered serializer handlers => php_serialize php php_binary wddx 
+Registered serializer handlers => php_serialize php php_binary 
 
 Directive => Local Value => Master Value
 session.auto_start => Off => Off
@@ -906,11 +906,6 @@ tidy.default_config => no value => no value
 tokenizer
 
 Tokenizer Support => enabled
-
-wddx
-
-WDDX Support => enabled
-WDDX Session Serializer => enabled
 
 xml
 

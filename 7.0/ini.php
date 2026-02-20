@@ -1576,9 +1576,6 @@ return array (
       'access' => 7,
     ),
   ),
-  'recode' => 
-  array (
-  ),
   'shmop' => 
   array (
   ),

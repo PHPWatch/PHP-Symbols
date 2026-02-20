@@ -761,11 +761,6 @@ Directive => Local Value => Master Value
 cli.pager => no value => no value
 cli.prompt => \\b \\>  => \\b \\> 
 
-recode
-
-Recode Support => enabled
-Revision => $Id: e175cff622634146da7151369502cde27702683e $
-
 Reflection
 
 Reflection => enabled
