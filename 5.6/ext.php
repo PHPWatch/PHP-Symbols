@@ -39,7 +39,6 @@ return array (
   'json',
   'ldap',
   'exif',
-  'mcrypt',
   'mssql',
   'mysql',
   'mysqli',

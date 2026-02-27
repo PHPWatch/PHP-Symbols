@@ -38,7 +38,6 @@ return array (
   'json',
   'ldap',
   'exif',
-  'mcrypt',
   'mysqli',
   'oci8',
   'odbc',
