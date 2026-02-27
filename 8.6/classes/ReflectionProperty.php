@@ -860,6 +860,74 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'isReadable' => 
+    array (
+      'name' => 'isReadable',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+        'scope' => 
+        array (
+          'position' => 0,
+          'name' => 'scope',
+          'type' => '?string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'object' => 
+        array (
+          'position' => 1,
+          'name' => 'object',
+          'type' => '?object',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'isWritable' => 
+    array (
+      'name' => 'isWritable',
+      'class' => 'ReflectionProperty',
+      'parameters' => 
+      array (
+        'scope' => 
+        array (
+          'position' => 0,
+          'name' => 'scope',
+          'type' => '?string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'object' => 
+        array (
+          'position' => 1,
+          'name' => 'object',
+          'type' => '?object',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'interfaces' => 
   array (
@@ -922,7 +990,7 @@ return array (
     Property [ public string $class ]
   }
 
-  - Methods [40] {
+  - Methods [42] {
     Method [ <internal:Reflection> private method __clone ] {
 
       - Parameters [0] {
@@ -1216,6 +1284,24 @@ return array (
     Method [ <internal:Reflection> public method isFinal ] {
 
       - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Reflection> public method isReadable ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?string $scope ]
+        Parameter #1 [ <optional> ?object $object = null ]
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Reflection> public method isWritable ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> ?string $scope ]
+        Parameter #1 [ <optional> ?object $object = null ]
       }
       - Return [ bool ]
     }
