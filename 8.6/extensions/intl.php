@@ -167,6 +167,7 @@ return array (
     'grapheme_stristr' => 'grapheme_stristr',
     'grapheme_str_split' => 'grapheme_str_split',
     'grapheme_levenshtein' => 'grapheme_levenshtein',
+    'grapheme_strrev' => 'grapheme_strrev',
     'grapheme_extract' => 'grapheme_extract',
     'idn_to_ascii' => 'idn_to_ascii',
     'idn_to_utf8' => 'idn_to_utf8',

@@ -781,6 +781,7 @@ return array (
   'grapheme_stristr',
   'grapheme_str_split',
   'grapheme_levenshtein',
+  'grapheme_strrev',
   'grapheme_extract',
   'idn_to_ascii',
   'idn_to_utf8',
