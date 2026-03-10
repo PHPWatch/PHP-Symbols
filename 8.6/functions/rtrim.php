@@ -35,7 +35,7 @@ return array (
 
   - Parameters [2] {
     Parameter #0 [ <required> string $string ]
-    Parameter #1 [ <optional> string $characters = " \\n\\r\\t\\v\\x00" ]
+    Parameter #1 [ <optional> string $characters = " \\f\\n\\r\\t\\v\\x00" ]
   }
   - Return [ string ]
 }
