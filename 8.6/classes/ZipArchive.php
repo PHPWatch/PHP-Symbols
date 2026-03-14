@@ -983,6 +983,30 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'openString' => 
+    array (
+      'name' => 'openString',
+      'class' => 'ZipArchive',
+      'parameters' => 
+      array (
+        'data' => 
+        array (
+          'position' => 0,
+          'name' => 'data',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'int|bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'setPassword' => 
     array (
       'name' => 'setPassword',
@@ -2983,7 +3007,7 @@ return array (
     Property [ public string $comment ]
   }
 
-  - Methods [50] {
+  - Methods [51] {
     Method [ <internal:zip> public method open ] {
 
       - Parameters [2] {
@@ -2991,6 +3015,14 @@ return array (
         Parameter #1 [ <optional> int $flags = 0 ]
       }
       - Tentative return [ int|bool ]
+    }
+
+    Method [ <internal:zip> public method openString ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $data ]
+      }
+      - Return [ int|bool ]
     }
 
     Method [ <internal:zip> public method setPassword ] {
