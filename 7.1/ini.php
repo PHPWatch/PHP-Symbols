@@ -1276,6 +1276,21 @@ return array (
       'access' => 7,
     ),
   ),
+  'mcrypt' => 
+  array (
+    'mcrypt.algorithms_dir' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mcrypt.modes_dir' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+  ),
   'mysqli' => 
   array (
     'mysqli.allow_local_infile' => 

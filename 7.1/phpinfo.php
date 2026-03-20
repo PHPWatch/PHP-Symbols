@@ -376,6 +376,19 @@ mbstring.language => neutral => neutral
 mbstring.strict_detection => Off => Off
 mbstring.substitute_character => no value => no value
 
+mcrypt
+
+mcrypt support => enabled
+mcrypt_filter support => enabled
+Version => 2.5.8
+Api No => 20021217
+Supported ciphers => cast-128 gost rijndael-128 twofish arcfour cast-256 loki97 rijndael-192 saferplus wake blowfish-compat des rijndael-256 serpent xtea blowfish enigma rc2 tripledes 
+Supported modes => cbc cfb ctr ecb ncfb nofb ofb stream 
+
+Directive => Local Value => Master Value
+mcrypt.algorithms_dir => no value => no value
+mcrypt.modes_dir => no value => no value
+
 mysqli
 
 MysqlI Support => enabled
