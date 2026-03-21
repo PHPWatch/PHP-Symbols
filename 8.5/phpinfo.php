@@ -347,7 +347,7 @@ ldap.max_links => Unlimited => Unlimited
 lexbor
 
 Lexbor support => active
-Lexbor version => 2.5.0
+Lexbor version => 2.0.0
 
 libxml
 
