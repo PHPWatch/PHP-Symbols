@@ -513,19 +513,6 @@ return array (
       'is_private' => true,
       'is_promoted' => false,
     ),
-    'typemap' => 
-    array (
-      'name' => 'typemap',
-      'class' => 'SoapClient',
-      'type' => '?array',
-      'has_default_value' => true,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => false,
-      'is_protected' => false,
-      'is_private' => true,
-      'is_promoted' => false,
-    ),
     'httpsocket' => 
     array (
       'name' => 'httpsocket',
@@ -905,7 +892,7 @@ return array (
   - Static methods [0] {
   }
 
-  - Properties [36] {
+  - Properties [35] {
     Property [ private ?string $uri = NULL ]
     Property [ private ?int $style = NULL ]
     Property [ private ?int $use = NULL ]
@@ -913,7 +900,6 @@ return array (
     Property [ private bool $trace = false ]
     Property [ private ?int $compression = NULL ]
     Property [ private ?Soap\\Sdl $sdl = NULL ]
-    Property [ private ?array $typemap = NULL ]
     Property [ private $httpsocket = NULL ]
     Property [ private ?Soap\\Url $httpurl = NULL ]
     Property [ private ?string $_login = NULL ]
@@ -1073,7 +1059,6 @@ return array (
     'trace' => false,
     'compression' => NULL,
     'sdl' => NULL,
-    'typemap' => NULL,
     'httpsocket' => NULL,
     'httpurl' => NULL,
     '_login' => NULL,
@@ -1112,7 +1097,7 @@ return array (
   ),
   'is_abstract' => false,
   'is_anonymous' => false,
-  'is_cloneable' => true,
+  'is_cloneable' => false,
   'is_final' => false,
   'is_instantiable' => true,
   'is_read_only' => false,
