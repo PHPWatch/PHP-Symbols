@@ -36,7 +36,7 @@ return array (
   - Parameters [1] {
     Parameter #0 [ <required> LDAP\\Result $result ]
   }
-  - Return [ bool ]
+  - Return [ true ]
 }
 ',
 );
