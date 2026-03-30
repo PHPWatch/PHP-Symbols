@@ -84,6 +84,40 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'seek' => 
+    array (
+      'name' => 'seek',
+      'class' => 'php_user_filter',
+      'parameters' => 
+      array (
+        'offset' => 
+        array (
+          'position' => 0,
+          'name' => 'offset',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'whence' => 
+        array (
+          'position' => 1,
+          'name' => 'whence',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'onCreate' => 
     array (
       'name' => 'onCreate',
@@ -176,7 +210,7 @@ return array (
     Property [ public $stream = NULL ]
   }
 
-  - Methods [3] {
+  - Methods [4] {
     Method [ <internal:standard> public method filter ] {
 
       - Parameters [4] {
@@ -186,6 +220,15 @@ return array (
         Parameter #3 [ <required> bool $closing ]
       }
       - Tentative return [ int ]
+    }
+
+    Method [ <internal:standard> public method seek ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $offset ]
+        Parameter #1 [ <required> int $whence ]
+      }
+      - Tentative return [ bool ]
     }
 
     Method [ <internal:standard> public method onCreate ] {
