@@ -27,9 +27,10 @@ return array (
     0 => '__PHP_Incomplete_Class',
     1 => 'AssertionError',
     2 => 'RoundingMode',
-    3 => 'php_user_filter',
-    4 => 'StreamBucket',
-    5 => 'Directory',
+    3 => 'SortDirection',
+    4 => 'php_user_filter',
+    5 => 'StreamBucket',
+    6 => 'Directory',
   ),
   'functions' => 
   array (

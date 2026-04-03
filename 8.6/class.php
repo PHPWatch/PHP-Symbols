@@ -126,6 +126,7 @@ return array (
   '__PHP_Incomplete_Class',
   'AssertionError',
   'RoundingMode',
+  'SortDirection',
   'php_user_filter',
   'StreamBucket',
   'Directory',

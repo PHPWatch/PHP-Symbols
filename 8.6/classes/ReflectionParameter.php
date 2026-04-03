@@ -92,6 +92,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getDocComment' => 
+    array (
+      'name' => 'getDocComment',
+      'class' => 'ReflectionParameter',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string|false',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getName' => 
     array (
       'name' => 'getName',
@@ -430,7 +444,7 @@ return array (
     Property [ public string $name ]
   }
 
-  - Methods [23] {
+  - Methods [24] {
     Method [ <internal:Reflection> private method __clone ] {
 
       - Parameters [0] {
@@ -451,6 +465,13 @@ return array (
       - Parameters [0] {
       }
       - Return [ string ]
+    }
+
+    Method [ <internal:Reflection> public method getDocComment ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string|false ]
     }
 
     Method [ <internal:Reflection> public method getName ] {
