@@ -818,6 +818,30 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'quote_string' => 
+    array (
+      'name' => 'quote_string',
+      'class' => 'mysqli',
+      'parameters' => 
+      array (
+        'string' => 
+        array (
+          'position' => 0,
+          'name' => 'string',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'reap_async_query' => 
     array (
       'name' => 'reap_async_query',
@@ -1531,7 +1555,7 @@ return array (
     Property [ public int $warning_count ]
   }
 
-  - Methods [43] {
+  - Methods [44] {
     Method [ <internal:mysqli, ctor> public method __construct ] {
 
       - Parameters [6] {
@@ -1746,6 +1770,14 @@ return array (
         Parameter #0 [ <required> string $string ]
       }
       - Tentative return [ string ]
+    }
+
+    Method [ <internal:mysqli> public method quote_string ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $string ]
+      }
+      - Return [ string ]
     }
 
     Method [ <internal:mysqli> public method reap_async_query ] {

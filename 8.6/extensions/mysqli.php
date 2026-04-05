@@ -101,6 +101,7 @@ return array (
     'mysqli_real_connect' => 'mysqli_real_connect',
     'mysqli_real_escape_string' => 'mysqli_real_escape_string',
     'mysqli_escape_string' => 'mysqli_escape_string',
+    'mysqli_quote_string' => 'mysqli_quote_string',
     'mysqli_real_query' => 'mysqli_real_query',
     'mysqli_reap_async_query' => 'mysqli_reap_async_query',
     'mysqli_release_savepoint' => 'mysqli_release_savepoint',
