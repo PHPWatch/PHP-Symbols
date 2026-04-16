@@ -1144,69 +1144,6 @@ return array (
       'access' => 4,
     ),
   ),
-  'interbase' => 
-  array (
-    'ibase.allow_persistent' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'ibase.dateformat' => 
-    array (
-      'global_value' => '%Y-%m-%d',
-      'local_value' => '%Y-%m-%d',
-      'access' => 7,
-    ),
-    'ibase.default_charset' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'ibase.default_db' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 4,
-    ),
-    'ibase.default_password' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'ibase.default_user' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'ibase.max_links' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-    'ibase.max_persistent' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-    'ibase.timeformat' => 
-    array (
-      'global_value' => '%H:%M:%S',
-      'local_value' => '%H:%M:%S',
-      'access' => 7,
-    ),
-    'ibase.timestampformat' => 
-    array (
-      'global_value' => '%Y-%m-%d %H:%M:%S',
-      'local_value' => '%Y-%m-%d %H:%M:%S',
-      'access' => 7,
-    ),
-  ),
   'intl' => 
   array (
     'intl.default_locale' => 
@@ -1576,9 +1513,6 @@ return array (
       'access' => 7,
     ),
   ),
-  'recode' => 
-  array (
-  ),
   'shmop' => 
   array (
   ),
@@ -1664,9 +1598,6 @@ return array (
     ),
   ),
   'tokenizer' => 
-  array (
-  ),
-  'wddx' => 
   array (
   ),
   'xmlreader' => 

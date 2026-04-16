@@ -744,7 +744,7 @@ XMLReader => enabled
 xmlrpc
 
 XMLRPC extension version => 1.0.0RC3
-core library version => xmlrpc-epi v. 0.54
+core library version => xmlrpc-epi v. 0.51
 author => Dan Libby
 homepage => http://xmlrpc-epi.sourceforge.net
 open sourced by => Epinions.com
@@ -973,9 +973,6 @@ PHP Websites Team => Rasmus Lerdorf, Hannes Magnusson, Philip Olson, Lukas Kahwe
 Event Maintainers => Damien Seguy, Daniel P. Brown
 Network Infrastructure => Daniel P. Brown
 Windows Infrastructure => Alex Schoenmaker
-
-                             Debian Packaging                             
-DEB.SURY.ORG, an Ondřej Surý project
 
 PHP License
 This program is free software; you can redistribute it and/or modify
