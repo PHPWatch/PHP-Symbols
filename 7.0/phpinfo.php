@@ -202,7 +202,7 @@ hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hun
 exif
 
 EXIF Support => enabled
-EXIF Version => 7.0.33
+EXIF Version => 7.0.33-86+ubuntu24.04.1+deb.sury.org+1
 Supported EXIF Version => 0220
 Supported filetypes => JPEG,TIFF
 
@@ -294,6 +294,24 @@ Kerberos Support => enabled
 Directive => Local Value => Master Value
 imap.enable_insecure_rsh => Off => Off
 
+interbase
+
+Firebird/InterBase Support => dynamic
+Compile-time Client Library Version => Firebird API version 30
+Run-time Client Library Version => LI-V6.3.11.33703 Firebird 3.0
+
+Directive => Local Value => Master Value
+ibase.allow_persistent => On => On
+ibase.dateformat => %Y-%m-%d => %Y-%m-%d
+ibase.default_charset => no value => no value
+ibase.default_db => no value => no value
+ibase.default_password => no value => no value
+ibase.default_user => no value => no value
+ibase.max_links => Unlimited => Unlimited
+ibase.max_persistent => Unlimited => Unlimited
+ibase.timeformat => %H:%M:%S => %H:%M:%S
+ibase.timestampformat => %Y-%m-%d %H:%M:%S => %Y-%m-%d %H:%M:%S
+
 intl
 
 Internationalization support => enabled
@@ -356,6 +374,19 @@ mbstring.internal_encoding => no value => no value
 mbstring.language => neutral => neutral
 mbstring.strict_detection => Off => Off
 mbstring.substitute_character => no value => no value
+
+mcrypt
+
+mcrypt support => enabled
+mcrypt_filter support => enabled
+Version => 2.5.8
+Api No => 20021217
+Supported ciphers => cast-128 gost rijndael-128 twofish arcfour cast-256 loki97 rijndael-192 saferplus wake blowfish-compat des rijndael-256 serpent xtea blowfish enigma rc2 tripledes 
+Supported modes => cbc cfb ctr ecb ncfb nofb ofb stream 
+
+Directive => Local Value => Master Value
+mcrypt.algorithms_dir => no value => no value
+mcrypt.modes_dir => no value => no value
 
 mysqli
 
@@ -730,6 +761,11 @@ Directive => Local Value => Master Value
 cli.pager => no value => no value
 cli.prompt => \\b \\>  => \\b \\> 
 
+recode
+
+Recode Support => enabled
+Revision => $Id: e175cff622634146da7151369502cde27702683e $
+
 Reflection
 
 Reflection => enabled
@@ -739,7 +775,7 @@ session
 
 Session Support => enabled
 Registered save handlers => files user 
-Registered serializer handlers => php_serialize php php_binary 
+Registered serializer handlers => php_serialize php php_binary wddx 
 
 Directive => Local Value => Master Value
 session.auto_start => Off => Off
@@ -847,11 +883,11 @@ Revision => $Id: dfb999763f95bfe9609fae60b4e07a492888ec7c $
 
 sysvsem
 
-Version => 7.0.33
+Version => 7.0.33-86+ubuntu24.04.1+deb.sury.org+1
 
 sysvshm
 
-Version => 7.0.33
+Version => 7.0.33-86+ubuntu24.04.1+deb.sury.org+1
 
 tidy
 
@@ -866,6 +902,11 @@ tidy.default_config => no value => no value
 tokenizer
 
 Tokenizer Support => enabled
+
+wddx
+
+WDDX Support => enabled
+WDDX Session Serializer => enabled
 
 xml
 
