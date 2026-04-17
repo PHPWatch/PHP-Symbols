@@ -1390,8 +1390,6 @@ return array (
   'imap_search',
   'imap_utf7_decode',
   'imap_utf7_encode',
-  'imap_utf8_to_mutf7',
-  'imap_mutf7_to_utf8',
   'imap_mime_header_decode',
   'imap_thread',
   'imap_timeout',
