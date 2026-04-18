@@ -331,7 +331,7 @@ return array (
   }
 
   - Properties [2] {
-    Property [ public virtual Dom\\Document $document ]
+    Property [ final public private(set) virtual Dom\\Document $document ]
     Property [ public virtual bool $registerNodeNamespaces ]
   }
 

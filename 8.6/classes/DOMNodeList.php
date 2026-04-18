@@ -118,7 +118,7 @@ return array (
   }
 
   - Properties [1] {
-    Property [ public virtual int $length ]
+    Property [ final public private(set) virtual int $length ]
   }
 
   - Methods [3] {
