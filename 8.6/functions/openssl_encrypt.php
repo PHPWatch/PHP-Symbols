@@ -40,7 +40,7 @@ return array (
     Parameter #3 [ <optional> int $options = 0 ]
     Parameter #4 [ <optional> string $iv = "" ]
     Parameter #5 [ <optional> &$tag = null ]
-    Parameter #6 [ <optional> string $aad = "" ]
+    Parameter #6 [ <optional> ?string $aad = "" ]
     Parameter #7 [ <optional> int $tag_length = 16 ]
   }
   - Return [ string|false ]
