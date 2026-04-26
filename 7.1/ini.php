@@ -1678,6 +1678,9 @@ return array (
   'tokenizer' => 
   array (
   ),
+  'wddx' => 
+  array (
+  ),
   'xmlreader' => 
   array (
   ),
