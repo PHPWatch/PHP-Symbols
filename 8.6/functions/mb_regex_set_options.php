@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,7 +31,7 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'mbstring',
-  'toString' => 'Function [ <internal:mbstring> function mb_regex_set_options ] {
+  'toString' => 'Function [ <internal, deprecated:mbstring> function mb_regex_set_options ] {
 
   - Parameters [1] {
     Parameter #0 [ <optional> ?string $options = null ]
@@ -39,4 +39,19 @@ return array (
   - Return [ string ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.6',
+          'message' => 'because the underlying library is no longer maintained',
+        ),
+      ),
+    ),
+  ),
 );

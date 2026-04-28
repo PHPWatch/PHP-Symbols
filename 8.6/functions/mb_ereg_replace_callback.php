@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,7 +31,7 @@ return array (
     'nullable' => true,
   ),
   'extension' => 'mbstring',
-  'toString' => 'Function [ <internal:mbstring> function mb_ereg_replace_callback ] {
+  'toString' => 'Function [ <internal, deprecated:mbstring> function mb_ereg_replace_callback ] {
 
   - Parameters [4] {
     Parameter #0 [ <required> string $pattern ]
@@ -42,4 +42,19 @@ return array (
   - Return [ string|false|null ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.6',
+          'message' => 'because the underlying library is no longer maintained',
+        ),
+      ),
+    ),
+  ),
 );

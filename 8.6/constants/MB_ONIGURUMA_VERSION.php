@@ -12,8 +12,8 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => false,
-    'deprecated_message' => NULL,
+    'deprecated' => true,
+    'deprecated_message' => 'Constant MB_ONIGURUMA_VERSION is deprecated since 8.6, because the underlying library is no longer maintained',
     'removed' => NULL,
     'resources' => 
     array (
