@@ -203,7 +203,7 @@ hunspell => Hunspell Provider => /usr/lib/x86_64-linux-gnu/enchant-2/enchant_hun
 exif
 
 EXIF Support => enabled
-EXIF Version => 7.2.34
+EXIF Version => 7.2.34-61+ubuntu24.04.1+deb.sury.org+1
 Supported EXIF Version => 0220
 Supported filetypes => JPEG, TIFF
 Multibyte decoding support using mbstring => enabled
@@ -296,6 +296,24 @@ Kerberos Support => enabled
 
 Directive => Local Value => Master Value
 imap.enable_insecure_rsh => Off => Off
+
+interbase
+
+Firebird/InterBase Support => dynamic
+Compile-time Client Library Version => Firebird API version 30
+Run-time Client Library Version => LI-V6.3.11.33703 Firebird 3.0
+
+Directive => Local Value => Master Value
+ibase.allow_persistent => On => On
+ibase.dateformat => %Y-%m-%d => %Y-%m-%d
+ibase.default_charset => no value => no value
+ibase.default_db => no value => no value
+ibase.default_password => no value => no value
+ibase.default_user => no value => no value
+ibase.max_links => Unlimited => Unlimited
+ibase.max_persistent => Unlimited => Unlimited
+ibase.timeformat => %H:%M:%S => %H:%M:%S
+ibase.timestampformat => %Y-%m-%d %H:%M:%S => %Y-%m-%d %H:%M:%S
 
 intl
 
@@ -736,6 +754,11 @@ Directive => Local Value => Master Value
 cli.pager => no value => no value
 cli.prompt => \\b \\>  => \\b \\> 
 
+recode
+
+Recode Support => enabled
+Revision => $Id: 8850a0f49afd824e77a2873e4cb19798daf74354 $
+
 Reflection
 
 Reflection => enabled
@@ -745,7 +768,7 @@ session
 
 Session Support => enabled
 Registered save handlers => files user 
-Registered serializer handlers => php_serialize php php_binary 
+Registered serializer handlers => php_serialize php php_binary wddx 
 
 Directive => Local Value => Master Value
 session.auto_start => Off => Off
@@ -860,11 +883,11 @@ Revision => $Id: 73c7c7668de72405a739f837dc62fd6ce8e5eba6 $
 
 sysvsem
 
-Version => 7.2.34
+Version => 7.2.34-61+ubuntu24.04.1+deb.sury.org+1
 
 sysvshm
 
-Version => 7.2.34
+Version => 7.2.34-61+ubuntu24.04.1+deb.sury.org+1
 
 tidy
 
@@ -880,6 +903,11 @@ tidy.default_config => no value => no value
 tokenizer
 
 Tokenizer Support => enabled
+
+wddx
+
+WDDX Support => enabled
+WDDX Session Serializer => enabled
 
 xml
 

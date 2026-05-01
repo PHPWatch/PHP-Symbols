@@ -290,6 +290,24 @@ Kerberos Support => enabled
 Directive => Local Value => Master Value
 imap.enable_insecure_rsh => Off => Off
 
+interbase
+
+Firebird/InterBase Support => dynamic
+Compile-time Client Library Version => Firebird API version 30
+Run-time Client Library Version => LI-V6.3.11.33703 Firebird 3.0
+
+Directive => Local Value => Master Value
+ibase.allow_persistent => On => On
+ibase.dateformat => %Y-%m-%d => %Y-%m-%d
+ibase.default_charset => no value => no value
+ibase.default_db => no value => no value
+ibase.default_password => no value => no value
+ibase.default_user => no value => no value
+ibase.max_links => Unlimited => Unlimited
+ibase.max_persistent => Unlimited => Unlimited
+ibase.timeformat => %H:%M:%S => %H:%M:%S
+ibase.timestampformat => %Y-%m-%d %H:%M:%S => %Y-%m-%d %H:%M:%S
+
 intl
 
 Internationalization support => enabled
@@ -352,10 +370,68 @@ mbstring.language => neutral => neutral
 mbstring.strict_detection => Off => Off
 mbstring.substitute_character => no value => no value
 
+mcrypt
+
+mcrypt support => enabled
+mcrypt_filter support => enabled
+Version => 2.5.8
+Api No => 20021217
+Supported ciphers => cast-128 gost rijndael-128 twofish arcfour cast-256 loki97 rijndael-192 saferplus wake blowfish-compat des rijndael-256 serpent xtea blowfish enigma rc2 tripledes 
+Supported modes => cbc cfb ctr ecb ncfb nofb ofb stream 
+
+Directive => Local Value => Master Value
+mcrypt.algorithms_dir => no value => no value
+mcrypt.modes_dir => no value => no value
+
 mhash
 
 MHASH support => Enabled
 MHASH API Version => Emulated Support
+
+mssql
+
+MSSQL Support => enabled
+Active Persistent Links => 0
+Active Links => 0
+Library version => FreeTDS
+
+Directive => Local Value => Master Value
+mssql.allow_persistent => On => On
+mssql.batchsize => 0 => 0
+mssql.charset => no value => no value
+mssql.compatability_mode => Off => Off
+mssql.compatibility_mode => Off => Off
+mssql.connect_timeout => 5 => 5
+mssql.datetimeconvert => On => On
+mssql.max_links => Unlimited => Unlimited
+mssql.max_persistent => Unlimited => Unlimited
+mssql.max_procs => Unlimited => Unlimited
+mssql.min_error_severity => 10 => 10
+mssql.min_message_severity => 10 => 10
+mssql.secure_connection => Off => Off
+mssql.textlimit => Server default => Server default
+mssql.textsize => Server default => Server default
+mssql.timeout => 60 => 60
+
+mysql
+
+MySQL Support => enabled
+Active Persistent Links => 0
+Active Links => 0
+Client API version => mysqlnd 5.0.11-dev - 20120503 - $Id: 76b08b24596e12d4553bd41fc93cccd5bac2fe7a $
+
+Directive => Local Value => Master Value
+mysql.allow_local_infile => On => On
+mysql.allow_persistent => On => On
+mysql.connect_timeout => 60 => 60
+mysql.default_host => no value => no value
+mysql.default_password => no value => no value
+mysql.default_port => no value => no value
+mysql.default_socket => no value => no value
+mysql.default_user => no value => no value
+mysql.max_links => Unlimited => Unlimited
+mysql.max_persistent => Unlimited => Unlimited
+mysql.trace_mode => Off => Off
 
 mysqli
 
@@ -392,7 +468,7 @@ Collecting statistics => Yes
 Collecting memory statistics => No
 Tracing => n/a
 Loaded plugins => mysqlnd,debug_trace,auth_plugin_mysql_native_password,auth_plugin_mysql_clear_password,auth_plugin_sha256_password
-API Extensions => mysqli,pdo_mysql
+API Extensions => mysql,mysqli,pdo_mysql
 
 mysqlnd statistics =>  
 bytes_sent => 0
@@ -727,6 +803,11 @@ Directive => Local Value => Master Value
 cli.pager => no value => no value
 cli.prompt => \\b \\>  => \\b \\> 
 
+recode
+
+Recode Support => enabled
+Revision => $Id: cde03aacd1a1218dcad9dabc2f284594a0a4aa16 $
+
 Reflection
 
 Reflection => enabled
@@ -736,7 +817,7 @@ session
 
 Session Support => enabled
 Registered save handlers => files user 
-Registered serializer handlers => php_serialize php php_binary 
+Registered serializer handlers => php_serialize php php_binary wddx 
 
 Directive => Local Value => Master Value
 session.auto_start => Off => Off
@@ -853,6 +934,11 @@ tidy.default_config => no value => no value
 tokenizer
 
 Tokenizer Support => enabled
+
+wddx
+
+WDDX Support => enabled
+WDDX Session Serializer => enabled
 
 xml
 

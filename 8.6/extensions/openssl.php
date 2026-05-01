@@ -29,9 +29,11 @@ return array (
   ),
   'classes' => 
   array (
-    0 => 'OpenSSLCertificate',
-    1 => 'OpenSSLCertificateSigningRequest',
-    2 => 'OpenSSLAsymmetricKey',
+    0 => 'Openssl\\OpensslException',
+    1 => 'OpenSSLCertificate',
+    2 => 'OpenSSLCertificateSigningRequest',
+    3 => 'OpenSSLAsymmetricKey',
+    4 => 'Openssl\\Session',
   ),
   'functions' => 
   array (
