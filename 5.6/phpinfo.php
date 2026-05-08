@@ -332,7 +332,7 @@ RCS Version => $Id: 03ca03d3adee59787d58cd342d8f864c5d96252a $
 Total Links => 0/unlimited
 API Version => 3001
 Vendor Name => OpenLDAP
-Vendor Version => 20607
+Vendor Version => 20610
 SASL Support => Enabled
 
 Directive => Local Value => Master Value
@@ -639,7 +639,7 @@ OCI8 Support => enabled
 OCI8 DTrace Support => disabled
 OCI8 Version => 2.0.12
 Revision => $Id: 020312b6429ebb9d6272ac9bc28f6dce529434b6 $
-Oracle Run-time Client Library Version => 23.26.1.0.0
+Oracle Run-time Client Library Version => 23.26.2.0.0
 Oracle Compile-time Instant Client Version => 23.26
 
 Directive => Local Value => Master Value
@@ -737,7 +737,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 16.11 (Ubuntu 16.11-0ubuntu0.24.04.1)
+PostgreSQL(libpq) Version => 16.13 (Ubuntu 16.13-0ubuntu0.24.04.1)
 Module version => 1.0.2
 Revision =>  $Id: 0e858dd2051ca8c2fd3c781909a0670ab5fecd36 $ 
 
@@ -749,8 +749,8 @@ SQLite Library => 3.45.1
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL(libpq) Version => 16.11 (Ubuntu 16.11-0ubuntu0.24.04.1)
-PostgreSQL(libpq)  => PostgreSQL 16.11 (Ubuntu 16.11-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, 64-bit
+PostgreSQL(libpq) Version => 16.13 (Ubuntu 16.13-0ubuntu0.24.04.1)
+PostgreSQL(libpq)  => PostgreSQL 16.13 (Ubuntu 16.13-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
 Multibyte character support => enabled
 SSL support => enabled
 Active Persistent Links => 0

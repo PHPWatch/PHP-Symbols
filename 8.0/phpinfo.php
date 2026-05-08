@@ -332,7 +332,7 @@ LDAP Support => enabled
 Total Links => 0/unlimited
 API Version => 3001
 Vendor Name => OpenLDAP
-Vendor Version => 20607
+Vendor Version => 20610
 SASL Support => Enabled
 
 Directive => Local Value => Master Value
@@ -412,7 +412,7 @@ oci8
 OCI8 Support => enabled
 OCI8 DTrace Support => disabled
 OCI8 Version => 3.0.1
-Oracle Run-time Client Library Version => 23.26.1.0.0
+Oracle Run-time Client Library Version => 23.26.2.0.0
 Oracle Compile-time Instant Client Version => 23.26
 
 Directive => Local Value => Master Value
@@ -729,7 +729,7 @@ XMLReader => enabled
 xmlrpc
 
 XMLRPC extension version => 1.0.0RC3
-core library version => xmlrpc-epi v. 0.54
+core library version => xmlrpc-epi v. 0.51
 author => Dan Libby
 homepage => http://xmlrpc-epi.sourceforge.net
 open sourced by => Epinions.com
@@ -957,9 +957,6 @@ PHP Websites Team => Rasmus Lerdorf, Hannes Magnusson, Philip Olson, Lukas Kahwe
 Event Maintainers => Damien Seguy, Daniel P. Brown
 Network Infrastructure => Daniel P. Brown
 Windows Infrastructure => Alex Schoenmaker
-
-                             Debian Packaging                             
-DEB.SURY.ORG, an Ondřej Surý project
 
 PHP License
 This program is free software; you can redistribute it and/or modify
