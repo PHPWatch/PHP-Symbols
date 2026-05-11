@@ -110,6 +110,16 @@ return array (
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
+        'chain' => 
+        array (
+          'position' => 2,
+          'name' => 'chain',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
       ),
       'return_type' => NULL,
       'has_return_type' => false,
@@ -224,9 +234,10 @@ return array (
 
     Method [ <internal:standard> public method seek ] {
 
-      - Parameters [2] {
+      - Parameters [3] {
         Parameter #0 [ <required> int $offset ]
         Parameter #1 [ <required> int $whence ]
+        Parameter #2 [ <required> int $chain ]
       }
       - Tentative return [ bool ]
     }
