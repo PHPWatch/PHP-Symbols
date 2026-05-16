@@ -449,7 +449,7 @@ return array (
       'parameters' => 
       array (
       ),
-      'return_type' => '?array',
+      'return_type' => 'array',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -713,7 +713,7 @@ return array (
 
       - Parameters [0] {
       }
-      - Return [ ?array ]
+      - Return [ array ]
     }
 
     Method [ <internal:SimpleXML, prototype Countable> public method count ] {
