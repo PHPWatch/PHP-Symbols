@@ -567,11 +567,11 @@ session.auto_start => Off => Off
 session.cache_expire => 180 => 180
 session.cache_limiter => nocache => nocache
 session.cookie_domain => no value => no value
-session.cookie_httponly => Off => Off
+session.cookie_httponly => On => On
 session.cookie_lifetime => 0 => 0
 session.cookie_partitioned => Off => Off
 session.cookie_path => / => /
-session.cookie_samesite => no value => no value
+session.cookie_samesite => Lax => Lax
 session.cookie_secure => Off => Off
 session.gc_divisor => 100 => 100
 session.gc_maxlifetime => 1440 => 1440
@@ -592,7 +592,7 @@ session.upload_progress.name => PHP_SESSION_UPLOAD_PROGRESS => PHP_SESSION_UPLOA
 session.upload_progress.prefix => upload_progress_ => upload_progress_
 session.use_cookies => On => On
 session.use_only_cookies => On => On
-session.use_strict_mode => Off => Off
+session.use_strict_mode => On => On
 session.use_trans_sid => Off => Off
 
 shmop
@@ -734,8 +734,8 @@ Cache misses => 1
 Used memory => 9179808
 Free memory => 125037920
 Wasted memory => 0
-Interned Strings Used memory => 2650376
-Interned Strings Free memory => 5738232
+Interned Strings Used memory => 2650408
+Interned Strings Free memory => 5738200
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229

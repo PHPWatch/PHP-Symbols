@@ -843,8 +843,8 @@ return array (
     ),
     'session.cookie_httponly' => 
     array (
-      'global_value' => '0',
-      'local_value' => '0',
+      'global_value' => '1',
+      'local_value' => '1',
       'access' => 7,
     ),
     'session.cookie_lifetime' => 
@@ -867,8 +867,8 @@ return array (
     ),
     'session.cookie_samesite' => 
     array (
-      'global_value' => '',
-      'local_value' => '',
+      'global_value' => 'Lax',
+      'local_value' => 'Lax',
       'access' => 7,
     ),
     'session.cookie_secure' => 
@@ -993,8 +993,8 @@ return array (
     ),
     'session.use_strict_mode' => 
     array (
-      'global_value' => '0',
-      'local_value' => '0',
+      'global_value' => '1',
+      'local_value' => '1',
       'access' => 7,
     ),
     'session.use_trans_sid' => 
