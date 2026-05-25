@@ -156,6 +156,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'isSpecialScheme' => 
+    array (
+      'name' => 'isSpecialScheme',
+      'class' => 'Uri\\WhatWg\\Url',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getUsername' => 
     array (
       'name' => 'getUsername',
@@ -254,6 +268,20 @@ return array (
       array (
       ),
       'return_type' => '?string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getHostType' => 
+    array (
+      'name' => 'getHostType',
+      'class' => 'Uri\\WhatWg\\Url',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => '?Uri\\WhatWg\\UrlHostType',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -615,7 +643,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [25] {
+  - Methods [27] {
     Method [ <internal:uri, ctor> public method __construct ] {
 
       - Parameters [3] {
@@ -638,6 +666,13 @@ return array (
         Parameter #0 [ <required> string $scheme ]
       }
       - Return [ static ]
+    }
+
+    Method [ <internal:uri> public method isSpecialScheme ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
     }
 
     Method [ <internal:uri> public method getUsername ] {
@@ -682,6 +717,13 @@ return array (
       - Parameters [0] {
       }
       - Return [ ?string ]
+    }
+
+    Method [ <internal:uri> public method getHostType ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?Uri\\WhatWg\\UrlHostType ]
     }
 
     Method [ <internal:uri> public method withHost ] {

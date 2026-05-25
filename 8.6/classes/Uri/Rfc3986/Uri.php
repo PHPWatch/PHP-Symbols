@@ -98,6 +98,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getUriType' => 
+    array (
+      'name' => 'getUriType',
+      'class' => 'Uri\\Rfc3986\\Uri',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => '?Uri\\Rfc3986\\UriType',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getScheme' => 
     array (
       'name' => 'getScheme',
@@ -280,6 +294,20 @@ return array (
       array (
       ),
       'return_type' => '?string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getHostType' => 
+    array (
+      'name' => 'getHostType',
+      'class' => 'Uri\\Rfc3986\\Uri',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => '?Uri\\Rfc3986\\UriHostType',
       'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
@@ -672,13 +700,20 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [32] {
+  - Methods [34] {
     Method [ <internal:uri, ctor> public method __construct ] {
 
       - Parameters [2] {
         Parameter #0 [ <required> string $uri ]
         Parameter #1 [ <optional> ?Uri\\Rfc3986\\Uri $baseUrl = null ]
       }
+    }
+
+    Method [ <internal:uri> public method getUriType ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?Uri\\Rfc3986\\UriType ]
     }
 
     Method [ <internal:uri> public method getScheme ] {
@@ -765,6 +800,13 @@ return array (
       - Parameters [0] {
       }
       - Return [ ?string ]
+    }
+
+    Method [ <internal:uri> public method getHostType ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?Uri\\Rfc3986\\UriHostType ]
     }
 
     Method [ <internal:uri> public method withHost ] {

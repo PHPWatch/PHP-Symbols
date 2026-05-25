@@ -33,7 +33,8 @@ return array (
     1 => 'OpenSSLCertificate',
     2 => 'OpenSSLCertificateSigningRequest',
     3 => 'OpenSSLAsymmetricKey',
-    4 => 'Openssl\\Session',
+    4 => 'Openssl\\Psk',
+    5 => 'Openssl\\Session',
   ),
   'functions' => 
   array (
