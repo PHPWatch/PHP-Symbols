@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'function',
-  'name' => 'stream_is_local',
+  'name' => 'stream_last_errors',
   'meta' => 
   array (
     'type' => 'function',
-    'name' => 'stream_is_local',
+    'name' => 'stream_last_errors',
     'description' => '',
     'keywords' => 
     array (
@@ -16,8 +16,8 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'stream_is_local function (php.net)',
-        'url' => 'https://www.php.net/manual/function.stream-is-local.php',
+        'name' => 'stream_last_errors function (php.net)',
+        'url' => 'https://www.php.net/manual/function.stream-last-errors.php',
       ),
     ),
   ),
@@ -31,13 +31,11 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'standard',
-  'toString' => 'Function [ <internal:standard> function stream_is_local ] {
+  'toString' => 'Function [ <internal:standard> function stream_last_errors ] {
 
-  - Parameters [2] {
-    Parameter #0 [ <required> $stream ]
-    Parameter #1 [ <optional> $context = null ]
+  - Parameters [0] {
   }
-  - Return [ bool ]
+  - Return [ array ]
 }
 ',
 );

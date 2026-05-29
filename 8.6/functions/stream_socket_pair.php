@@ -33,10 +33,11 @@ return array (
   'extension' => 'standard',
   'toString' => 'Function [ <internal:standard> function stream_socket_pair ] {
 
-  - Parameters [3] {
+  - Parameters [4] {
     Parameter #0 [ <required> int $domain ]
     Parameter #1 [ <required> int $type ]
     Parameter #2 [ <required> int $protocol ]
+    Parameter #3 [ <optional> $context = null ]
   }
   - Return [ array|false ]
 }

@@ -31,6 +31,11 @@ return array (
     4 => 'php_user_filter',
     5 => 'StreamBucket',
     6 => 'Directory',
+    7 => 'StreamErrorCode',
+    8 => 'StreamErrorMode',
+    9 => 'StreamErrorStore',
+    10 => 'StreamError',
+    11 => 'StreamException',
   ),
   'functions' => 
   array (
@@ -522,6 +527,8 @@ return array (
     'stream_get_line' => 'stream_get_line',
     'stream_resolve_include_path' => 'stream_resolve_include_path',
     'stream_get_wrappers' => 'stream_get_wrappers',
+    'stream_last_errors' => 'stream_last_errors',
+    'stream_clear_errors' => 'stream_clear_errors',
     'stream_get_transports' => 'stream_get_transports',
     'stream_is_local' => 'stream_is_local',
     'stream_isatty' => 'stream_isatty',

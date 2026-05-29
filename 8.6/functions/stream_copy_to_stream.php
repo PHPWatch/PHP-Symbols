@@ -33,11 +33,12 @@ return array (
   'extension' => 'standard',
   'toString' => 'Function [ <internal:standard> function stream_copy_to_stream ] {
 
-  - Parameters [4] {
+  - Parameters [5] {
     Parameter #0 [ <required> $from ]
     Parameter #1 [ <required> $to ]
     Parameter #2 [ <optional> ?int $length = null ]
     Parameter #3 [ <optional> int $offset = 0 ]
+    Parameter #4 [ <optional> $context = null ]
   }
   - Return [ int|false ]
 }

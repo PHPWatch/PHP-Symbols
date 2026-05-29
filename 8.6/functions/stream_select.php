@@ -33,12 +33,13 @@ return array (
   'extension' => 'standard',
   'toString' => 'Function [ <internal:standard> function stream_select ] {
 
-  - Parameters [5] {
+  - Parameters [6] {
     Parameter #0 [ <required> ?array &$read ]
     Parameter #1 [ <required> ?array &$write ]
     Parameter #2 [ <required> ?array &$except ]
     Parameter #3 [ <required> ?int $seconds ]
     Parameter #4 [ <optional> ?int $microseconds = null ]
+    Parameter #5 [ <optional> $context = null ]
   }
   - Return [ int|false ]
 }

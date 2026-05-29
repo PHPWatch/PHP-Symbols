@@ -1406,6 +1406,8 @@ return array (
   'stream_get_line',
   'stream_resolve_include_path',
   'stream_get_wrappers',
+  'stream_last_errors',
+  'stream_clear_errors',
   'stream_get_transports',
   'stream_is_local',
   'stream_isatty',
