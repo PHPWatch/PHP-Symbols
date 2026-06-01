@@ -50,6 +50,7 @@ docref_root => no value => no value
 enable_dl => On => On
 enable_post_data_reading => On => On
 error_append_string => no value => no value
+error_include_args => Off => Off
 error_log => no value => no value
 error_log_mode => 0644 => 0644
 error_prepend_string => no value => no value
@@ -734,8 +735,8 @@ Cache misses => 1
 Used memory => 9179808
 Free memory => 125037920
 Wasted memory => 0
-Interned Strings Used memory => 2656136
-Interned Strings Free memory => 5732472
+Interned Strings Used memory => 2656296
+Interned Strings Free memory => 5732312
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229

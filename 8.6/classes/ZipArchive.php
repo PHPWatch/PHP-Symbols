@@ -994,8 +994,18 @@ return array (
           'position' => 0,
           'name' => 'data',
           'type' => 'string',
-          'is_optional' => false,
-          'has_default_value' => false,
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'flags' => 
+        array (
+          'position' => 1,
+          'name' => 'flags',
+          'type' => 'int',
+          'is_optional' => true,
+          'has_default_value' => true,
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
@@ -1040,6 +1050,20 @@ return array (
       ),
       'return_type' => NULL,
       'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'closeString' => 
+    array (
+      'name' => 'closeString',
+      'class' => 'ZipArchive',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string|false',
+      'has_return_type' => true,
       'is_static' => false,
       'is_public' => true,
       'is_protected' => false,
@@ -3007,7 +3031,7 @@ return array (
     Property [ public string $comment ]
   }
 
-  - Methods [51] {
+  - Methods [52] {
     Method [ <internal:zip> public method open ] {
 
       - Parameters [2] {
@@ -3019,8 +3043,9 @@ return array (
 
     Method [ <internal:zip> public method openString ] {
 
-      - Parameters [1] {
-        Parameter #0 [ <required> string $data ]
+      - Parameters [2] {
+        Parameter #0 [ <optional> string $data = \'\' ]
+        Parameter #1 [ <optional> int $flags = 0 ]
       }
       - Return [ int|bool ]
     }
@@ -3038,6 +3063,13 @@ return array (
       - Parameters [0] {
       }
       - Tentative return [ bool ]
+    }
+
+    Method [ <internal:zip> public method closeString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string|false ]
     }
 
     Method [ <internal:zip, prototype Countable> public method count ] {

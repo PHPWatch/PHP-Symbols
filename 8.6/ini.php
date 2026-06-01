@@ -136,6 +136,13 @@ return array (
       'builtin_default_value' => NULL,
       'access' => 7,
     ),
+    'error_include_args' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'builtin_default_value' => '0',
+      'access' => 7,
+    ),
     'error_log' => 
     array (
       'global_value' => NULL,

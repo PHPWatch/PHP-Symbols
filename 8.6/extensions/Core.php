@@ -247,6 +247,7 @@ return array (
     'enable_dl' => '1',
     'enable_post_data_reading' => '1',
     'error_append_string' => NULL,
+    'error_include_args' => '0',
     'error_log' => NULL,
     'error_log_mode' => '0644',
     'error_prepend_string' => NULL,
