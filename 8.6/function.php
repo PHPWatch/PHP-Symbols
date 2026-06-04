@@ -1391,6 +1391,7 @@ return array (
   'stream_socket_recvfrom',
   'stream_socket_sendto',
   'stream_socket_enable_crypto',
+  'stream_socket_get_crypto_status',
   'stream_socket_shutdown',
   'stream_socket_pair',
   'stream_copy_to_stream',
