@@ -225,7 +225,7 @@ exif
 
 EXIF Support => enabled
 Supported EXIF Version => 0220
-Supported filetypes => JPEG, TIFF
+Supported filetypes => JPEG, TIFF, HEIF, WebP
 Multibyte decoding support using mbstring => enabled
 Extended EXIF tag formats => Canon, Casio, Fujifilm, Nikon, Olympus, Samsung, Panasonic, DJI, Sony, Pentax, Minolta, Sigma, Foveon, Kyocera, Ricoh, AGFA, Epson
 
