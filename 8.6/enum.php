@@ -9,6 +9,8 @@ return array (
   'Uri\\WhatWg\\UrlValidationErrorType',
   'RoundingMode',
   'SortDirection',
+  'Io\\Poll\\Backend',
+  'Io\\Poll\\Event',
   'StreamErrorCode',
   'StreamErrorMode',
   'StreamErrorStore',

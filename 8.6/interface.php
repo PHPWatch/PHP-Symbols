@@ -18,6 +18,7 @@ return array (
   'SessionIdInterface',
   'SessionUpdateTimestampHandlerInterface',
   'JsonSerializable',
+  'Io\\Poll\\Handle',
   'RecursiveIterator',
   'OuterIterator',
   'SeekableIterator',
