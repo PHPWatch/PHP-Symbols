@@ -697,7 +697,7 @@ pcntl support => enabled
 pcre
 
 PCRE (Perl Compatible Regular Expressions) Support => enabled
-PCRE Library Version => 8.39 2016-06-14
+PCRE Library Version => 8.45 2021-06-15
 
 Directive => Local Value => Master Value
 pcre.backtrack_limit => 1000000 => 1000000
@@ -737,7 +737,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 16.13 (Ubuntu 16.13-0ubuntu0.24.04.1)
+PostgreSQL(libpq) Version => 16.14 (Ubuntu 16.14-0ubuntu0.24.04.1)
 Module version => 1.0.2
 Revision =>  $Id: 0e858dd2051ca8c2fd3c781909a0670ab5fecd36 $ 
 
@@ -749,8 +749,8 @@ SQLite Library => 3.45.1
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL(libpq) Version => 16.13 (Ubuntu 16.13-0ubuntu0.24.04.1)
-PostgreSQL(libpq)  => PostgreSQL 16.13 (Ubuntu 16.13-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+PostgreSQL(libpq) Version => 16.14 (Ubuntu 16.14-0ubuntu0.24.04.1)
+PostgreSQL(libpq)  => PostgreSQL 16.14 (Ubuntu 16.14-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
 Multibyte character support => enabled
 SSL support => enabled
 Active Persistent Links => 0
