@@ -473,8 +473,8 @@ pcntl support => enabled
 pcre
 
 PCRE (Perl Compatible Regular Expressions) Support => enabled
-PCRE Library Version => 10.42 2022-12-11
-PCRE Unicode Version => 14.0.0
+PCRE Library Version => 10.47 2025-10-21
+PCRE Unicode Version => 16.0.0
 PCRE JIT Support => enabled
 PCRE JIT Target => x86 64bit (little endian + unaligned)
 
@@ -518,7 +518,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 16.13 (Ubuntu 16.13-0ubuntu0.24.04.1)
+PostgreSQL(libpq) Version => 16.14 (Ubuntu 16.14-0ubuntu0.24.04.1)
 
 pdo_sqlite
 
@@ -528,8 +528,8 @@ SQLite Library => 3.45.1
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL(libpq) Version => 16.13 (Ubuntu 16.13-0ubuntu0.24.04.1)
-PostgreSQL(libpq)  => PostgreSQL 16.13 (Ubuntu 16.13-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+PostgreSQL(libpq) Version => 16.14 (Ubuntu 16.14-0ubuntu0.24.04.1)
+PostgreSQL(libpq)  => PostgreSQL 16.14 (Ubuntu 16.14-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
 Multibyte character support => enabled
 SSL support => enabled
 Active Persistent Links => 0
