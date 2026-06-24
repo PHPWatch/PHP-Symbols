@@ -1042,6 +1042,7 @@ return array (
       'global_value' => '32',
       'local_value' => '32',
       'access' => 7,
+      'deprecated' => 'session.sid_length INI setting is deprecated',
     ),
     'session.upload_progress.cleanup' => 
     array (
@@ -1090,6 +1091,7 @@ return array (
       'global_value' => '1',
       'local_value' => '1',
       'access' => 7,
+      'deprecated' => 'Disabling session.use_only_cookies INI setting is deprecated',
     ),
     'session.use_strict_mode' => 
     array (
@@ -1102,6 +1104,7 @@ return array (
       'global_value' => '0',
       'local_value' => '0',
       'access' => 7,
+      'deprecated' => 'Enabling session.use_trans_sid INI setting is deprecated',
     ),
   ),
   'ldap' => 
