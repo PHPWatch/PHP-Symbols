@@ -74,6 +74,7 @@ return array (
   'CURLFile',
   'CURLStringFile',
   'Dba\\Connection',
+  'Uri\\Rfc3986\\UriBuilder',
   'Uri\\Rfc3986\\Uri',
   'Uri\\Rfc3986\\UriType',
   'Uri\\Rfc3986\\UriHostType',
