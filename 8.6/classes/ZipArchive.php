@@ -1083,6 +1083,44 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    '__serialize' => 
+    array (
+      'name' => '__serialize',
+      'class' => 'ZipArchive',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'array',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    '__unserialize' => 
+    array (
+      'name' => '__unserialize',
+      'class' => 'ZipArchive',
+      'parameters' => 
+      array (
+        'data' => 
+        array (
+          'position' => 0,
+          'name' => 'data',
+          'type' => 'array',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getStatusString' => 
     array (
       'name' => 'getStatusString',
@@ -3031,7 +3069,7 @@ return array (
     Property [ public string $comment ]
   }
 
-  - Methods [52] {
+  - Methods [54] {
     Method [ <internal:zip> public method open ] {
 
       - Parameters [2] {
@@ -3077,6 +3115,21 @@ return array (
       - Parameters [0] {
       }
       - Tentative return [ int ]
+    }
+
+    Method [ <internal:zip> public method __serialize ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
+    }
+
+    Method [ <internal:zip> public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+      - Return [ void ]
     }
 
     Method [ <internal:zip> public method getStatusString ] {
