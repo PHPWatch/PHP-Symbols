@@ -126,6 +126,15 @@ return array (
       'isFinal' => false,
       'isEnumCase' => true,
     ),
+    'AcceptFailed' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public StreamErrorCode AcceptFailed ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
     'NotWritable' => 
     array (
       'value' => NULL,
@@ -612,6 +621,15 @@ return array (
       'isFinal' => false,
       'isEnumCase' => true,
     ),
+    'TimeOut' => 
+    array (
+      'value' => NULL,
+      'toString' => 'Constant [ public StreamErrorCode TimeOut ] { Object }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'isEnumCase' => true,
+    ),
     'ArchivingFailed' => 
     array (
       'value' => NULL,
@@ -752,7 +770,7 @@ return array (
   'extension' => 'standard',
   'toString' => 'Enum [ <internal:standard> enum StreamErrorCode implements UnitEnum ] {
 
-  - Enum cases [76] {
+  - Enum cases [78] {
     Case None
     Case Generic
     Case ReadFailed
@@ -764,6 +782,7 @@ return array (
     Case ConnectFailed
     Case BindFailed
     Case ListenFailed
+    Case AcceptFailed
     Case NotWritable
     Case NotReadable
     Case Disabled
@@ -818,6 +837,7 @@ return array (
     Case InvalidParam
     Case RedirectLimit
     Case AuthFailed
+    Case TimeOut
     Case ArchivingFailed
     Case EncodingFailed
     Case DecodingFailed
