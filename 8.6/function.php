@@ -796,6 +796,8 @@ return array (
   'locale_get_display_name',
   'locale_get_display_language',
   'locale_get_display_variant',
+  'locale_get_display_keyword',
+  'locale_get_display_keyword_value',
   'locale_compose',
   'locale_parse',
   'locale_get_all_variants',

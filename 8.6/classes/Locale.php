@@ -424,6 +424,84 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getDisplayKeyword' => 
+    array (
+      'name' => 'getDisplayKeyword',
+      'class' => 'Locale',
+      'parameters' => 
+      array (
+        'keyword' => 
+        array (
+          'position' => 0,
+          'name' => 'keyword',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'displayLocale' => 
+        array (
+          'position' => 1,
+          'name' => 'displayLocale',
+          'type' => '?string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'string|false',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getDisplayKeywordValue' => 
+    array (
+      'name' => 'getDisplayKeywordValue',
+      'class' => 'Locale',
+      'parameters' => 
+      array (
+        'locale' => 
+        array (
+          'position' => 0,
+          'name' => 'locale',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'keyword' => 
+        array (
+          'position' => 1,
+          'name' => 'keyword',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'displayLocale' => 
+        array (
+          'position' => 2,
+          'name' => 'displayLocale',
+          'type' => '?string',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'string|false',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'composeLocale' => 
     array (
       'name' => 'composeLocale',
@@ -740,7 +818,7 @@ return array (
   - Static properties [0] {
   }
 
-  - Static methods [21] {
+  - Static methods [23] {
     Method [ <internal:intl> static public method getDefault ] {
 
       - Parameters [0] {
@@ -831,6 +909,25 @@ return array (
         Parameter #1 [ <optional> ?string $displayLocale = null ]
       }
       - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:intl> static public method getDisplayKeyword ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> string $keyword ]
+        Parameter #1 [ <optional> ?string $displayLocale = null ]
+      }
+      - Return [ string|false ]
+    }
+
+    Method [ <internal:intl> static public method getDisplayKeywordValue ] {
+
+      - Parameters [3] {
+        Parameter #0 [ <required> string $locale ]
+        Parameter #1 [ <required> string $keyword ]
+        Parameter #2 [ <optional> ?string $displayLocale = null ]
+      }
+      - Return [ string|false ]
     }
 
     Method [ <internal:intl> static public method composeLocale ] {
