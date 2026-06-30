@@ -940,7 +940,7 @@ Editor => Peter Cowburn
 User Note Maintainers => Daniel P. Brown, Thiago Henrique Pojda
 Other Contributors => Previously active authors, editors and other contributors are listed in the manual.
 
-PHP Quality Assurance Team
+                        PHP Quality Assurance Team                        
 Ilia Alshanetsky, Joerg Behrens, Antony Dovgal, Stefan Esser, Moriyoshi Koizumi, Magnus Maatta, Sebastian Nohn, Derick Rethans, Melvyn Sopacua, Pierre-Alain Joye, Dmitry Stogov, Felipe Pena, David Soria Parra, Stanislav Malyshev, Julien Pauli, Stephen Zarkos, Anatol Belski, Remi Collet, Ferenc Kovacs
 
                      Websites and Infrastructure team                     
