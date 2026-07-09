@@ -181,8 +181,8 @@ curl.cainfo => no value => no value
 date
 
 date/time support => enabled
-timelib version => 2022.15
-"Olson" Timezone Database Version => 2026.1
+timelib version => 2022.17
+"Olson" Timezone Database Version => 2026.3
 Timezone Database => internal
 Default timezone => UTC
 

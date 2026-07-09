@@ -331,7 +331,7 @@ return array (
   }
 }
 ',
-  'modifiers' => 0,
+  'modifiers' => 1048576,
   'defaultProperties' => 
   array (
     'message' => '',
