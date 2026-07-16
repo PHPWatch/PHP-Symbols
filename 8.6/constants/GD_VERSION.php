@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => '2.0.35',
+  'value' => '2.4.0',
   'extension' => 'gd',
 );

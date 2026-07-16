@@ -266,7 +266,7 @@ FTPS support => enabled
 gd
 
 GD Support => enabled
-GD Version => bundled (2.1.0 compatible)
+GD Version => bundled (2.4.0 compatible)
 FreeType Support => enabled
 FreeType Linkage => with freetype
 FreeType Version => 2.13.2
