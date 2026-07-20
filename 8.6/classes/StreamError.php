@@ -101,19 +101,6 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
-    'param' => 
-    array (
-      'name' => 'param',
-      'class' => 'StreamError',
-      'type' => '?string',
-      'has_default_value' => false,
-      'default_value' => NULL,
-      'is_static' => false,
-      'is_public' => true,
-      'is_protected' => false,
-      'is_private' => false,
-      'is_promoted' => false,
-    ),
   ),
   'extension' => 'standard',
   'toString' => 'Class [ <internal:standard> final readonly class StreamError ] {
@@ -127,13 +114,12 @@ return array (
   - Static methods [0] {
   }
 
-  - Properties [6] {
+  - Properties [5] {
     Property [ public protected(set) readonly StreamErrorCode $code ]
     Property [ public protected(set) readonly string $message ]
     Property [ public protected(set) readonly string $wrapperName ]
     Property [ public protected(set) readonly int $severity ]
     Property [ public protected(set) readonly bool $terminating ]
-    Property [ public protected(set) readonly ?string $param ]
   }
 
   - Methods [0] {
