@@ -33,12 +33,13 @@ return array (
   'extension' => 'openssl',
   'toString' => 'Function [ <internal:openssl> function openssl_verify ] {
 
-  - Parameters [5] {
+  - Parameters [6] {
     Parameter #0 [ <required> string $data ]
     Parameter #1 [ <required> string $signature ]
     Parameter #2 [ <required> $public_key ]
     Parameter #3 [ <optional> string|int $algorithm = OPENSSL_ALGO_SHA1 ]
     Parameter #4 [ <optional> int $padding = 0 ]
+    Parameter #5 [ <optional> int $salt_length = OPENSSL_RSA_PSS_SALTLEN_AUTO ]
   }
   - Return [ int|false ]
 }
