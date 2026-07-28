@@ -33,8 +33,9 @@ return array (
   'extension' => 'gmp',
   'toString' => 'Function [ <internal:gmp> function gmp_prevprime ] {
 
-  - Parameters [1] {
+  - Parameters [2] {
     Parameter #0 [ <required> GMP|string|int $num ]
+    Parameter #1 [ <optional> &$definitely_prime = null ]
   }
   - Return [ GMP ]
 }
