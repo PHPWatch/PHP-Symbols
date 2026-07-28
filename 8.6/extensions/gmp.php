@@ -56,6 +56,7 @@ return array (
     'gmp_rootrem' => 'gmp_rootrem',
     'gmp_pow' => 'gmp_pow',
     'gmp_powm' => 'gmp_powm',
+    'gmp_powm_sec' => 'gmp_powm_sec',
     'gmp_perfect_square' => 'gmp_perfect_square',
     'gmp_perfect_power' => 'gmp_perfect_power',
     'gmp_prob_prime' => 'gmp_prob_prime',
