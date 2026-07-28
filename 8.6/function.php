@@ -638,6 +638,7 @@ return array (
   'gmp_popcount',
   'gmp_hamdist',
   'gmp_nextprime',
+  'gmp_prevprime',
   'gmp_binomial',
   'hash',
   'hash_file',

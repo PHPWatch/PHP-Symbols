@@ -83,6 +83,7 @@ return array (
     'gmp_popcount' => 'gmp_popcount',
     'gmp_hamdist' => 'gmp_hamdist',
     'gmp_nextprime' => 'gmp_nextprime',
+    'gmp_prevprime' => 'gmp_prevprime',
     'gmp_binomial' => 'gmp_binomial',
   ),
   'constants' => 
