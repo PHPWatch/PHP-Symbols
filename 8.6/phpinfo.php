@@ -836,10 +836,10 @@ Module Name
 
 PHP Credits
 
-PHP Group
+                                PHP Group                                
 Thies C. Arntzen, Stig Bakken, Shane Caraveo, Andi Gutmans, Rasmus Lerdorf, Sam Ruby, Sascha Schumann, Zeev Suraski, Jim Winstead, Andrei Zmievski
 
-Language Design & Concept
+                        Language Design & Concept                        
 Andi Gutmans, Rasmus Lerdorf, Zeev Suraski, Marcus Boerger
 
                                PHP Authors                               
