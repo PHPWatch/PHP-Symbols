@@ -53,6 +53,48 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'inNamespace' => 
+    array (
+      'name' => 'inNamespace',
+      'class' => 'ReflectionAttribute',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getNamespaceName' => 
+    array (
+      'name' => 'getNamespaceName',
+      'class' => 'ReflectionAttribute',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getShortName' => 
+    array (
+      'name' => 'getShortName',
+      'class' => 'ReflectionAttribute',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getTarget' => 
     array (
       'name' => 'getTarget',
@@ -190,8 +232,29 @@ return array (
     Property [ public string $name ]
   }
 
-  - Methods [8] {
+  - Methods [11] {
     Method [ <internal:Reflection> public method getName ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Reflection> public method inNamespace ] {
+
+      - Parameters [0] {
+      }
+      - Return [ bool ]
+    }
+
+    Method [ <internal:Reflection> public method getNamespaceName ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Reflection> public method getShortName ] {
 
       - Parameters [0] {
       }
