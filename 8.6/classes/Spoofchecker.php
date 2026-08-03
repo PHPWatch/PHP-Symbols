@@ -198,6 +198,24 @@ return array (
       'isFinal' => false,
       'type' => 'int',
     ),
+    'LTR' => 
+    array (
+      'value' => 0,
+      'toString' => 'Constant [ public int LTR ] { 0 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
+    'RTL' => 
+    array (
+      'value' => 1,
+      'toString' => 'Constant [ public int RTL ] { 1 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
   ),
   'methods' => 
   array (
@@ -399,6 +417,60 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'areBidiConfusable' => 
+    array (
+      'name' => 'areBidiConfusable',
+      'class' => 'Spoofchecker',
+      'parameters' => 
+      array (
+        'direction' => 
+        array (
+          'position' => 0,
+          'name' => 'direction',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'string1' => 
+        array (
+          'position' => 1,
+          'name' => 'string1',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'string2' => 
+        array (
+          'position' => 2,
+          'name' => 'string2',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'errorCode' => 
+        array (
+          'position' => 3,
+          'name' => 'errorCode',
+          'type' => NULL,
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'bool',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'interfaces' => 
   array (
@@ -409,7 +481,7 @@ return array (
   'extension' => 'intl',
   'toString' => 'Class [ <internal:intl> class Spoofchecker ] {
 
-  - Constants [19] {
+  - Constants [21] {
     Constant [ public int SINGLE_SCRIPT_CONFUSABLE ] { 1 }
     Constant [ public int MIXED_SCRIPT_CONFUSABLE ] { 2 }
     Constant [ public int WHOLE_SCRIPT_CONFUSABLE ] { 4 }
@@ -429,6 +501,8 @@ return array (
     Constant [ public int CASE_INSENSITIVE ] { 2 }
     Constant [ public int ADD_CASE_MAPPINGS ] { 4 }
     Constant [ public int SIMPLE_CASE_INSENSITIVE ] { 6 }
+    Constant [ public int LTR ] { 0 }
+    Constant [ public int RTL ] { 1 }
   }
 
   - Static properties [0] {
@@ -440,7 +514,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [7] {
+  - Methods [8] {
     Method [ <internal:intl, ctor> public method __construct ] {
 
       - Parameters [0] {
@@ -497,6 +571,17 @@ return array (
         Parameter #1 [ <optional> int $patternOptions = 0 ]
       }
       - Return [ void ]
+    }
+
+    Method [ <internal:intl> public method areBidiConfusable ] {
+
+      - Parameters [4] {
+        Parameter #0 [ <required> int $direction ]
+        Parameter #1 [ <required> string $string1 ]
+        Parameter #2 [ <required> string $string2 ]
+        Parameter #3 [ <optional> &$errorCode = null ]
+      }
+      - Return [ bool ]
     }
   }
 }
