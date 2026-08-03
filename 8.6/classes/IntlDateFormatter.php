@@ -135,6 +135,15 @@ return array (
       'isFinal' => false,
       'type' => 'int',
     ),
+    'PROLEPTIC_GREGORIAN' => 
+    array (
+      'value' => -16,
+      'toString' => 'Constant [ public int PROLEPTIC_GREGORIAN ] { -16 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
   ),
   'methods' => 
   array (
@@ -726,7 +735,7 @@ return array (
   'extension' => 'intl',
   'toString' => 'Class [ <internal:intl> class IntlDateFormatter ] {
 
-  - Constants [12] {
+  - Constants [13] {
     Constant [ public int FULL ] { 0 }
     Constant [ public int LONG ] { 1 }
     Constant [ public int MEDIUM ] { 2 }
@@ -739,6 +748,7 @@ return array (
     Constant [ public int PATTERN ] { -2 }
     Constant [ public int GREGORIAN ] { 1 }
     Constant [ public int TRADITIONAL ] { 0 }
+    Constant [ public int PROLEPTIC_GREGORIAN ] { -16 }
   }
 
   - Static properties [0] {
