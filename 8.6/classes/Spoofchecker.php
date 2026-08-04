@@ -417,6 +417,64 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getSkeleton' => 
+    array (
+      'name' => 'getSkeleton',
+      'class' => 'Spoofchecker',
+      'parameters' => 
+      array (
+        'string' => 
+        array (
+          'position' => 0,
+          'name' => 'string',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'string|false',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getBidiSkeleton' => 
+    array (
+      'name' => 'getBidiSkeleton',
+      'class' => 'Spoofchecker',
+      'parameters' => 
+      array (
+        'direction' => 
+        array (
+          'position' => 0,
+          'name' => 'direction',
+          'type' => 'int',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+        'string' => 
+        array (
+          'position' => 1,
+          'name' => 'string',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'string|false',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'areBidiConfusable' => 
     array (
       'name' => 'areBidiConfusable',
@@ -514,7 +572,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [8] {
+  - Methods [10] {
     Method [ <internal:intl, ctor> public method __construct ] {
 
       - Parameters [0] {
@@ -571,6 +629,23 @@ return array (
         Parameter #1 [ <optional> int $patternOptions = 0 ]
       }
       - Return [ void ]
+    }
+
+    Method [ <internal:intl> public method getSkeleton ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $string ]
+      }
+      - Return [ string|false ]
+    }
+
+    Method [ <internal:intl> public method getBidiSkeleton ] {
+
+      - Parameters [2] {
+        Parameter #0 [ <required> int $direction ]
+        Parameter #1 [ <required> string $string ]
+      }
+      - Return [ string|false ]
     }
 
     Method [ <internal:intl> public method areBidiConfusable ] {
