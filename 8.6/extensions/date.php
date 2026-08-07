@@ -44,6 +44,8 @@ return array (
     12 => 'DateMalformedStringException',
     13 => 'DateMalformedIntervalStringException',
     14 => 'DateMalformedPeriodStringException',
+    15 => 'Time\\TimeException',
+    16 => 'Time\\Duration',
   ),
   'functions' => 
   array (

@@ -102,6 +102,54 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getSkeleton' => 
+    array (
+      'name' => 'getSkeleton',
+      'class' => 'IntlDatePatternGenerator',
+      'parameters' => 
+      array (
+        'pattern' => 
+        array (
+          'position' => 0,
+          'name' => 'pattern',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'string|false',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'getBaseSkeleton' => 
+    array (
+      'name' => 'getBaseSkeleton',
+      'class' => 'IntlDatePatternGenerator',
+      'parameters' => 
+      array (
+        'pattern' => 
+        array (
+          'position' => 0,
+          'name' => 'pattern',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'string|false',
+      'has_return_type' => true,
+      'is_static' => true,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'interfaces' => 
   array (
@@ -118,13 +166,29 @@ return array (
   - Static properties [0] {
   }
 
-  - Static methods [1] {
+  - Static methods [3] {
     Method [ <internal:intl> static public method create ] {
 
       - Parameters [1] {
         Parameter #0 [ <optional> ?string $locale = null ]
       }
       - Return [ ?IntlDatePatternGenerator ]
+    }
+
+    Method [ <internal:intl> static public method getSkeleton ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $pattern ]
+      }
+      - Return [ string|false ]
+    }
+
+    Method [ <internal:intl> static public method getBaseSkeleton ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $pattern ]
+      }
+      - Return [ string|false ]
     }
   }
 

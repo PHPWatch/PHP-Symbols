@@ -104,21 +104,11 @@ return array (
       'class' => 'Io\\Poll\\Context',
       'parameters' => 
       array (
-        'timeoutSeconds' => 
+        'timeout' => 
         array (
           'position' => 0,
-          'name' => 'timeoutSeconds',
-          'type' => '?int',
-          'is_optional' => true,
-          'has_default_value' => true,
-          'has_default_value_constant' => false,
-          'default_value_constant' => NULL,
-        ),
-        'timeoutMicroseconds' => 
-        array (
-          'position' => 1,
-          'name' => 'timeoutMicroseconds',
-          'type' => 'int',
+          'name' => 'timeout',
+          'type' => '?Time\\Duration',
           'is_optional' => true,
           'has_default_value' => true,
           'has_default_value_constant' => false,
@@ -126,7 +116,7 @@ return array (
         ),
         'maxEvents' => 
         array (
-          'position' => 2,
+          'position' => 1,
           'name' => 'maxEvents',
           'type' => '?int',
           'is_optional' => true,
@@ -198,10 +188,9 @@ return array (
 
     Method [ <internal:standard> public method wait ] {
 
-      - Parameters [3] {
-        Parameter #0 [ <optional> ?int $timeoutSeconds = null ]
-        Parameter #1 [ <optional> int $timeoutMicroseconds = 0 ]
-        Parameter #2 [ <optional> ?int $maxEvents = null ]
+      - Parameters [2] {
+        Parameter #0 [ <optional> ?Time\\Duration $timeout = null ]
+        Parameter #1 [ <optional> ?int $maxEvents = null ]
       }
       - Return [ array ]
     }

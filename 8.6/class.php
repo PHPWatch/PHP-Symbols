@@ -45,6 +45,8 @@ return array (
   'DateMalformedStringException',
   'DateMalformedIntervalStringException',
   'DateMalformedPeriodStringException',
+  'Time\\TimeException',
+  'Time\\Duration',
   'Random\\RandomError',
   'Random\\BrokenRandomEngineError',
   'Random\\RandomException',
