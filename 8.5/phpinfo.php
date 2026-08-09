@@ -136,7 +136,7 @@ ctype functions => enabled
 curl
 
 cURL support => enabled
-cURL Information => 8.21.0-DEV
+cURL Information => 8.22.0-DEV
 Age => 11
 Features
 AsynchDNS => Yes
@@ -153,7 +153,7 @@ NTLMWB => No
 SPNEGO => Yes
 SSL => Yes
 SSPI => No
-TLS-SRP => Yes
+TLS-SRP => No
 HTTP2 => Yes
 GSSAPI => Yes
 KERBEROS5 => Yes
