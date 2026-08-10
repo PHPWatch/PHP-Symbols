@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,7 +31,7 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'standard',
-  'toString' => 'Function [ <internal:standard> function doubleval ] {
+  'toString' => 'Function [ <internal, deprecated:standard> function doubleval ] {
 
   - Parameters [1] {
     Parameter #0 [ <required> mixed $value ]
@@ -39,4 +39,19 @@ return array (
   - Return [ float ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'message' => 'use floatval() instead',
+          'since' => '8.6',
+        ),
+      ),
+    ),
+  ),
 );

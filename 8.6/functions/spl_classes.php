@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,11 +31,26 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'SPL',
-  'toString' => 'Function [ <internal:SPL> function spl_classes ] {
+  'toString' => 'Function [ <internal, deprecated:SPL> function spl_classes ] {
 
   - Parameters [0] {
   }
   - Return [ array ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'message' => 'use ReflectionExtension::getClassNames() instead',
+          'since' => '8.6',
+        ),
+      ),
+    ),
+  ),
 );

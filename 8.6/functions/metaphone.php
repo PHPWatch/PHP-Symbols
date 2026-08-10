@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,7 +31,7 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'standard',
-  'toString' => 'Function [ <internal:standard> function metaphone ] {
+  'toString' => 'Function [ <internal, deprecated:standard> function metaphone ] {
 
   - Parameters [2] {
     Parameter #0 [ <required> string $string ]
@@ -40,4 +40,19 @@ return array (
   - Return [ string ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.6',
+          'message' => 'use a userland phonetic matching library instead',
+        ),
+      ),
+    ),
+  ),
 );

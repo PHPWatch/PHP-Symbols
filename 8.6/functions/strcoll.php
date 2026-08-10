@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,7 +31,7 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'standard',
-  'toString' => 'Function [ <internal:standard> function strcoll ] {
+  'toString' => 'Function [ <internal, deprecated:standard> function strcoll ] {
 
   - Parameters [2] {
     Parameter #0 [ <required> string $string1 ]
@@ -40,4 +40,19 @@ return array (
   - Return [ int ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'message' => 'use Collator::compare() instead',
+          'since' => '8.6',
+        ),
+      ),
+    ),
+  ),
 );

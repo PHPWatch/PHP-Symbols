@@ -680,14 +680,14 @@ return array (
       - Tentative return [ int ]
     }
 
-    Method [ <internal:SPL> public method getFlags ] {
+    Method [ <internal, deprecated:SPL> public method getFlags ] {
 
       - Parameters [0] {
       }
       - Tentative return [ int ]
     }
 
-    Method [ <internal:SPL> public method setFlags ] {
+    Method [ <internal, deprecated:SPL> public method setFlags ] {
 
       - Parameters [1] {
         Parameter #0 [ <required> int $flags ]
@@ -695,7 +695,7 @@ return array (
       - Tentative return [ void ]
     }
 
-    Method [ <internal:SPL> public method asort ] {
+    Method [ <internal, deprecated:SPL> public method asort ] {
 
       - Parameters [1] {
         Parameter #0 [ <optional> int $flags = SORT_REGULAR ]
@@ -703,7 +703,7 @@ return array (
       - Tentative return [ true ]
     }
 
-    Method [ <internal:SPL> public method ksort ] {
+    Method [ <internal, deprecated:SPL> public method ksort ] {
 
       - Parameters [1] {
         Parameter #0 [ <optional> int $flags = SORT_REGULAR ]
@@ -711,7 +711,7 @@ return array (
       - Tentative return [ true ]
     }
 
-    Method [ <internal:SPL> public method uasort ] {
+    Method [ <internal, deprecated:SPL> public method uasort ] {
 
       - Parameters [1] {
         Parameter #0 [ <required> callable $callback ]
@@ -719,7 +719,7 @@ return array (
       - Tentative return [ true ]
     }
 
-    Method [ <internal:SPL> public method uksort ] {
+    Method [ <internal, deprecated:SPL> public method uksort ] {
 
       - Parameters [1] {
         Parameter #0 [ <required> callable $callback ]
@@ -727,21 +727,21 @@ return array (
       - Tentative return [ true ]
     }
 
-    Method [ <internal:SPL> public method natsort ] {
+    Method [ <internal, deprecated:SPL> public method natsort ] {
 
       - Parameters [0] {
       }
       - Tentative return [ true ]
     }
 
-    Method [ <internal:SPL> public method natcasesort ] {
+    Method [ <internal, deprecated:SPL> public method natcasesort ] {
 
       - Parameters [0] {
       }
       - Tentative return [ true ]
     }
 
-    Method [ <internal:SPL, prototype Serializable> public method unserialize ] {
+    Method [ <internal, deprecated:SPL, prototype Serializable> public method unserialize ] {
 
       - Parameters [1] {
         Parameter #0 [ <required> string $data ]
@@ -749,7 +749,7 @@ return array (
       - Tentative return [ void ]
     }
 
-    Method [ <internal:SPL, prototype Serializable> public method serialize ] {
+    Method [ <internal, deprecated:SPL, prototype Serializable> public method serialize ] {
 
       - Parameters [0] {
       }

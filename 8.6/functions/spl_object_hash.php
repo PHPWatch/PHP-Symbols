@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,7 +31,7 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'SPL',
-  'toString' => 'Function [ <internal:SPL> function spl_object_hash ] {
+  'toString' => 'Function [ <internal, deprecated:SPL> function spl_object_hash ] {
 
   - Parameters [1] {
     Parameter #0 [ <required> object $object ]
@@ -39,4 +39,19 @@ return array (
   - Return [ string ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'message' => 'consider using spl_object_id() instead',
+          'since' => '8.6',
+        ),
+      ),
+    ),
+  ),
 );

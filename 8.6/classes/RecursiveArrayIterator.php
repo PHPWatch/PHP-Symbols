@@ -733,14 +733,14 @@ return array (
       - Tentative return [ int ]
     }
 
-    Method [ <internal:SPL, inherits ArrayIterator> public method getFlags ] {
+    Method [ <internal, deprecated:SPL, inherits ArrayIterator> public method getFlags ] {
 
       - Parameters [0] {
       }
       - Tentative return [ int ]
     }
 
-    Method [ <internal:SPL, inherits ArrayIterator> public method setFlags ] {
+    Method [ <internal, deprecated:SPL, inherits ArrayIterator> public method setFlags ] {
 
       - Parameters [1] {
         Parameter #0 [ <required> int $flags ]
@@ -748,7 +748,7 @@ return array (
       - Tentative return [ void ]
     }
 
-    Method [ <internal:SPL, inherits ArrayIterator> public method asort ] {
+    Method [ <internal, deprecated:SPL, inherits ArrayIterator> public method asort ] {
 
       - Parameters [1] {
         Parameter #0 [ <optional> int $flags = SORT_REGULAR ]
@@ -756,7 +756,7 @@ return array (
       - Tentative return [ true ]
     }
 
-    Method [ <internal:SPL, inherits ArrayIterator> public method ksort ] {
+    Method [ <internal, deprecated:SPL, inherits ArrayIterator> public method ksort ] {
 
       - Parameters [1] {
         Parameter #0 [ <optional> int $flags = SORT_REGULAR ]
@@ -764,7 +764,7 @@ return array (
       - Tentative return [ true ]
     }
 
-    Method [ <internal:SPL, inherits ArrayIterator> public method uasort ] {
+    Method [ <internal, deprecated:SPL, inherits ArrayIterator> public method uasort ] {
 
       - Parameters [1] {
         Parameter #0 [ <required> callable $callback ]
@@ -772,7 +772,7 @@ return array (
       - Tentative return [ true ]
     }
 
-    Method [ <internal:SPL, inherits ArrayIterator> public method uksort ] {
+    Method [ <internal, deprecated:SPL, inherits ArrayIterator> public method uksort ] {
 
       - Parameters [1] {
         Parameter #0 [ <required> callable $callback ]
@@ -780,21 +780,21 @@ return array (
       - Tentative return [ true ]
     }
 
-    Method [ <internal:SPL, inherits ArrayIterator> public method natsort ] {
+    Method [ <internal, deprecated:SPL, inherits ArrayIterator> public method natsort ] {
 
       - Parameters [0] {
       }
       - Tentative return [ true ]
     }
 
-    Method [ <internal:SPL, inherits ArrayIterator> public method natcasesort ] {
+    Method [ <internal, deprecated:SPL, inherits ArrayIterator> public method natcasesort ] {
 
       - Parameters [0] {
       }
       - Tentative return [ true ]
     }
 
-    Method [ <internal:SPL, inherits ArrayIterator, prototype Serializable> public method unserialize ] {
+    Method [ <internal, deprecated:SPL, inherits ArrayIterator, prototype Serializable> public method unserialize ] {
 
       - Parameters [1] {
         Parameter #0 [ <required> string $data ]
@@ -802,7 +802,7 @@ return array (
       - Tentative return [ void ]
     }
 
-    Method [ <internal:SPL, inherits ArrayIterator, prototype Serializable> public method serialize ] {
+    Method [ <internal, deprecated:SPL, inherits ArrayIterator, prototype Serializable> public method serialize ] {
 
       - Parameters [0] {
       }

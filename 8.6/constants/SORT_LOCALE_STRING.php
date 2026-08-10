@@ -12,8 +12,8 @@ return array (
     array (
     ),
     'added' => '0.0',
-    'deprecated' => false,
-    'deprecated_message' => NULL,
+    'deprecated' => true,
+    'deprecated_message' => 'Constant SORT_LOCALE_STRING is deprecated since 8.6, use one of the Collator::*sort*() methods instead',
     'removed' => NULL,
     'resources' => 
     array (
