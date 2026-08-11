@@ -11,7 +11,7 @@ return array (
     'keywords' => 
     array (
     ),
-    'deprecated' => false,
+    'deprecated' => true,
     'resources' => 
     array (
       0 => 
@@ -31,7 +31,7 @@ return array (
     'nullable' => true,
   ),
   'extension' => 'mysqli',
-  'toString' => 'Function [ <internal:mysqli> function mysqli_get_charset ] {
+  'toString' => 'Function [ <internal, deprecated:mysqli> function mysqli_get_charset ] {
 
   - Parameters [1] {
     Parameter #0 [ <required> mysqli $mysql ]
@@ -39,4 +39,19 @@ return array (
   - Return [ ?object ]
 }
 ',
+  'attributes' => 
+  array (
+    '__self' => 
+    array (
+      0 => 
+      array (
+        'attribute' => 'Deprecated',
+        'params' => 
+        array (
+          'since' => '8.6',
+          'message' => 'did you mean mysqli_character_set_name()?',
+        ),
+      ),
+    ),
+  ),
 );

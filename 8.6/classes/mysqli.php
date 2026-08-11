@@ -1646,7 +1646,7 @@ return array (
       - Tentative return [ true ]
     }
 
-    Method [ <internal:mysqli> public method get_charset ] {
+    Method [ <internal, deprecated:mysqli> public method get_charset ] {
 
       - Parameters [0] {
       }
