@@ -1881,7 +1881,7 @@ return array (
       - Tentative return [ string|false ]
     }
 
-    Method [ <internal:mysqli> public method stmt_init ] {
+    Method [ <internal, deprecated:mysqli> public method stmt_init ] {
 
       - Parameters [0] {
       }
