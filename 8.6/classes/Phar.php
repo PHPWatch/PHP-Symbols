@@ -2937,7 +2937,7 @@ return array (
 
       - Parameters [0] {
       }
-      - Tentative return [ SplFileInfo|FilesystemIterator|string ]
+      - Tentative return [ SplFileInfo|static|string ]
     }
 
     Method [ <internal:SPL, inherits FilesystemIterator> public method getFlags ] {

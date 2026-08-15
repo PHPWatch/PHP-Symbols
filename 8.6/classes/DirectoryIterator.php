@@ -743,14 +743,14 @@ return array (
 
       - Parameters [0] {
       }
-      - Tentative return [ mixed ]
+      - Tentative return [ string|int ]
     }
 
     Method [ <internal:SPL, prototype Iterator> public method current ] {
 
       - Parameters [0] {
       }
-      - Tentative return [ mixed ]
+      - Tentative return [ SplFileInfo|static|string ]
     }
 
     Method [ <internal:SPL, prototype Iterator> public method next ] {
