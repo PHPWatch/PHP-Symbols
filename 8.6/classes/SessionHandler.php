@@ -198,6 +198,30 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'validateId' => 
+    array (
+      'name' => 'validateId',
+      'class' => 'SessionHandler',
+      'parameters' => 
+      array (
+        'id' => 
+        array (
+          'position' => 0,
+          'name' => 'id',
+          'type' => 'string',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
   ),
   'interfaces' => 
   array (
@@ -222,7 +246,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [7] {
+  - Methods [8] {
     Method [ <internal:session, prototype SessionHandlerInterface> public method open ] {
 
       - Parameters [2] {
@@ -277,6 +301,14 @@ return array (
       - Parameters [0] {
       }
       - Tentative return [ string ]
+    }
+
+    Method [ <internal:session> public method validateId ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> string $id ]
+      }
+      - Tentative return [ bool ]
     }
   }
 }
