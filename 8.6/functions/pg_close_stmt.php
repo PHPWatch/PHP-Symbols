@@ -34,7 +34,7 @@ return array (
   'toString' => 'Function [ <internal:pgsql> function pg_close_stmt ] {
 
   - Parameters [2] {
-    Parameter #0 [ <required> Pgsql\\Connection $connection ]
+    Parameter #0 [ <required> PgSql\\Connection $connection ]
     Parameter #1 [ <required> string $statement_name ]
   }
   - Return [ PgSql\\Result|false ]

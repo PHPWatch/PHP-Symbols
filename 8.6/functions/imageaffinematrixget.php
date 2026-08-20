@@ -35,7 +35,7 @@ return array (
 
   - Parameters [2] {
     Parameter #0 [ <required> int $type ]
-    Parameter #1 [ <required> $options ]
+    Parameter #1 [ <required> array|float $options ]
   }
   - Return [ array|false ]
 }
