@@ -80,6 +80,7 @@ return array (
   'Uri\\Rfc3986\\Uri',
   'Uri\\Rfc3986\\UriType',
   'Uri\\Rfc3986\\UriHostType',
+  'Uri\\WhatWg\\UrlBuilder',
   'Uri\\WhatWg\\Url',
   'Uri\\UriComparisonMode',
   'Uri\\UriException',

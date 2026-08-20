@@ -28,7 +28,7 @@ return array (
   'return' => 
   array (
     'type' => 'ReflectionNamedType',
-    'nullable' => true,
+    'nullable' => false,
   ),
   'extension' => 'sockets',
   'toString' => 'Function [ <internal:sockets> function socket_cmsg_space ] {
@@ -38,7 +38,7 @@ return array (
     Parameter #1 [ <required> int $type ]
     Parameter #2 [ <optional> int $num = 0 ]
   }
-  - Return [ ?int ]
+  - Return [ int ]
 }
 ',
 );
