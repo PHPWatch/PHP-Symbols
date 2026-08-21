@@ -1917,6 +1917,7 @@ return array (
   'snmp_set_valueretrieval',
   'snmp_get_valueretrieval',
   'snmp_read_mib',
+  'snmp_init_mib',
   'use_soap_error_handler',
   'is_soap_fault',
   'socket_select',

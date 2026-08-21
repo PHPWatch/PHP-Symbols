@@ -58,6 +58,7 @@ return array (
     'snmp_set_valueretrieval' => 'snmp_set_valueretrieval',
     'snmp_get_valueretrieval' => 'snmp_get_valueretrieval',
     'snmp_read_mib' => 'snmp_read_mib',
+    'snmp_init_mib' => 'snmp_init_mib',
   ),
   'constants' => 
   array (
