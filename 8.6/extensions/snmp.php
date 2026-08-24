@@ -31,6 +31,10 @@ return array (
   array (
     0 => 'SNMP',
     1 => 'SNMPException',
+    2 => 'Snmp\\Mib',
+    3 => 'Snmp\\OidOutput',
+    4 => 'Snmp\\Output',
+    5 => 'Snmp\\StringOutput',
   ),
   'functions' => 
   array (
@@ -43,7 +47,10 @@ return array (
     'snmp_get_quick_print' => 'snmp_get_quick_print',
     'snmp_set_quick_print' => 'snmp_set_quick_print',
     'snmp_set_enum_print' => 'snmp_set_enum_print',
+    'snmp_set_mib_option' => 'snmp_set_mib_option',
     'snmp_set_oid_output_format' => 'snmp_set_oid_output_format',
+    'snmp_set_output_option' => 'snmp_set_output_option',
+    'snmp_set_string_output_format' => 'snmp_set_string_output_format',
     'snmp_set_oid_numeric_print' => 'snmp_set_oid_numeric_print',
     'snmp2_get' => 'snmp2_get',
     'snmp2_getnext' => 'snmp2_getnext',

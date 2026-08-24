@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'function',
-  'name' => 'snmp_set_oid_output_format',
+  'name' => 'snmp_set_string_output_format',
   'meta' => 
   array (
     'type' => 'function',
-    'name' => 'snmp_set_oid_output_format',
+    'name' => 'snmp_set_string_output_format',
     'description' => '',
     'keywords' => 
     array (
@@ -16,8 +16,8 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'snmp_set_oid_output_format function (php.net)',
-        'url' => 'https://www.php.net/manual/function.snmp-set-oid-output-format.php',
+        'name' => 'snmp_set_string_output_format function (php.net)',
+        'url' => 'https://www.php.net/manual/function.snmp-set-string-output-format.php',
       ),
     ),
   ),
@@ -31,12 +31,12 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'snmp',
-  'toString' => 'Function [ <internal:snmp> function snmp_set_oid_output_format ] {
+  'toString' => 'Function [ <internal:snmp> function snmp_set_string_output_format ] {
 
   - Parameters [1] {
-    Parameter #0 [ <required> Snmp\\OidOutput|int $format ]
+    Parameter #0 [ <required> Snmp\\StringOutput $format ]
   }
-  - Return [ true ]
+  - Return [ void ]
 }
 ',
 );

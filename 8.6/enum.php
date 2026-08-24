@@ -17,4 +17,8 @@ return array (
   'Pcntl\\QosClass',
   'PropertyHookType',
   'Dom\\AdjacentPosition',
+  'Snmp\\Mib',
+  'Snmp\\OidOutput',
+  'Snmp\\Output',
+  'Snmp\\StringOutput',
 );

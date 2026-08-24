@@ -2,11 +2,11 @@
 
 return array (
   'type' => 'function',
-  'name' => 'snmp_set_oid_output_format',
+  'name' => 'snmp_set_output_option',
   'meta' => 
   array (
     'type' => 'function',
-    'name' => 'snmp_set_oid_output_format',
+    'name' => 'snmp_set_output_option',
     'description' => '',
     'keywords' => 
     array (
@@ -16,8 +16,8 @@ return array (
     array (
       0 => 
       array (
-        'name' => 'snmp_set_oid_output_format function (php.net)',
-        'url' => 'https://www.php.net/manual/function.snmp-set-oid-output-format.php',
+        'name' => 'snmp_set_output_option function (php.net)',
+        'url' => 'https://www.php.net/manual/function.snmp-set-output-option.php',
       ),
     ),
   ),
@@ -31,12 +31,13 @@ return array (
     'nullable' => false,
   ),
   'extension' => 'snmp',
-  'toString' => 'Function [ <internal:snmp> function snmp_set_oid_output_format ] {
+  'toString' => 'Function [ <internal:snmp> function snmp_set_output_option ] {
 
-  - Parameters [1] {
-    Parameter #0 [ <required> Snmp\\OidOutput|int $format ]
+  - Parameters [2] {
+    Parameter #0 [ <required> Snmp\\Output $option ]
+    Parameter #1 [ <required> bool $enable ]
   }
-  - Return [ true ]
+  - Return [ void ]
 }
 ',
 );

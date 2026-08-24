@@ -34,7 +34,7 @@ return array (
   'toString' => 'Function [ <internal:snmp> function snmp_set_oid_numeric_print ] {
 
   - Parameters [1] {
-    Parameter #0 [ <required> int $format ]
+    Parameter #0 [ <required> Snmp\\OidOutput|int $format ]
   }
   - Return [ true ]
 }

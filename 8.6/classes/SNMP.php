@@ -300,6 +300,54 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'setOidOutputFormat' => 
+    array (
+      'name' => 'setOidOutputFormat',
+      'class' => 'SNMP',
+      'parameters' => 
+      array (
+        'format' => 
+        array (
+          'position' => 0,
+          'name' => 'format',
+          'type' => 'Snmp\\OidOutput',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
+    'setStringOutputFormat' => 
+    array (
+      'name' => 'setStringOutputFormat',
+      'class' => 'SNMP',
+      'parameters' => 
+      array (
+        'format' => 
+        array (
+          'position' => 0,
+          'name' => 'format',
+          'type' => 'Snmp\\StringOutput',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => NULL,
+      'has_return_type' => false,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'get' => 
     array (
       'name' => 'get',
@@ -516,11 +564,11 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
-    'valueretrieval' => 
+    'oid_increasing_check' => 
     array (
-      'name' => 'valueretrieval',
+      'name' => 'oid_increasing_check',
       'class' => 'SNMP',
-      'type' => 'int',
+      'type' => 'bool',
       'has_default_value' => false,
       'default_value' => NULL,
       'is_static' => false,
@@ -555,9 +603,87 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
-    'oid_output_format' => 
+    'numeric_index' => 
     array (
-      'name' => 'oid_output_format',
+      'name' => 'numeric_index',
+      'class' => 'SNMP',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'numeric_timeticks' => 
+    array (
+      'name' => 'numeric_timeticks',
+      'class' => 'SNMP',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'extended_index' => 
+    array (
+      'name' => 'extended_index',
+      'class' => 'SNMP',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'dont_print_units' => 
+    array (
+      'name' => 'dont_print_units',
+      'class' => 'SNMP',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'escape_quotes' => 
+    array (
+      'name' => 'escape_quotes',
+      'class' => 'SNMP',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'print_hex_text' => 
+    array (
+      'name' => 'print_hex_text',
+      'class' => 'SNMP',
+      'type' => 'bool',
+      'has_default_value' => false,
+      'default_value' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+      'is_promoted' => false,
+    ),
+    'valueretrieval' => 
+    array (
+      'name' => 'valueretrieval',
       'class' => 'SNMP',
       'type' => 'int',
       'has_default_value' => false,
@@ -568,11 +694,11 @@ return array (
       'is_private' => false,
       'is_promoted' => false,
     ),
-    'oid_increasing_check' => 
+    'oid_output_format' => 
     array (
-      'name' => 'oid_increasing_check',
+      'name' => 'oid_output_format',
       'class' => 'SNMP',
-      'type' => 'bool',
+      'type' => 'int',
       'has_default_value' => false,
       'default_value' => NULL,
       'is_static' => false,
@@ -619,18 +745,24 @@ return array (
   - Static methods [0] {
   }
 
-  - Properties [8] {
+  - Properties [14] {
     Property [ public array $info ]
     Property [ public ?int $max_oids ]
-    Property [ public int $valueretrieval ]
+    Property [ public bool $oid_increasing_check ]
     Property [ public bool $quick_print ]
     Property [ public bool $enum_print ]
+    Property [ public bool $numeric_index ]
+    Property [ public bool $numeric_timeticks ]
+    Property [ public bool $extended_index ]
+    Property [ public bool $dont_print_units ]
+    Property [ public bool $escape_quotes ]
+    Property [ public bool $print_hex_text ]
+    Property [ public int $valueretrieval ]
     Property [ public int $oid_output_format ]
-    Property [ public bool $oid_increasing_check ]
     Property [ public int $exceptions_enabled ]
   }
 
-  - Methods [9] {
+  - Methods [11] {
     Method [ <internal:snmp, ctor> public method __construct ] {
 
       - Parameters [5] {
@@ -659,6 +791,22 @@ return array (
         Parameter #4 [ <optional> string $privacyPassphrase = "" ]
         Parameter #5 [ <optional> string $contextName = "" ]
         Parameter #6 [ <optional> string $contextEngineId = "" ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:snmp> public method setOidOutputFormat ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Snmp\\OidOutput $format ]
+      }
+      - Tentative return [ bool ]
+    }
+
+    Method [ <internal:snmp> public method setStringOutputFormat ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> Snmp\\StringOutput $format ]
       }
       - Tentative return [ bool ]
     }
