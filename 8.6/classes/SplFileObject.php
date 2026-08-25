@@ -1358,7 +1358,7 @@ return array (
       - Tentative return [ string|false ]
     }
 
-    Method [ <internal:SPL> public method fgetcsv ] {
+    Method [ <internal, deprecated:SPL> public method fgetcsv ] {
 
       - Parameters [3] {
         Parameter #0 [ <optional> string $separator = "," ]
@@ -1368,7 +1368,7 @@ return array (
       - Tentative return [ array|false ]
     }
 
-    Method [ <internal:SPL> public method fputcsv ] {
+    Method [ <internal, deprecated:SPL> public method fputcsv ] {
 
       - Parameters [5] {
         Parameter #0 [ <required> array $fields ]
@@ -1380,7 +1380,7 @@ return array (
       - Tentative return [ int|false ]
     }
 
-    Method [ <internal:SPL> public method setCsvControl ] {
+    Method [ <internal, deprecated:SPL> public method setCsvControl ] {
 
       - Parameters [3] {
         Parameter #0 [ <optional> string $separator = "," ]
@@ -1390,7 +1390,7 @@ return array (
       - Tentative return [ void ]
     }
 
-    Method [ <internal:SPL> public method getCsvControl ] {
+    Method [ <internal, deprecated:SPL> public method getCsvControl ] {
 
       - Parameters [0] {
       }
