@@ -37,7 +37,7 @@ return array (
     Parameter #0 [ <required> callable $callback ]
     Parameter #1 [ <optional> mixed ...$args ]
   }
-  - Return [ bool ]
+  - Return [ true ]
 }
 ',
 );
