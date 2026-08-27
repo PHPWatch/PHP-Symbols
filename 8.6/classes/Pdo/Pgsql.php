@@ -1017,6 +1017,15 @@ return array (
       'isFinal' => false,
       'type' => 'int',
     ),
+    'ATTR_CHUNK_SIZE' => 
+    array (
+      'value' => 1002,
+      'toString' => 'Constant [ public int ATTR_CHUNK_SIZE ] { 1002 }
+',
+      'visibility' => 1,
+      'isFinal' => false,
+      'type' => 'int',
+    ),
     'TRANSACTION_IDLE' => 
     array (
       'value' => 0,
@@ -1918,7 +1927,7 @@ return array (
   'extension' => 'pdo_pgsql',
   'toString' => 'Class [ <internal:pdo_pgsql> class Pdo\\Pgsql extends PDO ] {
 
-  - Constants [115] {
+  - Constants [116] {
     Constant [ public int PARAM_NULL ] { 0 }
     Constant [ public int PARAM_BOOL ] { 5 }
     Constant [ public int PARAM_INT ] { 1 }
@@ -2029,6 +2038,7 @@ return array (
     Constant [ public int PGSQL_TRANSACTION_UNKNOWN ] { 4 }
     Constant [ public int ATTR_DISABLE_PREPARES ] { 1000 }
     Constant [ public int ATTR_RESULT_MEMORY_SIZE ] { 1001 }
+    Constant [ public int ATTR_CHUNK_SIZE ] { 1002 }
     Constant [ public int TRANSACTION_IDLE ] { 0 }
     Constant [ public int TRANSACTION_ACTIVE ] { 1 }
     Constant [ public int TRANSACTION_INTRANS ] { 2 }
