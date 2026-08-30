@@ -82,6 +82,7 @@ return array (
   'Uri\\Rfc3986\\UriHostType',
   'Uri\\WhatWg\\UrlBuilder',
   'Uri\\WhatWg\\Url',
+  'Uri\\WhatWg\\UrlPercentEncodingMode',
   'Uri\\UriComparisonMode',
   'Uri\\UriException',
   'Uri\\UriError',

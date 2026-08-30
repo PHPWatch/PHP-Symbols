@@ -2108,6 +2108,7 @@ return array (
   'tidy_get_body',
   'token_get_all',
   'token_name',
+  'uri\\whatwg\\url_percent_encode',
   'xml_parser_create',
   'xml_parser_create_ns',
   'xml_set_object',

@@ -2836,6 +2836,7 @@ return array (
     'SCM_CREDENTIALS' => 2,
     'SO_PASSCRED' => 16,
     'SO_ATTACH_REUSEPORT_CBPF' => 51,
+    'SO_DETACH_REUSEPORT_BPF' => 68,
     'SO_DETACH_FILTER' => 27,
     'SO_DETACH_BPF' => 27,
     'TCP_QUICKACK' => 12,
