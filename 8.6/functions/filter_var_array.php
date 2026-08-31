@@ -28,7 +28,7 @@ return array (
   'return' => 
   array (
     'type' => 'ReflectionUnionType',
-    'nullable' => true,
+    'nullable' => false,
   ),
   'extension' => 'filter',
   'toString' => 'Function [ <internal:filter> function filter_var_array ] {
@@ -38,7 +38,7 @@ return array (
     Parameter #1 [ <optional> array|int $options = FILTER_DEFAULT ]
     Parameter #2 [ <optional> bool $add_empty = true ]
   }
-  - Return [ array|false|null ]
+  - Return [ array|false ]
 }
 ',
 );
