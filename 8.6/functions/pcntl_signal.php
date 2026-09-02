@@ -36,7 +36,7 @@ return array (
   - Parameters [3] {
     Parameter #0 [ <required> int $signal ]
     Parameter #1 [ <required> $handler ]
-    Parameter #2 [ <optional> bool $restart_syscalls = true ]
+    Parameter #2 [ <optional> ?bool $restart_syscalls = null ]
   }
   - Return [ bool ]
 }
