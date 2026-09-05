@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => 'readline',
+  'value' => 'libedit',
   'extension' => 'readline',
 );

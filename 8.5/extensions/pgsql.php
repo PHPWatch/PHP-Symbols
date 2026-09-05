@@ -156,8 +156,6 @@ return array (
     'pg_put_copy_data' => 'pg_put_copy_data',
     'pg_put_copy_end' => 'pg_put_copy_end',
     'pg_socket_poll' => 'pg_socket_poll',
-    'pg_set_chunked_rows_size' => 'pg_set_chunked_rows_size',
-    'pg_close_stmt' => 'pg_close_stmt',
   ),
   'constants' => 
   array (
@@ -200,7 +198,6 @@ return array (
     'PGSQL_EMPTY_QUERY' => 0,
     'PGSQL_COMMAND_OK' => 1,
     'PGSQL_TUPLES_OK' => 2,
-    'PGSQL_TUPLES_CHUNK' => 12,
     'PGSQL_COPY_OUT' => 3,
     'PGSQL_COPY_IN' => 4,
     'PGSQL_BAD_RESPONSE' => 5,
@@ -244,7 +241,7 @@ return array (
   'ini' => 
   array (
     'pgsql.allow_persistent' => '1',
-    'pgsql.auto_reset_persistent' => '0',
+    'pgsql.auto_reset_persistent' => '',
     'pgsql.ignore_notice' => '0',
     'pgsql.log_notice' => '0',
     'pgsql.max_links' => '-1',

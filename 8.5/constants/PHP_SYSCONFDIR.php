@@ -24,6 +24,6 @@ return array (
       ),
     ),
   ),
-  'value' => '/usr/etc',
+  'value' => '/etc',
   'extension' => 'Core',
 );

@@ -24,6 +24,6 @@ return array (
       ),
     ),
   ),
-  'value' => '/etc',
+  'value' => '/etc/php/8.5/cli',
   'extension' => 'Core',
 );

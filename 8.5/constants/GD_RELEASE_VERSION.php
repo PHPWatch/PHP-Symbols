@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => 35,
+  'value' => 3,
   'extension' => 'gd',
 );

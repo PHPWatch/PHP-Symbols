@@ -42,6 +42,6 @@ return array (
   ),
   'ini' => 
   array (
-    'pdo_mysql.default_socket' => '/tmp/mysql.sock',
+    'pdo_mysql.default_socket' => '/var/run/mysqld/mysqld.sock',
   ),
 );

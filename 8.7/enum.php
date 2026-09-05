@@ -1,0 +1,25 @@
+<?php
+
+return array (
+  'Random\\IntervalBoundary',
+  'Uri\\Rfc3986\\UriType',
+  'Uri\\Rfc3986\\UriHostType',
+  'Uri\\WhatWg\\UrlPercentEncodingMode',
+  'Uri\\UriComparisonMode',
+  'Uri\\WhatWg\\UrlHostType',
+  'Uri\\WhatWg\\UrlValidationErrorType',
+  'RoundingMode',
+  'SortDirection',
+  'Io\\Poll\\Backend',
+  'Io\\Poll\\Event',
+  'StreamErrorCode',
+  'StreamErrorMode',
+  'StreamErrorStore',
+  'Pcntl\\QosClass',
+  'PropertyHookType',
+  'Dom\\AdjacentPosition',
+  'Snmp\\Mib',
+  'Snmp\\OidOutput',
+  'Snmp\\Output',
+  'Snmp\\StringOutput',
+);

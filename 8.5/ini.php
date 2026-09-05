@@ -11,8 +11,8 @@ return array (
     ),
     'allow_url_include' => 
     array (
-      'global_value' => '0',
-      'local_value' => '0',
+      'global_value' => '',
+      'local_value' => '',
       'access' => 4,
     ),
     'arg_separator.input' => 
@@ -29,8 +29,8 @@ return array (
     ),
     'auto_append_file' => 
     array (
-      'global_value' => NULL,
-      'local_value' => NULL,
+      'global_value' => '',
+      'local_value' => '',
       'access' => 6,
     ),
     'auto_globals_jit' => 
@@ -41,8 +41,8 @@ return array (
     ),
     'auto_prepend_file' => 
     array (
-      'global_value' => NULL,
-      'local_value' => NULL,
+      'global_value' => '',
+      'local_value' => '',
       'access' => 6,
     ),
     'browscap' => 
@@ -71,14 +71,14 @@ return array (
     ),
     'display_errors' => 
     array (
-      'global_value' => '1',
-      'local_value' => '1',
+      'global_value' => '',
+      'local_value' => '',
       'access' => 7,
     ),
     'display_startup_errors' => 
     array (
-      'global_value' => '1',
-      'local_value' => '1',
+      'global_value' => '',
+      'local_value' => '',
       'access' => 7,
     ),
     'doc_root' => 
@@ -101,8 +101,8 @@ return array (
     ),
     'enable_dl' => 
     array (
-      'global_value' => '1',
-      'local_value' => '1',
+      'global_value' => '',
+      'local_value' => '',
       'access' => 4,
     ),
     'enable_post_data_reading' => 
@@ -137,8 +137,8 @@ return array (
     ),
     'error_reporting' => 
     array (
-      'global_value' => NULL,
-      'local_value' => NULL,
+      'global_value' => '22527',
+      'local_value' => '22527',
       'access' => 7,
     ),
     'expose_php' => 
@@ -149,8 +149,8 @@ return array (
     ),
     'extension_dir' => 
     array (
-      'global_value' => '/usr/lib/php/extensions/no-debug-non-zts-20250925',
-      'local_value' => '/usr/lib/php/extensions/no-debug-non-zts-20250925',
+      'global_value' => '/usr/lib/php/20250925',
+      'local_value' => '/usr/lib/php/20250925',
       'access' => 4,
     ),
     'fatal_error_backtraces' => 
@@ -215,14 +215,14 @@ return array (
     ),
     'ignore_repeated_errors' => 
     array (
-      'global_value' => '0',
-      'local_value' => '0',
+      'global_value' => '',
+      'local_value' => '',
       'access' => 7,
     ),
     'ignore_repeated_source' => 
     array (
-      'global_value' => '0',
-      'local_value' => '0',
+      'global_value' => '',
+      'local_value' => '',
       'access' => 7,
     ),
     'ignore_user_abort' => 
@@ -239,8 +239,8 @@ return array (
     ),
     'include_path' => 
     array (
-      'global_value' => '.:',
-      'local_value' => '.:',
+      'global_value' => '.:/usr/share/php',
+      'local_value' => '.:/usr/share/php',
       'access' => 7,
     ),
     'input_encoding' => 
@@ -257,14 +257,14 @@ return array (
     ),
     'log_errors' => 
     array (
-      'global_value' => '0',
-      'local_value' => '0',
+      'global_value' => '1',
+      'local_value' => '1',
       'access' => 7,
     ),
     'mail.add_x_header' => 
     array (
-      'global_value' => '0',
-      'local_value' => '0',
+      'global_value' => '',
+      'local_value' => '',
       'access' => 6,
     ),
     'mail.cr_lf_mode' => 
@@ -287,8 +287,8 @@ return array (
     ),
     'mail.mixed_lf_and_crlf' => 
     array (
-      'global_value' => '0',
-      'local_value' => '0',
+      'global_value' => '',
+      'local_value' => '',
       'access' => 6,
     ),
     'max_execution_time' => 
@@ -335,8 +335,8 @@ return array (
     ),
     'memory_limit' => 
     array (
-      'global_value' => '128M',
-      'local_value' => '128M',
+      'global_value' => '-1',
+      'local_value' => '-1',
       'access' => 7,
     ),
     'open_basedir' => 
@@ -408,8 +408,8 @@ return array (
     ),
     'request_order' => 
     array (
-      'global_value' => NULL,
-      'local_value' => NULL,
+      'global_value' => 'GP',
+      'local_value' => 'GP',
       'access' => 6,
     ),
     'sendmail_from' => 
@@ -432,8 +432,8 @@ return array (
     ),
     'short_open_tag' => 
     array (
-      'global_value' => '1',
-      'local_value' => '1',
+      'global_value' => '',
+      'local_value' => '',
       'access' => 6,
     ),
     'SMTP' => 
@@ -474,8 +474,8 @@ return array (
     ),
     'unserialize_callback_func' => 
     array (
-      'global_value' => NULL,
-      'local_value' => NULL,
+      'global_value' => '',
+      'local_value' => '',
       'access' => 7,
     ),
     'upload_max_filesize' => 
@@ -492,8 +492,8 @@ return array (
     ),
     'user_dir' => 
     array (
-      'global_value' => NULL,
-      'local_value' => NULL,
+      'global_value' => '',
+      'local_value' => '',
       'access' => 4,
     ),
     'user_ini.cache_ttl' => 
@@ -510,8 +510,8 @@ return array (
     ),
     'variables_order' => 
     array (
-      'global_value' => 'EGPCS',
-      'local_value' => 'EGPCS',
+      'global_value' => 'GPCS',
+      'local_value' => 'GPCS',
       'access' => 6,
     ),
     'xmlrpc_error_number' => 
@@ -528,8 +528,8 @@ return array (
     ),
     'zend.assertions' => 
     array (
-      'global_value' => '1',
-      'local_value' => '1',
+      'global_value' => '-1',
+      'local_value' => '-1',
       'access' => 7,
     ),
     'zend.detect_unicode' => 
@@ -546,14 +546,14 @@ return array (
     ),
     'zend.exception_ignore_args' => 
     array (
-      'global_value' => '0',
-      'local_value' => '0',
+      'global_value' => '1',
+      'local_value' => '1',
       'access' => 7,
     ),
     'zend.exception_string_param_max_len' => 
     array (
-      'global_value' => '15',
-      'local_value' => '15',
+      'global_value' => '0',
+      'local_value' => '0',
       'access' => 7,
     ),
     'zend.max_allowed_stack_size' => 
@@ -665,27 +665,12 @@ return array (
       'access' => 7,
     ),
   ),
-  'sqlite3' => 
-  array (
-    'sqlite3.defensive' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 1,
-    ),
-    'sqlite3.extension_dir' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 4,
-    ),
-  ),
   'zlib' => 
   array (
     'zlib.output_compression' => 
     array (
-      'global_value' => '0',
-      'local_value' => '0',
+      'global_value' => '',
+      'local_value' => '',
       'access' => 7,
     ),
     'zlib.output_compression_level' => 
@@ -700,141 +685,6 @@ return array (
       'local_value' => '',
       'access' => 7,
     ),
-  ),
-  'bcmath' => 
-  array (
-    'bcmath.scale' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-  ),
-  'bz2' => 
-  array (
-  ),
-  'calendar' => 
-  array (
-  ),
-  'ctype' => 
-  array (
-  ),
-  'curl' => 
-  array (
-    'curl.cainfo' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 4,
-    ),
-  ),
-  'dba' => 
-  array (
-    'dba.default_handler' => 
-    array (
-      'global_value' => 'flatfile',
-      'local_value' => 'flatfile',
-      'access' => 7,
-    ),
-  ),
-  'uri' => 
-  array (
-  ),
-  'json' => 
-  array (
-  ),
-  'enchant' => 
-  array (
-  ),
-  'mbstring' => 
-  array (
-    'mbstring.detect_order' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mbstring.encoding_translation' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 6,
-    ),
-    'mbstring.http_input' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mbstring.http_output' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mbstring.http_output_conv_mimetypes' => 
-    array (
-      'global_value' => '^(text/|application/xhtml\\+xml)',
-      'local_value' => '^(text/|application/xhtml\\+xml)',
-      'access' => 7,
-    ),
-    'mbstring.internal_encoding' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mbstring.language' => 
-    array (
-      'global_value' => 'neutral',
-      'local_value' => 'neutral',
-      'access' => 7,
-    ),
-    'mbstring.regex_retry_limit' => 
-    array (
-      'global_value' => '1000000',
-      'local_value' => '1000000',
-      'access' => 7,
-    ),
-    'mbstring.regex_stack_limit' => 
-    array (
-      'global_value' => '100000',
-      'local_value' => '100000',
-      'access' => 7,
-    ),
-    'mbstring.strict_detection' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'mbstring.substitute_character' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-  ),
-  'SPL' => 
-  array (
-  ),
-  'FFI' => 
-  array (
-    'ffi.enable' => 
-    array (
-      'global_value' => 'preload',
-      'local_value' => 'preload',
-      'access' => 4,
-    ),
-    'ffi.preload' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 4,
-    ),
-  ),
-  'fileinfo' => 
-  array (
   ),
   'filter' => 
   array (
@@ -851,543 +701,14 @@ return array (
       'access' => 6,
     ),
   ),
-  'ftp' => 
-  array (
-  ),
-  'gd' => 
-  array (
-    'gd.jpeg_ignore_warning' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-  ),
-  'gettext' => 
-  array (
-  ),
-  'gmp' => 
-  array (
-  ),
   'hash' => 
   array (
   ),
-  'iconv' => 
-  array (
-    'iconv.input_encoding' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'iconv.internal_encoding' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'iconv.output_encoding' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-  ),
-  'intl' => 
-  array (
-    'intl.default_locale' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'intl.error_level' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-      'deprecated' => 'Using a value different than 0 for intl.error_level is deprecated, as the intl.error_level INI setting is deprecated. Instead the intl.use_exceptions INI setting should be enabled to throw exceptions on errors or intl_get_error_code()/intl_get_error_message() should be used to manually deal with errors',
-    ),
-    'intl.use_exceptions' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-  ),
-  'session' => 
-  array (
-    'session.auto_start' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 2,
-    ),
-    'session.cache_expire' => 
-    array (
-      'global_value' => '180',
-      'local_value' => '180',
-      'access' => 7,
-    ),
-    'session.cache_limiter' => 
-    array (
-      'global_value' => 'nocache',
-      'local_value' => 'nocache',
-      'access' => 7,
-    ),
-    'session.cookie_domain' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'session.cookie_httponly' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'session.cookie_lifetime' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'session.cookie_partitioned' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'session.cookie_path' => 
-    array (
-      'global_value' => '/',
-      'local_value' => '/',
-      'access' => 7,
-    ),
-    'session.cookie_samesite' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'session.cookie_secure' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'session.gc_divisor' => 
-    array (
-      'global_value' => '100',
-      'local_value' => '100',
-      'access' => 7,
-    ),
-    'session.gc_maxlifetime' => 
-    array (
-      'global_value' => '1440',
-      'local_value' => '1440',
-      'access' => 7,
-    ),
-    'session.gc_probability' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'session.lazy_write' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'session.name' => 
-    array (
-      'global_value' => 'PHPSESSID',
-      'local_value' => 'PHPSESSID',
-      'access' => 7,
-    ),
-    'session.referer_check' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'session.save_handler' => 
-    array (
-      'global_value' => 'files',
-      'local_value' => 'files',
-      'access' => 7,
-    ),
-    'session.save_path' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'session.serialize_handler' => 
-    array (
-      'global_value' => 'php',
-      'local_value' => 'php',
-      'access' => 7,
-    ),
-    'session.sid_bits_per_character' => 
-    array (
-      'global_value' => '4',
-      'local_value' => '4',
-      'access' => 7,
-    ),
-    'session.sid_length' => 
-    array (
-      'global_value' => '32',
-      'local_value' => '32',
-      'access' => 7,
-      'deprecated' => 'session.sid_length INI setting is deprecated',
-    ),
-    'session.upload_progress.cleanup' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 2,
-    ),
-    'session.upload_progress.enabled' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 2,
-    ),
-    'session.upload_progress.freq' => 
-    array (
-      'global_value' => '1%',
-      'local_value' => '1%',
-      'access' => 2,
-    ),
-    'session.upload_progress.min_freq' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 2,
-    ),
-    'session.upload_progress.name' => 
-    array (
-      'global_value' => 'PHP_SESSION_UPLOAD_PROGRESS',
-      'local_value' => 'PHP_SESSION_UPLOAD_PROGRESS',
-      'access' => 2,
-    ),
-    'session.upload_progress.prefix' => 
-    array (
-      'global_value' => 'upload_progress_',
-      'local_value' => 'upload_progress_',
-      'access' => 2,
-    ),
-    'session.use_cookies' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'session.use_only_cookies' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-      'deprecated' => 'Disabling session.use_only_cookies INI setting is deprecated',
-    ),
-    'session.use_strict_mode' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'session.use_trans_sid' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-      'deprecated' => 'Enabling session.use_trans_sid INI setting is deprecated',
-    ),
-  ),
-  'ldap' => 
-  array (
-    'ldap.max_links' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-  ),
-  'standard' => 
-  array (
-    'assert.active' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-      'deprecated' => 'assert.active INI setting is deprecated',
-    ),
-    'assert.bail' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-      'deprecated' => 'assert.bail INI setting is deprecated',
-    ),
-    'assert.callback' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-      'deprecated' => 'assert.callback INI setting is deprecated',
-    ),
-    'assert.exception' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-      'deprecated' => 'assert.exception INI setting is deprecated',
-    ),
-    'assert.warning' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-      'deprecated' => 'assert.warning INI setting is deprecated',
-    ),
-    'auto_detect_line_endings' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-      'deprecated' => 'auto_detect_line_endings is deprecated',
-    ),
-    'default_socket_timeout' => 
-    array (
-      'global_value' => '60',
-      'local_value' => '60',
-      'access' => 7,
-    ),
-    'from' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'session.trans_sid_hosts' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'session.trans_sid_tags' => 
-    array (
-      'global_value' => 'a=href,area=href,frame=src,form=',
-      'local_value' => 'a=href,area=href,frame=src,form=',
-      'access' => 7,
-    ),
-    'unserialize_max_depth' => 
-    array (
-      'global_value' => '4096',
-      'local_value' => '4096',
-      'access' => 7,
-    ),
-    'url_rewriter.hosts' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'url_rewriter.tags' => 
-    array (
-      'global_value' => 'form=',
-      'local_value' => 'form=',
-      'access' => 7,
-    ),
-    'user_agent' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-  ),
-  'libxml' => 
+  'json' => 
   array (
   ),
-  'mysqlnd' => 
+  'uri' => 
   array (
-    'mysqlnd.collect_memory_statistics' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 4,
-    ),
-    'mysqlnd.collect_statistics' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'mysqlnd.debug' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 4,
-    ),
-    'mysqlnd.log_mask' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 7,
-    ),
-    'mysqlnd.mempool_default_size' => 
-    array (
-      'global_value' => '16000',
-      'local_value' => '16000',
-      'access' => 7,
-    ),
-    'mysqlnd.net_cmd_buffer_size' => 
-    array (
-      'global_value' => '4096',
-      'local_value' => '4096',
-      'access' => 7,
-    ),
-    'mysqlnd.net_read_buffer_size' => 
-    array (
-      'global_value' => '32768',
-      'local_value' => '32768',
-      'access' => 7,
-    ),
-    'mysqlnd.net_read_timeout' => 
-    array (
-      'global_value' => '86400',
-      'local_value' => '86400',
-      'access' => 7,
-    ),
-    'mysqlnd.sha256_server_public_key' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 2,
-    ),
-    'mysqlnd.trace_alloc' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 4,
-    ),
-  ),
-  'mysqli' => 
-  array (
-    'mysqli.allow_local_infile' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 4,
-    ),
-    'mysqli.allow_persistent' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'mysqli.default_host' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mysqli.default_port' => 
-    array (
-      'global_value' => '3306',
-      'local_value' => '3306',
-      'access' => 7,
-    ),
-    'mysqli.default_pw' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mysqli.default_socket' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mysqli.default_user' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 7,
-    ),
-    'mysqli.local_infile_directory' => 
-    array (
-      'global_value' => NULL,
-      'local_value' => NULL,
-      'access' => 4,
-    ),
-    'mysqli.max_links' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-    'mysqli.max_persistent' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-    'mysqli.rollback_on_cached_plink' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'access' => 4,
-    ),
-  ),
-  'odbc' => 
-  array (
-    'odbc.allow_persistent' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'odbc.check_persistent' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 4,
-    ),
-    'odbc.default_cursortype' => 
-    array (
-      'global_value' => '3',
-      'local_value' => '3',
-      'access' => 7,
-    ),
-    'odbc.defaultbinmode' => 
-    array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'access' => 7,
-    ),
-    'odbc.defaultlrl' => 
-    array (
-      'global_value' => '4096',
-      'local_value' => '4096',
-      'access' => 7,
-    ),
-    'odbc.max_links' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
-    'odbc.max_persistent' => 
-    array (
-      'global_value' => '-1',
-      'local_value' => '-1',
-      'access' => 4,
-    ),
   ),
   'Zend OPcache' => 
   array (
@@ -1411,8 +732,8 @@ return array (
     ),
     'opcache.enable_cli' => 
     array (
-      'global_value' => '1',
-      'local_value' => '1',
+      'global_value' => '0',
+      'local_value' => '0',
       'access' => 4,
     ),
     'opcache.enable_file_override' => 
@@ -1477,8 +798,8 @@ return array (
     ),
     'opcache.jit' => 
     array (
-      'global_value' => 'disable',
-      'local_value' => 'disable',
+      'global_value' => '1235',
+      'local_value' => '1235',
       'access' => 7,
     ),
     'opcache.jit_bisect_limit' => 
@@ -1501,8 +822,8 @@ return array (
     ),
     'opcache.jit_buffer_size' => 
     array (
-      'global_value' => '64M',
-      'local_value' => '64M',
+      'global_value' => '256M',
+      'local_value' => '256M',
       'access' => 4,
     ),
     'opcache.jit_debug' => 
@@ -1719,18 +1040,739 @@ return array (
   'pcntl' => 
   array (
   ),
+  'random' => 
+  array (
+  ),
+  'Reflection' => 
+  array (
+  ),
+  'SPL' => 
+  array (
+  ),
+  'session' => 
+  array (
+    'session.auto_start' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 2,
+    ),
+    'session.cache_expire' => 
+    array (
+      'global_value' => '180',
+      'local_value' => '180',
+      'access' => 7,
+    ),
+    'session.cache_limiter' => 
+    array (
+      'global_value' => 'nocache',
+      'local_value' => 'nocache',
+      'access' => 7,
+    ),
+    'session.cookie_domain' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'session.cookie_httponly' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'session.cookie_lifetime' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'session.cookie_partitioned' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'session.cookie_path' => 
+    array (
+      'global_value' => '/',
+      'local_value' => '/',
+      'access' => 7,
+    ),
+    'session.cookie_samesite' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'session.cookie_secure' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'session.gc_divisor' => 
+    array (
+      'global_value' => '1000',
+      'local_value' => '1000',
+      'access' => 7,
+    ),
+    'session.gc_maxlifetime' => 
+    array (
+      'global_value' => '1440',
+      'local_value' => '1440',
+      'access' => 7,
+    ),
+    'session.gc_probability' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'session.lazy_write' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+    'session.name' => 
+    array (
+      'global_value' => 'PHPSESSID',
+      'local_value' => 'PHPSESSID',
+      'access' => 7,
+    ),
+    'session.referer_check' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'session.save_handler' => 
+    array (
+      'global_value' => 'files',
+      'local_value' => 'files',
+      'access' => 7,
+    ),
+    'session.save_path' => 
+    array (
+      'global_value' => '/var/lib/php/sessions',
+      'local_value' => '/var/lib/php/sessions',
+      'access' => 7,
+    ),
+    'session.serialize_handler' => 
+    array (
+      'global_value' => 'php',
+      'local_value' => 'php',
+      'access' => 7,
+    ),
+    'session.sid_bits_per_character' => 
+    array (
+      'global_value' => '4',
+      'local_value' => '4',
+      'access' => 7,
+    ),
+    'session.sid_length' => 
+    array (
+      'global_value' => '32',
+      'local_value' => '32',
+      'access' => 7,
+      'deprecated' => 'session.sid_length INI setting is deprecated',
+    ),
+    'session.upload_progress.cleanup' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 2,
+    ),
+    'session.upload_progress.enabled' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 2,
+    ),
+    'session.upload_progress.freq' => 
+    array (
+      'global_value' => '1%',
+      'local_value' => '1%',
+      'access' => 2,
+    ),
+    'session.upload_progress.min_freq' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 2,
+    ),
+    'session.upload_progress.name' => 
+    array (
+      'global_value' => 'PHP_SESSION_UPLOAD_PROGRESS',
+      'local_value' => 'PHP_SESSION_UPLOAD_PROGRESS',
+      'access' => 2,
+    ),
+    'session.upload_progress.prefix' => 
+    array (
+      'global_value' => 'upload_progress_',
+      'local_value' => 'upload_progress_',
+      'access' => 2,
+    ),
+    'session.use_cookies' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+    'session.use_only_cookies' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+      'deprecated' => 'Disabling session.use_only_cookies INI setting is deprecated',
+    ),
+    'session.use_strict_mode' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'session.use_trans_sid' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+      'deprecated' => 'Enabling session.use_trans_sid INI setting is deprecated',
+    ),
+  ),
+  'standard' => 
+  array (
+    'assert.active' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+      'deprecated' => 'assert.active INI setting is deprecated',
+    ),
+    'assert.bail' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+      'deprecated' => 'assert.bail INI setting is deprecated',
+    ),
+    'assert.callback' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+      'deprecated' => 'assert.callback INI setting is deprecated',
+    ),
+    'assert.exception' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+      'deprecated' => 'assert.exception INI setting is deprecated',
+    ),
+    'assert.warning' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+      'deprecated' => 'assert.warning INI setting is deprecated',
+    ),
+    'auto_detect_line_endings' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+      'deprecated' => 'auto_detect_line_endings is deprecated',
+    ),
+    'default_socket_timeout' => 
+    array (
+      'global_value' => '60',
+      'local_value' => '60',
+      'access' => 7,
+    ),
+    'from' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'session.trans_sid_hosts' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'session.trans_sid_tags' => 
+    array (
+      'global_value' => 'a=href,area=href,frame=src,form=',
+      'local_value' => 'a=href,area=href,frame=src,form=',
+      'access' => 7,
+    ),
+    'unserialize_max_depth' => 
+    array (
+      'global_value' => '4096',
+      'local_value' => '4096',
+      'access' => 7,
+    ),
+    'url_rewriter.hosts' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'url_rewriter.tags' => 
+    array (
+      'global_value' => 'form=',
+      'local_value' => 'form=',
+      'access' => 7,
+    ),
+    'user_agent' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+  ),
+  'sodium' => 
+  array (
+  ),
+  'libxml' => 
+  array (
+  ),
+  'mysqlnd' => 
+  array (
+    'mysqlnd.collect_memory_statistics' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 4,
+    ),
+    'mysqlnd.collect_statistics' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+    'mysqlnd.debug' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 4,
+    ),
+    'mysqlnd.log_mask' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'mysqlnd.mempool_default_size' => 
+    array (
+      'global_value' => '16000',
+      'local_value' => '16000',
+      'access' => 7,
+    ),
+    'mysqlnd.net_cmd_buffer_size' => 
+    array (
+      'global_value' => '4096',
+      'local_value' => '4096',
+      'access' => 7,
+    ),
+    'mysqlnd.net_read_buffer_size' => 
+    array (
+      'global_value' => '32768',
+      'local_value' => '32768',
+      'access' => 7,
+    ),
+    'mysqlnd.net_read_timeout' => 
+    array (
+      'global_value' => '86400',
+      'local_value' => '86400',
+      'access' => 7,
+    ),
+    'mysqlnd.sha256_server_public_key' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 2,
+    ),
+    'mysqlnd.trace_alloc' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 4,
+    ),
+  ),
   'PDO' => 
   array (
   ),
+  'xml' => 
+  array (
+  ),
+  'bcmath' => 
+  array (
+    'bcmath.scale' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+  ),
+  'bz2' => 
+  array (
+  ),
+  'calendar' => 
+  array (
+  ),
+  'ctype' => 
+  array (
+  ),
+  'curl' => 
+  array (
+    'curl.cainfo' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 4,
+    ),
+  ),
+  'dba' => 
+  array (
+    'dba.default_handler' => 
+    array (
+      'global_value' => 'flatfile',
+      'local_value' => 'flatfile',
+      'access' => 7,
+    ),
+  ),
+  'dom' => 
+  array (
+  ),
+  'enchant' => 
+  array (
+  ),
+  'mbstring' => 
+  array (
+    'mbstring.detect_order' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mbstring.encoding_translation' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 6,
+    ),
+    'mbstring.http_input' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mbstring.http_output' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mbstring.http_output_conv_mimetypes' => 
+    array (
+      'global_value' => '^(text/|application/xhtml\\+xml)',
+      'local_value' => '^(text/|application/xhtml\\+xml)',
+      'access' => 7,
+    ),
+    'mbstring.internal_encoding' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'mbstring.language' => 
+    array (
+      'global_value' => 'neutral',
+      'local_value' => 'neutral',
+      'access' => 7,
+    ),
+    'mbstring.regex_retry_limit' => 
+    array (
+      'global_value' => '1000000',
+      'local_value' => '1000000',
+      'access' => 7,
+    ),
+    'mbstring.regex_stack_limit' => 
+    array (
+      'global_value' => '100000',
+      'local_value' => '100000',
+      'access' => 7,
+    ),
+    'mbstring.strict_detection' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+    'mbstring.substitute_character' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+  ),
+  'FFI' => 
+  array (
+    'ffi.enable' => 
+    array (
+      'global_value' => 'preload',
+      'local_value' => 'preload',
+      'access' => 4,
+    ),
+    'ffi.preload' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 4,
+    ),
+  ),
+  'fileinfo' => 
+  array (
+  ),
+  'ftp' => 
+  array (
+  ),
+  'gd' => 
+  array (
+    'gd.jpeg_ignore_warning' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+  ),
+  'gettext' => 
+  array (
+  ),
+  'gmp' => 
+  array (
+  ),
+  'iconv' => 
+  array (
+    'iconv.input_encoding' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'iconv.internal_encoding' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'iconv.output_encoding' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+  ),
+  'intl' => 
+  array (
+    'intl.default_locale' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
+    'intl.error_level' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+      'deprecated' => 'Using a value different than 0 for intl.error_level is deprecated, as the intl.error_level INI setting is deprecated. Instead the intl.use_exceptions INI setting should be enabled to throw exceptions on errors or intl_get_error_code()/intl_get_error_message() should be used to manually deal with errors',
+    ),
+    'intl.use_exceptions' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
+  ),
+  'ldap' => 
+  array (
+    'ldap.max_links' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+  ),
+  'exif' => 
+  array (
+    'exif.decode_jis_intel' => 
+    array (
+      'global_value' => 'JIS',
+      'local_value' => 'JIS',
+      'access' => 7,
+    ),
+    'exif.decode_jis_motorola' => 
+    array (
+      'global_value' => 'JIS',
+      'local_value' => 'JIS',
+      'access' => 7,
+    ),
+    'exif.decode_unicode_intel' => 
+    array (
+      'global_value' => 'UCS-2LE',
+      'local_value' => 'UCS-2LE',
+      'access' => 7,
+    ),
+    'exif.decode_unicode_motorola' => 
+    array (
+      'global_value' => 'UCS-2BE',
+      'local_value' => 'UCS-2BE',
+      'access' => 7,
+    ),
+    'exif.encode_jis' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'exif.encode_unicode' => 
+    array (
+      'global_value' => 'ISO-8859-15',
+      'local_value' => 'ISO-8859-15',
+      'access' => 7,
+    ),
+  ),
+  'mysqli' => 
+  array (
+    'mysqli.allow_local_infile' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+    'mysqli.allow_persistent' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 4,
+    ),
+    'mysqli.default_host' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'mysqli.default_port' => 
+    array (
+      'global_value' => '3306',
+      'local_value' => '3306',
+      'access' => 7,
+    ),
+    'mysqli.default_pw' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'mysqli.default_socket' => 
+    array (
+      'global_value' => '/var/run/mysqld/mysqld.sock',
+      'local_value' => '/var/run/mysqld/mysqld.sock',
+      'access' => 7,
+    ),
+    'mysqli.default_user' => 
+    array (
+      'global_value' => '',
+      'local_value' => '',
+      'access' => 7,
+    ),
+    'mysqli.local_infile_directory' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 4,
+    ),
+    'mysqli.max_links' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+    'mysqli.max_persistent' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+    'mysqli.rollback_on_cached_plink' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
+  ),
+  'odbc' => 
+  array (
+    'odbc.allow_persistent' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 4,
+    ),
+    'odbc.check_persistent' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 4,
+    ),
+    'odbc.default_cursortype' => 
+    array (
+      'global_value' => '3',
+      'local_value' => '3',
+      'access' => 7,
+    ),
+    'odbc.defaultbinmode' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 7,
+    ),
+    'odbc.defaultlrl' => 
+    array (
+      'global_value' => '4096',
+      'local_value' => '4096',
+      'access' => 7,
+    ),
+    'odbc.max_links' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+    'odbc.max_persistent' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 4,
+    ),
+  ),
   'pdo_dblib' => 
+  array (
+  ),
+  'PDO_Firebird' => 
   array (
   ),
   'pdo_mysql' => 
   array (
     'pdo_mysql.default_socket' => 
     array (
-      'global_value' => '/tmp/mysql.sock',
-      'local_value' => '/tmp/mysql.sock',
+      'global_value' => '/var/run/mysqld/mysqld.sock',
+      'local_value' => '/var/run/mysqld/mysqld.sock',
       'access' => 4,
     ),
   ),
@@ -1753,8 +1795,8 @@ return array (
     ),
     'pgsql.auto_reset_persistent' => 
     array (
-      'global_value' => '0',
-      'local_value' => '0',
+      'global_value' => '',
+      'local_value' => '',
       'access' => 4,
     ),
     'pgsql.ignore_notice' => 
@@ -1806,9 +1848,6 @@ return array (
   'posix' => 
   array (
   ),
-  'random' => 
-  array (
-  ),
   'readline' => 
   array (
     'cli.pager' => 
@@ -1821,48 +1860,6 @@ return array (
     array (
       'global_value' => '\\b \\> ',
       'local_value' => '\\b \\> ',
-      'access' => 7,
-    ),
-  ),
-  'Reflection' => 
-  array (
-  ),
-  'exif' => 
-  array (
-    'exif.decode_jis_intel' => 
-    array (
-      'global_value' => 'JIS',
-      'local_value' => 'JIS',
-      'access' => 7,
-    ),
-    'exif.decode_jis_motorola' => 
-    array (
-      'global_value' => 'JIS',
-      'local_value' => 'JIS',
-      'access' => 7,
-    ),
-    'exif.decode_unicode_intel' => 
-    array (
-      'global_value' => 'UCS-2LE',
-      'local_value' => 'UCS-2LE',
-      'access' => 7,
-    ),
-    'exif.decode_unicode_motorola' => 
-    array (
-      'global_value' => 'UCS-2BE',
-      'local_value' => 'UCS-2BE',
-      'access' => 7,
-    ),
-    'exif.encode_jis' => 
-    array (
-      'global_value' => '',
-      'local_value' => '',
-      'access' => 7,
-    ),
-    'exif.encode_unicode' => 
-    array (
-      'global_value' => 'ISO-8859-15',
-      'local_value' => 'ISO-8859-15',
       'access' => 7,
     ),
   ),
@@ -1911,8 +1908,20 @@ return array (
   'sockets' => 
   array (
   ),
-  'sodium' => 
+  'sqlite3' => 
   array (
+    'sqlite3.defensive' => 
+    array (
+      'global_value' => '1',
+      'local_value' => '1',
+      'access' => 1,
+    ),
+    'sqlite3.extension_dir' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 4,
+    ),
   ),
   'sysvmsg' => 
   array (
@@ -1927,8 +1936,8 @@ return array (
   array (
     'tidy.clean_output' => 
     array (
-      'global_value' => '0',
-      'local_value' => '0',
+      'global_value' => '',
+      'local_value' => '',
       'access' => 1,
     ),
     'tidy.default_config' => 
@@ -1941,13 +1950,10 @@ return array (
   'tokenizer' => 
   array (
   ),
-  'dom' => 
-  array (
-  ),
-  'xml' => 
-  array (
-  ),
   'xmlreader' => 
+  array (
+  ),
+  'xmlrpc' => 
   array (
   ),
   'xmlwriter' => 

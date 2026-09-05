@@ -100,7 +100,7 @@ return array (
   ),
   'ini' => 
   array (
-    'zlib.output_compression' => '0',
+    'zlib.output_compression' => '',
     'zlib.output_compression_level' => '-1',
     'zlib.output_handler' => '',
   ),
