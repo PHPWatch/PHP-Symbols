@@ -252,10 +252,10 @@ return array (
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
-        'errors' => 
+        'softErrors' => 
         array (
           'position' => 1,
-          'name' => 'errors',
+          'name' => 'softErrors',
           'type' => NULL,
           'is_optional' => true,
           'has_default_value' => true,
@@ -480,7 +480,7 @@ return array (
 
       - Parameters [2] {
         Parameter #0 [ <optional> ?Uri\\WhatWg\\Url $baseUrl = null ]
-        Parameter #1 [ <optional> &$errors = null ]
+        Parameter #1 [ <optional> &$softErrors = null ]
       }
       - Return [ Uri\\WhatWg\\Url ]
     }
