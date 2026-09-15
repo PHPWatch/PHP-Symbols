@@ -44,6 +44,30 @@ return array (
       'is_protected' => false,
       'is_private' => true,
     ),
+    '__unserialize' => 
+    array (
+      'name' => '__unserialize',
+      'class' => 'Time\\Duration',
+      'parameters' => 
+      array (
+        'data' => 
+        array (
+          'position' => 0,
+          'name' => 'data',
+          'type' => 'array',
+          'is_optional' => false,
+          'has_default_value' => false,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'void',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'fromSeconds' => 
     array (
       'name' => 'fromSeconds',
@@ -509,11 +533,19 @@ return array (
     Property [ public protected(set) readonly bool $negative ]
   }
 
-  - Methods [7] {
+  - Methods [8] {
     Method [ <internal:date, ctor> private method __construct ] {
 
       - Parameters [0] {
       }
+    }
+
+    Method [ <internal:date> public method __unserialize ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <required> array $data ]
+      }
+      - Return [ void ]
     }
 
     Method [ <internal:date> public method negate ] {
