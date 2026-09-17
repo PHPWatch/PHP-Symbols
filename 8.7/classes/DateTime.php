@@ -308,8 +308,8 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => 'DateTime',
-      'has_return_type' => true,
+      'return_type' => NULL,
+      'has_return_type' => false,
       'is_static' => true,
       'is_public' => true,
       'is_protected' => false,
@@ -850,7 +850,7 @@ return array (
       - Parameters [1] {
         Parameter #0 [ <required> DateTimeInterface $object ]
       }
-      - Return [ DateTime ]
+      - Tentative return [ static ]
     }
 
     Method [ <internal:date> static public method createFromFormat ] {

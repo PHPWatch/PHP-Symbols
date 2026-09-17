@@ -208,7 +208,7 @@ return array (
       - Parameters [1] {
         Parameter #0 [ <required> array $array ]
       }
-      - Tentative return [ DateInterval ]
+      - Tentative return [ static ]
     }
   }
 

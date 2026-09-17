@@ -790,8 +790,8 @@ return array (
           'default_value_constant' => NULL,
         ),
       ),
-      'return_type' => 'DateTimeImmutable',
-      'has_return_type' => true,
+      'return_type' => NULL,
+      'has_return_type' => false,
       'is_static' => true,
       'is_public' => true,
       'is_protected' => false,
@@ -834,7 +834,7 @@ return array (
       - Parameters [1] {
         Parameter #0 [ <required> array $array ]
       }
-      - Tentative return [ DateTimeImmutable ]
+      - Tentative return [ static ]
     }
 
     Method [ <internal:date> static public method createFromFormat ] {
@@ -875,7 +875,7 @@ return array (
       - Parameters [1] {
         Parameter #0 [ <required> DateTimeInterface $object ]
       }
-      - Return [ DateTimeImmutable ]
+      - Tentative return [ static ]
     }
   }
 
@@ -963,7 +963,7 @@ return array (
       - Parameters [1] {
         Parameter #0 [ <required> string $modifier ]
       }
-      - Tentative return [ DateTimeImmutable ]
+      - Tentative return [ static ]
     }
 
     Method [ <internal:date> public method add ] {
@@ -971,7 +971,7 @@ return array (
       - Parameters [1] {
         Parameter #0 [ <required> DateInterval $interval ]
       }
-      - Tentative return [ DateTimeImmutable ]
+      - Tentative return [ static ]
     }
 
     Method [ <internal:date> public method sub ] {
@@ -979,7 +979,7 @@ return array (
       - Parameters [1] {
         Parameter #0 [ <required> DateInterval $interval ]
       }
-      - Tentative return [ DateTimeImmutable ]
+      - Tentative return [ static ]
     }
 
     Method [ <internal:date> public method setTimezone ] {
@@ -987,7 +987,7 @@ return array (
       - Parameters [1] {
         Parameter #0 [ <required> DateTimeZone $timezone ]
       }
-      - Tentative return [ DateTimeImmutable ]
+      - Tentative return [ static ]
     }
 
     Method [ <internal:date> public method setTime ] {
@@ -998,7 +998,7 @@ return array (
         Parameter #2 [ <optional> int $second = 0 ]
         Parameter #3 [ <optional> int $microsecond = 0 ]
       }
-      - Tentative return [ DateTimeImmutable ]
+      - Tentative return [ static ]
     }
 
     Method [ <internal:date> public method setDate ] {
@@ -1008,7 +1008,7 @@ return array (
         Parameter #1 [ <required> int $month ]
         Parameter #2 [ <required> int $day ]
       }
-      - Tentative return [ DateTimeImmutable ]
+      - Tentative return [ static ]
     }
 
     Method [ <internal:date> public method setISODate ] {
@@ -1018,7 +1018,7 @@ return array (
         Parameter #1 [ <required> int $week ]
         Parameter #2 [ <optional> int $dayOfWeek = 1 ]
       }
-      - Tentative return [ DateTimeImmutable ]
+      - Tentative return [ static ]
     }
 
     Method [ <internal:date> public method setTimestamp ] {
@@ -1026,7 +1026,7 @@ return array (
       - Parameters [1] {
         Parameter #0 [ <required> int $timestamp ]
       }
-      - Tentative return [ DateTimeImmutable ]
+      - Tentative return [ static ]
     }
 
     Method [ <internal:date> public method setMicrosecond ] {
