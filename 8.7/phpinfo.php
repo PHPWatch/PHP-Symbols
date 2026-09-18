@@ -137,7 +137,7 @@ ctype functions => enabled
 curl
 
 cURL support => enabled
-cURL Information => 8.22.0-DEV
+cURL Information => 8.23.0-DEV
 Age => 11
 Features
 AsynchDNS => Yes
@@ -169,7 +169,7 @@ UNICODE => No
 ZSTD => Yes
 HSTS => Yes
 GSASL => No
-Protocols => dict, file, ftp, ftps, gopher, gophers, http, https, imap, imaps, ldap, ldaps, mqtt, mqtts, pop3, pop3s, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp, ws, wss
+Protocols => dict, file, ftp, ftps, gopher, gophers, http, https, imap, imaps, ldap, ldaps, mqtt, mqtts, pop3, pop3s, rtsp, scp, sftp, smtp, smtps, telnet, tftp, ws, wss
 Host => x86_64-pc-linux-gnu
 SSL Version => OpenSSL/3.0.13
 ZLib Version => 1.3
