@@ -248,7 +248,7 @@ ffi.preload => no value => no value
 fileinfo
 
 fileinfo support => enabled
-libmagic => 5.46
+libmagic => 5.48
 
 filter
 
