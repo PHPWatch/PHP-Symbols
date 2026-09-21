@@ -45,4 +45,20 @@ return array (
   - Return [ bool ]
 }
 ',
+  'attributes' => 
+  array (
+    'params' => 
+    array (
+      'community' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
 );

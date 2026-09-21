@@ -48,4 +48,30 @@ return array (
   - Return [ array|false ]
 }
 ',
+  'attributes' => 
+  array (
+    'params' => 
+    array (
+      'auth_passphrase' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+      'privacy_passphrase' => 
+      array (
+        0 => 
+        array (
+          'attribute' => 'SensitiveParameter',
+          'params' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
 );
