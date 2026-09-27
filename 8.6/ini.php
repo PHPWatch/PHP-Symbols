@@ -180,9 +180,9 @@ return array (
     ),
     'extension_dir' => 
     array (
-      'global_value' => '/usr/lib/php/extensions/no-debug-non-zts-20260925',
-      'local_value' => '/usr/lib/php/extensions/no-debug-non-zts-20260925',
-      'builtin_default_value' => '/usr/lib/php/extensions/no-debug-non-zts-20260925',
+      'global_value' => '/usr/lib/php/extensions/no-debug-non-zts-20260924',
+      'local_value' => '/usr/lib/php/extensions/no-debug-non-zts-20260924',
+      'builtin_default_value' => '/usr/lib/php/extensions/no-debug-non-zts-20260924',
       'access' => 4,
     ),
     'fatal_error_backtraces' => 
