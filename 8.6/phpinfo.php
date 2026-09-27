@@ -28,7 +28,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.6.0-dev
+PHP Version => 8.7.0-dev
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -56,7 +56,7 @@ error_log_mode => 0644 => 0644
 error_prepend_string => no value => no value
 error_reporting => no value => no value
 expose_php => On => On
-extension_dir => /usr/lib/php/extensions/no-debug-non-zts-20250926 => /usr/lib/php/extensions/no-debug-non-zts-20250926
+extension_dir => /usr/lib/php/extensions/no-debug-non-zts-20260925 => /usr/lib/php/extensions/no-debug-non-zts-20260925
 fatal_error_backtraces => On => On
 fiber.stack_size => no value => no value
 file_uploads => On => On
@@ -385,7 +385,7 @@ mbstring.substitute_character => no value => no value
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.6.0-dev
+Client API library version => mysqlnd 8.7.0-dev
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -406,7 +406,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.6.0-dev
+Version => mysqlnd 8.7.0-dev
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -480,7 +480,7 @@ Flavour => freetds
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.6.0-dev
+Client API version => mysqlnd 8.7.0-dev
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /tmp/mysql.sock => /tmp/mysql.sock
@@ -542,7 +542,7 @@ POSIX support => enabled
 
 random
 
-Version => 8.6.0-dev
+Version => 8.7.0-dev
 
 readline
 
@@ -907,7 +907,7 @@ PHP hash => Sara Golemon, Rasmus Lerdorf, Stefan Esser, Michael Wallner, Scott M
 Posix => Kristian Koehntopp
 PostgreSQL driver for PDO => Edin Kadribasic, Ilia Alshanetsky
 PostgreSQL => Jouni Ahto, Zeev Suraski, Yasuo Ohgaki, Chris Kings-Lynne
-random => Go Kudo, Tim Düsterhus, Guilliam Xavier, Christoph M. Becker, Jakub Zelenka, Bob Weinand, Máté Kocsis, and Original RNG implementators
+random => Go Kudo, Tim Düsterhus, Guilliam Xavier, Christoph M. Becker, Jakub Zelenka, Bob Weinand, Máté Kocsis, and Original RNG implementers
 Readline => Thies C. Arntzen
 Reflection => Marcus Boerger, Timm Friebe, George Schlossnagle, Andrei Zmievski, Johannes Schlueter
 Sessions => Sascha Schumann, Andrei Zmievski

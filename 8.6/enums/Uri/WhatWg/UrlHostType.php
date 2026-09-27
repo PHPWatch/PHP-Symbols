@@ -27,19 +27,19 @@ return array (
   'namespace' => 'Uri\\WhatWg',
   'constants' => 
   array (
-    'IPv4' => 
+    'IpV4' => 
     array (
       'value' => NULL,
-      'toString' => 'Constant [ public Uri\\WhatWg\\UrlHostType IPv4 ] { Object }
+      'toString' => 'Constant [ public Uri\\WhatWg\\UrlHostType IpV4 ] { Object }
 ',
       'visibility' => 1,
       'isFinal' => false,
       'isEnumCase' => true,
     ),
-    'IPv6' => 
+    'IpV6' => 
     array (
       'value' => NULL,
-      'toString' => 'Constant [ public Uri\\WhatWg\\UrlHostType IPv6 ] { Object }
+      'toString' => 'Constant [ public Uri\\WhatWg\\UrlHostType IpV6 ] { Object }
 ',
       'visibility' => 1,
       'isFinal' => false,
@@ -114,8 +114,8 @@ return array (
   'toString' => 'Enum [ <internal:uri> enum Uri\\WhatWg\\UrlHostType implements UnitEnum ] {
 
   - Enum cases [5] {
-    Case IPv4
-    Case IPv6
+    Case IpV4
+    Case IpV6
     Case Domain
     Case Opaque
     Case Empty

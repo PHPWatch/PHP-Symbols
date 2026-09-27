@@ -27,28 +27,28 @@ return array (
   'namespace' => 'Uri\\Rfc3986',
   'constants' => 
   array (
-    'IPv4' => 
+    'IpV4' => 
     array (
       'value' => NULL,
-      'toString' => 'Constant [ public Uri\\Rfc3986\\UriHostType IPv4 ] { Object }
+      'toString' => 'Constant [ public Uri\\Rfc3986\\UriHostType IpV4 ] { Object }
 ',
       'visibility' => 1,
       'isFinal' => false,
       'isEnumCase' => true,
     ),
-    'IPv6' => 
+    'IpV6' => 
     array (
       'value' => NULL,
-      'toString' => 'Constant [ public Uri\\Rfc3986\\UriHostType IPv6 ] { Object }
+      'toString' => 'Constant [ public Uri\\Rfc3986\\UriHostType IpV6 ] { Object }
 ',
       'visibility' => 1,
       'isFinal' => false,
       'isEnumCase' => true,
     ),
-    'IPvFuture' => 
+    'IpVFuture' => 
     array (
       'value' => NULL,
-      'toString' => 'Constant [ public Uri\\Rfc3986\\UriHostType IPvFuture ] { Object }
+      'toString' => 'Constant [ public Uri\\Rfc3986\\UriHostType IpVFuture ] { Object }
 ',
       'visibility' => 1,
       'isFinal' => false,
@@ -105,9 +105,9 @@ return array (
   'toString' => 'Enum [ <internal:uri> enum Uri\\Rfc3986\\UriHostType implements UnitEnum ] {
 
   - Enum cases [4] {
-    Case IPv4
-    Case IPv6
-    Case IPvFuture
+    Case IpV4
+    Case IpV6
+    Case IpVFuture
     Case RegisteredName
   }
 
