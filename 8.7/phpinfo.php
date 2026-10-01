@@ -417,7 +417,6 @@ Collecting statistics => Yes
 Collecting memory statistics => No
 Tracing => n/a
 Loaded plugins => mysqlnd,debug_trace,auth_plugin_mysql_native_password,auth_plugin_mysql_clear_password,auth_plugin_caching_sha2_password,auth_plugin_sha256_password
-API Extensions => mysqli,pdo_mysql
 
 odbc
 
