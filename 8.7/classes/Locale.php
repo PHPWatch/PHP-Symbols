@@ -712,6 +712,16 @@ return array (
           'has_default_value_constant' => false,
           'default_value_constant' => NULL,
         ),
+        'availableLocales' => 
+        array (
+          'position' => 1,
+          'name' => 'availableLocales',
+          'type' => '?array',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
       ),
       'return_type' => NULL,
       'has_return_type' => false,
@@ -985,8 +995,9 @@ return array (
 
     Method [ <internal:intl> static public method acceptFromHttp ] {
 
-      - Parameters [1] {
+      - Parameters [2] {
         Parameter #0 [ <required> string $header ]
+        Parameter #1 [ <optional> ?array $availableLocales = null ]
       }
       - Tentative return [ string|false ]
     }

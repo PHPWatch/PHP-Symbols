@@ -33,8 +33,9 @@ return array (
   'extension' => 'intl',
   'toString' => 'Function [ <internal:intl> function locale_accept_from_http ] {
 
-  - Parameters [1] {
+  - Parameters [2] {
     Parameter #0 [ <required> string $header ]
+    Parameter #1 [ <optional> ?array $availableLocales = null ]
   }
   - Return [ string|false ]
 }
