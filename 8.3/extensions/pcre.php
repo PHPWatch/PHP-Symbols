@@ -63,7 +63,7 @@ return array (
     'PREG_JIT_STACKLIMIT_ERROR' => 6,
     'PCRE_VERSION' => '10.42 2022-12-11',
     'PCRE_VERSION_MAJOR' => 10,
-    'PCRE_VERSION_MINOR' => 42,
+    'PCRE_VERSION_MINOR' => 47,
     'PCRE_JIT_SUPPORT' => true,
   ),
   'dependencies' => 
