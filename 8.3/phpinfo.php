@@ -451,7 +451,7 @@ Active Links => 0
 ODBC library => unixODBC
 ODBCVER => 0x0380
 ODBC_CFLAGS => -I/usr/include
-ODBC_LFLAGS => -L/usr/lib/x86_64-linux-gnu
+ODBC_LFLAGS => -L/usr/lib
 ODBC_LIBS => -lodbc
 
 Directive => Local Value => Master Value
@@ -975,6 +975,9 @@ PHP Websites Team => Rasmus Lerdorf, Hannes Magnusson, Philip Olson, Lukas Kahwe
 Event Maintainers => Damien Seguy, Daniel P. Brown
 Network Infrastructure => Daniel P. Brown
 Windows Infrastructure => Alex Schoenmaker
+
+                             Debian Packaging                             
+Ondřej Surý
 
 PHP License
 This program is free software; you can redistribute it and/or modify

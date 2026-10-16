@@ -19,6 +19,6 @@ return array (
     array (
     ),
   ),
-  'value' => 47,
+  'value' => 42,
   'extension' => 'pcre',
 );
