@@ -144,6 +144,30 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'toRules' => 
+    array (
+      'name' => 'toRules',
+      'class' => 'Transliterator',
+      'parameters' => 
+      array (
+        'escapeUnprintable' => 
+        array (
+          'position' => 0,
+          'name' => 'escapeUnprintable',
+          'type' => 'bool',
+          'is_optional' => true,
+          'has_default_value' => true,
+          'has_default_value_constant' => false,
+          'default_value_constant' => NULL,
+        ),
+      ),
+      'return_type' => 'string|false',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'listIDs' => 
     array (
       'name' => 'listIDs',
@@ -292,7 +316,7 @@ return array (
     Property [ public protected(set) readonly string $id ]
   }
 
-  - Methods [5] {
+  - Methods [6] {
     Method [ <internal:intl, ctor> final private method __construct ] {
 
       - Parameters [0] {
@@ -304,6 +328,14 @@ return array (
       - Parameters [0] {
       }
       - Tentative return [ ?Transliterator ]
+    }
+
+    Method [ <internal:intl> public method toRules ] {
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> bool $escapeUnprintable = false ]
+      }
+      - Return [ string|false ]
     }
 
     Method [ <internal:intl> public method transliterate ] {

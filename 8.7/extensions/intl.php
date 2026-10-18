@@ -242,6 +242,7 @@ return array (
     'transliterator_create_from_rules' => 'transliterator_create_from_rules',
     'transliterator_list_ids' => 'transliterator_list_ids',
     'transliterator_create_inverse' => 'transliterator_create_inverse',
+    'transliterator_to_rules' => 'transliterator_to_rules',
     'transliterator_transliterate' => 'transliterator_transliterate',
     'transliterator_get_error_code' => 'transliterator_get_error_code',
     'transliterator_get_error_message' => 'transliterator_get_error_message',
