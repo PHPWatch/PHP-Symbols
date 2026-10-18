@@ -35,7 +35,7 @@ return array (
 
   - Parameters [0] {
   }
-  - Return [ int ]
+  - Return [ bool ]
 }
 ',
 );

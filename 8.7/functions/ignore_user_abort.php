@@ -36,7 +36,7 @@ return array (
   - Parameters [1] {
     Parameter #0 [ <optional> ?bool $enable = null ]
   }
-  - Return [ int ]
+  - Return [ bool ]
 }
 ',
 );
