@@ -879,6 +879,19 @@ return array (
       'is_private' => true,
       'is_promoted' => false,
     ),
+    '_keep_headers' => 
+    array (
+      'name' => '_keep_headers',
+      'class' => 'SoapClient',
+      'type' => 'int',
+      'has_default_value' => true,
+      'default_value' => 0,
+      'is_static' => false,
+      'is_public' => false,
+      'is_protected' => false,
+      'is_private' => true,
+      'is_promoted' => false,
+    ),
   ),
   'extension' => 'soap',
   'toString' => 'Class [ <internal:soap> class SoapClient ] {
@@ -892,7 +905,7 @@ return array (
   - Static methods [0] {
   }
 
-  - Properties [35] {
+  - Properties [36] {
     Property [ private ?string $uri = NULL ]
     Property [ private ?int $style = NULL ]
     Property [ private ?int $use = NULL ]
@@ -928,6 +941,7 @@ return array (
     Property [ private ?string $__last_response = NULL ]
     Property [ private ?string $__last_request_headers = NULL ]
     Property [ private ?string $__last_response_headers = NULL ]
+    Property [ private int $_keep_headers = 0 ]
   }
 
   - Methods [14] {
@@ -1088,6 +1102,7 @@ return array (
     '__last_response' => NULL,
     '__last_request_headers' => NULL,
     '__last_response_headers' => NULL,
+    '_keep_headers' => 0,
   ),
   'staticProperties' => 
   array (
