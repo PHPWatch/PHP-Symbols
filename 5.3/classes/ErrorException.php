@@ -132,6 +132,20 @@ return array (
       'is_protected' => false,
       'is_private' => true,
     ),
+    '__wakeup' => 
+    array (
+      'name' => '__wakeup',
+      'class' => 'Exception',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getMessage' => 
     array (
       'name' => 'getMessage',
@@ -336,7 +350,7 @@ return array (
     Property [ <default> protected $severity ]
   }
 
-  - Methods [10] {
+  - Methods [11] {
     Method [ <internal:Core, overwrites Exception, ctor> public method __construct ] {
 
       - Parameters [6] {
@@ -350,6 +364,9 @@ return array (
     }
 
     Method [ <internal:Core> final public method getSeverity ] {
+    }
+
+    Method [ <internal:Core, inherits Exception> public method __wakeup ] {
     }
 
     Method [ <internal:Core, inherits Exception> final public method getMessage ] {

@@ -83,6 +83,7 @@ max_file_uploads => 20 => 20
 max_input_nesting_level => 64 => 64
 max_input_time => -1 => -1
 max_input_vars => 1000 => 1000
+max_multipart_body_parts => -1 => -1
 memory_limit => -1 => -1
 open_basedir => no value => no value
 output_buffering => 0 => 0
@@ -737,7 +738,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 16.14 (Ubuntu 16.14-0ubuntu0.24.04.1)
+PostgreSQL(libpq) Version => 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1)
 Module version => 1.0.2
 Revision =>  $Id: 0e858dd2051ca8c2fd3c781909a0670ab5fecd36 $ 
 
@@ -749,8 +750,8 @@ SQLite Library => 3.45.1
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL(libpq) Version => 16.14 (Ubuntu 16.14-0ubuntu0.24.04.1)
-PostgreSQL(libpq)  => PostgreSQL 16.14 (Ubuntu 16.14-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+PostgreSQL(libpq) Version => 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1)
+PostgreSQL(libpq)  => PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
 Multibyte character support => enabled
 SSL support => enabled
 Active Persistent Links => 0

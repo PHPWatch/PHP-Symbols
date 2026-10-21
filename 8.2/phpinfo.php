@@ -28,7 +28,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.2.34
+PHP Version => 8.2.35
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -84,6 +84,7 @@ max_input_nesting_level => 64 => 64
 max_input_time => -1 => -1
 max_input_vars => 1000 => 1000
 max_multipart_body_parts => -1 => -1
+memory_hard_limit_percent => no value => no value
 memory_limit => -1 => -1
 open_basedir => no value => no value
 output_buffering => 0 => 0
@@ -383,7 +384,7 @@ mbstring.substitute_character => no value => no value
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.2.34
+Client API library version => mysqlnd 8.2.35
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -404,7 +405,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.2.34
+Version => mysqlnd 8.2.35
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -510,7 +511,7 @@ Client Library Version => LI-V6.3.11.33703 Firebird 3.0
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.2.34
+Client API version => mysqlnd 8.2.35
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -580,7 +581,7 @@ PSpell Support => enabled
 
 random
 
-Version => 8.2.34
+Version => 8.2.35
 
 readline
 

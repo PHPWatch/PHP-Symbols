@@ -85,6 +85,7 @@ return array (
     'session.serialize_handler' => 'php',
     'session.use_cookies' => '1',
     'session.use_only_cookies' => '1',
+    'session.use_strict_mode' => '0',
     'session.use_trans_sid' => '0',
   ),
 );

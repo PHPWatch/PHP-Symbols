@@ -73,6 +73,8 @@ return array (
     'opcache.revalidate_path' => '0',
     'opcache.save_comments' => '1',
     'opcache.use_cwd' => '1',
+    'opcache.validate_permission' => '0',
+    'opcache.validate_root' => '0',
     'opcache.validate_timestamps' => '1',
   ),
 );

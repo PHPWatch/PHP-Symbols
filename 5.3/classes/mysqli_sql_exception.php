@@ -88,6 +88,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    '__wakeup' => 
+    array (
+      'name' => '__wakeup',
+      'class' => 'Exception',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getMessage' => 
     array (
       'name' => 'getMessage',
@@ -292,7 +306,7 @@ return array (
     Property [ <default> protected $sqlstate ]
   }
 
-  - Methods [9] {
+  - Methods [10] {
     Method [ <internal:Core, inherits Exception, ctor> public method __construct ] {
 
       - Parameters [3] {
@@ -300,6 +314,9 @@ return array (
         Parameter #1 [ <optional> $code ]
         Parameter #2 [ <optional> $previous ]
       }
+    }
+
+    Method [ <internal:Core, inherits Exception> public method __wakeup ] {
     }
 
     Method [ <internal:Core, inherits Exception> final public method getMessage ] {

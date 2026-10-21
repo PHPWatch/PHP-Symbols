@@ -218,6 +218,7 @@ return array (
     'max_input_nesting_level' => '64',
     'max_input_time' => '-1',
     'max_input_vars' => '1000',
+    'max_multipart_body_parts' => '-1',
     'memory_limit' => '-1',
     'open_basedir' => NULL,
     'output_buffering' => '0',

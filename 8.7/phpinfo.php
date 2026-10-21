@@ -87,6 +87,7 @@ max_input_time => -1 => -1
 max_input_vars => 1000 => 1000
 max_memory_limit => -1 => -1
 max_multipart_body_parts => -1 => -1
+memory_hard_limit_percent => no value => no value
 memory_limit => 128M => 128M
 open_basedir => no value => no value
 output_buffering => 0 => 0
@@ -734,8 +735,8 @@ Cache misses => 1
 Used memory => 9179808
 Free memory => 125037920
 Wasted memory => 0
-Interned Strings Used memory => 2668632
-Interned Strings Free memory => 5719976
+Interned Strings Used memory => 2668688
+Interned Strings Free memory => 5719920
 Cached scripts => 1
 Cached keys => 2
 Max keys => 16229

@@ -395,6 +395,13 @@ return array (
       'builtin_default_value' => '-1',
       'access' => 6,
     ),
+    'memory_hard_limit_percent' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'builtin_default_value' => NULL,
+      'access' => 7,
+    ),
     'memory_limit' => 
     array (
       'global_value' => '128M',

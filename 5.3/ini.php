@@ -333,6 +333,12 @@ return array (
       'local_value' => '1000',
       'access' => 6,
     ),
+    'max_multipart_body_parts' => 
+    array (
+      'global_value' => '-1',
+      'local_value' => '-1',
+      'access' => 6,
+    ),
     'memory_limit' => 
     array (
       'global_value' => '-1',
@@ -813,6 +819,12 @@ return array (
       'local_value' => '1',
       'access' => 7,
     ),
+    'session.use_strict_mode' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 7,
+    ),
     'session.use_trans_sid' => 
     array (
       'global_value' => '0',
@@ -1044,6 +1056,12 @@ return array (
   ),
   'imap' => 
   array (
+    'imap.enable_insecure_rsh' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'access' => 4,
+    ),
   ),
   'intl' => 
   array (

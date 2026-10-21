@@ -176,6 +176,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    '__wakeup' => 
+    array (
+      'name' => '__wakeup',
+      'class' => 'Exception',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => NULL,
+      'has_return_type' => NULL,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getMessage' => 
     array (
       'name' => 'getMessage',
@@ -352,7 +366,7 @@ return array (
     Property [ <default> protected $line ]
   }
 
-  - Methods [10] {
+  - Methods [11] {
     Method [ <internal:soap, ctor> public method SoapFault ] {
 
       - Parameters [6] {
@@ -378,6 +392,9 @@ return array (
         Parameter #1 [ <optional> $code ]
         Parameter #2 [ <optional> $previous ]
       }
+    }
+
+    Method [ <internal:Core, inherits Exception> public method __wakeup ] {
     }
 
     Method [ <internal:Core, inherits Exception> final public method getMessage ] {

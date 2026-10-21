@@ -86,6 +86,7 @@ max_file_uploads => 20 => 20
 max_input_nesting_level => 64 => 64
 max_input_time => -1 => -1
 max_input_vars => 1000 => 1000
+max_multipart_body_parts => -1 => -1
 memory_limit => -1 => -1
 open_basedir => no value => no value
 output_buffering => 0 => 0
@@ -191,7 +192,7 @@ enchant
 enchant support => enabled
 Version => 1.1.0
 Libenchant Version => 1.5.x
-Revision => $Id: c36987fc33e8b5385cee0e9f7bd179a859c30266 $
+Revision => $Id: 2793cf670454c96934ac578d325eb9de400d261a $
 
 aspell => Aspell Provider => /usr/lib/enchant/libenchant_aspell.so
 hspell => Hspell Provider => /usr/lib/enchant/libenchant_hspell.so
@@ -684,7 +685,7 @@ Phar
 Phar: PHP Archive support => enabled
 Phar EXT version => 2.0.1
 Phar API version => 1.1.1
-SVN revision => $Id: 21d763042eb5769ae0a09dc1118df2b5aae6fb33 $
+SVN revision => $Id: a7039219c6ddd38556d6194f97dfc61bbbb418d8 $
 Phar-based phar archives => enabled
 Tar-based phar archives => enabled
 ZIP-based phar archives => enabled
@@ -745,6 +746,7 @@ session.save_path => no value => no value
 session.serialize_handler => php => php
 session.use_cookies => On => On
 session.use_only_cookies => On => On
+session.use_strict_mode => Off => Off
 session.use_trans_sid => 0 => 0
 
 shmop
@@ -754,7 +756,7 @@ shmop support => enabled
 SimpleXML
 
 Simplexml support => enabled
-Revision => $Id: 02ab7893b36d51e9c59da77d7e287eb3b35e1e32 $
+Revision => $Id: 069d20778418b055eebdaa38e90163a39ef61d55 $
 Schema support => enabled
 
 soap
@@ -864,7 +866,7 @@ libexslt Version => 1.1.28
 zip
 
 Zip => enabled
-Extension Version => $Id: b1a1a3628c4ed0ad78fb0cc4a99b06a56aa281c4 $
+Extension Version => $Id: f08de329bc1e5fe81265c2bc9870cc21faadd38b $
 Zip version => 1.11.0
 Libzip version => 0.10.1
 

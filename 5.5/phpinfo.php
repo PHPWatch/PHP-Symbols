@@ -81,6 +81,7 @@ max_file_uploads => 20 => 20
 max_input_nesting_level => 64 => 64
 max_input_time => -1 => -1
 max_input_vars => 1000 => 1000
+max_multipart_body_parts => -1 => -1
 memory_limit => -1 => -1
 open_basedir => no value => no value
 output_buffering => 0 => 0
@@ -199,7 +200,7 @@ Regex Library => Bundled library enabled
 exif
 
 EXIF Support => enabled
-EXIF Version => 1.4 $Id: 74b652b3ebe78882b8006d49c17cac029fe8a5d0 $
+EXIF Version => 1.4 $Id: 8ab37313825320c49e304771ceab53dcd4c245b0 $
 Supported EXIF Version => 0220
 Supported filetypes => JPEG,TIFF
 
@@ -301,7 +302,7 @@ json version => 1.2.1
 ldap
 
 LDAP Support => enabled
-RCS Version => $Id: 4db15e5bb92af06390fd31ab784837ab21a3d2ce $
+RCS Version => $Id: 7ab797bd9c5710286610e0ae2fc24cd0d5b380d6 $
 Total Links => 0/unlimited
 API Version => 3001
 Vendor Name => OpenLDAP
@@ -700,7 +701,7 @@ Phar
 Phar: PHP Archive support => enabled
 Phar EXT version => 2.0.2
 Phar API version => 1.1.1
-SVN revision => $Id: 17b0affd86ff751cb8e6046d04d91435b53fc6b8 $
+SVN revision => $Id: a9bd45be09738eec7d50b8c3decdb1202fecfcd1 $
 Phar-based phar archives => enabled
 Tar-based phar archives => enabled
 ZIP-based phar archives => enabled
@@ -784,7 +785,7 @@ shmop support => enabled
 SimpleXML
 
 Simplexml support => enabled
-Revision => $Id: 6b8e23a01a85046737ef7d31346da5164505c179 $
+Revision => $Id: f3412f904e3e595bf34f6d36969e0e2cc3d93068 $
 Schema support => enabled
 
 soap
@@ -922,6 +923,8 @@ opcache.revalidate_freq => 2 => 2
 opcache.revalidate_path => Off => Off
 opcache.save_comments => 1 => 1
 opcache.use_cwd => On => On
+opcache.validate_permission => Off => Off
+opcache.validate_root => Off => Off
 opcache.validate_timestamps => On => On
 
 zip

@@ -182,5 +182,6 @@ return array (
   ),
   'ini' => 
   array (
+    'imap.enable_insecure_rsh' => '0',
   ),
 );

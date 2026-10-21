@@ -284,6 +284,7 @@ return array (
     'max_input_vars' => '1000',
     'max_memory_limit' => '-1',
     'max_multipart_body_parts' => '-1',
+    'memory_hard_limit_percent' => NULL,
     'memory_limit' => '128M',
     'open_basedir' => NULL,
     'output_buffering' => '0',

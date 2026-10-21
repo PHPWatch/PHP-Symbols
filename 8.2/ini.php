@@ -321,6 +321,12 @@ return array (
       'local_value' => '-1',
       'access' => 6,
     ),
+    'memory_hard_limit_percent' => 
+    array (
+      'global_value' => NULL,
+      'local_value' => NULL,
+      'access' => 7,
+    ),
     'memory_limit' => 
     array (
       'global_value' => '-1',
