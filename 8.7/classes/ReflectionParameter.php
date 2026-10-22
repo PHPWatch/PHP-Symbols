@@ -441,7 +441,7 @@ return array (
   }
 
   - Properties [1] {
-    Property [ public string $name ]
+    Property [ public protected(set) readonly string $name ]
   }
 
   - Methods [24] {
