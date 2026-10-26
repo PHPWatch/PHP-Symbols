@@ -140,6 +140,8 @@ return array (
   'mysqli_warning',
   'mysqli_result',
   'mysqli_stmt',
+  'OCI-Lob',
+  'OCI-Collection',
   'PharException',
   'Phar',
   'PharData',
