@@ -561,29 +561,6 @@ com_deamon => 0
 bytes_received_real_data_normal => 0
 bytes_received_real_data_ps => 0
 
-oci8
-
-OCI8 Support => enabled
-Version => 1.4.9
-Revision => $Id: 44bfa713983a99b3e59477f6532e5fb51b6dee94 $
-Active Persistent Connections => 0
-Active Connections => 0
-Oracle Run-time Client Library Version => 23.26.2.0.0
-Oracle Instant Client Version => 23.26
-Temporary Lob support => enabled
-Collections support => enabled
-
-Directive => Local Value => Master Value
-oci8.connection_class => no value => no value
-oci8.default_prefetch => 100 => 100
-oci8.events => Off => Off
-oci8.max_persistent => -1 => -1
-oci8.old_oci_close_semantics => Off => Off
-oci8.persistent_timeout => -1 => -1
-oci8.ping_interval => 60 => 60
-oci8.privileged_connect => Off => Off
-oci8.statement_cache_size => 20 => 20
-
 odbc
 
 ODBC Support => enabled

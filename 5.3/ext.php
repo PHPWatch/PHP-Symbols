@@ -41,7 +41,6 @@ return array (
   'mbstring',
   'mcrypt',
   'mysqlnd',
-  'oci8',
   'odbc',
   'PDO_Firebird',
   'mysqli',
