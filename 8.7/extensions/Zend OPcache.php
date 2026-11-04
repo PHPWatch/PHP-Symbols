@@ -84,7 +84,7 @@ return array (
     'opcache.jit_prof_threshold' => '0.005',
     'opcache.lockfile_path' => '/tmp',
     'opcache.log_verbosity_level' => '1',
-    'opcache.max_accelerated_files' => '10000',
+    'opcache.max_accelerated_files' => '16229',
     'opcache.max_file_size' => '0',
     'opcache.max_wasted_percentage' => '5',
     'opcache.memory_consumption' => '128',

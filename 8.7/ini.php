@@ -1864,9 +1864,9 @@ return array (
     ),
     'opcache.max_accelerated_files' => 
     array (
-      'global_value' => '10000',
-      'local_value' => '10000',
-      'builtin_default_value' => '10000',
+      'global_value' => '16229',
+      'local_value' => '16229',
+      'builtin_default_value' => '16229',
       'access' => 4,
     ),
     'opcache.max_file_size' => 

@@ -783,7 +783,7 @@ opcache.jit_max_trace_length => 1024 => 1024
 opcache.jit_prof_threshold => 0.005 => 0.005
 opcache.lockfile_path => /tmp => /tmp
 opcache.log_verbosity_level => 1 => 1
-opcache.max_accelerated_files => 10000 => 10000
+opcache.max_accelerated_files => 16229 => 16229
 opcache.max_file_size => 0 => 0
 opcache.max_wasted_percentage => 5 => 5
 opcache.memory_consumption => 128 => 128
