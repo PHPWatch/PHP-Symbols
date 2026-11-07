@@ -730,6 +730,7 @@ return array (
   'collator_sort_with_sort_keys',
   'collator_asort',
   'collator_get_locale',
+  'collator_get_rules',
   'collator_get_error_code',
   'collator_get_error_message',
   'collator_get_sort_key',

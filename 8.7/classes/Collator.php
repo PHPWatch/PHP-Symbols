@@ -540,6 +540,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getRules' => 
+    array (
+      'name' => 'getRules',
+      'class' => 'Collator',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'string|false',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'getErrorCode' => 
     array (
       'name' => 'getErrorCode',
@@ -645,7 +659,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [13] {
+  - Methods [14] {
     Method [ <internal:intl, ctor> public method __construct ] {
 
       - Parameters [1] {
@@ -726,6 +740,13 @@ return array (
         Parameter #0 [ <required> int $type ]
       }
       - Tentative return [ string|false ]
+    }
+
+    Method [ <internal:intl> public method getRules ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string|false ]
     }
 
     Method [ <internal:intl> public method getErrorCode ] {
