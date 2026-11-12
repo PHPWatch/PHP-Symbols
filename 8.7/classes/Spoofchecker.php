@@ -383,6 +383,20 @@ return array (
       'is_protected' => false,
       'is_private' => false,
     ),
+    'getRestrictionLevel' => 
+    array (
+      'name' => 'getRestrictionLevel',
+      'class' => 'Spoofchecker',
+      'parameters' => 
+      array (
+      ),
+      'return_type' => 'int',
+      'has_return_type' => true,
+      'is_static' => false,
+      'is_public' => true,
+      'is_protected' => false,
+      'is_private' => false,
+    ),
     'setAllowedChars' => 
     array (
       'name' => 'setAllowedChars',
@@ -572,7 +586,7 @@ return array (
   - Properties [0] {
   }
 
-  - Methods [10] {
+  - Methods [11] {
     Method [ <internal:intl, ctor> public method __construct ] {
 
       - Parameters [0] {
@@ -620,6 +634,13 @@ return array (
         Parameter #0 [ <required> int $level ]
       }
       - Tentative return [ void ]
+    }
+
+    Method [ <internal:intl> public method getRestrictionLevel ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
     }
 
     Method [ <internal:intl> public method setAllowedChars ] {
