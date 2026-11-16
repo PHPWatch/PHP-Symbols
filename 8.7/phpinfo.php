@@ -138,7 +138,7 @@ ctype functions => enabled
 curl
 
 cURL support => enabled
-cURL Information => 8.23.0-DEV
+cURL Information => 8.23.1-DEV
 Age => 11
 Features
 AsynchDNS => Yes
@@ -150,7 +150,7 @@ IPv6 => Yes
 krb4 => No
 Largefile => Yes
 libz => Yes
-NTLM => Yes
+NTLM => No
 NTLMWB => No
 SPNEGO => Yes
 SSL => Yes
