@@ -33,6 +33,7 @@ return array (
   'gmp',
   'iconv',
   'imap',
+  'interbase',
   'intl',
   'json',
   'ldap',
