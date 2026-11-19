@@ -92,7 +92,7 @@ return array (
     'session.sid_bits_per_character' => '4',
     'session.sid_length' => '32',
     'session.upload_progress.cleanup' => '1',
-    'session.upload_progress.enabled' => '1',
+    'session.upload_progress.enabled' => '0',
     'session.upload_progress.freq' => '1%',
     'session.upload_progress.min_freq' => '1',
     'session.upload_progress.name' => 'PHP_SESSION_UPLOAD_PROGRESS',

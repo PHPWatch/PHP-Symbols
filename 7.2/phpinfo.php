@@ -791,7 +791,7 @@ session.serialize_handler => php => php
 session.sid_bits_per_character => 5 => 5
 session.sid_length => 26 => 26
 session.upload_progress.cleanup => On => On
-session.upload_progress.enabled => On => On
+session.upload_progress.enabled => Off => Off
 session.upload_progress.freq => 1% => 1%
 session.upload_progress.min_freq => 1 => 1
 session.upload_progress.name => PHP_SESSION_UPLOAD_PROGRESS => PHP_SESSION_UPLOAD_PROGRESS

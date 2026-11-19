@@ -1115,9 +1115,9 @@ return array (
     ),
     'session.upload_progress.enabled' => 
     array (
-      'global_value' => '1',
-      'local_value' => '1',
-      'builtin_default_value' => '1',
+      'global_value' => '0',
+      'local_value' => '0',
+      'builtin_default_value' => '0',
       'access' => 2,
     ),
     'session.upload_progress.freq' => 

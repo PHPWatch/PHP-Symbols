@@ -494,7 +494,7 @@ ODBC Connection Pooling => Enabled, strict matching
 pdo_pgsql
 
 PDO Driver for PostgreSQL => enabled
-PostgreSQL(libpq) Version => 18.7
+PostgreSQL(libpq) Version => 18.6
 
 pdo_sqlite
 
@@ -504,7 +504,7 @@ SQLite Library => 3.45.1
 pgsql
 
 PostgreSQL Support => enabled
-PostgreSQL (libpq) Version => 18.7
+PostgreSQL (libpq) Version => 18.6
 Multibyte character support => enabled
 Active Persistent Links => 0
 Active Links => 0
@@ -587,7 +587,7 @@ session.serialize_handler => php => php
 session.sid_bits_per_character => 4 => 4
 session.sid_length => 32 => 32
 session.upload_progress.cleanup => On => On
-session.upload_progress.enabled => On => On
+session.upload_progress.enabled => Off => Off
 session.upload_progress.freq => 1% => 1%
 session.upload_progress.min_freq => 1 => 1
 session.upload_progress.name => PHP_SESSION_UPLOAD_PROGRESS => PHP_SESSION_UPLOAD_PROGRESS
