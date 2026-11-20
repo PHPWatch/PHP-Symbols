@@ -28,7 +28,7 @@ Calendar support => enabled
 
 Core
 
-PHP Version => 8.3.36
+PHP Version => 8.3.37
 
 Directive => Local Value => Master Value
 allow_url_fopen => On => On
@@ -386,7 +386,7 @@ mbstring.substitute_character => no value => no value
 mysqli
 
 MysqlI Support => enabled
-Client API library version => mysqlnd 8.3.36
+Client API library version => mysqlnd 8.3.37
 Active Persistent Links => 0
 Inactive Persistent Links => 0
 Active Links => 0
@@ -407,7 +407,7 @@ mysqli.rollback_on_cached_plink => Off => Off
 mysqlnd
 
 mysqlnd => enabled
-Version => mysqlnd 8.3.36
+Version => mysqlnd 8.3.37
 Compression => supported
 core SSL => supported
 extended SSL => supported
@@ -513,7 +513,7 @@ Client Library Version => LI-V6.3.11.33703 Firebird 3.0
 pdo_mysql
 
 PDO Driver for MySQL => enabled
-Client API version => mysqlnd 8.3.36
+Client API version => mysqlnd 8.3.37
 
 Directive => Local Value => Master Value
 pdo_mysql.default_socket => /var/run/mysqld/mysqld.sock => /var/run/mysqld/mysqld.sock
@@ -583,7 +583,7 @@ PSpell Support => enabled
 
 random
 
-Version => 8.3.36
+Version => 8.3.37
 
 readline
 
@@ -626,7 +626,7 @@ session.serialize_handler => php => php
 session.sid_bits_per_character => 5 => 5
 session.sid_length => 26 => 26
 session.upload_progress.cleanup => On => On
-session.upload_progress.enabled => On => On
+session.upload_progress.enabled => Off => Off
 session.upload_progress.freq => 1% => 1%
 session.upload_progress.min_freq => 1 => 1
 session.upload_progress.name => PHP_SESSION_UPLOAD_PROGRESS => PHP_SESSION_UPLOAD_PROGRESS
