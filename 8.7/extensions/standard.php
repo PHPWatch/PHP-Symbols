@@ -1022,8 +1022,6 @@ return array (
     'assert.callback' => NULL,
     'assert.exception' => '1',
     'assert.warning' => '1',
-    'auto_detect_line_endings' => '0',
-    'default_socket_timeout' => '60',
     'from' => NULL,
     'session.trans_sid_hosts' => '',
     'session.trans_sid_tags' => 'a=href,area=href,frame=src,form=',

@@ -38,6 +38,14 @@ return array (
       'builtin_default_value' => NULL,
       'access' => 6,
     ),
+    'auto_detect_line_endings' => 
+    array (
+      'global_value' => '0',
+      'local_value' => '0',
+      'builtin_default_value' => '0',
+      'access' => 7,
+      'deprecated' => 'auto_detect_line_endings is deprecated',
+    ),
     'auto_globals_jit' => 
     array (
       'global_value' => '1',
@@ -71,6 +79,13 @@ return array (
       'global_value' => 'text/html',
       'local_value' => 'text/html',
       'builtin_default_value' => 'text/html',
+      'access' => 7,
+    ),
+    'default_socket_timeout' => 
+    array (
+      'global_value' => '60',
+      'local_value' => '60',
+      'builtin_default_value' => '60',
       'access' => 7,
     ),
     'disable_functions' => 
@@ -1341,21 +1356,6 @@ return array (
       'builtin_default_value' => '1',
       'access' => 7,
       'deprecated' => 'assert.warning INI setting is deprecated',
-    ),
-    'auto_detect_line_endings' => 
-    array (
-      'global_value' => '0',
-      'local_value' => '0',
-      'builtin_default_value' => '0',
-      'access' => 7,
-      'deprecated' => 'auto_detect_line_endings is deprecated',
-    ),
-    'default_socket_timeout' => 
-    array (
-      'global_value' => '60',
-      'local_value' => '60',
-      'builtin_default_value' => '60',
-      'access' => 7,
     ),
     'from' => 
     array (

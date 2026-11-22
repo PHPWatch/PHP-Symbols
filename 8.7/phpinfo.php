@@ -36,11 +36,13 @@ allow_url_include => Off => Off
 arg_separator.input => & => &
 arg_separator.output => & => &
 auto_append_file => no value => no value
+auto_detect_line_endings => Off => Off
 auto_globals_jit => On => On
 auto_prepend_file => no value => no value
 browscap => no value => no value
 default_charset => UTF-8 => UTF-8
 default_mimetype => text/html => text/html
+default_socket_timeout => 60 => 60
 disable_functions => no value => no value
 display_errors => STDOUT => STDOUT
 display_startup_errors => On => On
@@ -658,8 +660,6 @@ assert.bail => Off => Off
 assert.callback => no value => no value
 assert.exception => On => On
 assert.warning => On => On
-auto_detect_line_endings => Off => Off
-default_socket_timeout => 60 => 60
 from => no value => no value
 session.trans_sid_hosts => no value => no value
 session.trans_sid_tags => a=href,area=href,frame=src,form= => a=href,area=href,frame=src,form=
